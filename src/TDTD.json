@@ -1,5 +1,5 @@
 {
-  "firstLayout": "",
+  "firstLayout": "MainMenu",
   "gdVersion": {
     "build": 99,
     "major": 4,
@@ -59,33 +59,6 @@
     "resources": [
       {
         "alwaysLoaded": false,
-        "file": "efefefw.PNG",
-        "kind": "image",
-        "metadata": "",
-        "name": "efefefw.PNG",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "efefefw2.PNG",
-        "kind": "image",
-        "metadata": "",
-        "name": "efefefw2.PNG",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewSprite-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewSprite-1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/Tower.png",
         "kind": "image",
         "metadata": "",
@@ -99,52 +72,12 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/SnowMan.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "SnowMan.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/pzUH Pack/Worlds/Winter/Objects/SnowMan.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewSprite2-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewSprite2-1.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
         "file": "NewFile-1.png",
         "kind": "image",
         "metadata": "",
         "name": "NewFile-1.png",
         "smoothed": true,
         "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewFile-1-0.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewFile-1-0.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewSprite-1-2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewSprite-1-2.png",
-        "smoothed": true,
-        "userAdded": false
       },
       {
         "alwaysLoaded": false,
@@ -157,66 +90,12 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "Untitled.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Untitled.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
         "file": "Untitled-1.png",
         "kind": "image",
         "metadata": "",
         "name": "Untitled-1.png",
         "smoothed": true,
         "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Capture.PNG",
-        "kind": "image",
-        "metadata": "",
-        "name": "Capture.PNG",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Capture-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Capture-1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Capture-1-0.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Capture-1-0.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "e.PNG",
-        "kind": "image",
-        "metadata": "",
-        "name": "e.PNG",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "e-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "e-1.png",
-        "smoothed": true,
-        "userAdded": true
       },
       {
         "alwaysLoaded": false,
@@ -229,573 +108,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "NewSprite-1-4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewSprite-1-4.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewSprite-1-5.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewSprite-1-5.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewSprite-2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewSprite-2.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewSprite-3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewSprite-3.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewSprite-4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewSprite-4.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewSprite-5.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewSprite-5.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewSprite-6.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewSprite-6.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewSprite-7.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewSprite-7.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewSprite-8.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewSprite-8.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewSprite-9.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewSprite-9.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewSprite-10.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewSprite-10.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewSprite-11.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewSprite-11.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewSprite-12.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewSprite-12.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewSprite-1-6.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewSprite-1-6.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewSprite-2-0.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewSprite-2-0.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewSprite-3-0.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewSprite-3-0.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewSprite-4-0.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewSprite-4-0.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewSprite-5-0.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewSprite-5-0.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewSprite-6-0.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewSprite-6-0.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewSprite-7-0.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewSprite-7-0.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewSprite-8-0.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewSprite-8-0.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewSprite-9-0.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewSprite-9-0.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewSprite-10-0.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewSprite-10-0.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewSprite-11-0.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewSprite-11-0.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewSprite-12-0.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewSprite-12-0.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewSprite-1-7.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewSprite-1-7.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewSprite-2-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewSprite-2-1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewSprite-3-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewSprite-3-1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewSprite-4-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewSprite-4-1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewSprite-5-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewSprite-5-1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewSprite-6-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewSprite-6-1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewSprite-7-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewSprite-7-1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewSprite-8-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewSprite-8-1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewSprite-9-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewSprite-9-1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewSprite-10-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewSprite-10-1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewSprite-11-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewSprite-11-1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewSprite-12-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewSprite-12-1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewSprite-1-8.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewSprite-1-8.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewSprite-2-2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewSprite-2-2.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewSprite-3-2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewSprite-3-2.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewSprite-4-2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewSprite-4-2.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewSprite-5-2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewSprite-5-2.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewSprite-6-2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewSprite-6-2.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewSprite-7-2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewSprite-7-2.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewSprite-8-2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewSprite-8-2.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewSprite-9-2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewSprite-9-2.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewSprite-10-2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewSprite-10-2.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewSprite-11-2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewSprite-11-2.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewSprite-12-2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewSprite-12-2.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewSprite-2-3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewSprite-2-3.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewSprite-3-3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewSprite-3-3.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewSprite-4-3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewSprite-4-3.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewSprite-5-3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewSprite-5-3.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewSprite-6-3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewSprite-6-3.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewSprite-7-3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewSprite-7-3.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewSprite-8-3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewSprite-8-3.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewSprite-9-3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewSprite-9-3.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewSprite-10-3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewSprite-10-3.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewSprite-11-3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewSprite-11-3.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewSprite-12-3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewSprite-12-3.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewSprite-13.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewSprite-13.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewFile-1-2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewFile-1-2.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewFile-1-3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewFile-1-3.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
         "file": "NewFile-1-4.png",
         "kind": "image",
         "metadata": "",
@@ -805,48 +117,12 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/SnowMan-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\SnowMan-1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/SnowMan-1-0.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\SnowMan-1-0.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/SnowMan-1-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\SnowMan-1-1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/SnowMan-1-2.png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\SnowMan-1-2.png",
         "smoothed": true,
         "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewSprite2-1-0.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewSprite2-1-0.png",
-        "smoothed": true,
-        "userAdded": false
       },
       {
         "alwaysLoaded": false,
@@ -958,15 +234,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "NewSprite-14.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewSprite-14.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "HealthBar-1-10.png",
         "kind": "image",
         "metadata": "",
@@ -983,45 +250,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Apply.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Apply.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/Interface/Casual Buttons Pack/Apply.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Buy.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Buy.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/Interface/Casual Buttons Pack/Buy.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Heart.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Heart.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/Interface/Casual Buttons Pack/Heart.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/Config.png",
         "kind": "image",
         "metadata": "",
@@ -1030,58 +258,6 @@
         "userAdded": false,
         "origin": {
           "identifier": "https://resources.gdevelop-app.com/assets/Interface/Casual Buttons Pack/Config.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Ads.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Ads.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/Interface/Casual Buttons Pack/Ads.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Plus.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Plus.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/Interface/Casual Buttons Pack/Plus.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Back.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Back.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/Interface/Casual Buttons Pack/Back.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Large Exit Button.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Large Exit Button.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/Interface/Casual Buttons Pack/Large Exit Button.png",
           "name": "gdevelop-asset-store"
         }
       },
@@ -1139,45 +315,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Retry.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Retry.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/Interface/Casual Buttons Pack/Retry.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Large Buy Button.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Large Buy Button.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/Interface/Casual Buttons Pack/Large Buy Button.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Next.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Next.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/Interface/Casual Buttons Pack/Next.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/Menu.png",
         "kind": "image",
         "metadata": "",
@@ -1230,40 +367,686 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Download.png",
+        "file": "NewSprite2-1-0.png",
         "kind": "image",
         "metadata": "",
-        "name": "Download.png",
+        "name": "NewSprite2-1-0.png",
         "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Bone Pile Wakeup_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Bone Pile Wakeup_1.png",
+        "smoothed": false,
         "userAdded": false,
         "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/Interface/Casual Buttons Pack/Download.png",
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Bone Pile Wakeup_1.png",
           "name": "gdevelop-asset-store"
         }
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Star.png",
+        "file": "assets/Skeleton_Bone Pile Wakeup_2.png",
         "kind": "image",
         "metadata": "",
-        "name": "Star.png",
-        "smoothed": true,
+        "name": "Skeleton_Bone Pile Wakeup_2.png",
+        "smoothed": false,
         "userAdded": false,
         "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/Interface/Casual Buttons Pack/Star.png",
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Bone Pile Wakeup_2.png",
           "name": "gdevelop-asset-store"
         }
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/World.png",
+        "file": "assets/Skeleton_Bone Pile Wakeup_3.png",
         "kind": "image",
         "metadata": "",
-        "name": "World.png",
-        "smoothed": true,
+        "name": "Skeleton_Bone Pile Wakeup_3.png",
+        "smoothed": false,
         "userAdded": false,
         "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/Interface/Casual Buttons Pack/World.png",
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Bone Pile Wakeup_3.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Bone Pile Wakeup_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Bone Pile Wakeup_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Bone Pile Wakeup_4.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Bone Pile Wakeup_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Bone Pile Wakeup_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Bone Pile Wakeup_5.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Bone Pile Wakeup_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Bone Pile Wakeup_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Bone Pile Wakeup_6.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Bone Pile Wakeup_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Bone Pile Wakeup_7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Bone Pile Wakeup_7.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Bone Pile.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Bone Pile.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Bone Pile.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Bone Toss_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Bone Toss_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Bone Toss_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Bone Toss_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Bone Toss_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Bone Toss_2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Bone Toss_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Bone Toss_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Bone Toss_3.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Bone Toss_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Bone Toss_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Bone Toss_4.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Bone Toss_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Bone Toss_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Bone Toss_5.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Crumbling Into Bone Pile_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Crumbling Into Bone Pile_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Crumbling Into Bone Pile_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Crumbling Into Bone Pile_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Crumbling Into Bone Pile_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Crumbling Into Bone Pile_2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Crumbling Into Bone Pile_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Crumbling Into Bone Pile_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Crumbling Into Bone Pile_3.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Crumbling Into Bone Pile_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Crumbling Into Bone Pile_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Crumbling Into Bone Pile_4.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Crumbling Into Bone Pile_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Crumbling Into Bone Pile_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Crumbling Into Bone Pile_5.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Crumbling Into Bone Pile_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Crumbling Into Bone Pile_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Crumbling Into Bone Pile_6.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Crumbling Into Bone Pile_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Crumbling Into Bone Pile_7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Crumbling Into Bone Pile_7.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Hurt_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Hurt_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Hurt_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Hurt_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Hurt_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Hurt_2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Inactive.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Inactive.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Inactive.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Jumping.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Jumping.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Jumping.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Landed_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Landed_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Landed_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Landed_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Landed_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Landed_2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Limping Movement_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Limping Movement_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Limping Movement_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Limping Movement_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Limping Movement_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Limping Movement_2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Limping Movement_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Limping Movement_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Limping Movement_3.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Limping Movement_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Limping Movement_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Limping Movement_4.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Limping Movement_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Limping Movement_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Limping Movement_5.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Limping Movement_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Limping Movement_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Limping Movement_6.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Preparing Jump_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Preparing Jump_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Preparing Jump_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Preparing Jump_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Preparing Jump_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Preparing Jump_2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Preparing Jump_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Preparing Jump_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Preparing Jump_3.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Standing Idle_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Standing Idle_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Standing Idle_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Standing Idle_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Standing Idle_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Standing Idle_2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Standing Idle_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Standing Idle_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Standing Idle_3.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Standing Idle_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Standing Idle_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Standing Idle_4.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Standing Idle_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Standing Idle_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Standing Idle_5.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Standing Idle_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Standing Idle_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Standing Idle_6.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Standing Idle_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Standing Idle_7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Standing Idle_7.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Standing Idle_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Standing Idle_8.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Standing Idle_8.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Standing Idle_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Standing Idle_9.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Standing Idle_9.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Standing Wakeup_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Standing Wakeup_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Standing Wakeup_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Standing Wakeup_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Standing Wakeup_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Standing Wakeup_2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Standing Wakeup_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Standing Wakeup_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Standing Wakeup_3.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Standing.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Standing.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Standing.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Twitching Idle_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Twitching Idle_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Twitching Idle_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Twitching Idle_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Twitching Idle_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Twitching Idle_2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Twitching Idle_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Twitching Idle_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Twitching Idle_3.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Twitching Idle_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Twitching Idle_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Twitching Idle_4.png",
           "name": "gdevelop-asset-store"
         }
       }
@@ -1279,9 +1062,6 @@
       "disableInputWhenNotFocused": true,
       "mangledName": "GameScene",
       "name": "GameScene",
-      "oglFOV": 90,
-      "oglZFar": 500,
-      "oglZNear": 1,
       "r": 209,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
@@ -1297,7 +1077,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5199999999999945,
+        "zoomFactor": 0.5799999999999946,
         "windowMask": false
       },
       "objectsGroups": [
@@ -1323,21 +1103,6 @@
           "x": 949.444580078125,
           "y": 205,
           "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 600,
-          "layer": "e",
-          "name": "NewSprite2",
-          "persistentUuid": "c336e3eb-b7a4-4c7f-a865-32733465248a",
-          "width": 1068.34765625,
-          "x": 0,
-          "y": 0,
-          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1713,6 +1478,21 @@
           "x": -1,
           "y": 347,
           "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 720,
+          "layer": "e",
+          "name": "Grass",
+          "persistentUuid": "3dd96e32-86f7-4aff-a541-3e9a02254620",
+          "width": 1280,
+          "x": 0,
+          "y": 0,
+          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2505,6 +2285,1105 @@
               "impassable": true
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "Grass",
+          "tags": "",
+          "texture": "NewSprite2-1-0.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "adab978168a4868cc90b2aa8ab3dc22ccf38a010e5430258c8e1d30f870eb96d",
+          "name": "Skeleton",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "EnemyV2",
+              "type": "TDTD::EnemyV2",
+              "Pathfinder": "Pathfinding",
+              "TargetX": 1020,
+              "TargetY": 340
+            },
+            {
+              "name": "Pathfinding",
+              "type": "PathfindingBehavior::PathfindingBehavior",
+              "acceleration": 400,
+              "allowDiagonals": true,
+              "angleOffset": 0,
+              "angularMaxSpeed": 180,
+              "cellHeight": 20,
+              "cellWidth": 20,
+              "extraBorder": 0,
+              "gridOffsetX": 0,
+              "gridOffsetY": 0,
+              "maxSpeed": 200,
+              "rotateObject": true
+            }
+          ],
+          "animations": [
+            {
+              "name": "Hurt",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.5,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Skeleton_Hurt_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Skeleton_Hurt_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Bone Pile Wakeup",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.1429000049829483,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Skeleton_Bone Pile Wakeup_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Skeleton_Bone Pile Wakeup_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Skeleton_Bone Pile Wakeup_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Skeleton_Bone Pile Wakeup_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Skeleton_Bone Pile Wakeup_5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Skeleton_Bone Pile Wakeup_6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Skeleton_Bone Pile Wakeup_7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Bone Pile",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.02500000037252903,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Skeleton_Bone Pile.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Bone Toss",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.20000000298023224,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Skeleton_Bone Toss_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Skeleton_Bone Toss_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Skeleton_Bone Toss_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Skeleton_Bone Toss_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Skeleton_Bone Toss_5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Crumbling Into Bone Pile",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.1429000049829483,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Skeleton_Crumbling Into Bone Pile_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Skeleton_Crumbling Into Bone Pile_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Skeleton_Crumbling Into Bone Pile_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Skeleton_Crumbling Into Bone Pile_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Skeleton_Crumbling Into Bone Pile_5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Skeleton_Crumbling Into Bone Pile_6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Skeleton_Crumbling Into Bone Pile_7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Inactive",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.02500000037252903,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Skeleton_Inactive.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Jumping",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.02500000037252903,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Skeleton_Jumping.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Landed",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.5,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Skeleton_Landed_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Skeleton_Landed_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Limping Movement",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.16670000553131104,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Skeleton_Limping Movement_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Skeleton_Limping Movement_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Skeleton_Limping Movement_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Skeleton_Limping Movement_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Skeleton_Limping Movement_5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Skeleton_Limping Movement_6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Preparing Jump",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.33329999446868896,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Skeleton_Preparing Jump_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Skeleton_Preparing Jump_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Skeleton_Preparing Jump_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Standing Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.11110000312328339,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Skeleton_Standing Idle_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Skeleton_Standing Idle_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Skeleton_Standing Idle_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Skeleton_Standing Idle_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Skeleton_Standing Idle_5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Skeleton_Standing Idle_6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Skeleton_Standing Idle_7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Skeleton_Standing Idle_8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Skeleton_Standing Idle_9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Standing Wakeup",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.33329999446868896,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Skeleton_Standing Wakeup_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Skeleton_Standing Wakeup_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Skeleton_Standing Wakeup_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Standing",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.02500000037252903,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Skeleton_Standing.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Twitching Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.25,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Skeleton_Twitching Idle_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Skeleton_Twitching Idle_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Skeleton_Twitching Idle_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Skeleton_Twitching Idle_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -2646,10 +3525,10 @@
               },
               "parameters": [
                 "",
-                "SnowMan",
-                "-20",
+                "Skeleton",
+                "200",
                 "360",
-                ""
+                "\"\""
               ]
             },
             {
@@ -2657,9 +3536,19 @@
                 "value": "ChangeScale"
               },
               "parameters": [
-                "SnowMan",
+                "Skeleton",
                 "=",
-                "0.5"
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "Skeleton",
+                "=",
+                "8"
               ]
             },
             {
@@ -2743,7 +3632,7 @@
                     "NSMen",
                     "Tower2",
                     "NSMenProjectile",
-                    "SnowMan",
+                    "Skeleton",
                     ""
                   ]
                 }
@@ -2760,7 +3649,7 @@
                   "parameters": [
                     "NSMenProjectile",
                     "Projectile2",
-                    "SnowMan",
+                    "Skeleton",
                     "\"OriginPoint\"",
                     "NSMen",
                     ""
@@ -2779,9 +3668,8 @@
                   "parameters": [
                     "NSMenProjectile",
                     "Projectile2",
-                    "SnowMan",
-                    "NSMenProjectile.Variable(Damage)",
-                    ""
+                    "Skeleton",
+                    "NSMenProjectile.Variable(Damage)"
                   ]
                 }
               ]
@@ -2892,6 +3780,10 @@
           "type": "TDTD::EnemyV2"
         },
         {
+          "name": "EnemyV2",
+          "type": "TDTD::EnemyV2"
+        },
+        {
           "name": "Pathfinding",
           "type": "PathfindingBehavior::PathfindingBehavior"
         },
@@ -2914,9 +3806,6 @@
       "disableInputWhenNotFocused": true,
       "mangledName": "MainMenu",
       "name": "MainMenu",
-      "oglFOV": 90,
-      "oglZFar": 500,
-      "oglZNear": 1,
       "r": 209,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
@@ -2946,7 +3835,7 @@
           "name": "Title",
           "persistentUuid": "44177903-d5d8-48b8-8273-beb3a9a5c663",
           "width": 320,
-          "x": 640,
+          "x": 478,
           "y": 92,
           "zOrder": 1,
           "numberProperties": [],
@@ -2961,7 +3850,7 @@
           "name": "LargePlayButton",
           "persistentUuid": "35d888be-7d5c-499a-940a-076dd5cf03f8",
           "width": 342.41802978515625,
-          "x": 640,
+          "x": 469,
           "y": 403,
           "zOrder": 2,
           "numberProperties": [],
@@ -3437,7 +4326,7 @@
                 "\"easeInCubic\"",
                 "500",
                 "",
-                "yes"
+                "no"
               ]
             }
           ]
@@ -3524,6 +4413,186 @@
                 "500",
                 "",
                 ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Tween::HasFinished"
+              },
+              "parameters": [
+                "LargePlayButton",
+                "Tween",
+                "\"PlayTween\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::RemoveTween"
+              },
+              "parameters": [
+                "LargePlayButton",
+                "Tween",
+                "\"PlayTween\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "LargePlayButton",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::AddObjectScaleTween"
+              },
+              "parameters": [
+                "LargePlayButton",
+                "Tween",
+                "\"OnHoverTween\"",
+                "0.9",
+                "0.9",
+                "\"easeInOutQuad\"",
+                "50",
+                "",
+                "yes"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "LargePlayButton",
+                "",
+                "no",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::Exists"
+              },
+              "parameters": [
+                "LargePlayButton",
+                "Tween",
+                "\"OnHoverTween\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::RemoveTween"
+              },
+              "parameters": [
+                "LargePlayButton",
+                "Tween",
+                "\"OnHoverTween\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::AddObjectScaleTween"
+              },
+              "parameters": [
+                "LargePlayButton",
+                "Tween",
+                "\"AfterHoverTween\"",
+                "1.0",
+                "1.0",
+                "\"easeInOutQuad\"",
+                "100",
+                "",
+                "yes"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Tween::HasFinished"
+              },
+              "parameters": [
+                "LargePlayButton",
+                "Tween",
+                "\"AfterHoverTween\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::RemoveTween"
+              },
+              "parameters": [
+                "LargePlayButton",
+                "Tween",
+                "\"AfterHoverTween\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "LargePlayButton",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonPressed"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"GameScene\"",
+                "yes"
               ]
             }
           ]
@@ -4472,7 +5541,8 @@
           ],
           "propertyDescriptors": []
         }
-      ]
+      ],
+      "eventsBasedObjects": []
     },
     {
       "author": "Arthur Pacaud (arthuro555)",
@@ -4582,7 +5652,8 @@
           "objectGroups": []
         }
       ],
-      "eventsBasedBehaviors": []
+      "eventsBasedBehaviors": [],
+      "eventsBasedObjects": []
     },
     {
       "author": "",
@@ -5771,7 +6842,8 @@
             }
           ]
         }
-      ]
+      ],
+      "eventsBasedObjects": []
     }
   ],
   "externalLayouts": [],
