@@ -1427,6 +1427,15 @@
         "name": "NewFile-1-0.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Popup.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Popup.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -5224,7 +5233,7 @@
                     "value": "SetObjectVariableAsBoolean"
                   },
                   "parameters": [
-                    "Soldier",
+                    "Towers",
                     "CheerleaderPresent",
                     "True"
                   ]
@@ -6750,11 +6759,36 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.400000000000001,
+        "zoomFactor": 0.9800000000000015,
         "windowMask": false
       },
-      "objectsGroups": [],
-      "variables": [],
+      "objectsGroups": [
+        {
+          "name": "SoldierPopupGrp",
+          "objects": [
+            {
+              "name": "SoldierUpg2Button"
+            },
+            {
+              "name": "SoldierDesc"
+            },
+            {
+              "name": "SoldierPopup"
+            },
+            {
+              "name": "SoldierUpg2Cost"
+            }
+          ]
+        }
+      ],
+      "variables": [
+        {
+          "folded": true,
+          "name": "SoldierPopupOpen",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "instances": [
         {
           "angle": 0,
@@ -7043,15 +7077,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "height": 97,
           "layer": "",
           "name": "Soldier",
           "persistentUuid": "828dc62c-a3b0-4df8-ba95-e95ddb3682cb",
-          "width": 0,
-          "x": 686.3118896484375,
-          "y": 117.03423309326172,
-          "zOrder": 16,
+          "width": 101.07563781738281,
+          "x": 679.1698608398438,
+          "y": 90.7674331665039,
+          "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7064,8 +7098,8 @@
           "name": "SoldierText",
           "persistentUuid": "06839b43-6ddd-4123-adfa-c82cde8c00c0",
           "width": 0,
-          "x": 735,
-          "y": 98,
+          "x": 757,
+          "y": 43,
           "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
@@ -7079,8 +7113,8 @@
           "name": "SoldierInfoButton",
           "persistentUuid": "4f79ae46-9f3f-41c9-9ce7-a4ceac0bff9a",
           "width": 28,
-          "x": 818,
-          "y": 100,
+          "x": 811,
+          "y": 109,
           "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
@@ -7094,8 +7128,8 @@
           "name": "SoldierBuyButton",
           "persistentUuid": "374df87d-28dd-4ef2-a973-60958bad86ff",
           "width": 82,
-          "x": 738,
-          "y": 138,
+          "x": 756,
+          "y": 74,
           "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
@@ -7109,8 +7143,8 @@
           "name": "SoldierCost",
           "persistentUuid": "358a3085-1eb6-4d8a-a5b6-ebea22ff1d7a",
           "width": 38,
-          "x": 778,
-          "y": 142,
+          "x": 796,
+          "y": 78,
           "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
@@ -7151,11 +7185,11 @@
           "customSize": true,
           "height": 30,
           "layer": "",
-          "name": "FireRateUp",
+          "name": "SoldierDesc",
           "persistentUuid": "676a657c-b8d0-42de-8d3b-1996dba12790",
-          "width": 161,
-          "x": 647,
-          "y": 195,
+          "width": 176,
+          "x": 658,
+          "y": 114,
           "zOrder": 30,
           "numberProperties": [],
           "stringProperties": [],
@@ -7169,8 +7203,8 @@
           "name": "SoldierUpg2Button",
           "persistentUuid": "2a1cf3d7-9f37-4a6e-aa7b-7c895f3cec54",
           "width": 81,
-          "x": 765,
-          "y": 193,
+          "x": 752,
+          "y": 201,
           "zOrder": 31,
           "numberProperties": [],
           "stringProperties": [],
@@ -7184,8 +7218,8 @@
           "name": "SoldierUpg2Cost",
           "persistentUuid": "ded93a97-8b73-4114-bafe-7bad13d477f4",
           "width": 0,
-          "x": 803,
-          "y": 198,
+          "x": 790,
+          "y": 206,
           "zOrder": 32,
           "numberProperties": [],
           "stringProperties": [],
@@ -7562,6 +7596,21 @@
           "x": 1222,
           "y": 130,
           "zOrder": 58,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 138,
+          "layer": "",
+          "name": "SoldierPopup",
+          "persistentUuid": "057a2379-4c83-4285-82f4-c553cebb5cee",
+          "width": 202,
+          "x": 645,
+          "y": 104,
+          "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -8850,7 +8899,7 @@
           "assetStoreId": "",
           "bold": false,
           "italic": false,
-          "name": "FireRateUp",
+          "name": "SoldierDesc",
           "smoothed": true,
           "tags": "",
           "type": "TextObject::Text",
@@ -8858,13 +8907,13 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Upg. Fire Rate",
+          "string": "Soldiers are the forefront of our country's physical defence. \nUpgrade:",
           "font": "assets\\AlfaSlabOne-Regular.ttf",
           "characterSize": 15,
           "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
+            "b": 0,
+            "g": 0,
+            "r": 0
           }
         },
         {
@@ -8887,6 +8936,47 @@
             "g": 255,
             "r": 255
           }
+        },
+        {
+          "assetStoreId": "",
+          "name": "SoldierPopup",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Popup.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -8920,6 +9010,14 @@
                     "",
                     "yes",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "SoldierPopupGrp"
                   ]
                 }
               ]
@@ -9620,6 +9718,58 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "SoldierInfoButton",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "SoldierPopupOpen",
+                    "!=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "SoldierPopupGrp",
+                    "-"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "SoldierPopupOpen",
+                    "=",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
             }
           ],
           "parameters": []
@@ -9705,6 +9855,7 @@
     {
       "author": "",
       "category": "",
+      "description": "",
       "extensionNamespace": "",
       "fullName": "TDTD Extension",
       "helpPath": "",
@@ -9713,7 +9864,6 @@
       "previewIconUrl": "",
       "shortDescription": "",
       "version": "",
-      "description": "",
       "tags": [],
       "authorIds": [],
       "dependencies": [],
@@ -9726,9 +9876,12 @@
           "objectType": "Sprite",
           "eventsFunctions": [
             {
+              "description": "",
               "fullName": "",
               "functionType": "Action",
+              "group": "",
               "name": "onCreated",
+              "private": false,
               "sentence": "",
               "events": [
                 {
@@ -9752,14 +9905,22 @@
               ],
               "parameters": [
                 {
+                  "codeOnly": false,
+                  "defaultValue": "",
                   "description": "Object",
+                  "longDescription": "",
                   "name": "Object",
+                  "optional": false,
                   "supplementaryInformation": "Sprite",
                   "type": "object"
                 },
                 {
+                  "codeOnly": false,
+                  "defaultValue": "",
                   "description": "Behavior",
+                  "longDescription": "",
                   "name": "Behavior",
+                  "optional": false,
                   "supplementaryInformation": "TDTD::EnemyV2",
                   "type": "behavior"
                 }
@@ -9767,9 +9928,12 @@
               "objectGroups": []
             },
             {
+              "description": "",
               "fullName": "",
               "functionType": "Action",
+              "group": "",
               "name": "doStepPreEvents",
+              "private": false,
               "sentence": "",
               "events": [
                 {
@@ -9793,14 +9957,22 @@
               ],
               "parameters": [
                 {
+                  "codeOnly": false,
+                  "defaultValue": "",
                   "description": "Object",
+                  "longDescription": "",
                   "name": "Object",
+                  "optional": false,
                   "supplementaryInformation": "Sprite",
                   "type": "object"
                 },
                 {
+                  "codeOnly": false,
+                  "defaultValue": "",
                   "description": "Behavior",
+                  "longDescription": "",
                   "name": "Behavior",
+                  "optional": false,
                   "supplementaryInformation": "TDTD::EnemyV2",
                   "type": "behavior"
                 }
@@ -9808,9 +9980,12 @@
               "objectGroups": []
             },
             {
+              "description": "",
               "fullName": "",
               "functionType": "Action",
+              "group": "",
               "name": "doStepPostEvents",
+              "private": false,
               "sentence": "",
               "events": [
                 {
@@ -9853,14 +10028,22 @@
               ],
               "parameters": [
                 {
+                  "codeOnly": false,
+                  "defaultValue": "",
                   "description": "Object",
+                  "longDescription": "",
                   "name": "Object",
+                  "optional": false,
                   "supplementaryInformation": "Sprite",
                   "type": "object"
                 },
                 {
+                  "codeOnly": false,
+                  "defaultValue": "",
                   "description": "Behavior",
+                  "longDescription": "",
                   "name": "Behavior",
+                  "optional": false,
                   "supplementaryInformation": "TDTD::EnemyV2",
                   "type": "behavior"
                 }
@@ -9901,8 +10084,7 @@
               "hidden": false,
               "name": "TargetY"
             }
-          ],
-          "sharedPropertyDescriptors": []
+          ]
         },
         {
           "description": "",
@@ -9914,7 +10096,9 @@
               "description": "Begins the process of targeting enemies.",
               "fullName": "Begin Shooting",
               "functionType": "Action",
+              "group": "",
               "name": "attack",
+              "private": false,
               "sentence": "[While _PARAM3_ is in range] Spawn _PARAM2_ from _PARAM0_",
               "events": [
                 {
@@ -10351,26 +10535,42 @@
               ],
               "parameters": [
                 {
+                  "codeOnly": false,
+                  "defaultValue": "",
                   "description": "Object",
+                  "longDescription": "",
                   "name": "Object",
+                  "optional": false,
                   "supplementaryInformation": "Sprite",
                   "type": "object"
                 },
                 {
+                  "codeOnly": false,
+                  "defaultValue": "",
                   "description": "Behavior",
+                  "longDescription": "",
                   "name": "Behavior",
+                  "optional": false,
                   "supplementaryInformation": "TDTD::TowerV2",
                   "type": "behavior"
                 },
                 {
+                  "codeOnly": false,
+                  "defaultValue": "",
                   "description": "Input the projectile to be shot.",
+                  "longDescription": "",
                   "name": "Projectile",
+                  "optional": false,
                   "supplementaryInformation": "Sprite",
                   "type": "objectList"
                 },
                 {
+                  "codeOnly": false,
+                  "defaultValue": "",
                   "description": "The target enemy of the tower.",
+                  "longDescription": "",
                   "name": "Enemy",
+                  "optional": false,
                   "supplementaryInformation": "Sprite",
                   "type": "objectList"
                 }
@@ -10378,9 +10578,12 @@
               "objectGroups": []
             },
             {
+              "description": "",
               "fullName": "",
               "functionType": "Action",
+              "group": "",
               "name": "onCreated",
+              "private": false,
               "sentence": "",
               "events": [
                 {
@@ -10416,14 +10619,22 @@
               ],
               "parameters": [
                 {
+                  "codeOnly": false,
+                  "defaultValue": "",
                   "description": "Object",
+                  "longDescription": "",
                   "name": "Object",
+                  "optional": false,
                   "supplementaryInformation": "Sprite",
                   "type": "object"
                 },
                 {
+                  "codeOnly": false,
+                  "defaultValue": "",
                   "description": "Behavior",
+                  "longDescription": "",
                   "name": "Behavior",
+                  "optional": false,
                   "supplementaryInformation": "TDTD::TowerV2",
                   "type": "behavior"
                 }
@@ -10431,8 +10642,7 @@
               "objectGroups": []
             }
           ],
-          "propertyDescriptors": [],
-          "sharedPropertyDescriptors": []
+          "propertyDescriptors": []
         },
         {
           "description": "Gives the object characteristics of a projectile. Set it's speed and damage as object variables before using this behaviour.",
@@ -10441,9 +10651,12 @@
           "objectType": "Sprite",
           "eventsFunctions": [
             {
+              "description": "",
               "fullName": "",
               "functionType": "Action",
+              "group": "",
               "name": "onCreated",
+              "private": false,
               "sentence": "",
               "events": [
                 {
@@ -10475,14 +10688,22 @@
               ],
               "parameters": [
                 {
+                  "codeOnly": false,
+                  "defaultValue": "",
                   "description": "Object",
+                  "longDescription": "",
                   "name": "Object",
+                  "optional": false,
                   "supplementaryInformation": "Sprite",
                   "type": "object"
                 },
                 {
+                  "codeOnly": false,
+                  "defaultValue": "",
                   "description": "Behavior",
+                  "longDescription": "",
                   "name": "Behavior",
+                  "optional": false,
                   "supplementaryInformation": "TDTD::ProjectileV2",
                   "type": "behavior"
                 }
@@ -10493,7 +10714,9 @@
               "description": "Makes the bullet find a path to the closest enemy.",
               "fullName": "Pathfind to Enemy2",
               "functionType": "Action",
+              "group": "",
               "name": "pathfind",
+              "private": false,
               "sentence": "Move _PARAM0_ from point _PARAM3_ of _PARAM4_ to _PARAM2_",
               "events": [
                 {
@@ -10567,31 +10790,52 @@
               ],
               "parameters": [
                 {
+                  "codeOnly": false,
+                  "defaultValue": "",
                   "description": "Object",
+                  "longDescription": "",
                   "name": "Object",
+                  "optional": false,
                   "supplementaryInformation": "Sprite",
                   "type": "object"
                 },
                 {
+                  "codeOnly": false,
+                  "defaultValue": "",
                   "description": "Behavior",
+                  "longDescription": "",
                   "name": "Behavior",
+                  "optional": false,
                   "supplementaryInformation": "TDTD::ProjectileV2",
                   "type": "behavior"
                 },
                 {
+                  "codeOnly": false,
+                  "defaultValue": "",
                   "description": "The target enemy.",
+                  "longDescription": "",
                   "name": "Enemy",
+                  "optional": false,
                   "supplementaryInformation": "Sprite",
                   "type": "objectList"
                 },
                 {
+                  "codeOnly": false,
+                  "defaultValue": "",
                   "description": "The origin point of the projectile.",
+                  "longDescription": "",
                   "name": "OriginPoint",
+                  "optional": false,
+                  "supplementaryInformation": "",
                   "type": "objectPointName"
                 },
                 {
+                  "codeOnly": false,
+                  "defaultValue": "",
                   "description": "The tower the projectile was fired from.",
+                  "longDescription": "",
                   "name": "Tower",
+                  "optional": false,
                   "supplementaryInformation": "Sprite",
                   "type": "objectList"
                 }
@@ -10602,7 +10846,9 @@
               "description": "Destroys the projectile and damages the enemy.",
               "fullName": "Destroy Projectile2",
               "functionType": "Action",
+              "group": "",
               "name": "destroy",
+              "private": false,
               "sentence": "Destroy _PARAM0_ after hitting _PARAM2_ and damage it",
               "events": [
                 {
@@ -10713,28 +10959,40 @@
               ],
               "parameters": [
                 {
+                  "codeOnly": false,
+                  "defaultValue": "",
                   "description": "Object",
+                  "longDescription": "",
                   "name": "Object",
+                  "optional": false,
                   "supplementaryInformation": "Sprite",
                   "type": "object"
                 },
                 {
+                  "codeOnly": false,
+                  "defaultValue": "",
                   "description": "Behavior",
+                  "longDescription": "",
                   "name": "Behavior",
+                  "optional": false,
                   "supplementaryInformation": "TDTD::ProjectileV2",
                   "type": "behavior"
                 },
                 {
+                  "codeOnly": false,
+                  "defaultValue": "",
                   "description": "The target enemy.",
+                  "longDescription": "",
                   "name": "Enemy",
+                  "optional": false,
+                  "supplementaryInformation": "",
                   "type": "objectList"
                 }
               ],
               "objectGroups": []
             }
           ],
-          "propertyDescriptors": [],
-          "sharedPropertyDescriptors": []
+          "propertyDescriptors": []
         },
         {
           "description": "",
@@ -10746,7 +11004,9 @@
               "description": "Appends a health bar to enemies.",
               "fullName": "Append Health Bar to Enemies",
               "functionType": "Action",
+              "group": "",
               "name": "Function",
+              "private": false,
               "sentence": "Append _PARAM0_ to _PARAM2_",
               "events": [
                 {
@@ -10793,19 +11053,32 @@
               ],
               "parameters": [
                 {
+                  "codeOnly": false,
+                  "defaultValue": "",
                   "description": "Object",
+                  "longDescription": "",
                   "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "",
                   "type": "object"
                 },
                 {
+                  "codeOnly": false,
+                  "defaultValue": "",
                   "description": "Behavior",
+                  "longDescription": "",
                   "name": "Behavior",
+                  "optional": false,
                   "supplementaryInformation": "TDTD::HealthBar",
                   "type": "behavior"
                 },
                 {
+                  "codeOnly": false,
+                  "defaultValue": "",
                   "description": "The enemy the health bar should be appended to",
+                  "longDescription": "",
                   "name": "Enemy",
+                  "optional": false,
                   "supplementaryInformation": "Sprite",
                   "type": "objectList"
                 }
@@ -10813,8 +11086,7 @@
               "objectGroups": []
             }
           ],
-          "propertyDescriptors": [],
-          "sharedPropertyDescriptors": []
+          "propertyDescriptors": []
         },
         {
           "description": "Bahaviour for buttons. Gets smaller when hovered over, grows back to original size when the cursor leaves it",
@@ -10823,9 +11095,12 @@
           "objectType": "",
           "eventsFunctions": [
             {
+              "description": "",
               "fullName": "",
               "functionType": "Action",
+              "group": "",
               "name": "doStepPreEvents",
+              "private": false,
               "sentence": "",
               "events": [
                 {
@@ -10925,13 +11200,22 @@
               ],
               "parameters": [
                 {
+                  "codeOnly": false,
+                  "defaultValue": "",
                   "description": "Object",
+                  "longDescription": "",
                   "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "",
                   "type": "object"
                 },
                 {
+                  "codeOnly": false,
+                  "defaultValue": "",
                   "description": "Behavior",
+                  "longDescription": "",
                   "name": "Behavior",
+                  "optional": false,
                   "supplementaryInformation": "TDTD::Button",
                   "type": "behavior"
                 }
@@ -10972,8 +11256,7 @@
               "hidden": false,
               "name": "NormalScale"
             }
-          ],
-          "sharedPropertyDescriptors": []
+          ]
         }
       ],
       "eventsBasedObjects": []
@@ -10981,6 +11264,7 @@
     {
       "author": "Arthur Pacaud (arthuro555)",
       "category": "",
+      "description": "Prevents the back button from quitting the game and provides a condition to check when it's pressed (to allow customising its behavior).",
       "extensionNamespace": "",
       "fullName": "Back button",
       "helpPath": "",
@@ -10989,7 +11273,6 @@
       "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/keyboard-backspace.svg",
       "shortDescription": "Adds interactions with the back button.",
       "version": "1.0.0",
-      "description": "Prevents the back button from quitting the game and provides a condition to check when it's pressed (to allow customising its behavior).",
       "origin": {
         "identifier": "BackButton",
         "name": "gdevelop-extension-store"
@@ -11006,9 +11289,12 @@
       "dependencies": [],
       "eventsFunctions": [
         {
+          "description": "",
           "fullName": "",
           "functionType": "Action",
+          "group": "",
           "name": "onFirstSceneLoaded",
+          "private": false,
           "sentence": "",
           "events": [
             {
@@ -11026,7 +11312,9 @@
           "description": "Triggers whenever the player presses the back button.",
           "fullName": "Back button is pressed",
           "functionType": "Condition",
+          "group": "",
           "name": "onBackButtonPressed",
+          "private": false,
           "sentence": "Back button is pressed",
           "events": [
             {
@@ -11044,7 +11332,9 @@
           "description": "This simulates the normal action of the back button. \nThis action will quit the app when in a mobile app, and go back to the previous page when in a web browser.",
           "fullName": "Trigger back button",
           "functionType": "Action",
+          "group": "",
           "name": "doDefault",
+          "private": false,
           "sentence": "Simulate back button press",
           "events": [
             {
@@ -11059,9 +11349,12 @@
           "objectGroups": []
         },
         {
+          "description": "",
           "fullName": "",
           "functionType": "Action",
+          "group": "",
           "name": "onScenePostEvents",
+          "private": false,
           "sentence": "",
           "events": [
             {
@@ -11082,6 +11375,7 @@
     {
       "author": "",
       "category": "",
+      "description": "",
       "extensionNamespace": "",
       "fullName": "",
       "helpPath": "",
@@ -11090,7 +11384,6 @@
       "previewIconUrl": "",
       "shortDescription": "",
       "version": "",
-      "description": "",
       "tags": [],
       "authorIds": [],
       "dependencies": [],
@@ -11103,9 +11396,12 @@
           "objectType": "Sprite",
           "eventsFunctions": [
             {
+              "description": "",
               "fullName": "",
               "functionType": "Action",
+              "group": "",
               "name": "onCreated",
+              "private": false,
               "sentence": "",
               "events": [
                 {
@@ -11149,14 +11445,22 @@
               ],
               "parameters": [
                 {
+                  "codeOnly": false,
+                  "defaultValue": "",
                   "description": "Object",
+                  "longDescription": "",
                   "name": "Object",
+                  "optional": false,
                   "supplementaryInformation": "Sprite",
                   "type": "object"
                 },
                 {
+                  "codeOnly": false,
+                  "defaultValue": "",
                   "description": "Behavior",
+                  "longDescription": "",
                   "name": "Behavior",
+                  "optional": false,
                   "supplementaryInformation": "Enemy::Enemy",
                   "type": "behavior"
                 }
@@ -11164,9 +11468,12 @@
               "objectGroups": []
             },
             {
+              "description": "",
               "fullName": "",
               "functionType": "Action",
+              "group": "",
               "name": "doStepPreEvents",
+              "private": false,
               "sentence": "",
               "events": [
                 {
@@ -11494,14 +11801,22 @@
               ],
               "parameters": [
                 {
+                  "codeOnly": false,
+                  "defaultValue": "",
                   "description": "Object",
+                  "longDescription": "",
                   "name": "Object",
+                  "optional": false,
                   "supplementaryInformation": "Sprite",
                   "type": "object"
                 },
                 {
+                  "codeOnly": false,
+                  "defaultValue": "",
                   "description": "Behavior",
+                  "longDescription": "",
                   "name": "Behavior",
+                  "optional": false,
                   "supplementaryInformation": "Enemy::Enemy",
                   "type": "behavior"
                 }
@@ -11509,9 +11824,12 @@
               "objectGroups": []
             },
             {
+              "description": "",
               "fullName": "",
               "functionType": "Action",
+              "group": "",
               "name": "doStepPostEvents",
+              "private": false,
               "sentence": "",
               "events": [
                 {
@@ -11544,14 +11862,22 @@
               ],
               "parameters": [
                 {
+                  "codeOnly": false,
+                  "defaultValue": "",
                   "description": "Object",
+                  "longDescription": "",
                   "name": "Object",
+                  "optional": false,
                   "supplementaryInformation": "Sprite",
                   "type": "object"
                 },
                 {
+                  "codeOnly": false,
+                  "defaultValue": "",
                   "description": "Behavior",
+                  "longDescription": "",
                   "name": "Behavior",
+                  "optional": false,
                   "supplementaryInformation": "Enemy::Enemy",
                   "type": "behavior"
                 }
@@ -11572,8 +11898,7 @@
               "hidden": false,
               "name": "Property"
             }
-          ],
-          "sharedPropertyDescriptors": []
+          ]
         },
         {
           "description": "",
@@ -11585,7 +11910,9 @@
               "description": "Begins the process of targeting enemies.",
               "fullName": "Begin Shooting",
               "functionType": "Action",
+              "group": "",
               "name": "Function",
+              "private": false,
               "sentence": "[While _PARAM3_ is in range] Spawn _PARAM2_ from _PARAM0_",
               "events": [
                 {
@@ -11724,25 +12051,42 @@
               ],
               "parameters": [
                 {
+                  "codeOnly": false,
+                  "defaultValue": "",
                   "description": "Object",
+                  "longDescription": "",
                   "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "",
                   "type": "object"
                 },
                 {
+                  "codeOnly": false,
+                  "defaultValue": "",
                   "description": "Behavior",
+                  "longDescription": "",
                   "name": "Behavior",
+                  "optional": false,
                   "supplementaryInformation": "Enemy::Tower",
                   "type": "behavior"
                 },
                 {
+                  "codeOnly": false,
+                  "defaultValue": "",
                   "description": "Input the projectile to be shot.",
+                  "longDescription": "",
                   "name": "Projectile",
+                  "optional": false,
                   "supplementaryInformation": "Sprite",
                   "type": "objectList"
                 },
                 {
+                  "codeOnly": false,
+                  "defaultValue": "",
                   "description": "The target enemy of the tower.",
+                  "longDescription": "",
                   "name": "Enemy",
+                  "optional": false,
                   "supplementaryInformation": "Sprite",
                   "type": "objectList"
                 }
@@ -11750,9 +12094,12 @@
               "objectGroups": []
             },
             {
+              "description": "",
               "fullName": "",
               "functionType": "Action",
+              "group": "",
               "name": "onCreated",
+              "private": false,
               "sentence": "",
               "events": [
                 {
@@ -11788,13 +12135,22 @@
               ],
               "parameters": [
                 {
+                  "codeOnly": false,
+                  "defaultValue": "",
                   "description": "Object",
+                  "longDescription": "",
                   "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "",
                   "type": "object"
                 },
                 {
+                  "codeOnly": false,
+                  "defaultValue": "",
                   "description": "Behavior",
+                  "longDescription": "",
                   "name": "Behavior",
+                  "optional": false,
                   "supplementaryInformation": "Enemy::Tower",
                   "type": "behavior"
                 }
@@ -11802,8 +12158,7 @@
               "objectGroups": []
             }
           ],
-          "propertyDescriptors": [],
-          "sharedPropertyDescriptors": []
+          "propertyDescriptors": []
         },
         {
           "description": "Gives the object characteristics of a projectile.",
@@ -11812,9 +12167,12 @@
           "objectType": "Sprite",
           "eventsFunctions": [
             {
+              "description": "",
               "fullName": "",
               "functionType": "Action",
+              "group": "",
               "name": "onCreated",
+              "private": false,
               "sentence": "",
               "events": [
                 {
@@ -11846,14 +12204,22 @@
               ],
               "parameters": [
                 {
+                  "codeOnly": false,
+                  "defaultValue": "",
                   "description": "Object",
+                  "longDescription": "",
                   "name": "Object",
+                  "optional": false,
                   "supplementaryInformation": "Sprite",
                   "type": "object"
                 },
                 {
+                  "codeOnly": false,
+                  "defaultValue": "",
                   "description": "Behavior",
+                  "longDescription": "",
                   "name": "Behavior",
+                  "optional": false,
                   "supplementaryInformation": "Enemy::Projectile",
                   "type": "behavior"
                 }
@@ -11864,7 +12230,9 @@
               "description": "Makes the bullet find a path to the closest enemy.",
               "fullName": "Pathfind Projectile to Enemy",
               "functionType": "Action",
+              "group": "",
               "name": "Function",
+              "private": false,
               "sentence": "Move _PARAM0_ from point _PARAM3_ of _PARAM4_ to _PARAM2_",
               "events": [
                 {
@@ -12024,31 +12392,52 @@
               ],
               "parameters": [
                 {
+                  "codeOnly": false,
+                  "defaultValue": "",
                   "description": "Object",
+                  "longDescription": "",
                   "name": "Object",
+                  "optional": false,
                   "supplementaryInformation": "Sprite",
                   "type": "object"
                 },
                 {
+                  "codeOnly": false,
+                  "defaultValue": "",
                   "description": "Behavior",
+                  "longDescription": "",
                   "name": "Behavior",
+                  "optional": false,
                   "supplementaryInformation": "Enemy::Projectile",
                   "type": "behavior"
                 },
                 {
+                  "codeOnly": false,
+                  "defaultValue": "",
                   "description": "The target enemy.",
+                  "longDescription": "",
                   "name": "Enemy",
+                  "optional": false,
                   "supplementaryInformation": "Sprite",
                   "type": "objectList"
                 },
                 {
+                  "codeOnly": false,
+                  "defaultValue": "",
                   "description": "The origin point of the projectile.",
+                  "longDescription": "",
                   "name": "OriginPoint",
+                  "optional": false,
+                  "supplementaryInformation": "",
                   "type": "objectPointName"
                 },
                 {
+                  "codeOnly": false,
+                  "defaultValue": "",
                   "description": "The tower the projectile was fired from.",
+                  "longDescription": "",
                   "name": "Tower",
+                  "optional": false,
                   "supplementaryInformation": "Sprite",
                   "type": "objectList"
                 }
@@ -12059,7 +12448,9 @@
               "description": "Destroys the projectile and damages the enemy.",
               "fullName": "Destroy Projectile and Damage Enemy",
               "functionType": "Action",
+              "group": "",
               "name": "Function2",
+              "private": false,
               "sentence": "Destroy _PARAM0_ after hitting _PARAM2_ and damage it",
               "events": [
                 {
@@ -12120,20 +12511,32 @@
               ],
               "parameters": [
                 {
+                  "codeOnly": false,
+                  "defaultValue": "",
                   "description": "Object",
+                  "longDescription": "",
                   "name": "Object",
+                  "optional": false,
                   "supplementaryInformation": "Sprite",
                   "type": "object"
                 },
                 {
+                  "codeOnly": false,
+                  "defaultValue": "",
                   "description": "Behavior",
+                  "longDescription": "",
                   "name": "Behavior",
+                  "optional": false,
                   "supplementaryInformation": "Enemy::Projectile",
                   "type": "behavior"
                 },
                 {
+                  "codeOnly": false,
+                  "defaultValue": "",
                   "description": "The target enemy.",
+                  "longDescription": "",
                   "name": "Enemy",
+                  "optional": false,
                   "supplementaryInformation": "Sprite",
                   "type": "objectList"
                 }
@@ -12154,8 +12557,7 @@
               "hidden": false,
               "name": "Property"
             }
-          ],
-          "sharedPropertyDescriptors": []
+          ]
         }
       ],
       "eventsBasedObjects": []
