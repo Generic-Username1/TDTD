@@ -1481,6 +1481,25 @@
         "name": "CommunityBuyButton.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "VolunteerProjectile.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "VolunteerProjectile.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "ShootTest.wav",
+        "kind": "audio",
+        "metadata": "{\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Laser/shoot 7\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0,\\\"sustain\\\":0.06,\\\"sustainPunch\\\":40,\\\"decay\\\":0.05,\\\"tremoloDepth\\\":0,\\\"tremoloFrequency\\\":10,\\\"frequency\\\":700,\\\"frequencySweep\\\":-500,\\\"frequencyDeltaSweep\\\":-1400,\\\"repeatFrequency\\\":0,\\\"frequencyJump1Onset\\\":33,\\\"frequencyJump1Amount\\\":0,\\\"frequencyJump2Onset\\\":66,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":0,\\\"harmonicsFalloff\\\":0.5,\\\"waveform\\\":\\\"sawtooth\\\",\\\"interpolateNoise\\\":true,\\\"vibratoDepth\\\":0,\\\"vibratoFrequency\\\":10,\\\"squareDuty\\\":70,\\\"squareDutySweep\\\":60,\\\"flangerOffset\\\":0,\\\"flangerOffsetSweep\\\":0,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":22050,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":0,\\\"highPassCutoffSweep\\\":0,\\\"compression\\\":1,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"ShootTest\"}}",
+        "name": "ShootTest.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1497,7 +1516,7 @@
           "folded": true,
           "name": "Range",
           "type": "number",
-          "value": 9000
+          "value": 300
         },
         {
           "folded": true,
@@ -1513,9 +1532,9 @@
         },
         {
           "folded": true,
-          "name": "CheerleaderPresent",
-          "type": "boolean",
-          "value": false
+          "name": "Pillar",
+          "type": "string",
+          "value": "Military"
         }
       ],
       "effects": [],
@@ -1609,13 +1628,13 @@
           "folded": true,
           "name": "Range",
           "type": "number",
-          "value": 9000
+          "value": 500
         },
         {
           "folded": true,
           "name": "FireRate",
           "type": "number",
-          "value": 0.33
+          "value": 0.5
         },
         {
           "folded": true,
@@ -1625,9 +1644,9 @@
         },
         {
           "folded": true,
-          "name": "CheerleaderPresent",
-          "type": "boolean",
-          "value": false
+          "name": "Pillar",
+          "type": "string",
+          "value": "Military"
         }
       ],
       "effects": [],
@@ -1677,68 +1696,6 @@
     },
     {
       "assetStoreId": "",
-      "name": "GoldIcon",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "GoldIcon",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.07999999821186066,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\GoldIcon-1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "GoldAmount",
-      "smoothed": true,
-      "tags": "",
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "0",
-      "font": "assets\\AlfaSlabOne-Regular.ttf",
-      "characterSize": 35,
-      "color": {
-        "b": 255,
-        "g": 255,
-        "r": 255
-      }
-    },
-    {
-      "assetStoreId": "",
       "name": "Firefighter",
       "tags": "",
       "type": "Sprite",
@@ -1748,19 +1705,25 @@
           "folded": true,
           "name": "Range",
           "type": "number",
-          "value": 9000
+          "value": 150
         },
         {
           "folded": true,
           "name": "FireRate",
           "type": "number",
-          "value": 1
+          "value": 0.5
         },
         {
           "folded": true,
           "name": "Rotate",
           "type": "boolean",
           "value": false
+        },
+        {
+          "folded": true,
+          "name": "Pillar",
+          "type": "string",
+          "value": "Civil"
         }
       ],
       "effects": [],
@@ -1854,7 +1817,7 @@
           "folded": true,
           "name": "Range",
           "type": "number",
-          "value": 9000
+          "value": 10000
         },
         {
           "folded": true,
@@ -1867,6 +1830,12 @@
           "name": "Rotate",
           "type": "boolean",
           "value": false
+        },
+        {
+          "folded": true,
+          "name": "Pillar",
+          "type": "string",
+          "value": "Digital"
         }
       ],
       "effects": [],
@@ -1925,7 +1894,13 @@
           "folded": true,
           "name": "Range",
           "type": "number",
-          "value": 500
+          "value": 300
+        },
+        {
+          "folded": true,
+          "name": "Pillar",
+          "type": "string",
+          "value": "Psychological"
         }
       ],
       "effects": [],
@@ -1968,7 +1943,32 @@
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "folded": true,
+          "name": "Range",
+          "type": "number",
+          "value": 200
+        },
+        {
+          "folded": true,
+          "name": "FireRate",
+          "type": "number",
+          "value": 1
+        },
+        {
+          "folded": true,
+          "name": "Piercing",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "folded": true,
+          "name": "Pillar",
+          "type": "string",
+          "value": "Social"
+        }
+      ],
       "effects": [],
       "behaviors": [],
       "animations": [
@@ -2005,7 +2005,7 @@
     },
     {
       "assetStoreId": "",
-      "name": "Bank",
+      "name": "GoldIcon",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -2014,7 +2014,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "Bank",
+          "name": "GoldIcon",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -2023,7 +2023,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Bank-1.png",
+                  "image": "assets\\GoldIcon-1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2043,6 +2043,27 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "GoldAmount",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "0",
+      "font": "assets\\AlfaSlabOne-Regular.ttf",
+      "characterSize": 35,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
     },
     {
       "assetStoreId": "",
@@ -2155,6 +2176,9 @@
             },
             {
               "name": "Cheerleader"
+            },
+            {
+              "name": "Officer"
             }
           ]
         }
@@ -2925,7 +2949,7 @@
         },
         {
           "assetStoreId": "",
-          "name": "NSMenProjectile",
+          "name": "SoldierProjectile",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -2934,7 +2958,7 @@
               "folded": true,
               "name": "Damage",
               "type": "number",
-              "value": 50
+              "value": 60
             },
             {
               "folded": true,
@@ -3004,7 +3028,7 @@
               "folded": true,
               "name": "Damage",
               "type": "number",
-              "value": 70
+              "value": 100
             },
             {
               "folded": true,
@@ -4808,7 +4832,7 @@
               "folded": true,
               "name": "Damage",
               "type": "number",
-              "value": 10
+              "value": 25
             },
             {
               "folded": true,
@@ -4885,6 +4909,66 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "VolunteerProjectile",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "Damage",
+              "type": "number",
+              "value": 40
+            },
+            {
+              "folded": true,
+              "name": "Speed",
+              "type": "number",
+              "value": 100
+            },
+            {
+              "folded": true,
+              "name": "Piercing",
+              "type": "boolean",
+              "value": false
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "VolunteerProjectile.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -4955,7 +5039,7 @@
                   "parameters": [
                     "CheerleaderCost",
                     "=",
-                    "100"
+                    "150\n"
                   ]
                 },
                 {
@@ -4965,17 +5049,7 @@
                   "parameters": [
                     "VolunteerCost",
                     "=",
-                    "100"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "BankCost",
-                    "=",
-                    "100"
+                    "80"
                   ]
                 },
                 {
@@ -5005,17 +5079,7 @@
                   "parameters": [
                     "WhiteHatCost",
                     "=",
-                    "100"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "SoldierUpg2Cost",
-                    "=",
-                    "50"
+                    "60"
                   ]
                 },
                 {
@@ -5063,7 +5127,7 @@
                     "value": "ActivateBehavior"
                   },
                   "parameters": [
-                    "NSMenProjectile",
+                    "SoldierProjectile",
                     "Projectile2",
                     ""
                   ]
@@ -5159,46 +5223,12 @@
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ModVarObjet"
-                  },
-                  "parameters": [
-                    "Soldier",
-                    "FireRate",
-                    "=",
-                    "(1 / (GlobalVariable(NSMenUpg2No) + 1)) / pow(2, Soldier.Variable(CheerleaderPresent))"
-                  ]
-                }
-              ]
+              "actions": []
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "AjoutObjConcern"
-                  },
-                  "parameters": [
-                    "",
-                    "Bank"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ModVarObjet"
-                  },
-                  "parameters": [
-                    "Skeleton",
-                    "MoneyDrop",
-                    "=",
-                    "(Skeleton.Variable(Health)/2) * (1+0.2*PickedInstancesCount(Bank))"
-                  ]
-                }
-              ]
+              "conditions": [],
+              "actions": []
             }
           ],
           "parameters": []
@@ -5347,7 +5377,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "name": "Activating All the External Behaviours and Actions",
+          "name": "Attack or Defend",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
@@ -5360,23 +5390,29 @@
                   },
                   "parameters": [
                     "",
-                    "Towers"
+                    "Soldier"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareObjectTimer"
+                  },
+                  "parameters": [
+                    "Soldier",
+                    "\"ShootTime\"",
+                    ">",
+                    "Soldier.Variable(FireRate)\n"
                   ]
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "value": "TDTD::TowerV2::attack"
+                    "value": "ResetObjectTimer"
                   },
                   "parameters": [
                     "Soldier",
-                    "Tower2",
-                    "NSMenProjectile",
-                    "Skeleton",
-                    "0",
-                    "0",
-                    ""
+                    "\"ShootTime\""
                   ]
                 },
                 {
@@ -5384,13 +5420,47 @@
                     "value": "TDTD::TowerV2::attack"
                   },
                   "parameters": [
-                    "Firefighter",
-                    "TowerV2",
-                    "FirefighterProjectile",
+                    "Soldier",
+                    "Tower2",
+                    "SoldierProjectile",
                     "Skeleton",
-                    "0",
-                    "0",
-                    ""
+                    "0"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AjoutObjConcern"
+                  },
+                  "parameters": [
+                    "",
+                    "WhiteHat"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareObjectTimer"
+                  },
+                  "parameters": [
+                    "WhiteHat",
+                    "\"ShootTime\"",
+                    ">",
+                    "WhiteHat.Variable(FireRate)"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "WhiteHat",
+                    "\"ShootTime\""
                   ]
                 },
                 {
@@ -5407,170 +5477,6 @@
                     ""
                   ]
                 },
-                {
-                  "type": {
-                    "value": "TDTD::TowerV2::attack"
-                  },
-                  "parameters": [
-                    "Officer",
-                    "Tower2",
-                    "OfficerProjectile",
-                    "Skeleton",
-                    "0",
-                    "0",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TDTD::ProjectileV2::pathfind"
-                  },
-                  "parameters": [
-                    "NSMenProjectile",
-                    "Projectile2",
-                    "Skeleton",
-                    "\"OriginPoint\"",
-                    "Soldier",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TDTD::ProjectileV2::pathfind"
-                  },
-                  "parameters": [
-                    "FirefighterProjectile",
-                    "ProjectileV2",
-                    "Skeleton",
-                    "\"OriginPoint\"",
-                    "Firefighter",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TDTD::ProjectileV2::pathfind"
-                  },
-                  "parameters": [
-                    "WhiteHatProjectile",
-                    "ProjectileV2",
-                    "Skeleton",
-                    "\"OriginPoint\"",
-                    "WhiteHat",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TDTD::ProjectileV2::pathfind"
-                  },
-                  "parameters": [
-                    "OfficerProjectile",
-                    "Projectile2",
-                    "Skeleton",
-                    "\"OriginPoint\"",
-                    "Officer",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TDTD::ProjectileV2::destroy"
-                  },
-                  "parameters": [
-                    "NSMenProjectile",
-                    "Projectile2",
-                    "Skeleton",
-                    "NSMenProjectile.Variable(Damage)"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TDTD::ProjectileV2::destroy"
-                  },
-                  "parameters": [
-                    "FirefighterProjectile",
-                    "ProjectileV2",
-                    "Skeleton",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TDTD::ProjectileV2::destroy"
-                  },
-                  "parameters": [
-                    "WhiteHatProjectile",
-                    "ProjectileV2",
-                    "Skeleton",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TDTD::ProjectileV2::destroy"
-                  },
-                  "parameters": [
-                    "OfficerProjectile",
-                    "Projectile2",
-                    "Skeleton",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
                 {
                   "type": {
                     "value": "ChangeScale"
@@ -5585,19 +5491,141 @@
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AjoutObjConcern"
+                  },
+                  "parameters": [
+                    "",
+                    "Officer"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareObjectTimer"
+                  },
+                  "parameters": [
+                    "Officer",
+                    "\"ShootTime\"",
+                    ">",
+                    "Officer.Variable(FireRate)\n"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "Officer",
+                    "\"ShootTime\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TDTD::TowerV2::attack"
+                  },
+                  "parameters": [
+                    "Officer",
+                    "Tower2",
+                    "OfficerProjectile",
+                    "Skeleton",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.05"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TDTD::TowerV2::attack"
+                  },
+                  "parameters": [
+                    "Officer",
+                    "Tower2",
+                    "OfficerProjectile",
+                    "Skeleton",
+                    "0"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
               "actions": [
                 {
                   "type": {
-                    "value": "ChangeScale"
+                    "value": "TDTD::ProjectileV2::destroy"
                   },
                   "parameters": [
-                    "Bank",
-                    "=",
-                    "0.5"
+                    "SoldierProjectile",
+                    "Projectile2",
+                    "Skeleton",
+                    "NSMenProjectile.Variable(Damage)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TDTD::ProjectileV2::destroy"
+                  },
+                  "parameters": [
+                    "FirefighterProjectile",
+                    "ProjectileV2",
+                    "Skeleton",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TDTD::ProjectileV2::destroy"
+                  },
+                  "parameters": [
+                    "WhiteHatProjectile",
+                    "ProjectileV2",
+                    "Skeleton",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TDTD::ProjectileV2::destroy"
+                  },
+                  "parameters": [
+                    "OfficerProjectile",
+                    "Projectile2",
+                    "Skeleton",
+                    ""
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -5621,16 +5649,37 @@
                     "Cheerleader.Variable(Range)",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Towers",
+                    "CheerBoosted",
+                    "True"
+                  ]
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Towers",
+                    "FireRate",
+                    "/",
+                    "1.1"
+                  ]
+                },
                 {
                   "type": {
                     "value": "SetObjectVariableAsBoolean"
                   },
                   "parameters": [
                     "Towers",
-                    "CheerleaderPresent",
+                    "CheerBoosted",
                     "True"
                   ]
                 }
@@ -5946,6 +5995,48 @@
                     "1"
                   ]
                 }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PickNearest"
+                      },
+                      "parameters": [
+                        "Towers",
+                        "Volunteer.PointX(\"Center\")",
+                        "Volunteer.PointY(\"Center\")",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Distance"
+                      },
+                      "parameters": [
+                        "Towers",
+                        "Volunteer",
+                        "200",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "Volunteer",
+                        "Pillar",
+                        "=",
+                        "Towers.VariableString(Pillar)"
+                      ]
+                    }
+                  ]
+                }
               ]
             },
             {
@@ -6000,18 +6091,6 @@
                   "parameters": [
                     "SpawnBox",
                     "="
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "Bank",
-                    "MouseX()+10",
-                    "MouseY()-30",
-                    ""
                   ]
                 },
                 {
@@ -6095,8 +6174,8 @@
                   "parameters": [
                     "",
                     "Soldier",
-                    "MouseX()+10",
-                    "MouseY()-30",
+                    "MouseX()",
+                    "MouseY()",
                     ""
                   ]
                 },
@@ -7820,21 +7899,6 @@
           "x": 214,
           "y": 50,
           "zOrder": 34,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 98,
-          "layer": "",
-          "name": "Bank",
-          "persistentUuid": "01fe8c82-f918-4d4a-933e-6b09c71b4912",
-          "width": 102,
-          "x": 428,
-          "y": 64,
-          "zOrder": 35,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -11239,193 +11303,27 @@
           "objectType": "Sprite",
           "eventsFunctions": [
             {
-              "description": "Begins the process of targeting enemies.",
-              "fullName": "Begin Shooting",
+              "description": "Fire a bullet at an enemy.",
+              "fullName": "Fire Bullet",
               "functionType": "Action",
               "name": "attack",
-              "sentence": "[While _PARAM3_ is in range] Spawn _PARAM2_ from _PARAM0_ with an offset of _PARAM4_ X and _PARAM5_ Y",
+              "sentence": "[While _PARAM3_ is in range] Spawn _PARAM2_ from _PARAM0_ ",
               "events": [
                 {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "BehaviorActivated"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Distance"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Enemy",
-                        "Object.Variable(Range)",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ObjectVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Rotate",
-                        "True"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Once"
-                      },
-                      "parameters": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "RotateTowardPosition"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Enemy.X()",
-                        "Enemy.Y()",
-                        "0",
-                        ""
-                      ]
-                    }
-                  ],
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "Animation"
-                          },
-                          "parameters": [
-                            "Object",
-                            "=",
-                            "0"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Angle"
-                          },
-                          "parameters": [
-                            "Object",
-                            ">=",
-                            "20"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Angle"
-                          },
-                          "parameters": [
-                            "Object",
-                            "<=",
-                            "340"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "SetAngle"
-                          },
-                          "parameters": [
-                            "Object",
-                            "=",
-                            "0"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ChangeAnimation"
-                          },
-                          "parameters": [
-                            "Object",
-                            "=",
-                            "1"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "RotateTowardPosition"
-                          },
-                          "parameters": [
-                            "Object",
-                            "Enemy.X()",
-                            "Enemy.Y()",
-                            "0",
-                            ""
-                          ]
-                        }
-                      ]
-                    }
-                  ]
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Actually Shoot the bullets",
+                  "comment2": ""
                 },
                 {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "BehaviorActivated"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Distance"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Enemy",
-                        "Object.Variable(Range)",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Once"
-                      },
-                      "parameters": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
-                        "Projectile",
-                        "Object.X()",
-                        "Object.Y()",
-                        "\"Projectile layer\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ResetObjectTimer"
-                      },
-                      "parameters": [
-                        "Object",
-                        "\"ShootTime\""
-                      ]
-                    }
-                  ]
-                },
-                {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -11437,17 +11335,6 @@
                         "Enemy",
                         "Object.Variable(Range)",
                         ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "CompareObjectTimer"
-                      },
-                      "parameters": [
-                        "Object",
-                        "\"ShootTime\"",
-                        ">",
-                        "Object.Variable(FireRate)"
                       ]
                     },
                     {
@@ -11639,17 +11526,6 @@
                         "Object.Variable(Range)",
                         ""
                       ]
-                    },
-                    {
-                      "type": {
-                        "value": "CompareObjectTimer"
-                      },
-                      "parameters": [
-                        "Object",
-                        "\"ShootTime\"",
-                        ">",
-                        "Object.Variable(FireRate)"
-                      ]
                     }
                   ],
                   "actions": [
@@ -11660,18 +11536,67 @@
                       "parameters": [
                         "",
                         "Projectile",
-                        "Object.X()",
-                        "Object.Y()",
+                        "Object.PointX(\"OriginPoint\")",
+                        "Object.PointY(\"OriginPoint\")",
                         "\"Projectile layer\""
                       ]
                     },
                     {
                       "type": {
-                        "value": "ResetObjectTimer"
+                        "value": "SetCenter"
                       },
                       "parameters": [
-                        "Object",
-                        "\"ShootTime\""
+                        "Projectile",
+                        "=",
+                        "Object.PointX(\"OriginPoint\")",
+                        "=",
+                        "Object.PointY(\"OriginPoint\")"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "Projectile",
+                        "Pillar",
+                        "=",
+                        "Object.Variable(Pillar)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "RotateTowardPosition"
+                      },
+                      "parameters": [
+                        "Projectile",
+                        "Enemy.X()",
+                        "Enemy.Y()",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AddForceVers"
+                      },
+                      "parameters": [
+                        "Projectile",
+                        "Enemy",
+                        "Projectile.Variable(Speed)",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "ShootTest.wav",
+                        "",
+                        "",
+                        "RandomFloat(2)"
                       ]
                     }
                   ]
@@ -11697,7 +11622,7 @@
                   "type": "objectList"
                 },
                 {
-                  "description": "The target enemy of the tower.",
+                  "description": "Attackable Enemies",
                   "name": "Enemy",
                   "supplementaryInformation": "Sprite",
                   "type": "objectList"
