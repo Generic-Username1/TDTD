@@ -2227,7 +2227,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.22999999999999995,
+        "zoomFactor": 0.5400000000000001,
         "windowMask": false
       },
       "objectsGroups": [
@@ -2792,6 +2792,21 @@
           "x": 841,
           "y": 58,
           "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "debug",
+          "persistentUuid": "3613967f-4db7-4f8f-817d-8e0c4edec7c2",
+          "width": 0,
+          "x": 74,
+          "y": 644,
+          "zOrder": 33,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -6428,26 +6443,12 @@
                   "actions": [
                     {
                       "type": {
-                        "value": "Create"
+                        "value": "TDTD::Function"
                       },
                       "parameters": [
                         "",
                         "Volunteer",
-                        "MouseX()",
-                        "MouseY()",
                         ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetCenter"
-                      },
-                      "parameters": [
-                        "Volunteer",
-                        "=",
-                        "MouseX()",
-                        "=",
-                        "MouseY()"
                       ]
                     },
                     {
@@ -6558,17 +6559,6 @@
                           "parameters": [
                             "debug",
                             "+",
-                            "VariableString(VolunteerPillars)"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ModVarObjetTxt"
-                          },
-                          "parameters": [
-                            "Volunteer",
-                            "Pillar",
-                            "=",
                             "VariableString(VolunteerPillars)"
                           ]
                         }
@@ -7833,7 +7823,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.2000000000000013,
+        "zoomFactor": 0.6800000000000014,
         "windowMask": false
       },
       "objectsGroups": [
@@ -8596,7 +8586,7 @@
           "name": "Tier2Lock",
           "persistentUuid": "b2d3e270-f3dd-4596-ba0f-2a8aaee1fd96",
           "width": 1282,
-          "x": 0,
+          "x": 2000,
           "y": 273.1525573730469,
           "zOrder": 64,
           "numberProperties": [],
