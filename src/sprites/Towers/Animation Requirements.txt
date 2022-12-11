@@ -1,0 +1,10 @@
+Each of the folders represent the Towers needed. The first layer of folders are the Towers, and the 
+folders inside represent the animations needed. 
+
+Animation: Idle
+16 frames, 2 seconds
+Played during idle, just breathing cycle
+
+Animation: Action
+8 frames, 1 second
+Specific to each Tower, watch video in folder for demonstration on how to animate.
