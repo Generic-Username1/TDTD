@@ -1,5 +1,10 @@
+TOWER REQUIREMENTS
+------------------
 Each of the folders represent the Towers needed. The first layer of folders are the Towers, and the 
 folders inside represent the animations needed. 
+
+Each folder will also have a reference image on how the Tower should look, and for each animation
+except the Idle animation, there will be a reference video on how to animate it.
 
 Animation: Idle
 16 frames, 2 seconds

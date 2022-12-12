@@ -1,0 +1,10 @@
+ANIMATION REQUIREMENTS
+----------------------
+The folders in this directory are the groups of things we need draw/animate, namely
+Enemies, Towers, Icons, Maps, and UI. Inside each folder are more folders with the 
+names of the things you need to work on. More instructions are included in each 
+folder.
+
+However, the general structure is that each of the folder named after the things to
+draw will have more folders within them, each with the name of the animations
+needed for that tower. 
