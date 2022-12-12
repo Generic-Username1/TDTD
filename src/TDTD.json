@@ -7,7 +7,7 @@
     "revision": 0
   },
   "properties": {
-    "adaptGameResolutionAtRuntime": true,
+    "adaptGameResolutionAtRuntime": false,
     "folderProject": false,
     "orientation": "landscape",
     "packageName": "com.example.tdtd",
@@ -21,8 +21,8 @@
     "name": "Total Defence Tower Defence",
     "description": "",
     "author": "SidGaming",
-    "windowWidth": 1280,
-    "windowHeight": 720,
+    "windowWidth": 1620,
+    "windowHeight": 1080,
     "latestCompilationDirectory": "C:\\Users\\wongy\\Desktop",
     "maxFPS": 60,
     "minFPS": 20,
@@ -1527,6 +1527,158 @@
         "name": "Educator.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "file": "assets/Alba Slab 48px.fnt",
+        "kind": "bitmapFont",
+        "metadata": "",
+        "name": "assets\\Alba Slab 48px.fnt",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Alba Slab 48px.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Alba Slab 48px.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/UI/White-Grey-TextBacking.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\UI\\White-Grey-TextBacking.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Maps/SAM.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Maps\\SAM.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/fonts/AlbaSlab/36px/Alba Slab 36px.fnt",
+        "kind": "bitmapFont",
+        "metadata": "",
+        "name": "assets\\fonts\\AlbaSlab\\36px\\Alba Slab 36px.fnt",
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fonts/AlbaSlab/36px/Alba Slab 36px.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\fonts\\AlbaSlab\\36px\\Alba Slab 36px.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/fonts/AlbaSlab/24px/Alba Slab 24px.fnt",
+        "kind": "bitmapFont",
+        "metadata": "",
+        "name": "assets\\fonts\\AlbaSlab\\24px\\Alba Slab 24px.fnt",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fonts/AlbaSlab/24px/Alba Slab 24px.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\fonts\\AlbaSlab\\24px\\Alba Slab 24px.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/fonts/AlbaSlab/12px/Alba Slab 12px.fnt",
+        "kind": "bitmapFont",
+        "metadata": "",
+        "name": "assets\\fonts\\AlbaSlab\\12px\\Alba Slab 12px.fnt",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fonts/AlbaSlab/12px/Alba Slab 12px.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\fonts\\AlbaSlab\\12px\\Alba Slab 12px.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/fonts/Kanit/16px/Kanit-16.fnt",
+        "kind": "bitmapFont",
+        "metadata": "",
+        "name": "assets\\fonts\\Kanit\\16px\\Kanit-16.fnt",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fonts/Kanit/16px/Kanit-16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\fonts\\Kanit\\16px\\Kanit-16.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/UI/Shop-Psychological.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\UI\\Shop-Psychological.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/UI/Shop-Social.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\UI\\Shop-Social.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/UI/Shop-Economic.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\UI\\Shop-Economic.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/UI/Shop-Military.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\UI\\Shop-Military.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/UI/Shop-Civil.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\UI\\Shop-Civil.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/UI/Shop-Digital.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\UI\\Shop-Digital.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2115,23 +2267,22 @@
     },
     {
       "assetStoreId": "",
-      "bold": false,
-      "italic": false,
       "name": "GoldAmount",
-      "smoothed": true,
       "tags": "",
-      "type": "TextObject::Text",
-      "underlined": false,
+      "type": "BitmapText::BitmapTextObject",
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "0",
-      "font": "assets\\AlfaSlabOne-Regular.ttf",
-      "characterSize": 35,
-      "color": {
-        "b": 255,
-        "g": 255,
-        "r": 255
+      "content": {
+        "text": "10000",
+        "opacity": 255,
+        "scale": 1,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "assets\\fonts\\AlbaSlab\\36px\\Alba Slab 36px.fnt",
+        "textureAtlasResourceName": "assets\\fonts\\AlbaSlab\\36px\\Alba Slab 36px.png",
+        "align": "left",
+        "wordWrap": true
       }
     },
     {
@@ -2177,23 +2328,22 @@
     },
     {
       "assetStoreId": "",
-      "bold": false,
-      "italic": false,
       "name": "CommSupportAmt",
-      "smoothed": true,
       "tags": "",
-      "type": "TextObject::Text",
-      "underlined": false,
+      "type": "BitmapText::BitmapTextObject",
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "0",
-      "font": "assets\\AlfaSlabOne-Regular.ttf",
-      "characterSize": 35,
-      "color": {
-        "b": 255,
-        "g": 255,
-        "r": 255
+      "content": {
+        "text": "99",
+        "opacity": 255,
+        "scale": 1,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "assets\\fonts\\AlbaSlab\\36px\\Alba Slab 36px.fnt",
+        "textureAtlasResourceName": "assets\\fonts\\AlbaSlab\\36px\\Alba Slab 36px.png",
+        "align": "left",
+        "wordWrap": true
       }
     }
   ],
@@ -2227,7 +2377,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.22999999999999995,
+        "zoomFactor": 1.0600000000000005,
         "windowMask": false
       },
       "objectsGroups": [
@@ -2261,10 +2411,30 @@
           "name": "Enemies",
           "objects": [
             {
-              "name": "SnowMan"
+              "name": "Skeleton"
+            }
+          ]
+        },
+        {
+          "name": "ShopTabs",
+          "objects": [
+            {
+              "name": "PsychologicalShopTab"
             },
             {
-              "name": "Skeleton"
+              "name": "SocialShopTab"
+            },
+            {
+              "name": "EconomicShopTab"
+            },
+            {
+              "name": "MilitaryShopTab"
+            },
+            {
+              "name": "CivilShopTab"
+            },
+            {
+              "name": "DigitalShopTab"
             }
           ]
         }
@@ -2273,450 +2443,15 @@
       "instances": [
         {
           "angle": 0,
-          "customSize": true,
-          "height": 247,
-          "layer": "",
-          "name": "Base",
-          "persistentUuid": "34516418-7797-496d-815e-967aebd26f59",
-          "width": 146.55538940429688,
-          "x": 1130.444580078125,
-          "y": 204,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 100,
-          "layer": "e",
-          "name": "NewTiledSprite",
-          "persistentUuid": "719c3308-e046-4e13-91ca-e0e5add534be",
-          "width": 366.1743469238281,
-          "x": -0.17435027658939362,
-          "y": 348,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 90,
-          "customSize": true,
-          "height": 91.28248596191406,
-          "layer": "e",
-          "name": "NewTiledSprite",
-          "persistentUuid": "89176db2-2c1a-4ce1-82fd-1e86d835a7f7",
-          "width": 448,
-          "x": 97.13999938964844,
-          "y": 178.3587646484375,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 99,
-          "layer": "e",
-          "name": "NewTiledSprite",
-          "persistentUuid": "482ac912-8725-43a8-9dfe-aada7a3d11cf",
-          "width": 320.41717529296875,
-          "x": 319.58282470703125,
-          "y": 0,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 90,
-          "customSize": true,
-          "height": 93.59854888916016,
-          "layer": "e",
-          "name": "NewTiledSprite",
-          "persistentUuid": "4cd569bf-f48b-4a0e-b506-e0a037c72359",
-          "width": 700.840087890625,
-          "x": 242.78067016601562,
-          "y": 322.7806701660156,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 99,
-          "layer": "e",
-          "name": "NewTiledSprite",
-          "persistentUuid": "5711624d-cc68-44f1-98fd-5305f09a9fa7",
-          "width": 324.0528259277344,
-          "x": 551.171875,
-          "y": 620,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 90,
-          "customSize": true,
-          "height": 91.28248596191406,
-          "layer": "e",
-          "name": "NewTiledSprite",
-          "persistentUuid": "57a49b17-6741-4eef-affd-c041cd5c2c59",
-          "width": 404,
-          "x": 628.9127807617188,
-          "y": 472.3587646484375,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 100,
-          "layer": "e",
-          "name": "NewTiledSprite",
-          "persistentUuid": "7915c95a-e691-4a38-8e4c-a44b418730bf",
-          "width": 339.0633544921875,
-          "x": 824.9366455078125,
-          "y": 316,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "layer": "",
           "name": "Spawner",
           "persistentUuid": "3f6f4e18-0c68-4997-bc33-99385d0650d0",
           "width": 0,
-          "x": -59,
-          "y": 364,
+          "x": -82,
+          "y": 413,
           "zOrder": 10,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 6,
-          "layer": "Path layer",
-          "name": "Wall",
-          "persistentUuid": "faa11e91-cca6-4a01-ae3c-926cadf20df2",
-          "width": 368,
-          "x": -1,
-          "y": 423,
-          "zOrder": 12,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 102,
-          "layer": "",
-          "name": "Wall",
-          "persistentUuid": "99895c67-a0d2-4488-a224-8efcda5ed042",
-          "width": 1,
-          "x": -1,
-          "y": 347,
-          "zOrder": 13,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 6,
-          "layer": "Path layer",
-          "name": "Wall",
-          "persistentUuid": "665291a8-196a-4a1b-ad51-715362912c14",
-          "width": 282,
-          "x": -1,
-          "y": 347,
-          "zOrder": 14,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 349,
-          "layer": "Path layer",
-          "name": "Wall",
-          "persistentUuid": "9450f3ae-df3e-4784-8d65-18abca4d2340",
-          "width": 6,
-          "x": 275,
-          "y": -1,
-          "zOrder": 15,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 6,
-          "layer": "Path layer",
-          "name": "Wall",
-          "persistentUuid": "b261666d-8133-4133-8f3a-2be156fef186",
-          "width": 366,
-          "x": 275,
-          "y": -1,
-          "zOrder": 16,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 502,
-          "layer": "Path layer",
-          "name": "Wall",
-          "persistentUuid": "0e6af665-174a-4369-8b78-ec156964de28",
-          "width": 6,
-          "x": 611,
-          "y": 0,
-          "zOrder": 17,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 6,
-          "layer": "Path layer",
-          "name": "Wall",
-          "persistentUuid": "1b6c7f89-efe0-4b67-bca6-e6fa45ced7a2",
-          "width": 179,
-          "x": 629,
-          "y": 618,
-          "zOrder": 18,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 310,
-          "layer": "Path layer",
-          "name": "Wall",
-          "persistentUuid": "66c468b2-4229-4d94-830a-9c4add619af2",
-          "width": 43,
-          "x": 777,
-          "y": 313,
-          "zOrder": 19,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 6,
-          "layer": "Path layer",
-          "name": "Wall",
-          "persistentUuid": "667f0791-cf72-4195-9e75-00c86c2e714a",
-          "width": 186,
-          "x": 785,
-          "y": 315,
-          "zOrder": 20,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 6,
-          "layer": "Path layer",
-          "name": "Wall",
-          "persistentUuid": "2018060c-da3c-4bbf-91eb-5422dc605164",
-          "width": 85,
-          "x": 880,
-          "y": 391,
-          "zOrder": 21,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 320,
-          "layer": "Path layer",
-          "name": "Wall",
-          "persistentUuid": "51132ab6-68d7-4be2-9422-910ea1611664",
-          "width": 7,
-          "x": 880,
-          "y": 391,
-          "zOrder": 22,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 6,
-          "layer": "Path layer",
-          "name": "Wall",
-          "persistentUuid": "58e8e833-e134-4954-ac55-930a2a10ec40",
-          "width": 331,
-          "x": 547,
-          "y": 720,
-          "zOrder": 23,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 635,
-          "layer": "Path layer",
-          "name": "Wall",
-          "persistentUuid": "bc652c1a-457d-4fb5-a856-79bae5eefaa3",
-          "width": 6,
-          "x": 541,
-          "y": 81,
-          "zOrder": 24,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 6,
-          "layer": "Path layer",
-          "name": "Wall",
-          "persistentUuid": "a7ce8de9-c770-49ab-98cd-0052e4da695b",
-          "width": 205,
-          "x": 342,
-          "y": 80,
-          "zOrder": 25,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 367,
-          "layer": "Path layer",
-          "name": "Wall",
-          "persistentUuid": "c1bbf26c-68d8-4295-b057-00446569c702",
-          "width": 29,
-          "x": 341,
-          "y": 82,
-          "zOrder": 26,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 6,
-          "layer": "Path layer",
-          "name": "Wall",
-          "persistentUuid": "a917b0b6-8a07-42ec-8593-4501ab6b4069",
-          "width": 282,
-          "x": -1,
-          "y": 347,
-          "zOrder": 14,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 6,
-          "layer": "Path layer",
-          "name": "Wall",
-          "persistentUuid": "cf9cf9d1-f5c3-43d1-83b6-19affce7c7ce",
-          "width": 282,
-          "x": -1,
-          "y": 347,
-          "zOrder": 14,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 720,
-          "layer": "e",
-          "name": "Grass",
-          "persistentUuid": "3dd96e32-86f7-4aff-a541-3e9a02254620",
-          "width": 1289,
-          "x": 0,
-          "y": 0,
-          "zOrder": 5,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 24,
-          "layer": "Path layer",
-          "name": "Wall",
-          "persistentUuid": "e2527d00-94d6-48ed-8e03-92f36494a3ea",
-          "width": 380,
-          "x": 263,
-          "y": -3,
-          "zOrder": 18,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 623,
-          "layer": "Path layer",
-          "name": "Wall",
-          "persistentUuid": "306dd9c2-8759-4b93-9785-079b2e897ae3",
-          "width": 43,
-          "x": 607,
-          "y": -2,
-          "zOrder": 19,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 42,
-          "layer": "",
-          "name": "ShopButton",
-          "persistentUuid": "0b066aae-c9e2-43fc-a459-95d873e447f6",
-          "width": 42,
-          "x": 1237,
-          "y": 0,
-          "zOrder": 27,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2729,24 +2464,9 @@
           "name": "GoldIcon",
           "persistentUuid": "10888e97-e624-4560-831c-38c81559fa72",
           "width": 49,
-          "x": 1008,
-          "y": -2,
-          "zOrder": 28,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 46,
-          "layer": "",
-          "name": "GoldAmount",
-          "persistentUuid": "d0f2f3fd-da03-4cbd-9f95-1eba12696a42",
-          "width": 168,
-          "x": 1066,
-          "y": -3,
-          "zOrder": 29,
+          "x": 249,
+          "y": 28,
+          "zOrder": 1001,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2759,9 +2479,100 @@
           "name": "CommunitySupportIcon",
           "persistentUuid": "076b6e70-28cb-4aec-a0bc-45e8eb91dbec",
           "width": 64,
-          "x": 839,
-          "y": -7.806060791015625,
-          "zOrder": 30,
+          "x": 445,
+          "y": 18,
+          "zOrder": 1002,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 100,
+          "layer": "",
+          "name": "EventBacking",
+          "persistentUuid": "c4bce853-f0db-48c9-be4c-3f0fabfcae91",
+          "width": 240,
+          "x": 0,
+          "y": 0,
+          "zOrder": 1000,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 201,
+          "layer": "",
+          "name": "Base",
+          "persistentUuid": "0ca702d7-6557-4c23-91cc-2ae4930d2a30",
+          "width": 294,
+          "x": 1279,
+          "y": 513,
+          "zOrder": 34,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 100,
+          "layer": "",
+          "name": "EventBacking",
+          "persistentUuid": "fc328bc0-fbd2-43e5-b144-46e5199bc11b",
+          "width": 354,
+          "x": 232,
+          "y": 0,
+          "zOrder": 999,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "CurrentEvent",
+          "persistentUuid": "f33a1ab4-5ad0-40a5-af36-000276599de0",
+          "width": 0,
+          "x": 24,
+          "y": 24,
+          "zOrder": 1001,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1080,
+          "layer": "",
+          "locked": true,
+          "name": "Grass",
+          "persistentUuid": "be5efc4d-3548-47be-be4a-959df00478ee",
+          "width": 1620,
+          "x": 0,
+          "y": 0,
+          "zOrder": -1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "GoldAmount",
+          "persistentUuid": "b673cab7-f629-4add-9702-6489e8925f7b",
+          "width": 0,
+          "x": 303,
+          "y": 27,
+          "zOrder": 1002,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2772,11 +2583,71 @@
           "height": 0,
           "layer": "",
           "name": "CommSupportAmt",
-          "persistentUuid": "40e675dd-2de0-4e8b-8a5d-64ab6971bcc1",
+          "persistentUuid": "a1f98c25-2e8c-485a-8d25-ec342096c116",
           "width": 0,
-          "x": 909,
-          "y": -2,
-          "zOrder": 31,
+          "x": 517,
+          "y": 26,
+          "zOrder": 1003,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 100,
+          "layer": "",
+          "name": "DescBacking",
+          "persistentUuid": "737afe40-854b-4b45-ad00-e41112e72150",
+          "width": 1044,
+          "x": 578,
+          "y": 0,
+          "zOrder": 1004,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 92,
+          "layer": "",
+          "name": "ShopButton",
+          "persistentUuid": "709b8a61-8c19-4c57-96d6-626b4a6527df",
+          "width": 83.90399932861328,
+          "x": 1511.095947265625,
+          "y": 6,
+          "zOrder": 1005,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "SelectedText",
+          "persistentUuid": "889c3b43-b6c0-4f44-b000-70dd1726ccf8",
+          "width": 0,
+          "x": 603,
+          "y": 15,
+          "zOrder": 1006,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "SelectedDesc",
+          "persistentUuid": "ce1b61ee-ffd3-4566-bb31-7953d0605931",
+          "width": 0,
+          "x": 600,
+          "y": 45,
+          "zOrder": 1007,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2787,17 +2658,157 @@
           "height": 0,
           "layer": "",
           "name": "TowerCap",
-          "persistentUuid": "bb768df3-d981-45cc-9c1a-fb2443ee261c",
+          "persistentUuid": "94514a7b-20b5-4587-b50d-00732f7e3593",
           "width": 0,
-          "x": 841,
-          "y": 58,
-          "zOrder": 32,
+          "x": 23,
+          "y": 116,
+          "zOrder": 1008,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 345,
+          "layer": "",
+          "name": "ShopBacking",
+          "persistentUuid": "ba8e758c-eeac-4a7f-855d-41ead8f2a139",
+          "width": 500,
+          "x": 1105,
+          "y": 120,
+          "zOrder": 1009,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Debug",
+          "persistentUuid": "2814baa5-86b7-4f60-b008-69a0f059c8d0",
+          "width": 0,
+          "x": 1447,
+          "y": 986,
+          "zOrder": 1010,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "name": "PsychologicalShopTab",
+          "persistentUuid": "23cec43a-3293-4249-a9fd-fb10c68d5cb5",
+          "width": 150,
+          "x": 1120,
+          "y": 130,
+          "zOrder": 1012,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "name": "SocialShopTab",
+          "persistentUuid": "5a353b49-2fc3-4d03-8195-7dfb38323c9e",
+          "width": 150,
+          "x": 1120,
+          "y": 185,
+          "zOrder": 1013,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "name": "EconomicShopTab",
+          "persistentUuid": "756bf131-e36e-4b4b-9298-e950b8c1ef36",
+          "width": 150,
+          "x": 1120,
+          "y": 240,
+          "zOrder": 1014,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "name": "MilitaryShopTab",
+          "persistentUuid": "bf966c87-4020-4a69-ac07-2e3e416726d2",
+          "width": 150,
+          "x": 1120,
+          "y": 295,
+          "zOrder": 1015,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "name": "CivilShopTab",
+          "persistentUuid": "6117c18e-50a4-4ead-954b-c1158e30ff97",
+          "width": 150,
+          "x": 1120,
+          "y": 350,
+          "zOrder": 1016,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "name": "DigitalShopTab",
+          "persistentUuid": "e270ae37-1caf-45a8-b453-d2e11a5c7e48",
+          "width": 150,
+          "x": 1120,
+          "y": 405,
+          "zOrder": 1017,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         }
       ],
       "objects": [
+        {
+          "assetStoreId": "",
+          "name": "Debug",
+          "tags": "",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "Debug",
+            "opacity": 255,
+            "scale": 1,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "assets\\fonts\\AlbaSlab\\36px\\Alba Slab 36px.fnt",
+            "textureAtlasResourceName": "assets\\fonts\\AlbaSlab\\36px\\Alba Slab 36px.png",
+            "align": "left",
+            "wordWrap": true
+          }
+        },
         {
           "assetStoreId": "d535138462917dacb3b94d45a134969fe3a24363dc39d6c728b43e418e40deb1",
           "name": "Base",
@@ -2813,7 +2824,36 @@
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": true,
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites\\Maps\\SAM.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
                   "timeBetweenFrames": 0.02500000037252903,
                   "sprites": [
                     {
@@ -2832,114 +2872,6 @@
                         "y": 0
                       },
                       "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "assetStoreId": "bbf7459ada96b9db272619c9d7a0c51152abc1bac7b13e9e2b1efb1aa0e10ec3",
-          "name": "SnowMan",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [
-            {
-              "folded": true,
-              "name": "Speed",
-              "type": "number",
-              "value": 100
-            },
-            {
-              "folded": true,
-              "name": "Health",
-              "type": "number",
-              "value": 1000
-            },
-            {
-              "folded": true,
-              "name": "HasHealthBar",
-              "type": "boolean",
-              "value": false
-            }
-          ],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Enemy2",
-              "type": "TDTD::EnemyV2",
-              "Pathfinder": "Pathfinding",
-              "TargetX": 1020,
-              "TargetY": 340
-            },
-            {
-              "name": "Pathfinding",
-              "type": "PathfindingBehavior::PathfindingBehavior",
-              "acceleration": 10000000000,
-              "allowDiagonals": true,
-              "angleOffset": 0,
-              "angularMaxSpeed": 180,
-              "cellHeight": 20,
-              "cellWidth": 20,
-              "extraBorder": 0,
-              "gridOffsetX": 0,
-              "gridOffsetY": 0,
-              "maxSpeed": 200,
-              "rotateObject": true
-            }
-          ],
-          "animations": [
-            {
-              "name": "SnowMan",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.02500000037252903,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\SnowMan-1-2.png",
-                      "points": [
-                        {
-                          "name": "HealthBarPoint",
-                          "x": 51.403499603271484,
-                          "y": -15.473684310913086
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 51.40351486206055,
-                        "y": 78.28070831298828
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 108
-                          },
-                          {
-                            "x": 100,
-                            "y": 108
-                          },
-                          {
-                            "x": 100,
-                            "y": 0
-                          }
-                        ]
-                      ]
                     }
                   ]
                 }
@@ -4716,59 +4648,6 @@
         },
         {
           "assetStoreId": "",
-          "name": "ShopButton",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Button",
-              "type": "TDTD::Button",
-              "Property": "Tween",
-              "NormalScale": 0.35,
-              "SmallScale": 0.3
-            },
-            {
-              "name": "Tween",
-              "type": "Tween::TweenBehavior"
-            }
-          ],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\Buy.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "assetStoreId": "",
           "name": "SpawnBox",
           "tags": "",
           "type": "Sprite",
@@ -4836,27 +4715,6 @@
               ]
             }
           ]
-        },
-        {
-          "assetStoreId": "",
-          "bold": false,
-          "italic": false,
-          "name": "TowerCap",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "string": "Towers Placed: 0/6",
-          "font": "assets\\AlfaSlabOne-Regular.ttf",
-          "characterSize": 35,
-          "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
-          }
         },
         {
           "assetStoreId": "",
@@ -5090,24 +4948,560 @@
         },
         {
           "assetStoreId": "",
-          "bold": false,
-          "italic": false,
-          "name": "debug",
-          "smoothed": true,
+          "name": "EventBacking",
           "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
+          "type": "Sprite",
+          "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "debug string",
-          "font": "",
-          "characterSize": 20,
-          "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites\\UI\\White-Grey-TextBacking.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "CurrentEvent",
+          "tags": "",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "Current Event:\nNone",
+            "opacity": 255,
+            "scale": 1,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "assets\\fonts\\AlbaSlab\\24px\\Alba Slab 24px.fnt",
+            "textureAtlasResourceName": "assets\\fonts\\AlbaSlab\\24px\\Alba Slab 24px.png",
+            "align": "center",
+            "wordWrap": true
           }
+        },
+        {
+          "assetStoreId": "",
+          "name": "DescBacking",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites\\UI\\White-Grey-TextBacking.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "SelectedText",
+          "tags": "",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "Selected: None",
+            "opacity": 255,
+            "scale": 1,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "assets\\fonts\\AlbaSlab\\24px\\Alba Slab 24px.fnt",
+            "textureAtlasResourceName": "assets\\fonts\\AlbaSlab\\24px\\Alba Slab 24px.png",
+            "align": "left",
+            "wordWrap": true
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "SelectedDesc",
+          "tags": "",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "Select a Tower for more actions",
+            "opacity": 255,
+            "scale": 1,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "assets\\fonts\\Kanit\\16px\\Kanit-16.fnt",
+            "textureAtlasResourceName": "assets\\fonts\\Kanit\\16px\\Kanit-16.png",
+            "align": "left",
+            "wordWrap": true
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "ShopButton",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Button",
+              "type": "TDTD::Button",
+              "Property": "Tween",
+              "NormalScale": 0.75,
+              "SmallScale": 0.65
+            },
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\Buy.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "ShopBacking",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites\\UI\\White-Grey-TextBacking.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "TowerCap",
+          "tags": "",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "Towers Placed: 0/6",
+            "opacity": 255,
+            "scale": 1,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "assets\\fonts\\AlbaSlab\\36px\\Alba Slab 36px.fnt",
+            "textureAtlasResourceName": "assets\\fonts\\AlbaSlab\\36px\\Alba Slab 36px.png",
+            "align": "left",
+            "wordWrap": true
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "test",
+          "tags": "",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "Psychological",
+            "opacity": 255,
+            "scale": 1,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "assets\\fonts\\Kanit\\16px\\Kanit-16.fnt",
+            "textureAtlasResourceName": "assets\\fonts\\Kanit\\16px\\Kanit-16.png",
+            "align": "left",
+            "wordWrap": true
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "PsychologicalShopTab",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites\\UI\\Shop-Psychological.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "SocialShopTab",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites\\UI\\Shop-Social.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "EconomicShopTab",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites\\UI\\Shop-Economic.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "MilitaryShopTab",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites\\UI\\Shop-Military.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "CivilShopTab",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites\\UI\\Shop-Civil.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "DigitalShopTab",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites\\UI\\Shop-Digital.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -5116,7 +5510,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "name": "Setup Vars",
+          "name": "Initialization",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
@@ -5141,174 +5535,482 @@
                   ]
                 }
               ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Game Settings",
+                  "comment2": ""
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetFullScreen"
+                      },
+                      "parameters": [
+                        "",
+                        "yes",
+                        "yes"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Tower Costs",
+                  "comment2": ""
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetGlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "GameStarted",
+                        "True"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "CheerleaderCost",
+                        "=",
+                        "150\n"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "CheerleaderUpgCost",
+                        "=",
+                        "GlobalVariable(CheerleaderCost)*1.5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "VolunteerCost",
+                        "=",
+                        "80"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "VolunteerUpgCost",
+                        "=",
+                        "GlobalVariable(VolunteerCost)*1.5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "EducatorCost",
+                        "=",
+                        "500"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "EducatorUpgCost",
+                        "=",
+                        "GlobalVariable(EducatorCost)*1.5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "ReskillCost",
+                        "=",
+                        "120"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "ReskillUpgCost",
+                        "=",
+                        "GlobalVariable(ReskillCost)*1.5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "SoldierCost",
+                        "=",
+                        "100"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "SoldierUpgCost",
+                        "=",
+                        "GlobalVariable(SoldierCost)*1.5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "FirefighterCost",
+                        "=",
+                        "100"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "FirefighterUpgCost",
+                        "=",
+                        "GlobalVariable(FirefighterCost)*1.5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "WhiteHatCost",
+                        "=",
+                        "60"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "WhiteHatUpgCost",
+                        "=",
+                        "GlobalVariable(WhiteHatCost)*1.5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "Tier2Cost",
+                        "=",
+                        "5\n"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Map Specific Variables",
+                  "comment2": ""
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "Spawner",
+                        "\"SpawnerClock\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "Spawner",
+                        "SpawnTime",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Set Player Variables",
+                  "comment2": ""
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "playerGold",
+                        "=",
+                        "10000\n"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "UnlockedTier",
+                        "=",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "CommSupportAmt",
+                        "=",
+                        "5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "PlacedTowers",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "MaxTowers",
+                        "=",
+                        "6\n"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "UI",
+                  "comment2": ""
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ChangeColor"
+                      },
+                      "parameters": [
+                        "DescBacking",
+                        "\"184;233;134\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "MettreX"
+                      },
+                      "parameters": [
+                        "ShopBacking",
+                        "=",
+                        "1700"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "MettreX"
+                      },
+                      "parameters": [
+                        "ShopTabs",
+                        "=",
+                        "1700"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarSceneTxt"
+                      },
+                      "parameters": [
+                        "ShopPillar",
+                        "=",
+                        "\"Psychological\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetSceneVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "ShopIsOpen",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Continuous Events",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Update Currencies",
+              "comment2": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
               "actions": [
                 {
                   "type": {
-                    "value": "SetFullScreen"
+                    "value": "BitmapText::BitmapTextObject::SetText"
+                  },
+                  "parameters": [
+                    "GoldAmount",
+                    "=",
+                    "ToString(GlobalVariable(playerGold))"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Enemy Spawning",
+              "comment2": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareObjectTimer"
+                  },
+                  "parameters": [
+                    "Spawner",
+                    "\"SpawnerClock\"",
+                    ">",
+                    "Spawner.Variable(SpawnTime)"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
                   },
                   "parameters": [
                     "",
-                    "yes",
-                    "yes"
+                    "Skeleton",
+                    "100",
+                    "360",
+                    "\"\""
                   ]
                 },
                 {
                   "type": {
-                    "value": "SetGlobalVariableAsBoolean"
+                    "value": "ChangeAnimation"
                   },
                   "parameters": [
-                    "GameStarted",
-                    "True"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "CheerleaderCost",
+                    "Skeleton",
                     "=",
-                    "150\n"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "CheerleaderUpgCost",
-                    "=",
-                    "GlobalVariable(CheerleaderCost)*1.5"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "VolunteerCost",
-                    "=",
-                    "80"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "VolunteerUpgCost",
-                    "=",
-                    "GlobalVariable(VolunteerCost)*1.5"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "EducatorCost",
-                    "=",
-                    "500"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "EducatorUpgCost",
-                    "=",
-                    "GlobalVariable(EducatorCost)*1.5"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "ReskillCost",
-                    "=",
-                    "120"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "ReskillUpgCost",
-                    "=",
-                    "GlobalVariable(ReskillCost)*1.5"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "SoldierCost",
-                    "=",
-                    "100"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "SoldierUpgCost",
-                    "=",
-                    "GlobalVariable(SoldierCost)*1.5"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "FirefighterCost",
-                    "=",
-                    "100"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "FirefighterUpgCost",
-                    "=",
-                    "GlobalVariable(FirefighterCost)*1.5"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "WhiteHatCost",
-                    "=",
-                    "60"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "WhiteHatUpgCost",
-                    "=",
-                    "GlobalVariable(WhiteHatCost)*1.5"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "Tier2Cost",
-                    "=",
-                    "5\n"
+                    "8"
                   ]
                 },
                 {
@@ -5328,298 +6030,92 @@
                     "Spawner",
                     "SpawnTime",
                     "=",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ActivateBehavior"
-                  },
-                  "parameters": [
-                    "Soldier",
-                    "Tower2",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ActivateBehavior"
-                  },
-                  "parameters": [
-                    "SoldierProjectile",
-                    "Projectile2",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ActivateBehavior"
-                  },
-                  "parameters": [
-                    "Firefighter",
-                    "TowerV2",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ActivateBehavior"
-                  },
-                  "parameters": [
-                    "FirefighterProjectile",
-                    "ProjectileV2",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ActivateBehavior"
-                  },
-                  "parameters": [
-                    "WhiteHat",
-                    "TowerV2",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ActivateBehavior"
-                  },
-                  "parameters": [
-                    "WhiteHatProjectile",
-                    "ProjectileV2",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "playerGold",
-                    "=",
-                    "10000\n"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "CommSupportAmt",
-                    "=",
-                    "5"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "UnlockedTier",
-                    "=",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "PlacedTowers",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "MaxTowers",
-                    "=",
-                    "6\n"
+                    "0.2"
                   ]
                 }
               ]
             },
             {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Debug",
+              "comment2": ""
+            },
+            {
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
+              "conditions": [
+                {
+                  "type": {
+                    "value": "MouseButtonPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Right"
+                  ]
+                }
+              ],
               "actions": [
                 {
                   "type": {
-                    "value": "TextObject::String"
+                    "value": "Create"
                   },
                   "parameters": [
-                    "GoldAmount",
-                    "=",
-                    "ToString(GlobalVariable(playerGold))"
+                    "",
+                    "Officer",
+                    "MouseX()",
+                    "MouseY()",
+                    ""
                   ]
                 },
                 {
                   "type": {
-                    "value": "TextObject::String"
+                    "value": "ChangeScale"
                   },
                   "parameters": [
-                    "CommSupportAmt",
+                    "Officer",
                     "=",
-                    "ToString(GlobalVariable(CommSupportAmt))"
+                    "0.8"
                   ]
                 }
               ]
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": []
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": []
+              "conditions": [
+                {
+                  "type": {
+                    "value": "MouseButtonPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Middle"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Cheerleader",
+                    "MouseX()",
+                    "MouseY()",
+                    ""
+                  ]
+                }
+              ]
             }
           ],
           "parameters": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Enemy Spawning",
-          "comment2": ""
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareObjectTimer"
-              },
-              "parameters": [
-                "Spawner",
-                "\"SpawnerClock\"",
-                ">",
-                "Spawner.Variable(SpawnTime)"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "Skeleton",
-                "100",
-                "360",
-                "\"\""
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangeAnimation"
-              },
-              "parameters": [
-                "Skeleton",
-                "=",
-                "8"
-              ]
-            },
-            {
-              "type": {
-                "value": "ResetObjectTimer"
-              },
-              "parameters": [
-                "Spawner",
-                "\"SpawnerClock\""
-              ]
-            },
-            {
-              "type": {
-                "value": "ModVarObjet"
-              },
-              "parameters": [
-                "Spawner",
-                "SpawnTime",
-                "=",
-                "0.2"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "MouseButtonPressed"
-              },
-              "parameters": [
-                "",
-                "Right"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "Officer",
-                "MouseX()",
-                "MouseY()",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangeScale"
-              },
-              "parameters": [
-                "Officer",
-                "=",
-                "0.8"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "MouseButtonPressed"
-              },
-              "parameters": [
-                "",
-                "Middle"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "Cheerleader",
-                "MouseX()",
-                "MouseY()",
-                ""
-              ]
-            }
-          ]
         },
         {
           "colorB": 228,
@@ -6481,16 +6977,6 @@
                     },
                     {
                       "type": {
-                        "value": "TextObject::String"
-                      },
-                      "parameters": [
-                        "debug",
-                        "=",
-                        "\"\""
-                      ]
-                    },
-                    {
-                      "type": {
                         "value": "ModVarSceneTxt"
                       },
                       "parameters": [
@@ -6505,18 +6991,7 @@
                       "type": "BuiltinCommonInstructions::ForEach",
                       "object": "Towers",
                       "conditions": [],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "TextObject::String"
-                          },
-                          "parameters": [
-                            "debug",
-                            "+",
-                            "ToString(round(Towers.DistanceToPosition(Variable(VolunteerX),Variable(VolunteerY)))) + \" \""
-                          ]
-                        }
-                      ],
+                      "actions": [],
                       "events": [
                         {
                           "type": "BuiltinCommonInstructions::Standard",
@@ -6551,16 +7026,6 @@
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [],
                       "actions": [
-                        {
-                          "type": {
-                            "value": "TextObject::String"
-                          },
-                          "parameters": [
-                            "debug",
-                            "+",
-                            "VariableString(VolunteerPillars)"
-                          ]
-                        },
                         {
                           "type": {
                             "value": "ModVarObjetTxt"
@@ -6898,6 +7363,19 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Shop Open/Close",
+              "comment2": ""
+            },
+            {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -6924,14 +7402,391 @@
               "actions": [
                 {
                   "type": {
-                    "value": "PushScene"
+                    "value": "SetObjectVariableAsBoolean"
                   },
                   "parameters": [
-                    "",
-                    "\"Shop\""
+                    "ShopBacking",
+                    "doElse",
+                    "True"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "SceneVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "ShopIsOpen",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Tween::StopTween"
+                      },
+                      "parameters": [
+                        "ShopBacking",
+                        "Tween",
+                        "\"ShopSlideIn\"",
+                        "no"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::StopTween"
+                      },
+                      "parameters": [
+                        "ShopTabs",
+                        "Tween",
+                        "\"ShopSlideIn\"",
+                        "no"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::RemoveTween"
+                      },
+                      "parameters": [
+                        "ShopBacking",
+                        "Tween",
+                        "\"ShopSlideIn\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::RemoveTween"
+                      },
+                      "parameters": [
+                        "ShopTabs",
+                        "Tween",
+                        "\"ShopSlideIn\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::AddObjectPositionXTween"
+                      },
+                      "parameters": [
+                        "ShopBacking",
+                        "Tween",
+                        "\"ShopSlideOut\"",
+                        "1700",
+                        "\"easeInOutQuad\"",
+                        "300",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::AddObjectPositionXTween"
+                      },
+                      "parameters": [
+                        "ShopTabs",
+                        "Tween",
+                        "\"ShopSlideOut\"",
+                        "1700",
+                        "\"easeInOutQuad\"",
+                        "300",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetSceneVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "ShopIsOpen",
+                        "False"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "ShopBacking",
+                        "doElse",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "ShopBacking",
+                        "doElse",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Tween::StopTween"
+                      },
+                      "parameters": [
+                        "ShopBacking",
+                        "Tween",
+                        "\"ShopSlideOut\"",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::StopTween"
+                      },
+                      "parameters": [
+                        "ShopTabs",
+                        "Tween",
+                        "\"ShopSlideOut\"",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::RemoveTween"
+                      },
+                      "parameters": [
+                        "ShopBacking",
+                        "Tween",
+                        "\"ShopSlideOut\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::RemoveTween"
+                      },
+                      "parameters": [
+                        "ShopTabs",
+                        "Tween",
+                        "\"ShopSlideOut\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::AddObjectPositionXTween"
+                      },
+                      "parameters": [
+                        "ShopBacking",
+                        "Tween",
+                        "\"ShopSlideIn\"",
+                        "1105",
+                        "\"easeInOutQuad\"",
+                        "300",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::AddObjectPositionXTween"
+                      },
+                      "parameters": [
+                        "ShopTabs",
+                        "Tween",
+                        "\"ShopSlideIn\"",
+                        "1120",
+                        "\"easeInOutQuad\"",
+                        "300",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetSceneVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "ShopIsOpen",
+                        "True"
+                      ]
+                    }
                   ]
                 }
               ]
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "Tint Shop Backing",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarSceneTxt"
+                      },
+                      "parameters": [
+                        "ShopPillar",
+                        "=",
+                        "\"Psychological\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ChangeColor"
+                      },
+                      "parameters": [
+                        "ShopBacking",
+                        "\"255;191;191\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarSceneTxt"
+                      },
+                      "parameters": [
+                        "ShopPillar",
+                        "=",
+                        "\"Social\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ChangeColor"
+                      },
+                      "parameters": [
+                        "ShopBacking",
+                        "\"250;221;172\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarSceneTxt"
+                      },
+                      "parameters": [
+                        "ShopPillar",
+                        "=",
+                        "\"Economic\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ChangeColor"
+                      },
+                      "parameters": [
+                        "ShopBacking",
+                        "\"255;254;191\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarSceneTxt"
+                      },
+                      "parameters": [
+                        "ShopPillar",
+                        "=",
+                        "\"Military\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ChangeColor"
+                      },
+                      "parameters": [
+                        "ShopBacking",
+                        "\"198;255;191\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarSceneTxt"
+                      },
+                      "parameters": [
+                        "ShopPillar",
+                        "=",
+                        "\"Civil\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ChangeColor"
+                      },
+                      "parameters": [
+                        "ShopBacking",
+                        "\"191;206;255\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarSceneTxt"
+                      },
+                      "parameters": [
+                        "ShopPillar",
+                        "=",
+                        "\"Digital\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ChangeColor"
+                      },
+                      "parameters": [
+                        "ShopBacking",
+                        "\"202;202;202\""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
             }
           ],
           "parameters": []
@@ -6998,10 +7853,6 @@
         {
           "name": "Button",
           "type": "TDTD::Button"
-        },
-        {
-          "name": "Enemy2",
-          "type": "TDTD::EnemyV2"
         },
         {
           "name": "EnemyV2",
@@ -8089,21 +8940,6 @@
           "x": 1076,
           "y": 680,
           "zOrder": 28,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 21,
-          "layer": "",
-          "name": "GoldAmount",
-          "persistentUuid": "7c8f366c-94b4-4064-bbaf-4dc6db3e455d",
-          "width": 119,
-          "x": 1119,
-          "y": 676,
-          "zOrder": 29,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -13034,21 +13870,93 @@
                       ]
                     }
                   ],
-                  "actions": [
+                  "actions": [],
+                  "events": [
                     {
-                      "type": {
-                        "value": "Tween::AddObjectScaleTween"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Property",
-                        "\"OnHoverTween\"",
-                        "Object.Behavior::PropertySmallScale()",
-                        "Object.Behavior::PropertySmallScale()",
-                        "\"easeInOutQuad\"",
-                        "50",
-                        "",
-                        "yes"
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "Tween::Exists"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Property",
+                            "\"AfterHoverTween\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::HasFinished"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Property",
+                            "\"AfterHoverTween\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Tween::RemoveTween"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Property",
+                            "\"AfterHoverTween\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::AddObjectScaleTween"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Property",
+                            "\"OnHoverTween\"",
+                            "Object.Behavior::PropertySmallScale()",
+                            "Object.Behavior::PropertySmallScale()",
+                            "\"easeInOutQuad\"",
+                            "50",
+                            "",
+                            "yes"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "Tween::Exists"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Property",
+                            "\"AfterHoverTween\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Tween::AddObjectScaleTween"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Property",
+                            "\"OnHoverTween\"",
+                            "Object.Behavior::PropertySmallScale()",
+                            "Object.Behavior::PropertySmallScale()",
+                            "\"easeInOutQuad\"",
+                            "50",
+                            "",
+                            "yes"
+                          ]
+                        }
                       ]
                     }
                   ]
@@ -13066,16 +13974,6 @@
                         "",
                         "no",
                         ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Tween::Exists"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Property",
-                        "\"OnHoverTween\""
                       ]
                     }
                   ],
@@ -13101,7 +13999,7 @@
                         "Object.Behavior::PropertyNormalScale()",
                         "Object.Behavior::PropertyNormalScale()",
                         "\"easeInOutQuad\"",
-                        "100",
+                        "50",
                         "",
                         "yes"
                       ]
