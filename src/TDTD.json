@@ -7,14 +7,14 @@
     "revision": 0
   },
   "properties": {
-    "adaptGameResolutionAtRuntime": false,
+    "adaptGameResolutionAtRuntime": true,
     "folderProject": false,
     "orientation": "landscape",
     "packageName": "com.example.tdtd",
     "pixelsRounding": false,
     "projectUuid": "4e868a4d-1670-4dc6-88f0-fcd573617e77",
     "scaleMode": "linear",
-    "sizeOnStartupMode": "adaptWidth",
+    "sizeOnStartupMode": "",
     "templateSlug": "",
     "useExternalSourceFiles": false,
     "version": "0.1.0",
@@ -23,7 +23,7 @@
     "author": "SidGaming",
     "windowWidth": 1620,
     "windowHeight": 1080,
-    "latestCompilationDirectory": "C:\\Users\\wongy\\Desktop",
+    "latestCompilationDirectory": "C:\\Users\\wongy\\Desktop\\TDTD-Build",
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
@@ -90,39 +90,12 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "Untitled-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Untitled-1.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "e-1-0.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "e-1-0.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "NewFile-1-4.png",
         "kind": "image",
         "metadata": "",
         "name": "NewFile-1-4.png",
         "smoothed": true,
         "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/SnowMan-1-2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\SnowMan-1-2.png",
-        "smoothed": true,
-        "userAdded": true
       },
       {
         "alwaysLoaded": false,
@@ -220,15 +193,6 @@
         "kind": "image",
         "metadata": "",
         "name": "HealthBar-1-9.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewSprite-1-9.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewSprite-1-9.png",
         "smoothed": true,
         "userAdded": true
       },
@@ -376,695 +340,10 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Skeleton_Bone Pile Wakeup_1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Skeleton_Bone Pile Wakeup_1.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Bone Pile Wakeup_1.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Skeleton_Bone Pile Wakeup_2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Skeleton_Bone Pile Wakeup_2.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Bone Pile Wakeup_2.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Skeleton_Bone Pile Wakeup_3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Skeleton_Bone Pile Wakeup_3.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Bone Pile Wakeup_3.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Skeleton_Bone Pile Wakeup_4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Skeleton_Bone Pile Wakeup_4.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Bone Pile Wakeup_4.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Skeleton_Bone Pile Wakeup_5.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Skeleton_Bone Pile Wakeup_5.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Bone Pile Wakeup_5.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Skeleton_Bone Pile Wakeup_6.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Skeleton_Bone Pile Wakeup_6.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Bone Pile Wakeup_6.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Skeleton_Bone Pile Wakeup_7.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Skeleton_Bone Pile Wakeup_7.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Bone Pile Wakeup_7.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Skeleton_Bone Pile.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Skeleton_Bone Pile.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Bone Pile.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Skeleton_Bone Toss_1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Skeleton_Bone Toss_1.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Bone Toss_1.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Skeleton_Bone Toss_2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Skeleton_Bone Toss_2.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Bone Toss_2.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Skeleton_Bone Toss_3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Skeleton_Bone Toss_3.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Bone Toss_3.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Skeleton_Bone Toss_4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Skeleton_Bone Toss_4.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Bone Toss_4.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Skeleton_Bone Toss_5.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Skeleton_Bone Toss_5.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Bone Toss_5.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Skeleton_Crumbling Into Bone Pile_1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Skeleton_Crumbling Into Bone Pile_1.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Crumbling Into Bone Pile_1.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Skeleton_Crumbling Into Bone Pile_2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Skeleton_Crumbling Into Bone Pile_2.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Crumbling Into Bone Pile_2.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Skeleton_Crumbling Into Bone Pile_3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Skeleton_Crumbling Into Bone Pile_3.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Crumbling Into Bone Pile_3.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Skeleton_Crumbling Into Bone Pile_4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Skeleton_Crumbling Into Bone Pile_4.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Crumbling Into Bone Pile_4.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Skeleton_Crumbling Into Bone Pile_5.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Skeleton_Crumbling Into Bone Pile_5.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Crumbling Into Bone Pile_5.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Skeleton_Crumbling Into Bone Pile_6.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Skeleton_Crumbling Into Bone Pile_6.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Crumbling Into Bone Pile_6.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Skeleton_Crumbling Into Bone Pile_7.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Skeleton_Crumbling Into Bone Pile_7.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Crumbling Into Bone Pile_7.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Skeleton_Hurt_1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Skeleton_Hurt_1.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Hurt_1.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Skeleton_Hurt_2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Skeleton_Hurt_2.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Hurt_2.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Skeleton_Inactive.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Skeleton_Inactive.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Inactive.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Skeleton_Jumping.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Skeleton_Jumping.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Jumping.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Skeleton_Landed_1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Skeleton_Landed_1.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Landed_1.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Skeleton_Landed_2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Skeleton_Landed_2.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Landed_2.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Skeleton_Limping Movement_1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Skeleton_Limping Movement_1.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Limping Movement_1.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Skeleton_Limping Movement_2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Skeleton_Limping Movement_2.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Limping Movement_2.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Skeleton_Limping Movement_3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Skeleton_Limping Movement_3.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Limping Movement_3.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Skeleton_Limping Movement_4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Skeleton_Limping Movement_4.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Limping Movement_4.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Skeleton_Limping Movement_5.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Skeleton_Limping Movement_5.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Limping Movement_5.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Skeleton_Limping Movement_6.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Skeleton_Limping Movement_6.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Limping Movement_6.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Skeleton_Preparing Jump_1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Skeleton_Preparing Jump_1.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Preparing Jump_1.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Skeleton_Preparing Jump_2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Skeleton_Preparing Jump_2.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Preparing Jump_2.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Skeleton_Preparing Jump_3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Skeleton_Preparing Jump_3.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Preparing Jump_3.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Skeleton_Standing Idle_1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Skeleton_Standing Idle_1.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Standing Idle_1.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Skeleton_Standing Idle_2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Skeleton_Standing Idle_2.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Standing Idle_2.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Skeleton_Standing Idle_3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Skeleton_Standing Idle_3.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Standing Idle_3.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Skeleton_Standing Idle_4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Skeleton_Standing Idle_4.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Standing Idle_4.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Skeleton_Standing Idle_5.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Skeleton_Standing Idle_5.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Standing Idle_5.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Skeleton_Standing Idle_6.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Skeleton_Standing Idle_6.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Standing Idle_6.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Skeleton_Standing Idle_7.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Skeleton_Standing Idle_7.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Standing Idle_7.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Skeleton_Standing Idle_8.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Skeleton_Standing Idle_8.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Standing Idle_8.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Skeleton_Standing Idle_9.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Skeleton_Standing Idle_9.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Standing Idle_9.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Skeleton_Standing Wakeup_1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Skeleton_Standing Wakeup_1.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Standing Wakeup_1.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Skeleton_Standing Wakeup_2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Skeleton_Standing Wakeup_2.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Standing Wakeup_2.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Skeleton_Standing Wakeup_3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Skeleton_Standing Wakeup_3.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Standing Wakeup_3.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Skeleton_Standing.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Skeleton_Standing.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Standing.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Skeleton_Twitching Idle_1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Skeleton_Twitching Idle_1.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Twitching Idle_1.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Skeleton_Twitching Idle_2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Skeleton_Twitching Idle_2.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Twitching Idle_2.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Skeleton_Twitching Idle_3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Skeleton_Twitching Idle_3.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Twitching Idle_3.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Skeleton_Twitching Idle_4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Skeleton_Twitching Idle_4.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 6/Skeleton/Skeleton_Twitching Idle_4.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/Buy.png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\Buy.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/GoldIcon.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\GoldIcon.png",
         "smoothed": true,
         "userAdded": true
       },
@@ -1079,111 +358,12 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "NewFile-1-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewFile-1-1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewFile-1-2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewFile-1-2.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewFile-1-3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewFile-1-3.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewFile-1-6.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewFile-1-6.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewFile-1-7.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewFile-1-7.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewFile-1-5.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewFile-1-5.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewFile-1-8.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewFile-1-8.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/Back.png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\Back.png",
         "smoothed": true,
         "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Info Button.PNG",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Info Button.PNG",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/InfoButton-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\InfoButton-1.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/InfoButton-1-0.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\InfoButton-1-0.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/InfoButton-1-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\InfoButton-1-1.png",
-        "smoothed": true,
-        "userAdded": false
       },
       {
         "alwaysLoaded": false,
@@ -1196,48 +376,12 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Large Buy Button.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Large Buy Button.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/LargeBuyButton-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\LargeBuyButton-1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/LargeBuyButton-1-0.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\LargeBuyButton-1-0.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/LargeBuyButton-1-1.png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\LargeBuyButton-1-1.png",
         "smoothed": true,
         "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "CannotSpawn-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "CannotSpawn-1.png",
-        "smoothed": true,
-        "userAdded": false
       },
       {
         "alwaysLoaded": false,
@@ -1259,105 +403,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "Untitled-1 - Copy.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Untitled-1 - Copy.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Firefighter.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Firefighter.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Firefighter-1-0.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Firefighter-1-0.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Firefighter-1-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Firefighter-1-1.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Firefighter-1-2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Firefighter-1-2.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Firefighter-1-3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Firefighter-1-3.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Firefighter-1-4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Firefighter-1-4.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Firefighter-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Firefighter-1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Firefighter Projectile.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Firefighter Projectile.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "White Hat.PNG",
-        "kind": "image",
-        "metadata": "",
-        "name": "White Hat.PNG",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "WhiteHat-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "WhiteHat-1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "White Hat Projectile.png",
         "kind": "image",
         "metadata": "",
@@ -1367,93 +412,12 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "Cheerleader.PNG",
-        "kind": "image",
-        "metadata": "",
-        "name": "Cheerleader.PNG",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Cheerleader-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Cheerleader-1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Volunteer.PNG",
-        "kind": "image",
-        "metadata": "",
-        "name": "Volunteer.PNG",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Volunteer-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Volunteer-1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Bank.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Bank.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Bank-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Bank-1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewFile-1-0.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewFile-1-0.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Popup.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Popup.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "Officer.png",
         "kind": "image",
         "metadata": "",
         "name": "Officer.png",
         "smoothed": true,
         "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "OfficerBullet.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "OfficerBullet.png",
-        "smoothed": true,
-        "userAdded": false
       },
       {
         "alwaysLoaded": false,
@@ -1484,25 +448,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "VolunteerProjectile.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "VolunteerProjectile.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "file": "ShootTest.wav",
-        "kind": "audio",
-        "metadata": "{\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Laser/shoot 7\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0,\\\"sustain\\\":0.06,\\\"sustainPunch\\\":40,\\\"decay\\\":0.05,\\\"tremoloDepth\\\":0,\\\"tremoloFrequency\\\":10,\\\"frequency\\\":700,\\\"frequencySweep\\\":-500,\\\"frequencyDeltaSweep\\\":-1400,\\\"repeatFrequency\\\":0,\\\"frequencyJump1Onset\\\":33,\\\"frequencyJump1Amount\\\":0,\\\"frequencyJump2Onset\\\":66,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":0,\\\"harmonicsFalloff\\\":0.5,\\\"waveform\\\":\\\"sawtooth\\\",\\\"interpolateNoise\\\":true,\\\"vibratoDepth\\\":0,\\\"vibratoFrequency\\\":10,\\\"squareDuty\\\":70,\\\"squareDutySweep\\\":60,\\\"flangerOffset\\\":0,\\\"flangerOffsetSweep\\\":0,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":22050,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":0,\\\"highPassCutoffSweep\\\":0,\\\"compression\\\":1,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"ShootTest\"}}",
-        "name": "ShootTest.wav",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "ShopBackground.png",
         "kind": "image",
         "metadata": "",
@@ -1525,22 +470,6 @@
         "kind": "image",
         "metadata": "",
         "name": "Educator.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "file": "assets/Alba Slab 48px.fnt",
-        "kind": "bitmapFont",
-        "metadata": "",
-        "name": "assets\\Alba Slab 48px.fnt",
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Alba Slab 48px.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Alba Slab 48px.png",
         "smoothed": true,
         "userAdded": true
       },
@@ -1591,22 +520,6 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\fonts\\AlbaSlab\\24px\\Alba Slab 24px.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "file": "assets/fonts/AlbaSlab/12px/Alba Slab 12px.fnt",
-        "kind": "bitmapFont",
-        "metadata": "",
-        "name": "assets\\fonts\\AlbaSlab\\12px\\Alba Slab 12px.fnt",
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/fonts/AlbaSlab/12px/Alba Slab 12px.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\fonts\\AlbaSlab\\12px\\Alba Slab 12px.png",
         "smoothed": true,
         "userAdded": true
       },
@@ -1679,6 +592,166 @@
         "name": "sprites\\UI\\Shop-Digital.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Towers/Cheerleader/Cheerleader-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Towers\\Cheerleader\\Cheerleader-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/fonts/Kanit/24px/Kanit-24.fnt",
+        "kind": "bitmapFont",
+        "metadata": "",
+        "name": "assets\\fonts\\Kanit\\24px\\Kanit-24.fnt",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fonts/Kanit/24px/Kanit-24.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\fonts\\Kanit\\24px\\Kanit-24.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Towers/Cheerleader/C_Icon.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Towers\\Cheerleader\\C_Icon.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Towers/Cheerleader/C_Icon.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Towers\\Cheerleader\\C_Icon.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Towers/Volunteer/V_Icon.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Towers\\Volunteer\\V_Icon.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Towers/Career Guider/CG_Icon.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Towers\\Career Guider\\CG_Icon.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Towers/Soldier/S_Icon.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Towers\\Soldier\\S_Icon.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Towers/Firefighter/F_Icon.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Towers\\Firefighter\\F_Icon.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Towers/White Hat Hacker/WHH_Icon.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Towers\\White Hat Hacker\\WHH_Icon.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Towers/Caring Citizen/CC_Icon.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Towers\\Caring Citizen\\CC_Icon.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Towers/Community Leader/CL_Icon.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Towers\\Community Leader\\CL_Icon.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Towers/Investor/I_Icon.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Towers\\Investor\\I_Icon.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Towers/Intelligence Officer/IO_Icon.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Towers\\Intelligence Officer\\IO_Icon.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Towers/Doctor/D_Icon.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Towers\\Doctor\\D_Icon.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Towers/Discerning Citizen/DC_Icon.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Towers\\Discerning Citizen\\DC_Icon.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/UI/Buy-Green-Coin.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\UI\\Buy-Green-Coin.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Towers/Cheerleader/Idle/Cheerleader-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Towers\\Cheerleader\\Idle\\Cheerleader-1.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1714,16 +787,16 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "Cheerleader",
+          "name": "",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
-              "timeBetweenFrames": 0.07999999821186066,
+              "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Cheerleader-1.png",
+                  "image": "sprites\\Towers\\Cheerleader\\Idle\\Cheerleader-1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2377,7 +1450,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.0600000000000005,
+        "zoomFactor": 0.35999998779296827,
         "windowMask": false
       },
       "objectsGroups": [
@@ -2416,25 +1489,69 @@
           ]
         },
         {
-          "name": "ShopTabs",
+          "name": "ShopTabC1",
           "objects": [
             {
               "name": "PsychologicalShopTab"
             },
             {
-              "name": "SocialShopTab"
-            },
-            {
               "name": "EconomicShopTab"
             },
+            {
+              "name": "CivilShopTab"
+            }
+          ]
+        },
+        {
+          "name": "ShopTabC2",
+          "objects": [
             {
               "name": "MilitaryShopTab"
             },
             {
-              "name": "CivilShopTab"
+              "name": "DigitalShopTab"
             },
             {
-              "name": "DigitalShopTab"
+              "name": "SocialShopTab"
+            }
+          ]
+        },
+        {
+          "name": "ShopContent",
+          "objects": [
+            {
+              "name": "ShopLabelTop"
+            },
+            {
+              "name": "ShopLabelBottom"
+            },
+            {
+              "name": "ShopIconTop"
+            },
+            {
+              "name": "ShopIconBottom"
+            }
+          ]
+        },
+        {
+          "name": "ShopCostBackings",
+          "objects": [
+            {
+              "name": "ShopCostBackingTop"
+            },
+            {
+              "name": "ShopCostBackingBottom"
+            }
+          ]
+        },
+        {
+          "name": "ShopCosts",
+          "objects": [
+            {
+              "name": "ShopCostTop"
+            },
+            {
+              "name": "ShopCostBottom"
             }
           ]
         }
@@ -2670,13 +1787,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 345,
+          "height": 400,
           "layer": "",
           "name": "ShopBacking",
           "persistentUuid": "ba8e758c-eeac-4a7f-855d-41ead8f2a139",
-          "width": 500,
-          "x": 1105,
-          "y": 120,
+          "width": 600,
+          "x": 1000,
+          "y": 130,
           "zOrder": 1009,
           "numberProperties": [],
           "stringProperties": [],
@@ -2690,8 +1807,8 @@
           "name": "Debug",
           "persistentUuid": "2814baa5-86b7-4f60-b008-69a0f059c8d0",
           "width": 0,
-          "x": 1447,
-          "y": 986,
+          "x": 1448,
+          "y": 972,
           "zOrder": 1010,
           "numberProperties": [],
           "stringProperties": [],
@@ -2700,13 +1817,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 50,
+          "height": 120,
           "layer": "",
           "name": "PsychologicalShopTab",
           "persistentUuid": "23cec43a-3293-4249-a9fd-fb10c68d5cb5",
-          "width": 150,
-          "x": 1120,
-          "y": 130,
+          "width": 120,
+          "x": 1020,
+          "y": 145,
           "zOrder": 1012,
           "numberProperties": [],
           "stringProperties": [],
@@ -2715,13 +1832,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 50,
+          "height": 120,
           "layer": "",
           "name": "SocialShopTab",
           "persistentUuid": "5a353b49-2fc3-4d03-8195-7dfb38323c9e",
-          "width": 150,
-          "x": 1120,
-          "y": 185,
+          "width": 120,
+          "x": 1150,
+          "y": 145,
           "zOrder": 1013,
           "numberProperties": [],
           "stringProperties": [],
@@ -2730,13 +1847,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 50,
+          "height": 120,
           "layer": "",
           "name": "EconomicShopTab",
           "persistentUuid": "756bf131-e36e-4b4b-9298-e950b8c1ef36",
-          "width": 150,
-          "x": 1120,
-          "y": 240,
+          "width": 120,
+          "x": 1020,
+          "y": 270,
           "zOrder": 1014,
           "numberProperties": [],
           "stringProperties": [],
@@ -2745,13 +1862,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 50,
+          "height": 120,
           "layer": "",
           "name": "MilitaryShopTab",
           "persistentUuid": "bf966c87-4020-4a69-ac07-2e3e416726d2",
-          "width": 150,
-          "x": 1120,
-          "y": 295,
+          "width": 120,
+          "x": 1150,
+          "y": 270,
           "zOrder": 1015,
           "numberProperties": [],
           "stringProperties": [],
@@ -2760,14 +1877,89 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 50,
+          "height": 120,
           "layer": "",
           "name": "CivilShopTab",
           "persistentUuid": "6117c18e-50a4-4ead-954b-c1158e30ff97",
-          "width": 150,
-          "x": 1120,
-          "y": 350,
+          "width": 120,
+          "x": 1020,
+          "y": 395,
           "zOrder": 1016,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 120,
+          "layer": "",
+          "name": "DigitalShopTab",
+          "persistentUuid": "e270ae37-1caf-45a8-b453-d2e11a5c7e48",
+          "width": 120,
+          "x": 1150,
+          "y": 395,
+          "zOrder": 1017,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "ShopLabelTop",
+          "persistentUuid": "4b12ccb7-101b-4365-a717-100c79eae10e",
+          "width": 0,
+          "x": 1300,
+          "y": 150,
+          "zOrder": 1018,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "ShopLabelBottom",
+          "persistentUuid": "0d69200e-6fe3-4c85-b373-b813b1a92b6d",
+          "width": 0,
+          "x": 1300,
+          "y": 340,
+          "zOrder": 1019,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 120,
+          "layer": "",
+          "name": "ShopIconTop",
+          "persistentUuid": "0a841b28-a55a-4a02-8b68-b73b86157eb3",
+          "width": 120,
+          "x": 1300,
+          "y": 200,
+          "zOrder": 1020,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 120,
+          "layer": "",
+          "name": "ShopIconBottom",
+          "persistentUuid": "7db3ddfe-7499-4449-8c40-2b6d2ca941ae",
+          "width": 120,
+          "x": 1300,
+          "y": 390,
+          "zOrder": 1021,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2777,12 +1969,72 @@
           "customSize": true,
           "height": 50,
           "layer": "",
-          "name": "DigitalShopTab",
-          "persistentUuid": "e270ae37-1caf-45a8-b453-d2e11a5c7e48",
-          "width": 150,
-          "x": 1120,
-          "y": 405,
-          "zOrder": 1017,
+          "name": "ShopCostBackingTop",
+          "persistentUuid": "d8cccca3-051e-4c50-b47e-ad19f0be6365",
+          "width": 140,
+          "x": 1440,
+          "y": 230,
+          "zOrder": 1022,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "ShopCostTop",
+          "persistentUuid": "1a6438ea-ee31-4fbb-8989-5a7625ac614b",
+          "width": 0,
+          "x": 1510,
+          "y": 235,
+          "zOrder": 1023,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "ShopCostBottom",
+          "persistentUuid": "c474d91d-2a60-4489-a868-d9ff029e5025",
+          "width": 0,
+          "x": 1510,
+          "y": 427,
+          "zOrder": 1024,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "name": "ShopCostBackingBottom",
+          "persistentUuid": "5a5cc1d0-6290-4713-92cd-526b431d99fe",
+          "width": 140,
+          "x": 1440,
+          "y": 420,
+          "zOrder": 1022,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Debug",
+          "persistentUuid": "f38d31bb-8519-4844-8b25-983fd3976f84",
+          "width": 0,
+          "x": 1451,
+          "y": 838,
+          "zOrder": 1010,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5082,8 +4334,8 @@
             "scale": 1,
             "fontSize": 20,
             "tint": "255;255;255",
-            "bitmapFontResourceName": "assets\\fonts\\Kanit\\16px\\Kanit-16.fnt",
-            "textureAtlasResourceName": "assets\\fonts\\Kanit\\16px\\Kanit-16.png",
+            "bitmapFontResourceName": "assets\\fonts\\Kanit\\24px\\Kanit-24.fnt",
+            "textureAtlasResourceName": "assets\\fonts\\Kanit\\24px\\Kanit-24.png",
             "align": "left",
             "wordWrap": true
           }
@@ -5237,6 +4489,13 @@
           "effects": [],
           "behaviors": [
             {
+              "name": "Button",
+              "type": "TDTD::Button",
+              "Property": "Tween",
+              "SmallScale": 0.37,
+              "NormalScale": 0.35
+            },
+            {
               "name": "Tween",
               "type": "Tween::TweenBehavior"
             }
@@ -5282,6 +4541,13 @@
           "variables": [],
           "effects": [],
           "behaviors": [
+            {
+              "name": "Button",
+              "type": "TDTD::Button",
+              "Property": "Tween",
+              "SmallScale": 0.37,
+              "NormalScale": 0.35
+            },
             {
               "name": "Tween",
               "type": "Tween::TweenBehavior"
@@ -5329,6 +4595,13 @@
           "effects": [],
           "behaviors": [
             {
+              "name": "Button",
+              "type": "TDTD::Button",
+              "Property": "Tween",
+              "SmallScale": 0.37,
+              "NormalScale": 0.35
+            },
+            {
               "name": "Tween",
               "type": "Tween::TweenBehavior"
             }
@@ -5374,6 +4647,13 @@
           "variables": [],
           "effects": [],
           "behaviors": [
+            {
+              "name": "Button",
+              "type": "TDTD::Button",
+              "Property": "Tween",
+              "SmallScale": 0.37,
+              "NormalScale": 0.35
+            },
             {
               "name": "Tween",
               "type": "Tween::TweenBehavior"
@@ -5421,6 +4701,13 @@
           "effects": [],
           "behaviors": [
             {
+              "name": "Button",
+              "type": "TDTD::Button",
+              "Property": "Tween",
+              "SmallScale": 0.37,
+              "NormalScale": 0.35
+            },
+            {
               "name": "Tween",
               "type": "Tween::TweenBehavior"
             }
@@ -5467,6 +4754,13 @@
           "effects": [],
           "behaviors": [
             {
+              "name": "Button",
+              "type": "TDTD::Button",
+              "Property": "Tween",
+              "SmallScale": 0.37,
+              "NormalScale": 0.35
+            },
+            {
               "name": "Tween",
               "type": "Tween::TweenBehavior"
             }
@@ -5502,6 +4796,594 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "ShopLabelTop",
+          "tags": "",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "content": {
+            "text": "Tower1",
+            "opacity": 255,
+            "scale": 1,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "assets\\fonts\\AlbaSlab\\24px\\Alba Slab 24px.fnt",
+            "textureAtlasResourceName": "assets\\fonts\\AlbaSlab\\24px\\Alba Slab 24px.png",
+            "align": "center",
+            "wordWrap": true
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "ShopLabelBottom",
+          "tags": "",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "content": {
+            "text": "Tower2",
+            "opacity": 255,
+            "scale": 1,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "assets\\fonts\\AlbaSlab\\24px\\Alba Slab 24px.fnt",
+            "textureAtlasResourceName": "assets\\fonts\\AlbaSlab\\24px\\Alba Slab 24px.png",
+            "align": "center",
+            "wordWrap": true
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "ShopIconTop",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "Cheerleader",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites\\Towers\\Cheerleader\\C_Icon.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Volunteer",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites\\Towers\\Volunteer\\V_Icon.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Career Guider",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites\\Towers\\Career Guider\\CG_Icon.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Soldier",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites\\Towers\\Soldier\\S_Icon.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Firefighter",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites\\Towers\\Firefighter\\F_Icon.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "White-hat Hacker",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites\\Towers\\White Hat Hacker\\WHH_Icon.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "ShopIconBottom",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "Caring Citizen",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites\\Towers\\Caring Citizen\\CC_Icon.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Community Leader",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites\\Towers\\Community Leader\\CL_Icon.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Investor",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites\\Towers\\Investor\\I_Icon.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Intelligence Officer",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites\\Towers\\Intelligence Officer\\IO_Icon.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Doctor",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites\\Towers\\Doctor\\D_Icon.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Discerning Citizen",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites\\Towers\\Discerning Citizen\\DC_Icon.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "ShopCostBackingTop",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Button",
+              "type": "TDTD::Button",
+              "Property": "Tween",
+              "SmallScale": 0.47,
+              "NormalScale": 0.45
+            },
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites\\UI\\Buy-Green-Coin.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "ShopCostBackingBottom",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Button",
+              "type": "TDTD::Button",
+              "Property": "Tween",
+              "SmallScale": 0.47,
+              "NormalScale": 0.45
+            },
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites\\UI\\Buy-Green-Coin.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "ShopCostTop",
+          "tags": "",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "content": {
+            "text": "100",
+            "opacity": 255,
+            "scale": 1,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "assets\\fonts\\AlbaSlab\\24px\\Alba Slab 24px.fnt",
+            "textureAtlasResourceName": "assets\\fonts\\AlbaSlab\\24px\\Alba Slab 24px.png",
+            "align": "left",
+            "wordWrap": true
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "ShopCostBottom",
+          "tags": "",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "content": {
+            "text": "100",
+            "opacity": 255,
+            "scale": 1,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "assets\\fonts\\AlbaSlab\\24px\\Alba Slab 24px.fnt",
+            "textureAtlasResourceName": "assets\\fonts\\AlbaSlab\\24px\\Alba Slab 24px.png",
+            "align": "left",
+            "wordWrap": true
+          }
         }
       ],
       "events": [
@@ -5871,15 +5753,6 @@
                   "actions": [
                     {
                       "type": {
-                        "value": "ChangeColor"
-                      },
-                      "parameters": [
-                        "DescBacking",
-                        "\"184;233;134\""
-                      ]
-                    },
-                    {
-                      "type": {
                         "value": "MettreX"
                       },
                       "parameters": [
@@ -5893,7 +5766,47 @@
                         "value": "MettreX"
                       },
                       "parameters": [
-                        "ShopTabs",
+                        "ShopTabC1",
+                        "=",
+                        "1700"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "MettreX"
+                      },
+                      "parameters": [
+                        "ShopTabC2",
+                        "=",
+                        "1700"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "MettreX"
+                      },
+                      "parameters": [
+                        "ShopContent",
+                        "=",
+                        "1700"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "MettreX"
+                      },
+                      "parameters": [
+                        "ShopCosts",
+                        "=",
+                        "1700"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "MettreX"
+                      },
+                      "parameters": [
+                        "ShopCostBackings",
                         "=",
                         "1700"
                       ]
@@ -6610,7 +6523,7 @@
                 },
                 {
                   "type": {
-                    "value": "TextObject::String"
+                    "value": "BitmapText::BitmapTextObject::SetText"
                   },
                   "parameters": [
                     "TowerCap",
@@ -6620,7 +6533,7 @@
                 },
                 {
                   "type": {
-                    "value": "TextObject::String"
+                    "value": "BitmapText::BitmapTextObject::SetText"
                   },
                   "parameters": [
                     "TowerCap",
@@ -6630,7 +6543,7 @@
                 },
                 {
                   "type": {
-                    "value": "TextObject::String"
+                    "value": "BitmapText::BitmapTextObject::SetText"
                   },
                   "parameters": [
                     "TowerCap",
@@ -6640,7 +6553,7 @@
                 },
                 {
                   "type": {
-                    "value": "TextObject::String"
+                    "value": "BitmapText::BitmapTextObject::SetText"
                   },
                   "parameters": [
                     "TowerCap",
@@ -6664,8 +6577,8 @@
                   "parameters": [
                     "",
                     "SpawnBox",
-                    "MouseX()",
-                    "MouseY()",
+                    "CameraCenterX()",
+                    "CameraCenterY()",
                     ""
                   ]
                 },
@@ -6715,6 +6628,35 @@
               ]
             },
             {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "SpawnBox Logic",
+              "comment2": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "SpawnBox",
+                    "doElse",
+                    "True"
+                  ]
+                }
+              ]
+            },
+            {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -6739,6 +6681,16 @@
                     "SpawnBox",
                     "\"CannotSpawn\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "SpawnBox",
+                    "doElse",
+                    "False"
+                  ]
                 }
               ]
             },
@@ -6747,15 +6699,88 @@
               "conditions": [
                 {
                   "type": {
-                    "inverted": true,
                     "value": "CollisionNP"
                   },
                   "parameters": [
                     "SpawnBox",
-                    "NewTiledSprite",
+                    "DescBacking",
                     "",
                     "",
                     ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "SpawnBox",
+                    "\"CannotSpawn\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "SpawnBox",
+                    "doElse",
+                    "False"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "SpawnBox",
+                    "EventBacking",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "SpawnBox",
+                    "\"CannotSpawn\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "SpawnBox",
+                    "doElse",
+                    "False"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "SpawnBox",
+                    "doElse",
+                    "True"
                   ]
                 }
               ],
@@ -6776,7 +6801,6 @@
               "conditions": [
                 {
                   "type": {
-                    "inverted": true,
                     "value": "MouseButtonPressed"
                   },
                   "parameters": [
@@ -7349,11 +7373,6 @@
           "parameters": []
         },
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
-        },
-        {
           "colorB": 228,
           "colorG": 176,
           "colorR": 74,
@@ -7376,6 +7395,7 @@
               "comment2": ""
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -7428,71 +7448,11 @@
                   "actions": [
                     {
                       "type": {
-                        "value": "Tween::StopTween"
+                        "value": "SetObjectVariableAsBoolean"
                       },
                       "parameters": [
                         "ShopBacking",
-                        "Tween",
-                        "\"ShopSlideIn\"",
-                        "no"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Tween::StopTween"
-                      },
-                      "parameters": [
-                        "ShopTabs",
-                        "Tween",
-                        "\"ShopSlideIn\"",
-                        "no"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Tween::RemoveTween"
-                      },
-                      "parameters": [
-                        "ShopBacking",
-                        "Tween",
-                        "\"ShopSlideIn\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Tween::RemoveTween"
-                      },
-                      "parameters": [
-                        "ShopTabs",
-                        "Tween",
-                        "\"ShopSlideIn\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Tween::AddObjectPositionXTween"
-                      },
-                      "parameters": [
-                        "ShopBacking",
-                        "Tween",
-                        "\"ShopSlideOut\"",
-                        "1700",
-                        "\"easeInOutQuad\"",
-                        "300",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Tween::AddObjectPositionXTween"
-                      },
-                      "parameters": [
-                        "ShopTabs",
-                        "Tween",
-                        "\"ShopSlideOut\"",
-                        "1700",
-                        "\"easeInOutQuad\"",
-                        "300",
+                        "doElse",
                         ""
                       ]
                     },
@@ -7504,15 +7464,253 @@
                         "ShopIsOpen",
                         "False"
                       ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Tween::StopTween"
+                          },
+                          "parameters": [
+                            "ShopBacking",
+                            "Tween",
+                            "\"ShopSlideIn\"",
+                            "no"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::RemoveTween"
+                          },
+                          "parameters": [
+                            "ShopBacking",
+                            "Tween",
+                            "\"ShopSlideIn\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::AddObjectPositionXTween"
+                          },
+                          "parameters": [
+                            "ShopBacking",
+                            "Tween",
+                            "\"ShopSlideOut\"",
+                            "1700",
+                            "\"easeInOutQuad\"",
+                            "300",
+                            ""
+                          ]
+                        }
+                      ]
                     },
                     {
-                      "type": {
-                        "value": "SetObjectVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "ShopBacking",
-                        "doElse",
-                        ""
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Tween::StopTween"
+                          },
+                          "parameters": [
+                            "ShopTabC1",
+                            "Tween",
+                            "\"ShopSlideIn\"",
+                            "no"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::RemoveTween"
+                          },
+                          "parameters": [
+                            "ShopTabC1",
+                            "Tween",
+                            "\"ShopSlideIn\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::AddObjectPositionXTween"
+                          },
+                          "parameters": [
+                            "ShopTabC1",
+                            "Tween",
+                            "\"ShopSlideOut\"",
+                            "1700",
+                            "\"easeInOutQuad\"",
+                            "300",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Tween::StopTween"
+                          },
+                          "parameters": [
+                            "ShopTabC2",
+                            "Tween",
+                            "\"ShopSlideIn\"",
+                            "no"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::RemoveTween"
+                          },
+                          "parameters": [
+                            "ShopTabC2",
+                            "Tween",
+                            "\"ShopSlideIn\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::AddObjectPositionXTween"
+                          },
+                          "parameters": [
+                            "ShopTabC2",
+                            "Tween",
+                            "\"ShopSlideOut\"",
+                            "1700",
+                            "\"easeInOutQuad\"",
+                            "300",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Tween::StopTween"
+                          },
+                          "parameters": [
+                            "ShopContent",
+                            "Tween",
+                            "\"ShopSlideIn\"",
+                            "no"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::RemoveTween"
+                          },
+                          "parameters": [
+                            "ShopContent",
+                            "Tween",
+                            "\"ShopSlideIn\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::AddObjectPositionXTween"
+                          },
+                          "parameters": [
+                            "ShopContent",
+                            "Tween",
+                            "\"ShopSlideOut\"",
+                            "1700",
+                            "\"easeInOutQuad\"",
+                            "300",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Tween::StopTween"
+                          },
+                          "parameters": [
+                            "ShopCostBackings",
+                            "Tween",
+                            "\"ShopSlideIn\"",
+                            "no"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::RemoveTween"
+                          },
+                          "parameters": [
+                            "ShopCostBackings",
+                            "Tween",
+                            "\"ShopSlideIn\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::AddObjectPositionXTween"
+                          },
+                          "parameters": [
+                            "ShopCostBackings",
+                            "Tween",
+                            "\"ShopSlideOut\"",
+                            "1700",
+                            "\"easeInOutQuad\"",
+                            "300",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Tween::StopTween"
+                          },
+                          "parameters": [
+                            "ShopCosts",
+                            "Tween",
+                            "\"ShopSlideIn\"",
+                            "no"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::RemoveTween"
+                          },
+                          "parameters": [
+                            "ShopCosts",
+                            "Tween",
+                            "\"ShopSlideIn\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::AddObjectPositionXTween"
+                          },
+                          "parameters": [
+                            "ShopCosts",
+                            "Tween",
+                            "\"ShopSlideOut\"",
+                            "1700",
+                            "\"easeInOutQuad\"",
+                            "300",
+                            ""
+                          ]
+                        }
                       ]
                     }
                   ]
@@ -7534,76 +7732,6 @@
                   "actions": [
                     {
                       "type": {
-                        "value": "Tween::StopTween"
-                      },
-                      "parameters": [
-                        "ShopBacking",
-                        "Tween",
-                        "\"ShopSlideOut\"",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Tween::StopTween"
-                      },
-                      "parameters": [
-                        "ShopTabs",
-                        "Tween",
-                        "\"ShopSlideOut\"",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Tween::RemoveTween"
-                      },
-                      "parameters": [
-                        "ShopBacking",
-                        "Tween",
-                        "\"ShopSlideOut\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Tween::RemoveTween"
-                      },
-                      "parameters": [
-                        "ShopTabs",
-                        "Tween",
-                        "\"ShopSlideOut\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Tween::AddObjectPositionXTween"
-                      },
-                      "parameters": [
-                        "ShopBacking",
-                        "Tween",
-                        "\"ShopSlideIn\"",
-                        "1105",
-                        "\"easeInOutQuad\"",
-                        "300",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Tween::AddObjectPositionXTween"
-                      },
-                      "parameters": [
-                        "ShopTabs",
-                        "Tween",
-                        "\"ShopSlideIn\"",
-                        "1120",
-                        "\"easeInOutQuad\"",
-                        "300",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
                         "value": "SetSceneVariableAsBoolean"
                       },
                       "parameters": [
@@ -7611,7 +7739,459 @@
                         "True"
                       ]
                     }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Tween::StopTween"
+                          },
+                          "parameters": [
+                            "ShopBacking",
+                            "Tween",
+                            "\"ShopSlideOut\"",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::RemoveTween"
+                          },
+                          "parameters": [
+                            "ShopBacking",
+                            "Tween",
+                            "\"ShopSlideOut\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::AddObjectPositionXTween"
+                          },
+                          "parameters": [
+                            "ShopBacking",
+                            "Tween",
+                            "\"ShopSlideIn\"",
+                            "1000",
+                            "\"easeInOutQuad\"",
+                            "300",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Tween::StopTween"
+                          },
+                          "parameters": [
+                            "ShopTabC1",
+                            "Tween",
+                            "\"ShopSlideOut\"",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::RemoveTween"
+                          },
+                          "parameters": [
+                            "ShopTabC1",
+                            "Tween",
+                            "\"ShopSlideOut\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::AddObjectPositionXTween"
+                          },
+                          "parameters": [
+                            "ShopTabC1",
+                            "Tween",
+                            "\"ShopSlideIn\"",
+                            "1020",
+                            "\"easeInOutQuad\"",
+                            "300",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Tween::StopTween"
+                          },
+                          "parameters": [
+                            "ShopTabC2",
+                            "Tween",
+                            "\"ShopSlideOut\"",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::RemoveTween"
+                          },
+                          "parameters": [
+                            "ShopTabC2",
+                            "Tween",
+                            "\"ShopSlideOut\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::AddObjectPositionXTween"
+                          },
+                          "parameters": [
+                            "ShopTabC2",
+                            "Tween",
+                            "\"ShopSlideIn\"",
+                            "1150",
+                            "\"easeInOutQuad\"",
+                            "300",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Tween::StopTween"
+                          },
+                          "parameters": [
+                            "ShopContent",
+                            "Tween",
+                            "\"ShopSlideOut\"",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::RemoveTween"
+                          },
+                          "parameters": [
+                            "ShopContent",
+                            "Tween",
+                            "\"ShopSlideOut\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::AddObjectPositionXTween"
+                          },
+                          "parameters": [
+                            "ShopContent",
+                            "Tween",
+                            "\"ShopSlideIn\"",
+                            "1300",
+                            "\"easeInOutQuad\"",
+                            "300",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Tween::StopTween"
+                          },
+                          "parameters": [
+                            "ShopCostBackings",
+                            "Tween",
+                            "\"ShopSlideOut\"",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::RemoveTween"
+                          },
+                          "parameters": [
+                            "ShopCostBackings",
+                            "Tween",
+                            "\"ShopSlideOut\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::AddObjectPositionXTween"
+                          },
+                          "parameters": [
+                            "ShopCostBackings",
+                            "Tween",
+                            "\"ShopSlideIn\"",
+                            "1440",
+                            "\"easeInOutQuad\"",
+                            "300",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Tween::StopTween"
+                          },
+                          "parameters": [
+                            "ShopCosts",
+                            "Tween",
+                            "\"ShopSlideOut\"",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::RemoveTween"
+                          },
+                          "parameters": [
+                            "ShopCosts",
+                            "Tween",
+                            "\"ShopSlideOut\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::AddObjectPositionXTween"
+                          },
+                          "parameters": [
+                            "ShopCosts",
+                            "Tween",
+                            "\"ShopSlideIn\"",
+                            "1510",
+                            "\"easeInOutQuad\"",
+                            "300",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
                   ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Switch Tabs",
+              "comment2": ""
+            },
+            {
+              "folded": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "MouseButtonReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "PsychologicalShopTab",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarSceneTxt"
+                      },
+                      "parameters": [
+                        "ShopPillar",
+                        "=",
+                        "\"Psychological\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "SocialShopTab",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarSceneTxt"
+                      },
+                      "parameters": [
+                        "ShopPillar",
+                        "=",
+                        "\"Social\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "EconomicShopTab",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarSceneTxt"
+                      },
+                      "parameters": [
+                        "ShopPillar",
+                        "=",
+                        "\"Economic\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "MilitaryShopTab",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarSceneTxt"
+                      },
+                      "parameters": [
+                        "ShopPillar",
+                        "=",
+                        "\"Military\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "CivilShopTab",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarSceneTxt"
+                      },
+                      "parameters": [
+                        "ShopPillar",
+                        "=",
+                        "\"Civil\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "DigitalShopTab",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarSceneTxt"
+                      },
+                      "parameters": [
+                        "ShopPillar",
+                        "=",
+                        "\"Digital\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": []
                 }
               ]
             },
@@ -7620,7 +8200,8 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "name": "Tint Shop Backing",
+              "folded": true,
+              "name": "Change Shop Content",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
               "events": [
@@ -7646,6 +8227,64 @@
                       "parameters": [
                         "ShopBacking",
                         "\"255;191;191\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BitmapText::BitmapTextObject::SetText"
+                      },
+                      "parameters": [
+                        "ShopLabelTop",
+                        "=",
+                        "\"Cheerleader\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BitmapText::BitmapTextObject::SetText"
+                      },
+                      "parameters": [
+                        "ShopLabelBottom",
+                        "=",
+                        "\"Caring Citizen\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "ShopIconTop",
+                        "\"Cheerleader\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "ShopIconBottom",
+                        "\"Caring Citizen\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BitmapText::BitmapTextObject::SetText"
+                      },
+                      "parameters": [
+                        "ShopCostTop",
+                        "=",
+                        "\"100\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BitmapText::BitmapTextObject::SetText"
+                      },
+                      "parameters": [
+                        "ShopCostBottom",
+                        "=",
+                        "\"110\""
                       ]
                     }
                   ]
@@ -7673,6 +8312,64 @@
                         "ShopBacking",
                         "\"250;221;172\""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "BitmapText::BitmapTextObject::SetText"
+                      },
+                      "parameters": [
+                        "ShopLabelTop",
+                        "=",
+                        "\"Volunteer\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BitmapText::BitmapTextObject::SetText"
+                      },
+                      "parameters": [
+                        "ShopLabelBottom",
+                        "=",
+                        "\"Community Leader\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "ShopIconTop",
+                        "\"Volunteer\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "ShopIconBottom",
+                        "\"Community Leader\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BitmapText::BitmapTextObject::SetText"
+                      },
+                      "parameters": [
+                        "ShopCostTop",
+                        "=",
+                        "\"120\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BitmapText::BitmapTextObject::SetText"
+                      },
+                      "parameters": [
+                        "ShopCostBottom",
+                        "=",
+                        "\"90\""
+                      ]
                     }
                   ]
                 },
@@ -7698,6 +8395,64 @@
                       "parameters": [
                         "ShopBacking",
                         "\"255;254;191\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BitmapText::BitmapTextObject::SetText"
+                      },
+                      "parameters": [
+                        "ShopLabelTop",
+                        "=",
+                        "\"Career Guider\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BitmapText::BitmapTextObject::SetText"
+                      },
+                      "parameters": [
+                        "ShopLabelBottom",
+                        "=",
+                        "\"Investor\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "ShopIconTop",
+                        "\"Career Guider\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "ShopIconBottom",
+                        "\"Investor\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BitmapText::BitmapTextObject::SetText"
+                      },
+                      "parameters": [
+                        "ShopCostTop",
+                        "=",
+                        "\"150\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BitmapText::BitmapTextObject::SetText"
+                      },
+                      "parameters": [
+                        "ShopCostBottom",
+                        "=",
+                        "\"250\""
                       ]
                     }
                   ]
@@ -7725,6 +8480,64 @@
                         "ShopBacking",
                         "\"198;255;191\""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "BitmapText::BitmapTextObject::SetText"
+                      },
+                      "parameters": [
+                        "ShopLabelTop",
+                        "=",
+                        "\"Soldier\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BitmapText::BitmapTextObject::SetText"
+                      },
+                      "parameters": [
+                        "ShopLabelBottom",
+                        "=",
+                        "\"Intelligence Officer\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "ShopIconTop",
+                        "\"Soldier\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "ShopIconBottom",
+                        "\"Intelligence Officer\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BitmapText::BitmapTextObject::SetText"
+                      },
+                      "parameters": [
+                        "ShopCostTop",
+                        "=",
+                        "\"100\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BitmapText::BitmapTextObject::SetText"
+                      },
+                      "parameters": [
+                        "ShopCostBottom",
+                        "=",
+                        "\"120\""
+                      ]
                     }
                   ]
                 },
@@ -7751,6 +8564,64 @@
                         "ShopBacking",
                         "\"191;206;255\""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "BitmapText::BitmapTextObject::SetText"
+                      },
+                      "parameters": [
+                        "ShopLabelTop",
+                        "=",
+                        "\"Firefigher\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BitmapText::BitmapTextObject::SetText"
+                      },
+                      "parameters": [
+                        "ShopLabelBottom",
+                        "=",
+                        "\"Doctor\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "ShopIconTop",
+                        "\"Firefighter\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "ShopIconBottom",
+                        "\"Doctor\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BitmapText::BitmapTextObject::SetText"
+                      },
+                      "parameters": [
+                        "ShopCostTop",
+                        "=",
+                        "\"90\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BitmapText::BitmapTextObject::SetText"
+                      },
+                      "parameters": [
+                        "ShopCostBottom",
+                        "=",
+                        "\"150\""
+                      ]
                     }
                   ]
                 },
@@ -7776,6 +8647,652 @@
                       "parameters": [
                         "ShopBacking",
                         "\"202;202;202\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BitmapText::BitmapTextObject::SetText"
+                      },
+                      "parameters": [
+                        "ShopLabelTop",
+                        "=",
+                        "\"White-hat Hacker\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BitmapText::BitmapTextObject::SetText"
+                      },
+                      "parameters": [
+                        "ShopLabelBottom",
+                        "=",
+                        "\"Discerning Citizen\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "ShopIconTop",
+                        "\"White-hat Hacker\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "ShopIconBottom",
+                        "\"Discerning Citizen\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BitmapText::BitmapTextObject::SetText"
+                      },
+                      "parameters": [
+                        "ShopCostTop",
+                        "=",
+                        "\"80\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BitmapText::BitmapTextObject::SetText"
+                      },
+                      "parameters": [
+                        "ShopCostBottom",
+                        "=",
+                        "\"100\""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "Buy Stuff",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "MouseButtonReleased"
+                      },
+                      "parameters": [
+                        "",
+                        "Left"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "ShopCostBackingTop",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "playerGold",
+                        "-",
+                        "ToNumber(ShopCostTop.Text())"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangeTimeScale"
+                      },
+                      "parameters": [
+                        "",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "MettreX"
+                          },
+                          "parameters": [
+                            "ShopBacking",
+                            "=",
+                            "1700"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "MettreX"
+                          },
+                          "parameters": [
+                            "ShopTabC1",
+                            "=",
+                            "1700"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "MettreX"
+                          },
+                          "parameters": [
+                            "ShopTabC2",
+                            "=",
+                            "1700"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "MettreX"
+                          },
+                          "parameters": [
+                            "ShopContent",
+                            "=",
+                            "1700"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "MettreX"
+                          },
+                          "parameters": [
+                            "ShopCosts",
+                            "=",
+                            "1700"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "MettreX"
+                          },
+                          "parameters": [
+                            "ShopCostBackings",
+                            "=",
+                            "1700"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetSceneVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "ShopIsOpen",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetGlobalVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "SpawnBoxAppear",
+                            "True"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarSceneTxt"
+                          },
+                          "parameters": [
+                            "ShopPillar",
+                            "=",
+                            "\"Psychological\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetGlobalVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "CheerleaderSpawn",
+                            "True"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarSceneTxt"
+                          },
+                          "parameters": [
+                            "ShopPillar",
+                            "=",
+                            "\"Social\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetGlobalVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "VolunteerSpawn",
+                            "True"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarSceneTxt"
+                          },
+                          "parameters": [
+                            "ShopPillar",
+                            "=",
+                            "\"Economic\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetGlobalVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "CareerGuiderSpawn",
+                            "True"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarSceneTxt"
+                          },
+                          "parameters": [
+                            "ShopPillar",
+                            "=",
+                            "\"Military\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetGlobalVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "SoldierSpawn",
+                            "True"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarSceneTxt"
+                          },
+                          "parameters": [
+                            "ShopPillar",
+                            "=",
+                            "\"Civil\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetGlobalVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "FirefighterSpawn",
+                            "True"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarSceneTxt"
+                          },
+                          "parameters": [
+                            "ShopPillar",
+                            "=",
+                            "\"Digital\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetGlobalVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "WhiteHatSpawn",
+                            "True"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "MouseButtonReleased"
+                      },
+                      "parameters": [
+                        "",
+                        "Left"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "ShopCostBackingBottom",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "playerGold",
+                        "-",
+                        "ToNumber(ShopCostTop.Text())"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangeTimeScale"
+                      },
+                      "parameters": [
+                        "",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "MettreX"
+                          },
+                          "parameters": [
+                            "ShopBacking",
+                            "=",
+                            "1700"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "MettreX"
+                          },
+                          "parameters": [
+                            "ShopTabC1",
+                            "=",
+                            "1700"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "MettreX"
+                          },
+                          "parameters": [
+                            "ShopTabC2",
+                            "=",
+                            "1700"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "MettreX"
+                          },
+                          "parameters": [
+                            "ShopContent",
+                            "=",
+                            "1700"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "MettreX"
+                          },
+                          "parameters": [
+                            "ShopCosts",
+                            "=",
+                            "1700"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "MettreX"
+                          },
+                          "parameters": [
+                            "ShopCostBackings",
+                            "=",
+                            "1700"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetSceneVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "ShopIsOpen",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetGlobalVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "SpawnBoxAppear",
+                            "True"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarSceneTxt"
+                          },
+                          "parameters": [
+                            "ShopPillar",
+                            "=",
+                            "\"Psychological\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetGlobalVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "CaringCitizenSpawn",
+                            "True"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarSceneTxt"
+                          },
+                          "parameters": [
+                            "ShopPillar",
+                            "=",
+                            "\"Social\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetGlobalVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "CommLeaderSpawn",
+                            "True"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarSceneTxt"
+                          },
+                          "parameters": [
+                            "ShopPillar",
+                            "=",
+                            "\"Economic\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetGlobalVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "InvestorSpawn",
+                            "True"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarSceneTxt"
+                          },
+                          "parameters": [
+                            "ShopPillar",
+                            "=",
+                            "\"Military\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetGlobalVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "IntelOfficerSpawn",
+                            "True"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarSceneTxt"
+                          },
+                          "parameters": [
+                            "ShopPillar",
+                            "=",
+                            "\"Civil\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetGlobalVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "DoctorSpawn",
+                            "True"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarSceneTxt"
+                          },
+                          "parameters": [
+                            "ShopPillar",
+                            "=",
+                            "\"Digital\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetGlobalVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "DiscernCitizenSpawn",
+                            "True"
+                          ]
+                        }
                       ]
                     }
                   ]
