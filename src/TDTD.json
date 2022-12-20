@@ -752,6 +752,60 @@
         "name": "sprites\\Towers\\Cheerleader\\Idle\\Cheerleader-1.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/UI/Events/Cyber Attack/Frame1-1-10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\UI\\Events\\Cyber Attack\\Frame1-1-10.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/UI/Events/Cyber Attack/Frame1-2-10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\UI\\Events\\Cyber Attack\\Frame1-2-10.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/UI/Events/Cyber Attack/Frame1-3-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\UI\\Events\\Cyber Attack\\Frame1-3-4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/UI/Events/Terrorist Attack/TerroristAttack-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\UI\\Events\\Terrorist Attack\\TerroristAttack-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/UI/Ok.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\UI\\Ok.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/UI/Backdrops/Scary-Red-Gradient.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\UI\\Backdrops\\Scary-Red-Gradient.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1450,7 +1504,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.35999998779296827,
+        "zoomFactor": 0.3349999877929687,
         "windowMask": false
       },
       "objectsGroups": [
@@ -2038,6 +2092,51 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 104,
+          "layer": "Overlay(er)",
+          "name": "OkButton",
+          "persistentUuid": "c9b813e5-e081-433b-a505-b66832026647",
+          "width": 97,
+          "x": 765,
+          "y": 819,
+          "zOrder": 1025,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 294,
+          "layer": "Overlay(er)",
+          "name": "CrisisInfo",
+          "persistentUuid": "f52be59c-0701-4492-ba75-d75691ea1e3b",
+          "width": 1000,
+          "x": 375,
+          "y": 537,
+          "zOrder": 1026,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Overlay(er)",
+          "name": "CrisisTitle",
+          "persistentUuid": "7fbfa6a7-2449-41f5-b354-db07fb55b4bb",
+          "width": 0,
+          "x": -800,
+          "y": 184,
+          "zOrder": 1027,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -2195,7 +2294,19 @@
               "folded": true,
               "name": "SpawnTime",
               "type": "number",
-              "value": 0
+              "value": 1
+            },
+            {
+              "folded": true,
+              "name": "CyberAttackSpawnTime",
+              "type": "number",
+              "value": 2
+            },
+            {
+              "folded": true,
+              "name": "TerroristAttackSpawnTime",
+              "type": "number",
+              "value": 0.5
             }
           ],
           "effects": [],
@@ -5384,6 +5495,492 @@
             "align": "left",
             "wordWrap": true
           }
+        },
+        {
+          "assetStoreId": "",
+          "name": "InternetTroll",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "Health",
+              "type": "number",
+              "value": 100000000
+            },
+            {
+              "folded": true,
+              "name": "Pillar",
+              "type": "string",
+              "value": "Digital"
+            },
+            {
+              "folded": true,
+              "name": "MaxSpeed",
+              "type": "number",
+              "value": 200
+            }
+          ],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "EnemyV2",
+              "type": "TDTD::EnemyV2",
+              "Pathfinder": "Pathfinding",
+              "TargetX": 1190,
+              "TargetY": 350
+            },
+            {
+              "name": "Pathfinding",
+              "type": "PathfindingBehavior::PathfindingBehavior",
+              "acceleration": 400,
+              "allowDiagonals": true,
+              "angleOffset": 0,
+              "angularMaxSpeed": 180,
+              "cellHeight": 20,
+              "cellWidth": 20,
+              "extraBorder": 0,
+              "gridOffsetX": 0,
+              "gridOffsetY": 0,
+              "maxSpeed": 200,
+              "rotateObject": true,
+              "smoothingMaxCellGap": 1
+            }
+          ],
+          "animations": [
+            {
+              "name": "Frame1",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Frame1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Frame2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Frame3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Frame4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Frame5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Frame6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "CrisisTitle",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Glitch",
+              "name": "Effect",
+              "doubleParameters": {
+                "animationFrequency": 60,
+                "blueX": 10,
+                "blueY": 10,
+                "direction": 0,
+                "fillMode": 0,
+                "greenX": 10,
+                "greenY": 10,
+                "minSize": 1,
+                "offset": 10,
+                "redX": 10,
+                "redY": 10,
+                "sampleSize": 512,
+                "slices": 2
+              },
+              "stringParameters": {},
+              "booleanParameters": {
+                "average": false
+              }
+            }
+          ],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "Cyber Attack",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.08330000191926956,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites\\UI\\Events\\Cyber Attack\\Frame1-1-10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites\\UI\\Events\\Cyber Attack\\Frame1-2-10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites\\UI\\Events\\Cyber Attack\\Frame1-3-4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Terrorist Attack",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites\\UI\\Events\\Terrorist Attack\\TerroristAttack-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "OkButton",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Button",
+              "type": "TDTD::Button",
+              "Property": "Tween",
+              "SmallScale": 0.8,
+              "NormalScale": 1
+            },
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites\\UI\\Ok.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "TerroristAttack",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Glow",
+              "name": "Effect",
+              "doubleParameters": {
+                "distance": 15,
+                "innerStrength": 1,
+                "outerStrength": 2
+              },
+              "stringParameters": {
+                "color": "207;6;6"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "TerroristAttack",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "TerroristAttack-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "CrisisInfo",
+          "tags": "",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "content": {
+            "text": "\"Terrorists have invaded the country! \nDefeat the terrorists and survive the attack!\"",
+            "opacity": 255,
+            "scale": 1,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "assets\\fonts\\AlbaSlab\\36px\\Alba Slab 36px.fnt",
+            "textureAtlasResourceName": "assets\\fonts\\AlbaSlab\\36px\\Alba Slab 36px.png",
+            "align": "center",
+            "wordWrap": true
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "CrisisOverlay",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites\\UI\\Backdrops\\Scary-Red-Gradient.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -5831,6 +6428,45 @@
                       ]
                     }
                   ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Events",
+                  "comment2": ""
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "BitmapText::BitmapTextObject::SetOpacity"
+                      },
+                      "parameters": [
+                        "CrisisInfo",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Opacity"
+                      },
+                      "parameters": [
+                        "OkButton",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
                 }
               ]
             }
@@ -5842,6 +6478,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Continuous Events",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -5871,6 +6508,16 @@
                     "GoldAmount",
                     "=",
                     "ToString(GlobalVariable(playerGold))"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BitmapText::BitmapTextObject::SetText"
+                  },
+                  "parameters": [
+                    "CommSupportAmt",
+                    "=",
+                    "ToString(GlobalVariable(CommSupportAmt))"
                   ]
                 }
               ]
@@ -5910,20 +6557,20 @@
                   },
                   "parameters": [
                     "",
-                    "Skeleton",
+                    "InternetTroll",
                     "100",
                     "360",
-                    "\"\""
+                    "\"Projectile layer\""
                   ]
                 },
                 {
                   "type": {
-                    "value": "ChangeAnimation"
+                    "value": "ChangeScale"
                   },
                   "parameters": [
-                    "Skeleton",
+                    "InternetTroll",
                     "=",
-                    "8"
+                    "0.21"
                   ]
                 },
                 {
@@ -5943,7 +6590,147 @@
                     "Spawner",
                     "SpawnTime",
                     "=",
-                    "0.2"
+                    "2"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareObjectTimer"
+                  },
+                  "parameters": [
+                    "Spawner",
+                    "\"CyberAttackSpawnerClock\"",
+                    ">",
+                    "Spawner.Variable(CyberAttackSpawnTime)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "CrisisSpawnNo",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "InternetTroll",
+                    "100",
+                    "360",
+                    "\"Projectile layer\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeScale"
+                  },
+                  "parameters": [
+                    "InternetTroll",
+                    "=",
+                    "0.21"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "Spawner",
+                    "\"CyberAttackSpawnerClock\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Spawner",
+                    "CyberAttackSpawnTime",
+                    "=",
+                    "0.1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareObjectTimer"
+                  },
+                  "parameters": [
+                    "Spawner",
+                    "\"TerroristAttackSpawnerClock\"",
+                    ">",
+                    "Spawner.Variable(TerroristAttackSpawnTime)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "CrisisSpawnNo",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "InternetTroll",
+                    "100",
+                    "360",
+                    "\"Projectile layer\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeScale"
+                  },
+                  "parameters": [
+                    "InternetTroll",
+                    "=",
+                    "0.21"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "Spawner",
+                    "\"TerroristAttackSpawnerClock\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Spawner",
+                    "TerroristAttackSpawnTime",
+                    "=",
+                    "0.5"
                   ]
                 }
               ]
@@ -6035,6 +6822,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Attack or Defend",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -6373,12 +7161,41 @@
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
-              "actions": []
+              "actions": [
+                {
+                  "type": {
+                    "value": "TDTD::EnemyV2::slow"
+                  },
+                  "parameters": [
+                    "InternetTroll",
+                    "EnemyV2",
+                    "Pathfinding",
+                    "WhiteHatProjectile",
+                    "0.1",
+                    "5",
+                    ""
+                  ]
+                }
+              ]
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
-              "actions": []
+              "actions": [
+                {
+                  "type": {
+                    "value": "TDTD::EnemyV2::InflictSlow"
+                  },
+                  "parameters": [
+                    "InternetTroll",
+                    "EnemyV2",
+                    "Towers",
+                    "2",
+                    "150",
+                    ""
+                  ]
+                }
+              ]
             },
             {
               "type": "BuiltinCommonInstructions::ForEach",
@@ -6892,6 +7709,156 @@
                         "value": "GlobalVariableAsBoolean"
                       },
                       "parameters": [
+                        "VolunteerSpawn",
+                        "True"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SceneInstancesCount"
+                      },
+                      "parameters": [
+                        "",
+                        "Towers",
+                        "<",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TDTD::Function"
+                      },
+                      "parameters": [
+                        "",
+                        "Volunteer",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetGlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "VolunteerSpawn",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "SceneInstancesCount"
+                      },
+                      "parameters": [
+                        "",
+                        "Towers",
+                        "<",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "VolunteerSpawn",
+                        "True"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PickNearest"
+                      },
+                      "parameters": [
+                        "Towers",
+                        "MouseX()",
+                        "MouseY()",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetGlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "VolunteerSpawn",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "CreateByName"
+                      },
+                      "parameters": [
+                        "",
+                        "Towers",
+                        "Towers.ObjectName()",
+                        "MouseX()",
+                        "MouseY()",
+                        ""
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "PickNearest"
+                          },
+                          "parameters": [
+                            "Towers",
+                            "MouseX()",
+                            "MouseY()",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetCenter"
+                          },
+                          "parameters": [
+                            "Towers",
+                            "=",
+                            "MouseX()",
+                            "=",
+                            "MouseY()"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "Towers",
+                            "FireRate",
+                            "/",
+                            "0.5"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
                         "CheerleaderSpawn",
                         "True"
                       ]
@@ -6931,174 +7898,6 @@
                   },
                   "comment": "Social",
                   "comment2": ""
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "GlobalVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "VolunteerSpawn",
-                        "True"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
-                        "Volunteer",
-                        "MouseX()",
-                        "MouseY()",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetCenter"
-                      },
-                      "parameters": [
-                        "Volunteer",
-                        "=",
-                        "MouseX()",
-                        "=",
-                        "MouseY()"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetGlobalVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "VolunteerSpawn",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVarScene"
-                      },
-                      "parameters": [
-                        "VolunteerX",
-                        "=",
-                        "Volunteer.CenterX()"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVarScene"
-                      },
-                      "parameters": [
-                        "VolunteerY",
-                        "=",
-                        "Volunteer.CenterY()"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVarSceneTxt"
-                      },
-                      "parameters": [
-                        "VolunteerPillars",
-                        "=",
-                        "\"\""
-                      ]
-                    }
-                  ],
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::ForEach",
-                      "object": "Towers",
-                      "conditions": [],
-                      "actions": [],
-                      "events": [
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "BuiltinCommonInstructions::CompareNumbers"
-                              },
-                              "parameters": [
-                                "Towers.DistanceToPosition(Variable(VolunteerX),Variable(VolunteerY))",
-                                "<",
-                                "200"
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "ModVarSceneTxt"
-                              },
-                              "parameters": [
-                                "VolunteerPillars",
-                                "+",
-                                "Towers.VariableString(Pillar)"
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVarObjetTxt"
-                          },
-                          "parameters": [
-                            "Volunteer",
-                            "Pillar",
-                            "=",
-                            "VariableString(VolunteerPillars)"
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "GlobalVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "EducatorSpawn",
-                        "True"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "TDTD::Function"
-                      },
-                      "parameters": [
-                        "",
-                        "Educator",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetGlobalVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "EducatorSpawn",
-                        ""
-                      ]
-                    }
-                  ]
                 },
                 {
                   "type": "BuiltinCommonInstructions::Comment",
@@ -7377,6 +8176,658 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "name": "Crisis Stuff",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "MouseButtonReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "Debug",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "CrisisNo",
+                    "=",
+                    "RandomInRange(1, 2)"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "oh no a crisis",
+              "comment2": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "CrisisNo",
+                    "!=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "CrisisOverlay",
+                        "0",
+                        "0",
+                        "\"Overlay(er)\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Opacity"
+                      },
+                      "parameters": [
+                        "CrisisOverlay",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangeScale"
+                      },
+                      "parameters": [
+                        "CrisisOverlay",
+                        "=",
+                        "0.5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangePlan"
+                      },
+                      "parameters": [
+                        "CrisisOverlay",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangePlan"
+                      },
+                      "parameters": [
+                        "OkButton",
+                        "=",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangePlan"
+                      },
+                      "parameters": [
+                        "CrisisInfo",
+                        "=",
+                        "2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangePlan"
+                      },
+                      "parameters": [
+                        "CrisisTitle",
+                        "=",
+                        "3"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangeLayerTimeScale"
+                      },
+                      "parameters": [
+                        "",
+                        "\"\"",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangeLayerTimeScale"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Projectile layer\"",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::AddObjectOpacityTween"
+                      },
+                      "parameters": [
+                        "CrisisOverlay",
+                        "Tween",
+                        "\"FadeIn\"",
+                        "240",
+                        "\"linear\"",
+                        "250",
+                        ""
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "Set appropritate Crisis title and info",
+                      "comment2": ""
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarGlobal"
+                          },
+                          "parameters": [
+                            "CrisisNo",
+                            "=",
+                            "1"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetAnimationName"
+                          },
+                          "parameters": [
+                            "CrisisTitle",
+                            "\"Cyber Attack\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BitmapText::BitmapTextObject::SetText"
+                          },
+                          "parameters": [
+                            "CrisisInfo",
+                            "=",
+                            "\"Your towers have been hacked by unidentified cybercriminals, reducing their fire rate!\nBeware of the internet trolls and defeat them before they slow your towers down further!\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarGlobal"
+                          },
+                          "parameters": [
+                            "CrisisNo",
+                            "=",
+                            "2"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetAnimationName"
+                          },
+                          "parameters": [
+                            "CrisisTitle",
+                            "\"Terrorist Attack\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BitmapText::BitmapTextObject::SetText"
+                          },
+                          "parameters": [
+                            "CrisisInfo",
+                            "=",
+                            "\"Terrorists have invaded the country! \nDefeat the terrorists and survive the attack!\""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Animate Text Entry",
+                  "comment2": ""
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Tween::HasFinished"
+                      },
+                      "parameters": [
+                        "CrisisOverlay",
+                        "Tween",
+                        "\"FadeIn\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Tween::RemoveTween"
+                      },
+                      "parameters": [
+                        "CrisisOverlay",
+                        "Tween",
+                        "\"FadeIn\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::AddObjectPositionXTween"
+                      },
+                      "parameters": [
+                        "CrisisTitle",
+                        "Tween",
+                        "\"Move\"",
+                        "810-CrisisTitle.Width()/2",
+                        "\"easeOutQuad\"",
+                        "500",
+                        "1000"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Tween::HasFinished"
+                      },
+                      "parameters": [
+                        "CrisisTitle",
+                        "Tween",
+                        "\"Move\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Tween::RemoveTween"
+                      },
+                      "parameters": [
+                        "CrisisTitle",
+                        "Tween",
+                        "\"Move\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::AddObjectOpacityTween"
+                      },
+                      "parameters": [
+                        "CrisisInfo",
+                        "Tween",
+                        "\"Show\"",
+                        "255",
+                        "\"linear\"",
+                        "500",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Tween::HasFinished"
+                      },
+                      "parameters": [
+                        "CrisisInfo",
+                        "Tween",
+                        "\"Show\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Tween::RemoveTween"
+                      },
+                      "parameters": [
+                        "CrisisInfo",
+                        "Tween",
+                        "\"Show\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::AddObjectOpacityTween"
+                      },
+                      "parameters": [
+                        "OkButton",
+                        "Tween",
+                        "\"Show\"",
+                        "255",
+                        "\"linear\"",
+                        "500",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Montre"
+                      },
+                      "parameters": [
+                        "OkButton",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Remove Text when Ok",
+                  "comment2": ""
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "MouseButtonReleased"
+                      },
+                      "parameters": [
+                        "",
+                        "Left"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "OkButton",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "CrisisOverlay"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Opacity"
+                      },
+                      "parameters": [
+                        "OkButton",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BitmapText::BitmapTextObject::SetOpacity"
+                      },
+                      "parameters": [
+                        "CrisisInfo",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "MettreX"
+                      },
+                      "parameters": [
+                        "CrisisTitle",
+                        "=",
+                        "-800"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangeLayerTimeScale"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Projectile layer\"",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangeLayerTimeScale"
+                      },
+                      "parameters": [
+                        "",
+                        "\"\"",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "Crisis specific events",
+                      "comment2": ""
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarGlobal"
+                          },
+                          "parameters": [
+                            "CrisisNo",
+                            "=",
+                            "1"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ResetObjectTimer"
+                          },
+                          "parameters": [
+                            "Spawner",
+                            "\"CyberAttackSpawnerClock\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "CrisisSpawnNo",
+                            "=",
+                            "1"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarGlobal"
+                          },
+                          "parameters": [
+                            "CrisisNo",
+                            "=",
+                            "2"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ResetObjectTimer"
+                          },
+                          "parameters": [
+                            "Spawner",
+                            "\"TerroristAttackSpawnerClock\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "CrisisSpawnNo",
+                            "=",
+                            "2"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "Clear CrisisNo to continue execution",
+                      "comment2": ""
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "CrisisNo",
+                            "=",
+                            "0"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
           "name": "Shop Stuff",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -8717,6 +10168,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Buy Stuff",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -9364,6 +10816,17 @@
           "visibility": true,
           "cameras": [],
           "effects": []
+        },
+        {
+          "ambientLightColorB": 10675424,
+          "ambientLightColorG": 6057056,
+          "ambientLightColorR": 10889896,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "Overlay(er)",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
         }
       ],
       "behaviorsSharedData": [
@@ -9508,6 +10971,7 @@
           ],
           "string": "TDTD",
           "font": "assets\\AlfaSlabOne-Regular.ttf",
+          "textAlignment": "",
           "characterSize": 100,
           "color": {
             "b": 36,
@@ -11242,6 +12706,7 @@
           "behaviors": [],
           "string": "Psychological Defence",
           "font": "assets\\AlfaSlabOne-Regular.ttf",
+          "textAlignment": "",
           "characterSize": 17,
           "color": {
             "b": 255,
@@ -11263,6 +12728,7 @@
           "behaviors": [],
           "string": "Social Defence",
           "font": "assets\\AlfaSlabOne-Regular.ttf",
+          "textAlignment": "",
           "characterSize": 17,
           "color": {
             "b": 255,
@@ -11284,6 +12750,7 @@
           "behaviors": [],
           "string": "Economic Defence",
           "font": "assets\\AlfaSlabOne-Regular.ttf",
+          "textAlignment": "",
           "characterSize": 17,
           "color": {
             "b": 255,
@@ -11305,6 +12772,7 @@
           "behaviors": [],
           "string": "Military Defence",
           "font": "assets\\AlfaSlabOne-Regular.ttf",
+          "textAlignment": "",
           "characterSize": 17,
           "color": {
             "b": 255,
@@ -11326,6 +12794,7 @@
           "behaviors": [],
           "string": "Civil Defence",
           "font": "assets\\AlfaSlabOne-Regular.ttf",
+          "textAlignment": "",
           "characterSize": 17,
           "color": {
             "b": 255,
@@ -11347,6 +12816,7 @@
           "behaviors": [],
           "string": "Digital Defence",
           "font": "assets\\AlfaSlabOne-Regular.ttf",
+          "textAlignment": "",
           "characterSize": 17,
           "color": {
             "b": 255,
@@ -11534,6 +13004,7 @@
           ],
           "string": "Cheerleader",
           "font": "assets\\AlfaSlabOne-Regular.ttf",
+          "textAlignment": "",
           "characterSize": 20,
           "color": {
             "b": 255,
@@ -11560,6 +13031,7 @@
           ],
           "string": "Cheerleaders boost both morale AND fire rate!\nUpg: Boost Effect",
           "font": "assets\\AlfaSlabOne-Regular.ttf",
+          "textAlignment": "",
           "characterSize": 14,
           "color": {
             "b": 0,
@@ -11586,6 +13058,7 @@
           ],
           "string": "0",
           "font": "assets\\AlfaSlabOne-Regular.ttf",
+          "textAlignment": "",
           "characterSize": 10,
           "color": {
             "b": 255,
@@ -11612,6 +13085,7 @@
           ],
           "string": "0",
           "font": "assets\\AlfaSlabOne-Regular.ttf",
+          "textAlignment": "",
           "characterSize": 10,
           "color": {
             "b": 255,
@@ -11840,6 +13314,7 @@
           ],
           "string": "Volunteer",
           "font": "assets\\AlfaSlabOne-Regular.ttf",
+          "textAlignment": "",
           "characterSize": 20,
           "color": {
             "b": 255,
@@ -11866,6 +13341,7 @@
           ],
           "string": "Volunteers help out with many aspects of TD. Can attack enemies of Pillars of nearby Towers.\nUpg: Atk Dmg",
           "font": "assets\\AlfaSlabOne-Regular.ttf",
+          "textAlignment": "",
           "characterSize": 14,
           "color": {
             "b": 0,
@@ -11892,6 +13368,7 @@
           ],
           "string": "0",
           "font": "assets\\AlfaSlabOne-Regular.ttf",
+          "textAlignment": "",
           "characterSize": 10,
           "color": {
             "b": 255,
@@ -11918,6 +13395,7 @@
           ],
           "string": "0",
           "font": "assets\\AlfaSlabOne-Regular.ttf",
+          "textAlignment": "",
           "characterSize": 10,
           "color": {
             "b": 255,
@@ -12092,6 +13570,7 @@
           ],
           "string": "Educator",
           "font": "assets\\AlfaSlabOne-Regular.ttf",
+          "textAlignment": "",
           "characterSize": 20,
           "color": {
             "b": 255,
@@ -12118,6 +13597,7 @@
           ],
           "string": "0",
           "font": "assets\\AlfaSlabOne-Regular.ttf",
+          "textAlignment": "",
           "characterSize": 10,
           "color": {
             "b": 255,
@@ -12251,6 +13731,7 @@
           ],
           "string": "Reskilling Center",
           "font": "assets\\AlfaSlabOne-Regular.ttf",
+          "textAlignment": "",
           "characterSize": 20,
           "color": {
             "b": 255,
@@ -12277,6 +13758,7 @@
           ],
           "string": "0",
           "font": "assets\\AlfaSlabOne-Regular.ttf",
+          "textAlignment": "",
           "characterSize": 10,
           "color": {
             "b": 255,
@@ -12410,6 +13892,7 @@
           ],
           "string": "Firefighter",
           "font": "assets\\AlfaSlabOne-Regular.ttf",
+          "textAlignment": "",
           "characterSize": 20,
           "color": {
             "b": 255,
@@ -12436,6 +13919,7 @@
           ],
           "string": "0",
           "font": "assets\\AlfaSlabOne-Regular.ttf",
+          "textAlignment": "",
           "characterSize": 10,
           "color": {
             "b": 255,
@@ -12569,6 +14053,7 @@
           ],
           "string": "White Hat Hacker",
           "font": "assets\\AlfaSlabOne-Regular.ttf",
+          "textAlignment": "",
           "characterSize": 20,
           "color": {
             "b": 255,
@@ -12595,6 +14080,7 @@
           ],
           "string": "0",
           "font": "assets\\AlfaSlabOne-Regular.ttf",
+          "textAlignment": "",
           "characterSize": 10,
           "color": {
             "b": 255,
@@ -12777,6 +14263,7 @@
           "behaviors": [],
           "string": "Soldier",
           "font": "assets\\AlfaSlabOne-Regular.ttf",
+          "textAlignment": "",
           "characterSize": 20,
           "color": {
             "b": 255,
@@ -12803,6 +14290,7 @@
           ],
           "string": "0",
           "font": "assets\\AlfaSlabOne-Regular.ttf",
+          "textAlignment": "",
           "characterSize": 10,
           "color": {
             "b": 255,
@@ -12824,6 +14312,7 @@
           "behaviors": [],
           "string": "Soldiers are the forefront of our country's physical defence. \nUpgrade:",
           "font": "assets\\AlfaSlabOne-Regular.ttf",
+          "textAlignment": "",
           "characterSize": 15,
           "color": {
             "b": 0,
@@ -12845,6 +14334,7 @@
           "behaviors": [],
           "string": "0",
           "font": "assets\\AlfaSlabOne-Regular.ttf",
+          "textAlignment": "",
           "characterSize": 10,
           "color": {
             "b": 255,
@@ -13019,6 +14509,7 @@
           ],
           "string": "0",
           "font": "assets\\AlfaSlabOne-Regular.ttf",
+          "textAlignment": "",
           "characterSize": 10,
           "color": {
             "b": 255,
@@ -13040,6 +14531,7 @@
           "behaviors": [],
           "string": "Officer",
           "font": "assets\\AlfaSlabOne-Regular.ttf",
+          "textAlignment": "",
           "characterSize": 20,
           "color": {
             "b": 255,
@@ -13208,6 +14700,7 @@
           "behaviors": [],
           "string": "0",
           "font": "assets\\AlfaSlabOne-Regular.ttf",
+          "textAlignment": "",
           "characterSize": 50,
           "color": {
             "b": 255,
@@ -14531,7 +16024,7 @@
       "name": "TDTD",
       "previewIconUrl": "",
       "shortDescription": "",
-      "version": "",
+      "version": "2.0.0",
       "description": "",
       "tags": [],
       "authorIds": [],
@@ -14589,7 +16082,7 @@
       "eventsBasedBehaviors": [
         {
           "description": "This behaviour is for enemies. It controls their pathfinding and health.",
-          "fullName": "Enemy",
+          "fullName": "Enemy2.0",
           "name": "EnemyV2",
           "objectType": "Sprite",
           "eventsFunctions": [
@@ -14731,6 +16224,208 @@
                   "name": "Behavior",
                   "supplementaryInformation": "TDTD::EnemyV2",
                   "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Slows the enemy when hit with a certain projectile.",
+              "fullName": "Slow enemy",
+              "functionType": "Action",
+              "name": "slow",
+              "sentence": "[Upon Contact with _PARAM3_]  Set the speed of _PARAM0_ to _PARAM4_x for _PARAM5_ seconds",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Projectile",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"SlowTime\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PathfindingBehavior::MaxSpeed"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Pathfinding",
+                        "=",
+                        "Object.Variable(MaxSpeed)*GetArgumentAsNumber(\"SpeedMultiplier\")"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CompareObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"SlowTime\"",
+                        ">=",
+                        "GetArgumentAsNumber(\"Duration\")"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PathfindingBehavior::MaxSpeed"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Pathfinding",
+                        "=",
+                        "Object.Variable(MaxSpeed)"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "Sprite",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "TDTD::EnemyV2",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Pathfinding behaviour is needed in order to tweak the speed of the object",
+                  "name": "Pathfinding",
+                  "supplementaryInformation": "PathfindingBehavior::PathfindingBehavior",
+                  "type": "behavior"
+                },
+                {
+                  "description": "The projectile that will cause the slow effect.",
+                  "name": "Projectile",
+                  "supplementaryInformation": "Sprite",
+                  "type": "objectList"
+                },
+                {
+                  "description": "The slow effect will multiply the original speed by this number.",
+                  "name": "SpeedMultiplier",
+                  "type": "expression"
+                },
+                {
+                  "description": "The duration of the slow effect (in seconds).",
+                  "name": "Duration",
+                  "type": "expression"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Allows selected enemies to inflict the Negative Thoughts effect (decreased firing speed) when they pass by towers in their AoE.",
+              "fullName": "Inflict Negative Thoughts (for enemies)",
+              "functionType": "Action",
+              "name": "InflictSlow",
+              "sentence": "[For each _PARAM0_] Set the fire rate of all _PARAM2_ within _PARAM4_ pixels to _PARAM3_x",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "AffectedTowers",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Distance"
+                      },
+                      "parameters": [
+                        "Object",
+                        "AffectedTowers",
+                        "GetArgumentAsNumber(\"AoE\")",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "AffectedTowers",
+                        "FireRate",
+                        "/",
+                        "GetArgumentAsNumber(\"FireRateMultiplier\")"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "Sprite",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "TDTD::EnemyV2",
+                  "type": "behavior"
+                },
+                {
+                  "description": "The towers that the enemies will slow (default: All)",
+                  "name": "AffectedTowers",
+                  "supplementaryInformation": "Sprite",
+                  "type": "objectList"
+                },
+                {
+                  "description": "The Negative Thoughts effect will divide the time between attacks of the towers by this number.",
+                  "name": "FireRateMultiplier",
+                  "type": "expression"
+                },
+                {
+                  "description": "The area of effect (in pixels). If the towers are below this distance from the enemy they will be inflicted with the effect.",
+                  "name": "AoE",
+                  "type": "expression"
                 }
               ],
               "objectGroups": []
@@ -15619,7 +17314,26 @@
           "events": [
             {
               "type": "BuiltinCommonInstructions::JsCode",
-              "inlineCode": "gdjs.evtTools.back_button = {\n    triggered: false,\n    _popStateListener: (event) => {\n        gdjs.evtTools.back_button.triggered = true;\n        history.pushState(\"\", \"\"); // Push a new fake state as the old one was popped\n    }\n};\n\n// Handle back button on the web\nhistory.pushState(\"\", \"\"); // Push a fake state to prevent switching page when clicking on back\nwindow.addEventListener('popstate', gdjs.evtTools.back_button._popStateListener);\n\n// Handle back button on cordova\ndocument.addEventListener(\"backbutton\", e => {\n    e.preventDefault();\n    gdjs.evtTools.back_button.triggered = true;\n}, false); \n",
+              "inlineCode": [
+                "gdjs.evtTools.back_button = {",
+                "    triggered: false,",
+                "    _popStateListener: (event) => {",
+                "        gdjs.evtTools.back_button.triggered = true;",
+                "        history.pushState(\"\", \"\"); // Push a new fake state as the old one was popped",
+                "    }",
+                "};",
+                "",
+                "// Handle back button on the web",
+                "history.pushState(\"\", \"\"); // Push a fake state to prevent switching page when clicking on back",
+                "window.addEventListener('popstate', gdjs.evtTools.back_button._popStateListener);",
+                "",
+                "// Handle back button on cordova",
+                "document.addEventListener(\"backbutton\", e => {",
+                "    e.preventDefault();",
+                "    gdjs.evtTools.back_button.triggered = true;",
+                "}, false); ",
+                ""
+              ],
               "parameterObjects": "",
               "useStrict": true,
               "eventsSheetExpanded": false
@@ -15637,7 +17351,10 @@
           "events": [
             {
               "type": "BuiltinCommonInstructions::JsCode",
-              "inlineCode": "eventsFunctionContext.returnValue = gdjs.evtTools.back_button.triggered;\n",
+              "inlineCode": [
+                "eventsFunctionContext.returnValue = gdjs.evtTools.back_button.triggered;",
+                ""
+              ],
               "parameterObjects": "",
               "useStrict": true,
               "eventsSheetExpanded": false
@@ -15655,7 +17372,21 @@
           "events": [
             {
               "type": "BuiltinCommonInstructions::JsCode",
-              "inlineCode": "// Close the app on cordova, as this is the default behavior\nif (navigator.app) {\n    navigator.app.exitApp();\n} else if (navigator.device && navigator.device.exitApp) {\n    navigator.device.exitApp();\n} else {\n    // Go to previous page as it is the default on browsers\n    // Remove the listener so new fake states don't get pushed\n    window.removeEventListener('popstate', gdjs.evtTools.back_button._popStateListener);\n    history.back(); // Remove the state that prevents going back\n    history.back(); // Actually go back\n}\n",
+              "inlineCode": [
+                "// Close the app on cordova, as this is the default behavior",
+                "if (navigator.app) {",
+                "    navigator.app.exitApp();",
+                "} else if (navigator.device && navigator.device.exitApp) {",
+                "    navigator.device.exitApp();",
+                "} else {",
+                "    // Go to previous page as it is the default on browsers",
+                "    // Remove the listener so new fake states don't get pushed",
+                "    window.removeEventListener('popstate', gdjs.evtTools.back_button._popStateListener);",
+                "    history.back(); // Remove the state that prevents going back",
+                "    history.back(); // Actually go back",
+                "}",
+                ""
+              ],
               "parameterObjects": "",
               "useStrict": true,
               "eventsSheetExpanded": false
@@ -15672,7 +17403,10 @@
           "events": [
             {
               "type": "BuiltinCommonInstructions::JsCode",
-              "inlineCode": "gdjs.evtTools.back_button.triggered = false;\n",
+              "inlineCode": [
+                "gdjs.evtTools.back_button.triggered = false;",
+                ""
+              ],
               "parameterObjects": "",
               "useStrict": true,
               "eventsSheetExpanded": false
