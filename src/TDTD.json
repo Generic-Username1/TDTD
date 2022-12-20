@@ -806,6 +806,96 @@
         "name": "sprites\\UI\\Backdrops\\Scary-Red-Gradient.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Projectiles/e-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Projectiles\\e-1-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Projectiles/OfficerBullet.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Projectiles\\OfficerBullet.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Projectiles/Firefighter Projectile.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Projectiles\\Firefighter Projectile.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Projectiles/VolunteerProjectile.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Projectiles\\VolunteerProjectile.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Enemies/Internet Trolls/Walk/Frame1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Enemies\\Internet Trolls\\Walk\\Frame1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Enemies/Internet Trolls/Walk/Frame2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Enemies\\Internet Trolls\\Walk\\Frame2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Enemies/Internet Trolls/Walk/Frame3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Enemies\\Internet Trolls\\Walk\\Frame3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Enemies/Internet Trolls/Walk/Frame4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Enemies\\Internet Trolls\\Walk\\Frame4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Enemies/Internet Trolls/Walk/Frame5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Enemies\\Internet Trolls\\Walk\\Frame5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Enemies/Internet Trolls/Walk/Frame6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Enemies\\Internet Trolls\\Walk\\Frame6.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2383,16 +2473,16 @@
           ],
           "animations": [
             {
-              "name": "e",
+              "name": "",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.07999999821186066,
+                  "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "e-1-0.png",
+                      "image": "sprites\\Projectiles\\e-1-0.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2462,7 +2552,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "OfficerBullet.png",
+                      "image": "sprites\\Projectiles\\OfficerBullet.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2493,35 +2583,6 @@
           "effects": [],
           "behaviors": [],
           "animations": [
-            {
-              "name": "NewSprite-1-9",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.10000000149011612,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "NewSprite-1-9.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 31.337886810302734,
-                        "y": 31.891199111938477
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
             {
               "name": "",
               "useMultipleDirections": false,
@@ -2904,1112 +2965,6 @@
           "behaviors": []
         },
         {
-          "assetStoreId": "adab978168a4868cc90b2aa8ab3dc22ccf38a010e5430258c8e1d30f870eb96d",
-          "name": "Skeleton",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [
-            {
-              "folded": true,
-              "name": "Health",
-              "type": "number",
-              "value": 100
-            },
-            {
-              "folded": true,
-              "name": "MoneyDrop",
-              "type": "number",
-              "value": 50
-            },
-            {
-              "folded": true,
-              "name": "Pillar",
-              "type": "string",
-              "value": "Military"
-            }
-          ],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "EnemyV2",
-              "type": "TDTD::EnemyV2",
-              "Pathfinder": "Pathfinding",
-              "TargetX": 1200,
-              "TargetY": 340
-            },
-            {
-              "name": "Pathfinding",
-              "type": "PathfindingBehavior::PathfindingBehavior",
-              "acceleration": 400,
-              "allowDiagonals": true,
-              "angleOffset": 0,
-              "angularMaxSpeed": 180,
-              "cellHeight": 20,
-              "cellWidth": 20,
-              "extraBorder": 0,
-              "gridOffsetX": 0,
-              "gridOffsetY": 0,
-              "maxSpeed": 200,
-              "rotateObject": true
-            }
-          ],
-          "animations": [
-            {
-              "name": "Hurt",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.5,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Skeleton_Hurt_1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": -15.706730842590332,
-                        "y": -9.026568412780762
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 16.001768112182617,
-                        "y": 16.625253677368164
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Skeleton_Hurt_2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": -15.706730842590332,
-                        "y": -9.026568412780762
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 16.001768112182617,
-                        "y": 16.625253677368164
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Bone Pile Wakeup",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.1429000049829483,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Skeleton_Bone Pile Wakeup_1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": -15.706730842590332,
-                        "y": -9.026568412780762
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 16.001768112182617,
-                        "y": 16.625253677368164
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Skeleton_Bone Pile Wakeup_2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": -15.706730842590332,
-                        "y": -9.026568412780762
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 16.001768112182617,
-                        "y": 16.625253677368164
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Skeleton_Bone Pile Wakeup_3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": -15.706730842590332,
-                        "y": -9.026568412780762
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 16.001768112182617,
-                        "y": 16.625253677368164
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Skeleton_Bone Pile Wakeup_4.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": -15.706730842590332,
-                        "y": -9.026568412780762
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 16.001768112182617,
-                        "y": 16.625253677368164
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Skeleton_Bone Pile Wakeup_5.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": -15.706730842590332,
-                        "y": -9.026568412780762
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 16.001768112182617,
-                        "y": 16.625253677368164
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Skeleton_Bone Pile Wakeup_6.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": -15.706730842590332,
-                        "y": -9.026568412780762
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 16.001768112182617,
-                        "y": 16.625253677368164
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Skeleton_Bone Pile Wakeup_7.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": -15.706730842590332,
-                        "y": -9.026568412780762
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 16.001768112182617,
-                        "y": 16.625253677368164
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Bone Pile",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.02500000037252903,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Skeleton_Bone Pile.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": -15.706730842590332,
-                        "y": -9.026568412780762
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 16.001768112182617,
-                        "y": 16.625253677368164
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Bone Toss",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.20000000298023224,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Skeleton_Bone Toss_1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": -15.706730842590332,
-                        "y": -9.026568412780762
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 16.001768112182617,
-                        "y": 16.625253677368164
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Skeleton_Bone Toss_2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": -15.706730842590332,
-                        "y": -9.026568412780762
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 16.001768112182617,
-                        "y": 16.625253677368164
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Skeleton_Bone Toss_3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": -15.706730842590332,
-                        "y": -9.026568412780762
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 16.001768112182617,
-                        "y": 16.625253677368164
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Skeleton_Bone Toss_4.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": -15.706730842590332,
-                        "y": -9.026568412780762
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 16.001768112182617,
-                        "y": 16.625253677368164
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Skeleton_Bone Toss_5.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": -15.706730842590332,
-                        "y": -9.026568412780762
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 16.001768112182617,
-                        "y": 16.625253677368164
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Crumbling Into Bone Pile",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.1429000049829483,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Skeleton_Crumbling Into Bone Pile_1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": -15.706730842590332,
-                        "y": -9.026568412780762
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 16.001768112182617,
-                        "y": 16.625253677368164
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Skeleton_Crumbling Into Bone Pile_2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": -15.706730842590332,
-                        "y": -9.026568412780762
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 16.001768112182617,
-                        "y": 16.625253677368164
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Skeleton_Crumbling Into Bone Pile_3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": -15.706730842590332,
-                        "y": -9.026568412780762
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 16.001768112182617,
-                        "y": 16.625253677368164
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Skeleton_Crumbling Into Bone Pile_4.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": -15.706730842590332,
-                        "y": -9.026568412780762
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 16.001768112182617,
-                        "y": 16.625253677368164
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Skeleton_Crumbling Into Bone Pile_5.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": -15.706730842590332,
-                        "y": -9.026568412780762
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 16.001768112182617,
-                        "y": 16.625253677368164
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Skeleton_Crumbling Into Bone Pile_6.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": -15.706730842590332,
-                        "y": -9.026568412780762
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 16.001768112182617,
-                        "y": 16.625253677368164
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Skeleton_Crumbling Into Bone Pile_7.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": -15.706730842590332,
-                        "y": -9.026568412780762
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 16.001768112182617,
-                        "y": 16.625253677368164
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Inactive",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.02500000037252903,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Skeleton_Inactive.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": -15.706730842590332,
-                        "y": -9.026568412780762
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 16.001768112182617,
-                        "y": 16.625253677368164
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Jumping",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.02500000037252903,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Skeleton_Jumping.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": -15.706730842590332,
-                        "y": -9.026568412780762
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 16.001768112182617,
-                        "y": 16.625253677368164
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Landed",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.5,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Skeleton_Landed_1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": -15.706730842590332,
-                        "y": -9.026568412780762
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 16.001768112182617,
-                        "y": 16.625253677368164
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Skeleton_Landed_2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": -15.706730842590332,
-                        "y": -9.026568412780762
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 16.001768112182617,
-                        "y": 16.625253677368164
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Limping Movement",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.16670000553131104,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Skeleton_Limping Movement_1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": -15.706730842590332,
-                        "y": -9.026568412780762
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 16.001768112182617,
-                        "y": 16.625253677368164
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Skeleton_Limping Movement_2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": -15.706730842590332,
-                        "y": -9.026568412780762
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 16.001768112182617,
-                        "y": 16.625253677368164
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Skeleton_Limping Movement_3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": -15.706730842590332,
-                        "y": -9.026568412780762
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 16.001768112182617,
-                        "y": 16.625253677368164
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Skeleton_Limping Movement_4.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": -15.706730842590332,
-                        "y": -9.026568412780762
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 16.001768112182617,
-                        "y": 16.625253677368164
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Skeleton_Limping Movement_5.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": -15.706730842590332,
-                        "y": -9.026568412780762
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 16.001768112182617,
-                        "y": 16.625253677368164
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Skeleton_Limping Movement_6.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": -15.706730842590332,
-                        "y": -9.026568412780762
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 16.001768112182617,
-                        "y": 16.625253677368164
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Preparing Jump",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.33329999446868896,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Skeleton_Preparing Jump_1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": -15.706730842590332,
-                        "y": -9.026568412780762
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 16.001768112182617,
-                        "y": 16.625253677368164
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Skeleton_Preparing Jump_2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": -15.706730842590332,
-                        "y": -9.026568412780762
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 16.001768112182617,
-                        "y": 16.625253677368164
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Skeleton_Preparing Jump_3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": -15.706730842590332,
-                        "y": -9.026568412780762
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 16.001768112182617,
-                        "y": 16.625253677368164
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Standing Idle",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.11110000312328339,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Skeleton_Standing Idle_1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": -15.706730842590332,
-                        "y": -9.026568412780762
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 16.001768112182617,
-                        "y": 16.625253677368164
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Skeleton_Standing Idle_2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": -15.706730842590332,
-                        "y": -9.026568412780762
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 16.001768112182617,
-                        "y": 16.625253677368164
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Skeleton_Standing Idle_3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": -15.706730842590332,
-                        "y": -9.026568412780762
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 16.001768112182617,
-                        "y": 16.625253677368164
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Skeleton_Standing Idle_4.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": -15.706730842590332,
-                        "y": -9.026568412780762
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 16.001768112182617,
-                        "y": 16.625253677368164
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Skeleton_Standing Idle_5.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": -15.706730842590332,
-                        "y": -9.026568412780762
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 16.001768112182617,
-                        "y": 16.625253677368164
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Skeleton_Standing Idle_6.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": -15.706730842590332,
-                        "y": -9.026568412780762
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 16.001768112182617,
-                        "y": 16.625253677368164
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Skeleton_Standing Idle_7.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": -15.706730842590332,
-                        "y": -9.026568412780762
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 16.001768112182617,
-                        "y": 16.625253677368164
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Skeleton_Standing Idle_8.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": -15.706730842590332,
-                        "y": -9.026568412780762
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 16.001768112182617,
-                        "y": 16.625253677368164
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Skeleton_Standing Idle_9.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": -15.706730842590332,
-                        "y": -9.026568412780762
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 16.001768112182617,
-                        "y": 16.625253677368164
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Standing Wakeup",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.33329999446868896,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Skeleton_Standing Wakeup_1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": -15.706730842590332,
-                        "y": -9.026568412780762
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 16.001768112182617,
-                        "y": 16.625253677368164
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Skeleton_Standing Wakeup_2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": -15.706730842590332,
-                        "y": -9.026568412780762
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 16.001768112182617,
-                        "y": 16.625253677368164
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Skeleton_Standing Wakeup_3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": -15.706730842590332,
-                        "y": -9.026568412780762
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 16.001768112182617,
-                        "y": 16.625253677368164
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Standing",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.02500000037252903,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Skeleton_Standing.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": -15.706730842590332,
-                        "y": -9.026568412780762
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 16.001768112182617,
-                        "y": 16.625253677368164
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Twitching Idle",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.25,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Skeleton_Twitching Idle_1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": -15.706730842590332,
-                        "y": -9.026568412780762
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 16.001768112182617,
-                        "y": 16.625253677368164
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Skeleton_Twitching Idle_2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": -15.706730842590332,
-                        "y": -9.026568412780762
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 16.001768112182617,
-                        "y": 16.625253677368164
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Skeleton_Twitching Idle_3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": -15.706730842590332,
-                        "y": -9.026568412780762
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 16.001768112182617,
-                        "y": 16.625253677368164
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Skeleton_Twitching Idle_4.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": -15.706730842590332,
-                        "y": -9.026568412780762
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 16.001768112182617,
-                        "y": 16.625253677368164
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "assetStoreId": "",
           "name": "SpawnBox",
           "tags": "",
@@ -4134,7 +3089,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Firefighter Projectile.png",
+                      "image": "sprites\\Projectiles\\Firefighter Projectile.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4288,7 +3243,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "VolunteerProjectile.png",
+                      "image": "sprites\\Projectiles\\VolunteerProjectile.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -5550,16 +4505,16 @@
           ],
           "animations": [
             {
-              "name": "Frame1",
+              "name": "",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": true,
-                  "timeBetweenFrames": 0.07999999821186066,
+                  "timeBetweenFrames": 0.08330000191926956,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Frame1.png",
+                      "image": "sprites\\Enemies\\Internet Trolls\\Walk\\Frame1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -5576,7 +4531,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Frame2.png",
+                      "image": "sprites\\Enemies\\Internet Trolls\\Walk\\Frame2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -5593,7 +4548,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Frame3.png",
+                      "image": "sprites\\Enemies\\Internet Trolls\\Walk\\Frame3.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -5610,7 +4565,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Frame4.png",
+                      "image": "sprites\\Enemies\\Internet Trolls\\Walk\\Frame4.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -5627,7 +4582,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Frame5.png",
+                      "image": "sprites\\Enemies\\Internet Trolls\\Walk\\Frame5.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -5644,7 +4599,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Frame6.png",
+                      "image": "sprites\\Enemies\\Internet Trolls\\Walk\\Frame6.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
