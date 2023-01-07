@@ -25,7 +25,7 @@
     "windowHeight": 1080,
     "latestCompilationDirectory": "C:\\Users\\wongy\\Desktop\\TDTD-Build",
     "maxFPS": 60,
-    "minFPS": 20,
+    "minFPS": 30,
     "verticalSync": false,
     "platformSpecificAssets": {},
     "loadingScreen": {
@@ -896,6 +896,79 @@
         "name": "sprites\\Enemies\\Internet Trolls\\Walk\\Frame6.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewFile-1-4-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewFile-1-4-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Towers/Volunteer/Idle/Volunteer-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Towers\\Volunteer\\Idle\\Volunteer-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Towers/Soldier/Idle/Untitled-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Towers\\Soldier\\Idle\\Untitled-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Towers/Firefighter/Idle/Firefighter.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Towers\\Firefighter\\Idle\\Firefighter.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Towers/White Hat Hacker/Idle/WhiteHat-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Towers\\White Hat Hacker\\Idle\\WhiteHat-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Projectiles/Cheerleader-Cure.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Projectiles\\Cheerleader-Cure.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Projectiles/Cheerleader-Cure-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Projectiles\\Cheerleader-Cure-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "ShootTest.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "ShootTest.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -925,10 +998,21 @@
           "name": "FireBoost",
           "type": "number",
           "value": 1.2
+        },
+        {
+          "folded": true,
+          "name": "SecondRate",
+          "type": "number",
+          "value": 5
         }
       ],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "TowerV2",
+          "type": "TDTD::TowerV2"
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -941,7 +1025,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "sprites\\Towers\\Cheerleader\\Idle\\Cheerleader-1.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "OriginPoint",
+                      "x": 44.807342529296875,
+                      "y": 49.08210754394531
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -1002,60 +1092,6 @@
       ],
       "animations": [
         {
-          "name": "Volunteer",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.07999999821186066,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "Volunteer-1.png",
-                  "points": [
-                    {
-                      "name": "OriginPoint",
-                      "x": 38.84705352783203,
-                      "y": 36.28816223144531
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "assetStoreId": "",
-      "name": "Educator",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [
-        {
-          "folded": true,
-          "name": "Pillar",
-          "type": "string",
-          "value": "Psychological"
-        }
-      ],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
           "name": "",
           "useMultipleDirections": false,
           "directions": [
@@ -1065,7 +1101,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Educator.png",
+                  "image": "sprites\\Towers\\Volunteer\\Idle\\Volunteer-1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1189,24 +1225,18 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Untitled-1.png",
-                  "points": [
-                    {
-                      "name": "OriginPoint",
-                      "x": 117.8584213256836,
-                      "y": 25.366207122802734
-                    }
-                  ],
+                  "image": "sprites\\Towers\\Soldier\\Idle\\Untitled-1.png",
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 33.33211135864258,
-                    "y": 54.92087173461914
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": true,
                     "name": "centre",
-                    "x": 72.27413177490234,
-                    "y": 70.43445587158203
+                    "x": 0,
+                    "y": 0
                   },
                   "customCollisionMask": []
                 }
@@ -1343,7 +1373,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Firefighter.png",
+                  "image": "sprites\\Towers\\Firefighter\\Idle\\Firefighter.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1414,14 +1444,8 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "WhiteHat-1.png",
-                  "points": [
-                    {
-                      "name": "OriginPoint",
-                      "x": 27.10736846923828,
-                      "y": 30.569223403930664
-                    }
-                  ],
+                  "image": "sprites\\Towers\\White Hat Hacker\\Idle\\WhiteHat-1.png",
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -1594,7 +1618,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3349999877929687,
+        "zoomFactor": 0.5822975562410693,
         "windowMask": false
       },
       "objectsGroups": [
@@ -1628,7 +1652,7 @@
           "name": "Enemies",
           "objects": [
             {
-              "name": "Skeleton"
+              "name": "InternetTroll"
             }
           ]
         },
@@ -1706,12 +1730,12 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "Path layer",
           "name": "Spawner",
           "persistentUuid": "3f6f4e18-0c68-4997-bc33-99385d0650d0",
           "width": 0,
-          "x": -82,
-          "y": 413,
+          "x": -9,
+          "y": 550,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -1765,13 +1789,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 201,
+          "height": 169,
           "layer": "",
           "name": "Base",
           "persistentUuid": "0ca702d7-6557-4c23-91cc-2ae4930d2a30",
-          "width": 294,
-          "x": 1279,
-          "y": 513,
+          "width": 245,
+          "x": 1371,
+          "y": 543,
           "zOrder": 34,
           "numberProperties": [],
           "stringProperties": [],
@@ -1815,6 +1839,7 @@
           "locked": true,
           "name": "Grass",
           "persistentUuid": "be5efc4d-3548-47be-be4a-959df00478ee",
+          "sealed": true,
           "width": 1620,
           "x": 0,
           "y": 0,
@@ -1906,8 +1931,8 @@
           "name": "SelectedDesc",
           "persistentUuid": "ce1b61ee-ffd3-4566-bb31-7953d0605931",
           "width": 0,
-          "x": 600,
-          "y": 45,
+          "x": 601,
+          "y": 38,
           "zOrder": 1007,
           "numberProperties": [],
           "stringProperties": [],
@@ -1932,11 +1957,11 @@
           "angle": 0,
           "customSize": true,
           "height": 400,
-          "layer": "",
+          "layer": "Shop Layer",
           "name": "ShopBacking",
           "persistentUuid": "ba8e758c-eeac-4a7f-855d-41ead8f2a139",
           "width": 600,
-          "x": 1000,
+          "x": 1700,
           "y": 130,
           "zOrder": 1009,
           "numberProperties": [],
@@ -1962,11 +1987,11 @@
           "angle": 0,
           "customSize": true,
           "height": 120,
-          "layer": "",
+          "layer": "Shop Layer",
           "name": "PsychologicalShopTab",
           "persistentUuid": "23cec43a-3293-4249-a9fd-fb10c68d5cb5",
           "width": 120,
-          "x": 1020,
+          "x": 1700,
           "y": 145,
           "zOrder": 1012,
           "numberProperties": [],
@@ -1977,11 +2002,11 @@
           "angle": 0,
           "customSize": true,
           "height": 120,
-          "layer": "",
+          "layer": "Shop Layer",
           "name": "SocialShopTab",
           "persistentUuid": "5a353b49-2fc3-4d03-8195-7dfb38323c9e",
           "width": 120,
-          "x": 1150,
+          "x": 1700,
           "y": 145,
           "zOrder": 1013,
           "numberProperties": [],
@@ -1992,11 +2017,11 @@
           "angle": 0,
           "customSize": true,
           "height": 120,
-          "layer": "",
+          "layer": "Shop Layer",
           "name": "EconomicShopTab",
           "persistentUuid": "756bf131-e36e-4b4b-9298-e950b8c1ef36",
           "width": 120,
-          "x": 1020,
+          "x": 1700,
           "y": 270,
           "zOrder": 1014,
           "numberProperties": [],
@@ -2007,11 +2032,11 @@
           "angle": 0,
           "customSize": true,
           "height": 120,
-          "layer": "",
+          "layer": "Shop Layer",
           "name": "MilitaryShopTab",
           "persistentUuid": "bf966c87-4020-4a69-ac07-2e3e416726d2",
           "width": 120,
-          "x": 1150,
+          "x": 1700,
           "y": 270,
           "zOrder": 1015,
           "numberProperties": [],
@@ -2022,11 +2047,11 @@
           "angle": 0,
           "customSize": true,
           "height": 120,
-          "layer": "",
+          "layer": "Shop Layer",
           "name": "CivilShopTab",
           "persistentUuid": "6117c18e-50a4-4ead-954b-c1158e30ff97",
           "width": 120,
-          "x": 1020,
+          "x": 1700,
           "y": 395,
           "zOrder": 1016,
           "numberProperties": [],
@@ -2037,11 +2062,11 @@
           "angle": 0,
           "customSize": true,
           "height": 120,
-          "layer": "",
+          "layer": "Shop Layer",
           "name": "DigitalShopTab",
           "persistentUuid": "e270ae37-1caf-45a8-b453-d2e11a5c7e48",
           "width": 120,
-          "x": 1150,
+          "x": 1700,
           "y": 395,
           "zOrder": 1017,
           "numberProperties": [],
@@ -2052,11 +2077,11 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "Shop Layer",
           "name": "ShopLabelTop",
           "persistentUuid": "4b12ccb7-101b-4365-a717-100c79eae10e",
           "width": 0,
-          "x": 1300,
+          "x": 1700,
           "y": 150,
           "zOrder": 1018,
           "numberProperties": [],
@@ -2067,11 +2092,11 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "Shop Layer",
           "name": "ShopLabelBottom",
           "persistentUuid": "0d69200e-6fe3-4c85-b373-b813b1a92b6d",
           "width": 0,
-          "x": 1300,
+          "x": 1700,
           "y": 340,
           "zOrder": 1019,
           "numberProperties": [],
@@ -2082,11 +2107,11 @@
           "angle": 0,
           "customSize": true,
           "height": 120,
-          "layer": "",
+          "layer": "Shop Layer",
           "name": "ShopIconTop",
           "persistentUuid": "0a841b28-a55a-4a02-8b68-b73b86157eb3",
           "width": 120,
-          "x": 1300,
+          "x": 1700,
           "y": 200,
           "zOrder": 1020,
           "numberProperties": [],
@@ -2097,11 +2122,11 @@
           "angle": 0,
           "customSize": true,
           "height": 120,
-          "layer": "",
+          "layer": "Shop Layer",
           "name": "ShopIconBottom",
           "persistentUuid": "7db3ddfe-7499-4449-8c40-2b6d2ca941ae",
           "width": 120,
-          "x": 1300,
+          "x": 1700,
           "y": 390,
           "zOrder": 1021,
           "numberProperties": [],
@@ -2112,11 +2137,11 @@
           "angle": 0,
           "customSize": true,
           "height": 50,
-          "layer": "",
+          "layer": "Shop Layer",
           "name": "ShopCostBackingTop",
           "persistentUuid": "d8cccca3-051e-4c50-b47e-ad19f0be6365",
           "width": 140,
-          "x": 1440,
+          "x": 1700,
           "y": 230,
           "zOrder": 1022,
           "numberProperties": [],
@@ -2127,11 +2152,11 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "Shop Layer",
           "name": "ShopCostTop",
           "persistentUuid": "1a6438ea-ee31-4fbb-8989-5a7625ac614b",
           "width": 0,
-          "x": 1510,
+          "x": 1700,
           "y": 235,
           "zOrder": 1023,
           "numberProperties": [],
@@ -2142,11 +2167,11 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "Shop Layer",
           "name": "ShopCostBottom",
           "persistentUuid": "c474d91d-2a60-4489-a868-d9ff029e5025",
           "width": 0,
-          "x": 1510,
+          "x": 1700,
           "y": 427,
           "zOrder": 1024,
           "numberProperties": [],
@@ -2157,11 +2182,11 @@
           "angle": 0,
           "customSize": true,
           "height": 50,
-          "layer": "",
+          "layer": "Shop Layer",
           "name": "ShopCostBackingBottom",
           "persistentUuid": "5a5cc1d0-6290-4713-92cd-526b431d99fe",
           "width": 140,
-          "x": 1440,
+          "x": 1700,
           "y": 420,
           "zOrder": 1022,
           "numberProperties": [],
@@ -2176,8 +2201,8 @@
           "name": "Debug",
           "persistentUuid": "f38d31bb-8519-4844-8b25-983fd3976f84",
           "width": 0,
-          "x": 1451,
-          "y": 838,
+          "x": 98,
+          "y": 989,
           "zOrder": 1010,
           "numberProperties": [],
           "stringProperties": [],
@@ -2188,8 +2213,10 @@
           "customSize": false,
           "height": 104,
           "layer": "Overlay(er)",
+          "locked": true,
           "name": "OkButton",
           "persistentUuid": "c9b813e5-e081-433b-a505-b66832026647",
+          "sealed": true,
           "width": 97,
           "x": 765,
           "y": 819,
@@ -2203,8 +2230,10 @@
           "customSize": true,
           "height": 294,
           "layer": "Overlay(er)",
+          "locked": true,
           "name": "CrisisInfo",
           "persistentUuid": "f52be59c-0701-4492-ba75-d75691ea1e3b",
+          "sealed": true,
           "width": 1000,
           "x": 375,
           "y": 537,
@@ -2224,6 +2253,351 @@
           "x": -800,
           "y": 184,
           "zOrder": 1027,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 114,
+          "layer": "",
+          "name": "NewTiledSprite",
+          "persistentUuid": "c1520635-5fc7-46ef-a23d-946199f722c8",
+          "width": 247,
+          "x": -8,
+          "y": 524,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 108,
+          "layer": "",
+          "name": "NewTiledSprite",
+          "persistentUuid": "147df79b-e883-4b3c-8c83-b386b8c903bd",
+          "width": 931,
+          "x": 306,
+          "y": 263,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 108,
+          "layer": "",
+          "name": "NewTiledSprite",
+          "persistentUuid": "7ac01c0e-d520-483b-88e2-19cd4e05e3c0",
+          "width": 898,
+          "x": 340,
+          "y": 783,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 628,
+          "layer": "",
+          "name": "NewTiledSprite",
+          "persistentUuid": "918aba0e-c638-460f-95c0-6890ff79d23d",
+          "width": 164,
+          "x": 226,
+          "y": 263,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 182,
+          "layer": "",
+          "name": "NewTiledSprite",
+          "persistentUuid": "4a2fb709-2f6c-4c4e-875d-f57b6e38bfc1",
+          "width": 493,
+          "x": 1146,
+          "y": 518,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 628,
+          "layer": "",
+          "name": "NewTiledSprite",
+          "persistentUuid": "74da58d2-89b3-4ff4-ae02-63efe638c435",
+          "width": 199,
+          "x": 1039,
+          "y": 263,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 12,
+          "layer": "Path layer",
+          "name": "Wall",
+          "persistentUuid": "83c72435-b54d-45fb-91ae-f3e579bf86c3",
+          "width": 241,
+          "x": -4,
+          "y": 516,
+          "zOrder": 1030,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 12,
+          "layer": "Path layer",
+          "name": "Wall",
+          "persistentUuid": "e934e559-5e8c-4fee-a4b1-fa73022ea87c",
+          "width": 241,
+          "x": -11,
+          "y": 635,
+          "zOrder": 1030,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 131,
+          "layer": "Path layer",
+          "name": "Wall",
+          "persistentUuid": "d7e18f7f-d1f7-4a42-abd6-43318ac965ae",
+          "width": 11,
+          "x": -6,
+          "y": 519,
+          "zOrder": 1030,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 12,
+          "layer": "Path layer",
+          "name": "Wall",
+          "persistentUuid": "879d2500-7377-46cf-bcf4-cd8e2878c8c8",
+          "width": 1025,
+          "x": 220,
+          "y": 258,
+          "zOrder": 1030,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 12,
+          "layer": "Path layer",
+          "name": "Wall",
+          "persistentUuid": "d57075bc-cf86-411d-b943-10cac0e0777f",
+          "width": 1025,
+          "x": 223,
+          "y": 885,
+          "zOrder": 1030,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 12,
+          "layer": "Path layer",
+          "name": "Wall",
+          "persistentUuid": "a4538b48-1826-47c2-a328-a6ff687d0436",
+          "width": 333,
+          "x": 1240,
+          "y": 694,
+          "zOrder": 1030,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 12,
+          "layer": "Path layer",
+          "name": "Wall",
+          "persistentUuid": "c3a9edd1-44b7-4a9e-9449-8b8a0993d709",
+          "width": 333,
+          "x": 1240,
+          "y": 515,
+          "zOrder": 1030,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 251,
+          "layer": "Path layer",
+          "name": "Wall",
+          "persistentUuid": "56398701-0a2d-463e-a252-3cf8e5dc2425",
+          "width": 11,
+          "x": 221,
+          "y": 267,
+          "zOrder": 1030,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 251,
+          "layer": "Path layer",
+          "name": "Wall",
+          "persistentUuid": "b75c8f85-1691-4236-a0c0-9552fb384ec0",
+          "width": 11,
+          "x": 221,
+          "y": 645,
+          "zOrder": 1030,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 183,
+          "layer": "Path layer",
+          "name": "Wall",
+          "persistentUuid": "bb5f4a4c-fc34-452e-b236-013886dfbfc3",
+          "width": 11,
+          "x": 1237,
+          "y": 706,
+          "zOrder": 1030,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 248,
+          "layer": "Path layer",
+          "name": "Wall",
+          "persistentUuid": "b75bf6b9-48a3-4d19-9dd0-68c8be128e82",
+          "width": 11,
+          "x": 1239,
+          "y": 265,
+          "zOrder": 1030,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 183,
+          "layer": "Path layer",
+          "name": "Wall",
+          "persistentUuid": "0f36c544-8ce8-42e7-8474-0edd76277523",
+          "width": 11,
+          "x": 1234.4683837890625,
+          "y": 706,
+          "zOrder": 1030,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 417,
+          "layer": "Path layer",
+          "name": "Wall",
+          "persistentUuid": "b354d245-ff14-40ac-ac80-eb7c4d07d0f6",
+          "width": 11,
+          "x": 1034,
+          "y": 367,
+          "zOrder": 1030,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 417,
+          "layer": "Path layer",
+          "name": "Wall",
+          "persistentUuid": "6af29b7b-1aac-456e-8ac7-b1983bd17d2e",
+          "width": 11,
+          "x": 388,
+          "y": 368,
+          "zOrder": 1030,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 12,
+          "layer": "Path layer",
+          "name": "Wall",
+          "persistentUuid": "7dae1edd-6cb3-418f-b89e-63ebbbbf1d41",
+          "width": 647,
+          "x": 391,
+          "y": 780,
+          "zOrder": 1030,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 33,
+          "layer": "Path layer",
+          "name": "Wall",
+          "persistentUuid": "06a889f1-4dfa-47d5-b184-3adee2b5944f",
+          "width": 647,
+          "x": 393,
+          "y": 345,
+          "zOrder": 1030,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 163,
+          "layer": "Path layer",
+          "name": "Wall",
+          "persistentUuid": "f57eb5be-ac86-4256-af61-225a42564bb3",
+          "width": 11,
+          "x": 1556,
+          "y": 530,
+          "zOrder": 1030,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2553,6 +2927,71 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "sprites\\Projectiles\\OfficerBullet.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "CheerleaderCureProjectile",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "Speed",
+              "type": "number",
+              "value": 500
+            },
+            {
+              "folded": true,
+              "name": "Damage",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "folded": true,
+              "name": "Piercing",
+              "type": "boolean",
+              "value": true
+            }
+          ],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "ProjectileV2",
+              "type": "TDTD::ProjectileV2"
+            }
+          ],
+          "animations": [
+            {
+              "name": "Cheerleader-Cure",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites\\Projectiles\\Cheerleader-Cure-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2935,12 +3374,12 @@
         },
         {
           "assetStoreId": "",
-          "height": 1,
+          "height": 12,
           "name": "Wall",
           "tags": "",
-          "texture": "NewFile-1-4.png",
+          "texture": "NewFile-1-4-1.png",
           "type": "TiledSpriteObject::TiledSprite",
-          "width": 1,
+          "width": 12,
           "variables": [],
           "effects": [],
           "behaviors": [
@@ -3521,26 +3960,6 @@
             "tint": "255;255;255",
             "bitmapFontResourceName": "assets\\fonts\\AlbaSlab\\36px\\Alba Slab 36px.fnt",
             "textureAtlasResourceName": "assets\\fonts\\AlbaSlab\\36px\\Alba Slab 36px.png",
-            "align": "left",
-            "wordWrap": true
-          }
-        },
-        {
-          "assetStoreId": "",
-          "name": "test",
-          "tags": "",
-          "type": "BitmapText::BitmapTextObject",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "text": "Psychological",
-            "opacity": 255,
-            "scale": 1,
-            "fontSize": 20,
-            "tint": "255;255;255",
-            "bitmapFontResourceName": "assets\\fonts\\Kanit\\16px\\Kanit-16.fnt",
-            "textureAtlasResourceName": "assets\\fonts\\Kanit\\16px\\Kanit-16.png",
             "align": "left",
             "wordWrap": true
           }
@@ -4462,7 +4881,7 @@
               "folded": true,
               "name": "Health",
               "type": "number",
-              "value": 100000000
+              "value": 10
             },
             {
               "folded": true,
@@ -5433,7 +5852,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Continuous Events",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -5513,8 +5931,8 @@
                   "parameters": [
                     "",
                     "InternetTroll",
-                    "100",
-                    "360",
+                    "Spawner.X()",
+                    "Spawner.Y()",
                     "\"Projectile layer\""
                   ]
                 },
@@ -5525,7 +5943,7 @@
                   "parameters": [
                     "InternetTroll",
                     "=",
-                    "0.21"
+                    "0.5"
                   ]
                 },
                 {
@@ -5546,6 +5964,18 @@
                     "SpawnTime",
                     "=",
                     "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TDTD::EnemyV2::changeTarget"
+                  },
+                  "parameters": [
+                    "InternetTroll",
+                    "EnemyV2",
+                    "Base.CenterX()",
+                    "Base.CenterY()",
+                    ""
                   ]
                 }
               ]
@@ -5583,8 +6013,8 @@
                   "parameters": [
                     "",
                     "InternetTroll",
-                    "100",
-                    "360",
+                    "Spawner.X()",
+                    "Spawner.Y()",
                     "\"Projectile layer\""
                   ]
                 },
@@ -5653,8 +6083,8 @@
                   "parameters": [
                     "",
                     "InternetTroll",
-                    "100",
-                    "360",
+                    "Spawner.X()",
+                    "Spawner.Y()",
                     "\"Projectile layer\""
                   ]
                 },
@@ -5777,11 +6207,363 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "name": "Tower/Enemy Info",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "MouseButtonReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Psychological",
+                  "comment2": ""
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Social",
+                  "comment2": ""
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Economic",
+                  "comment2": ""
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Military",
+                  "comment2": ""
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "Soldier",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ChangeColor"
+                      },
+                      "parameters": [
+                        "DescBacking",
+                        "\"198;255;191\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BitmapText::BitmapTextObject::SetText"
+                      },
+                      "parameters": [
+                        "SelectedText",
+                        "=",
+                        "\"Selected: Soldier\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BitmapText::BitmapTextObject::SetText"
+                      },
+                      "parameters": [
+                        "SelectedDesc",
+                        "=",
+                        "\"Soldiers are the first line of defence against physical threats to Singapore.\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Civil",
+                  "comment2": ""
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Digital\n",
+                  "comment2": ""
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
           "folded": true,
           "name": "Attack or Defend",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
+            {
+              "folded": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AjoutObjConcern"
+                  },
+                  "parameters": [
+                    "",
+                    "Cheerleader"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareObjectTimer"
+                  },
+                  "parameters": [
+                    "Cheerleader",
+                    "\"SecondTime\"",
+                    ">",
+                    "Cheerleader.Variable(SecondRate)"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "Cheerleader",
+                    "\"SecondTime\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "CheerleaderCureProjectile",
+                    "Cheerleader.PointX(\"OriginPoint\")",
+                    "Cheerleader.PointY(\"OriginPoint\")",
+                    "\"Projectile layer\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetCenter"
+                  },
+                  "parameters": [
+                    "CheerleaderCureProjectile",
+                    "=",
+                    "Cheerleader.PointX(\"OriginPoint\")",
+                    "=",
+                    "Cheerleader.PointY(\"OriginPoint\")"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "AjoutObjConcern"
+                      },
+                      "parameters": [
+                        "",
+                        "Towers"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Towers",
+                        "NegThoughts",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AddForceVers"
+                      },
+                      "parameters": [
+                        "CheerleaderCureProjectile",
+                        "Towers",
+                        "CheerleaderCureProjectile.Variable(Speed)",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "RotateTowardPosition"
+                      },
+                      "parameters": [
+                        "CheerleaderCureProjectile",
+                        "Towers.X()",
+                        "Tower.Y()",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "CheerleaderCureProjectile",
+                        "Fired",
+                        "True"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "CheerleaderCureProjectile",
+                        "Fired",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "CheerleaderCureProjectile",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "CheerleaderCureProjectile",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "CheerleaderCureProjectile",
+                    "Towers",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Towers",
+                    "NegThoughts",
+                    "True"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Towers",
+                    "NegThoughts",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "CheerleaderCureProjectile",
+                    ""
+                  ]
+                }
+              ]
+            },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
@@ -5831,49 +6613,116 @@
               ]
             },
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Soldier",
+              "conditions": [],
+              "actions": [],
+              "events": [
                 {
-                  "type": {
-                    "value": "AjoutObjConcern"
-                  },
-                  "parameters": [
-                    "",
-                    "Soldier"
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Soldier",
+                        "NegThoughts",
+                        "True"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "CompareObjectTimer"
+                      },
+                      "parameters": [
+                        "Soldier",
+                        "\"ShootTime\"",
+                        ">",
+                        "Soldier.Variable(FireRate)\n"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "Soldier",
+                        "\"ShootTime\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TDTD::TowerV2::attack"
+                      },
+                      "parameters": [
+                        "Soldier",
+                        "Tower2",
+                        "SoldierProjectile",
+                        "Enemies",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangeColor"
+                      },
+                      "parameters": [
+                        "Soldier",
+                        "\"255;255;255\""
+                      ]
+                    }
                   ]
                 },
                 {
-                  "type": {
-                    "value": "CompareObjectTimer"
-                  },
-                  "parameters": [
-                    "Soldier",
-                    "\"ShootTime\"",
-                    ">",
-                    "Soldier.Variable(FireRate)\n"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ResetObjectTimer"
-                  },
-                  "parameters": [
-                    "Soldier",
-                    "\"ShootTime\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TDTD::TowerV2::attack"
-                  },
-                  "parameters": [
-                    "Soldier",
-                    "Tower2",
-                    "SoldierProjectile",
-                    "Enemies",
-                    "0"
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CompareObjectTimer"
+                      },
+                      "parameters": [
+                        "Soldier",
+                        "\"ShootTime\"",
+                        ">",
+                        "Soldier.Variable(FireRate)*2\n"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "Soldier",
+                        "\"ShootTime\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TDTD::TowerV2::attack"
+                      },
+                      "parameters": [
+                        "Soldier",
+                        "Tower2",
+                        "SoldierProjectile",
+                        "Enemies",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangeColor"
+                      },
+                      "parameters": [
+                        "Soldier",
+                        "\"70;151;218\""
+                      ]
+                    }
                   ]
                 }
               ]
@@ -6145,9 +6994,8 @@
                     "InternetTroll",
                     "EnemyV2",
                     "Towers",
-                    "2",
                     "150",
-                    ""
+                    "150"
                   ]
                 }
               ]
@@ -6664,6 +7512,54 @@
                         "value": "GlobalVariableAsBoolean"
                       },
                       "parameters": [
+                        "CheerleaderSpawn",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TDTD::Function"
+                      },
+                      "parameters": [
+                        "",
+                        "Cheerleader",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetGlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "CheerleaderSpawn",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Social",
+                  "comment2": ""
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
                         "VolunteerSpawn",
                         "True"
                       ]
@@ -6805,54 +7701,6 @@
                       ]
                     }
                   ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "GlobalVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "CheerleaderSpawn",
-                        "True"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "TDTD::Function"
-                      },
-                      "parameters": [
-                        "",
-                        "Cheerleader",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetGlobalVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "CheerleaderSpawn",
-                        ""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Comment",
-                  "color": {
-                    "b": 109,
-                    "g": 230,
-                    "r": 255,
-                    "textB": 0,
-                    "textG": 0,
-                    "textR": 0
-                  },
-                  "comment": "Social",
-                  "comment2": ""
                 },
                 {
                   "type": "BuiltinCommonInstructions::Comment",
@@ -7131,6 +7979,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Crisis Stuff",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -7782,7 +8631,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Shop Stuff",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -8606,7 +9454,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Change Shop Content",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -9133,7 +9980,7 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "MouseButtonReleased"
+                        "value": "MouseButtonPressed"
                       },
                       "parameters": [
                         "",
@@ -9768,6 +10615,17 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "Projectile layer",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 150995058,
+          "ambientLightColorG": 6057056,
+          "ambientLightColorR": 10379224,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "Shop Layer",
           "visibility": true,
           "cameras": [],
           "effects": []
@@ -11536,21 +12394,6 @@
           "x": 222,
           "y": 147,
           "zOrder": 75,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 92.12903594970703,
-          "layer": "",
-          "name": "Educator",
-          "persistentUuid": "fc20fe7f-6f99-448b-b6bd-2df75801cafc",
-          "width": 72,
-          "x": 229,
-          "y": 289.8709716796875,
-          "zOrder": 76,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -14941,33 +15784,7 @@
       ]
     }
   ],
-  "externalEvents": [
-    {
-      "associatedLayout": "Untitled scene",
-      "lastChangeTimeStamp": 0,
-      "name": "Untitled external events",
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "This controls the pathfinding of the enemies",
-          "comment2": ""
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
-        }
-      ]
-    }
-  ],
+  "externalEvents": [],
   "eventsFunctionsExtensions": [
     {
       "author": "",
@@ -15050,20 +15867,7 @@
                 {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "MettreXY"
-                      },
-                      "parameters": [
-                        "Object",
-                        "=",
-                        "-20",
-                        "=",
-                        "360"
-                      ]
-                    }
-                  ]
+                  "actions": []
                 }
               ],
               "parameters": [
@@ -15314,7 +16118,7 @@
               "fullName": "Inflict Negative Thoughts (for enemies)",
               "functionType": "Action",
               "name": "InflictSlow",
-              "sentence": "[For each _PARAM0_] Set the fire rate of all _PARAM2_ within _PARAM4_ pixels to _PARAM3_x",
+              "sentence": "[For each _PARAM0_] Inflict Negative Thoughts for _PARAM2_ within _PARAM3_ pixels",
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::ForEach",
@@ -15341,13 +16145,12 @@
                   "actions": [
                     {
                       "type": {
-                        "value": "ModVarObjet"
+                        "value": "SetObjectVariableAsBoolean"
                       },
                       "parameters": [
                         "AffectedTowers",
-                        "FireRate",
-                        "/",
-                        "GetArgumentAsNumber(\"FireRateMultiplier\")"
+                        "NegThoughts",
+                        "True"
                       ]
                     }
                   ]
@@ -15373,13 +16176,70 @@
                   "type": "objectList"
                 },
                 {
-                  "description": "The Negative Thoughts effect will divide the time between attacks of the towers by this number.",
-                  "name": "FireRateMultiplier",
+                  "description": "The area of effect (in pixels). If the towers are below this distance from the enemy they will be inflicted with the effect.",
+                  "name": "AoE",
+                  "type": "expression"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Change the target position for the enemy's pathfinding",
+              "fullName": "Change Enemy Target",
+              "functionType": "Action",
+              "name": "changeTarget",
+              "sentence": "Change _PARAM0_ target position to X _PARAM2_ and Y _PARAM3_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TDTD::EnemyV2::SetPropertyTargetX"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "GetArgumentAsNumber(\"X\")"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TDTD::EnemyV2::SetPropertyTargetY"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "GetArgumentAsNumber(\"Y\")"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "Sprite",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "TDTD::EnemyV2",
+                  "type": "behavior"
+                },
+                {
+                  "description": "X Pos",
+                  "name": "X",
                   "type": "expression"
                 },
                 {
-                  "description": "The area of effect (in pixels). If the towers are below this distance from the enemy they will be inflicted with the effect.",
-                  "name": "AoE",
+                  "description": "Y Pos",
+                  "name": "Y",
                   "type": "expression"
                 }
               ],
@@ -15430,10 +16290,10 @@
           "eventsFunctions": [
             {
               "description": "Fire a bullet at an enemy.",
-              "fullName": "Fire Bullet",
+              "fullName": "Automatically Target and Fire Bullet",
               "functionType": "Action",
               "name": "attack",
-              "sentence": "[While _PARAM3_ is in range] Spawn _PARAM2_ from _PARAM0_ ",
+              "sentence": "[While _PARAM3_ is in range] Fire _PARAM2_ from _PARAM0_ ",
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::Comment",
@@ -15460,16 +16320,6 @@
                         "Enemy",
                         "Object.Variable(Range)",
                         ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::CompareNumbers"
-                      },
-                      "parameters": [
-                        "StrFind(Object.VariableString(Pillar),Enemy.VariableString(Pillar))",
-                        "!=",
-                        "-1"
                       ]
                     }
                   ],
@@ -15574,7 +16424,7 @@
                             "",
                             "ShootTest.wav",
                             "",
-                            "50",
+                            "25",
                             "RandomFloat(2)"
                           ]
                         }
@@ -15628,6 +16478,15 @@
                       "parameters": [
                         "Object",
                         "\"ShootTime\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"SecondTime\""
                       ]
                     },
                     {
