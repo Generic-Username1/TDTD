@@ -969,6 +969,771 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Fire1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fire1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../FireAlt/Fire1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\FireAlt\\Fire1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Fire2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fire2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Fire3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fire3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Fire22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fire22.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Fire12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fire12.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Fire13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fire13.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Fire23.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fire23.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Fire32.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fire32.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Fire4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fire4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Fire13-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fire13-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Fire13-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fire13-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Fire13-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fire13-3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Fire13-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fire13-4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Background3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Background3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Background4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Background4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Cloud.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cloud.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Cloud-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cloud-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Background5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Background5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Tile.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tile.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Tile2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tile2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Tile3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tile3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Tile4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tile4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Tile5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tile5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Tile6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tile6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Tile7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tile7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Economic Strangulation.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Economic Strangulation.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "EconomicStrangulation-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "EconomicStrangulation-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "EconomicStrangulation-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "EconomicStrangulation-1-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Economic Strangulation2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Economic Strangulation2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "EconomicStrangulation-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "EconomicStrangulation-1-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Disiniformation Campaign.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Disiniformation Campaign.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Pandemic.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pandemic.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Pandemic-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pandemic-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Pandemic-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pandemic-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Pandemic-2-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pandemic-2-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Pandemic-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pandemic-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Pandemic-2-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pandemic-2-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Pandemic-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pandemic-4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Pandemic-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pandemic-1-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Pandemic-2-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pandemic-2-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Pandemic-3-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pandemic-3-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Pandemic-2-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pandemic-2-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Pandemic-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pandemic-1-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Pandemic-2-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pandemic-2-4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Pandemic-3-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pandemic-3-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Pandemic-4-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pandemic-4-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Pandemic-1-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pandemic-1-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Pandemic-2-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pandemic-2-5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Pandemic-3-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pandemic-3-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Pandemic-4-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pandemic-4-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Pandemic-1-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pandemic-1-3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Pandemic-2-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pandemic-2-6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Pandemic-3-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pandemic-3-3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Pandemic-4-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pandemic-4-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Pandemic-1-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pandemic-1-4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Pandemic-2-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pandemic-2-7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Pandemic-3-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pandemic-3-4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Pandemic-4-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pandemic-4-3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Pandemic-4-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pandemic-4-4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Pandemic-1-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pandemic-1-5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Pandemic-2-9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pandemic-2-9.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Pandemic-3-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pandemic-3-5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Pandemic-2-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pandemic-2-8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Pandemic-4-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pandemic-4-5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Pandemic-1-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pandemic-1-6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Pandemic-2-11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pandemic-2-11.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Pandemic-3-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pandemic-3-6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Pandemic-2-10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pandemic-2-10.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Pandemic-4-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pandemic-4-6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Pandemic-1-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pandemic-1-7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Pandemic-2-13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pandemic-2-13.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Pandemic-3-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pandemic-3-7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Pandemic-2-12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pandemic-2-12.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Pandemic-4-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pandemic-4-7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Pandemic-1-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pandemic-1-8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Pandemic-2-15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pandemic-2-15.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Pandemic-3-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pandemic-3-8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Pandemic-2-14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pandemic-2-14.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Military Conflict.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Military Conflict.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "MilitaryConflict-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "MilitaryConflict-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "MilitaryConflict-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "MilitaryConflict-1-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Projectiles/e-1-0-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Projectiles\\e-1-0-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Towers/Career Guider/Idle/Picture5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Towers\\Career Guider\\Idle\\Picture5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Towers/Career Guider/Idle/Picture5-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Towers\\Career Guider\\Idle\\Picture5-1.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1102,6 +1867,52 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "sprites\\Towers\\Volunteer\\Idle\\Volunteer-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "CareerGuider",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "TowerV2",
+          "type": "TDTD::TowerV2"
+        }
+      ],
+      "animations": [
+        {
+          "name": "Picture5",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "sprites\\Towers\\Career Guider\\Idle\\Picture5-1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1618,7 +2429,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5822975562410693,
+        "zoomFactor": 0.4117465506864148,
         "windowMask": false
       },
       "objectsGroups": [
@@ -1645,6 +2456,9 @@
             },
             {
               "name": "ReskillingCenter"
+            },
+            {
+              "name": "CareerGuider"
             }
           ]
         },
@@ -1774,7 +2588,7 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 100,
+          "height": 110,
           "layer": "",
           "name": "EventBacking",
           "persistentUuid": "c4bce853-f0db-48c9-be4c-3f0fabfcae91",
@@ -1804,7 +2618,7 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 100,
+          "height": 110,
           "layer": "",
           "name": "EventBacking",
           "persistentUuid": "fc328bc0-fbd2-43e5-b144-46e5199bc11b",
@@ -1827,23 +2641,6 @@
           "x": 24,
           "y": 24,
           "zOrder": 1001,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 1080,
-          "layer": "",
-          "locked": true,
-          "name": "Grass",
-          "persistentUuid": "be5efc4d-3548-47be-be4a-959df00478ee",
-          "sealed": true,
-          "width": 1620,
-          "x": 0,
-          "y": 0,
-          "zOrder": -1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1881,7 +2678,7 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 100,
+          "height": 110,
           "layer": "",
           "name": "DescBacking",
           "persistentUuid": "737afe40-854b-4b45-ad00-e41112e72150",
@@ -1931,8 +2728,8 @@
           "name": "SelectedDesc",
           "persistentUuid": "ce1b61ee-ffd3-4566-bb31-7953d0605931",
           "width": 0,
-          "x": 601,
-          "y": 38,
+          "x": 602,
+          "y": 43,
           "zOrder": 1007,
           "numberProperties": [],
           "stringProperties": [],
@@ -2260,13 +3057,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 114,
+          "height": 148,
           "layer": "",
           "name": "NewTiledSprite",
           "persistentUuid": "c1520635-5fc7-46ef-a23d-946199f722c8",
-          "width": 247,
+          "width": 390,
           "x": -8,
-          "y": 524,
+          "y": 490,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -2601,6 +3398,81 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 115,
+          "layer": "",
+          "name": "Fire",
+          "persistentUuid": "ac8e9cdd-023f-4e28-b638-c23b12647b71",
+          "width": 107,
+          "x": 1495,
+          "y": 116,
+          "zOrder": 1032,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 103,
+          "layer": "",
+          "name": "Fire",
+          "persistentUuid": "6a1018e7-877a-48d2-9f74-d04d93ab8939",
+          "width": 91,
+          "x": 1312,
+          "y": 910,
+          "zOrder": 1033,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 127,
+          "layer": "",
+          "name": "Fire",
+          "persistentUuid": "70f408b2-c5ba-45af-8e6f-df820efe8ff9",
+          "width": 98,
+          "x": 46,
+          "y": 272,
+          "zOrder": 1034,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 148,
+          "layer": "",
+          "name": "Fire",
+          "persistentUuid": "fe64aac1-da99-4846-86aa-e5a3d0198d99",
+          "width": 119,
+          "x": 38,
+          "y": 840,
+          "zOrder": 1035,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 993,
+          "layer": "Path layer",
+          "name": "NewSprite2",
+          "persistentUuid": "3c43b592-06c2-42d0-92e3-fb5611edf247",
+          "width": 1622,
+          "x": -1,
+          "y": 93,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -2696,6 +3568,18 @@
         },
         {
           "assetStoreId": "",
+          "height": 32,
+          "name": "NewTiledSprite",
+          "tags": "",
+          "texture": "Tile7.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
           "name": "NewSprite2",
           "tags": "",
           "type": "Sprite",
@@ -2714,7 +3598,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "NewSprite2-1-0.png",
+                      "image": "Background5.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2734,18 +3618,6 @@
               ]
             }
           ]
-        },
-        {
-          "assetStoreId": "",
-          "height": 32,
-          "name": "NewTiledSprite",
-          "tags": "",
-          "texture": "NewFile-1.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 32,
-          "variables": [],
-          "effects": [],
-          "behaviors": []
         },
         {
           "assetStoreId": "",
@@ -2824,7 +3696,7 @@
               "folded": true,
               "name": "Speed",
               "type": "number",
-              "value": 400
+              "value": 1000
             },
             {
               "folded": true,
@@ -4881,7 +5753,7 @@
               "folded": true,
               "name": "Health",
               "type": "number",
-              "value": 10
+              "value": 200
             },
             {
               "folded": true,
@@ -5084,7 +5956,7 @@
               "directions": [
                 {
                   "looping": true,
-                  "timeBetweenFrames": 0.08330000191926956,
+                  "timeBetweenFrames": 0.0833,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
@@ -5152,6 +6024,173 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "sprites\\UI\\Events\\Terrorist Attack\\TerroristAttack-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "EconomicStrangulation",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "EconomicStrangulation-1-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Pandemic",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Pandemic-1-8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Pandemic-2-15.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Pandemic-3-8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Pandemic-2-14.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "DisinformationCampaign",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Disiniformation Campaign.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "MilitaryConflict",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "MilitaryConflict-1-0.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -5355,6 +6394,98 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Fire",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Fire13",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.1111,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Fire13-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Fire13-2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Fire13-3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Fire13-4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -5363,6 +6494,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Initialization",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -5852,6 +6984,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Continuous Events",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -5963,7 +7096,7 @@
                     "Spawner",
                     "SpawnTime",
                     "=",
-                    "2"
+                    "0.2"
                   ]
                 },
                 {
@@ -6212,6 +7345,19 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "TODO: MAKE THIS WORK FOR WHEN PRESSING SHOP ICON",
+              "comment2": ""
+            },
+            {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -6240,6 +7386,53 @@
                   "comment2": ""
                 },
                 {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "Cheerleader",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ChangeColor"
+                      },
+                      "parameters": [
+                        "DescBacking",
+                        "\"255;191;191\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BitmapText::BitmapTextObject::SetText"
+                      },
+                      "parameters": [
+                        "SelectedText",
+                        "=",
+                        "\"Selected: Cheerleader\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BitmapText::BitmapTextObject::SetText"
+                      },
+                      "parameters": [
+                        "SelectedDesc",
+                        "=",
+                        "\"Cheerleaders boost morale among citizens, and keeps the country motivated to\nmove on.\""
+                      ]
+                    }
+                  ]
+                },
+                {
                   "type": "BuiltinCommonInstructions::Comment",
                   "color": {
                     "b": 109,
@@ -6262,8 +7455,115 @@
                     "textG": 0,
                     "textR": 0
                   },
+                  "comment": "(volunteer will never trigger why am i doing this)",
+                  "comment2": ""
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "Volunteer",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ChangeColor"
+                      },
+                      "parameters": [
+                        "DescBacking",
+                        "\"250;221;172\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BitmapText::BitmapTextObject::SetText"
+                      },
+                      "parameters": [
+                        "SelectedText",
+                        "=",
+                        "\"Selected: Volunteer\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BitmapText::BitmapTextObject::SetText"
+                      },
+                      "parameters": [
+                        "SelectedDesc",
+                        "=",
+                        "\"Volunteers step up to help when there is a need for it, no matter the circumstances.\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
                   "comment": "Economic",
                   "comment2": ""
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "CareerGuider",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ChangeColor"
+                      },
+                      "parameters": [
+                        "DescBacking",
+                        "\"255;254;191\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BitmapText::BitmapTextObject::SetText"
+                      },
+                      "parameters": [
+                        "SelectedText",
+                        "=",
+                        "\"Selected: Career Guider\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BitmapText::BitmapTextObject::SetText"
+                      },
+                      "parameters": [
+                        "SelectedDesc",
+                        "=",
+                        "\"Career Guiders help lead people into suitable jobs that the country needs.\""
+                      ]
+                    }
+                  ]
                 },
                 {
                   "type": "BuiltinCommonInstructions::Comment",
@@ -6350,6 +7650,53 @@
                   },
                   "comment": "Digital\n",
                   "comment2": ""
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "WhiteHat",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ChangeColor"
+                      },
+                      "parameters": [
+                        "DescBacking",
+                        "\"202;202;202\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BitmapText::BitmapTextObject::SetText"
+                      },
+                      "parameters": [
+                        "SelectedText",
+                        "=",
+                        "\"Selected: White Hat\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BitmapText::BitmapTextObject::SetText"
+                      },
+                      "parameters": [
+                        "SelectedDesc",
+                        "=",
+                        "\"White-hat hackers have good intentions, and prevent their bad counterparts\nfrom doing damage.\n\""
+                      ]
+                    }
+                  ]
                 }
               ]
             }
@@ -6565,59 +7912,70 @@
               ]
             },
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "AjoutObjConcern"
-                  },
-                  "parameters": [
-                    "",
-                    "Volunteer"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "CompareObjectTimer"
-                  },
-                  "parameters": [
-                    "Volunteer",
-                    "\"ShootTime\"",
-                    ">",
-                    "Volunteer.Variable(FireRate)"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ResetObjectTimer"
-                  },
-                  "parameters": [
-                    "Volunteer",
-                    "\"ShootTime\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TDTD::TowerV2::attack"
-                  },
-                  "parameters": [
-                    "Volunteer",
-                    "TowerV2",
-                    "VolunteerProjectile",
-                    "Enemies",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
               "type": "BuiltinCommonInstructions::ForEach",
               "object": "Soldier",
               "conditions": [],
               "actions": [],
               "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Distance"
+                      },
+                      "parameters": [
+                        "Soldier",
+                        "Cheerleader",
+                        "Cheerleader.Variable(Range)",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "CompareObjectTimer"
+                      },
+                      "parameters": [
+                        "Soldier",
+                        "\"ShootTime\"",
+                        ">",
+                        "Soldier.Variable(FireRate)/1.5\n"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "Soldier",
+                        "\"ShootTime\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TDTD::TowerV2::attack"
+                      },
+                      "parameters": [
+                        "Soldier",
+                        "Tower2",
+                        "SoldierProjectile",
+                        "Enemies",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangeColor"
+                      },
+                      "parameters": [
+                        "Soldier",
+                        "\"250;86;86\""
+                      ]
+                    }
+                  ]
+                },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
@@ -6728,59 +8086,175 @@
               ]
             },
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "WhiteHat",
+              "conditions": [],
+              "actions": [],
+              "events": [
                 {
-                  "type": {
-                    "value": "AjoutObjConcern"
-                  },
-                  "parameters": [
-                    "",
-                    "WhiteHat"
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Distance"
+                      },
+                      "parameters": [
+                        "WhiteHat",
+                        "Cheerleader",
+                        "Cheerleader.Variable(Range)",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "CompareObjectTimer"
+                      },
+                      "parameters": [
+                        "WhiteHat",
+                        "\"ShootTime\"",
+                        ">",
+                        "WhiteHat.Variable(FireRate)/1.5\n"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "WhiteHat",
+                        "\"ShootTime\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TDTD::TowerV2::attack"
+                      },
+                      "parameters": [
+                        "WhiteHat",
+                        "TowerV2",
+                        "WhiteHatProjectile",
+                        "Enemies",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangeColor"
+                      },
+                      "parameters": [
+                        "WhiteHat",
+                        "\"250;86;86\""
+                      ]
+                    }
                   ]
                 },
                 {
-                  "type": {
-                    "value": "CompareObjectTimer"
-                  },
-                  "parameters": [
-                    "WhiteHat",
-                    "\"ShootTime\"",
-                    ">",
-                    "WhiteHat.Variable(FireRate)"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ResetObjectTimer"
-                  },
-                  "parameters": [
-                    "WhiteHat",
-                    "\"ShootTime\""
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CompareObjectTimer"
+                      },
+                      "parameters": [
+                        "WhiteHat",
+                        "\"ShootTime\"",
+                        ">",
+                        "WhiteHat.Variable(FireRate)*2"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "WhiteHat",
+                        "\"ShootTime\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TDTD::TowerV2::attack"
+                      },
+                      "parameters": [
+                        "WhiteHat",
+                        "TowerV2",
+                        "WhiteHatProjectile",
+                        "Enemies",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangeColor"
+                      },
+                      "parameters": [
+                        "WhiteHat",
+                        "\"70;151;218\""
+                      ]
+                    }
                   ]
                 },
                 {
-                  "type": {
-                    "value": "TDTD::TowerV2::attack"
-                  },
-                  "parameters": [
-                    "WhiteHat",
-                    "TowerV2",
-                    "WhiteHatProjectile",
-                    "Enemies",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ChangeScale"
-                  },
-                  "parameters": [
-                    "WhiteHatProjectile",
-                    "=",
-                    "2"
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "WhiteHat",
+                        "NegThoughts",
+                        "True"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "CompareObjectTimer"
+                      },
+                      "parameters": [
+                        "WhiteHat",
+                        "\"ShootTime\"",
+                        ">",
+                        "WhiteHat.Variable(FireRate)\n"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "WhiteHat",
+                        "\"ShootTime\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TDTD::TowerV2::attack"
+                      },
+                      "parameters": [
+                        "WhiteHat",
+                        "TowerV2",
+                        "WhiteHatProjectile",
+                        "Enemies",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangeColor"
+                      },
+                      "parameters": [
+                        "WhiteHat",
+                        "\"255;255;255\""
+                      ]
+                    }
                   ]
                 }
               ]
@@ -6948,15 +8422,24 @@
                     "Enemies",
                     ""
                   ]
-                },
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
                 {
                   "type": {
-                    "value": "TDTD::ProjectileV2::destroy"
+                    "value": "TDTD::EnemyV2::slow"
                   },
                   "parameters": [
-                    "VolunteerProjectile",
-                    "ProjectileV2",
-                    "Enemies",
+                    "InternetTroll",
+                    "EnemyV2",
+                    "Pathfinding",
+                    "WhiteHatProjectile",
+                    "0.1",
+                    "5",
                     ""
                   ]
                 }
@@ -7082,7 +8565,7 @@
                   },
                   "parameters": [
                     "",
-                    "0.1"
+                    "1"
                   ]
                 }
               ]
@@ -7107,7 +8590,7 @@
                   },
                   "parameters": [
                     "",
-                    "1"
+                    "3"
                   ]
                 }
               ]
@@ -7246,20 +8729,20 @@
                   ]
                 }
               ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "SpawnBox Logic",
-              "comment2": ""
-            },
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "SpawnBox and Spawning",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
@@ -7395,6 +8878,100 @@
               "conditions": [
                 {
                   "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "PlacedTowers",
+                    "=",
+                    "GlobalVariable(MaxTowers)"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "GuiderSpawn",
+                    "True"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "SpawnBox",
+                    "\"CannotSpawn\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "SpawnBox",
+                    "doElse",
+                    "False"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "VolunteerSpawn",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "SpawnBox",
+                    "Towers",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "SpawnBox",
+                    "\"CannotSpawn\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "SpawnBox",
+                    "doElse",
+                    "False"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
                     "value": "ObjectVariableAsBoolean"
                   },
                   "parameters": [
@@ -7468,200 +9045,89 @@
                     "",
                     "Left"
                   ]
-                },
-                {
-                  "type": {
-                    "value": "AnimationName"
-                  },
-                  "parameters": [
-                    "SpawnBox",
-                    "\"CanSpawn\""
-                  ]
                 }
               ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "SpawnBox",
-                    "="
-                  ]
-                }
-              ],
+              "actions": [],
               "events": [
                 {
-                  "type": "BuiltinCommonInstructions::Comment",
-                  "color": {
-                    "b": 109,
-                    "g": 230,
-                    "r": 255,
-                    "textB": 0,
-                    "textG": 0,
-                    "textR": 0
-                  },
-                  "comment": "Psychological",
-                  "comment2": ""
-                },
-                {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "value": "GlobalVariableAsBoolean"
+                        "value": "AnimationName"
                       },
                       "parameters": [
-                        "CheerleaderSpawn",
-                        "True"
+                        "SpawnBox",
+                        "\"CanSpawn\""
                       ]
                     }
                   ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "TDTD::Function"
-                      },
-                      "parameters": [
-                        "",
-                        "Cheerleader",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetGlobalVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "CheerleaderSpawn",
-                        ""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Comment",
-                  "color": {
-                    "b": 109,
-                    "g": 230,
-                    "r": 255,
-                    "textB": 0,
-                    "textG": 0,
-                    "textR": 0
-                  },
-                  "comment": "Social",
-                  "comment2": ""
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "GlobalVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "VolunteerSpawn",
-                        "True"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SceneInstancesCount"
-                      },
-                      "parameters": [
-                        "",
-                        "Towers",
-                        "<",
-                        "1"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "TDTD::Function"
-                      },
-                      "parameters": [
-                        "",
-                        "Volunteer",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetGlobalVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "VolunteerSpawn",
-                        ""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": true,
-                        "value": "SceneInstancesCount"
-                      },
-                      "parameters": [
-                        "",
-                        "Towers",
-                        "<",
-                        "1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "GlobalVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "VolunteerSpawn",
-                        "True"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PickNearest"
-                      },
-                      "parameters": [
-                        "Towers",
-                        "MouseX()",
-                        "MouseY()",
-                        ""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetGlobalVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "VolunteerSpawn",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "CreateByName"
-                      },
-                      "parameters": [
-                        "",
-                        "Towers",
-                        "Towers.ObjectName()",
-                        "MouseX()",
-                        "MouseY()",
-                        ""
-                      ]
-                    }
-                  ],
+                  "actions": [],
                   "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "Psychological",
+                      "comment2": ""
+                    },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
+                        {
+                          "type": {
+                            "value": "GlobalVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "CheerleaderSpawn",
+                            "True"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "TDTD::Function"
+                          },
+                          "parameters": [
+                            "",
+                            "Cheerleader",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "Social",
+                      "comment2": ""
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "GlobalVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "VolunteerSpawn",
+                            "True"
+                          ]
+                        },
                         {
                           "type": {
                             "value": "PickNearest"
@@ -7677,264 +9143,252 @@
                       "actions": [
                         {
                           "type": {
-                            "value": "SetCenter"
+                            "value": "CreateByName"
                           },
                           "parameters": [
+                            "",
                             "Towers",
-                            "=",
+                            "Towers.ObjectName()",
                             "MouseX()",
-                            "=",
-                            "MouseY()"
+                            "MouseY()",
+                            ""
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "PickNearest"
+                              },
+                              "parameters": [
+                                "Towers",
+                                "MouseX()",
+                                "MouseY()",
+                                ""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetCenter"
+                              },
+                              "parameters": [
+                                "Towers",
+                                "=",
+                                "MouseX()",
+                                "=",
+                                "MouseY()"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ModVarObjet"
+                              },
+                              "parameters": [
+                                "Towers",
+                                "FireRate",
+                                "/",
+                                "0.5"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "Economic",
+                      "comment2": ""
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "GlobalVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "GuiderSpawn",
+                            "True"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "TDTD::Function"
+                          },
+                          "parameters": [
+                            "",
+                            "CareerGuider",
+                            ""
                           ]
                         },
                         {
                           "type": {
-                            "value": "ModVarObjet"
+                            "value": "ModVarGlobal"
                           },
                           "parameters": [
-                            "Towers",
-                            "FireRate",
-                            "/",
-                            "0.5"
+                            "MaxTowers",
+                            "+",
+                            "3"
                           ]
                         }
                       ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Comment",
-                  "color": {
-                    "b": 109,
-                    "g": 230,
-                    "r": 255,
-                    "textB": 0,
-                    "textG": 0,
-                    "textR": 0
-                  },
-                  "comment": "Economic",
-                  "comment2": ""
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
+                    },
                     {
-                      "type": {
-                        "value": "GlobalVariableAsBoolean"
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
                       },
-                      "parameters": [
-                        "ReskillSpawn",
-                        "True"
-                      ]
-                    }
-                  ],
-                  "actions": [
+                      "comment": "Military",
+                      "comment2": ""
+                    },
                     {
-                      "type": {
-                        "value": "TDTD::Function"
-                      },
-                      "parameters": [
-                        "",
-                        "ReskillingCenter",
-                        ""
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "GlobalVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "SoldierSpawn",
+                            "True"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "TDTD::Function"
+                          },
+                          "parameters": [
+                            "",
+                            "Soldier",
+                            ""
+                          ]
+                        }
                       ]
                     },
                     {
-                      "type": {
-                        "value": "SetGlobalVariableAsBoolean"
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
                       },
-                      "parameters": [
-                        "ReskillSpawn",
-                        ""
+                      "comment": "Civil",
+                      "comment2": ""
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "GlobalVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "FirefighterSpawn",
+                            "True"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "TDTD::Function"
+                          },
+                          "parameters": [
+                            "",
+                            "Firefighter",
+                            ""
+                          ]
+                        }
                       ]
                     },
                     {
-                      "type": {
-                        "value": "ModVarGlobal"
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
                       },
-                      "parameters": [
-                        "MaxTowers",
-                        "+",
-                        "3"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Comment",
-                  "color": {
-                    "b": 109,
-                    "g": 230,
-                    "r": 255,
-                    "textB": 0,
-                    "textG": 0,
-                    "textR": 0
-                  },
-                  "comment": "Military",
-                  "comment2": ""
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
+                      "comment": "Digital",
+                      "comment2": ""
+                    },
                     {
-                      "type": {
-                        "value": "GlobalVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "SoldierSpawn",
-                        "True"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "TDTD::Function"
-                      },
-                      "parameters": [
-                        "",
-                        "Soldier",
-                        ""
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "GlobalVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "WhiteHatSpawn",
+                            "True"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "TDTD::Function"
+                          },
+                          "parameters": [
+                            "",
+                            "WhiteHat",
+                            ""
+                          ]
+                        }
                       ]
                     },
                     {
-                      "type": {
-                        "value": "SetGlobalVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "SoldierSpawn",
-                        ""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "GlobalVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "OfficerSpawn",
-                        "True"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "TDTD::Function"
-                      },
-                      "parameters": [
-                        "",
-                        "Officer",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetGlobalVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "OfficerSpawn",
-                        ""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Comment",
-                  "color": {
-                    "b": 109,
-                    "g": 230,
-                    "r": 255,
-                    "textB": 0,
-                    "textG": 0,
-                    "textR": 0
-                  },
-                  "comment": "Civil",
-                  "comment2": ""
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "GlobalVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "FirefighterSpawn",
-                        "True"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "TDTD::Function"
-                      },
-                      "parameters": [
-                        "",
-                        "Firefighter",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetGlobalVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "FirefighterSpawn",
-                        ""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Comment",
-                  "color": {
-                    "b": 109,
-                    "g": 230,
-                    "r": 255,
-                    "textB": 0,
-                    "textG": 0,
-                    "textR": 0
-                  },
-                  "comment": "Digital",
-                  "comment2": ""
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "GlobalVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "WhiteHatSpawn",
-                        "True"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "TDTD::Function"
-                      },
-                      "parameters": [
-                        "",
-                        "WhiteHat",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetGlobalVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "WhiteHatSpawn",
-                        ""
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "PlacedTowers",
+                            "+",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "playerGold",
+                            "-",
+                            "GlobalVariable(toPay)"
+                          ]
+                        }
                       ]
                     }
                   ]
@@ -7943,6 +9397,15 @@
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "SpawnBox",
+                        "="
+                      ]
+                    },
                     {
                       "type": {
                         "value": "ChangeTimeScale"
@@ -7954,22 +9417,115 @@
                     },
                     {
                       "type": {
-                        "value": "ModVarGlobal"
+                        "value": "SetGlobalVariableAsBoolean"
                       },
                       "parameters": [
-                        "PlacedTowers",
-                        "+",
-                        "1"
+                        "VolunteerSpawn",
+                        "False"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetGlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "CaringCitizenSpawn",
+                        "False"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetGlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "GuiderSpawn",
+                        "False"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetGlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "DoctorSpawn",
+                        "False"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetGlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "SoldierSpawn",
+                        "False"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetGlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "FirefighterSpawn",
+                        "False"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetGlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "CheerleaderSpawn",
+                        "False"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetGlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "WhiteHatSpawn",
+                        "False"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetGlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "InvestorSpawn",
+                        "False"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetGlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "DiscernCitizenSpawn",
+                        "False"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetGlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "IntelOfficerSpawn",
+                        "False"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetGlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "CommLeaderSpawn",
+                        "False"
                       ]
                     }
                   ]
                 }
               ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": []
             }
           ],
           "parameters": []
@@ -9970,7 +11526,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Buy Stuff",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -10005,8 +11560,8 @@
                         "value": "ModVarGlobal"
                       },
                       "parameters": [
-                        "playerGold",
-                        "-",
+                        "toPay",
+                        "=",
                         "ToNumber(ShopCostTop.Text())"
                       ]
                     },
@@ -10177,7 +11732,7 @@
                             "value": "SetGlobalVariableAsBoolean"
                           },
                           "parameters": [
-                            "CareerGuiderSpawn",
+                            "GuiderSpawn",
                             "True"
                           ]
                         }
@@ -10293,8 +11848,8 @@
                         "value": "ModVarGlobal"
                       },
                       "parameters": [
-                        "playerGold",
-                        "-",
+                        "toPay",
+                        "=",
                         "ToNumber(ShopCostTop.Text())"
                       ]
                     },
@@ -15894,7 +17449,19 @@
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PathfindingBehavior::Speed"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Pathfinder",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ],
                   "actions": [
                     {
                       "type": {
@@ -15909,6 +17476,11 @@
                       ]
                     }
                   ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": []
                 }
               ],
               "parameters": [
@@ -16214,6 +17786,18 @@
                         "Behavior",
                         "=",
                         "GetArgumentAsNumber(\"Y\")"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PathfindingBehavior::SetDestination"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Pathfinder",
+                        "",
+                        "Object.Behavior::PropertyTargetX()",
+                        "Object.Behavior::PropertyTargetY()"
                       ]
                     }
                   ]
@@ -16747,6 +18331,12 @@
                         "Piercing",
                         "True"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
                     }
                   ],
                   "actions": [
