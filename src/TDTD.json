@@ -1734,6 +1734,78 @@
         "name": "sprites\\Towers\\Career Guider\\Idle\\Picture5-1.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Projectiles/Firefighter Trap.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Projectiles\\Firefighter Trap.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_Projectiles_Firefighter Trap.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sprites\\Projectiles\\Firefighter Trap.png2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_Towers_Firefighter_Idle_Firefighter.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sprites\\Towers\\Firefighter\\Idle\\Firefighter.png2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Towers/Community Leader/Idle/Picture4.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"sprites/Towers/Community Leader/Idle/Picture4.png\",\"extension\":\".png\"}",
+        "name": "sprites\\Towers\\Community Leader\\Idle\\Picture4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_Towers_Community Leader_Idle_Picture4.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sprites\\Towers\\Community Leader\\Idle\\Picture4.png2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "CanGroup.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "CanGroup.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/CanGroup.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "CanGroup.png2",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1889,11 +1961,84 @@
     },
     {
       "assetStoreId": "",
+      "name": "CommLeader",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "Range",
+          "type": "number",
+          "value": 200
+        },
+        {
+          "folded": true,
+          "name": "GroupPillars",
+          "type": "string",
+          "value": "Social"
+        },
+        {
+          "folded": true,
+          "name": "Pillar",
+          "type": "string",
+          "value": "Social"
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "TowerV2",
+          "type": "TDTD::TowerV2"
+        }
+      ],
+      "animations": [
+        {
+          "name": "sprites\\Towers\\Community Leader\\Idle\\Picture4.png",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "sprites\\Towers\\Community Leader\\Idle\\Picture4.png2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
       "name": "CareerGuider",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "folded": true,
+          "name": "Pillar",
+          "type": "string",
+          "value": "Economic"
+        }
+      ],
       "effects": [],
       "behaviors": [
         {
@@ -2175,16 +2320,17 @@
       ],
       "animations": [
         {
-          "name": "",
+          "name": "sprites\\Towers\\Firefighter\\Idle\\Firefighter.png",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprites\\Towers\\Firefighter\\Idle\\Firefighter.png",
+                  "image": "sprites\\Towers\\Firefighter\\Idle\\Firefighter.png2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2429,7 +2575,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4117465506864148,
+        "zoomFactor": 0.4490127974217818,
         "windowMask": false
       },
       "objectsGroups": [
@@ -2459,6 +2605,9 @@
             },
             {
               "name": "CareerGuider"
+            },
+            {
+              "name": "CommLeader"
             }
           ]
         },
@@ -3074,8 +3223,10 @@
           "customSize": true,
           "height": 108,
           "layer": "",
+          "locked": true,
           "name": "NewTiledSprite",
           "persistentUuid": "147df79b-e883-4b3c-8c83-b386b8c903bd",
+          "sealed": true,
           "width": 931,
           "x": 306,
           "y": 263,
@@ -3152,9 +3303,9 @@
           "name": "Wall",
           "persistentUuid": "83c72435-b54d-45fb-91ae-f3e579bf86c3",
           "width": 241,
-          "x": -4,
-          "y": 516,
-          "zOrder": 1030,
+          "x": -14,
+          "y": 477,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3167,9 +3318,9 @@
           "name": "Wall",
           "persistentUuid": "e934e559-5e8c-4fee-a4b1-fa73022ea87c",
           "width": 241,
-          "x": -11,
-          "y": 635,
-          "zOrder": 1030,
+          "x": -12,
+          "y": 637,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3177,14 +3328,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 131,
+          "height": 165,
           "layer": "Path layer",
           "name": "Wall",
           "persistentUuid": "d7e18f7f-d1f7-4a42-abd6-43318ac965ae",
           "width": 11,
-          "x": -6,
-          "y": 519,
-          "zOrder": 1030,
+          "x": -14,
+          "y": 477,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3199,7 +3350,7 @@
           "width": 1025,
           "x": 220,
           "y": 258,
-          "zOrder": 1030,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3214,7 +3365,7 @@
           "width": 1025,
           "x": 223,
           "y": 885,
-          "zOrder": 1030,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3229,7 +3380,7 @@
           "width": 333,
           "x": 1240,
           "y": 694,
-          "zOrder": 1030,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3244,7 +3395,7 @@
           "width": 333,
           "x": 1240,
           "y": 515,
-          "zOrder": 1030,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3259,7 +3410,7 @@
           "width": 11,
           "x": 221,
           "y": 267,
-          "zOrder": 1030,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3274,7 +3425,7 @@
           "width": 11,
           "x": 221,
           "y": 645,
-          "zOrder": 1030,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3289,7 +3440,7 @@
           "width": 11,
           "x": 1237,
           "y": 706,
-          "zOrder": 1030,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3304,7 +3455,7 @@
           "width": 11,
           "x": 1239,
           "y": 265,
-          "zOrder": 1030,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3319,7 +3470,7 @@
           "width": 11,
           "x": 1234.4683837890625,
           "y": 706,
-          "zOrder": 1030,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3334,7 +3485,7 @@
           "width": 11,
           "x": 1034,
           "y": 367,
-          "zOrder": 1030,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3349,7 +3500,7 @@
           "width": 11,
           "x": 388,
           "y": 368,
-          "zOrder": 1030,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3364,7 +3515,7 @@
           "width": 647,
           "x": 391,
           "y": 780,
-          "zOrder": 1030,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3372,14 +3523,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 33,
+          "height": 17,
           "layer": "Path layer",
           "name": "Wall",
           "persistentUuid": "06a889f1-4dfa-47d5-b184-3adee2b5944f",
           "width": 647,
-          "x": 393,
-          "y": 345,
-          "zOrder": 1030,
+          "x": 391,
+          "y": 325,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3387,14 +3538,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 163,
+          "height": 186,
           "layer": "Path layer",
           "name": "Wall",
           "persistentUuid": "f57eb5be-ac86-4256-af61-225a42564bb3",
           "width": 11,
-          "x": 1556,
-          "y": 530,
-          "zOrder": 1030,
+          "x": 1609,
+          "y": 510,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3464,11 +3615,58 @@
           "customSize": true,
           "height": 993,
           "layer": "Path layer",
+          "locked": true,
           "name": "NewSprite2",
           "persistentUuid": "3c43b592-06c2-42d0-92e3-fb5611edf247",
+          "sealed": true,
           "width": 1622,
           "x": -1,
           "y": 93,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 17,
+          "layer": "Path layer",
+          "name": "Wall",
+          "persistentUuid": "db98a9b9-d6fd-4b7a-8911-a94f634ff2d5",
+          "width": 647,
+          "x": 401,
+          "y": 371,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 417,
+          "layer": "Path layer",
+          "name": "Wall",
+          "persistentUuid": "c7b48622-f9ce-42c1-9453-58d1fade8eaa",
+          "width": 11,
+          "x": 360,
+          "y": 372,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 12,
+          "layer": "Path layer",
+          "name": "Wall",
+          "persistentUuid": "25be310d-fcea-4f64-9b1a-30e475d1a48f",
+          "width": 647,
+          "x": 391,
+          "y": 760,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -4325,6 +4523,36 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "NewSprite-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "CanGroup.png",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "CanGroup.png2",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6486,6 +6714,74 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "FirefighterPuddle",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "Chance",
+              "type": "number",
+              "value": 100
+            }
+          ],
+          "effects": [],
+          "behaviors": [
+            {
+              "cost": 2,
+              "impassable": false,
+              "name": "PathfindingObstacle",
+              "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "sprites\\Projectiles\\Firefighter Trap.png",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites\\Projectiles\\Firefighter Trap.png2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "SpawnRails",
+          "tags": "",
+          "texture": "New image",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
         }
       ],
       "events": [
@@ -7096,7 +7392,7 @@
                     "Spawner",
                     "SpawnTime",
                     "=",
-                    "0.2"
+                    "1"
                   ]
                 },
                 {
@@ -7287,8 +7583,8 @@
                   "parameters": [
                     "",
                     "Officer",
-                    "MouseX()",
-                    "MouseY()",
+                    "CursorX()",
+                    "CursorY()",
                     ""
                   ]
                 },
@@ -7325,8 +7621,8 @@
                   "parameters": [
                     "",
                     "Cheerleader",
-                    "MouseX()",
-                    "MouseY()",
+                    "CursorX()",
+                    "CursorY()",
                     ""
                   ]
                 }
@@ -7515,6 +7811,66 @@
                     "textG": 0,
                     "textR": 0
                   },
+                  "comment": "TODO: Make Leader give free upgrade",
+                  "comment2": ""
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "CommLeader",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ChangeColor"
+                      },
+                      "parameters": [
+                        "DescBacking",
+                        "\"250;221;172\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BitmapText::BitmapTextObject::SetText"
+                      },
+                      "parameters": [
+                        "SelectedText",
+                        "=",
+                        "\"Selected: Community Leader\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BitmapText::BitmapTextObject::SetText"
+                      },
+                      "parameters": [
+                        "SelectedDesc",
+                        "=",
+                        "\"Leaders are able to solve problems within a community, effectively and\nefficiently.\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
                   "comment": "Economic",
                   "comment2": ""
                 },
@@ -7637,6 +7993,53 @@
                   },
                   "comment": "Civil",
                   "comment2": ""
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "Firefighter",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ChangeColor"
+                      },
+                      "parameters": [
+                        "DescBacking",
+                        "\"191;206;255\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BitmapText::BitmapTextObject::SetText"
+                      },
+                      "parameters": [
+                        "SelectedText",
+                        "=",
+                        "\"Selected: Firefighter\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BitmapText::BitmapTextObject::SetText"
+                      },
+                      "parameters": [
+                        "SelectedDesc",
+                        "=",
+                        "\"Not only do Firefighters fight fire, they also help out in many other aspects as\nwell.\""
+                      ]
+                    }
+                  ]
                 },
                 {
                   "type": "BuiltinCommonInstructions::Comment",
@@ -8363,13 +8766,12 @@
                 },
                 {
                   "type": {
-                    "value": "TDTD::TowerV2::attack"
+                    "value": "TDTD::TowerV2::Function"
                   },
                   "parameters": [
                     "Firefighter",
                     "TowerV2",
-                    "FirefighterProjectile",
-                    "Enemies",
+                    "FirefighterPuddle",
                     ""
                   ]
                 }
@@ -8478,6 +8880,23 @@
                     "EnemyV2",
                     "Towers",
                     "150",
+                    "150"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TDTD::EnemyV2::slip"
+                  },
+                  "parameters": [
+                    "InternetTroll",
+                    "EnemyV2",
+                    "FirefighterPuddle",
                     "150"
                   ]
                 }
@@ -8768,44 +9187,6 @@
                   },
                   "parameters": [
                     "SpawnBox",
-                    "NewTiledSprite",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetAnimationName"
-                  },
-                  "parameters": [
-                    "SpawnBox",
-                    "\"CannotSpawn\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "SpawnBox",
-                    "doElse",
-                    "False"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "SpawnBox",
                     "DescBacking",
                     "",
                     "",
@@ -8845,6 +9226,92 @@
                   "parameters": [
                     "SpawnBox",
                     "EventBacking",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "SpawnBox",
+                    "\"CannotSpawn\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "SpawnBox",
+                    "doElse",
+                    "False"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "SpawnBox",
+                    "NewTiledSprite",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "SpawnBox",
+                    "\"CannotSpawn\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "SpawnBox",
+                    "doElse",
+                    "False"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "FirefighterSpawn",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "SpawnBox",
+                    "Wall",
                     "",
                     "",
                     ""
@@ -8991,6 +9458,36 @@
                     "\"CanSpawn\""
                   ]
                 }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "SpawnBox",
+                        "CommLeader",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "SpawnBox",
+                        "\"CanGroup.png\""
+                      ]
+                    }
+                  ]
+                }
               ]
             },
             {
@@ -9014,9 +9511,9 @@
                   "parameters": [
                     "SpawnBox",
                     "=",
-                    "MouseX()",
+                    "CursorX()",
                     "=",
-                    "MouseY()"
+                    "CursorY()"
                   ]
                 }
               ]
@@ -9054,11 +9551,12 @@
                   "conditions": [
                     {
                       "type": {
+                        "inverted": true,
                         "value": "AnimationName"
                       },
                       "parameters": [
                         "SpawnBox",
-                        "\"CanSpawn\""
+                        "\"CannotSpawn\""
                       ]
                     }
                   ],
@@ -9100,6 +9598,16 @@
                             "Cheerleader",
                             ""
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarSceneTxt"
+                          },
+                          "parameters": [
+                            "PillarSpawned",
+                            "=",
+                            "Cheerleader.VariableString(Pillar)"
+                          ]
                         }
                       ]
                     },
@@ -9134,8 +9642,8 @@
                           },
                           "parameters": [
                             "Towers",
-                            "MouseX()",
-                            "MouseY()",
+                            "CursorX()",
+                            "CursorY()",
                             ""
                           ]
                         }
@@ -9149,9 +9657,19 @@
                             "",
                             "Towers",
                             "Towers.ObjectName()",
-                            "MouseX()",
-                            "MouseY()",
+                            "CursorX()",
+                            "CursorY()",
                             ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarSceneTxt"
+                          },
+                          "parameters": [
+                            "PillarSpawned",
+                            "=",
+                            "Towers.VariableString(Pillar)"
                           ]
                         }
                       ],
@@ -9165,8 +9683,8 @@
                               },
                               "parameters": [
                                 "Towers",
-                                "MouseX()",
-                                "MouseY()",
+                                "CursorX()",
+                                "CursorY()",
                                 ""
                               ]
                             }
@@ -9179,9 +9697,9 @@
                               "parameters": [
                                 "Towers",
                                 "=",
-                                "MouseX()",
+                                "CursorX()",
                                 "=",
-                                "MouseY()"
+                                "CursorY()"
                               ]
                             },
                             {
@@ -9193,6 +9711,140 @@
                                 "FireRate",
                                 "/",
                                 "0.5"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "GlobalVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "CommLeaderSpawn",
+                            "True"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "TDTD::Function"
+                          },
+                          "parameters": [
+                            "",
+                            "CommLeader",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarScene"
+                          },
+                          "parameters": [
+                            "CommX",
+                            "=",
+                            "CursorX()"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarScene"
+                          },
+                          "parameters": [
+                            "CommY",
+                            "=",
+                            "CursorY()"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarSceneTxt"
+                          },
+                          "parameters": [
+                            "CommString",
+                            "=",
+                            "\"Social\""
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::ForEach",
+                          "object": "Towers",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::CompareNumbers"
+                              },
+                              "parameters": [
+                                "Towers.DistanceToPosition(Variable(CommX), Variable(CommY))",
+                                "<",
+                                "100"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::CompareNumbers"
+                              },
+                              "parameters": [
+                                "StrFind(VariableString(CommString),Towers.VariableString(Pillar))",
+                                "=",
+                                "-1"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "ChangeColor"
+                              },
+                              "parameters": [
+                                "Towers",
+                                "\"245;166;35\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ModVarSceneTxt"
+                              },
+                              "parameters": [
+                                "CommString",
+                                "+",
+                                "Towers.VariableString(Pillar)"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "PickNearest"
+                              },
+                              "parameters": [
+                                "CommLeader",
+                                "Variable(CommX)",
+                                "Variable(CommY)",
+                                ""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "ModVarObjetTxt"
+                              },
+                              "parameters": [
+                                "CommLeader",
+                                "GroupPillars",
+                                "=",
+                                "VariableString(CommString)"
                               ]
                             }
                           ]
@@ -9245,6 +9897,16 @@
                             "+",
                             "3"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarSceneTxt"
+                          },
+                          "parameters": [
+                            "PillarSpawned",
+                            "=",
+                            "CareerGuider.VariableString(Pillar)"
+                          ]
                         }
                       ]
                     },
@@ -9284,6 +9946,16 @@
                             "Soldier",
                             ""
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarSceneTxt"
+                          },
+                          "parameters": [
+                            "PillarSpawned",
+                            "=",
+                            "Soldier.VariableString(Pillar)"
+                          ]
                         }
                       ]
                     },
@@ -9316,12 +9988,338 @@
                       "actions": [
                         {
                           "type": {
-                            "value": "TDTD::Function"
+                            "value": "ModVarSceneTxt"
                           },
                           "parameters": [
-                            "",
-                            "Firefighter",
-                            ""
+                            "PillarSpawned",
+                            "=",
+                            "\"Civil\""
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "GlobalVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "FirefighterSpawn",
+                                "True"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "CollisionPoint"
+                              },
+                              "parameters": [
+                                "NewTiledSprite",
+                                "CursorX()",
+                                "CursorY()+60"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Create"
+                              },
+                              "parameters": [
+                                "",
+                                "Firefighter",
+                                "CursorX()",
+                                "CursorY()",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetCenter"
+                              },
+                              "parameters": [
+                                "Firefighter",
+                                "=",
+                                "CursorX()",
+                                "=",
+                                "MouseY()-40"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ModVarObjet"
+                              },
+                              "parameters": [
+                                "Firefighter",
+                                "SpawnX",
+                                "=",
+                                "CursorX()"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ModVarObjet"
+                              },
+                              "parameters": [
+                                "Firefighter",
+                                "SpawnY",
+                                "=",
+                                "CursorY()+100"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetGlobalVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "FirefighterSpawn",
+                                "False"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "GlobalVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "FirefighterSpawn",
+                                "True"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "CollisionPoint"
+                              },
+                              "parameters": [
+                                "NewTiledSprite",
+                                "CursorX()",
+                                "CursorY()-60"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Create"
+                              },
+                              "parameters": [
+                                "",
+                                "Firefighter",
+                                "CursorX()",
+                                "CursorY()",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetCenter"
+                              },
+                              "parameters": [
+                                "Firefighter",
+                                "=",
+                                "CursorX()",
+                                "=",
+                                "MouseY()+40"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ModVarObjet"
+                              },
+                              "parameters": [
+                                "Firefighter",
+                                "SpawnX",
+                                "=",
+                                "CursorX()"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ModVarObjet"
+                              },
+                              "parameters": [
+                                "Firefighter",
+                                "SpawnY",
+                                "=",
+                                "CursorY()-100"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetGlobalVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "FirefighterSpawn",
+                                "False"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "GlobalVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "FirefighterSpawn",
+                                "True"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "CollisionPoint"
+                              },
+                              "parameters": [
+                                "NewTiledSprite",
+                                "CursorX()+130",
+                                "CursorY()"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Create"
+                              },
+                              "parameters": [
+                                "",
+                                "Firefighter",
+                                "CursorX()",
+                                "CursorY()",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetCenter"
+                              },
+                              "parameters": [
+                                "Firefighter",
+                                "=",
+                                "CursorX()",
+                                "=",
+                                "MouseY()"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ModVarObjet"
+                              },
+                              "parameters": [
+                                "Firefighter",
+                                "SpawnX",
+                                "=",
+                                "CursorX()+130"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ModVarObjet"
+                              },
+                              "parameters": [
+                                "Firefighter",
+                                "SpawnY",
+                                "=",
+                                "CursorY()"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetGlobalVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "FirefighterSpawn",
+                                "False"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "GlobalVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "FirefighterSpawn",
+                                "True"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "CollisionPoint"
+                              },
+                              "parameters": [
+                                "NewTiledSprite",
+                                "CursorX()-130",
+                                "CursorY()"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Create"
+                              },
+                              "parameters": [
+                                "",
+                                "Firefighter",
+                                "CursorX()",
+                                "CursorY()",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetCenter"
+                              },
+                              "parameters": [
+                                "Firefighter",
+                                "=",
+                                "CursorX()",
+                                "=",
+                                "MouseY()"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ModVarObjet"
+                              },
+                              "parameters": [
+                                "Firefighter",
+                                "SpawnX",
+                                "=",
+                                "CursorX()-130"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ModVarObjet"
+                              },
+                              "parameters": [
+                                "Firefighter",
+                                "SpawnY",
+                                "=",
+                                "CursorY()"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetGlobalVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "FirefighterSpawn",
+                                "False"
+                              ]
+                            }
                           ]
                         }
                       ]
@@ -9361,6 +10359,153 @@
                             "",
                             "WhiteHat",
                             ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarSceneTxt"
+                          },
+                          "parameters": [
+                            "PillarSpawned",
+                            "=",
+                            "WhiteHat.VariableString(Pillar)"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "AnimationName"
+                          },
+                          "parameters": [
+                            "SpawnBox",
+                            "\"CanGroup.png\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PickNearest"
+                          },
+                          "parameters": [
+                            "CommLeader",
+                            "CursorX()",
+                            "CursorY()",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::CompareNumbers"
+                          },
+                          "parameters": [
+                            "StrFind( CommLeader.VariableString(GroupPillars),VariableString(PillarSpawned))",
+                            "=",
+                            "-1"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ModVarObjetTxt"
+                          },
+                          "parameters": [
+                            "CommLeader",
+                            "GroupPillars",
+                            "+",
+                            "VariableString(PillarSpawned)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BitmapText::BitmapTextObject::SetText"
+                          },
+                          "parameters": [
+                            "Debug",
+                            "+",
+                            "VariableString(PillarSpawned)"
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::CompareNumbers"
+                              },
+                              "parameters": [
+                                "StrFind(CommLeader.VariableString(GroupPillars),\"Psychological\")",
+                                "!=",
+                                "-1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::CompareNumbers"
+                              },
+                              "parameters": [
+                                "StrFind(CommLeader.VariableString(GroupPillars),\"Social\")",
+                                "!=",
+                                "-1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::CompareNumbers"
+                              },
+                              "parameters": [
+                                "StrFind(CommLeader.VariableString(GroupPillars),\"Economic\")",
+                                "!=",
+                                "-1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::CompareNumbers"
+                              },
+                              "parameters": [
+                                "StrFind(CommLeader.VariableString(GroupPillars),\"Military\")",
+                                "!=",
+                                "-1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::CompareNumbers"
+                              },
+                              "parameters": [
+                                "StrFind(CommLeader.VariableString(GroupPillars),\"Civil\")",
+                                "!=",
+                                "-1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::CompareNumbers"
+                              },
+                              "parameters": [
+                                "StrFind(CommLeader.VariableString(GroupPillars),\"Digital\")",
+                                "!=",
+                                "-1"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "ModVarGlobal"
+                              },
+                              "parameters": [
+                                "CommSupportAmt",
+                                "+",
+                                "1"
+                              ]
+                            }
                           ]
                         }
                       ]
@@ -9465,15 +10610,6 @@
                         "value": "SetGlobalVariableAsBoolean"
                       },
                       "parameters": [
-                        "FirefighterSpawn",
-                        "False"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetGlobalVariableAsBoolean"
-                      },
-                      "parameters": [
                         "CheerleaderSpawn",
                         "False"
                       ]
@@ -9520,6 +10656,15 @@
                       },
                       "parameters": [
                         "CommLeaderSpawn",
+                        "False"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetGlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "FirefighterSpawn",
                         "False"
                       ]
                     }
@@ -10187,6 +11332,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Shop Stuff",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -11823,7 +12969,7 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "MouseButtonReleased"
+                        "value": "MouseButtonPressed"
                       },
                       "parameters": [
                         "",
@@ -17375,8 +18521,8 @@
                   "parameters": [
                     "",
                     "Tower",
-                    "MouseX()",
-                    "MouseY()",
+                    "CursorX()",
+                    "CursorY()",
                     ""
                   ]
                 },
@@ -17387,9 +18533,9 @@
                   "parameters": [
                     "Tower",
                     "=",
-                    "MouseX()",
+                    "CursorX()",
                     "=",
-                    "MouseY()"
+                    "CursorY()"
                   ]
                 }
               ]
@@ -17460,6 +18606,17 @@
                         "=",
                         "0"
                       ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Object",
+                        "hasSlipped",
+                        "True"
+                      ]
                     }
                   ],
                   "actions": [
@@ -17479,8 +18636,39 @@
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": []
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Object",
+                        "hasSlipped",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Rotate"
+                      },
+                      "parameters": [
+                        "Object",
+                        "10",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangeColor"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"184;233;134\""
+                      ]
+                    }
+                  ]
                 }
               ],
               "parameters": [
@@ -17828,6 +19016,117 @@
                 }
               ],
               "objectGroups": []
+            },
+            {
+              "description": "Will make the enemy spin and not move permanently.",
+              "fullName": "Slip enemy",
+              "functionType": "Action",
+              "name": "slip",
+              "sentence": "[On contact with _PARAM2_] _PARAM0_ slips and cannot get up",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Trap",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Object",
+                        "hasSlipped",
+                        "True"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "Random(Trap.Variable(Chance))",
+                        "=",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PathfindingBehavior::MaxSpeed"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Pathfinder",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Object",
+                        "hasSlipped",
+                        "True"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Trap",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": []
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "Sprite",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "TDTD::EnemyV2",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Sprite which is the trap",
+                  "name": "Trap",
+                  "supplementaryInformation": "Sprite",
+                  "type": "objectList"
+                }
+              ],
+              "objectGroups": []
             }
           ],
           "propertyDescriptors": [
@@ -18103,6 +19402,66 @@
                   "name": "Behavior",
                   "supplementaryInformation": "TDTD::TowerV2",
                   "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Spawn a trap at the nearest path, according to SpawnX and SpawnY of the given Tower",
+              "fullName": "Spawn a trap at the nearest path",
+              "functionType": "Action",
+              "name": "Function",
+              "sentence": "Spawn _PARAM2_ at nearest path from _PARAM0_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Trap",
+                        "Object.Variable(SpawnX)",
+                        "Object.Variable(SpawnY)",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetCenter"
+                      },
+                      "parameters": [
+                        "Trap",
+                        "=",
+                        "Object.Variable(SpawnX)",
+                        "=",
+                        "Object.Variable(SpawnY)"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "Sprite",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "TDTD::TowerV2",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Trap to place on path",
+                  "name": "Trap",
+                  "supplementaryInformation": "Sprite",
+                  "type": "objectList"
                 }
               ],
               "objectGroups": []
