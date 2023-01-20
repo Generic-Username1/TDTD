@@ -1898,6 +1898,60 @@
         "name": "sprites\\Projectiles\\Intel Barrier.png2",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Towers/Doctor/Idle/Picture7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Towers\\Doctor\\Idle\\Picture7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_Towers_Doctor_Idle_Picture7.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sprites\\Towers\\Doctor\\Idle\\Picture7.png2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Towers/Caring Citizen/Idle/Picture2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Towers\\Caring Citizen\\Idle\\Picture2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_Towers_Caring Citizen_Idle_Picture2.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sprites\\Towers\\Caring Citizen\\Idle\\Picture2.png2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Towers/Discerning Citizen/Idle/Picture8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Towers\\Discerning Citizen\\Idle\\Picture8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_Towers_Discerning Citizen_Idle_Picture8.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sprites\\Towers\\Discerning Citizen\\Idle\\Picture8.png2",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1961,6 +2015,66 @@
                       "y": 49.08210754394531
                     }
                   ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "CaringCitizen",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "Pillar",
+          "type": "string",
+          "value": "Psychological"
+        },
+        {
+          "folded": true,
+          "name": "Range",
+          "type": "number",
+          "value": 150
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "TowerV2",
+          "type": "TDTD::TowerV2"
+        }
+      ],
+      "animations": [
+        {
+          "name": "sprites\\Towers\\Caring Citizen\\Idle\\Picture2.png",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "sprites\\Towers\\Caring Citizen\\Idle\\Picture2.png2",
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2242,7 +2356,7 @@
           "folded": true,
           "name": "Range",
           "type": "number",
-          "value": 300
+          "value": 200
         },
         {
           "folded": true,
@@ -2497,6 +2611,66 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "sprites\\Towers\\Firefighter\\Idle\\Firefighter.png2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Doctor",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "Range",
+          "type": "number",
+          "value": 150
+        },
+        {
+          "folded": true,
+          "name": "Pillar",
+          "type": "string",
+          "value": "Civil"
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "TowerV2",
+          "type": "TDTD::TowerV2"
+        }
+      ],
+      "animations": [
+        {
+          "name": "sprites\\Towers\\Doctor\\Idle\\Picture7.png",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "sprites\\Towers\\Doctor\\Idle\\Picture7.png2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6154,10 +6328,10 @@
               "TargetY": 350
             },
             {
-              "extraBorder": 0,
-              "gridOffsetY": 20,
               "name": "Pathfinding",
               "type": "PathfindingBehavior::PathfindingBehavior",
+              "extraBorder": 0,
+              "gridOffsetY": 20,
               "acceleration": 400,
               "allowDiagonals": true,
               "angleOffset": 0,
@@ -6954,10 +7128,10 @@
           "effects": [],
           "behaviors": [
             {
-              "cost": 5,
-              "impassable": false,
               "name": "PathfindingObstacle",
-              "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+              "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+              "cost": 5,
+              "impassable": false
             }
           ],
           "animations": [
@@ -6973,6 +7147,72 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "sprites\\Projectiles\\Intel Barrier.png2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "DiscerningCitizen",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "Pillar",
+              "type": "string",
+              "value": " Digital"
+            },
+            {
+              "folded": true,
+              "name": "Range",
+              "type": "number",
+              "value": 300
+            },
+            {
+              "folded": true,
+              "name": "Boost",
+              "type": "number",
+              "value": 2
+            }
+          ],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "TowerV2",
+              "type": "TDTD::TowerV2"
+            }
+          ],
+          "animations": [
+            {
+              "name": "sprites\\Towers\\Discerning Citizen\\Idle\\Picture8.png",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites\\Towers\\Discerning Citizen\\Idle\\Picture8.png2",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -7490,6 +7730,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Continuous Events",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -7938,6 +8179,53 @@
                   ]
                 },
                 {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "CaringCitizen",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ChangeColor"
+                      },
+                      "parameters": [
+                        "DescBacking",
+                        "\"255;191;191\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BitmapText::BitmapTextObject::SetText"
+                      },
+                      "parameters": [
+                        "SelectedText",
+                        "=",
+                        "\"Selected: Caring Citizen\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BitmapText::BitmapTextObject::SetText"
+                      },
+                      "parameters": [
+                        "SelectedDesc",
+                        "=",
+                        "\"Caring citizens give a listening ear to those in need and will help them if\nnecessary.\""
+                      ]
+                    }
+                  ]
+                },
+                {
                   "type": "BuiltinCommonInstructions::Comment",
                   "color": {
                     "b": 109,
@@ -8354,6 +8642,66 @@
                     "textG": 0,
                     "textR": 0
                   },
+                  "comment": "TODO: Make Towers not die when in range of doctor after implementing death",
+                  "comment2": ""
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "Doctor",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ChangeColor"
+                      },
+                      "parameters": [
+                        "DescBacking",
+                        "\"191;206;255\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BitmapText::BitmapTextObject::SetText"
+                      },
+                      "parameters": [
+                        "SelectedText",
+                        "=",
+                        "\"Selected: Doctor\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BitmapText::BitmapTextObject::SetText"
+                      },
+                      "parameters": [
+                        "SelectedDesc",
+                        "=",
+                        "\"Doctors treat health conditions to help the community live better.\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
                   "comment": "Digital\n",
                   "comment2": ""
                 },
@@ -8399,7 +8747,54 @@
                       "parameters": [
                         "SelectedDesc",
                         "=",
-                        "\"White-hat hackers have good intentions, and prevent their bad counterparts\nfrom doing damage.\n\""
+                        "\"White-hat hackers have good intentions, and prevent their bad counterparts\nfrom doing damage.\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "DiscerningCitizen",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ChangeColor"
+                      },
+                      "parameters": [
+                        "DescBacking",
+                        "\"202;202;202\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BitmapText::BitmapTextObject::SetText"
+                      },
+                      "parameters": [
+                        "SelectedText",
+                        "=",
+                        "\"Selected: Discerning Citizen\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BitmapText::BitmapTextObject::SetText"
+                      },
+                      "parameters": [
+                        "SelectedDesc",
+                        "=",
+                        "\"Dicerning Citizens tell lies from truth online and take appropriate responses\nagainst them.\""
                       ]
                     }
                   ]
@@ -8668,7 +9063,8 @@
                         "Tower2",
                         "SoldierProjectile",
                         "Enemies",
-                        "0"
+                        "DiscerningCitizen",
+                        ""
                       ]
                     },
                     {
@@ -8727,7 +9123,8 @@
                         "Tower2",
                         "SoldierProjectile",
                         "Enemies",
-                        "0"
+                        "DiscerningCitizen",
+                        ""
                       ]
                     },
                     {
@@ -8775,7 +9172,8 @@
                         "Tower2",
                         "SoldierProjectile",
                         "Enemies",
-                        "0"
+                        "DiscerningCitizen",
+                        ""
                       ]
                     },
                     {
@@ -8842,7 +9240,8 @@
                         "TowerV2",
                         "WhiteHatProjectile",
                         "Enemies",
-                        "0"
+                        "DiscerningCitizen",
+                        ""
                       ]
                     },
                     {
@@ -8890,7 +9289,8 @@
                         "TowerV2",
                         "WhiteHatProjectile",
                         "Enemies",
-                        "0"
+                        "DiscerningCitizen",
+                        ""
                       ]
                     },
                     {
@@ -8949,7 +9349,8 @@
                         "TowerV2",
                         "WhiteHatProjectile",
                         "Enemies",
-                        "0"
+                        "DiscerningCitizen",
+                        ""
                       ]
                     },
                     {
@@ -9008,7 +9409,8 @@
                     "Tower2",
                     "OfficerProjectile",
                     "Enemies",
-                    "0"
+                    "DiscerningCitizen",
+                    ""
                   ]
                 },
                 {
@@ -9028,7 +9430,8 @@
                     "Tower2",
                     "OfficerProjectile",
                     "Enemies",
-                    "0"
+                    "DiscerningCitizen",
+                    ""
                   ]
                 }
               ]
@@ -10026,6 +10429,42 @@
                       ]
                     },
                     {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "GlobalVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "CaringCitizenSpawn",
+                            "True"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "TDTD::Function"
+                          },
+                          "parameters": [
+                            "",
+                            "CaringCitizen",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarSceneTxt"
+                          },
+                          "parameters": [
+                            "PillarSpawned",
+                            "=",
+                            "CaringCitizen.VariableString(Pillar)"
+                          ]
+                        }
+                      ]
+                    },
+                    {
                       "type": "BuiltinCommonInstructions::Comment",
                       "color": {
                         "b": 109,
@@ -10410,6 +10849,7 @@
                       ]
                     },
                     {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -10775,6 +11215,7 @@
                       "comment2": ""
                     },
                     {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -11127,6 +11568,42 @@
                       ]
                     },
                     {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "GlobalVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "DoctorSpawn",
+                            "True"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "TDTD::Function"
+                          },
+                          "parameters": [
+                            "",
+                            "Doctor",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarSceneTxt"
+                          },
+                          "parameters": [
+                            "PillarSpawned",
+                            "=",
+                            "Doctor.VariableString(Pillar)"
+                          ]
+                        }
+                      ]
+                    },
+                    {
                       "type": "BuiltinCommonInstructions::Comment",
                       "color": {
                         "b": 109,
@@ -11171,6 +11648,42 @@
                             "PillarSpawned",
                             "=",
                             "WhiteHat.VariableString(Pillar)"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "GlobalVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "DiscernCitizenSpawn",
+                            "True"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "TDTD::Function"
+                          },
+                          "parameters": [
+                            "",
+                            "DiscerningCitizen",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarSceneTxt"
+                          },
+                          "parameters": [
+                            "PillarSpawned",
+                            "=",
+                            "DiscerningCitizen.VariableString(Pillar)"
                           ]
                         }
                       ]
@@ -20268,7 +20781,7 @@
               "fullName": "Automatically Target and Fire Bullet",
               "functionType": "Action",
               "name": "attack",
-              "sentence": "[While _PARAM3_ is in range] Fire _PARAM2_ from _PARAM0_ ",
+              "sentence": "[While _PARAM3_ is in range after boosting by _PARAM4_] Fire _PARAM2_ from _PARAM0_ ",
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::Comment",
@@ -20285,6 +20798,50 @@
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "MaxRange",
+                        "=",
+                        "Object.Variable(Range)"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Distance"
+                      },
+                      "parameters": [
+                        "Object",
+                        "RangeBooster",
+                        "RangeBooster.Variable(Range)",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "MaxRange",
+                        "*",
+                        "RangeBooster.Variable(Boost)"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
@@ -20293,7 +20850,7 @@
                       "parameters": [
                         "Object",
                         "Enemy",
-                        "Object.Variable(Range)",
+                        "Variable(MaxRange)",
                         ""
                       ]
                     }
@@ -20430,6 +20987,12 @@
                 {
                   "description": "Attackable Enemies",
                   "name": "Enemy",
+                  "supplementaryInformation": "Sprite",
+                  "type": "objectList"
+                },
+                {
+                  "description": "Tower to boost Range",
+                  "name": "RangeBooster",
                   "supplementaryInformation": "Sprite",
                   "type": "objectList"
                 }
