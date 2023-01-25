@@ -1089,6 +1089,141 @@
         "name": "TerroristAttack-1.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Enemies/Terrorist/Run/Terrorist_Run.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Enemies\\Terrorist\\Run\\Terrorist_Run.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_Enemies_Terrorist_Run_Terrorist_Run.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/sprites_Enemies_Terrorist_Run_Terrorist_Run.png2.png\"}",
+        "name": "sprites\\Enemies\\Terrorist\\Run\\Terrorist_Run.png2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_Enemies_Terrorist_Run_Terrorist_Run.png3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/sprites_Enemies_Terrorist_Run_Terrorist_Run.png3.png\"}",
+        "name": "sprites\\Enemies\\Terrorist\\Run\\Terrorist_Run.png3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_Enemies_Terrorist_Run_Terrorist_Run.png4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sprites\\Enemies\\Terrorist\\Run\\Terrorist_Run.png4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_Enemies_Terrorist_Run_Terrorist_Run.png5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sprites\\Enemies\\Terrorist\\Run\\Terrorist_Run.png5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_Enemies_Terrorist_Run_Terrorist_Run.png6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sprites\\Enemies\\Terrorist\\Run\\Terrorist_Run.png6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_Enemies_Terrorist_Run_Terrorist_Run.png7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sprites\\Enemies\\Terrorist\\Run\\Terrorist_Run.png7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_Enemies_Terrorist_Run_Terrorist_Run.png8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sprites\\Enemies\\Terrorist\\Run\\Terrorist_Run.png8",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_Enemies_Terrorist_Run_Terrorist_Run.png9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sprites\\Enemies\\Terrorist\\Run\\Terrorist_Run.png9",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_Enemies_Terrorist_Run_Terrorist_Run.png10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sprites\\Enemies\\Terrorist\\Run\\Terrorist_Run.png10",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_Enemies_Terrorist_Run_Terrorist_Run.png11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sprites\\Enemies\\Terrorist\\Run\\Terrorist_Run.png11",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_Enemies_Terrorist_Run_Terrorist_Run.png12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sprites\\Enemies\\Terrorist\\Run\\Terrorist_Run.png12",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_Enemies_Terrorist_Run_Terrorist_Run.png13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sprites\\Enemies\\Terrorist\\Run\\Terrorist_Run.png13",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_Enemies_Terrorist_Run_Terrorist_Run.png14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sprites\\Enemies\\Terrorist\\Run\\Terrorist_Run.png14",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_Enemies_Terrorist_Run_Terrorist_Run.png15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sprites\\Enemies\\Terrorist\\Run\\Terrorist_Run.png15",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -2094,7 +2229,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.608078071554099,
+        "zoomFactor": 0.46889229232195806,
         "windowMask": false
       },
       "objectsGroups": [
@@ -2144,6 +2279,9 @@
           "objects": [
             {
               "name": "InternetTroll"
+            },
+            {
+              "name": "Terrorist"
             }
           ]
         },
@@ -2215,7 +2353,14 @@
           ]
         }
       ],
-      "variables": [],
+      "variables": [
+        {
+          "folded": true,
+          "name": "Waves",
+          "type": "structure",
+          "children": []
+        }
+      ],
       "instances": [
         {
           "angle": 0,
@@ -2225,8 +2370,8 @@
           "name": "Spawner",
           "persistentUuid": "3f6f4e18-0c68-4997-bc33-99385d0650d0",
           "width": 0,
-          "x": -9,
-          "y": 550,
+          "x": 0,
+          "y": 521,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -5500,175 +5645,6 @@
         },
         {
           "assetStoreId": "",
-          "name": "InternetTroll",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [
-            {
-              "folded": true,
-              "name": "Health",
-              "type": "number",
-              "value": 80
-            },
-            {
-              "folded": true,
-              "name": "Pillar",
-              "type": "string",
-              "value": "Digital"
-            },
-            {
-              "folded": true,
-              "name": "MaxSpeed",
-              "type": "number",
-              "value": 200
-            }
-          ],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "EnemyV2",
-              "type": "TDTD::EnemyV2",
-              "Pathfinder": "Pathfinding",
-              "TargetX": 1190,
-              "TargetY": 350
-            },
-            {
-              "name": "Pathfinding",
-              "type": "PathfindingBehavior::PathfindingBehavior",
-              "extraBorder": 0,
-              "gridOffsetY": 20,
-              "acceleration": 400,
-              "allowDiagonals": true,
-              "angleOffset": 0,
-              "angularMaxSpeed": 180,
-              "cellHeight": 20,
-              "cellWidth": 20,
-              "gridOffsetX": 0,
-              "maxSpeed": 200,
-              "rotateObject": true,
-              "smoothingMaxCellGap": 1
-            }
-          ],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.08330000191926956,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "sprites\\Enemies\\Internet Trolls\\Walk\\Frame1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "sprites\\Enemies\\Internet Trolls\\Walk\\Frame2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "sprites\\Enemies\\Internet Trolls\\Walk\\Frame3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "sprites\\Enemies\\Internet Trolls\\Walk\\Frame4.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "sprites\\Enemies\\Internet Trolls\\Walk\\Frame5.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "sprites\\Enemies\\Internet Trolls\\Walk\\Frame6.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "assetStoreId": "",
           "name": "CrisisTitle",
           "tags": "",
           "type": "Sprite",
@@ -6396,6 +6372,311 @@
           },
           "absoluteCoordinates": true,
           "clearBetweenFrames": false
+        },
+        {
+          "assetStoreId": "",
+          "name": "InternetTroll",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "Health",
+              "type": "number",
+              "value": 80
+            },
+            {
+              "folded": true,
+              "name": "Pillar",
+              "type": "string",
+              "value": "Digital"
+            },
+            {
+              "folded": true,
+              "name": "MaxSpeed",
+              "type": "number",
+              "value": 200
+            }
+          ],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "EnemyV2",
+              "type": "TDTD::EnemyV2",
+              "Pathfinder": "Pathfinding",
+              "TargetX": 1190,
+              "TargetY": 350
+            },
+            {
+              "name": "Pathfinding",
+              "type": "PathfindingBehavior::PathfindingBehavior",
+              "extraBorder": 0,
+              "gridOffsetY": 20,
+              "acceleration": 400,
+              "allowDiagonals": true,
+              "angleOffset": 0,
+              "angularMaxSpeed": 180,
+              "cellHeight": 20,
+              "cellWidth": 20,
+              "gridOffsetX": 0,
+              "maxSpeed": 200,
+              "rotateObject": true,
+              "smoothingMaxCellGap": 1
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.08330000191926956,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites\\Enemies\\Internet Trolls\\Walk\\Frame1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites\\Enemies\\Internet Trolls\\Walk\\Frame2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites\\Enemies\\Internet Trolls\\Walk\\Frame3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites\\Enemies\\Internet Trolls\\Walk\\Frame4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites\\Enemies\\Internet Trolls\\Walk\\Frame5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites\\Enemies\\Internet Trolls\\Walk\\Frame6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Terrorist",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "Health",
+              "type": "number",
+              "value": 200
+            },
+            {
+              "folded": true,
+              "name": "Pillar",
+              "type": "string",
+              "value": "Military"
+            },
+            {
+              "folded": true,
+              "name": "MaxSpeed",
+              "type": "number",
+              "value": 80
+            }
+          ],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "EnemyV2",
+              "type": "TDTD::EnemyV2",
+              "Pathfinder": "Pathfinding",
+              "TargetX": 1190,
+              "TargetY": 350
+            },
+            {
+              "acceleration": 100,
+              "allowDiagonals": true,
+              "angleOffset": 0,
+              "angularMaxSpeed": 180,
+              "cellHeight": 20,
+              "cellWidth": 20,
+              "extraBorder": 10,
+              "gridOffsetX": 0,
+              "gridOffsetY": 0,
+              "maxSpeed": 100,
+              "name": "Pathfinding",
+              "rotateObject": true,
+              "smoothingMaxCellGap": 1,
+              "type": "PathfindingBehavior::PathfindingBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "sprites\\Enemies\\Terrorist\\Run\\Terrorist_Run.png",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.125,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites\\Enemies\\Terrorist\\Run\\Terrorist_Run.png12",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites\\Enemies\\Terrorist\\Run\\Terrorist_Run.png13",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites\\Enemies\\Terrorist\\Run\\Terrorist_Run.png14",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites\\Enemies\\Terrorist\\Run\\Terrorist_Run.png15",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -6404,7 +6685,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Initialization",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -6679,6 +6959,43 @@
                   ]
                 },
                 {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "FileSystem::LoadVariableFromJSONFileSync"
+                      },
+                      "parameters": [
+                        "Waves",
+                        "FileSystem::ExecutableFolderPath()+\"waves.json\"",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "wave",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "waveDelay",
+                        "=",
+                        "-1"
+                      ]
+                    }
+                  ]
+                },
+                {
                   "type": "BuiltinCommonInstructions::Comment",
                   "color": {
                     "b": 109,
@@ -6894,7 +7211,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Continuous Events",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -6961,8 +7277,202 @@
                   "parameters": [
                     "Spawner",
                     "\"SpawnerClock\"",
+                    ">=",
+                    "Variable(waveDelay)"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "BitmapText::BitmapTextObject::SetText"
+                  },
+                  "parameters": [
+                    "Debug",
+                    "+",
+                    "\"yes\""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::ForEachChildVariable",
+                  "iterableVariableName": "Waves",
+                  "valueIteratorVariableName": "waveEvents",
+                  "keyIteratorVariableName": "",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "BitmapText::BitmapTextObject::SetText"
+                      },
+                      "parameters": [
+                        "CurrentEvent",
+                        "=",
+                        "\"Current Event:\nWave \""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BitmapText::BitmapTextObject::SetText"
+                      },
+                      "parameters": [
+                        "CurrentEvent",
+                        "+",
+                        "ToString(Variable(Waves))"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BitmapText::BitmapTextObject::SetText"
+                      },
+                      "parameters": [
+                        "CurrentEvent",
+                        "+",
+                        "\"/\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BitmapText::BitmapTextObject::SetText"
+                      },
+                      "parameters": [
+                        "CurrentEvent",
+                        "+",
+                        "ToString(VariableChildCount(Waves))"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::ForEachChildVariable",
+                      "iterableVariableName": "waveEvents",
+                      "valueIteratorVariableName": "waveData",
+                      "keyIteratorVariableName": "",
+                      "conditions": [],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::CompareStrings"
+                              },
+                              "parameters": [
+                                "VariableString(waveData.action)",
+                                "=",
+                                "\"delay\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "ModVarScene"
+                              },
+                              "parameters": [
+                                "waveDelay",
+                                "=",
+                                "Variable(waveData.duration)"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::CompareStrings"
+                              },
+                              "parameters": [
+                                "VariableString(waveData.action)",
+                                "=",
+                                "\"spawn\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "CreateByName"
+                              },
+                              "parameters": [
+                                "",
+                                "Enemies",
+                                "VariableString(waveData.name)",
+                                "Spawner.X()",
+                                "Spawner.Y()",
+                                "\"Projectile layer\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "TDTD::EnemyV2::changeTarget"
+                              },
+                              "parameters": [
+                                "Enemies",
+                                "EnemyV2",
+                                "Base.CenterX()",
+                                "Base.CenterY()",
+                                ""
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ResetObjectTimer"
+                          },
+                          "parameters": [
+                            "Spawner",
+                            "\"SpawnerClock\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarScene"
+                          },
+                          "parameters": [
+                            "wave",
+                            "+",
+                            "1"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareObjectTimer"
+                  },
+                  "parameters": [
+                    "Spawner",
+                    "\"SpawnerClock\"",
                     ">",
                     "Spawner.Variable(SpawnTime)"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "BuiltinCommonInstructions::Always"
+                  },
+                  "parameters": [
+                    ""
                   ]
                 }
               ],
@@ -7046,6 +7556,15 @@
                     "=",
                     "1"
                   ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "BuiltinCommonInstructions::Always"
+                  },
+                  "parameters": [
+                    ""
+                  ]
                 }
               ],
               "actions": [
@@ -7059,16 +7578,6 @@
                     "Spawner.X()",
                     "Spawner.Y()",
                     "\"Projectile layer\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ChangeScale"
-                  },
-                  "parameters": [
-                    "InternetTroll",
-                    "=",
-                    "0.21"
                   ]
                 },
                 {
@@ -7116,6 +7625,15 @@
                     "=",
                     "2"
                   ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "BuiltinCommonInstructions::Always"
+                  },
+                  "parameters": [
+                    ""
+                  ]
                 }
               ],
               "actions": [
@@ -7125,20 +7643,10 @@
                   },
                   "parameters": [
                     "",
-                    "InternetTroll",
+                    "Terrorist",
                     "Spawner.X()",
                     "Spawner.Y()",
                     "\"Projectile layer\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ChangeScale"
-                  },
-                  "parameters": [
-                    "InternetTroll",
-                    "=",
-                    "0.21"
                   ]
                 },
                 {
@@ -7158,7 +7666,19 @@
                     "Spawner",
                     "TerroristAttackSpawnTime",
                     "=",
-                    "0.5"
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TDTD::EnemyV2::changeTarget"
+                  },
+                  "parameters": [
+                    "Terrorist",
+                    "EnemyV2",
+                    "Base.CenterX()",
+                    "Base.CenterY()",
+                    ""
                   ]
                 }
               ]
@@ -8434,6 +8954,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Attack or Defend",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -9222,26 +9743,6 @@
               "actions": [
                 {
                   "type": {
-                    "value": "TDTD::EnemyV2::slow"
-                  },
-                  "parameters": [
-                    "InternetTroll",
-                    "EnemyV2",
-                    "Pathfinding",
-                    "WhiteHatProjectile",
-                    "0.1",
-                    "5",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
                     "value": "TDTD::EnemyV2::InflictSlow"
                   },
                   "parameters": [
@@ -9268,6 +9769,17 @@
                     "FirefighterPuddle",
                     "150"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "TDTD::EnemyV2::slip"
+                  },
+                  "parameters": [
+                    "Terrorist",
+                    "EnemyV2",
+                    "FirefighterPuddle",
+                    "150"
+                  ]
                 }
               ]
             },
@@ -9281,6 +9793,17 @@
                   },
                   "parameters": [
                     "InternetTroll",
+                    "EnemyV2",
+                    "IntelligenceBarrier",
+                    "150"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TDTD::EnemyV2::collide"
+                  },
+                  "parameters": [
+                    "Terrorist",
                     "EnemyV2",
                     "IntelligenceBarrier",
                     "150"
@@ -11647,7 +12170,7 @@
                   "parameters": [
                     "CrisisNo",
                     "=",
-                    "RandomInRange(1, 2)"
+                    "2"
                   ]
                 }
               ]
@@ -11796,6 +12319,15 @@
                         "\"linear\"",
                         "250",
                         ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PauseObjectTimer"
+                      },
+                      "parameters": [
+                        "Spawner",
+                        "\"SpawnerClock\""
                       ]
                     }
                   ],
@@ -12256,6 +12788,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Shop Stuff",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
