@@ -6964,13 +6964,35 @@
                   "actions": [
                     {
                       "type": {
-                        "value": "FileSystem::LoadVariableFromJSONFileSync"
+                        "await": true,
+                        "value": "SendAsyncRequest"
                       },
                       "parameters": [
-                        "Waves",
-                        "FileSystem::ExecutableFolderPath()+\"waves.json\"",
-                        "",
+                        "\"https://raw.githubusercontent.com/Generic-Username1/TDTD/main/src/waves%2Cjson?token=GHSAT0AAAAAAB5H5RTN6MFFEEWC6H35G7FCY6RFJ5A\"",
+                        "\"\"",
+                        "\"GET\"",
+                        "\"application/json\"",
+                        "tempWaves",
                         ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "DebuggerTools::ConsoleLog"
+                      },
+                      "parameters": [
+                        "VariableString(tempWaves)",
+                        "\"info\"",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "JSONToVariableStructure"
+                      },
+                      "parameters": [
+                        "VariableString(tempWaves)",
+                        "Waves"
                       ]
                     },
                     {
