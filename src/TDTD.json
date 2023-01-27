@@ -1224,6 +1224,114 @@
         "name": "sprites\\Enemies\\Terrorist\\Run\\Terrorist_Run.png15",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_Enemies_Internet Trolls_Walk_Frame1.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sprites\\Enemies\\Internet Trolls\\Walk\\Frame1.png2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_Enemies_Internet Trolls_Walk_Frame1.png3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sprites\\Enemies\\Internet Trolls\\Walk\\Frame1.png3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_Enemies_Internet Trolls_Walk_Frame1.png4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sprites\\Enemies\\Internet Trolls\\Walk\\Frame1.png4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_Enemies_Internet Trolls_Walk_Frame1.png5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sprites\\Enemies\\Internet Trolls\\Walk\\Frame1.png5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_Enemies_Internet Trolls_Walk_Frame1.png6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sprites\\Enemies\\Internet Trolls\\Walk\\Frame1.png6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_Enemies_Internet Trolls_Walk_Frame1.png7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sprites\\Enemies\\Internet Trolls\\Walk\\Frame1.png7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_Enemies_Internet Trolls_Walk_Frame1.png8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/sprites_Enemies_Internet Trolls_Walk_Frame1.png8.png\"}",
+        "name": "sprites\\Enemies\\Internet Trolls\\Walk\\Frame1.png8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_Enemies_Internet Trolls_Walk_Frame1.png9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/sprites_Enemies_Internet Trolls_Walk_Frame1.png9.png\"}",
+        "name": "sprites\\Enemies\\Internet Trolls\\Walk\\Frame1.png9",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_Enemies_Internet Trolls_Walk_Frame1.png10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/sprites_Enemies_Internet Trolls_Walk_Frame1.png10.png\"}",
+        "name": "sprites\\Enemies\\Internet Trolls\\Walk\\Frame1.png10",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_Enemies_Internet Trolls_Walk_Frame1.png11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/sprites_Enemies_Internet Trolls_Walk_Frame1.png11.png\"}",
+        "name": "sprites\\Enemies\\Internet Trolls\\Walk\\Frame1.png11",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_Enemies_Internet Trolls_Walk_Frame1.png12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/sprites_Enemies_Internet Trolls_Walk_Frame1.png12.png\"}",
+        "name": "sprites\\Enemies\\Internet Trolls\\Walk\\Frame1.png12",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_Enemies_Internet Trolls_Walk_Frame1.png13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/sprites_Enemies_Internet Trolls_Walk_Frame1.png13.png\"}",
+        "name": "sprites\\Enemies\\Internet Trolls\\Walk\\Frame1.png13",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -2229,7 +2337,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.46889229232195806,
+        "zoomFactor": 0.7551465035100362,
         "windowMask": false
       },
       "objectsGroups": [
@@ -2583,21 +2691,6 @@
           "x": 1700,
           "y": 130,
           "zOrder": 1009,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "Debug",
-          "persistentUuid": "2814baa5-86b7-4f60-b008-69a0f059c8d0",
-          "width": 0,
-          "x": 1448,
-          "y": 972,
-          "zOrder": 1010,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2971,12 +3064,12 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 12,
+          "height": 11,
           "layer": "Path layer",
           "name": "Wall",
           "persistentUuid": "83c72435-b54d-45fb-91ae-f3e579bf86c3",
-          "width": 241,
-          "x": -14,
+          "width": 508,
+          "x": -281,
           "y": 477,
           "zOrder": 0,
           "numberProperties": [],
@@ -2986,12 +3079,12 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 12,
+          "height": 13,
           "layer": "Path layer",
           "name": "Wall",
           "persistentUuid": "e934e559-5e8c-4fee-a4b1-fa73022ea87c",
-          "width": 241,
-          "x": -12,
+          "width": 498,
+          "x": -269,
           "y": 637,
           "zOrder": 0,
           "numberProperties": [],
@@ -3006,8 +3099,8 @@
           "name": "Wall",
           "persistentUuid": "d7e18f7f-d1f7-4a42-abd6-43318ac965ae",
           "width": 11,
-          "x": -14,
-          "y": 477,
+          "x": -278,
+          "y": 485,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -6427,16 +6520,17 @@
           ],
           "animations": [
             {
-              "name": "",
+              "name": "sprites\\Enemies\\Internet Trolls\\Walk\\Frame1.png",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": true,
+                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08330000191926956,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "sprites\\Enemies\\Internet Trolls\\Walk\\Frame1.png",
+                      "image": "sprites\\Enemies\\Internet Trolls\\Walk\\Frame1.png8",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6453,7 +6547,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "sprites\\Enemies\\Internet Trolls\\Walk\\Frame2.png",
+                      "image": "sprites\\Enemies\\Internet Trolls\\Walk\\Frame1.png9",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6470,7 +6564,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "sprites\\Enemies\\Internet Trolls\\Walk\\Frame3.png",
+                      "image": "sprites\\Enemies\\Internet Trolls\\Walk\\Frame1.png10",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6487,7 +6581,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "sprites\\Enemies\\Internet Trolls\\Walk\\Frame4.png",
+                      "image": "sprites\\Enemies\\Internet Trolls\\Walk\\Frame1.png11",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6504,7 +6598,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "sprites\\Enemies\\Internet Trolls\\Walk\\Frame5.png",
+                      "image": "sprites\\Enemies\\Internet Trolls\\Walk\\Frame1.png12",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6521,7 +6615,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "sprites\\Enemies\\Internet Trolls\\Walk\\Frame6.png",
+                      "image": "sprites\\Enemies\\Internet Trolls\\Walk\\Frame1.png13",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6578,6 +6672,8 @@
               "TargetY": 350
             },
             {
+              "name": "Pathfinding",
+              "type": "PathfindingBehavior::PathfindingBehavior",
               "acceleration": 100,
               "allowDiagonals": true,
               "angleOffset": 0,
@@ -6588,10 +6684,8 @@
               "gridOffsetX": 0,
               "gridOffsetY": 0,
               "maxSpeed": 100,
-              "name": "Pathfinding",
               "rotateObject": true,
-              "smoothingMaxCellGap": 1,
-              "type": "PathfindingBehavior::PathfindingBehavior"
+              "smoothingMaxCellGap": 1
             }
           ],
           "animations": [
@@ -6774,7 +6868,7 @@
                       "parameters": [
                         "CheerleaderCost",
                         "=",
-                        "150\n"
+                        "150"
                       ]
                     },
                     {
@@ -6812,9 +6906,9 @@
                         "value": "ModVarGlobal"
                       },
                       "parameters": [
-                        "EducatorCost",
+                        "GuiderCost",
                         "=",
-                        "500"
+                        "200"
                       ]
                     },
                     {
@@ -6822,29 +6916,9 @@
                         "value": "ModVarGlobal"
                       },
                       "parameters": [
-                        "EducatorUpgCost",
+                        "GuiderUpgCost",
                         "=",
-                        "GlobalVariable(EducatorCost)*1.5"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVarGlobal"
-                      },
-                      "parameters": [
-                        "ReskillCost",
-                        "=",
-                        "120"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVarGlobal"
-                      },
-                      "parameters": [
-                        "ReskillUpgCost",
-                        "=",
-                        "GlobalVariable(ReskillCost)*1.5"
+                        "GlobalVariable(GuiderUpgCost)*1.5"
                       ]
                     },
                     {
@@ -6874,7 +6948,7 @@
                       "parameters": [
                         "FirefighterCost",
                         "=",
-                        "100"
+                        "90"
                       ]
                     },
                     {
@@ -6894,7 +6968,7 @@
                       "parameters": [
                         "WhiteHatCost",
                         "=",
-                        "60"
+                        "90"
                       ]
                     },
                     {
@@ -6912,9 +6986,129 @@
                         "value": "ModVarGlobal"
                       },
                       "parameters": [
-                        "Tier2Cost",
+                        "CaringCitizenCost",
                         "=",
-                        "5\n"
+                        "120"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "CaringCitizenUpgCost",
+                        "=",
+                        "GlobalVariable(CaringCitizenCost)*1.5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "CommLeaderCost",
+                        "=",
+                        "90"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "CommLeaderUpgCost",
+                        "=",
+                        "GlobalVariable(CommLeaderCost)*1.5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "InvestorCost",
+                        "=",
+                        "250"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "InvestorUpgCost",
+                        "=",
+                        "GlobalVariable(InvestorCost)*1.5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "IntelOfficerCost",
+                        "=",
+                        "90"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "IntelOfficerUpgCost",
+                        "=",
+                        "GlobalVariable(IntelOfficerCost)*1.5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "DoctorCost",
+                        "=",
+                        "150"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "DoctorUpgCost",
+                        "=",
+                        "GlobalVariable(DoctorCost)*1.5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "DiscernCitizenCost",
+                        "=",
+                        "140"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "DiscernCitizenUpgCost",
+                        "=",
+                        "GlobalVariable(DiscernCitizenCost)*1.5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "BUY_SAME_MULTIPLIER",
+                        "=",
+                        "1.5"
                       ]
                     }
                   ]
@@ -6944,17 +7138,6 @@
                         "Spawner",
                         "\"SpawnerClock\""
                       ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVarObjet"
-                      },
-                      "parameters": [
-                        "Spawner",
-                        "SpawnTime",
-                        "=",
-                        "1"
-                      ]
                     }
                   ]
                 },
@@ -6968,12 +7151,12 @@
                         "value": "SendAsyncRequest"
                       },
                       "parameters": [
-                        "\"https://raw.githubusercontent.com/Generic-Username1/TDTD/main/src/waves%2Cjson?token=GHSAT0AAAAAAB5H5RTN6MFFEEWC6H35G7FCY6RFJ5A\"",
+                        "\"https://raw.githubusercontent.com/Generic-Username1/TDTD/main/src/waves%2Cjson?token=GHSAT0AAAAAAB5H5RTMAZPOR3YLZGK4QAIQY6UAYIA\"",
                         "\"\"",
                         "\"GET\"",
                         "\"application/json\"",
                         "tempWaves",
-                        ""
+                        "skillIssue"
                       ]
                     },
                     {
@@ -7018,6 +7201,22 @@
                   ]
                 },
                 {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "BitmapText::BitmapTextObject::SetText"
+                      },
+                      "parameters": [
+                        "Debug",
+                        "=",
+                        "VariableString(skillIssue)"
+                      ]
+                    }
+                  ]
+                },
+                {
                   "type": "BuiltinCommonInstructions::Comment",
                   "color": {
                     "b": 109,
@@ -7041,7 +7240,7 @@
                       "parameters": [
                         "playerGold",
                         "=",
-                        "10000\n"
+                        "200"
                       ]
                     },
                     {
@@ -7290,6 +7489,7 @@
               "comment2": ""
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -7302,26 +7502,22 @@
                     ">=",
                     "Variable(waveDelay)"
                   ]
-                }
-              ],
-              "actions": [
+                },
                 {
                   "type": {
-                    "value": "BitmapText::BitmapTextObject::SetText"
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
                   },
                   "parameters": [
-                    "Debug",
-                    "+",
-                    "\"yes\""
+                    "Variable(wave)",
+                    "<=",
+                    "VariableChildCount(Waves)"
                   ]
                 }
               ],
+              "actions": [],
               "events": [
                 {
-                  "type": "BuiltinCommonInstructions::ForEachChildVariable",
-                  "iterableVariableName": "Waves",
-                  "valueIteratorVariableName": "waveEvents",
-                  "keyIteratorVariableName": "",
+                  "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
                     {
@@ -7341,7 +7537,7 @@
                       "parameters": [
                         "CurrentEvent",
                         "+",
-                        "ToString(Variable(Waves))"
+                        "ToString(Variable(wave))"
                       ]
                     },
                     {
@@ -7364,57 +7560,96 @@
                         "ToString(VariableChildCount(Waves))"
                       ]
                     }
-                  ],
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::ForEachChildVariable",
+                  "iterableVariableName": "Waves[Variable(wave)]",
+                  "valueIteratorVariableName": "waveData",
+                  "keyIteratorVariableName": "",
+                  "conditions": [],
+                  "actions": [],
                   "events": [
                     {
-                      "type": "BuiltinCommonInstructions::ForEachChildVariable",
-                      "iterableVariableName": "waveEvents",
-                      "valueIteratorVariableName": "waveData",
-                      "keyIteratorVariableName": "",
-                      "conditions": [],
-                      "actions": [],
-                      "events": [
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
                         {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "BuiltinCommonInstructions::CompareStrings"
-                              },
-                              "parameters": [
-                                "VariableString(waveData.action)",
-                                "=",
-                                "\"delay\""
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "ModVarScene"
-                              },
-                              "parameters": [
-                                "waveDelay",
-                                "=",
-                                "Variable(waveData.duration)"
-                              ]
-                            }
+                          "type": {
+                            "value": "BuiltinCommonInstructions::CompareStrings"
+                          },
+                          "parameters": [
+                            "VariableString(waveData.action)",
+                            "=",
+                            "\"delay\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ModVarScene"
+                          },
+                          "parameters": [
+                            "waveDelay",
+                            "=",
+                            "Variable(waveData.duration)"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::CompareStrings"
+                          },
+                          "parameters": [
+                            "VariableString(waveData.action)",
+                            "=",
+                            "\"spawn\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ModVarScene"
+                          },
+                          "parameters": [
+                            "waveDelay",
+                            "=",
+                            "15"
                           ]
                         },
                         {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
+                          "type": {
+                            "value": "ModVarScene"
+                          },
+                          "parameters": [
+                            "spawned",
+                            "=",
+                            "1"
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "infiniteLoopWarning": true,
+                          "type": "BuiltinCommonInstructions::While",
+                          "whileConditions": [
                             {
                               "type": {
-                                "value": "BuiltinCommonInstructions::CompareStrings"
+                                "value": "BuiltinCommonInstructions::CompareNumbers"
                               },
                               "parameters": [
-                                "VariableString(waveData.action)",
-                                "=",
-                                "\"spawn\""
+                                "Variable(waveData.qty)",
+                                ">=",
+                                "Variable(spawned)"
                               ]
                             }
                           ],
+                          "conditions": [],
                           "actions": [
                             {
                               "type": {
@@ -7424,7 +7659,7 @@
                                 "",
                                 "Enemies",
                                 "VariableString(waveData.name)",
-                                "Spawner.X()",
+                                "Spawner.X()-20*Variable(spawned)",
                                 "Spawner.Y()",
                                 "\"Projectile layer\""
                               ]
@@ -7440,34 +7675,54 @@
                                 "Base.CenterY()",
                                 ""
                               ]
+                            },
+                            {
+                              "type": {
+                                "value": "BitmapText::BitmapTextObject::SetText"
+                              },
+                              "parameters": [
+                                "Debug",
+                                "+",
+                                "VariableString(waveData.name)"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ModVarScene"
+                              },
+                              "parameters": [
+                                "spawned",
+                                "+",
+                                "1"
+                              ]
                             }
                           ]
                         }
                       ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "Spawner",
+                        "\"SpawnerClock\""
+                      ]
                     },
                     {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ResetObjectTimer"
-                          },
-                          "parameters": [
-                            "Spawner",
-                            "\"SpawnerClock\""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ModVarScene"
-                          },
-                          "parameters": [
-                            "wave",
-                            "+",
-                            "1"
-                          ]
-                        }
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "wave",
+                        "+",
+                        "1"
                       ]
                     }
                   ]
@@ -7479,228 +7734,24 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "CompareObjectTimer"
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
                   },
                   "parameters": [
-                    "Spawner",
-                    "\"SpawnerClock\"",
+                    "Variable(wave)",
                     ">",
-                    "Spawner.Variable(SpawnTime)"
-                  ]
-                },
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "BuiltinCommonInstructions::Always"
-                  },
-                  "parameters": [
-                    ""
+                    "VariableChildCount(Waves)"
                   ]
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "value": "Create"
+                    "value": "BitmapText::BitmapTextObject::SetText"
                   },
                   "parameters": [
-                    "",
-                    "InternetTroll",
-                    "Spawner.X()",
-                    "Spawner.Y()",
-                    "\"Projectile layer\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ChangeScale"
-                  },
-                  "parameters": [
-                    "InternetTroll",
+                    "CurrentEvent",
                     "=",
-                    "0.5"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ResetObjectTimer"
-                  },
-                  "parameters": [
-                    "Spawner",
-                    "\"SpawnerClock\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarObjet"
-                  },
-                  "parameters": [
-                    "Spawner",
-                    "SpawnTime",
-                    "=",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TDTD::EnemyV2::changeTarget"
-                  },
-                  "parameters": [
-                    "InternetTroll",
-                    "EnemyV2",
-                    "Base.CenterX()",
-                    "Base.CenterY()",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CompareObjectTimer"
-                  },
-                  "parameters": [
-                    "Spawner",
-                    "\"CyberAttackSpawnerClock\"",
-                    ">",
-                    "Spawner.Variable(CyberAttackSpawnTime)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "VarGlobal"
-                  },
-                  "parameters": [
-                    "CrisisSpawnNo",
-                    "=",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "BuiltinCommonInstructions::Always"
-                  },
-                  "parameters": [
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "InternetTroll",
-                    "Spawner.X()",
-                    "Spawner.Y()",
-                    "\"Projectile layer\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ResetObjectTimer"
-                  },
-                  "parameters": [
-                    "Spawner",
-                    "\"CyberAttackSpawnerClock\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarObjet"
-                  },
-                  "parameters": [
-                    "Spawner",
-                    "CyberAttackSpawnTime",
-                    "=",
-                    "0.1"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CompareObjectTimer"
-                  },
-                  "parameters": [
-                    "Spawner",
-                    "\"TerroristAttackSpawnerClock\"",
-                    ">",
-                    "Spawner.Variable(TerroristAttackSpawnTime)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "VarGlobal"
-                  },
-                  "parameters": [
-                    "CrisisSpawnNo",
-                    "=",
-                    "2"
-                  ]
-                },
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "BuiltinCommonInstructions::Always"
-                  },
-                  "parameters": [
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "Terrorist",
-                    "Spawner.X()",
-                    "Spawner.Y()",
-                    "\"Projectile layer\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ResetObjectTimer"
-                  },
-                  "parameters": [
-                    "Spawner",
-                    "\"TerroristAttackSpawnerClock\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarObjet"
-                  },
-                  "parameters": [
-                    "Spawner",
-                    "TerroristAttackSpawnTime",
-                    "=",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TDTD::EnemyV2::changeTarget"
-                  },
-                  "parameters": [
-                    "Terrorist",
-                    "EnemyV2",
-                    "Base.CenterX()",
-                    "Base.CenterY()",
-                    ""
+                    "\"You win!\""
                   ]
                 }
               ]
@@ -12810,7 +12861,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Shop Stuff",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -13707,7 +13757,7 @@
                       "parameters": [
                         "ShopCostTop",
                         "=",
-                        "\"100\""
+                        "ToString(GlobalVariable(CheerleaderCost))"
                       ]
                     },
                     {
@@ -13717,7 +13767,7 @@
                       "parameters": [
                         "ShopCostBottom",
                         "=",
-                        "\"110\""
+                        "ToString(GlobalVariable(CaringCitizenCost))"
                       ]
                     }
                   ]
@@ -13791,7 +13841,7 @@
                       "parameters": [
                         "ShopCostTop",
                         "=",
-                        "\"120\""
+                        "ToString(GlobalVariable(VolunteerCost))"
                       ]
                     },
                     {
@@ -13801,7 +13851,7 @@
                       "parameters": [
                         "ShopCostBottom",
                         "=",
-                        "\"90\""
+                        "ToString(GlobalVariable(CommLeaderCost))"
                       ]
                     }
                   ]
@@ -13875,7 +13925,7 @@
                       "parameters": [
                         "ShopCostTop",
                         "=",
-                        "\"150\""
+                        "ToString(GlobalVariable(GuiderCost))"
                       ]
                     },
                     {
@@ -13885,7 +13935,7 @@
                       "parameters": [
                         "ShopCostBottom",
                         "=",
-                        "\"250\""
+                        "ToString(GlobalVariable(InvestorCost))"
                       ]
                     }
                   ]
@@ -13959,7 +14009,7 @@
                       "parameters": [
                         "ShopCostTop",
                         "=",
-                        "\"100\""
+                        "ToString(GlobalVariable(SoldierCost))"
                       ]
                     },
                     {
@@ -13969,7 +14019,7 @@
                       "parameters": [
                         "ShopCostBottom",
                         "=",
-                        "\"120\""
+                        "ToString(GlobalVariable(IntelOfficerCost))"
                       ]
                     }
                   ]
@@ -14043,7 +14093,7 @@
                       "parameters": [
                         "ShopCostTop",
                         "=",
-                        "\"90\""
+                        "ToString(GlobalVariable(FirefighterCost))"
                       ]
                     },
                     {
@@ -14053,7 +14103,7 @@
                       "parameters": [
                         "ShopCostBottom",
                         "=",
-                        "\"150\""
+                        "ToString(GlobalVariable(DoctorCost))"
                       ]
                     }
                   ]
@@ -14127,7 +14177,7 @@
                       "parameters": [
                         "ShopCostTop",
                         "=",
-                        "\"80\""
+                        "ToString(GlobalVariable(WhiteHatCost))"
                       ]
                     },
                     {
@@ -14137,7 +14187,33 @@
                       "parameters": [
                         "ShopCostBottom",
                         "=",
-                        "\"100\""
+                        "ToString(GlobalVariable(DiscernCitizenCost))"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "BitmapText::BitmapTextObject::SetText"
+                      },
+                      "parameters": [
+                        "ShopCostTop",
+                        "=",
+                        "ToString(round(ToNumber(ShopCostTop.Text())))"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BitmapText::BitmapTextObject::SetText"
+                      },
+                      "parameters": [
+                        "ShopCostBottom",
+                        "=",
+                        "ToString(round(ToNumber(ShopCostBottom.Text())))"
                       ]
                     }
                   ]
@@ -14150,6 +14226,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Buy Stuff",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -14307,6 +14384,16 @@
                             "CheerleaderSpawn",
                             "True"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "CheerleaderCost",
+                            "*",
+                            "GlobalVariable(BUY_SAME_MULTIPLIER)"
+                          ]
                         }
                       ]
                     },
@@ -14332,6 +14419,16 @@
                           "parameters": [
                             "VolunteerSpawn",
                             "True"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "VolunteerCost",
+                            "*",
+                            "GlobalVariable(BUY_SAME_MULTIPLIER)"
                           ]
                         }
                       ]
@@ -14359,6 +14456,16 @@
                             "GuiderSpawn",
                             "True"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "GuiderCost",
+                            "*",
+                            "GlobalVariable(BUY_SAME_MULTIPLIER)"
+                          ]
                         }
                       ]
                     },
@@ -14384,6 +14491,16 @@
                           "parameters": [
                             "SoldierSpawn",
                             "True"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "SoldierCost",
+                            "*",
+                            "GlobalVariable(BUY_SAME_MULTIPLIER)"
                           ]
                         }
                       ]
@@ -14411,6 +14528,16 @@
                             "FirefighterSpawn",
                             "True"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "FirefighterCost",
+                            "*",
+                            "GlobalVariable(BUY_SAME_MULTIPLIER)"
+                          ]
                         }
                       ]
                     },
@@ -14436,6 +14563,16 @@
                           "parameters": [
                             "WhiteHatSpawn",
                             "True"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "WhiteHatCost",
+                            "*",
+                            "GlobalVariable(BUY_SAME_MULTIPLIER)"
                           ]
                         }
                       ]
@@ -14595,6 +14732,16 @@
                             "CaringCitizenSpawn",
                             "True"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "CaringCitizenCost",
+                            "*",
+                            "GlobalVariable(BUY_SAME_MULTIPLIER)"
+                          ]
                         }
                       ]
                     },
@@ -14620,6 +14767,16 @@
                           "parameters": [
                             "CommLeaderSpawn",
                             "True"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "CommLeaderCost",
+                            "*",
+                            "GlobalVariable(BUY_SAME_MULTIPLIER)"
                           ]
                         }
                       ]
@@ -14647,6 +14804,16 @@
                             "InvestorSpawn",
                             "True"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "InvestorCost",
+                            "*",
+                            "GlobalVariable(BUY_SAME_MULTIPLIER)"
+                          ]
                         }
                       ]
                     },
@@ -14672,6 +14839,16 @@
                           "parameters": [
                             "IntelOfficerSpawn",
                             "True"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "IntelOfficerCost",
+                            "*",
+                            "GlobalVariable(BUY_SAME_MULTIPLIER)"
                           ]
                         }
                       ]
@@ -14699,6 +14876,16 @@
                             "DoctorSpawn",
                             "True"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "DoctorCost",
+                            "*",
+                            "GlobalVariable(BUY_SAME_MULTIPLIER)"
+                          ]
                         }
                       ]
                     },
@@ -14724,6 +14911,16 @@
                           "parameters": [
                             "DiscernCitizenSpawn",
                             "True"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "DiscernCitizenCost",
+                            "*",
+                            "GlobalVariable(BUY_SAME_MULTIPLIER)"
                           ]
                         }
                       ]
