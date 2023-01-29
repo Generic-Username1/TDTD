@@ -2058,7 +2058,7 @@
           "folded": true,
           "name": "Range",
           "type": "number",
-          "value": 250
+          "value": 300
         },
         {
           "folded": true,
@@ -2337,7 +2337,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.7551465035100362,
+        "zoomFactor": 0.5339692134212578,
         "windowMask": false
       },
       "objectsGroups": [
@@ -4700,7 +4700,7 @@
           "effects": [],
           "behaviors": [],
           "content": {
-            "text": "Select a Tower for more actions",
+            "text": "Select a Tower for more information",
             "opacity": 255,
             "scale": 1,
             "fontSize": 20,
@@ -6490,6 +6490,12 @@
               "name": "MaxSpeed",
               "type": "number",
               "value": 200
+            },
+            {
+              "folded": true,
+              "name": "MoneyDrop",
+              "type": "number",
+              "value": 70
             }
           ],
           "effects": [],
@@ -6660,6 +6666,12 @@
               "name": "MaxSpeed",
               "type": "number",
               "value": 80
+            },
+            {
+              "folded": true,
+              "name": "MoneyDrop",
+              "type": "number",
+              "value": 30
             }
           ],
           "effects": [],
@@ -6968,7 +6980,7 @@
                       "parameters": [
                         "WhiteHatCost",
                         "=",
-                        "90"
+                        "110"
                       ]
                     },
                     {
@@ -7151,12 +7163,12 @@
                         "value": "SendAsyncRequest"
                       },
                       "parameters": [
-                        "\"https://raw.githubusercontent.com/Generic-Username1/TDTD/main/src/waves%2Cjson?token=GHSAT0AAAAAAB5H5RTMAZPOR3YLZGK4QAIQY6UAYIA\"",
+                        "\"https://raw.githubusercontent.com/Generic-Username1/TDTD/main/src/waves%2Cjson?token=GHSAT0AAAAAAB5H5RTN5ASJ5TWNRHTOLLY4Y6WAH6A\"",
                         "\"\"",
                         "\"GET\"",
                         "\"application/json\"",
                         "tempWaves",
-                        "skillIssue"
+                        "skill_issue"
                       ]
                     },
                     {
@@ -7171,25 +7183,6 @@
                     },
                     {
                       "type": {
-                        "value": "JSONToVariableStructure"
-                      },
-                      "parameters": [
-                        "VariableString(tempWaves)",
-                        "Waves"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVarScene"
-                      },
-                      "parameters": [
-                        "wave",
-                        "=",
-                        "0"
-                      ]
-                    },
-                    {
-                      "type": {
                         "value": "ModVarScene"
                       },
                       "parameters": [
@@ -7198,23 +7191,77 @@
                         "-1"
                       ]
                     }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::CompareStrings"
+                          },
+                          "parameters": [
+                            "VariableString(skill_issue)",
+                            "=",
+                            "\"0\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "JSONToVariableStructure"
+                          },
+                          "parameters": [
+                            "VariableString(tempWaves)",
+                            "Waves"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarScene"
+                          },
+                          "parameters": [
+                            "wave",
+                            "=",
+                            "0"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::CompareStrings"
+                          },
+                          "parameters": [
+                            "VariableString(skill_issue)",
+                            "!=",
+                            "\"0\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "BitmapText::BitmapTextObject::SetText"
+                          },
+                          "parameters": [
+                            "CurrentEvent",
+                            "=",
+                            "\"Internet\nConnection\nIssue\""
+                          ]
+                        }
+                      ]
+                    }
                   ]
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "BitmapText::BitmapTextObject::SetText"
-                      },
-                      "parameters": [
-                        "Debug",
-                        "=",
-                        "VariableString(skillIssue)"
-                      ]
-                    }
-                  ]
+                  "actions": []
                 },
                 {
                   "type": "BuiltinCommonInstructions::Comment",
@@ -7240,7 +7287,7 @@
                       "parameters": [
                         "playerGold",
                         "=",
-                        "200"
+                        "250"
                       ]
                     },
                     {
@@ -7432,6 +7479,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Continuous Events",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -7472,6 +7520,16 @@
                     "=",
                     "ToString(GlobalVariable(CommSupportAmt))"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BitmapText::BitmapTextObject::SetText"
+                  },
+                  "parameters": [
+                    "Debug",
+                    "=",
+                    "VariableString(skill_issue)"
+                  ]
                 }
               ]
             },
@@ -7511,6 +7569,16 @@
                     "Variable(wave)",
                     "<=",
                     "VariableChildCount(Waves)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareStrings"
+                  },
+                  "parameters": [
+                    "VariableString(skill_issue)",
+                    "=",
+                    "\"0\""
                   ]
                 }
               ],
@@ -8990,6 +9058,22 @@
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "RangePainter",
+                        "doElse",
+                        "True"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
@@ -9013,6 +9097,115 @@
                         "Towers",
                         "RangePainter",
                         ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "RangePainter",
+                        "doElse",
+                        "False"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "Towers",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "RangePainter",
+                        "doElse",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PrimitiveDrawing::Drawer::ClearShapes"
+                      },
+                      "parameters": [
+                        "RangePainter"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "SourisSurObjet"
+                          },
+                          "parameters": [
+                            "ShopIconTop",
+                            "",
+                            "",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "SourisSurObjet"
+                          },
+                          "parameters": [
+                            "ShopIconBottom",
+                            "",
+                            "",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "BitmapText::BitmapTextObject::SetText"
+                          },
+                          "parameters": [
+                            "SelectedText",
+                            "=",
+                            "\"Selected: None\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BitmapText::BitmapTextObject::SetText"
+                          },
+                          "parameters": [
+                            "SelectedDesc",
+                            "=",
+                            "\"Select a Tower for more information\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ChangeColor"
+                          },
+                          "parameters": [
+                            "DescBacking",
+                            "\"255;255;255\""
+                          ]
+                        }
                       ]
                     }
                   ]
@@ -9942,7 +10135,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "SpawnBox and Spawning",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -10045,6 +10237,17 @@
                     "",
                     "0"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "SpawnBox",
+                    "Range",
+                    "=",
+                    "GlobalVariable(SpawnerRange)"
+                  ]
                 }
               ]
             },
@@ -10103,14 +10306,46 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "CollisionNP"
+                    "value": "BuiltinCommonInstructions::Or"
                   },
-                  "parameters": [
-                    "SpawnBox",
-                    "DescBacking",
-                    "",
-                    "",
-                    ""
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "SpawnBox",
+                        "DescBacking",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "SpawnBox",
+                        "EventBacking",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "SpawnBox",
+                        "WalkTiles",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
                   ]
                 }
               ],
@@ -10141,14 +10376,21 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "CollisionNP"
+                    "value": "AnimationName"
                   },
                   "parameters": [
                     "SpawnBox",
-                    "EventBacking",
-                    "",
-                    "",
-                    ""
+                    "\"CanDiscount\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "GlobalVariable(playerGold)",
+                    "<",
+                    "GlobalVariable(toPay)*Variable(Discount)"
                   ]
                 }
               ],
@@ -10179,14 +10421,22 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "CollisionNP"
+                    "inverted": true,
+                    "value": "AnimationName"
                   },
                   "parameters": [
                     "SpawnBox",
-                    "WalkTiles",
-                    "",
-                    "",
-                    ""
+                    "\"CanDiscount\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "GlobalVariable(playerGold)",
+                    "<",
+                    "GlobalVariable(toPay)"
                   ]
                 }
               ],
@@ -10489,6 +10739,17 @@
                     "CursorX()",
                     "=",
                     "CursorY()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TDTD::MoveRangeIndicator"
+                  },
+                  "parameters": [
+                    "",
+                    "SpawnBox",
+                    "RangePainter",
+                    ""
                   ]
                 }
               ]
@@ -12186,6 +12447,14 @@
                       "parameters": [
                         "FirefighterSpawn",
                         "False"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PrimitiveDrawing::Drawer::ClearShapes"
+                      },
+                      "parameters": [
+                        "RangePainter"
                       ]
                     }
                   ]
@@ -14226,7 +14495,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Buy Stuff",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -14394,6 +14662,16 @@
                             "*",
                             "GlobalVariable(BUY_SAME_MULTIPLIER)"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "SpawnerRange",
+                            "=",
+                            "150"
+                          ]
                         }
                       ]
                     },
@@ -14429,6 +14707,16 @@
                             "VolunteerCost",
                             "*",
                             "GlobalVariable(BUY_SAME_MULTIPLIER)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "SpawnerRange",
+                            "=",
+                            "0"
                           ]
                         }
                       ]
@@ -14466,6 +14754,26 @@
                             "*",
                             "GlobalVariable(BUY_SAME_MULTIPLIER)"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "SpawnerRange",
+                            "=",
+                            "150"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "SpawnerRange",
+                            "=",
+                            "150"
+                          ]
                         }
                       ]
                     },
@@ -14501,6 +14809,16 @@
                             "SoldierCost",
                             "*",
                             "GlobalVariable(BUY_SAME_MULTIPLIER)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "SpawnerRange",
+                            "=",
+                            "200"
                           ]
                         }
                       ]
@@ -14538,6 +14856,16 @@
                             "*",
                             "GlobalVariable(BUY_SAME_MULTIPLIER)"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "SpawnerRange",
+                            "=",
+                            "0"
+                          ]
                         }
                       ]
                     },
@@ -14573,6 +14901,16 @@
                             "WhiteHatCost",
                             "*",
                             "GlobalVariable(BUY_SAME_MULTIPLIER)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "SpawnerRange",
+                            "=",
+                            "300"
                           ]
                         }
                       ]
@@ -14742,6 +15080,16 @@
                             "*",
                             "GlobalVariable(BUY_SAME_MULTIPLIER)"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "SpawnerRange",
+                            "=",
+                            "50"
+                          ]
                         }
                       ]
                     },
@@ -14777,6 +15125,16 @@
                             "CommLeaderCost",
                             "*",
                             "GlobalVariable(BUY_SAME_MULTIPLIER)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "SpawnerRange",
+                            "=",
+                            "50"
                           ]
                         }
                       ]
@@ -14814,6 +15172,16 @@
                             "*",
                             "GlobalVariable(BUY_SAME_MULTIPLIER)"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "SpawnerRange",
+                            "=",
+                            "50"
+                          ]
                         }
                       ]
                     },
@@ -14849,6 +15217,16 @@
                             "IntelOfficerCost",
                             "*",
                             "GlobalVariable(BUY_SAME_MULTIPLIER)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "SpawnerRange",
+                            "=",
+                            "0"
                           ]
                         }
                       ]
@@ -14886,6 +15264,16 @@
                             "*",
                             "GlobalVariable(BUY_SAME_MULTIPLIER)"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "SpawnerRange",
+                            "=",
+                            "50"
+                          ]
                         }
                       ]
                     },
@@ -14922,6 +15310,16 @@
                             "*",
                             "GlobalVariable(BUY_SAME_MULTIPLIER)"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "SpawnerRange",
+                            "=",
+                            "150"
+                          ]
                         }
                       ]
                     }
@@ -14929,11 +15327,6 @@
                 }
               ],
               "parameters": []
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": []
             }
           ],
           "parameters": []
