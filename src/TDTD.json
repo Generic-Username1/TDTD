@@ -1404,6 +1404,60 @@
         "name": "DiscernBoost",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/UI/GoldCoin.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\UI\\GoldCoin.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GoldIcon2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "GoldIcon",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/UI/CommSupport.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\UI\\CommSupport.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_UI_CommSupport.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sprites\\UI\\CommSupport.png2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_UI_CommSupport.png3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sprites\\UI\\CommSupport.png3",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2351,11 +2405,12 @@
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.07999999821186066,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\GoldIcon-1.png",
+                  "image": "GoldIcon",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2407,16 +2462,17 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "sprites\\UI\\CommSupport.png",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "CommunitySupport.png",
+                  "image": "sprites\\UI\\CommSupport.png3",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2488,7 +2544,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4688922923219574,
+        "zoomFactor": 0.42997612788674044,
         "windowMask": false
       },
       "objectsGroups": [
@@ -3123,7 +3179,7 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 148,
+          "height": 171,
           "layer": "",
           "name": "WalkTiles",
           "persistentUuid": "c1520635-5fc7-46ef-a23d-946199f722c8",
@@ -3155,7 +3211,7 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 108,
+          "height": 140,
           "layer": "",
           "name": "WalkTiles",
           "persistentUuid": "7ac01c0e-d520-483b-88e2-19cd4e05e3c0",
@@ -3170,12 +3226,12 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 628,
+          "height": 660,
           "layer": "",
           "name": "WalkTiles",
           "persistentUuid": "918aba0e-c638-460f-95c0-6890ff79d23d",
-          "width": 164,
-          "x": 226,
+          "width": 198,
+          "x": 192,
           "y": 263,
           "zOrder": 1,
           "numberProperties": [],
@@ -3200,11 +3256,11 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 628,
+          "height": 661,
           "layer": "",
           "name": "WalkTiles",
           "persistentUuid": "74da58d2-89b3-4ff4-ae02-63efe638c435",
-          "width": 199,
+          "width": 247,
           "x": 1039,
           "y": 263,
           "zOrder": 1,
@@ -3230,7 +3286,7 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 13,
+          "height": 42,
           "layer": "Path layer",
           "name": "Wall",
           "persistentUuid": "e934e559-5e8c-4fee-a4b1-fa73022ea87c",
@@ -3275,12 +3331,12 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 12,
+          "height": 53,
           "layer": "Path layer",
           "name": "Wall",
           "persistentUuid": "d57075bc-cf86-411d-b943-10cac0e0777f",
-          "width": 1025,
-          "x": 223,
+          "width": 1068,
+          "x": 180,
           "y": 885,
           "zOrder": 0,
           "numberProperties": [],
@@ -3339,8 +3395,8 @@
           "layer": "Path layer",
           "name": "Wall",
           "persistentUuid": "b75c8f85-1691-4236-a0c0-9552fb384ec0",
-          "width": 11,
-          "x": 221,
+          "width": 51,
+          "x": 181,
           "y": 645,
           "zOrder": 0,
           "numberProperties": [],
@@ -3384,8 +3440,8 @@
           "layer": "Path layer",
           "name": "Wall",
           "persistentUuid": "0f36c544-8ce8-42e7-8474-0edd76277523",
-          "width": 11,
-          "x": 1234.4683837890625,
+          "width": 62,
+          "x": 1234,
           "y": 706,
           "zOrder": 0,
           "numberProperties": [],
@@ -3558,36 +3614,6 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "InternetTroll",
-          "persistentUuid": "0d2dfbbb-3819-40ca-bdee-6200536e21d7",
-          "width": 0,
-          "x": 745,
-          "y": 587,
-          "zOrder": 1036,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "Cheerleader",
-          "persistentUuid": "ac5eba6b-0055-4724-9cab-c562765bc930",
-          "width": 0,
-          "x": 1337,
-          "y": 297,
-          "zOrder": 1037,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
         }
       ],
       "objects": [
@@ -3686,7 +3712,7 @@
           "height": 32,
           "name": "WalkTiles",
           "tags": "",
-          "texture": "Tile7.png",
+          "texture": "New image2",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
           "variables": [],
@@ -6572,7 +6598,7 @@
               "folded": true,
               "name": "Damage",
               "type": "number",
-              "value": 100
+              "value": 10
             },
             {
               "folded": true,
@@ -6727,6 +6753,10 @@
               "maxSpeed": 200,
               "rotateObject": true,
               "smoothingMaxCellGap": 1
+            },
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
             }
           ],
           "animations": [
@@ -6927,6 +6957,10 @@
               "maxSpeed": 100,
               "rotateObject": true,
               "smoothingMaxCellGap": 1
+            },
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
             }
           ],
           "animations": [
@@ -7365,7 +7399,7 @@
                       "parameters": [
                         "CommLeaderCost",
                         "=",
-                        "90"
+                        "130"
                       ]
                     },
                     {
@@ -7508,7 +7542,7 @@
                         "value": "SendAsyncRequest"
                       },
                       "parameters": [
-                        "\"https://raw.githubusercontent.com/Generic-Username1/TDTD/main/src/waves%2Cjson?token=GHSAT0AAAAAAB5H5RTM5ITAMWYVLUJRTPBUY6WG5YQ\"",
+                        "\"https://raw.githubusercontent.com/Generic-Username1/TDTD/main/src/waves%2Cjson?token=GHSAT0AAAAAAB5H5RTMACBZNWYVWQF4RLEYY6WPLKA\"",
                         "\"\"",
                         "\"GET\"",
                         "\"application/json\"",
@@ -7877,6 +7911,73 @@
                 "textG": 0,
                 "textR": 0
               },
+              "comment": "Finish off ungrouped enemies",
+              "comment2": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "TODO: Remove icons as well",
+              "comment2": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Towers",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareObjectTimer"
+                  },
+                  "parameters": [
+                    "Towers",
+                    "\"RiotKillTimer\"",
+                    ">",
+                    "15"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Towers",
+                    "CommLeader",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Towers",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
               "comment": "Enemy Spawning",
               "comment2": ""
             },
@@ -8105,6 +8206,79 @@
                       ]
                     }
                   ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Kill Groups without Community Leader",
+                  "comment2": ""
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Towers",
+                        "Towers",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Towers",
+                        "CommLeader",
+                        "",
+                        "",
+                        "no"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "RandomInRange(1,1)",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ChangeColor"
+                      },
+                      "parameters": [
+                        "Towers",
+                        "\"255;0;0\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "Towers",
+                        "\"RiotKillTimer\""
+                      ]
+                    }
+                  ]
                 }
               ]
             },
@@ -8131,6 +8305,135 @@
                     "CurrentEvent",
                     "=",
                     "\"You win!\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Death",
+              "comment2": ""
+            },
+            {
+              "folded": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Base",
+                    "Enemies",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Enemies",
+                    "hasSucceeded",
+                    "True"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "CommSupportAmt",
+                    "-",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Enemies",
+                    "hasSucceeded",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::AddObjectOpacityTween"
+                  },
+                  "parameters": [
+                    "Enemies",
+                    "Tween",
+                    "\"EnemyFadeout\"",
+                    "0",
+                    "\"linear\"",
+                    "750",
+                    "yes"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "TODO: Die",
+                  "comment2": ""
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "GlobalVariable(CommSupportAmt)",
+                        "<",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "BitmapText::BitmapTextObject::SetText"
+                      },
+                      "parameters": [
+                        "CurrentEvent",
+                        "=",
+                        "\"YOU LOSE!\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangeTimeScale"
+                      },
+                      "parameters": [
+                        "",
+                        "0"
+                      ]
+                    }
                   ]
                 }
               ]
@@ -9404,18 +9707,6 @@
                   "conditions": [
                     {
                       "type": {
-                        "inverted": true,
-                        "value": "SourisSurObjet"
-                      },
-                      "parameters": [
-                        "Towers",
-                        "",
-                        "",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
                         "value": "ObjectVariableAsBoolean"
                       },
                       "parameters": [
@@ -9508,6 +9799,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Attack or Defend",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -9999,7 +10291,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "SpawnBox and Spawning",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -10947,15 +11238,6 @@
                             }
                           ],
                           "actions": [
-                            {
-                              "type": {
-                                "value": "ChangeColor"
-                              },
-                              "parameters": [
-                                "Towers",
-                                "\"245;166;35\""
-                              ]
-                            },
                             {
                               "type": {
                                 "value": "ModVarSceneTxt"
@@ -15011,7 +15293,7 @@
                           "parameters": [
                             "SpawnerRange",
                             "=",
-                            "50"
+                            "100"
                           ]
                         }
                       ]
