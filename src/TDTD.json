@@ -1332,6 +1332,78 @@
         "name": "sprites\\Enemies\\Internet Trolls\\Walk\\Frame1.png13",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Effects/NegThoughts.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Effects\\NegThoughts.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NegThoughts.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NegThoughts",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NegThoughts2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NegThoughts2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NegThoughts3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NegThoughts3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Effects/CheerBoost.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Effects\\CheerBoost.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/CheerBoost.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "CheerBoost",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Effects/DiscernBoost.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Effects\\DiscernBoost.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/DiscernBoost.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "DiscernBoost",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1369,7 +1441,20 @@
           "value": 5
         }
       ],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "Outline",
+          "name": "Outline",
+          "doubleParameters": {
+            "padding": 0,
+            "thickness": 2
+          },
+          "stringParameters": {
+            "color": "208;2;27"
+          },
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": [
         {
           "name": "TowerV2",
@@ -1434,7 +1519,20 @@
           "value": 100
         }
       ],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "Outline",
+          "name": "Outline",
+          "doubleParameters": {
+            "padding": 0,
+            "thickness": 2
+          },
+          "stringParameters": {
+            "color": "208;2;27"
+          },
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": [
         {
           "name": "TowerV2",
@@ -1488,7 +1586,20 @@
           "value": "Social"
         }
       ],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "Outline",
+          "name": "Outline",
+          "doubleParameters": {
+            "padding": 0,
+            "thickness": 2
+          },
+          "stringParameters": {
+            "color": "245;166;35"
+          },
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": [
         {
           "name": "TowerV2",
@@ -1553,7 +1664,20 @@
           "value": "Social"
         }
       ],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "Outline",
+          "name": "Outline",
+          "doubleParameters": {
+            "padding": 0,
+            "thickness": 2
+          },
+          "stringParameters": {
+            "color": "245;166;35"
+          },
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": [
         {
           "name": "TowerV2",
@@ -1607,7 +1731,20 @@
           "value": "Economic"
         }
       ],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "Outline",
+          "name": "Outline",
+          "doubleParameters": {
+            "padding": 0,
+            "thickness": 2
+          },
+          "stringParameters": {
+            "color": "248;231;28"
+          },
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": [
         {
           "name": "TowerV2",
@@ -1672,7 +1809,20 @@
           "value": 0.5
         }
       ],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "Outline",
+          "name": "Outline",
+          "doubleParameters": {
+            "padding": 0,
+            "thickness": 2
+          },
+          "stringParameters": {
+            "color": "248;231;28"
+          },
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": [],
       "animations": [
         {
@@ -1739,7 +1889,20 @@
           "value": "Military"
         }
       ],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "Outline",
+          "name": "Outline",
+          "doubleParameters": {
+            "padding": 0,
+            "thickness": 2
+          },
+          "stringParameters": {
+            "color": "41;211;33"
+          },
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": [
         {
           "name": "Tower2",
@@ -1804,7 +1967,20 @@
           "value": 100
         }
       ],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "Outline",
+          "name": "Outline",
+          "doubleParameters": {
+            "padding": 0,
+            "thickness": 2
+          },
+          "stringParameters": {
+            "color": "41;211;33"
+          },
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": [
         {
           "name": "TowerV2",
@@ -1825,83 +2001,6 @@
                   "hasCustomCollisionMask": false,
                   "image": "sprites\\Towers\\Intelligence Officer\\Idle\\Picture1.png2",
                   "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "assetStoreId": "",
-      "name": "Officer",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [
-        {
-          "folded": true,
-          "name": "Range",
-          "type": "number",
-          "value": 500
-        },
-        {
-          "folded": true,
-          "name": "FireRate",
-          "type": "number",
-          "value": 0.5
-        },
-        {
-          "folded": true,
-          "name": "Rotate",
-          "type": "boolean",
-          "value": true
-        },
-        {
-          "folded": true,
-          "name": "Pillar",
-          "type": "string",
-          "value": "Military"
-        }
-      ],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "Tower2",
-          "type": "TDTD::TowerV2"
-        }
-      ],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "Officer.png",
-                  "points": [
-                    {
-                      "name": "OriginPoint",
-                      "x": 184.43182373046875,
-                      "y": 42.16068649291992
-                    }
-                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -1947,7 +2046,20 @@
           "value": "Civil"
         }
       ],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "Outline",
+          "name": "Outline",
+          "doubleParameters": {
+            "padding": 0,
+            "thickness": 2
+          },
+          "stringParameters": {
+            "color": "74;144;226"
+          },
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": [
         {
           "name": "TowerV2",
@@ -2007,7 +2119,20 @@
           "value": "Civil"
         }
       ],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "Outline",
+          "name": "Outline",
+          "doubleParameters": {
+            "padding": 0,
+            "thickness": 2
+          },
+          "stringParameters": {
+            "color": "74;144;226"
+          },
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": [
         {
           "name": "TowerV2",
@@ -2064,7 +2189,7 @@
           "folded": true,
           "name": "FireRate",
           "type": "number",
-          "value": 3
+          "value": 5
         },
         {
           "folded": true,
@@ -2079,7 +2204,20 @@
           "value": "Digital"
         }
       ],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "Outline",
+          "name": "Outline",
+          "doubleParameters": {
+            "padding": 0,
+            "thickness": 2
+          },
+          "stringParameters": {
+            "color": "155;155;155"
+          },
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": [
         {
           "name": "TowerV2",
@@ -2144,7 +2282,20 @@
           "value": 2
         }
       ],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "Outline",
+          "name": "Outline",
+          "doubleParameters": {
+            "padding": 0,
+            "thickness": 2
+          },
+          "stringParameters": {
+            "color": "155;155;155"
+          },
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": [
         {
           "name": "TowerV2",
@@ -2337,7 +2488,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5339692134212578,
+        "zoomFactor": 0.4688922923219574,
         "windowMask": false
       },
       "objectsGroups": [
@@ -2478,7 +2629,7 @@
           "name": "Spawner",
           "persistentUuid": "3f6f4e18-0c68-4997-bc33-99385d0650d0",
           "width": 0,
-          "x": 0,
+          "x": -103,
           "y": 521,
           "zOrder": 10,
           "numberProperties": [],
@@ -2907,14 +3058,14 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "height": 59,
           "layer": "",
           "name": "Debug",
           "persistentUuid": "f38d31bb-8519-4844-8b25-983fd3976f84",
-          "width": 0,
-          "x": 98,
-          "y": 989,
+          "width": 136,
+          "x": 52,
+          "y": 996,
           "zOrder": 1010,
           "numberProperties": [],
           "stringProperties": [],
@@ -3404,6 +3555,36 @@
           "x": -55,
           "y": 55,
           "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "InternetTroll",
+          "persistentUuid": "0d2dfbbb-3819-40ca-bdee-6200536e21d7",
+          "width": 0,
+          "x": 745,
+          "y": 587,
+          "zOrder": 1036,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Cheerleader",
+          "persistentUuid": "ac5eba6b-0055-4724-9cab-c562765bc930",
+          "width": 0,
+          "x": 1337,
+          "y": 297,
+          "zOrder": 1037,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -6498,7 +6679,31 @@
               "value": 70
             }
           ],
-          "effects": [],
+          "effects": [
+            {
+              "effectType": "Glitch",
+              "name": "Glitch",
+              "doubleParameters": {
+                "animationFrequency": 60,
+                "blueX": 10,
+                "blueY": -4,
+                "direction": 0,
+                "fillMode": 0,
+                "greenX": 10,
+                "greenY": -4,
+                "minSize": 8,
+                "offset": 20,
+                "redX": 2,
+                "redY": 2,
+                "sampleSize": 512,
+                "slices": 5
+              },
+              "stringParameters": {},
+              "booleanParameters": {
+                "average": false
+              }
+            }
+          ],
           "behaviors": [
             {
               "name": "EnemyV2",
@@ -6674,7 +6879,31 @@
               "value": 30
             }
           ],
-          "effects": [],
+          "effects": [
+            {
+              "effectType": "Glitch",
+              "name": "Glitch",
+              "doubleParameters": {
+                "animationFrequency": 60,
+                "blueX": 10,
+                "blueY": -4,
+                "direction": 0,
+                "fillMode": 0,
+                "greenX": 10,
+                "greenY": -4,
+                "minSize": 8,
+                "offset": 18,
+                "redX": 2,
+                "redY": 2,
+                "sampleSize": 512,
+                "slices": 5
+              },
+              "stringParameters": {},
+              "booleanParameters": {
+                "average": false
+              }
+            }
+          ],
           "behaviors": [
             {
               "name": "EnemyV2",
@@ -6764,6 +6993,122 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "sprites\\Enemies\\Terrorist\\Run\\Terrorist_Run.png15",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "EffectIcon",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Glow",
+              "name": "Effect",
+              "doubleParameters": {
+                "distance": 15,
+                "innerStrength": 1,
+                "outerStrength": 2
+              },
+              "stringParameters": {
+                "color": "#ffffff"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NegThoughts",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NegThoughts3",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "CheerBoost",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "CheerBoost",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "DiscernBoost",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "DiscernBoost",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -7163,7 +7508,7 @@
                         "value": "SendAsyncRequest"
                       },
                       "parameters": [
-                        "\"https://raw.githubusercontent.com/Generic-Username1/TDTD/main/src/waves%2Cjson?token=GHSAT0AAAAAAB5H5RTN5ASJ5TWNRHTOLLY4Y6WAH6A\"",
+                        "\"https://raw.githubusercontent.com/Generic-Username1/TDTD/main/src/waves%2Cjson?token=GHSAT0AAAAAAB5H5RTM5ITAMWYVLUJRTPBUY6WG5YQ\"",
                         "\"\"",
                         "\"GET\"",
                         "\"application/json\"",
@@ -7287,7 +7632,7 @@
                       "parameters": [
                         "playerGold",
                         "=",
-                        "250"
+                        "10000"
                       ]
                     },
                     {
@@ -7479,7 +7824,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Continuous Events",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -7520,16 +7864,6 @@
                     "=",
                     "ToString(GlobalVariable(CommSupportAmt))"
                   ]
-                },
-                {
-                  "type": {
-                    "value": "BitmapText::BitmapTextObject::SetText"
-                  },
-                  "parameters": [
-                    "Debug",
-                    "=",
-                    "VariableString(skill_issue)"
-                  ]
                 }
               ]
             },
@@ -7547,7 +7881,6 @@
               "comment2": ""
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -7689,34 +8022,12 @@
                             "=",
                             "15"
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "ModVarScene"
-                          },
-                          "parameters": [
-                            "spawned",
-                            "=",
-                            "1"
-                          ]
                         }
                       ],
                       "events": [
                         {
-                          "infiniteLoopWarning": true,
-                          "type": "BuiltinCommonInstructions::While",
-                          "whileConditions": [
-                            {
-                              "type": {
-                                "value": "BuiltinCommonInstructions::CompareNumbers"
-                              },
-                              "parameters": [
-                                "Variable(waveData.qty)",
-                                ">=",
-                                "Variable(spawned)"
-                              ]
-                            }
-                          ],
+                          "type": "BuiltinCommonInstructions::Repeat",
+                          "repeatExpression": "Variable(waveData.qty)",
                           "conditions": [],
                           "actions": [
                             {
@@ -7727,8 +8038,8 @@
                                 "",
                                 "Enemies",
                                 "VariableString(waveData.name)",
-                                "Spawner.X()-20*Variable(spawned)",
-                                "Spawner.Y()",
+                                "Spawner.X()+RandomInRange(-20,20)",
+                                "Spawner.Y()+RandomInRange(-20,20)",
                                 "\"Projectile layer\""
                               ]
                             },
@@ -7756,12 +8067,12 @@
                             },
                             {
                               "type": {
-                                "value": "ModVarScene"
+                                "value": "EnableEffect"
                               },
                               "parameters": [
-                                "spawned",
-                                "+",
-                                "1"
+                                "Enemies",
+                                "\"Glitch\"",
+                                "no"
                               ]
                             }
                           ]
@@ -7850,30 +8161,7 @@
                   ]
                 }
               ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "Officer",
-                    "CursorX()",
-                    "CursorY()",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ChangeScale"
-                  },
-                  "parameters": [
-                    "Officer",
-                    "=",
-                    "0.8"
-                  ]
-                }
-              ]
+              "actions": []
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -9220,13 +9508,11 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Attack or Defend",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -9399,6 +9685,17 @@
                     "NegThoughts",
                     "True"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PickNearest"
+                  },
+                  "parameters": [
+                    "EffectIcon",
+                    "Towers.X()",
+                    "Towers.Y()",
+                    ""
+                  ]
                 }
               ],
               "actions": [
@@ -9420,513 +9717,76 @@
                     "CheerleaderCureProjectile",
                     ""
                   ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::ForEach",
-              "object": "Soldier",
-              "conditions": [],
-              "actions": [],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "Distance"
-                      },
-                      "parameters": [
-                        "Soldier",
-                        "Cheerleader",
-                        "Cheerleader.Variable(Range)",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "CompareObjectTimer"
-                      },
-                      "parameters": [
-                        "Soldier",
-                        "\"ShootTime\"",
-                        ">",
-                        "Soldier.Variable(FireRate)/1.5\n"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ResetObjectTimer"
-                      },
-                      "parameters": [
-                        "Soldier",
-                        "\"ShootTime\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "TDTD::TowerV2::attack"
-                      },
-                      "parameters": [
-                        "Soldier",
-                        "Tower2",
-                        "SoldierProjectile",
-                        "Enemies",
-                        "DiscerningCitizen",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ChangeColor"
-                      },
-                      "parameters": [
-                        "Soldier",
-                        "\"250;86;86\""
-                      ]
-                    }
-                  ]
                 },
                 {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": true,
-                        "value": "ObjectVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "Soldier",
-                        "NegThoughts",
-                        "True"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "CompareObjectTimer"
-                      },
-                      "parameters": [
-                        "Soldier",
-                        "\"ShootTime\"",
-                        ">",
-                        "Soldier.Variable(FireRate)\n"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ResetObjectTimer"
-                      },
-                      "parameters": [
-                        "Soldier",
-                        "\"ShootTime\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "TDTD::TowerV2::attack"
-                      },
-                      "parameters": [
-                        "Soldier",
-                        "Tower2",
-                        "SoldierProjectile",
-                        "Enemies",
-                        "DiscerningCitizen",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ChangeColor"
-                      },
-                      "parameters": [
-                        "Soldier",
-                        "\"255;255;255\""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "CompareObjectTimer"
-                      },
-                      "parameters": [
-                        "Soldier",
-                        "\"ShootTime\"",
-                        ">",
-                        "Soldier.Variable(FireRate)*2\n"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ResetObjectTimer"
-                      },
-                      "parameters": [
-                        "Soldier",
-                        "\"ShootTime\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "TDTD::TowerV2::attack"
-                      },
-                      "parameters": [
-                        "Soldier",
-                        "Tower2",
-                        "SoldierProjectile",
-                        "Enemies",
-                        "DiscerningCitizen",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ChangeColor"
-                      },
-                      "parameters": [
-                        "Soldier",
-                        "\"70;151;218\""
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::ForEach",
-              "object": "WhiteHat",
-              "conditions": [],
-              "actions": [],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "Distance"
-                      },
-                      "parameters": [
-                        "WhiteHat",
-                        "Cheerleader",
-                        "Cheerleader.Variable(Range)",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "CompareObjectTimer"
-                      },
-                      "parameters": [
-                        "WhiteHat",
-                        "\"ShootTime\"",
-                        ">",
-                        "WhiteHat.Variable(FireRate)/1.5\n"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ResetObjectTimer"
-                      },
-                      "parameters": [
-                        "WhiteHat",
-                        "\"ShootTime\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "TDTD::TowerV2::attack"
-                      },
-                      "parameters": [
-                        "WhiteHat",
-                        "TowerV2",
-                        "WhiteHatProjectile",
-                        "Enemies",
-                        "DiscerningCitizen",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ChangeColor"
-                      },
-                      "parameters": [
-                        "WhiteHat",
-                        "\"250;86;86\""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "CompareObjectTimer"
-                      },
-                      "parameters": [
-                        "WhiteHat",
-                        "\"ShootTime\"",
-                        ">",
-                        "WhiteHat.Variable(FireRate)*2"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ResetObjectTimer"
-                      },
-                      "parameters": [
-                        "WhiteHat",
-                        "\"ShootTime\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "TDTD::TowerV2::attack"
-                      },
-                      "parameters": [
-                        "WhiteHat",
-                        "TowerV2",
-                        "WhiteHatProjectile",
-                        "Enemies",
-                        "DiscerningCitizen",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ChangeColor"
-                      },
-                      "parameters": [
-                        "WhiteHat",
-                        "\"70;151;218\""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": true,
-                        "value": "ObjectVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "WhiteHat",
-                        "NegThoughts",
-                        "True"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "CompareObjectTimer"
-                      },
-                      "parameters": [
-                        "WhiteHat",
-                        "\"ShootTime\"",
-                        ">",
-                        "WhiteHat.Variable(FireRate)\n"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ResetObjectTimer"
-                      },
-                      "parameters": [
-                        "WhiteHat",
-                        "\"ShootTime\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "TDTD::TowerV2::attack"
-                      },
-                      "parameters": [
-                        "WhiteHat",
-                        "TowerV2",
-                        "WhiteHatProjectile",
-                        "Enemies",
-                        "DiscerningCitizen",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ChangeColor"
-                      },
-                      "parameters": [
-                        "WhiteHat",
-                        "\"255;255;255\""
-                      ]
-                    }
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "EffectIcon",
+                    ""
                   ]
                 }
               ]
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "AjoutObjConcern"
-                  },
-                  "parameters": [
-                    "",
-                    "Officer"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "CompareObjectTimer"
-                  },
-                  "parameters": [
-                    "Officer",
-                    "\"ShootTime\"",
-                    ">",
-                    "Officer.Variable(FireRate)\n"
-                  ]
-                }
-              ],
+              "conditions": [],
               "actions": [
                 {
                   "type": {
-                    "value": "ResetObjectTimer"
+                    "value": "TDTD::TowerV2::smartAttack"
                   },
                   "parameters": [
-                    "Officer",
-                    "\"ShootTime\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TDTD::TowerV2::attack"
-                  },
-                  "parameters": [
-                    "Officer",
+                    "Soldier",
                     "Tower2",
-                    "OfficerProjectile",
+                    "Cheerleader",
+                    "EffectIcon",
                     "Enemies",
                     "DiscerningCitizen",
+                    "SoldierProjectile",
                     ""
                   ]
                 },
                 {
                   "type": {
-                    "value": "Wait"
+                    "value": "TDTD::TowerV2::smartAttack"
                   },
                   "parameters": [
-                    "0.05"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TDTD::TowerV2::attack"
-                  },
-                  "parameters": [
-                    "Officer",
-                    "Tower2",
-                    "OfficerProjectile",
+                    "WhiteHat",
+                    "TowerV2",
+                    "Cheerleader",
+                    "EffectIcon",
                     "Enemies",
                     "DiscerningCitizen",
+                    "WhiteHatProjectile",
                     ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::ForEach",
-              "object": "IntelligenceOfficer",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CompareObjectTimer"
-                  },
-                  "parameters": [
-                    "IntelligenceOfficer",
-                    "\"ShootTime\"",
-                    ">",
-                    "IntelligenceOfficer.Variable(FireRate)\n"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ResetObjectTimer"
-                  },
-                  "parameters": [
-                    "IntelligenceOfficer",
-                    "\"ShootTime\""
                   ]
                 },
                 {
                   "type": {
-                    "value": "TDTD::TowerV2::Function"
+                    "value": "TDTD::TowerV2::smartTrap"
                   },
                   "parameters": [
                     "IntelligenceOfficer",
                     "TowerV2",
+                    "Cheerleader",
+                    "EffectIcon",
+                    "Enemies",
                     "IntelligenceBarrier",
                     ""
                   ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "AjoutObjConcern"
-                  },
-                  "parameters": [
-                    "",
-                    "Firefighter"
-                  ]
                 },
                 {
                   "type": {
-                    "value": "CompareObjectTimer"
-                  },
-                  "parameters": [
-                    "Firefighter",
-                    "\"ShootTime\"",
-                    ">",
-                    "Firefighter.Variable(FireRate)\n"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ResetObjectTimer"
-                  },
-                  "parameters": [
-                    "Firefighter",
-                    "\"ShootTime\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TDTD::TowerV2::Function"
+                    "value": "TDTD::TowerV2::smartTrap"
                   },
                   "parameters": [
                     "Firefighter",
                     "TowerV2",
+                    "Cheerleader",
+                    "EffectIcon",
+                    "Enemies",
                     "FirefighterPuddle",
                     ""
                   ]
@@ -9969,17 +9829,6 @@
                     "Enemies",
                     ""
                   ]
-                },
-                {
-                  "type": {
-                    "value": "TDTD::ProjectileV2::destroy"
-                  },
-                  "parameters": [
-                    "OfficerProjectile",
-                    "Projectile2",
-                    "Enemies",
-                    ""
-                  ]
                 }
               ]
             },
@@ -9993,6 +9842,20 @@
                   },
                   "parameters": [
                     "InternetTroll",
+                    "EnemyV2",
+                    "Pathfinding",
+                    "WhiteHatProjectile",
+                    "0.1",
+                    "5",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TDTD::EnemyV2::slow"
+                  },
+                  "parameters": [
+                    "Terrorist",
                     "EnemyV2",
                     "Pathfinding",
                     "WhiteHatProjectile",
@@ -10016,7 +9879,9 @@
                     "EnemyV2",
                     "Towers",
                     "150",
-                    "150"
+                    "EffectIcon",
+                    "CaringCitizen",
+                    ""
                   ]
                 }
               ]
@@ -10046,13 +9911,7 @@
                     "FirefighterPuddle",
                     "150"
                   ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
+                },
                 {
                   "type": {
                     "value": "TDTD::EnemyV2::collide"
@@ -10076,6 +9935,11 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -10135,6 +9999,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "SpawnBox and Spawning",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -10777,6 +10642,17 @@
                   "parameters": [
                     "",
                     "Left"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SceneInstancesCount"
+                  },
+                  "parameters": [
+                    "",
+                    "SpawnBox",
+                    ">",
+                    "0"
                   ]
                 }
               ],
@@ -12334,6 +12210,14 @@
                     },
                     {
                       "type": {
+                        "value": "PrimitiveDrawing::Drawer::ClearShapes"
+                      },
+                      "parameters": [
+                        "RangePainter"
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "ChangeTimeScale"
                       },
                       "parameters": [
@@ -12447,14 +12331,6 @@
                       "parameters": [
                         "FirefighterSpawn",
                         "False"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PrimitiveDrawing::Drawer::ClearShapes"
-                      },
-                      "parameters": [
-                        "RangePainter"
                       ]
                     }
                   ]
@@ -13953,6 +13829,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Change Shop Content",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -14949,7 +14826,7 @@
                       "parameters": [
                         "toPay",
                         "=",
-                        "ToNumber(ShopCostTop.Text())"
+                        "ToNumber(ShopCostBottom.Text())"
                       ]
                     },
                     {
@@ -16393,6 +16270,245 @@
             }
           ],
           "objectGroups": []
+        },
+        {
+          "description": "Spawn an Effect Icon at the Tower specified",
+          "fullName": "Spawn Effect Icon",
+          "functionType": "Action",
+          "name": "AddEffectIcon",
+          "sentence": "Spawn _PARAM2_ icon using _PARAM3_ at _PARAM1_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "TODO: Allow two icons to not stack",
+              "comment2": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "tempDisplace",
+                    "=",
+                    "0"
+                  ]
+                }
+              ]
+            },
+            {
+              "infiniteLoopWarning": true,
+              "type": "BuiltinCommonInstructions::While",
+              "whileConditions": [
+                {
+                  "type": {
+                    "value": "CollisionPoint"
+                  },
+                  "parameters": [
+                    "Icon",
+                    "Tower.X()+48*Variable(tempDisplace)",
+                    "Tower.Y()-48"
+                  ]
+                }
+              ],
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "tempDisplace",
+                    "+",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Icon",
+                    "Tower.X()+48*Variable(tempDisplace)",
+                    "Tower.Y()-48",
+                    "\"Shop Layer\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "Icon",
+                    "GetArgumentAsString(\"Name\")"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Tower to spawn Icon at",
+              "name": "Tower",
+              "supplementaryInformation": "Sprite",
+              "type": "objectList"
+            },
+            {
+              "description": "Icon Name",
+              "name": "Name",
+              "supplementaryInformation": "[\"NegThoughts\",\"CheerBoost\",\"DiscernBoost\"]",
+              "type": "stringWithSelector"
+            },
+            {
+              "description": "Icon Object",
+              "name": "Icon",
+              "supplementaryInformation": "Sprite",
+              "type": "objectList"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Remove an Effect Icon at the Tower specified",
+          "fullName": "Remove Effect Icon",
+          "functionType": "Action",
+          "name": "RemoveEffectIcon",
+          "sentence": "Remove _PARAM2_ icon of _PARAM3_ at _PARAM1_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "TODO: Allow two icons to not stack",
+              "comment2": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "tempDisplace",
+                    "=",
+                    "0"
+                  ]
+                }
+              ]
+            },
+            {
+              "infiniteLoopWarning": true,
+              "type": "BuiltinCommonInstructions::While",
+              "whileConditions": [
+                {
+                  "type": {
+                    "value": "CollisionPoint"
+                  },
+                  "parameters": [
+                    "Icon",
+                    "Tower.X()+48*Variable(tempDisplace)",
+                    "Tower.Y()-48"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimationName"
+                  },
+                  "parameters": [
+                    "Icon",
+                    "GetArgumentAsString(\"Name\")"
+                  ]
+                }
+              ],
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "tempDisplace",
+                    "+",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PickNearest"
+                  },
+                  "parameters": [
+                    "Icon",
+                    "Tower.X()+48*Variable(tempDisplace)",
+                    "Tower.Y()-48",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Icon",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Tower to spawn Icon at",
+              "name": "Tower",
+              "supplementaryInformation": "Sprite",
+              "type": "objectList"
+            },
+            {
+              "description": "Icon Name",
+              "name": "Name",
+              "supplementaryInformation": "[\"NegThoughts\",\"CheerBoost\",\"DiscernBoost\"]",
+              "type": "stringWithSelector"
+            },
+            {
+              "description": "Icon Object",
+              "name": "Icon",
+              "supplementaryInformation": "Sprite",
+              "type": "objectList"
+            }
+          ],
+          "objectGroups": []
         }
       ],
       "eventsBasedBehaviors": [
@@ -16668,6 +16784,16 @@
                         "=",
                         "Object.Variable(MaxSpeed)*GetArgumentAsNumber(\"SpeedMultiplier\")"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "EnableEffect"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"Glitch\"",
+                        "yes"
+                      ]
                     }
                   ]
                 },
@@ -16702,6 +16828,16 @@
                         "Pathfinding",
                         "=",
                         "Object.Variable(MaxSpeed)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EnableEffect"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"Glitch\"",
+                        "no"
                       ]
                     }
                   ]
@@ -16750,7 +16886,7 @@
               "fullName": "Inflict Negative Thoughts (for enemies)",
               "functionType": "Action",
               "name": "InflictSlow",
-              "sentence": "[For each _PARAM0_] Inflict Negative Thoughts for _PARAM2_ within _PARAM3_ pixels",
+              "sentence": "[For each _PARAM0_] Inflict Negative Thoughts for _PARAM2_ within _PARAM3_ pixels and add _PARAM4_ unless _PARAM5_ is near",
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::ForEach",
@@ -16769,9 +16905,24 @@
                     },
                     {
                       "type": {
-                        "value": "BuiltinCommonInstructions::Once"
+                        "inverted": true,
+                        "value": "ObjectVariableAsBoolean"
                       },
-                      "parameters": []
+                      "parameters": [
+                        "AffectedTowers",
+                        "NegThoughts",
+                        "True"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "AffectedTowers.Distance(EffectProtector)",
+                        ">=",
+                        "EffectProtector.Variable(Range)"
+                      ]
                     }
                   ],
                   "actions": [
@@ -16784,8 +16935,35 @@
                         "NegThoughts",
                         "True"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "TDTD::AddEffectIcon"
+                      },
+                      "parameters": [
+                        "",
+                        "AffectedTowers",
+                        "\"NegThoughts\"",
+                        "EffectIcon",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "DebuggerTools::ConsoleLog"
+                      },
+                      "parameters": [
+                        "ToString(AffectedTowers.Distance(EffectProtector))",
+                        "\"info\"",
+                        ""
+                      ]
                     }
                   ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": []
                 }
               ],
               "parameters": [
@@ -16811,6 +16989,18 @@
                   "description": "The area of effect (in pixels). If the towers are below this distance from the enemy they will be inflicted with the effect.",
                   "name": "AoE",
                   "type": "expression"
+                },
+                {
+                  "description": "Effect Icon for display",
+                  "name": "EffectIcon",
+                  "supplementaryInformation": "Sprite",
+                  "type": "objectList"
+                },
+                {
+                  "description": "Tower that protects others against effects",
+                  "name": "EffectProtector",
+                  "supplementaryInformation": "Sprite",
+                  "type": "objectList"
                 }
               ],
               "objectGroups": []
@@ -17510,7 +17700,7 @@
               "description": "Spawn a trap at the nearest path, according to SpawnX and SpawnY of the given Tower",
               "fullName": "Spawn a trap at the nearest path",
               "functionType": "Action",
-              "name": "Function",
+              "name": "spawnTrap",
               "sentence": "Spawn _PARAM2_ at nearest path from _PARAM0_",
               "events": [
                 {
@@ -17536,9 +17726,9 @@
                       "parameters": [
                         "Trap",
                         "=",
-                        "Object.Variable(SpawnX)",
+                        "Object.Variable(SpawnX)+RandomInRange(-20,20)",
                         "=",
-                        "Object.Variable(SpawnY)"
+                        "Object.Variable(SpawnY)+RandomInRange(-20,20)"
                       ]
                     }
                   ]
@@ -17559,6 +17749,814 @@
                 },
                 {
                   "description": "Trap to place on path",
+                  "name": "Trap",
+                  "supplementaryInformation": "Sprite",
+                  "type": "objectList"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Attacks but i put all the repeated code in here",
+              "fullName": "Attack with account for everything",
+              "functionType": "Action",
+              "name": "smartAttack",
+              "sentence": "Using _PARAM0_, attack _PARAM4_ after boosting by _PARAM2_ and _PARAM5_, adding _PARAM3_ if needed, by shooting _PARAM6_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "Object",
+                  "conditions": [],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Object",
+                            "CheerBoosted",
+                            "True"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "Distance"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Cheerleader",
+                            "Cheerleader.Variable(Range)",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Object",
+                            "CheerBoosted",
+                            "False"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TDTD::RemoveEffectIcon"
+                          },
+                          "parameters": [
+                            "",
+                            "Object",
+                            "\"CheerBoost\"",
+                            "EffectIcon",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "Distance"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Cheerleader",
+                            "Cheerleader.Variable(Range)",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Object",
+                            "CheerBoosted",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Object",
+                            "CheerBoosted",
+                            "True"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TDTD::AddEffectIcon"
+                          },
+                          "parameters": [
+                            "",
+                            "Object",
+                            "\"CheerBoost\"",
+                            "EffectIcon",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "Distance"
+                          },
+                          "parameters": [
+                            "Object",
+                            "DiscerningCitizen",
+                            "DiscerningCitizen.Variable(Range)",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Object",
+                            "RangeBoosted",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Object",
+                            "RangeBoosted",
+                            "True"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TDTD::AddEffectIcon"
+                          },
+                          "parameters": [
+                            "",
+                            "Object",
+                            "\"DiscernBoost\"",
+                            "EffectIcon",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Object",
+                            "RangeBoosted",
+                            "True"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "Distance"
+                          },
+                          "parameters": [
+                            "Object",
+                            "DiscerningCitizen",
+                            "DiscerningCitizen.Variable(Range)",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Object",
+                            "RangeBoosted",
+                            "False"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TDTD::RemoveEffectIcon"
+                          },
+                          "parameters": [
+                            "",
+                            "Object",
+                            "\"DiscernBoost\"",
+                            "EffectIcon",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "Distance"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Cheerleader",
+                            "Cheerleader.Variable(Range)",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Object",
+                            "CheerBoosted",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Object",
+                            "CheerBoosted",
+                            "True"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TDTD::AddEffectIcon"
+                          },
+                          "parameters": [
+                            "",
+                            "Object",
+                            "\"CheerBoost\"",
+                            "EffectIcon",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Object",
+                            "CheerBoosted",
+                            "True"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "Distance"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Cheerleader",
+                            "Cheerleader.Variable(Range)",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Object",
+                            "CheerBoosted",
+                            "False"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TDTD::RemoveEffectIcon"
+                          },
+                          "parameters": [
+                            "",
+                            "Object",
+                            "\"CheerBoost\"",
+                            "EffectIcon",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CompareObjectTimer"
+                          },
+                          "parameters": [
+                            "Object",
+                            "\"ShootTime\"",
+                            ">",
+                            "Object.Variable(FireRate)/1.5\n"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Object",
+                            "CheerBoosted",
+                            "True"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ResetObjectTimer"
+                          },
+                          "parameters": [
+                            "Object",
+                            "\"ShootTime\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TDTD::TowerV2::attack"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            "Projectile",
+                            "Enemies",
+                            "DiscerningCitizen",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Object",
+                            "NegThoughts",
+                            "True"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "CompareObjectTimer"
+                          },
+                          "parameters": [
+                            "Object",
+                            "\"ShootTime\"",
+                            ">",
+                            "Object.Variable(FireRate)\n"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ResetObjectTimer"
+                          },
+                          "parameters": [
+                            "Object",
+                            "\"ShootTime\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TDTD::TowerV2::attack"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            "Projectile",
+                            "Enemies",
+                            "DiscerningCitizen",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CompareObjectTimer"
+                          },
+                          "parameters": [
+                            "Object",
+                            "\"ShootTime\"",
+                            ">",
+                            "Object.Variable(FireRate)*2"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ResetObjectTimer"
+                          },
+                          "parameters": [
+                            "Object",
+                            "\"ShootTime\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TDTD::TowerV2::attack"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Tower2",
+                            "Projectile",
+                            "Enemies",
+                            "DiscerningCitizen",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": []
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "Sprite",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "TDTD::TowerV2",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Cheerleader Object",
+                  "name": "Cheerleader",
+                  "supplementaryInformation": "Sprite",
+                  "type": "objectList"
+                },
+                {
+                  "description": "Effect Icon",
+                  "name": "EffectIcon",
+                  "supplementaryInformation": "Sprite",
+                  "type": "objectList"
+                },
+                {
+                  "description": "Enemies Object Group",
+                  "name": "Enemies",
+                  "supplementaryInformation": "Sprite",
+                  "type": "objectList"
+                },
+                {
+                  "description": "Discerning Citizen",
+                  "name": "DiscerningCitizen",
+                  "supplementaryInformation": "Sprite",
+                  "type": "objectList"
+                },
+                {
+                  "description": "Tower's Projectile",
+                  "name": "Projectile",
+                  "supplementaryInformation": "Sprite",
+                  "type": "objectList"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Trapping but i stole the code from smart attack but its for trapping now",
+              "fullName": "Trap with account for everything",
+              "functionType": "Action",
+              "name": "smartTrap",
+              "sentence": "Using _PARAM0_, attack _PARAM4_ after boosting by _PARAM2_, adding _PARAM3_ if needed, by spawning _PARAM5_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "Object",
+                  "conditions": [],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "Distance"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Cheerleader",
+                            "Cheerleader.Variable(Range)",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Object",
+                            "CheerBoosted",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Object",
+                            "CheerBoosted",
+                            "True"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TDTD::AddEffectIcon"
+                          },
+                          "parameters": [
+                            "",
+                            "Object",
+                            "\"CheerBoost\"",
+                            "EffectIcon",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Object",
+                            "CheerBoosted",
+                            "True"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "Distance"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Cheerleader",
+                            "Cheerleader.Variable(Range)",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Object",
+                            "CheerBoosted",
+                            "False"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TDTD::RemoveEffectIcon"
+                          },
+                          "parameters": [
+                            "",
+                            "Object",
+                            "\"CheerBoost\"",
+                            "EffectIcon",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CompareObjectTimer"
+                          },
+                          "parameters": [
+                            "Object",
+                            "\"ShootTime\"",
+                            ">",
+                            "Object.Variable(FireRate)/1.5\n"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Object",
+                            "CheerBoosted",
+                            "True"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ResetObjectTimer"
+                          },
+                          "parameters": [
+                            "Object",
+                            "\"ShootTime\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TDTD::TowerV2::spawnTrap"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            "Trap",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Object",
+                            "NegThoughts",
+                            "True"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "CompareObjectTimer"
+                          },
+                          "parameters": [
+                            "Object",
+                            "\"ShootTime\"",
+                            ">",
+                            "Object.Variable(FireRate)\n"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ResetObjectTimer"
+                          },
+                          "parameters": [
+                            "Object",
+                            "\"ShootTime\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TDTD::TowerV2::spawnTrap"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            "Trap",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CompareObjectTimer"
+                          },
+                          "parameters": [
+                            "Object",
+                            "\"ShootTime\"",
+                            ">",
+                            "Object.Variable(FireRate)*2"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ResetObjectTimer"
+                          },
+                          "parameters": [
+                            "Object",
+                            "\"ShootTime\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TDTD::TowerV2::spawnTrap"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            "Trap",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": []
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "Sprite",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "TDTD::TowerV2",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Cheerleader Object",
+                  "name": "Cheerleader",
+                  "supplementaryInformation": "Sprite",
+                  "type": "objectList"
+                },
+                {
+                  "description": "Effect Icon",
+                  "name": "EffectIcon",
+                  "supplementaryInformation": "Sprite",
+                  "type": "objectList"
+                },
+                {
+                  "description": "Enemies Object Group",
+                  "name": "Enemies",
+                  "supplementaryInformation": "Sprite",
+                  "type": "objectList"
+                },
+                {
+                  "description": "Tower's Trap",
                   "name": "Trap",
                   "supplementaryInformation": "Sprite",
                   "type": "objectList"
