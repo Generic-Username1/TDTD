@@ -1458,6 +1458,36 @@
         "name": "sprites\\UI\\CommSupport.png3",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "file": "assets/ncdc.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\ncdc.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/nddl.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\nddl.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/nudr.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\nudr.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -7542,7 +7572,7 @@
                         "value": "SendAsyncRequest"
                       },
                       "parameters": [
-                        "\"https://raw.githubusercontent.com/Generic-Username1/TDTD/main/src/waves%2Cjson?token=GHSAT0AAAAAAB5H5RTMACBZNWYVWQF4RLEYY6WPLKA\"",
+                        "\"https://raw.githubusercontent.com/Generic-Username1/TDTD/main/src/waves%2Cjson?token=GHSAT0AAAAAAB5H5RTM2SFLUYKF5QSIOHVWY6Y6LJA\"",
                         "\"\"",
                         "\"GET\"",
                         "\"application/json\"",
@@ -7819,6 +7849,75 @@
                     "textG": 0,
                     "textR": 0
                   },
+                  "comment": "Music and Sound",
+                  "comment2": ""
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PreloadMusic"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\ncdc.ogg"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PreloadMusic"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\nddl.ogg"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PreloadMusic"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\nudr.ogg"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlayMusicCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\ncdc.ogg",
+                        "0",
+                        "yes",
+                        "100",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobalTxt"
+                      },
+                      "parameters": [
+                        "currentPlayingMusic",
+                        "=",
+                        "\"ncdc\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
                   "comment": "Events",
                   "comment2": ""
                 },
@@ -7897,6 +7996,206 @@
                     "CommSupportAmt",
                     "=",
                     "ToString(GlobalVariable(CommSupportAmt))"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Change music according to comm support",
+              "comment2": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "CommSupportAmt",
+                    "<=",
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "CommSupportAmt",
+                    ">",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "currentPlayingMusic",
+                    "!=",
+                    "\"nddl\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "StopMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlayMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\nddl.ogg",
+                    "0",
+                    "yes",
+                    "100",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobalTxt"
+                  },
+                  "parameters": [
+                    "currentPlayingMusic",
+                    "=",
+                    "\"nddl\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "CommSupportAmt",
+                    "<=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "currentPlayingMusic",
+                    "!=",
+                    "\"nudr\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "StopMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlayMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\nudr.ogg",
+                    "0",
+                    "yes",
+                    "100",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobalTxt"
+                  },
+                  "parameters": [
+                    "currentPlayingMusic",
+                    "=",
+                    "\"nudr\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "CommSupportAmt",
+                    ">",
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "currentPlayingMusic",
+                    "!=",
+                    "\"ncdc\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "StopMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlayMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\ncdc.ogg",
+                    "0",
+                    "yes",
+                    "100",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobalTxt"
+                  },
+                  "parameters": [
+                    "currentPlayingMusic",
+                    "=",
+                    "\"ncdc\""
                   ]
                 }
               ]
