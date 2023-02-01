@@ -315,7 +315,7 @@
         "alwaysLoaded": false,
         "file": "NewSprite2-1-0.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"NewSprite2-1-0.png\",\"extension\":\".png\",\"pskl\":{}}",
         "name": "NewSprite2-1-0.png",
         "smoothed": true,
         "userAdded": true
@@ -1488,6 +1488,87 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "download.jfif",
+        "kind": "image",
+        "metadata": "",
+        "name": "download.jfif",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "download.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"download.png\",\"extension\":\".png\"}",
+        "name": "download.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Play.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Play.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Next.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Next.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_Buy.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Buy.png2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_Next.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Next.png2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Effects/CommLeader.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Effects\\CommLeader.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/IsGrouped.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "IsGrouped",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -2574,7 +2655,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.42997612788674044,
+        "zoomFactor": 0.7231307691692644,
         "windowMask": false
       },
       "objectsGroups": [
@@ -2859,14 +2940,14 @@
         },
         {
           "angle": 0,
-          "customSize": true,
+          "customSize": false,
           "height": 92,
           "layer": "",
           "name": "ShopButton",
           "persistentUuid": "709b8a61-8c19-4c57-96d6-626b4a6527df",
           "width": 83.90399932861328,
-          "x": 1511.095947265625,
-          "y": 6,
+          "x": 1512,
+          "y": 10,
           "zOrder": 1005,
           "numberProperties": [],
           "stringProperties": [],
@@ -3641,6 +3722,36 @@
           "x": -55,
           "y": 55,
           "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1165,
+          "layer": "Overlay(er)",
+          "name": "DeathScreen",
+          "persistentUuid": "776350bd-e6ab-4b76-930b-17127c8e3fd6",
+          "width": 1684,
+          "x": 93,
+          "y": 1025,
+          "zOrder": 1036,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "TimeSkip",
+          "persistentUuid": "78c5e7be-af67-4765-9b48-b5d673381151",
+          "width": 0,
+          "x": 1415,
+          "y": 10,
+          "zOrder": 1037,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4437,14 +4548,19 @@
         {
           "assetStoreId": "",
           "height": 32,
-          "name": "Grass",
+          "name": "DeathScreen",
           "tags": "",
           "texture": "NewSprite2-1-0.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
           "variables": [],
           "effects": [],
-          "behaviors": []
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ]
         },
         {
           "assetStoreId": "",
@@ -4961,8 +5077,8 @@
               "name": "Button",
               "type": "TDTD::Button",
               "Property": "Tween",
-              "NormalScale": 0.75,
-              "SmallScale": 0.65
+              "NormalScale": 1,
+              "SmallScale": 0.9
             },
             {
               "name": "Tween",
@@ -4971,16 +5087,85 @@
           ],
           "animations": [
             {
-              "name": "",
+              "name": "assets\\Buy.png",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
+                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets\\Buy.png",
+                      "image": "assets\\Buy.png2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "TimeSkip",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Glow",
+              "name": "Glow",
+              "doubleParameters": {
+                "distance": 20,
+                "innerStrength": 2,
+                "outerStrength": 10
+              },
+              "stringParameters": {
+                "color": "#ffffff"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [
+            {
+              "name": "Button",
+              "type": "TDTD::Button",
+              "Property": "Tween",
+              "SmallScale": 0.9,
+              "NormalScale": 1
+            },
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "assets\\Next.png",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\Next.png2",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6973,9 +7158,10 @@
               "TargetY": 350
             },
             {
+              "acceleration": 50,
+              "maxSpeed": 80,
               "name": "Pathfinding",
               "type": "PathfindingBehavior::PathfindingBehavior",
-              "acceleration": 100,
               "allowDiagonals": true,
               "angleOffset": 0,
               "angularMaxSpeed": 180,
@@ -6984,7 +7170,6 @@
               "extraBorder": 10,
               "gridOffsetX": 0,
               "gridOffsetY": 0,
-              "maxSpeed": 100,
               "rotateObject": true,
               "smoothingMaxCellGap": 1
             },
@@ -7173,6 +7358,36 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "DiscernBoost",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "IsGrouped",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "IsGrouped",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -7572,7 +7787,7 @@
                         "value": "SendAsyncRequest"
                       },
                       "parameters": [
-                        "\"https://raw.githubusercontent.com/Generic-Username1/TDTD/main/src/waves%2Cjson?token=GHSAT0AAAAAAB5H5RTM2SFLUYKF5QSIOHVWY6Y6LJA\"",
+                        "\"https://raw.githubusercontent.com/Generic-Username1/TDTD/main/src/waves%2Cjson\"",
                         "\"\"",
                         "\"GET\"",
                         "\"application/json\"",
@@ -7696,7 +7911,7 @@
                       "parameters": [
                         "playerGold",
                         "=",
-                        "10000"
+                        "1000"
                       ]
                     },
                     {
@@ -7834,6 +8049,48 @@
                       },
                       "parameters": [
                         "ShopIsOpen",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "DeathScreen"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::AddObjectOpacityTween"
+                      },
+                      "parameters": [
+                        "DeathScreen",
+                        "Tween",
+                        "\"BeGone\"",
+                        "0",
+                        "\"easeOutCubic\"",
+                        "1",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EnableEffect"
+                      },
+                      "parameters": [
+                        "TimeSkip",
+                        "\"Glow\"",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "TimeSkip",
+                        "isFast",
                         ""
                       ]
                     }
@@ -8243,15 +8500,12 @@
                 },
                 {
                   "type": {
-                    "inverted": true,
-                    "value": "CollisionNP"
+                    "value": "ObjectVariableAsBoolean"
                   },
                   "parameters": [
                     "Towers",
-                    "CommLeader",
-                    "",
-                    "",
-                    ""
+                    "isGrouped",
+                    "False"
                   ]
                 }
               ],
@@ -8552,7 +8806,7 @@
                         "value": "BuiltinCommonInstructions::CompareNumbers"
                       },
                       "parameters": [
-                        "RandomInRange(1,1)",
+                        "RandomInRange(1,4)",
                         "=",
                         "1"
                       ]
@@ -8622,7 +8876,6 @@
               "comment2": ""
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -8726,11 +8979,205 @@
                     },
                     {
                       "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "WavesSurvived",
+                        "=",
+                        "Variable(wave)-2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangeLayerTimeScale"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Projectile layer\"",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Montre"
+                      },
+                      "parameters": [
+                        "DeathScreen",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::AddObjectOpacityTween"
+                      },
+                      "parameters": [
+                        "DeathScreen",
+                        "Tween",
+                        "\"Appear\"",
+                        "255",
+                        "\"linear\"",
+                        "1500",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetGlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "GameStarted",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "CommSupportAmt",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "1.5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Scene"
+                      },
+                      "parameters": [
+                        "",
+                        "\"DeathScreen\"",
+                        "yes"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Time Skip",
+              "comment2": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "TimeSkip",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ToggleObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "TimeSkip",
+                    "isFast"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "TimeSkip",
+                        "isFast",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
                         "value": "ChangeTimeScale"
                       },
                       "parameters": [
                         "",
-                        "0"
+                        "3"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EnableEffect"
+                      },
+                      "parameters": [
+                        "TimeSkip",
+                        "\"Glow\"",
+                        "yes"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "TimeSkip",
+                        "isFast",
+                        "False"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ChangeTimeScale"
+                      },
+                      "parameters": [
+                        "",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EnableEffect"
+                      },
+                      "parameters": [
+                        "TimeSkip",
+                        "\"Glow\"",
+                        "no"
                       ]
                     }
                   ]
@@ -10105,6 +10552,180 @@
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TDTD::TowerV2::applyEffectVars"
+                  },
+                  "parameters": [
+                    "Cheerleader",
+                    "TowerV2",
+                    "Cheerleader",
+                    "DiscerningCitizen",
+                    "CommLeader",
+                    "EffectIcon",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TDTD::TowerV2::applyEffectVars"
+                  },
+                  "parameters": [
+                    "CaringCitizen",
+                    "TowerV2",
+                    "Cheerleader",
+                    "DiscerningCitizen",
+                    "CommLeader",
+                    "EffectIcon",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TDTD::TowerV2::applyEffectVars"
+                  },
+                  "parameters": [
+                    "Volunteer",
+                    "TowerV2",
+                    "Cheerleader",
+                    "DiscerningCitizen",
+                    "CommLeader",
+                    "EffectIcon",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TDTD::TowerV2::applyEffectVars"
+                  },
+                  "parameters": [
+                    "CommLeader",
+                    "TowerV2",
+                    "Cheerleader",
+                    "DiscerningCitizen",
+                    "CommLeader",
+                    "EffectIcon",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TDTD::TowerV2::applyEffectVars"
+                  },
+                  "parameters": [
+                    "Investor",
+                    "TowerV2",
+                    "Cheerleader",
+                    "DiscerningCitizen",
+                    "CommLeader",
+                    "EffectIcon",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TDTD::TowerV2::applyEffectVars"
+                  },
+                  "parameters": [
+                    "CareerGuider",
+                    "TowerV2",
+                    "Cheerleader",
+                    "DiscerningCitizen",
+                    "CommLeader",
+                    "EffectIcon",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TDTD::TowerV2::applyEffectVars"
+                  },
+                  "parameters": [
+                    "Soldier",
+                    "Tower2",
+                    "Cheerleader",
+                    "DiscerningCitizen",
+                    "CommLeader",
+                    "EffectIcon",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TDTD::TowerV2::applyEffectVars"
+                  },
+                  "parameters": [
+                    "IntelligenceOfficer",
+                    "TowerV2",
+                    "Cheerleader",
+                    "DiscerningCitizen",
+                    "CommLeader",
+                    "EffectIcon",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TDTD::TowerV2::applyEffectVars"
+                  },
+                  "parameters": [
+                    "Firefighter",
+                    "TowerV2",
+                    "Cheerleader",
+                    "DiscerningCitizen",
+                    "CommLeader",
+                    "EffectIcon",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TDTD::TowerV2::applyEffectVars"
+                  },
+                  "parameters": [
+                    "Doctor",
+                    "TowerV2",
+                    "Cheerleader",
+                    "DiscerningCitizen",
+                    "CommLeader",
+                    "EffectIcon",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TDTD::TowerV2::applyEffectVars"
+                  },
+                  "parameters": [
+                    "WhiteHat",
+                    "TowerV2",
+                    "Cheerleader",
+                    "DiscerningCitizen",
+                    "CommLeader",
+                    "EffectIcon",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TDTD::TowerV2::applyEffectVars"
+                  },
+                  "parameters": [
+                    "DiscerningCitizen",
+                    "TowerV2",
+                    "Cheerleader",
+                    "DiscerningCitizen",
+                    "CommLeader",
+                    "EffectIcon",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
@@ -10331,12 +10952,9 @@
                   "parameters": [
                     "Soldier",
                     "Tower2",
-                    "Cheerleader",
-                    "EffectIcon",
                     "Enemies",
-                    "DiscerningCitizen",
                     "SoldierProjectile",
-                    ""
+                    "Enemies"
                   ]
                 },
                 {
@@ -10346,12 +10964,9 @@
                   "parameters": [
                     "WhiteHat",
                     "TowerV2",
-                    "Cheerleader",
-                    "EffectIcon",
                     "Enemies",
-                    "DiscerningCitizen",
                     "WhiteHatProjectile",
-                    ""
+                    "Enemies"
                   ]
                 },
                 {
@@ -10361,11 +10976,9 @@
                   "parameters": [
                     "IntelligenceOfficer",
                     "TowerV2",
-                    "Cheerleader",
-                    "EffectIcon",
                     "Enemies",
                     "IntelligenceBarrier",
-                    ""
+                    "Enemies"
                   ]
                 },
                 {
@@ -10375,11 +10988,9 @@
                   "parameters": [
                     "Firefighter",
                     "TowerV2",
-                    "Cheerleader",
-                    "EffectIcon",
                     "Enemies",
                     "FirefighterPuddle",
-                    ""
+                    "Enemies"
                   ]
                 }
               ]
@@ -10526,61 +11137,6 @@
                   ]
                 }
               ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": []
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "KeyPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "Space"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ChangeTimeScale"
-                  },
-                  "parameters": [
-                    "",
-                    "1"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "KeyPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "Back"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ChangeTimeScale"
-                  },
-                  "parameters": [
-                    "",
-                    "3"
-                  ]
-                }
-              ]
             }
           ],
           "parameters": []
@@ -10590,6 +11146,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "SpawnBox and Spawning",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -12926,7 +13483,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Crisis Stuff",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -16735,6 +17291,691 @@
           "type": "Tween::TweenBehavior"
         }
       ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "DeathScreen",
+      "name": "DeathScreen",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.3055399671793725,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1086,
+          "layer": "",
+          "name": "Background",
+          "persistentUuid": "5be99f8a-1b91-4954-82ab-43cc007aa975",
+          "width": 1655,
+          "x": -20,
+          "y": -3,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 335,
+          "layer": "",
+          "name": "Skull",
+          "persistentUuid": "de8d555a-d757-40c7-9ef6-7c457af8098b",
+          "width": 339,
+          "x": 620,
+          "y": 15,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "DeathText",
+          "persistentUuid": "6a103b5e-9575-446a-b03d-2835d5458f41",
+          "width": 0,
+          "x": 61,
+          "y": 411,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "DeathText2",
+          "persistentUuid": "d28c7b34-1775-4a1e-a78c-fb635b276e1a",
+          "width": 0,
+          "x": 530,
+          "y": 538,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "WavesSurvived",
+          "persistentUuid": "da08dda8-a756-4463-86d0-2bce9fbb79d3",
+          "width": 0,
+          "x": 1006,
+          "y": 541,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 249,
+          "layer": "",
+          "name": "PlayAgain",
+          "persistentUuid": "642c75c1-7a51-48ef-9e28-aacb6f43dbce",
+          "width": 248,
+          "x": 659,
+          "y": 670,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "PlayAgainText",
+          "persistentUuid": "05ffc45b-9160-4742-9c38-76b81f3dd097",
+          "width": 0,
+          "x": 647,
+          "y": 915,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "Background",
+          "tags": "",
+          "texture": "New image3",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "name": "Skull",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Glitch",
+              "name": "Effect",
+              "doubleParameters": {
+                "animationFrequency": 60,
+                "blueX": 10,
+                "blueY": -4,
+                "direction": 0,
+                "fillMode": 0,
+                "greenX": 10,
+                "greenY": -4,
+                "minSize": 8,
+                "offset": 100,
+                "redX": 2,
+                "redY": 2,
+                "sampleSize": 512,
+                "slices": 5
+              },
+              "stringParameters": {},
+              "booleanParameters": {
+                "average": true
+              }
+            }
+          ],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "download.png",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "download.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "DeathText",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "string": "The enemies broke through your defences and destroyed the country!",
+          "font": "assets\\AlfaSlabOne-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 40,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "DeathText2",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "string": "Waves survived:",
+          "font": "assets\\AlfaSlabOne-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 50,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "WavesSurvived",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "string": "0",
+          "font": "assets\\AlfaSlabOne-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 50,
+          "color": {
+            "b": 1,
+            "g": 255,
+            "r": 22
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "PlayAgain",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Button",
+              "type": "TDTD::Button",
+              "Property": "Tween",
+              "SmallScale": 1,
+              "NormalScale": 1.5
+            },
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\Play.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "PlayAgainText",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "string": "Play again",
+          "font": "assets\\AlfaSlabOne-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 50,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetFullScreen"
+              },
+              "parameters": [
+                "",
+                "yes",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "Opacity"
+              },
+              "parameters": [
+                "Skull",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextObject::Opacity"
+              },
+              "parameters": [
+                "DeathText",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextObject::Opacity"
+              },
+              "parameters": [
+                "DeathText2",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextObject::Opacity"
+              },
+              "parameters": [
+                "WavesSurvived",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "Opacity"
+              },
+              "parameters": [
+                "PlayAgain",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextObject::Opacity"
+              },
+              "parameters": [
+                "PlayAgainText",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.4"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::AddObjectOpacityTween"
+                  },
+                  "parameters": [
+                    "Skull",
+                    "Tween",
+                    "\"Appear\"",
+                    "255",
+                    "\"linear\"",
+                    "500",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::AddObjectOpacityTween"
+                  },
+                  "parameters": [
+                    "DeathText",
+                    "Tween",
+                    "\"Appear\"",
+                    "255",
+                    "\"linear\"",
+                    "500",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::AddObjectOpacityTween"
+                  },
+                  "parameters": [
+                    "DeathText2",
+                    "Tween",
+                    "\"Appear\"",
+                    "255",
+                    "\"linear\"",
+                    "500",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::AddObjectOpacityTween"
+                  },
+                  "parameters": [
+                    "WavesSurvived",
+                    "Tween",
+                    "\"Appear\"",
+                    "255",
+                    "\"linear\"",
+                    "500",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.4"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::AddObjectOpacityTween"
+                  },
+                  "parameters": [
+                    "PlayAgain",
+                    "Tween",
+                    "\"Appear\"",
+                    "255",
+                    "\"linear\"",
+                    "500",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::AddObjectOpacityTween"
+                  },
+                  "parameters": [
+                    "PlayAgainText",
+                    "Tween",
+                    "\"Appear\"",
+                    "255",
+                    "\"linear\"",
+                    "500",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "WavesSurvived",
+                "=",
+                "ToString(GlobalVariable(WavesSurvived))"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "PlayAgain",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"GameScene\"",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 8961304,
+          "ambientLightColorG": 150995054,
+          "ambientLightColorR": 1869182049,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Button",
+          "type": "TDTD::Button"
+        },
+        {
+          "name": "Tower2",
+          "type": "TDTD::TowerV2"
+        },
+        {
+          "name": "TowerV2",
+          "type": "TDTD::TowerV2"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ]
     }
   ],
   "externalEvents": [],
@@ -16955,7 +18196,7 @@
             {
               "description": "Icon Name",
               "name": "Name",
-              "supplementaryInformation": "[\"NegThoughts\",\"CheerBoost\",\"DiscernBoost\"]",
+              "supplementaryInformation": "[\"NegThoughts\",\"CheerBoost\",\"DiscernBoost\",\"IsGrouped\"]",
               "type": "stringWithSelector"
             },
             {
@@ -17079,7 +18320,7 @@
             {
               "description": "Icon Name",
               "name": "Name",
-              "supplementaryInformation": "[\"NegThoughts\",\"CheerBoost\",\"DiscernBoost\"]",
+              "supplementaryInformation": "[\"NegThoughts\",\"CheerBoost\",\"DiscernBoost\",\"IsGrouped\"]",
               "type": "stringWithSelector"
             },
             {
@@ -17997,7 +19238,7 @@
               "fullName": "Automatically Target and Fire Bullet",
               "functionType": "Action",
               "name": "attack",
-              "sentence": "[While _PARAM3_ is in range after boosting by _PARAM4_] Fire _PARAM2_ from _PARAM0_ ",
+              "sentence": "[While _PARAM3_ is in range] Fire _PARAM2_ from _PARAM0_ ",
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::Comment",
@@ -18033,13 +19274,12 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "Distance"
+                        "value": "ObjectVariableAsBoolean"
                       },
                       "parameters": [
                         "Object",
-                        "RangeBooster",
-                        "RangeBooster.Variable(Range)",
-                        ""
+                        "RangeBoosted",
+                        "True"
                       ]
                     }
                   ],
@@ -18051,7 +19291,7 @@
                       "parameters": [
                         "MaxRange",
                         "*",
-                        "RangeBooster.Variable(Boost)"
+                        "1.5"
                       ]
                     }
                   ]
@@ -18205,12 +19445,6 @@
                   "name": "Enemy",
                   "supplementaryInformation": "Sprite",
                   "type": "objectList"
-                },
-                {
-                  "description": "Tower to boost Range",
-                  "name": "RangeBooster",
-                  "supplementaryInformation": "Sprite",
-                  "type": "objectList"
                 }
               ],
               "objectGroups": []
@@ -18342,7 +19576,7 @@
               "fullName": "Attack with account for everything",
               "functionType": "Action",
               "name": "smartAttack",
-              "sentence": "Using _PARAM0_, attack _PARAM4_ after boosting by _PARAM2_ and _PARAM5_, adding _PARAM3_ if needed, by shooting _PARAM6_",
+              "sentence": "Using _PARAM0_, attack _PARAM2_ by shooting _PARAM3_",
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::ForEach",
@@ -18350,309 +19584,6 @@
                   "conditions": [],
                   "actions": [],
                   "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "ObjectVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "Object",
-                            "CheerBoosted",
-                            "True"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "inverted": true,
-                            "value": "Distance"
-                          },
-                          "parameters": [
-                            "Object",
-                            "Cheerleader",
-                            "Cheerleader.Variable(Range)",
-                            ""
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "SetObjectVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "Object",
-                            "CheerBoosted",
-                            "False"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "TDTD::RemoveEffectIcon"
-                          },
-                          "parameters": [
-                            "",
-                            "Object",
-                            "\"CheerBoost\"",
-                            "EffectIcon",
-                            ""
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "Distance"
-                          },
-                          "parameters": [
-                            "Object",
-                            "Cheerleader",
-                            "Cheerleader.Variable(Range)",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ObjectVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "Object",
-                            "CheerBoosted",
-                            ""
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "SetObjectVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "Object",
-                            "CheerBoosted",
-                            "True"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "TDTD::AddEffectIcon"
-                          },
-                          "parameters": [
-                            "",
-                            "Object",
-                            "\"CheerBoost\"",
-                            "EffectIcon",
-                            ""
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "Distance"
-                          },
-                          "parameters": [
-                            "Object",
-                            "DiscerningCitizen",
-                            "DiscerningCitizen.Variable(Range)",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ObjectVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "Object",
-                            "RangeBoosted",
-                            ""
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "SetObjectVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "Object",
-                            "RangeBoosted",
-                            "True"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "TDTD::AddEffectIcon"
-                          },
-                          "parameters": [
-                            "",
-                            "Object",
-                            "\"DiscernBoost\"",
-                            "EffectIcon",
-                            ""
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "ObjectVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "Object",
-                            "RangeBoosted",
-                            "True"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "inverted": true,
-                            "value": "Distance"
-                          },
-                          "parameters": [
-                            "Object",
-                            "DiscerningCitizen",
-                            "DiscerningCitizen.Variable(Range)",
-                            ""
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "SetObjectVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "Object",
-                            "RangeBoosted",
-                            "False"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "TDTD::RemoveEffectIcon"
-                          },
-                          "parameters": [
-                            "",
-                            "Object",
-                            "\"DiscernBoost\"",
-                            "EffectIcon",
-                            ""
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "Distance"
-                          },
-                          "parameters": [
-                            "Object",
-                            "Cheerleader",
-                            "Cheerleader.Variable(Range)",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ObjectVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "Object",
-                            "CheerBoosted",
-                            ""
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "SetObjectVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "Object",
-                            "CheerBoosted",
-                            "True"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "TDTD::AddEffectIcon"
-                          },
-                          "parameters": [
-                            "",
-                            "Object",
-                            "\"CheerBoost\"",
-                            "EffectIcon",
-                            ""
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "ObjectVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "Object",
-                            "CheerBoosted",
-                            "True"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "inverted": true,
-                            "value": "Distance"
-                          },
-                          "parameters": [
-                            "Object",
-                            "Cheerleader",
-                            "Cheerleader.Variable(Range)",
-                            ""
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "SetObjectVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "Object",
-                            "CheerBoosted",
-                            "False"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "TDTD::RemoveEffectIcon"
-                          },
-                          "parameters": [
-                            "",
-                            "Object",
-                            "\"CheerBoost\"",
-                            "EffectIcon",
-                            ""
-                          ]
-                        }
-                      ]
-                    },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
@@ -18697,7 +19628,7 @@
                             "Behavior",
                             "Projectile",
                             "Enemies",
-                            "DiscerningCitizen",
+                            "",
                             ""
                           ]
                         }
@@ -18816,26 +19747,8 @@
                   "type": "behavior"
                 },
                 {
-                  "description": "Cheerleader Object",
-                  "name": "Cheerleader",
-                  "supplementaryInformation": "Sprite",
-                  "type": "objectList"
-                },
-                {
-                  "description": "Effect Icon",
-                  "name": "EffectIcon",
-                  "supplementaryInformation": "Sprite",
-                  "type": "objectList"
-                },
-                {
                   "description": "Enemies Object Group",
                   "name": "Enemies",
-                  "supplementaryInformation": "Sprite",
-                  "type": "objectList"
-                },
-                {
-                  "description": "Discerning Citizen",
-                  "name": "DiscerningCitizen",
                   "supplementaryInformation": "Sprite",
                   "type": "objectList"
                 },
@@ -18853,7 +19766,7 @@
               "fullName": "Trap with account for everything",
               "functionType": "Action",
               "name": "smartTrap",
-              "sentence": "Using _PARAM0_, attack _PARAM4_ after boosting by _PARAM2_, adding _PARAM3_ if needed, by spawning _PARAM5_",
+              "sentence": "Using _PARAM0_, attack _PARAM2_ by spawning _PARAM3_",
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::ForEach",
@@ -18861,107 +19774,6 @@
                   "conditions": [],
                   "actions": [],
                   "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "Distance"
-                          },
-                          "parameters": [
-                            "Object",
-                            "Cheerleader",
-                            "Cheerleader.Variable(Range)",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ObjectVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "Object",
-                            "CheerBoosted",
-                            ""
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "SetObjectVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "Object",
-                            "CheerBoosted",
-                            "True"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "TDTD::AddEffectIcon"
-                          },
-                          "parameters": [
-                            "",
-                            "Object",
-                            "\"CheerBoost\"",
-                            "EffectIcon",
-                            ""
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "ObjectVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "Object",
-                            "CheerBoosted",
-                            "True"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "inverted": true,
-                            "value": "Distance"
-                          },
-                          "parameters": [
-                            "Object",
-                            "Cheerleader",
-                            "Cheerleader.Variable(Range)",
-                            ""
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "SetObjectVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "Object",
-                            "CheerBoosted",
-                            "False"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "TDTD::RemoveEffectIcon"
-                          },
-                          "parameters": [
-                            "",
-                            "Object",
-                            "\"CheerBoost\"",
-                            "EffectIcon",
-                            ""
-                          ]
-                        }
-                      ]
-                    },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
@@ -19119,18 +19931,6 @@
                   "type": "behavior"
                 },
                 {
-                  "description": "Cheerleader Object",
-                  "name": "Cheerleader",
-                  "supplementaryInformation": "Sprite",
-                  "type": "objectList"
-                },
-                {
-                  "description": "Effect Icon",
-                  "name": "EffectIcon",
-                  "supplementaryInformation": "Sprite",
-                  "type": "objectList"
-                },
-                {
                   "description": "Enemies Object Group",
                   "name": "Enemies",
                   "supplementaryInformation": "Sprite",
@@ -19139,6 +19939,451 @@
                 {
                   "description": "Tower's Trap",
                   "name": "Trap",
+                  "supplementaryInformation": "Sprite",
+                  "type": "objectList"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Set the object variables correctly, run this every frame",
+              "fullName": "Set object variables",
+              "functionType": "Action",
+              "name": "applyEffectVars",
+              "sentence": "Change the object variables of _PARAM0_ according to _PARAM2_, _PARAM3_ and _PARAM4_ and spawn _PARAM5_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareStrings"
+                      },
+                      "parameters": [
+                        " Object.ObjectName()",
+                        "!=",
+                        "\"Cheerleader\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "Object",
+                        "FireRate",
+                        ">",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "Distance"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Cheerleader",
+                            "Cheerleader.Variable(Range)",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Object",
+                            "CheerBoosted",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Object",
+                            "CheerBoosted",
+                            "True"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TDTD::AddEffectIcon"
+                          },
+                          "parameters": [
+                            "",
+                            "Object",
+                            "\"CheerBoost\"",
+                            "EffectIcon",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Object",
+                            "CheerBoosted",
+                            "True"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "Distance"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Cheerleader",
+                            "Cheerleader.Variable(Range)",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Object",
+                            "CheerBoosted",
+                            "False"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TDTD::RemoveEffectIcon"
+                          },
+                          "parameters": [
+                            "",
+                            "Object",
+                            "\"CheerBoost\"",
+                            "EffectIcon",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareStrings"
+                      },
+                      "parameters": [
+                        " Object.ObjectName()",
+                        "!=",
+                        "\"DiscerningCitizen\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Range",
+                        ">",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "Distance"
+                          },
+                          "parameters": [
+                            "Object",
+                            "DiscerningCitizen",
+                            "DiscerningCitizen.Variable(Range)",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Object",
+                            "RangeBoosted",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Object",
+                            "RangeBoosted",
+                            "True"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TDTD::AddEffectIcon"
+                          },
+                          "parameters": [
+                            "",
+                            "Object",
+                            "\"DiscernBoost\"",
+                            "EffectIcon",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Object",
+                            "RangeBoosted",
+                            "True"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "Distance"
+                          },
+                          "parameters": [
+                            "Object",
+                            "DiscerningCitizen",
+                            "DiscerningCitizen.Variable(Range)",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Object",
+                            "RangeBoosted",
+                            "False"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TDTD::RemoveEffectIcon"
+                          },
+                          "parameters": [
+                            "",
+                            "Object",
+                            "\"DiscernBoost\"",
+                            "EffectIcon",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareStrings"
+                      },
+                      "parameters": [
+                        " Object.ObjectName()",
+                        "!=",
+                        "\"CommLeader\""
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "Distance"
+                          },
+                          "parameters": [
+                            "Object",
+                            "CommLeader",
+                            "CommLeader.Variable(Range)",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Object",
+                            "isGrouped",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Object",
+                            "isGrouped",
+                            "True"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TDTD::AddEffectIcon"
+                          },
+                          "parameters": [
+                            "",
+                            "Object",
+                            "\"IsGrouped\"",
+                            "EffectIcon",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "RemoveObjectTimer"
+                          },
+                          "parameters": [
+                            "Object",
+                            "\"RiotKillTimer\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ChangeColor"
+                          },
+                          "parameters": [
+                            "Object",
+                            "\"255;255;255\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Object",
+                            "isGrouped",
+                            "True"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "Distance"
+                          },
+                          "parameters": [
+                            "Object",
+                            "CommLeader",
+                            "CommLeader.Variable(Range)",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Object",
+                            "isGrouped",
+                            "False"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TDTD::RemoveEffectIcon"
+                          },
+                          "parameters": [
+                            "",
+                            "Object",
+                            "\"IsGrouped\"",
+                            "EffectIcon",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "Sprite",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "TDTD::TowerV2",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Cheerleader",
+                  "name": "Cheerleader",
+                  "supplementaryInformation": "Sprite",
+                  "type": "objectList"
+                },
+                {
+                  "description": "Discerning Citizen",
+                  "name": "DiscerningCitizen",
+                  "supplementaryInformation": "Sprite",
+                  "type": "objectList"
+                },
+                {
+                  "description": "Community Leader",
+                  "name": "CommLeader",
+                  "supplementaryInformation": "Sprite",
+                  "type": "objectList"
+                },
+                {
+                  "description": "Effect Icon",
+                  "name": "EffectIcon",
                   "supplementaryInformation": "Sprite",
                   "type": "objectList"
                 }
