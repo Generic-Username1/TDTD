@@ -1569,6 +1569,15 @@
         "name": "IsGrouped",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Untitled-2.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Untitled-2.png\",\"extension\":\".png\"}",
+        "name": "Untitled-2.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -2086,6 +2095,36 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "sprites\\Towers\\Soldier\\Idle\\Untitled-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Untitled-2.png",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Untitled-2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2655,7 +2694,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.7231307691692644,
+        "zoomFactor": 0.22450639871088984,
         "windowMask": false
       },
       "objectsGroups": [
@@ -3730,13 +3769,13 @@
           "angle": 0,
           "customSize": true,
           "height": 1165,
-          "layer": "Overlay(er)",
+          "layer": "Path layer",
           "name": "DeathScreen",
           "persistentUuid": "776350bd-e6ab-4b76-930b-17127c8e3fd6",
           "width": 1684,
-          "x": 93,
-          "y": 1025,
-          "zOrder": 1036,
+          "x": -47,
+          "y": -19,
+          "zOrder": -1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7158,10 +7197,10 @@
               "TargetY": 350
             },
             {
-              "acceleration": 50,
-              "maxSpeed": 80,
               "name": "Pathfinding",
               "type": "PathfindingBehavior::PathfindingBehavior",
+              "acceleration": 50,
+              "maxSpeed": 80,
               "allowDiagonals": true,
               "angleOffset": 0,
               "angularMaxSpeed": 180,
@@ -8984,7 +9023,7 @@
                       "parameters": [
                         "WavesSurvived",
                         "=",
-                        "Variable(wave)-2"
+                        "Variable(wave)-1"
                       ]
                     },
                     {
@@ -8995,6 +9034,15 @@
                         "",
                         "\"Projectile layer\"",
                         "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangeLayer"
+                      },
+                      "parameters": [
+                        "DeathScreen",
+                        "\"Overlay(er)\""
                       ]
                     },
                     {
@@ -19311,7 +19359,18 @@
                       ]
                     }
                   ],
-                  "actions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ChangeAnimation"
+                      },
+                      "parameters": [
+                        "Object",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ],
                   "events": [
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -19340,12 +19399,71 @@
                             ""
                           ]
                         }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Or"
+                              },
+                              "parameters": [],
+                              "subInstructions": [
+                                {
+                                  "type": {
+                                    "value": "Angle"
+                                  },
+                                  "parameters": [
+                                    "Object",
+                                    ">=",
+                                    "90"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "Angle"
+                                  },
+                                  "parameters": [
+                                    "Object",
+                                    "<=",
+                                    "0"
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "ChangeAnimation"
+                              },
+                              "parameters": [
+                                "Object",
+                                "=",
+                                "1"
+                              ]
+                            }
+                          ]
+                        }
                       ]
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [],
                       "actions": [
+                        {
+                          "type": {
+                            "value": "RotateTowardPosition"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Enemy.X()",
+                            "Enemy.Y()",
+                            "0",
+                            ""
+                          ]
+                        },
                         {
                           "type": {
                             "value": "Create"
