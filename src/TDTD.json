@@ -44,7 +44,12 @@
       "showGDevelopSplash": true,
       "showProgressBar": true
     },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": true
+    },
     "authorIds": [],
+    "authorUsernames": [],
     "categories": [],
     "playableDevices": [],
     "extensionProperties": [],
@@ -1578,6 +1583,119 @@
         "name": "Untitled-2.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Black Square Decorated Button_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Black Square Decorated Button_Hovered.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/f412f1600c8331cf72f89d4bd00ce33a91d18553dea6d91ae71966a24c659e9a_Black Square Decorated Button_Hovered.png",
+          "name": "Black Square Decorated Button_Hovered.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Black Square Decorated Button_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Black Square Decorated Button_Idle.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/a33bd108a01f89ef1fe8d695b6b060e19ec466e4fce2d728ed93fb2b96ebd768_Black Square Decorated Button_Idle.png",
+          "name": "Black Square Decorated Button_Idle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Black Square Decorated Button_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Black Square Decorated Button_Pressed.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/c772df82fc56543546eea5576b02f73253eaf5683120a331581f0b85664f62af_Black Square Decorated Button_Pressed.png",
+          "name": "Black Square Decorated Button_Pressed.png"
+        }
+      },
+      {
+        "file": "assets/mononoki-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "mononoki-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/7423149de6e486ac885567761bef3236bcdb8414d05cb0920ae7aedffdec85f9_mononoki-Regular.ttf",
+          "name": "mononoki-Regular.ttf"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Enemies/SelfRad/still.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Enemies\\SelfRad\\still.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_Enemies_SelfRad_still.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sprites\\Enemies\\SelfRad\\still.png2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Untitled-2.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Untitled-2.png2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Untitled-2.png3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Untitled-2.png3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Projectiles/UnradicaliseProjectile.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Projectiles\\UnradicaliseProjectile.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_Projectiles_UnradicaliseProjectile.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sprites\\Projectiles\\UnradicaliseProjectile.png2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Untitled-2.png4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Untitled-2.png4",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1691,6 +1809,12 @@
           "name": "Range",
           "type": "number",
           "value": 100
+        },
+        {
+          "folded": true,
+          "name": "SecondRate",
+          "type": "number",
+          "value": 3
         }
       ],
       "effects": [
@@ -2098,8 +2222,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 119.87314574093898,
+                    "y": 25.1415736351124
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -2124,12 +2248,12 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Untitled-2.png",
+                  "image": "Untitled-2.png4",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 123.24659733904267,
+                    "y": 84.95393026456645
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -2694,7 +2818,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.22450639871088984,
+        "zoomFactor": 0.41174655068641136,
         "windowMask": false
       },
       "objectsGroups": [
@@ -2747,6 +2871,9 @@
             },
             {
               "name": "Terrorist"
+            },
+            {
+              "name": "SelfRad"
             }
           ]
         },
@@ -4185,6 +4312,72 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "sprites\\Projectiles\\Cheerleader-Cure-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "UnradicaliseProjectile",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "Speed",
+              "type": "number",
+              "value": 500
+            },
+            {
+              "folded": true,
+              "name": "Damage",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "folded": true,
+              "name": "Piercing",
+              "type": "boolean",
+              "value": true
+            }
+          ],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "ProjectileV2",
+              "type": "TDTD::ProjectileV2"
+            }
+          ],
+          "animations": [
+            {
+              "name": "sprites\\Projectiles\\UnradicaliseProjectile.png",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites\\Projectiles\\UnradicaliseProjectile.png2",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -7446,6 +7639,101 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "SelfRad",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "Health",
+              "type": "number",
+              "value": 250
+            },
+            {
+              "folded": true,
+              "name": "Pillar",
+              "type": "string",
+              "value": "Psychological"
+            },
+            {
+              "folded": true,
+              "name": "MaxSpeed",
+              "type": "number",
+              "value": 150
+            },
+            {
+              "folded": true,
+              "name": "stunAfterDeath",
+              "type": "boolean",
+              "value": true
+            }
+          ],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "EnemyV2",
+              "type": "TDTD::EnemyV2",
+              "Pathfinder": "Pathfinding",
+              "TargetX": 1190,
+              "TargetY": 350
+            },
+            {
+              "acceleration": 400,
+              "allowDiagonals": true,
+              "angleOffset": 0,
+              "angularMaxSpeed": 180,
+              "cellHeight": 20,
+              "cellWidth": 20,
+              "extraBorder": 0,
+              "gridOffsetX": 0,
+              "gridOffsetY": 0,
+              "maxSpeed": 150,
+              "name": "Pathfinding",
+              "rotateObject": true,
+              "smoothingMaxCellGap": 1,
+              "type": "PathfindingBehavior::PathfindingBehavior"
+            },
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "sprites\\Enemies\\SelfRad\\still.png",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites\\Enemies\\SelfRad\\still.png2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -7826,7 +8114,7 @@
                         "value": "SendAsyncRequest"
                       },
                       "parameters": [
-                        "\"https://raw.githubusercontent.com/Generic-Username1/TDTD/main/src/waves%2Cjson\"",
+                        "\"https://raw.githubusercontent.com/Generic-Username1/TDTD/main/src/waves.json\"",
                         "\"\"",
                         "\"GET\"",
                         "\"application/json\"",
@@ -8253,6 +8541,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Continuous Events",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -8746,16 +9035,6 @@
                                 "Base.CenterX()",
                                 "Base.CenterY()",
                                 ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "BitmapText::BitmapTextObject::SetText"
-                              },
-                              "parameters": [
-                                "Debug",
-                                "+",
-                                "VariableString(waveData.name)"
                               ]
                             },
                             {
@@ -9273,20 +9552,7 @@
                   ]
                 }
               ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "IntelligenceBarrier",
-                    "CursorX()",
-                    "CursorY()",
-                    ""
-                  ]
-                }
-              ]
+              "actions": []
             }
           ],
           "parameters": []
@@ -10593,7 +10859,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Attack or Defend",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -10991,6 +11256,227 @@
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AjoutObjConcern"
+                  },
+                  "parameters": [
+                    "",
+                    "CaringCitizen"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareObjectTimer"
+                  },
+                  "parameters": [
+                    "CaringCitizen",
+                    "\"SecondTime\"",
+                    ">",
+                    "CaringCitizen.Variable(SecondRate)"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "CaringCitizen",
+                    "\"SecondTime\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "UnradicaliseProjectile",
+                    "CaringCitizen.PointX(\"OriginPoint\")",
+                    "CaringCitizen.PointY(\"OriginPoint\")",
+                    "\"Projectile layer\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetCenter"
+                  },
+                  "parameters": [
+                    "UnradicaliseProjectile",
+                    "=",
+                    "CaringCitizen.PointX(\"OriginPoint\")",
+                    "=",
+                    "CaringCitizen.PointY(\"OriginPoint\")"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "AjoutObjConcern"
+                      },
+                      "parameters": [
+                        "",
+                        "SelfRad"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "SelfRad",
+                        "deathStunned",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AddForceVers"
+                      },
+                      "parameters": [
+                        "UnradicaliseProjectile",
+                        "SelfRad",
+                        "UnradicaliseProjectile.Variable(Speed)",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "RotateTowardPosition"
+                      },
+                      "parameters": [
+                        "UnradicaliseProjectile",
+                        "SelfRad.X()",
+                        "SelfRad.Y()",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "UnradicaliseProjectile",
+                        "Fired",
+                        "True"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "UnradicaliseProjectile",
+                        "TowerX",
+                        "=",
+                        "CaringCitizen.X()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "UnradicaliseProjectile",
+                        "TowerY",
+                        "=",
+                        "CaringCitizen.Y()"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "UnradicaliseProjectile",
+                        "Fired",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "UnradicaliseProjectile",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "UnradicaliseProjectile",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "UnradicaliseProjectile",
+                    "SelfRad",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "SelfRad",
+                    "deathStunned",
+                    "True"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "SelfRad",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "Soldier",
+                    "Soldier",
+                    "UnradicaliseProjectile.Variable(TowerX)",
+                    "UnradicaliseProjectile.Variable(TowerY)",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
               "actions": [
                 {
@@ -11105,6 +11591,20 @@
                     "value": "TDTD::EnemyV2::slow"
                   },
                   "parameters": [
+                    "SelfRad",
+                    "EnemyV2",
+                    "Pathfinding",
+                    "WhiteHatProjectile",
+                    "0.1",
+                    "5",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TDTD::EnemyV2::slow"
+                  },
+                  "parameters": [
                     "Terrorist",
                     "EnemyV2",
                     "Pathfinding",
@@ -11164,6 +11664,17 @@
                 },
                 {
                   "type": {
+                    "value": "TDTD::EnemyV2::slip"
+                  },
+                  "parameters": [
+                    "SelfRad",
+                    "EnemyV2",
+                    "FirefighterPuddle",
+                    "150"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "TDTD::EnemyV2::collide"
                   },
                   "parameters": [
@@ -11183,6 +11694,17 @@
                     "IntelligenceBarrier",
                     "150"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "TDTD::EnemyV2::collide"
+                  },
+                  "parameters": [
+                    "SelfRad",
+                    "EnemyV2",
+                    "IntelligenceBarrier",
+                    "150"
+                  ]
                 }
               ]
             }
@@ -11194,7 +11716,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "SpawnBox and Spawning",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -13211,16 +13732,6 @@
                           "parameters": [
                             "CommLeader",
                             "GroupPillars",
-                            "+",
-                            "VariableString(PillarSpawned)"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "BitmapText::BitmapTextObject::SetText"
-                          },
-                          "parameters": [
-                            "Debug",
                             "+",
                             "VariableString(PillarSpawned)"
                           ]
@@ -18564,6 +19075,17 @@
                         "<=",
                         "0"
                       ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Object",
+                        "stunAfterDeath",
+                        "True"
+                      ]
                     }
                   ],
                   "actions": [
@@ -18584,6 +19106,112 @@
                         "playerGold",
                         "+",
                         "Object.Variable(MoneyDrop)"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Health",
+                        "<=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Object",
+                        "stunAfterDeath",
+                        "True"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Object",
+                        "deathStunned",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PathfindingBehavior::MaxSpeed"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Pathfinder",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"LastBreath\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Object",
+                        "deathStunned",
+                        "True"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Object",
+                        "deathStunned",
+                        "True"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "CompareObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"LastBreath\"",
+                        ">",
+                        "5"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Object",
+                        ""
                       ]
                     }
                   ]
@@ -18625,6 +19253,17 @@
                         "",
                         "",
                         ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PathfindingBehavior::MaxSpeed"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Pathfinder",
+                        "!=",
+                        "0"
                       ]
                     },
                     {
@@ -19359,18 +19998,7 @@
                       ]
                     }
                   ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ChangeAnimation"
-                      },
-                      "parameters": [
-                        "Object",
-                        "=",
-                        "0"
-                      ]
-                    }
-                  ],
+                  "actions": [],
                   "events": [
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -19386,20 +20014,7 @@
                           ]
                         }
                       ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "RotateTowardPosition"
-                          },
-                          "parameters": [
-                            "Object",
-                            "Enemy.X()",
-                            "Enemy.Y()",
-                            "0",
-                            ""
-                          ]
-                        }
-                      ],
+                      "actions": [],
                       "events": [
                         {
                           "type": "BuiltinCommonInstructions::Standard",
@@ -19445,6 +20060,70 @@
                               ]
                             }
                           ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "BuiltinCommonInstructions::Or"
+                              },
+                              "parameters": [],
+                              "subInstructions": [
+                                {
+                                  "type": {
+                                    "value": "Angle"
+                                  },
+                                  "parameters": [
+                                    "Object",
+                                    ">=",
+                                    "90"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "Angle"
+                                  },
+                                  "parameters": [
+                                    "Object",
+                                    "<=",
+                                    "0"
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "ChangeAnimation"
+                              },
+                              "parameters": [
+                                "Object",
+                                "=",
+                                "0"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "RotateTowardPosition"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Enemy.X()",
+                                "Enemy.Y()",
+                                "0",
+                                ""
+                              ]
+                            }
+                          ]
                         }
                       ]
                     },
@@ -19452,18 +20131,6 @@
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [],
                       "actions": [
-                        {
-                          "type": {
-                            "value": "RotateTowardPosition"
-                          },
-                          "parameters": [
-                            "Object",
-                            "Enemy.X()",
-                            "Enemy.Y()",
-                            "0",
-                            ""
-                          ]
-                        },
                         {
                           "type": {
                             "value": "Create"
