@@ -1,6 +1,4 @@
 [
-    [{"action": "delay", "duration": 2}],
-    [{"action": "spawn", "type": "enemy", "name": "SelfRad", "qty": 1}],
     [{"action": "spawn", "type": "enemy", "name": "Terrorist", "qty": 1}],
     [{"action": "spawn", "type": "enemy", "name": "Terrorist", "qty": 1}],
     [{"action": "spawn", "type": "enemy", "name": "Terrorist", "qty": 2}],
@@ -8,7 +6,16 @@
     [{"action": "spawn", "type": "enemy", "name": "Terrorist", "qty": 3}],
     [{"action": "spawn", "type": "enemy", "name": "InternetTroll", "qty": 3}],
     [{"action": "spawn", "type": "enemy", "name": "Terrorist", "qty": 3}, {"action": "spawn", "type": "enemy", "name": "InternetTroll", "qty": 2}],
-    [{"action": "spawn", "type": "enemy", "name": "Terrorist", "qty": 2}, {"action": "spawn", "type": "enemy", "name": "InternetTroll", "qty": 5}],
-    [{"action": "spawn", "type": "enemy", "name": "Terrorist", "qty": 4}, {"action": "spawn", "type": "enemy", "name": "InternetTroll", "qty": 5}],
-    [{"action": "spawn", "type": "enemy", "name": "Terrorist", "qty": 8}, {"action": "spawn", "type": "enemy", "name": "InternetTroll", "qty": 10}]
+    [{"action": "spawn", "type": "enemy", "name": "SelfRad", "qty": 1}],
+    [{"action": "spawn", "type": "enemy", "name": "Terrorist", "qty": 2}, {"action": "spawn", "type": "enemy", "name": "InternetTroll", "qty": 2}, {"action": "spawn", "type": "enemy", "name": "SelfRad", "qty": 1}],
+    [{"action": "spawn", "type": "enemy", "name": "SelfRad", "qty": 3}],
+    [{"action": "spawn", "type": "enemy", "name": "Terrorist", "qty": 4}, {"action": "spawn", "type": "enemy", "name": "InternetTroll", "qty": 4}],
+    [{"action": "spawn", "type": "enemy", "name": "Terrorist", "qty": 5}, {"action": "spawn", "type": "enemy", "name": "InternetTroll", "qty": 4}],
+    [{"action": "spawn", "type": "enemy", "name": "Terrorist", "qty": 6}, {"action": "spawn", "type": "enemy", "name": "SelfRad", "qty": 2}],
+    [{"action": "spawn", "type": "enemy", "name": "Terrorist", "qty": 7}, {"action": "spawn", "type": "enemy", "name": "SelfRad", "qty": 3}],
+    [{"action": "spawn", "type": "enemy", "name": "Terrorist", "qty": 8}, {"action": "spawn", "type": "enemy", "name": "InternetTroll", "qty": 5}, {"action": "spawn", "type": "enemy", "name": "SelfRad", "qty": 1}],
+    [{"action": "spawn", "type": "enemy", "name": "Terrorist", "qty": 9}, {"action": "spawn", "type": "enemy", "name": "InternetTroll", "qty": 5}, {"action": "spawn", "type": "enemy", "name": "SelfRad", "qty": 2}],
+    [{"action": "spawn", "type": "enemy", "name": "Terrorist", "qty": 10}, {"action": "spawn", "type": "enemy", "name": "InternetTroll", "qty": 6}, {"action": "spawn", "type": "enemy", "name": "SelfRad", "qty": 3}],
+    [{"action": "spawn", "type": "enemy", "name": "Terrorist", "qty": 10}, {"action": "spawn", "type": "enemy", "name": "InternetTroll", "qty": 8}, {"action": "spawn", "type": "enemy", "name": "SelfRad", "qty": 3}],
+    [{"action": "spawn", "type": "enemy", "name": "Terrorist", "qty": 15}, {"action": "spawn", "type": "enemy", "name": "InternetTroll", "qty": 10}, {"action": "spawn", "type": "enemy", "name": "SelfRad", "qty": 5}]
 ]

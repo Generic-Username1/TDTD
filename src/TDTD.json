@@ -35,7 +35,7 @@
       "gdevelopLogoStyle": "light",
       "logoAndProgressFadeInDuration": 0.2,
       "logoAndProgressLogoFadeInDelay": 0.2,
-      "minDuration": 1.5,
+      "minDuration": 0,
       "progressBarColor": 16777215,
       "progressBarHeight": 20,
       "progressBarMaxWidth": 200,
@@ -46,7 +46,7 @@
     },
     "watermark": {
       "placement": "bottom-left",
-      "showWatermark": true
+      "showWatermark": false
     },
     "authorIds": [],
     "authorUsernames": [],
@@ -1696,6 +1696,501 @@
         "name": "Untitled-2.png4",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Enemies/Terrorist/Run/frame_00001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Enemies\\Terrorist\\Run\\frame_00001.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Enemies/Terrorist/Run/frame_00002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Enemies\\Terrorist\\Run\\frame_00002.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Enemies/Terrorist/Run/frame_00003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Enemies\\Terrorist\\Run\\frame_00003.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Enemies/Terrorist/Run/frame_00004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Enemies\\Terrorist\\Run\\frame_00004.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Enemies/Terrorist/Run/frame_00005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Enemies\\Terrorist\\Run\\frame_00005.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Enemies/Terrorist/Run/frame_00006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Enemies\\Terrorist\\Run\\frame_00006.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Enemies/Terrorist/Run/frame_00007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Enemies\\Terrorist\\Run\\frame_00007.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Enemies/Terrorist/Run/frame_00008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Enemies\\Terrorist\\Run\\frame_00008.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Enemies/Terrorist/Run/frame_00009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Enemies\\Terrorist\\Run\\frame_00009.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Enemies/Terrorist/Run/frame_00010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Enemies\\Terrorist\\Run\\frame_00010.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Enemies/Terrorist/Run/frame_00011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Enemies\\Terrorist\\Run\\frame_00011.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Enemies/Terrorist/Run/frame_00012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Enemies\\Terrorist\\Run\\frame_00012.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_Enemies_Terrorist_Run_frame_00001.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sprites\\Enemies\\Terrorist\\Run\\frame_00001.png2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_Enemies_Terrorist_Run_frame_00001.png3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sprites\\Enemies\\Terrorist\\Run\\frame_00001.png3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_Enemies_Terrorist_Run_frame_00001.png4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sprites\\Enemies\\Terrorist\\Run\\frame_00001.png4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_Enemies_Terrorist_Run_frame_00001.png5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sprites\\Enemies\\Terrorist\\Run\\frame_00001.png5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_Enemies_Terrorist_Run_frame_00001.png6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sprites\\Enemies\\Terrorist\\Run\\frame_00001.png6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_Enemies_Terrorist_Run_frame_00001.png7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sprites\\Enemies\\Terrorist\\Run\\frame_00001.png7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_Enemies_Terrorist_Run_frame_00001.png8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sprites\\Enemies\\Terrorist\\Run\\frame_00001.png8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_Enemies_Terrorist_Run_frame_00001.png9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sprites\\Enemies\\Terrorist\\Run\\frame_00001.png9",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_Enemies_Terrorist_Run_frame_00001.png10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sprites\\Enemies\\Terrorist\\Run\\frame_00001.png10",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_Enemies_Terrorist_Run_frame_00001.png11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sprites\\Enemies\\Terrorist\\Run\\frame_00001.png11",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_Enemies_Terrorist_Run_frame_00001.png12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sprites\\Enemies\\Terrorist\\Run\\frame_00001.png12",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_Enemies_Terrorist_Run_frame_00001.png13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sprites\\Enemies\\Terrorist\\Run\\frame_00001.png13",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Towers/Cheerleader/Idle/frame_00001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Towers\\Cheerleader\\Idle\\frame_00001.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_Towers_Cheerleader_Idle_frame_00001.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sprites\\Towers\\Cheerleader\\Idle\\frame_00001.png2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_Towers_Cheerleader_Idle_frame_00001.png3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sprites\\Towers\\Cheerleader\\Idle\\frame_00001.png3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Towers/Caring Citizen/Idle/frame_00002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Towers\\Caring Citizen\\Idle\\frame_00002.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_Towers_Caring Citizen_Idle_Picture2.png.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sprites\\Towers\\Caring Citizen\\Idle\\Picture2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Towers/Volunteer/Idle/frame_00003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Towers\\Volunteer\\Idle\\frame_00003.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_Towers_Volunteer_Idle_frame_00003.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sprites\\Towers\\Volunteer\\Idle\\frame_00003.png2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Towers/Community Leader/Idle/frame_00005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Towers\\Community Leader\\Idle\\frame_00005.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_Towers_Community Leader_Idle_Picture4.png.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sprites\\Towers\\Community Leader\\Idle\\Picture4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Towers/Career Guider/Idle/frame_00008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Towers\\Career Guider\\Idle\\frame_00008.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Picture5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Picture5",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Towers/Investor/Idle/frame_00009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Towers\\Investor\\Idle\\frame_00009.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_Towers_Investor_Idle_Picture6.png.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sprites\\Towers\\Investor\\Idle\\Picture6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_Towers_Investor_Idle_Picture6.png3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sprites\\Towers\\Investor\\Idle\\Picture6.png3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Towers/Soldier/Idle/frame_00014.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Towers\\Soldier\\Idle\\frame_00014.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Untitled.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Untitled",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Untitled2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Untitled2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Untitled2.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Untitled2.png\",\"extension\":\".png\"}",
+        "name": "assets\\Untitled2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Soldier.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Soldier",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Towers/Intelligence Officer/Idle/frame_00011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Towers\\Intelligence Officer\\Idle\\frame_00011.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_Towers_Intelligence Officer_Idle_Picture1.png.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sprites\\Towers\\Intelligence Officer\\Idle\\Picture1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Towers/Firefighter/Idle/frame_00012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Towers\\Firefighter\\Idle\\frame_00012.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_Towers_Firefighter_Idle_Firefighter.png.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sprites\\Towers\\Firefighter\\Idle\\Firefighter.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Towers/Doctor/Idle/frame_00013.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Towers\\Doctor\\Idle\\frame_00013.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_Towers_Doctor_Idle_Picture7.png.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sprites\\Towers\\Doctor\\Idle\\Picture7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Towers/White Hat Hacker/Idle/frame_00006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Towers\\White Hat Hacker\\Idle\\frame_00006.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/WhiteHat.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "WhiteHat",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Towers/Discerning Citizen/Idle/frame_00007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Towers\\Discerning Citizen\\Idle\\frame_00007.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_Towers_Discerning Citizen_Idle_Picture8.png.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sprites\\Towers\\Discerning Citizen\\Idle\\Picture8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1755,23 +2250,18 @@
       ],
       "animations": [
         {
-          "name": "",
+          "name": "sprites\\Towers\\Cheerleader\\Idle\\frame_00001.png",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprites\\Towers\\Cheerleader\\Idle\\Cheerleader-1.png",
-                  "points": [
-                    {
-                      "name": "OriginPoint",
-                      "x": 44.807342529296875,
-                      "y": 49.08210754394531
-                    }
-                  ],
+                  "image": "sprites\\Towers\\Cheerleader\\Idle\\frame_00001.png3",
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -1849,7 +2339,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprites\\Towers\\Caring Citizen\\Idle\\Picture2.png2",
+                  "image": "sprites\\Towers\\Caring Citizen\\Idle\\Picture2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1906,16 +2396,17 @@
       ],
       "animations": [
         {
-          "name": "",
+          "name": "sprites\\Towers\\Volunteer\\Idle\\frame_00003.png",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprites\\Towers\\Volunteer\\Idle\\Volunteer-1.png",
+                  "image": "sprites\\Towers\\Volunteer\\Idle\\frame_00003.png2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1994,7 +2485,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprites\\Towers\\Community Leader\\Idle\\Picture4.png2",
+                  "image": "sprites\\Towers\\Community Leader\\Idle\\Picture4.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2056,11 +2547,12 @@
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprites\\Towers\\Career Guider\\Idle\\Picture5-1.png",
+                  "image": "Picture5",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2121,7 +2613,12 @@
           "booleanParameters": {}
         }
       ],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "TowerV2",
+          "type": "TDTD::TowerV2"
+        }
+      ],
       "animations": [
         {
           "name": "sprites\\Towers\\Investor\\Idle\\Picture6.png",
@@ -2134,7 +2631,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprites\\Towers\\Investor\\Idle\\Picture6.png2",
+                  "image": "sprites\\Towers\\Investor\\Idle\\Picture6.png3",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2203,27 +2700,28 @@
       ],
       "behaviors": [
         {
-          "name": "Tower2",
+          "name": "TowerV2",
           "type": "TDTD::TowerV2"
         }
       ],
       "animations": [
         {
-          "name": "Untitled",
+          "name": "Soldier",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.07999999821186066,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprites\\Towers\\Soldier\\Idle\\Untitled-1.png",
+                  "image": "Soldier",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 119.87314574093898,
-                    "y": 25.1415736351124
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -2248,12 +2746,12 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Untitled-2.png4",
+                  "image": "assets\\Untitled2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 123.24659733904267,
-                    "y": 84.95393026456645
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -2327,7 +2825,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprites\\Towers\\Intelligence Officer\\Idle\\Picture1.png2",
+                  "image": "sprites\\Towers\\Intelligence Officer\\Idle\\Picture1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2406,7 +2904,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprites\\Towers\\Firefighter\\Idle\\Firefighter.png2",
+                  "image": "sprites\\Towers\\Firefighter\\Idle\\Firefighter.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2445,6 +2943,12 @@
           "name": "Pillar",
           "type": "string",
           "value": "Civil"
+        },
+        {
+          "folded": true,
+          "name": "Lives",
+          "type": "number",
+          "value": 3
         }
       ],
       "effects": [
@@ -2479,7 +2983,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprites\\Towers\\Doctor\\Idle\\Picture7.png2",
+                  "image": "sprites\\Towers\\Doctor\\Idle\\Picture7.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2559,11 +3063,12 @@
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.07999999821186066,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprites\\Towers\\White Hat Hacker\\Idle\\WhiteHat-1.png",
+                  "image": "WhiteHat",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2642,7 +3147,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprites\\Towers\\Discerning Citizen\\Idle\\Picture8.png2",
+                  "image": "sprites\\Towers\\Discerning Citizen\\Idle\\Picture8.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2818,7 +3323,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.41174655068641136,
+        "zoomFactor": 0.41174655068641053,
         "windowMask": false
       },
       "objectsGroups": [
@@ -2826,40 +3331,40 @@
           "name": "Towers",
           "objects": [
             {
-              "name": "Soldier"
-            },
-            {
-              "name": "Firefighter"
-            },
-            {
-              "name": "WhiteHat"
-            },
-            {
               "name": "Cheerleader"
+            },
+            {
+              "name": "CaringCitizen"
             },
             {
               "name": "Volunteer"
             },
             {
-              "name": "CareerGuider"
-            },
-            {
               "name": "CommLeader"
-            },
-            {
-              "name": "IntelligenceOfficer"
-            },
-            {
-              "name": "Doctor"
             },
             {
               "name": "Investor"
             },
             {
-              "name": "DiscerningCitizen"
+              "name": "CareerGuider"
             },
             {
-              "name": "CaringCitizen"
+              "name": "Soldier"
+            },
+            {
+              "name": "IntelligenceOfficer"
+            },
+            {
+              "name": "Firefighter"
+            },
+            {
+              "name": "Doctor"
+            },
+            {
+              "name": "WhiteHat"
+            },
+            {
+              "name": "DiscerningCitizen"
             }
           ]
         },
@@ -3391,21 +3896,6 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "height": 59,
-          "layer": "",
-          "name": "Debug",
-          "persistentUuid": "f38d31bb-8519-4844-8b25-983fd3976f84",
-          "width": 136,
-          "x": 52,
-          "y": 996,
-          "zOrder": 1010,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 104,
           "layer": "Overlay(er)",
@@ -3446,8 +3936,8 @@
           "name": "CrisisTitle",
           "persistentUuid": "7fbfa6a7-2449-41f5-b354-db07fb55b4bb",
           "width": 0,
-          "x": -800,
-          "y": 184,
+          "x": -1883,
+          "y": 99,
           "zOrder": 1027,
           "numberProperties": [],
           "stringProperties": [],
@@ -3552,8 +4042,8 @@
           "layer": "Path layer",
           "name": "Wall",
           "persistentUuid": "83c72435-b54d-45fb-91ae-f3e579bf86c3",
-          "width": 508,
-          "x": -281,
+          "width": 1243,
+          "x": -1016,
           "y": 477,
           "zOrder": 0,
           "numberProperties": [],
@@ -3567,8 +4057,8 @@
           "layer": "Path layer",
           "name": "Wall",
           "persistentUuid": "e934e559-5e8c-4fee-a4b1-fa73022ea87c",
-          "width": 498,
-          "x": -269,
+          "width": 1253,
+          "x": -1024,
           "y": 637,
           "zOrder": 0,
           "numberProperties": [],
@@ -3583,8 +4073,8 @@
           "name": "Wall",
           "persistentUuid": "d7e18f7f-d1f7-4a42-abd6-43318ac965ae",
           "width": 11,
-          "x": -278,
-          "y": 485,
+          "x": -1028,
+          "y": 492,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -3918,6 +4408,21 @@
           "x": 1415,
           "y": 10,
           "zOrder": 1037,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 89,
+          "layer": "",
+          "name": "Restart",
+          "persistentUuid": "4d65d898-329c-477a-a5f3-ae78873e05da",
+          "width": 81,
+          "x": 1319,
+          "y": 13,
+          "zOrder": 1038,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7335,7 +7840,7 @@
               "folded": true,
               "name": "Health",
               "type": "number",
-              "value": 200
+              "value": 150
             },
             {
               "folded": true,
@@ -7412,17 +7917,17 @@
           ],
           "animations": [
             {
-              "name": "sprites\\Enemies\\Terrorist\\Run\\Terrorist_Run.png",
+              "name": "sprites\\Enemies\\Terrorist\\Run\\frame_00001.png",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": true,
                   "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.125,
+                  "timeBetweenFrames": 0.0833,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "sprites\\Enemies\\Terrorist\\Run\\Terrorist_Run.png12",
+                      "image": "sprites\\Enemies\\Terrorist\\Run\\frame_00001.png2",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -7439,7 +7944,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "sprites\\Enemies\\Terrorist\\Run\\Terrorist_Run.png13",
+                      "image": "sprites\\Enemies\\Terrorist\\Run\\frame_00001.png3",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -7456,7 +7961,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "sprites\\Enemies\\Terrorist\\Run\\Terrorist_Run.png14",
+                      "image": "sprites\\Enemies\\Terrorist\\Run\\frame_00001.png4",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -7473,7 +7978,143 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "sprites\\Enemies\\Terrorist\\Run\\Terrorist_Run.png15",
+                      "image": "sprites\\Enemies\\Terrorist\\Run\\frame_00001.png5",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites\\Enemies\\Terrorist\\Run\\frame_00001.png6",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites\\Enemies\\Terrorist\\Run\\frame_00001.png7",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites\\Enemies\\Terrorist\\Run\\frame_00001.png8",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites\\Enemies\\Terrorist\\Run\\frame_00001.png9",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites\\Enemies\\Terrorist\\Run\\frame_00001.png10",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites\\Enemies\\Terrorist\\Run\\frame_00001.png11",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites\\Enemies\\Terrorist\\Run\\frame_00001.png12",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites\\Enemies\\Terrorist\\Run\\frame_00001.png13",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -7651,7 +8292,7 @@
               "folded": true,
               "name": "Health",
               "type": "number",
-              "value": 250
+              "value": 300
             },
             {
               "folded": true,
@@ -7682,6 +8323,8 @@
               "TargetY": 350
             },
             {
+              "name": "Pathfinding",
+              "type": "PathfindingBehavior::PathfindingBehavior",
               "acceleration": 400,
               "allowDiagonals": true,
               "angleOffset": 0,
@@ -7692,10 +8335,8 @@
               "gridOffsetX": 0,
               "gridOffsetY": 0,
               "maxSpeed": 150,
-              "name": "Pathfinding",
               "rotateObject": true,
-              "smoothingMaxCellGap": 1,
-              "type": "PathfindingBehavior::PathfindingBehavior"
+              "smoothingMaxCellGap": 1
             },
             {
               "name": "Tween",
@@ -7715,6 +8356,47 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "sprites\\Enemies\\SelfRad\\still.png2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Restart",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\Menu.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8073,6 +8755,16 @@
                         "=",
                         "1.5"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "nextID",
+                        "=",
+                        "0"
+                      ]
                     }
                   ]
                 },
@@ -8110,30 +8802,6 @@
                   "actions": [
                     {
                       "type": {
-                        "await": true,
-                        "value": "SendAsyncRequest"
-                      },
-                      "parameters": [
-                        "\"https://raw.githubusercontent.com/Generic-Username1/TDTD/main/src/waves.json\"",
-                        "\"\"",
-                        "\"GET\"",
-                        "\"application/json\"",
-                        "tempWaves",
-                        "skill_issue"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "DebuggerTools::ConsoleLog"
-                      },
-                      "parameters": [
-                        "VariableString(tempWaves)",
-                        "\"info\"",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
                         "value": "ModVarScene"
                       },
                       "parameters": [
@@ -8164,7 +8832,7 @@
                             "value": "JSONToVariableStructure"
                           },
                           "parameters": [
-                            "VariableString(tempWaves)",
+                            "\"[[{\\\"action\\\":\\\"delay\\\",\\\"duration\\\":15}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"Terrorist\\\",\\\"qty\\\":1}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"Terrorist\\\",\\\"qty\\\":1}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"Terrorist\\\",\\\"qty\\\":2}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"Terrorist\\\",\\\"qty\\\":2},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"InternetTroll\\\",\\\"qty\\\":1}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"Terrorist\\\",\\\"qty\\\":3}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"InternetTroll\\\",\\\"qty\\\":3}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"Terrorist\\\",\\\"qty\\\":3},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"InternetTroll\\\",\\\"qty\\\":2}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"SelfRad\\\",\\\"qty\\\":1}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"Terrorist\\\",\\\"qty\\\":2},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"InternetTroll\\\",\\\"qty\\\":2},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"SelfRad\\\",\\\"qty\\\":1}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"SelfRad\\\",\\\"qty\\\":3}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"Terrorist\\\",\\\"qty\\\":4},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"InternetTroll\\\",\\\"qty\\\":4}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"Terrorist\\\",\\\"qty\\\":5},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"InternetTroll\\\",\\\"qty\\\":4}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"Terrorist\\\",\\\"qty\\\":6},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"SelfRad\\\",\\\"qty\\\":2}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"Terrorist\\\",\\\"qty\\\":7},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"SelfRad\\\",\\\"qty\\\":3}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"Terrorist\\\",\\\"qty\\\":8},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"InternetTroll\\\",\\\"qty\\\":5},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"SelfRad\\\",\\\"qty\\\":1}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"Terrorist\\\",\\\"qty\\\":9},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"InternetTroll\\\",\\\"qty\\\":5},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"SelfRad\\\",\\\"qty\\\":2}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"Terrorist\\\",\\\"qty\\\":10},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"InternetTroll\\\",\\\"qty\\\":6},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"SelfRad\\\",\\\"qty\\\":3}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"Terrorist\\\",\\\"qty\\\":10},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"InternetTroll\\\",\\\"qty\\\":8},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"SelfRad\\\",\\\"qty\\\":3}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"Terrorist\\\",\\\"qty\\\":15},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"InternetTroll\\\",\\\"qty\\\":10},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"SelfRad\\\",\\\"qty\\\":5}]]\"",
                             "Waves"
                           ]
                         },
@@ -8238,7 +8906,7 @@
                       "parameters": [
                         "playerGold",
                         "=",
-                        "1000"
+                        "500"
                       ]
                     },
                     {
@@ -8398,26 +9066,6 @@
                         "0",
                         "\"easeOutCubic\"",
                         "1",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "EnableEffect"
-                      },
-                      "parameters": [
-                        "TimeSkip",
-                        "\"Glow\"",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetObjectVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "TimeSkip",
-                        "isFast",
                         ""
                       ]
                     }
@@ -8799,17 +9447,61 @@
               "comment2": ""
             },
             {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "TODO: Remove icons as well",
-              "comment2": ""
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Towers",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareObjectTimer"
+                  },
+                  "parameters": [
+                    "Towers",
+                    "\"RiotKillTimer\"",
+                    ">",
+                    "15"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Towers",
+                    "isGrouped",
+                    "False"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Towers",
+                    "isDeathProtected",
+                    "True"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "RemoveObjectTimer"
+                  },
+                  "parameters": [
+                    "Towers",
+                    "\"RiotKillTimer\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeColor"
+                  },
+                  "parameters": [
+                    "Towers",
+                    "\"255;255;255\""
+                  ]
+                }
+              ]
             },
             {
               "type": "BuiltinCommonInstructions::ForEach",
@@ -8843,7 +9535,184 @@
                     "value": "Delete"
                   },
                   "parameters": [
+                    "EffectIcon",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
                     "Towers",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TDTD::TowerV2::forceApplyVars"
+                  },
+                  "parameters": [
+                    "Cheerleader",
+                    "TowerV2",
+                    "Cheerleader",
+                    "DiscerningCitizen",
+                    "CommLeader",
+                    "EffectIcon",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TDTD::TowerV2::forceApplyVars"
+                  },
+                  "parameters": [
+                    "CaringCitizen",
+                    "TowerV2",
+                    "Cheerleader",
+                    "DiscerningCitizen",
+                    "CommLeader",
+                    "EffectIcon",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TDTD::TowerV2::forceApplyVars"
+                  },
+                  "parameters": [
+                    "Volunteer",
+                    "TowerV2",
+                    "Cheerleader",
+                    "DiscerningCitizen",
+                    "CommLeader",
+                    "EffectIcon",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TDTD::TowerV2::forceApplyVars"
+                  },
+                  "parameters": [
+                    "CommLeader",
+                    "TowerV2",
+                    "Cheerleader",
+                    "DiscerningCitizen",
+                    "CommLeader",
+                    "EffectIcon",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TDTD::TowerV2::forceApplyVars"
+                  },
+                  "parameters": [
+                    "Investor",
+                    "TowerV2",
+                    "Cheerleader",
+                    "DiscerningCitizen",
+                    "CommLeader",
+                    "EffectIcon",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TDTD::TowerV2::forceApplyVars"
+                  },
+                  "parameters": [
+                    "CareerGuider",
+                    "TowerV2",
+                    "Cheerleader",
+                    "DiscerningCitizen",
+                    "CommLeader",
+                    "EffectIcon",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TDTD::TowerV2::forceApplyVars"
+                  },
+                  "parameters": [
+                    "Soldier",
+                    "TowerV2",
+                    "Cheerleader",
+                    "DiscerningCitizen",
+                    "CommLeader",
+                    "EffectIcon",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TDTD::TowerV2::forceApplyVars"
+                  },
+                  "parameters": [
+                    "IntelligenceOfficer",
+                    "TowerV2",
+                    "Cheerleader",
+                    "DiscerningCitizen",
+                    "CommLeader",
+                    "EffectIcon",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TDTD::TowerV2::forceApplyVars"
+                  },
+                  "parameters": [
+                    "Firefighter",
+                    "TowerV2",
+                    "Cheerleader",
+                    "DiscerningCitizen",
+                    "CommLeader",
+                    "EffectIcon",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TDTD::TowerV2::forceApplyVars"
+                  },
+                  "parameters": [
+                    "Doctor",
+                    "TowerV2",
+                    "Cheerleader",
+                    "DiscerningCitizen",
+                    "CommLeader",
+                    "EffectIcon",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TDTD::TowerV2::forceApplyVars"
+                  },
+                  "parameters": [
+                    "WhiteHat",
+                    "TowerV2",
+                    "Cheerleader",
+                    "DiscerningCitizen",
+                    "CommLeader",
+                    "EffectIcon",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TDTD::TowerV2::forceApplyVars"
+                  },
+                  "parameters": [
+                    "DiscerningCitizen",
+                    "TowerV2",
+                    "Cheerleader",
+                    "DiscerningCitizen",
+                    "CommLeader",
+                    "EffectIcon",
                     ""
                   ]
                 }
@@ -9020,7 +9889,7 @@
                                 "",
                                 "Enemies",
                                 "VariableString(waveData.name)",
-                                "Spawner.X()+RandomInRange(-20,20)",
+                                "Spawner.X()+RandomInRange(-200,20)",
                                 "Spawner.Y()+RandomInRange(-20,20)",
                                 "\"Projectile layer\""
                               ]
@@ -9258,19 +10127,6 @@
               ],
               "events": [
                 {
-                  "type": "BuiltinCommonInstructions::Comment",
-                  "color": {
-                    "b": 109,
-                    "g": 230,
-                    "r": 255,
-                    "textB": 0,
-                    "textG": 0,
-                    "textR": 0
-                  },
-                  "comment": "TODO: Die",
-                  "comment2": ""
-                },
-                {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -9389,6 +10245,43 @@
               ]
             },
             {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "Restart",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"MainMenu\"",
+                    "yes"
+                  ]
+                }
+              ]
+            },
+            {
               "type": "BuiltinCommonInstructions::Comment",
               "color": {
                 "b": 109,
@@ -9428,11 +10321,12 @@
               "actions": [
                 {
                   "type": {
-                    "value": "ToggleObjectVariableAsBoolean"
+                    "value": "SetObjectVariableAsBoolean"
                   },
                   "parameters": [
                     "TimeSkip",
-                    "isFast"
+                    "doElse",
+                    "True"
                   ]
                 }
               ],
@@ -9442,12 +10336,12 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "ObjectVariableAsBoolean"
+                        "value": "TimeScale"
                       },
                       "parameters": [
-                        "TimeSkip",
-                        "isFast",
-                        "True"
+                        "",
+                        "=",
+                        "1"
                       ]
                     }
                   ],
@@ -9463,12 +10357,12 @@
                     },
                     {
                       "type": {
-                        "value": "EnableEffect"
+                        "value": "SetObjectVariableAsBoolean"
                       },
                       "parameters": [
                         "TimeSkip",
-                        "\"Glow\"",
-                        "yes"
+                        "doElse",
+                        "False"
                       ]
                     }
                   ]
@@ -9478,12 +10372,22 @@
                   "conditions": [
                     {
                       "type": {
+                        "value": "TimeScale"
+                      },
+                      "parameters": [
+                        "",
+                        "=",
+                        "3"
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "ObjectVariableAsBoolean"
                       },
                       "parameters": [
                         "TimeSkip",
-                        "isFast",
-                        "False"
+                        "doElse",
+                        "True"
                       ]
                     }
                   ],
@@ -9499,14 +10403,95 @@
                     },
                     {
                       "type": {
-                        "value": "EnableEffect"
+                        "value": "SetObjectVariableAsBoolean"
                       },
                       "parameters": [
                         "TimeSkip",
-                        "\"Glow\"",
-                        "no"
+                        "doElse",
+                        "False"
                       ]
                     }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "TimeSkip",
+                        "doElse",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ChangeTimeScale"
+                      },
+                      "parameters": [
+                        "",
+                        "1"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "TimeScale"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "EnableEffect"
+                  },
+                  "parameters": [
+                    "TimeSkip",
+                    "\"Glow\"",
+                    "no"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "TimeScale"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "EnableEffect"
+                  },
+                  "parameters": [
+                    "TimeSkip",
+                    "\"Glow\"",
+                    "yes"
                   ]
                 }
               ]
@@ -9674,7 +10659,7 @@
                       "parameters": [
                         "SelectedDesc",
                         "=",
-                        "\"Cheerleaders boost morale among citizens, and keeps the country motivated to\nmove on.\""
+                        "\"Cheerleaders boost morale among citizens, and keeps the country\nmotivated to move on.\""
                       ]
                     }
                   ]
@@ -9758,7 +10743,7 @@
                       "parameters": [
                         "SelectedDesc",
                         "=",
-                        "\"Caring citizens give a listening ear to those in need and will help them if\nnecessary.\""
+                        "\"Caring citizens give a listening ear to those in need and will help\nthem if necessary.\""
                       ]
                     }
                   ]
@@ -9855,7 +10840,7 @@
                       "parameters": [
                         "SelectedDesc",
                         "=",
-                        "\"Volunteers step up to help when there is a need for it, no matter the circumstances.\""
+                        "\"Volunteers step up to help when there is a need for it, no matter\nthe circumstances.\""
                       ]
                     }
                   ]
@@ -9952,7 +10937,7 @@
                       "parameters": [
                         "SelectedDesc",
                         "=",
-                        "\"Leaders are able to solve problems within a community, effectively and\nefficiently.\""
+                        "\"Leaders are able to solve problems within a community,\neffectively and efficiently.\""
                       ]
                     }
                   ]
@@ -10049,7 +11034,7 @@
                       "parameters": [
                         "SelectedDesc",
                         "=",
-                        "\"Career Guiders help lead people into suitable jobs that the country needs.\""
+                        "\"Career Guiders help lead people into suitable jobs that the\ncountry needs.\""
                       ]
                     }
                   ]
@@ -10133,7 +11118,7 @@
                       "parameters": [
                         "SelectedDesc",
                         "=",
-                        "\"Investors help fund new companies and support existing local businesses.\""
+                        "\"Investors help fund new companies and support existing local\nbusinesses.\""
                       ]
                     }
                   ]
@@ -10230,7 +11215,7 @@
                       "parameters": [
                         "SelectedDesc",
                         "=",
-                        "\"Soldiers are the first line of defence against physical threats to Singapore.\""
+                        "\"Soldiers are the first line of defence against physical threats\nto Singapore.\""
                       ]
                     }
                   ]
@@ -10314,7 +11299,7 @@
                       "parameters": [
                         "SelectedDesc",
                         "=",
-                        "\"Intelligence helps detect and deter threats before they can be executed.\""
+                        "\"Intelligence helps detect and deter threats before they can be\nexecuted.\""
                       ]
                     }
                   ]
@@ -10411,7 +11396,7 @@
                       "parameters": [
                         "SelectedDesc",
                         "=",
-                        "\"Not only do Firefighters fight fire, they also help out in many other aspects as\nwell.\""
+                        "\"Not only do Firefighters fight fire, they also help out in many\nother aspects as well.\""
                       ]
                     }
                   ]
@@ -10508,7 +11493,7 @@
                       "parameters": [
                         "SelectedDesc",
                         "=",
-                        "\"Doctors treat health conditions to help the community live better.\""
+                        "\"Doctors treat health conditions to help the community live\nbetter.\""
                       ]
                     }
                   ]
@@ -10605,7 +11590,7 @@
                       "parameters": [
                         "SelectedDesc",
                         "=",
-                        "\"White-hat hackers have good intentions, and prevent their bad counterparts\nfrom doing damage.\""
+                        "\"White-hat hackers have good intentions, and prevent their bad\ncounterparts from doing damage.\""
                       ]
                     }
                   ]
@@ -10689,7 +11674,7 @@
                       "parameters": [
                         "SelectedDesc",
                         "=",
-                        "\"Dicerning Citizens tell lies from truth online and take appropriate responses\nagainst them.\""
+                        "\"Dicerning Citizens tell lies from truth online and take appropriate\nresponses against them.\""
                       ]
                     }
                   ]
@@ -10859,6 +11844,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Attack or Defend",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -10957,7 +11943,7 @@
                   },
                   "parameters": [
                     "Soldier",
-                    "Tower2",
+                    "TowerV2",
                     "Cheerleader",
                     "DiscerningCitizen",
                     "CommLeader",
@@ -11472,6 +12458,27 @@
                     "UnradicaliseProjectile.Variable(TowerY)",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Soldier",
+                    "ID",
+                    "=",
+                    "GlobalVariable(nextID)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "nextID",
+                    "+",
+                    "1"
+                  ]
                 }
               ]
             },
@@ -11485,10 +12492,10 @@
                   },
                   "parameters": [
                     "Soldier",
-                    "Tower2",
+                    "TowerV2",
                     "Enemies",
                     "SoldierProjectile",
-                    "Enemies"
+                    ""
                   ]
                 },
                 {
@@ -11716,6 +12723,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "SpawnBox and Spawning",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -12535,6 +13543,27 @@
                             "=",
                             "Towers.VariableString(Pillar)"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "Towers",
+                            "ID",
+                            "=",
+                            "GlobalVariable(nextID)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "nextID",
+                            "+",
+                            "1"
+                          ]
                         }
                       ],
                       "events": [
@@ -12851,7 +13880,6 @@
                       ]
                     },
                     {
-                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -12955,6 +13983,27 @@
                                 "IntelOfficerSpawn",
                                 "False"
                               ]
+                            },
+                            {
+                              "type": {
+                                "value": "ModVarObjet"
+                              },
+                              "parameters": [
+                                "IntelligenceOfficer",
+                                "ID",
+                                "=",
+                                "GlobalVariable(nextID)"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ModVarGlobal"
+                              },
+                              "parameters": [
+                                "nextID",
+                                "+",
+                                "1"
+                              ]
                             }
                           ]
                         },
@@ -13035,6 +14084,27 @@
                               "parameters": [
                                 "IntelOfficerSpawn",
                                 "False"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ModVarObjet"
+                              },
+                              "parameters": [
+                                "IntelligenceOfficer",
+                                "ID",
+                                "=",
+                                "GlobalVariable(nextID)"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ModVarGlobal"
+                              },
+                              "parameters": [
+                                "nextID",
+                                "+",
+                                "1"
                               ]
                             }
                           ]
@@ -13117,6 +14187,27 @@
                                 "IntelOfficerSpawn",
                                 "False"
                               ]
+                            },
+                            {
+                              "type": {
+                                "value": "ModVarObjet"
+                              },
+                              "parameters": [
+                                "IntelligenceOfficer",
+                                "ID",
+                                "=",
+                                "GlobalVariable(nextID)"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ModVarGlobal"
+                              },
+                              "parameters": [
+                                "nextID",
+                                "+",
+                                "1"
+                              ]
                             }
                           ]
                         },
@@ -13198,6 +14289,27 @@
                                 "IntelOfficerSpawn",
                                 "False"
                               ]
+                            },
+                            {
+                              "type": {
+                                "value": "ModVarObjet"
+                              },
+                              "parameters": [
+                                "IntelligenceOfficer",
+                                "ID",
+                                "=",
+                                "GlobalVariable(nextID)"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ModVarGlobal"
+                              },
+                              "parameters": [
+                                "nextID",
+                                "+",
+                                "1"
+                              ]
                             }
                           ]
                         }
@@ -13217,7 +14329,6 @@
                       "comment2": ""
                     },
                     {
-                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -13321,6 +14432,27 @@
                                 "FirefighterSpawn",
                                 "False"
                               ]
+                            },
+                            {
+                              "type": {
+                                "value": "ModVarObjet"
+                              },
+                              "parameters": [
+                                "Firefighter",
+                                "ID",
+                                "=",
+                                "GlobalVariable(nextID)"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ModVarGlobal"
+                              },
+                              "parameters": [
+                                "nextID",
+                                "+",
+                                "1"
+                              ]
                             }
                           ]
                         },
@@ -13401,6 +14533,27 @@
                               "parameters": [
                                 "FirefighterSpawn",
                                 "False"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ModVarObjet"
+                              },
+                              "parameters": [
+                                "Firefighter",
+                                "ID",
+                                "=",
+                                "GlobalVariable(nextID)"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ModVarGlobal"
+                              },
+                              "parameters": [
+                                "nextID",
+                                "+",
+                                "1"
                               ]
                             }
                           ]
@@ -13483,6 +14636,27 @@
                                 "FirefighterSpawn",
                                 "False"
                               ]
+                            },
+                            {
+                              "type": {
+                                "value": "ModVarObjet"
+                              },
+                              "parameters": [
+                                "Firefighter",
+                                "ID",
+                                "=",
+                                "GlobalVariable(nextID)"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ModVarGlobal"
+                              },
+                              "parameters": [
+                                "nextID",
+                                "+",
+                                "1"
+                              ]
                             }
                           ]
                         },
@@ -13563,6 +14737,27 @@
                               "parameters": [
                                 "FirefighterSpawn",
                                 "False"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ModVarObjet"
+                              },
+                              "parameters": [
+                                "Firefighter",
+                                "ID",
+                                "=",
+                                "GlobalVariable(nextID)"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ModVarGlobal"
+                              },
+                              "parameters": [
+                                "nextID",
+                                "+",
+                                "1"
                               ]
                             }
                           ]
@@ -13858,12 +15053,28 @@
                       "conditions": [
                         {
                           "type": {
-                            "inverted": true,
-                            "value": "AnimationName"
+                            "value": "BuiltinCommonInstructions::Or"
                           },
-                          "parameters": [
-                            "SpawnBox",
-                            "\"CanDiscount\""
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "AnimationName"
+                              },
+                              "parameters": [
+                                "SpawnBox",
+                                "\"CanGroup.png\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "AnimationName"
+                              },
+                              "parameters": [
+                                "SpawnBox",
+                                "\"CanSpawn\""
+                              ]
+                            }
                           ]
                         }
                       ],
@@ -14042,6 +15253,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Crisis Stuff",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -14702,6 +15914,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Shop Stuff",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -15525,7 +16738,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Change Shop Content",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -17010,10 +18222,6 @@
           "type": "TDTD::ProjectileV2"
         },
         {
-          "name": "Tower2",
-          "type": "TDTD::TowerV2"
-        },
-        {
           "name": "TowerV2",
           "type": "TDTD::TowerV2"
         },
@@ -17043,7 +18251,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3999999999999997,
+        "zoomFactor": 0.35125043207465967,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -17064,8 +18272,8 @@
           "name": "Title",
           "persistentUuid": "44177903-d5d8-48b8-8273-beb3a9a5c663",
           "width": 320,
-          "x": 662,
-          "y": 190,
+          "x": 652,
+          "y": 176,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -17085,6 +18293,21 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1339,
+          "layer": "",
+          "name": "NewTiledSprite",
+          "persistentUuid": "0e164f2e-cc73-4af5-b48b-62d1d08d5ce4",
+          "width": 2018,
+          "x": -68,
+          "y": -28,
+          "zOrder": -1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -17100,22 +18323,17 @@
           "variables": [],
           "effects": [
             {
-              "effectType": "DropShadow",
-              "name": "Effect",
+              "effectType": "Glow",
+              "name": "Glow",
               "doubleParameters": {
-                "alpha": 1,
-                "blur": 2,
-                "distance": 1,
-                "padding": 0,
-                "quality": 3,
-                "rotation": 0
+                "distance": 15,
+                "innerStrength": 2,
+                "outerStrength": 5
               },
               "stringParameters": {
-                "color": "#000000"
+                "color": "255;255;255"
               },
-              "booleanParameters": {
-                "shadowOnly": false
-              }
+              "booleanParameters": {}
             }
           ],
           "behaviors": [
@@ -17512,6 +18730,18 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "NewTiledSprite",
+          "tags": "",
+          "texture": "New image4",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
         }
       ],
       "events": [
@@ -17836,10 +19066,6 @@
         {
           "name": "Button",
           "type": "TDTD::Button"
-        },
-        {
-          "name": "Tower2",
-          "type": "TDTD::TowerV2"
         },
         {
           "name": "TowerV2",
@@ -18589,6 +19815,27 @@
                     "=",
                     "CursorY()"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Tower",
+                    "ID",
+                    "=",
+                    "GlobalVariable(nextID)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "nextID",
+                    "+",
+                    "1"
+                  ]
                 }
               ]
             }
@@ -18698,7 +19945,7 @@
                   },
                   "parameters": [
                     "Icon",
-                    "Tower.X()+48*Variable(tempDisplace)",
+                    "Tower.X()+50*Variable(tempDisplace)",
                     "Tower.Y()-48"
                   ]
                 }
@@ -18728,7 +19975,7 @@
                   "parameters": [
                     "",
                     "Icon",
-                    "Tower.X()+48*Variable(tempDisplace)",
+                    "Tower.X()+50*Variable(tempDisplace)",
                     "Tower.Y()-48",
                     "\"Shop Layer\""
                   ]
@@ -18740,6 +19987,17 @@
                   "parameters": [
                     "Icon",
                     "GetArgumentAsString(\"Name\")"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Icon",
+                    "bindID",
+                    "=",
+                    "Tower.Variable(ID)"
                   ]
                 }
               ]
@@ -18775,19 +20033,6 @@
           "sentence": "Remove _PARAM2_ icon of _PARAM3_ at _PARAM1_",
           "events": [
             {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "TODO: Allow two icons to not stack",
-              "comment2": ""
-            },
-            {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
               "actions": [
@@ -18813,7 +20058,7 @@
                   },
                   "parameters": [
                     "Icon",
-                    "Tower.X()+48*Variable(tempDisplace)",
+                    "Tower.X()+50*Variable(tempDisplace)",
                     "Tower.Y()-48"
                   ]
                 },
@@ -18850,7 +20095,7 @@
                   },
                   "parameters": [
                     "Icon",
-                    "Tower.X()+48*Variable(tempDisplace)",
+                    "Tower.X()+50*Variable(tempDisplace)",
                     "Tower.Y()-48",
                     ""
                   ]
@@ -20999,18 +22244,7 @@
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::CompareStrings"
-                      },
-                      "parameters": [
-                        " Object.ObjectName()",
-                        "!=",
-                        "\"CommLeader\""
-                      ]
-                    }
-                  ],
+                  "conditions": [],
                   "actions": [],
                   "events": [
                     {
@@ -21165,6 +22399,458 @@
                   "name": "CommLeader",
                   "supplementaryInformation": "Sprite",
                   "type": "objectList"
+                },
+                {
+                  "description": "Effect Icon",
+                  "name": "EffectIcon",
+                  "supplementaryInformation": "Sprite",
+                  "type": "objectList"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Set the object variables correctly, run this every frame",
+              "fullName": "Force update object variables",
+              "functionType": "Action",
+              "name": "forceApplyVars",
+              "sentence": "Force update object variables of _PARAM0_ according to _PARAM2_, _PARAM3_ and _PARAM4_ and spawn _PARAM5_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareStrings"
+                      },
+                      "parameters": [
+                        " Object.ObjectName()",
+                        "!=",
+                        "\"Cheerleader\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "Object",
+                        "FireRate",
+                        ">",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "Distance"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Cheerleader",
+                            "Cheerleader.Variable(Range)",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Object",
+                            "CheerBoosted",
+                            "True"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TDTD::AddEffectIcon"
+                          },
+                          "parameters": [
+                            "",
+                            "Object",
+                            "\"CheerBoost\"",
+                            "EffectIcon",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "Distance"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Cheerleader",
+                            "Cheerleader.Variable(Range)",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Object",
+                            "CheerBoosted",
+                            "False"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareStrings"
+                      },
+                      "parameters": [
+                        " Object.ObjectName()",
+                        "!=",
+                        "\"DiscerningCitizen\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Range",
+                        ">",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "Distance"
+                          },
+                          "parameters": [
+                            "Object",
+                            "DiscerningCitizen",
+                            "DiscerningCitizen.Variable(Range)",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Object",
+                            "RangeBoosted",
+                            "True"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TDTD::AddEffectIcon"
+                          },
+                          "parameters": [
+                            "",
+                            "Object",
+                            "\"DiscernBoost\"",
+                            "EffectIcon",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "Distance"
+                          },
+                          "parameters": [
+                            "Object",
+                            "DiscerningCitizen",
+                            "DiscerningCitizen.Variable(Range)",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Object",
+                            "RangeBoosted",
+                            "False"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "Distance"
+                          },
+                          "parameters": [
+                            "Object",
+                            "CommLeader",
+                            "CommLeader.Variable(Range)",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Object",
+                            "isGrouped",
+                            "True"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TDTD::AddEffectIcon"
+                          },
+                          "parameters": [
+                            "",
+                            "Object",
+                            "\"IsGrouped\"",
+                            "EffectIcon",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "RemoveObjectTimer"
+                          },
+                          "parameters": [
+                            "Object",
+                            "\"RiotKillTimer\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ChangeColor"
+                          },
+                          "parameters": [
+                            "Object",
+                            "\"255;255;255\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "Distance"
+                          },
+                          "parameters": [
+                            "Object",
+                            "CommLeader",
+                            "CommLeader.Variable(Range)",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Object",
+                            "isGrouped",
+                            "False"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "Sprite",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "TDTD::TowerV2",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Cheerleader",
+                  "name": "Cheerleader",
+                  "supplementaryInformation": "Sprite",
+                  "type": "objectList"
+                },
+                {
+                  "description": "Discerning Citizen",
+                  "name": "DiscerningCitizen",
+                  "supplementaryInformation": "Sprite",
+                  "type": "objectList"
+                },
+                {
+                  "description": "Community Leader",
+                  "name": "CommLeader",
+                  "supplementaryInformation": "Sprite",
+                  "type": "objectList"
+                },
+                {
+                  "description": "Effect Icon",
+                  "name": "EffectIcon",
+                  "supplementaryInformation": "Sprite",
+                  "type": "objectList"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Remove all effect icons from a Tower.",
+              "fullName": "Remove all effect icons",
+              "functionType": "Action",
+              "name": "removeEffectIcons",
+              "sentence": "Remove all _PARAM2_ from _PARAM0_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "EffectIcon",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "EffectIcon",
+                        "bindID",
+                        "=",
+                        "Object.Variable(ID)"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "EffectIcon",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "EffectIcon",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "EffectIcon",
+                        "bindID",
+                        "=",
+                        "Object.Variable(ID)"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "EffectIcon",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "EffectIcon",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "EffectIcon",
+                        "bindID",
+                        "=",
+                        "Object.Variable(ID)"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "EffectIcon",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "Sprite",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "TDTD::TowerV2",
+                  "type": "behavior"
                 },
                 {
                   "description": "Effect Icon",
