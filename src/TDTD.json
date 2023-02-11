@@ -1369,7 +1369,7 @@
         "alwaysLoaded": false,
         "file": "assets/NegThoughts3.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NegThoughts3.png\"}",
         "name": "NegThoughts3",
         "smoothed": true,
         "userAdded": false
@@ -1387,7 +1387,7 @@
         "alwaysLoaded": false,
         "file": "assets/CheerBoost.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/CheerBoost.png\"}",
         "name": "CheerBoost",
         "smoothed": true,
         "userAdded": true
@@ -1405,7 +1405,7 @@
         "alwaysLoaded": false,
         "file": "assets/DiscernBoost.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/DiscernBoost.png\"}",
         "name": "DiscernBoost",
         "smoothed": true,
         "userAdded": true
@@ -1570,7 +1570,7 @@
         "alwaysLoaded": false,
         "file": "assets/IsGrouped.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/IsGrouped.png\"}",
         "name": "IsGrouped",
         "smoothed": true,
         "userAdded": false
@@ -2303,12 +2303,6 @@
           "name": "FireBoost",
           "type": "number",
           "value": 1.2
-        },
-        {
-          "folded": true,
-          "name": "SecondRate",
-          "type": "number",
-          "value": 5
         }
       ],
       "effects": [
@@ -3050,6 +3044,12 @@
           "name": "Lives",
           "type": "number",
           "value": 3
+        },
+        {
+          "folded": true,
+          "name": "SecondRate",
+          "type": "number",
+          "value": 5
         }
       ],
       "effects": [
@@ -3424,7 +3424,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6924723969305666,
+        "zoomFactor": 0.5576100501992014,
         "windowMask": false
       },
       "objectsGroups": [
@@ -3575,6 +3575,23 @@
             },
             {
               "name": "ConfirmPrompt"
+            }
+          ]
+        },
+        {
+          "name": "StatusIcons",
+          "objects": [
+            {
+              "name": "NegThoughtsIcon"
+            },
+            {
+              "name": "CheerBoostIcon"
+            },
+            {
+              "name": "RangeBoostIcon"
+            },
+            {
+              "name": "IsGroupedIcon"
             }
           ]
         }
@@ -4615,6 +4632,66 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "NegThoughtsIcon",
+          "persistentUuid": "ed50f8ad-434e-4767-99c9-494d6d4ea049",
+          "width": 0,
+          "x": 1010,
+          "y": 7,
+          "zOrder": 1043,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "CheerBoostIcon",
+          "persistentUuid": "e5c1637d-0173-4401-b416-1ebd0f7b5caf",
+          "width": 0,
+          "x": 1110,
+          "y": 7,
+          "zOrder": 1044,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "RangeBoostIcon",
+          "persistentUuid": "77101dfe-ebd5-4f18-a714-ac16f96f35ba",
+          "width": 0,
+          "x": 1060,
+          "y": 7,
+          "zOrder": 1045,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "IsGroupedIcon",
+          "persistentUuid": "e186d4a1-d0c8-470f-9ce7-231bb1239a59",
+          "width": 0,
+          "x": 1160,
+          "y": 7,
+          "zOrder": 1046,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -4979,7 +5056,7 @@
         },
         {
           "assetStoreId": "",
-          "name": "CheerleaderCureProjectile",
+          "name": "PosThoughtsProjectile",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -8613,6 +8690,174 @@
         },
         {
           "assetStoreId": "",
+          "name": "NegThoughtsIcon",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NegThoughts",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NegThoughts3",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "CheerBoostIcon",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "CheerBoost",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "CheerBoost",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "RangeBoostIcon",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "DiscernBoost",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "DiscernBoost",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "IsGroupedIcon",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "IsGrouped",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "IsGrouped",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
           "name": "Restart",
           "tags": "",
           "type": "Sprite",
@@ -8803,14 +9048,14 @@
         {
           "additive": false,
           "assetStoreId": "",
-          "destroyWhenNoParticles": true,
+          "destroyWhenNoParticles": false,
           "emitterAngleA": 0,
           "emitterAngleB": 360,
           "emitterForceMax": 40,
           "emitterForceMin": 45,
-          "flow": 20,
-          "maxParticleNb": 50,
-          "name": "NewParticlesEmitter",
+          "flow": 15,
+          "maxParticleNb": 15,
+          "name": "StatusParticles",
           "particleAlpha1": 204,
           "particleAlpha2": 0,
           "particleAlphaRandomness1": 0,
@@ -8819,16 +9064,16 @@
           "particleAngle2": 0,
           "particleAngleRandomness1": 0,
           "particleAngleRandomness2": 0,
-          "particleBlue1": 51,
-          "particleBlue2": 27,
+          "particleBlue1": 255,
+          "particleBlue2": 255,
           "particleGravityX": 0,
           "particleGravityY": 0,
-          "particleGreen1": 51,
-          "particleGreen2": 2,
+          "particleGreen1": 255,
+          "particleGreen2": 255,
           "particleLifeTimeMax": 1.5,
           "particleLifeTimeMin": 0.5,
           "particleRed1": 255,
-          "particleRed2": 208,
+          "particleRed2": 255,
           "particleSize1": 100,
           "particleSize2": 100,
           "particleSizeRandomness1": 0,
@@ -8840,7 +9085,7 @@
           "tank": -1,
           "textureParticleName": "",
           "type": "ParticleSystem::ParticleEmitter",
-          "zoneRadius": 64,
+          "zoneRadius": 32,
           "variables": [],
           "effects": [],
           "behaviors": []
@@ -9458,6 +9703,14 @@
                       "parameters": [
                         "RiotWarning"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "StatusIcons"
+                      ]
                     }
                   ]
                 },
@@ -9987,7 +10240,7 @@
                     "Towers",
                     "\"RiotKillTimer\"",
                     ">",
-                    "15"
+                    "20"
                   ]
                 },
                 {
@@ -9998,16 +10251,6 @@
                     "Towers",
                     "isGrouped",
                     "False"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "Towers",
-                    "isDeathProtected",
-                    "True"
                   ]
                 }
               ],
@@ -10044,7 +10287,7 @@
                     "Towers",
                     "\"RiotKillTimer\"",
                     ">",
-                    "15"
+                    "20"
                   ]
                 },
                 {
@@ -10061,10 +10304,12 @@
               "actions": [
                 {
                   "type": {
-                    "value": "Delete"
+                    "value": "TDTD::TowerV2::removeParticles"
                   },
                   "parameters": [
-                    "EffectIcon",
+                    "Towers",
+                    "TowerV2",
+                    "StatusParticles",
                     ""
                   ]
                 },
@@ -10087,7 +10332,7 @@
                     "Cheerleader",
                     "DiscerningCitizen",
                     "CommLeader",
-                    "EffectIcon",
+                    "StatusParticles",
                     ""
                   ]
                 },
@@ -10101,7 +10346,7 @@
                     "Cheerleader",
                     "DiscerningCitizen",
                     "CommLeader",
-                    "EffectIcon",
+                    "StatusParticles",
                     ""
                   ]
                 },
@@ -10115,7 +10360,7 @@
                     "Cheerleader",
                     "DiscerningCitizen",
                     "CommLeader",
-                    "EffectIcon",
+                    "StatusParticles",
                     ""
                   ]
                 },
@@ -10129,7 +10374,7 @@
                     "Cheerleader",
                     "DiscerningCitizen",
                     "CommLeader",
-                    "EffectIcon",
+                    "StatusParticles",
                     ""
                   ]
                 },
@@ -10143,7 +10388,7 @@
                     "Cheerleader",
                     "DiscerningCitizen",
                     "CommLeader",
-                    "EffectIcon",
+                    "StatusParticles",
                     ""
                   ]
                 },
@@ -10157,7 +10402,7 @@
                     "Cheerleader",
                     "DiscerningCitizen",
                     "CommLeader",
-                    "EffectIcon",
+                    "StatusParticles",
                     ""
                   ]
                 },
@@ -10171,7 +10416,7 @@
                     "Cheerleader",
                     "DiscerningCitizen",
                     "CommLeader",
-                    "EffectIcon",
+                    "StatusParticles",
                     ""
                   ]
                 },
@@ -10185,7 +10430,7 @@
                     "Cheerleader",
                     "DiscerningCitizen",
                     "CommLeader",
-                    "EffectIcon",
+                    "StatusParticles",
                     ""
                   ]
                 },
@@ -10199,7 +10444,7 @@
                     "Cheerleader",
                     "DiscerningCitizen",
                     "CommLeader",
-                    "EffectIcon",
+                    "StatusParticles",
                     ""
                   ]
                 },
@@ -10213,7 +10458,7 @@
                     "Cheerleader",
                     "DiscerningCitizen",
                     "CommLeader",
-                    "EffectIcon",
+                    "StatusParticles",
                     ""
                   ]
                 },
@@ -10227,7 +10472,7 @@
                     "Cheerleader",
                     "DiscerningCitizen",
                     "CommLeader",
-                    "EffectIcon",
+                    "StatusParticles",
                     ""
                   ]
                 },
@@ -10241,7 +10486,7 @@
                     "Cheerleader",
                     "DiscerningCitizen",
                     "CommLeader",
-                    "EffectIcon",
+                    "StatusParticles",
                     ""
                   ]
                 }
@@ -10652,7 +10897,7 @@
                         "value": "BuiltinCommonInstructions::CompareNumbers"
                       },
                       "parameters": [
-                        "RandomInRange(1,12)",
+                        "RandomInRange(1,1)",
                         "=",
                         "1"
                       ]
@@ -11395,8 +11640,193 @@
                   ]
                 }
               ],
-              "actions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "RangePainter",
+                    "doElse",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "StatusIcons"
+                  ]
+                }
+              ],
               "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "Towers",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PickNearest"
+                      },
+                      "parameters": [
+                        "Towers",
+                        "Cursor.X()+60",
+                        "Cursor.Y()+60",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarSceneTxt"
+                      },
+                      "parameters": [
+                        "selectedTower",
+                        "=",
+                        "Towers.ObjectName()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TDTD::MoveRangeIndicator"
+                      },
+                      "parameters": [
+                        "",
+                        "Towers",
+                        "RangePainter",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "RangePainter",
+                        "doElse",
+                        "False"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Towers",
+                            "NegThoughts",
+                            "True"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Montre"
+                          },
+                          "parameters": [
+                            "NegThoughtsIcon",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Towers",
+                            "RangeBoosted",
+                            "True"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Montre"
+                          },
+                          "parameters": [
+                            "RangeBoostIcon",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Towers",
+                            "isGrouped",
+                            "True"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Montre"
+                          },
+                          "parameters": [
+                            "IsGroupedIcon",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Towers",
+                            "CheerBoosted",
+                            "True"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Montre"
+                          },
+                          "parameters": [
+                            "CheerBoostIcon",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
                 {
                   "type": "BuiltinCommonInstructions::Comment",
                   "color": {
@@ -11419,17 +11849,6 @@
                       },
                       "parameters": [],
                       "subInstructions": [
-                        {
-                          "type": {
-                            "value": "SourisSurObjet"
-                          },
-                          "parameters": [
-                            "Cheerleader",
-                            "",
-                            "",
-                            ""
-                          ]
-                        },
                         {
                           "type": {
                             "value": "BuiltinCommonInstructions::And"
@@ -11457,6 +11876,16 @@
                                 "\"Psychological\""
                               ]
                             }
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "VarSceneTxt"
+                          },
+                          "parameters": [
+                            "selectedTower",
+                            "=",
+                            "\"Cheerleader\""
                           ]
                         }
                       ]
@@ -11505,17 +11934,6 @@
                       "subInstructions": [
                         {
                           "type": {
-                            "value": "SourisSurObjet"
-                          },
-                          "parameters": [
-                            "CaringCitizen",
-                            "",
-                            "",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
                             "value": "BuiltinCommonInstructions::And"
                           },
                           "parameters": [],
@@ -11541,6 +11959,16 @@
                                 "\"Psychological\""
                               ]
                             }
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "VarSceneTxt"
+                          },
+                          "parameters": [
+                            "selectedTower",
+                            "=",
+                            "\"CaringCitizen\""
                           ]
                         }
                       ]
@@ -11602,17 +12030,6 @@
                       "subInstructions": [
                         {
                           "type": {
-                            "value": "SourisSurObjet"
-                          },
-                          "parameters": [
-                            "Volunteer",
-                            "",
-                            "",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
                             "value": "BuiltinCommonInstructions::And"
                           },
                           "parameters": [],
@@ -11638,6 +12055,16 @@
                                 "\"Social\""
                               ]
                             }
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "VarSceneTxt"
+                          },
+                          "parameters": [
+                            "selectedTower",
+                            "=",
+                            "\"Volunteer\""
                           ]
                         }
                       ]
@@ -11699,17 +12126,6 @@
                       "subInstructions": [
                         {
                           "type": {
-                            "value": "SourisSurObjet"
-                          },
-                          "parameters": [
-                            "CommLeader",
-                            "",
-                            "",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
                             "value": "BuiltinCommonInstructions::And"
                           },
                           "parameters": [],
@@ -11735,6 +12151,16 @@
                                 "\"Social\""
                               ]
                             }
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "VarSceneTxt"
+                          },
+                          "parameters": [
+                            "selectedTower",
+                            "=",
+                            "\"CommLeader\""
                           ]
                         }
                       ]
@@ -11796,17 +12222,6 @@
                       "subInstructions": [
                         {
                           "type": {
-                            "value": "SourisSurObjet"
-                          },
-                          "parameters": [
-                            "CareerGuider",
-                            "",
-                            "",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
                             "value": "BuiltinCommonInstructions::And"
                           },
                           "parameters": [],
@@ -11832,6 +12247,16 @@
                                 "\"Economic\""
                               ]
                             }
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "VarSceneTxt"
+                          },
+                          "parameters": [
+                            "selectedTower",
+                            "=",
+                            "\"CareerGuider\""
                           ]
                         }
                       ]
@@ -11880,17 +12305,6 @@
                       "subInstructions": [
                         {
                           "type": {
-                            "value": "SourisSurObjet"
-                          },
-                          "parameters": [
-                            "Investor",
-                            "",
-                            "",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
                             "value": "BuiltinCommonInstructions::And"
                           },
                           "parameters": [],
@@ -11916,6 +12330,16 @@
                                 "\"Economic\""
                               ]
                             }
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "VarSceneTxt"
+                          },
+                          "parameters": [
+                            "selectedTower",
+                            "=",
+                            "\"Investor\""
                           ]
                         }
                       ]
@@ -11977,17 +12401,6 @@
                       "subInstructions": [
                         {
                           "type": {
-                            "value": "SourisSurObjet"
-                          },
-                          "parameters": [
-                            "Soldier",
-                            "",
-                            "",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
                             "value": "BuiltinCommonInstructions::And"
                           },
                           "parameters": [],
@@ -12013,6 +12426,16 @@
                                 "\"Military\""
                               ]
                             }
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "VarSceneTxt"
+                          },
+                          "parameters": [
+                            "selectedTower",
+                            "=",
+                            "\"Soldier\""
                           ]
                         }
                       ]
@@ -12061,17 +12484,6 @@
                       "subInstructions": [
                         {
                           "type": {
-                            "value": "SourisSurObjet"
-                          },
-                          "parameters": [
-                            "IntelligenceOfficer",
-                            "",
-                            "",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
                             "value": "BuiltinCommonInstructions::And"
                           },
                           "parameters": [],
@@ -12097,6 +12509,16 @@
                                 "\"Military\""
                               ]
                             }
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "VarSceneTxt"
+                          },
+                          "parameters": [
+                            "selectedTower",
+                            "=",
+                            "\"IntelligenceOfficer\""
                           ]
                         }
                       ]
@@ -12158,17 +12580,6 @@
                       "subInstructions": [
                         {
                           "type": {
-                            "value": "SourisSurObjet"
-                          },
-                          "parameters": [
-                            "Firefighter",
-                            "",
-                            "",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
                             "value": "BuiltinCommonInstructions::And"
                           },
                           "parameters": [],
@@ -12194,6 +12605,16 @@
                                 "\"Civil\""
                               ]
                             }
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "VarSceneTxt"
+                          },
+                          "parameters": [
+                            "selectedTower",
+                            "=",
+                            "\"Firefighter\""
                           ]
                         }
                       ]
@@ -12255,17 +12676,6 @@
                       "subInstructions": [
                         {
                           "type": {
-                            "value": "SourisSurObjet"
-                          },
-                          "parameters": [
-                            "Doctor",
-                            "",
-                            "",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
                             "value": "BuiltinCommonInstructions::And"
                           },
                           "parameters": [],
@@ -12291,6 +12701,16 @@
                                 "\"Civil\""
                               ]
                             }
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "VarSceneTxt"
+                          },
+                          "parameters": [
+                            "selectedTower",
+                            "=",
+                            "\"Doctor\""
                           ]
                         }
                       ]
@@ -12352,17 +12772,6 @@
                       "subInstructions": [
                         {
                           "type": {
-                            "value": "SourisSurObjet"
-                          },
-                          "parameters": [
-                            "WhiteHat",
-                            "",
-                            "",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
                             "value": "BuiltinCommonInstructions::And"
                           },
                           "parameters": [],
@@ -12388,6 +12797,16 @@
                                 "\"Digital\""
                               ]
                             }
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "VarSceneTxt"
+                          },
+                          "parameters": [
+                            "selectedTower",
+                            "=",
+                            "\"WhiteHat\""
                           ]
                         }
                       ]
@@ -12436,17 +12855,6 @@
                       "subInstructions": [
                         {
                           "type": {
-                            "value": "SourisSurObjet"
-                          },
-                          "parameters": [
-                            "DiscerningCitizen",
-                            "",
-                            "",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
                             "value": "BuiltinCommonInstructions::And"
                           },
                           "parameters": [],
@@ -12472,6 +12880,16 @@
                                 "\"Digital\""
                               ]
                             }
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "VarSceneTxt"
+                          },
+                          "parameters": [
+                            "selectedTower",
+                            "=",
+                            "\"DiscerningCitizen\""
                           ]
                         }
                       ]
@@ -12521,61 +12939,6 @@
                   },
                   "comment": "Range Indicator",
                   "comment2": ""
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetObjectVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "RangePainter",
-                        "doElse",
-                        "True"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "SourisSurObjet"
-                      },
-                      "parameters": [
-                        "Towers",
-                        "",
-                        "",
-                        ""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "TDTD::MoveRangeIndicator"
-                      },
-                      "parameters": [
-                        "",
-                        "Towers",
-                        "RangePainter",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetObjectVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "RangePainter",
-                        "doElse",
-                        "False"
-                      ]
-                    }
-                  ]
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -12659,6 +13022,14 @@
                             "DescBacking",
                             "\"255;255;255\""
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "Cache"
+                          },
+                          "parameters": [
+                            "StatusIcons"
+                          ]
                         }
                       ]
                     }
@@ -12674,7 +13045,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Attack or Defend",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -12693,7 +13063,7 @@
                     "Cheerleader",
                     "DiscerningCitizen",
                     "CommLeader",
-                    "EffectIcon",
+                    "StatusParticles",
                     ""
                   ]
                 },
@@ -12707,7 +13077,7 @@
                     "Cheerleader",
                     "DiscerningCitizen",
                     "CommLeader",
-                    "EffectIcon",
+                    "StatusParticles",
                     ""
                   ]
                 },
@@ -12721,7 +13091,7 @@
                     "Cheerleader",
                     "DiscerningCitizen",
                     "CommLeader",
-                    "EffectIcon",
+                    "StatusParticles",
                     ""
                   ]
                 },
@@ -12735,7 +13105,7 @@
                     "Cheerleader",
                     "DiscerningCitizen",
                     "CommLeader",
-                    "EffectIcon",
+                    "StatusParticles",
                     ""
                   ]
                 },
@@ -12749,7 +13119,7 @@
                     "Cheerleader",
                     "DiscerningCitizen",
                     "CommLeader",
-                    "EffectIcon",
+                    "StatusParticles",
                     ""
                   ]
                 },
@@ -12763,7 +13133,7 @@
                     "Cheerleader",
                     "DiscerningCitizen",
                     "CommLeader",
-                    "EffectIcon",
+                    "StatusParticles",
                     ""
                   ]
                 },
@@ -12777,7 +13147,7 @@
                     "Cheerleader",
                     "DiscerningCitizen",
                     "CommLeader",
-                    "EffectIcon",
+                    "StatusParticles",
                     ""
                   ]
                 },
@@ -12791,7 +13161,7 @@
                     "Cheerleader",
                     "DiscerningCitizen",
                     "CommLeader",
-                    "EffectIcon",
+                    "StatusParticles",
                     ""
                   ]
                 },
@@ -12805,7 +13175,7 @@
                     "Cheerleader",
                     "DiscerningCitizen",
                     "CommLeader",
-                    "EffectIcon",
+                    "StatusParticles",
                     ""
                   ]
                 },
@@ -12819,7 +13189,7 @@
                     "Cheerleader",
                     "DiscerningCitizen",
                     "CommLeader",
-                    "EffectIcon",
+                    "StatusParticles",
                     ""
                   ]
                 },
@@ -12833,7 +13203,7 @@
                     "Cheerleader",
                     "DiscerningCitizen",
                     "CommLeader",
-                    "EffectIcon",
+                    "StatusParticles",
                     ""
                   ]
                 },
@@ -12847,7 +13217,7 @@
                     "Cheerleader",
                     "DiscerningCitizen",
                     "CommLeader",
-                    "EffectIcon",
+                    "StatusParticles",
                     ""
                   ]
                 }
@@ -12862,7 +13232,7 @@
                   },
                   "parameters": [
                     "",
-                    "Cheerleader"
+                    "Doctor"
                   ]
                 },
                 {
@@ -12870,10 +13240,10 @@
                     "value": "CompareObjectTimer"
                   },
                   "parameters": [
-                    "Cheerleader",
+                    "Doctor",
                     "\"SecondTime\"",
                     ">",
-                    "Cheerleader.Variable(SecondRate)"
+                    "Doctor.Variable(SecondRate)"
                   ]
                 }
               ],
@@ -12883,7 +13253,7 @@
                     "value": "ResetObjectTimer"
                   },
                   "parameters": [
-                    "Cheerleader",
+                    "Doctor",
                     "\"SecondTime\""
                   ]
                 },
@@ -12893,9 +13263,9 @@
                   },
                   "parameters": [
                     "",
-                    "CheerleaderCureProjectile",
-                    "Cheerleader.PointX(\"OriginPoint\")",
-                    "Cheerleader.PointY(\"OriginPoint\")",
+                    "PosThoughtsProjectile",
+                    "Doctor.PointX(\"OriginPoint\")",
+                    "Doctor.PointY(\"OriginPoint\")",
                     "\"Projectile layer\""
                   ]
                 },
@@ -12904,11 +13274,11 @@
                     "value": "SetCenter"
                   },
                   "parameters": [
-                    "CheerleaderCureProjectile",
+                    "PosThoughtsProjectile",
                     "=",
-                    "Cheerleader.PointX(\"OriginPoint\")",
+                    "Doctor.PointX(\"OriginPoint\")",
                     "=",
-                    "Cheerleader.PointY(\"OriginPoint\")"
+                    "Doctor.PointY(\"OriginPoint\")"
                   ]
                 }
               ],
@@ -12942,9 +13312,9 @@
                         "value": "AddForceVers"
                       },
                       "parameters": [
-                        "CheerleaderCureProjectile",
+                        "PosThoughtsProjectile",
                         "Towers",
-                        "CheerleaderCureProjectile.Variable(Speed)",
+                        "PosThoughtsProjectile.Variable(Speed)",
                         "1"
                       ]
                     },
@@ -12953,7 +13323,7 @@
                         "value": "RotateTowardPosition"
                       },
                       "parameters": [
-                        "CheerleaderCureProjectile",
+                        "PosThoughtsProjectile",
                         "Towers.X()",
                         "Tower.Y()",
                         "0",
@@ -12965,7 +13335,7 @@
                         "value": "SetObjectVariableAsBoolean"
                       },
                       "parameters": [
-                        "CheerleaderCureProjectile",
+                        "PosThoughtsProjectile",
                         "Fired",
                         "True"
                       ]
@@ -12981,7 +13351,7 @@
                         "value": "ObjectVariableAsBoolean"
                       },
                       "parameters": [
-                        "CheerleaderCureProjectile",
+                        "PosThoughtsProjectile",
                         "Fired",
                         "True"
                       ]
@@ -12993,7 +13363,7 @@
                         "value": "Delete"
                       },
                       "parameters": [
-                        "CheerleaderCureProjectile",
+                        "PosThoughtsProjectile",
                         ""
                       ]
                     }
@@ -13003,14 +13373,14 @@
             },
             {
               "type": "BuiltinCommonInstructions::ForEach",
-              "object": "CheerleaderCureProjectile",
+              "object": "PosThoughtsProjectile",
               "conditions": [
                 {
                   "type": {
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "CheerleaderCureProjectile",
+                    "PosThoughtsProjectile",
                     "Towers",
                     "",
                     "",
@@ -13041,22 +13411,10 @@
                 },
                 {
                   "type": {
-                    "value": "TDTD::RemoveEffectIcon"
-                  },
-                  "parameters": [
-                    "",
-                    "Towers",
-                    "\"NegThoughts\"",
-                    "EffectIcon",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
                     "value": "Delete"
                   },
                   "parameters": [
-                    "CheerleaderCureProjectile",
+                    "PosThoughtsProjectile",
                     ""
                   ]
                 }
@@ -13536,9 +13894,8 @@
                     "EnemyV2",
                     "Towers",
                     "150",
-                    "EffectIcon",
                     "CaringCitizen",
-                    ""
+                    "CaringCitizen"
                   ]
                 }
               ]
@@ -13623,7 +13980,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "SpawnBox and Spawning",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -16949,7 +17305,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Shop Stuff",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -20842,70 +21197,12 @@
           "objectGroups": []
         },
         {
-          "description": "Spawn an Effect Icon at the Tower specified",
-          "fullName": "Spawn Effect Icon",
+          "description": "Summon particle indicator at a Tower",
+          "fullName": "Summon Particles",
           "functionType": "Action",
-          "name": "AddEffectIcon",
-          "sentence": "Spawn _PARAM2_ icon using _PARAM3_ at _PARAM1_",
+          "name": "SummonParticleIndicator",
+          "sentence": "Summon _PARAM2_ at _PARAM1_ with colour _PARAM3_ and bind ID",
           "events": [
-            {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "TODO: Allow two icons to not stack",
-              "comment2": ""
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ModVarScene"
-                  },
-                  "parameters": [
-                    "tempDisplace",
-                    "=",
-                    "0"
-                  ]
-                }
-              ]
-            },
-            {
-              "infiniteLoopWarning": true,
-              "type": "BuiltinCommonInstructions::While",
-              "whileConditions": [
-                {
-                  "type": {
-                    "value": "CollisionPoint"
-                  },
-                  "parameters": [
-                    "Icon",
-                    "Tower.X()+50*Variable(tempDisplace)",
-                    "Tower.Y()-48"
-                  ]
-                }
-              ],
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ModVarScene"
-                  },
-                  "parameters": [
-                    "tempDisplace",
-                    "+",
-                    "1"
-                  ]
-                }
-              ]
-            },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
@@ -20915,20 +21212,41 @@
                     "value": "Create"
                   },
                   "parameters": [
-                    "",
-                    "Icon",
-                    "Tower.X()+50*Variable(tempDisplace)",
-                    "Tower.Y()-48",
-                    "\"Shop Layer\""
+                    "Particles",
+                    "Particles",
+                    "Tower.X()",
+                    "Tower.Y()",
+                    "\"e\""
                   ]
                 },
                 {
                   "type": {
-                    "value": "SetAnimationName"
+                    "value": "SetCenter"
                   },
                   "parameters": [
-                    "Icon",
-                    "GetArgumentAsString(\"Name\")"
+                    "Particles",
+                    "=",
+                    "Tower.CenterX()",
+                    "=",
+                    "Tower.CenterY()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ParticleSystem::ParticleColor1"
+                  },
+                  "parameters": [
+                    "Particles",
+                    "GetArgumentAsString(\"Color\")"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ParticleSystem::ParticleColor2"
+                  },
+                  "parameters": [
+                    "Particles",
+                    "GetArgumentAsString(\"Color\")"
                   ]
                 },
                 {
@@ -20936,7 +21254,7 @@
                     "value": "ModVarObjet"
                   },
                   "parameters": [
-                    "Icon",
+                    "Particles",
                     "bindID",
                     "=",
                     "Tower.Variable(ID)"
@@ -20947,133 +21265,21 @@
           ],
           "parameters": [
             {
-              "description": "Tower to spawn Icon at",
+              "description": "Tower",
               "name": "Tower",
               "supplementaryInformation": "Sprite",
               "type": "objectList"
             },
             {
-              "description": "Icon Name",
-              "name": "Name",
-              "supplementaryInformation": "[\"NegThoughts\",\"CheerBoost\",\"DiscernBoost\",\"IsGrouped\"]",
-              "type": "stringWithSelector"
-            },
-            {
-              "description": "Icon Object",
-              "name": "Icon",
-              "supplementaryInformation": "Sprite",
-              "type": "objectList"
-            }
-          ],
-          "objectGroups": []
-        },
-        {
-          "description": "Remove an Effect Icon at the Tower specified",
-          "fullName": "Remove Effect Icon",
-          "functionType": "Action",
-          "name": "RemoveEffectIcon",
-          "sentence": "Remove _PARAM2_ icon of _PARAM3_ at _PARAM1_",
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ModVarScene"
-                  },
-                  "parameters": [
-                    "tempDisplace",
-                    "=",
-                    "0"
-                  ]
-                }
-              ]
-            },
-            {
-              "infiniteLoopWarning": true,
-              "type": "BuiltinCommonInstructions::While",
-              "whileConditions": [
-                {
-                  "type": {
-                    "value": "CollisionPoint"
-                  },
-                  "parameters": [
-                    "Icon",
-                    "Tower.X()+50*Variable(tempDisplace)",
-                    "Tower.Y()-48"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "AnimationName"
-                  },
-                  "parameters": [
-                    "Icon",
-                    "GetArgumentAsString(\"Name\")"
-                  ]
-                }
-              ],
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ModVarScene"
-                  },
-                  "parameters": [
-                    "tempDisplace",
-                    "+",
-                    "1"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "PickNearest"
-                  },
-                  "parameters": [
-                    "Icon",
-                    "Tower.X()+50*Variable(tempDisplace)",
-                    "Tower.Y()-48",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "Icon",
-                    ""
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "description": "Tower to spawn Icon at",
-              "name": "Tower",
-              "supplementaryInformation": "Sprite",
+              "description": "Particles",
+              "name": "Particles",
+              "supplementaryInformation": "ParticleSystem::ParticleEmitter",
               "type": "objectList"
             },
             {
-              "description": "Icon Name",
-              "name": "Name",
-              "supplementaryInformation": "[\"NegThoughts\",\"CheerBoost\",\"DiscernBoost\",\"IsGrouped\"]",
-              "type": "stringWithSelector"
-            },
-            {
-              "description": "Icon Object",
-              "name": "Icon",
-              "supplementaryInformation": "Sprite",
-              "type": "objectList"
+              "description": "Color",
+              "name": "Color",
+              "type": "color"
             }
           ],
           "objectGroups": []
@@ -21589,7 +21795,7 @@
               "fullName": "Inflict Negative Thoughts (for enemies)",
               "functionType": "Action",
               "name": "InflictSlow",
-              "sentence": "[For each _PARAM0_] Inflict Negative Thoughts for _PARAM2_ within _PARAM3_ pixels and add _PARAM4_ unless _PARAM5_ is near",
+              "sentence": "[For each _PARAM0_] Inflict Negative Thoughts for _PARAM2_ within _PARAM3_ pixels unless _PARAM4_ is near",
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::ForEach",
@@ -21638,18 +21844,6 @@
                         "NegThoughts",
                         "True"
                       ]
-                    },
-                    {
-                      "type": {
-                        "value": "TDTD::AddEffectIcon"
-                      },
-                      "parameters": [
-                        "",
-                        "AffectedTowers",
-                        "\"NegThoughts\"",
-                        "EffectIcon",
-                        ""
-                      ]
                     }
                   ]
                 },
@@ -21682,12 +21876,6 @@
                   "description": "The area of effect (in pixels). If the towers are below this distance from the enemy they will be inflicted with the effect.",
                   "name": "AoE",
                   "type": "expression"
-                },
-                {
-                  "description": "Effect Icon for display",
-                  "name": "EffectIcon",
-                  "supplementaryInformation": "Sprite",
-                  "type": "objectList"
                 },
                 {
                   "description": "Tower that protects others against effects",
@@ -22986,13 +23174,13 @@
                         },
                         {
                           "type": {
-                            "value": "TDTD::AddEffectIcon"
+                            "value": "TDTD::SummonParticleIndicator"
                           },
                           "parameters": [
                             "",
                             "Object",
-                            "\"CheerBoost\"",
-                            "EffectIcon",
+                            "Particles",
+                            "\"208;2;27\"",
                             ""
                           ]
                         }
@@ -23037,13 +23225,13 @@
                         },
                         {
                           "type": {
-                            "value": "TDTD::RemoveEffectIcon"
+                            "value": "TDTD::TowerV2::selectivelyRemoveParticles"
                           },
                           "parameters": [
-                            "",
                             "Object",
-                            "\"CheerBoost\"",
-                            "EffectIcon",
+                            "Behavior",
+                            "Particles",
+                            "\"208;2;27\"",
                             ""
                           ]
                         }
@@ -23116,13 +23304,13 @@
                         },
                         {
                           "type": {
-                            "value": "TDTD::AddEffectIcon"
+                            "value": "TDTD::SummonParticleIndicator"
                           },
                           "parameters": [
                             "",
                             "Object",
-                            "\"DiscernBoost\"",
-                            "EffectIcon",
+                            "Particles",
+                            "\"155;155;155\"",
                             ""
                           ]
                         }
@@ -23167,13 +23355,13 @@
                         },
                         {
                           "type": {
-                            "value": "TDTD::RemoveEffectIcon"
+                            "value": "TDTD::TowerV2::selectivelyRemoveParticles"
                           },
                           "parameters": [
-                            "",
                             "Object",
-                            "\"DiscernBoost\"",
-                            "EffectIcon",
+                            "Behavior",
+                            "Particles",
+                            "\"155;155;155\"",
                             ""
                           ]
                         }
@@ -23242,18 +23430,6 @@
                         },
                         {
                           "type": {
-                            "value": "TDTD::AddEffectIcon"
-                          },
-                          "parameters": [
-                            "",
-                            "Object",
-                            "\"IsGrouped\"",
-                            "EffectIcon",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
                             "value": "RemoveObjectTimer"
                           },
                           "parameters": [
@@ -23268,6 +23444,18 @@
                           "parameters": [
                             "Object",
                             "\"255;255;255\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TDTD::SummonParticleIndicator"
+                          },
+                          "parameters": [
+                            "",
+                            "Object",
+                            "Particles",
+                            "\"245;166;35\"",
+                            ""
                           ]
                         }
                       ]
@@ -23321,167 +23509,13 @@
                         },
                         {
                           "type": {
-                            "value": "TDTD::RemoveEffectIcon"
-                          },
-                          "parameters": [
-                            "",
-                            "Object",
-                            "\"IsGrouped\"",
-                            "EffectIcon",
-                            ""
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [],
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Or"
-                          },
-                          "parameters": [],
-                          "subInstructions": [
-                            {
-                              "type": {
-                                "value": "Distance"
-                              },
-                              "parameters": [
-                                "Object",
-                                "CommLeader",
-                                "CommLeader.Variable(Range)",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "BuiltinCommonInstructions::CompareStrings"
-                              },
-                              "parameters": [
-                                "Object.ObjectName()",
-                                "=",
-                                "\"CommLeader\""
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ObjectVariableAsBoolean"
+                            "value": "TDTD::TowerV2::selectivelyRemoveParticles"
                           },
                           "parameters": [
                             "Object",
-                            "isGrouped",
-                            ""
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "SetObjectVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "Object",
-                            "isGrouped",
-                            "True"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "TDTD::AddEffectIcon"
-                          },
-                          "parameters": [
-                            "",
-                            "Object",
-                            "\"IsGrouped\"",
-                            "EffectIcon",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "RemoveObjectTimer"
-                          },
-                          "parameters": [
-                            "Object",
-                            "\"RiotKillTimer\""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ChangeColor"
-                          },
-                          "parameters": [
-                            "Object",
-                            "\"255;255;255\""
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "ObjectVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "Object",
-                            "isGrouped",
-                            "True"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "inverted": true,
-                            "value": "Distance"
-                          },
-                          "parameters": [
-                            "Object",
-                            "CommLeader",
-                            "CommLeader.Variable(Range)",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::CompareStrings"
-                          },
-                          "parameters": [
-                            "Object.ObjectName()",
-                            "!=",
-                            "\"CommLeader\""
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "SetObjectVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "Object",
-                            "isGrouped",
-                            "False"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "TDTD::RemoveEffectIcon"
-                          },
-                          "parameters": [
-                            "",
-                            "Object",
-                            "\"IsGrouped\"",
-                            "EffectIcon",
+                            "Behavior",
+                            "Particles",
+                            "\"245;166;35\"",
                             ""
                           ]
                         }
@@ -23522,307 +23556,78 @@
                   "type": "objectList"
                 },
                 {
-                  "description": "Effect Icon",
-                  "name": "EffectIcon",
-                  "supplementaryInformation": "Sprite",
+                  "description": "Particle Emitter",
+                  "name": "Particles",
+                  "supplementaryInformation": "ParticleSystem::ParticleEmitter",
                   "type": "objectList"
                 }
               ],
               "objectGroups": []
             },
             {
-              "description": "Set the object variables correctly, run this every frame",
+              "description": "Force set the object variables correctly, run this every frame",
               "fullName": "Force update object variables",
               "functionType": "Action",
               "name": "forceApplyVars",
-              "sentence": "Force update object variables of _PARAM0_ according to _PARAM2_, _PARAM3_ and _PARAM4_ and spawn _PARAM5_",
+              "sentence": "Force update object variables of _PARAM0_ according to _PARAM2_, _PARAM3_ and _PARAM4_ and update _PARAM5_",
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::CompareStrings"
-                      },
-                      "parameters": [
-                        " Object.ObjectName()",
-                        "!=",
-                        "\"Cheerleader\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "VarObjet"
-                      },
-                      "parameters": [
-                        "Object",
-                        "FireRate",
-                        ">",
-                        "0"
-                      ]
-                    }
-                  ],
-                  "actions": [],
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "Distance"
-                          },
-                          "parameters": [
-                            "Object",
-                            "Cheerleader",
-                            "Cheerleader.Variable(Range)",
-                            ""
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "SetObjectVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "Object",
-                            "CheerBoosted",
-                            "True"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "TDTD::AddEffectIcon"
-                          },
-                          "parameters": [
-                            "",
-                            "Object",
-                            "\"CheerBoost\"",
-                            "EffectIcon",
-                            ""
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "inverted": true,
-                            "value": "Distance"
-                          },
-                          "parameters": [
-                            "Object",
-                            "Cheerleader",
-                            "Cheerleader.Variable(Range)",
-                            ""
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "SetObjectVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "Object",
-                            "CheerBoosted",
-                            "False"
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::CompareStrings"
-                      },
-                      "parameters": [
-                        " Object.ObjectName()",
-                        "!=",
-                        "\"DiscerningCitizen\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "VarObjet"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Range",
-                        ">",
-                        "0"
-                      ]
-                    }
-                  ],
-                  "actions": [],
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "Distance"
-                          },
-                          "parameters": [
-                            "Object",
-                            "DiscerningCitizen",
-                            "DiscerningCitizen.Variable(Range)",
-                            ""
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "SetObjectVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "Object",
-                            "RangeBoosted",
-                            "True"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "TDTD::AddEffectIcon"
-                          },
-                          "parameters": [
-                            "",
-                            "Object",
-                            "\"DiscernBoost\"",
-                            "EffectIcon",
-                            ""
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "inverted": true,
-                            "value": "Distance"
-                          },
-                          "parameters": [
-                            "Object",
-                            "DiscerningCitizen",
-                            "DiscerningCitizen.Variable(Range)",
-                            ""
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "SetObjectVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "Object",
-                            "RangeBoosted",
-                            "False"
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
-                  "actions": [],
-                  "events": [
+                  "actions": [
                     {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "Distance"
-                          },
-                          "parameters": [
-                            "Object",
-                            "CommLeader",
-                            "CommLeader.Variable(Range)",
-                            ""
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "SetObjectVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "Object",
-                            "isGrouped",
-                            "True"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "TDTD::AddEffectIcon"
-                          },
-                          "parameters": [
-                            "",
-                            "Object",
-                            "\"IsGrouped\"",
-                            "EffectIcon",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "RemoveObjectTimer"
-                          },
-                          "parameters": [
-                            "Object",
-                            "\"RiotKillTimer\""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ChangeColor"
-                          },
-                          "parameters": [
-                            "Object",
-                            "\"255;255;255\""
-                          ]
-                        }
+                      "type": {
+                        "value": "TDTD::TowerV2::removeParticles"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "Particles",
+                        ""
                       ]
                     },
                     {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "inverted": true,
-                            "value": "Distance"
-                          },
-                          "parameters": [
-                            "Object",
-                            "CommLeader",
-                            "CommLeader.Variable(Range)",
-                            ""
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "SetObjectVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "Object",
-                            "isGrouped",
-                            "False"
-                          ]
-                        }
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Object",
+                        "CheerBoosted",
+                        "False"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Object",
+                        "RangeBoosted",
+                        "False"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Object",
+                        "isGrouped",
+                        "False"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TDTD::TowerV2::applyEffectVars"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "Cheerleader",
+                        "DiscerningCitizen",
+                        "CommLeader",
+                        "Particles",
+                        ""
                       ]
                     }
                   ]
@@ -23860,31 +23665,31 @@
                   "type": "objectList"
                 },
                 {
-                  "description": "Effect Icon",
-                  "name": "EffectIcon",
-                  "supplementaryInformation": "Sprite",
+                  "description": "Particles",
+                  "name": "Particles",
+                  "supplementaryInformation": "ParticleSystem::ParticleEmitter",
                   "type": "objectList"
                 }
               ],
               "objectGroups": []
             },
             {
-              "description": "Remove all effect icons from a Tower.",
-              "fullName": "Remove all effect icons",
+              "description": "Remove all particles from a Tower.",
+              "fullName": "Remove all associated particles",
               "functionType": "Action",
-              "name": "removeEffectIcons",
+              "name": "removeParticles",
               "sentence": "Remove all _PARAM2_ from _PARAM0_",
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::ForEach",
-                  "object": "EffectIcon",
+                  "object": "Particles",
                   "conditions": [
                     {
                       "type": {
                         "value": "VarObjet"
                       },
                       "parameters": [
-                        "EffectIcon",
+                        "Particles",
                         "bindID",
                         "=",
                         "Object.Variable(ID)"
@@ -23897,63 +23702,7 @@
                         "value": "Delete"
                       },
                       "parameters": [
-                        "EffectIcon",
-                        ""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::ForEach",
-                  "object": "EffectIcon",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "VarObjet"
-                      },
-                      "parameters": [
-                        "EffectIcon",
-                        "bindID",
-                        "=",
-                        "Object.Variable(ID)"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Delete"
-                      },
-                      "parameters": [
-                        "EffectIcon",
-                        ""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::ForEach",
-                  "object": "EffectIcon",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "VarObjet"
-                      },
-                      "parameters": [
-                        "EffectIcon",
-                        "bindID",
-                        "=",
-                        "Object.Variable(ID)"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Delete"
-                      },
-                      "parameters": [
-                        "EffectIcon",
+                        "Particles",
                         ""
                       ]
                     }
@@ -23974,10 +23723,152 @@
                   "type": "behavior"
                 },
                 {
-                  "description": "Effect Icon",
-                  "name": "EffectIcon",
-                  "supplementaryInformation": "Sprite",
+                  "description": "Particles",
+                  "name": "Particles",
+                  "supplementaryInformation": "ParticleSystem::ParticleEmitter",
                   "type": "objectList"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Remove some particles from a Tower.",
+              "fullName": "Remove some associated particles",
+              "functionType": "Action",
+              "name": "selectivelyRemoveParticles",
+              "sentence": "Remove all _PARAM2_ with color _PARAM3_ from _PARAM0_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarSceneTxt"
+                      },
+                      "parameters": [
+                        "redValue",
+                        "=",
+                        "\"\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarSceneTxt"
+                      },
+                      "parameters": [
+                        "blueValue",
+                        "=",
+                        "\"\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarSceneTxt"
+                      },
+                      "parameters": [
+                        "greenValue",
+                        "=",
+                        "\"\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::JsCode",
+                  "inlineCode": [
+                    "var colorValues = eventsFunctionContext.getArgument(\"Color\").split(\";\")",
+                    "runtimeScene.getVariables.get(\"redValue\").setString(colorValues[0])",
+                    "runtimeScene.getVariables.get(\"blueValue\").setString(colorValues[1])",
+                    "runtimeScene.getVariables.get(\"greenValue\").setString(colorValues[2])",
+                    "console.log(colorValues)"
+                  ],
+                  "parameterObjects": "Object",
+                  "useStrict": true,
+                  "eventsSheetExpanded": false
+                },
+                {
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "Particles",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "Particles",
+                        "bindID",
+                        "=",
+                        "Object.Variable(ID)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ParticleSystem::ParticleRed1"
+                      },
+                      "parameters": [
+                        "Particles",
+                        "=",
+                        "ToNumber(VariableString(redValue))"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ParticleSystem::ParticleBlue1"
+                      },
+                      "parameters": [
+                        "Particles",
+                        "=",
+                        "ToNumber(VariableString(blueValue))"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ParticleSystem::ParticleGreen1"
+                      },
+                      "parameters": [
+                        "Particles",
+                        "=",
+                        "ToNumber(VariableString(greenValue))"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Particles",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "Sprite",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "TDTD::TowerV2",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Particles",
+                  "name": "Particles",
+                  "supplementaryInformation": "ParticleSystem::ParticleEmitter",
+                  "type": "objectList"
+                },
+                {
+                  "description": "Color",
+                  "name": "Color",
+                  "type": "color"
                 }
               ],
               "objectGroups": []
