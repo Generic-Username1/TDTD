@@ -3424,7 +3424,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.9793038553082122,
+        "zoomFactor": 0.6924723969305666,
         "windowMask": false
       },
       "objectsGroups": [
@@ -8799,6 +8799,51 @@
           "variables": [],
           "effects": [],
           "behaviors": []
+        },
+        {
+          "additive": false,
+          "assetStoreId": "",
+          "destroyWhenNoParticles": true,
+          "emitterAngleA": 0,
+          "emitterAngleB": 360,
+          "emitterForceMax": 40,
+          "emitterForceMin": 45,
+          "flow": 20,
+          "maxParticleNb": 50,
+          "name": "NewParticlesEmitter",
+          "particleAlpha1": 204,
+          "particleAlpha2": 0,
+          "particleAlphaRandomness1": 0,
+          "particleAlphaRandomness2": 0,
+          "particleAngle1": 0,
+          "particleAngle2": 0,
+          "particleAngleRandomness1": 0,
+          "particleAngleRandomness2": 0,
+          "particleBlue1": 51,
+          "particleBlue2": 27,
+          "particleGravityX": 0,
+          "particleGravityY": 0,
+          "particleGreen1": 51,
+          "particleGreen2": 2,
+          "particleLifeTimeMax": 1.5,
+          "particleLifeTimeMin": 0.5,
+          "particleRed1": 255,
+          "particleRed2": 208,
+          "particleSize1": 100,
+          "particleSize2": 100,
+          "particleSizeRandomness1": 0,
+          "particleSizeRandomness2": 0,
+          "rendererParam1": 3,
+          "rendererParam2": 1,
+          "rendererType": "Point",
+          "tags": "",
+          "tank": -1,
+          "textureParticleName": "",
+          "type": "ParticleSystem::ParticleEmitter",
+          "zoneRadius": 64,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
         }
       ],
       "events": [
@@ -9174,70 +9219,34 @@
                         "=",
                         "-1"
                       ]
-                    }
-                  ],
-                  "events": [
+                    },
                     {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::CompareStrings"
-                          },
-                          "parameters": [
-                            "VariableString(skill_issue)",
-                            "=",
-                            "\"0\""
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "JSONToVariableStructure"
-                          },
-                          "parameters": [
-                            "\"[[{\\\"action\\\":\\\"delay\\\",\\\"duration\\\":10}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"Terrorist\\\",\\\"qty\\\":1}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"Terrorist\\\",\\\"qty\\\":1}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"Terrorist\\\",\\\"qty\\\":2}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"Terrorist\\\",\\\"qty\\\":2},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"InternetTroll\\\",\\\"qty\\\":1}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"Terrorist\\\",\\\"qty\\\":3}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"InternetTroll\\\",\\\"qty\\\":3}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"Terrorist\\\",\\\"qty\\\":3},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"InternetTroll\\\",\\\"qty\\\":2}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"SelfRad\\\",\\\"qty\\\":1}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"Terrorist\\\",\\\"qty\\\":2},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"InternetTroll\\\",\\\"qty\\\":2},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"SelfRad\\\",\\\"qty\\\":1}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"SelfRad\\\",\\\"qty\\\":3}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"Terrorist\\\",\\\"qty\\\":4},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"InternetTroll\\\",\\\"qty\\\":4}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"Terrorist\\\",\\\"qty\\\":5},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"InternetTroll\\\",\\\"qty\\\":4}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"Terrorist\\\",\\\"qty\\\":6},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"SelfRad\\\",\\\"qty\\\":2}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"Terrorist\\\",\\\"qty\\\":7},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"SelfRad\\\",\\\"qty\\\":3}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"Terrorist\\\",\\\"qty\\\":8},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"InternetTroll\\\",\\\"qty\\\":5},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"SelfRad\\\",\\\"qty\\\":1}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"Terrorist\\\",\\\"qty\\\":9},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"InternetTroll\\\",\\\"qty\\\":5},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"SelfRad\\\",\\\"qty\\\":2}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"Terrorist\\\",\\\"qty\\\":10},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"InternetTroll\\\",\\\"qty\\\":6},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"SelfRad\\\",\\\"qty\\\":3}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"Terrorist\\\",\\\"qty\\\":10},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"InternetTroll\\\",\\\"qty\\\":8},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"SelfRad\\\",\\\"qty\\\":3}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"Terrorist\\\",\\\"qty\\\":15},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"InternetTroll\\\",\\\"qty\\\":10},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"SelfRad\\\",\\\"qty\\\":5}]]\"",
-                            "Waves"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ModVarScene"
-                          },
-                          "parameters": [
-                            "wave",
-                            "=",
-                            "0"
-                          ]
-                        }
+                      "type": {
+                        "value": "JSONToVariableStructure"
+                      },
+                      "parameters": [
+                        "\"[[{\\\"action\\\":\\\"delay\\\",\\\"duration\\\":10}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"Terrorist\\\",\\\"qty\\\":1}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"Terrorist\\\",\\\"qty\\\":1}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"Terrorist\\\",\\\"qty\\\":2}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"Terrorist\\\",\\\"qty\\\":2},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"InternetTroll\\\",\\\"qty\\\":1}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"Terrorist\\\",\\\"qty\\\":3}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"InternetTroll\\\",\\\"qty\\\":3}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"Terrorist\\\",\\\"qty\\\":3},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"InternetTroll\\\",\\\"qty\\\":2}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"SelfRad\\\",\\\"qty\\\":1}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"Terrorist\\\",\\\"qty\\\":2},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"InternetTroll\\\",\\\"qty\\\":2},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"SelfRad\\\",\\\"qty\\\":1}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"SelfRad\\\",\\\"qty\\\":3}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"Terrorist\\\",\\\"qty\\\":4},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"InternetTroll\\\",\\\"qty\\\":4}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"Terrorist\\\",\\\"qty\\\":5},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"InternetTroll\\\",\\\"qty\\\":4}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"Terrorist\\\",\\\"qty\\\":6},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"SelfRad\\\",\\\"qty\\\":2}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"Terrorist\\\",\\\"qty\\\":7},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"SelfRad\\\",\\\"qty\\\":3}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"Terrorist\\\",\\\"qty\\\":8},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"InternetTroll\\\",\\\"qty\\\":5},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"SelfRad\\\",\\\"qty\\\":1}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"Terrorist\\\",\\\"qty\\\":9},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"InternetTroll\\\",\\\"qty\\\":5},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"SelfRad\\\",\\\"qty\\\":2}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"Terrorist\\\",\\\"qty\\\":10},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"InternetTroll\\\",\\\"qty\\\":6},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"SelfRad\\\",\\\"qty\\\":3}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"Terrorist\\\",\\\"qty\\\":10},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"InternetTroll\\\",\\\"qty\\\":8},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"SelfRad\\\",\\\"qty\\\":3}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"Terrorist\\\",\\\"qty\\\":15},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"InternetTroll\\\",\\\"qty\\\":10},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"SelfRad\\\",\\\"qty\\\":5}]]\"",
+                        "Waves"
                       ]
                     },
                     {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::CompareStrings"
-                          },
-                          "parameters": [
-                            "VariableString(skill_issue)",
-                            "!=",
-                            "\"0\""
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "BitmapText::BitmapTextObject::SetText"
-                          },
-                          "parameters": [
-                            "CurrentEvent",
-                            "=",
-                            "\"Internet\nConnection\nIssue\""
-                          ]
-                        }
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "wave",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "maxWave",
+                        "=",
+                        "VariableChildCount(Waves)-1"
                       ]
                     }
                   ]
@@ -9577,6 +9586,21 @@
                       ]
                     }
                   ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetSceneVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "initDone",
+                        "True"
+                      ]
+                    }
+                  ]
                 }
               ]
             }
@@ -9584,11 +9608,25 @@
           "parameters": []
         },
         {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneVariableAsBoolean"
+              },
+              "parameters": [
+                "initDone",
+                "True"
+              ]
+            }
+          ],
+          "actions": []
+        },
+        {
           "colorB": 228,
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Continuous Events",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -10227,6 +10265,55 @@
               "conditions": [
                 {
                   "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "Variable(wave)",
+                    ">",
+                    "Variable(maxWave)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareObjectTimer"
+                  },
+                  "parameters": [
+                    "Spawner",
+                    "\"SpawnerClock\"",
+                    ">=",
+                    "Variable(waveDelay)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SceneInstancesCount"
+                  },
+                  "parameters": [
+                    "Enemies",
+                    "Enemies",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "BitmapText::BitmapTextObject::SetText"
+                  },
+                  "parameters": [
+                    "CurrentEvent",
+                    "=",
+                    "\"You win!\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
                     "value": "CompareObjectTimer"
                   },
                   "parameters": [
@@ -10243,7 +10330,7 @@
                   "parameters": [
                     "Variable(wave)",
                     "<=",
-                    "VariableChildCount(Waves)"
+                    "Variable(maxWave)"
                   ]
                 }
               ],
@@ -10383,7 +10470,7 @@
                       "parameters": [
                         "CurrentEvent",
                         "+",
-                        "ToString(VariableChildCount(Waves))"
+                        "ToString(Variable(maxWave))"
                       ]
                     }
                   ]
@@ -10565,7 +10652,7 @@
                         "value": "BuiltinCommonInstructions::CompareNumbers"
                       },
                       "parameters": [
-                        "RandomInRange(1,1)",
+                        "RandomInRange(1,12)",
                         "=",
                         "1"
                       ]
@@ -10669,33 +10756,6 @@
               ]
             },
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::CompareNumbers"
-                  },
-                  "parameters": [
-                    "Variable(wave)",
-                    ">",
-                    "VariableChildCount(Waves)"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "BitmapText::BitmapTextObject::SetText"
-                  },
-                  "parameters": [
-                    "CurrentEvent",
-                    "=",
-                    "\"You win!\""
-                  ]
-                }
-              ]
-            },
-            {
               "type": "BuiltinCommonInstructions::Comment",
               "color": {
                 "b": 109,
@@ -10709,6 +10769,7 @@
               "comment2": ""
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -10966,6 +11027,7 @@
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -11052,6 +11114,7 @@
               "comment2": ""
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -11304,6 +11367,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Tower/Enemy Info",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -21084,6 +21148,17 @@
                             "Pathfinder",
                             "=",
                             "0"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Object",
+                            "hasSlipped",
+                            "True"
                           ]
                         }
                       ]
