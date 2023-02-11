@@ -17,7 +17,7 @@
     "sizeOnStartupMode": "",
     "templateSlug": "",
     "useExternalSourceFiles": false,
-    "version": "0.1.0",
+    "version": "0.1.1",
     "name": "Total Defence Tower Defence",
     "description": "",
     "author": "SidGaming",
@@ -692,7 +692,7 @@
         "alwaysLoaded": false,
         "file": "sprites/Projectiles/e-1-0.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"sprites/Projectiles/e-1-0.png\",\"extension\":\".png\"}",
         "name": "sprites\\Projectiles\\e-1-0.png",
         "smoothed": true,
         "userAdded": false
@@ -2191,6 +2191,89 @@
         "name": "assets\\Menu.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image42.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image42",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Apply.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Apply.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Effects/RiotWarning.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Effects\\RiotWarning.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_Effects_RiotWarning.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sprites\\Effects\\RiotWarning.png2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_Effects_RiotWarning.png3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sprites\\Effects\\RiotWarning.png3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_Effects_RiotWarning.png4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sprites\\Effects\\RiotWarning.png4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_UI_CommSupport.png32.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "sprites\\UI\\CommSupport.png32",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/fire.wav",
+        "kind": "audio",
+        "metadata": "{\"extension\":\".wav\",\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Laser/shoot 7\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0,\\\"sustain\\\":0.06,\\\"sustainPunch\\\":40,\\\"decay\\\":0.05,\\\"tremoloDepth\\\":0,\\\"tremoloFrequency\\\":10,\\\"frequency\\\":536.6171894555281,\\\"frequencySweep\\\":-500,\\\"frequencyDeltaSweep\\\":-1400,\\\"repeatFrequency\\\":0,\\\"frequencyJump1Onset\\\":33,\\\"frequencyJump1Amount\\\":0,\\\"frequencyJump2Onset\\\":66,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":0,\\\"harmonicsFalloff\\\":0.5,\\\"waveform\\\":\\\"sawtooth\\\",\\\"interpolateNoise\\\":true,\\\"vibratoDepth\\\":0,\\\"vibratoFrequency\\\":10,\\\"squareDuty\\\":70,\\\"squareDutySweep\\\":60,\\\"flangerOffset\\\":0,\\\"flangerOffsetSweep\\\":0,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":3426.5196875526262,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":0,\\\"highPassCutoffSweep\\\":0,\\\"compression\\\":1,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"fire\"}}",
+        "name": "fire",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/destroyed.wav",
+        "kind": "audio",
+        "metadata": "{\"extension\":\".wav\",\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Explosion 6\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0,\\\"sustain\\\":0.07,\\\"sustainPunch\\\":0,\\\"decay\\\":0.33,\\\"tremoloDepth\\\":0,\\\"tremoloFrequency\\\":10,\\\"frequency\\\":10000,\\\"frequencySweep\\\":-4600,\\\"frequencyDeltaSweep\\\":-2600,\\\"repeatFrequency\\\":0,\\\"frequencyJump1Onset\\\":33,\\\"frequencyJump1Amount\\\":0,\\\"frequencyJump2Onset\\\":66,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":0,\\\"harmonicsFalloff\\\":0.5,\\\"waveform\\\":\\\"pinknoise\\\",\\\"interpolateNoise\\\":true,\\\"vibratoDepth\\\":0,\\\"vibratoFrequency\\\":10,\\\"squareDuty\\\":50,\\\"squareDutySweep\\\":0,\\\"flangerOffset\\\":0,\\\"flangerOffsetSweep\\\":0,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":22050,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":0,\\\"highPassCutoffSweep\\\":0,\\\"compression\\\":1,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"destroyed\"}}",
+        "name": "destroyed",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2305,6 +2388,12 @@
           "name": "SecondRate",
           "type": "number",
           "value": 3
+        },
+        {
+          "folded": true,
+          "name": "Saved",
+          "type": "number",
+          "value": 0
         }
       ],
       "effects": [
@@ -2663,7 +2752,7 @@
           "folded": true,
           "name": "Range",
           "type": "number",
-          "value": 200
+          "value": 225
         },
         {
           "folded": true,
@@ -2717,7 +2806,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Soldier",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "OriginPoint",
+                      "x": 101.47148437499999,
+                      "y": 39.301171875
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2747,7 +2842,13 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "assets\\Untitled2.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "OriginPoint",
+                      "x": 19.121484374999998,
+                      "y": 38.626171875
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3323,7 +3424,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.41174655068641053,
+        "zoomFactor": 0.9793038553082122,
         "windowMask": false
       },
       "objectsGroups": [
@@ -3446,6 +3547,34 @@
             },
             {
               "name": "ShopCostBottom"
+            }
+          ]
+        },
+        {
+          "name": "Unspawnanble",
+          "objects": [
+            {
+              "name": "WalkTiles"
+            },
+            {
+              "name": "Fire"
+            },
+            {
+              "name": "EventBacking"
+            },
+            {
+              "name": "DescBacking"
+            }
+          ]
+        },
+        {
+          "name": "ConfirmBox",
+          "objects": [
+            {
+              "name": "Confirm"
+            },
+            {
+              "name": "ConfirmPrompt"
             }
           ]
         }
@@ -3641,12 +3770,12 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "height": 61,
           "layer": "",
           "name": "SelectedDesc",
           "persistentUuid": "ce1b61ee-ffd3-4566-bb31-7953d0605931",
-          "width": 0,
+          "width": 617,
           "x": 602,
           "y": 43,
           "zOrder": 1007,
@@ -4278,13 +4407,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 115,
+          "height": 153,
           "layer": "",
           "name": "Fire",
           "persistentUuid": "ac8e9cdd-023f-4e28-b638-c23b12647b71",
           "width": 107,
-          "x": 1495,
-          "y": 116,
+          "x": 1490,
+          "y": 180,
           "zOrder": 1032,
           "numberProperties": [],
           "stringProperties": [],
@@ -4298,8 +4427,8 @@
           "name": "Fire",
           "persistentUuid": "6a1018e7-877a-48d2-9f74-d04d93ab8939",
           "width": 91,
-          "x": 1312,
-          "y": 910,
+          "x": 1426,
+          "y": 919,
           "zOrder": 1033,
           "numberProperties": [],
           "stringProperties": [],
@@ -4313,8 +4442,8 @@
           "name": "Fire",
           "persistentUuid": "70f408b2-c5ba-45af-8e6f-df820efe8ff9",
           "width": 98,
-          "x": 46,
-          "y": 272,
+          "x": 1362,
+          "y": 146,
           "zOrder": 1034,
           "numberProperties": [],
           "stringProperties": [],
@@ -4323,13 +4452,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 148,
+          "height": 95,
           "layer": "",
           "name": "Fire",
           "persistentUuid": "fe64aac1-da99-4846-86aa-e5a3d0198d99",
-          "width": 119,
-          "x": 38,
-          "y": 840,
+          "width": 75,
+          "x": 46,
+          "y": 953,
           "zOrder": 1035,
           "numberProperties": [],
           "stringProperties": [],
@@ -4423,6 +4552,66 @@
           "x": 1319,
           "y": 13,
           "zOrder": 1038,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 95,
+          "layer": "",
+          "name": "Fire",
+          "persistentUuid": "bde85db7-48f8-4836-8e48-4863ce2cfd72",
+          "width": 75,
+          "x": 587,
+          "y": 523,
+          "zOrder": 1035,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Confirm",
+          "persistentUuid": "6252693f-d212-4ab6-ab4c-bc736c1e5bee",
+          "width": 0,
+          "x": 29,
+          "y": 943,
+          "zOrder": 1039,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "ConfirmPrompt",
+          "persistentUuid": "dde66c50-432e-4310-9694-a2a5cdc8263d",
+          "width": 0,
+          "x": 163,
+          "y": 982,
+          "zOrder": 1040,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "RiotWarning",
+          "persistentUuid": "17c9ec54-5b63-421c-aff2-602c7e82233f",
+          "width": 0,
+          "x": 1215,
+          "y": 7,
+          "zOrder": 1042,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4672,15 +4861,16 @@
           ],
           "animations": [
             {
-              "name": "",
+              "name": "sprites\\Projectiles\\e-1-0.png",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
+                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "sprites\\Projectiles\\e-1-0.png",
                       "points": [],
                       "originPoint": {
@@ -4694,7 +4884,22 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10.025959968566895,
+                            "y": 11.635150909423828
+                          },
+                          {
+                            "x": 106.52144622802734,
+                            "y": 21.48619842529297
+                          },
+                          {
+                            "x": 10.249847412109375,
+                            "y": 31.33724594116211
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -7550,7 +7755,7 @@
               "folded": true,
               "name": "Damage",
               "type": "number",
-              "value": 10
+              "value": 25
             },
             {
               "folded": true,
@@ -7654,7 +7859,7 @@
               "folded": true,
               "name": "MoneyDrop",
               "type": "number",
-              "value": 70
+              "value": 80
             }
           ],
           "effects": [
@@ -7858,7 +8063,7 @@
               "folded": true,
               "name": "MoneyDrop",
               "type": "number",
-              "value": 30
+              "value": 50
             }
           ],
           "effects": [
@@ -8137,6 +8342,131 @@
         },
         {
           "assetStoreId": "",
+          "name": "SelfRad",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "Health",
+              "type": "number",
+              "value": 300
+            },
+            {
+              "folded": true,
+              "name": "Pillar",
+              "type": "string",
+              "value": "Psychological"
+            },
+            {
+              "folded": true,
+              "name": "MaxSpeed",
+              "type": "number",
+              "value": 150
+            },
+            {
+              "folded": true,
+              "name": "stunAfterDeath",
+              "type": "boolean",
+              "value": true
+            },
+            {
+              "folded": true,
+              "name": "MoneyDrop",
+              "type": "number",
+              "value": 100
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Glitch",
+              "name": "Glitch",
+              "doubleParameters": {
+                "animationFrequency": 60,
+                "blueX": 10,
+                "blueY": -4,
+                "direction": 0,
+                "fillMode": 0,
+                "greenX": 10,
+                "greenY": -4,
+                "minSize": 8,
+                "offset": 100,
+                "redX": 2,
+                "redY": 2,
+                "sampleSize": 512,
+                "slices": 5
+              },
+              "stringParameters": {},
+              "booleanParameters": {
+                "average": false
+              }
+            }
+          ],
+          "behaviors": [
+            {
+              "name": "EnemyV2",
+              "type": "TDTD::EnemyV2",
+              "Pathfinder": "Pathfinding",
+              "TargetX": 1190,
+              "TargetY": 350
+            },
+            {
+              "name": "Pathfinding",
+              "type": "PathfindingBehavior::PathfindingBehavior",
+              "acceleration": 400,
+              "allowDiagonals": true,
+              "angleOffset": 0,
+              "angularMaxSpeed": 180,
+              "cellHeight": 20,
+              "cellWidth": 20,
+              "extraBorder": 0,
+              "gridOffsetX": 0,
+              "gridOffsetY": 0,
+              "maxSpeed": 150,
+              "rotateObject": true,
+              "smoothingMaxCellGap": 1
+            },
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "sprites\\Enemies\\SelfRad\\still.png",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites\\Enemies\\SelfRad\\still.png2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
           "name": "EffectIcon",
           "tags": "",
           "type": "Sprite",
@@ -8283,101 +8613,6 @@
         },
         {
           "assetStoreId": "",
-          "name": "SelfRad",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [
-            {
-              "folded": true,
-              "name": "Health",
-              "type": "number",
-              "value": 300
-            },
-            {
-              "folded": true,
-              "name": "Pillar",
-              "type": "string",
-              "value": "Psychological"
-            },
-            {
-              "folded": true,
-              "name": "MaxSpeed",
-              "type": "number",
-              "value": 150
-            },
-            {
-              "folded": true,
-              "name": "stunAfterDeath",
-              "type": "boolean",
-              "value": true
-            }
-          ],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "EnemyV2",
-              "type": "TDTD::EnemyV2",
-              "Pathfinder": "Pathfinding",
-              "TargetX": 1190,
-              "TargetY": 350
-            },
-            {
-              "name": "Pathfinding",
-              "type": "PathfindingBehavior::PathfindingBehavior",
-              "acceleration": 400,
-              "allowDiagonals": true,
-              "angleOffset": 0,
-              "angularMaxSpeed": 180,
-              "cellHeight": 20,
-              "cellWidth": 20,
-              "extraBorder": 0,
-              "gridOffsetX": 0,
-              "gridOffsetY": 0,
-              "maxSpeed": 150,
-              "rotateObject": true,
-              "smoothingMaxCellGap": 1
-            },
-            {
-              "name": "Tween",
-              "type": "Tween::TweenBehavior"
-            }
-          ],
-          "animations": [
-            {
-              "name": "sprites\\Enemies\\SelfRad\\still.png",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "sprites\\Enemies\\SelfRad\\still.png2",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "assetStoreId": "",
           "name": "Restart",
           "tags": "",
           "type": "Sprite",
@@ -8416,6 +8651,154 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Confirm",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\Apply.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "ConfirmPrompt",
+          "tags": "",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "Confirm?",
+            "opacity": 255,
+            "scale": 1,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "assets\\fonts\\AlbaSlab\\36px\\Alba Slab 36px.fnt",
+            "textureAtlasResourceName": "assets\\fonts\\AlbaSlab\\36px\\Alba Slab 36px.png",
+            "align": "left",
+            "wordWrap": true
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "RiotWarning",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "sprites\\Effects\\RiotWarning.png",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites\\Effects\\RiotWarning.png4",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "additive": false,
+          "assetStoreId": "",
+          "destroyWhenNoParticles": true,
+          "emitterAngleA": 0,
+          "emitterAngleB": 0,
+          "emitterForceMax": 0,
+          "emitterForceMin": 0,
+          "flow": 1,
+          "maxParticleNb": 1,
+          "name": "CommSupportEffect",
+          "particleAlpha1": 204,
+          "particleAlpha2": 0,
+          "particleAlphaRandomness1": 0,
+          "particleAlphaRandomness2": 0,
+          "particleAngle1": -50,
+          "particleAngle2": 50,
+          "particleAngleRandomness1": 0,
+          "particleAngleRandomness2": 0,
+          "particleBlue1": 255,
+          "particleBlue2": 255,
+          "particleGravityX": 0,
+          "particleGravityY": 200,
+          "particleGreen1": 255,
+          "particleGreen2": 255,
+          "particleLifeTimeMax": 1.5,
+          "particleLifeTimeMin": 1,
+          "particleRed1": 255,
+          "particleRed2": 255,
+          "particleSize1": 100,
+          "particleSize2": 80,
+          "particleSizeRandomness1": 0,
+          "particleSizeRandomness2": 0,
+          "rendererParam1": 3,
+          "rendererParam2": 1,
+          "rendererType": "Quad",
+          "tags": "",
+          "tank": 1,
+          "textureParticleName": "sprites\\UI\\CommSupport.png32",
+          "type": "ParticleSystem::ParticleEmitter",
+          "zoneRadius": 3,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
         }
       ],
       "events": [
@@ -8436,15 +8819,6 @@
                     "value": "DepartScene"
                   },
                   "parameters": [
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "GlobalVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "GameStarted",
                     ""
                   ]
                 }
@@ -8497,15 +8871,6 @@
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
-                    {
-                      "type": {
-                        "value": "SetGlobalVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "GameStarted",
-                        "True"
-                      ]
-                    },
                     {
                       "type": {
                         "value": "ModVarGlobal"
@@ -8832,7 +9197,7 @@
                             "value": "JSONToVariableStructure"
                           },
                           "parameters": [
-                            "\"[[{\\\"action\\\":\\\"delay\\\",\\\"duration\\\":15}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"Terrorist\\\",\\\"qty\\\":1}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"Terrorist\\\",\\\"qty\\\":1}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"Terrorist\\\",\\\"qty\\\":2}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"Terrorist\\\",\\\"qty\\\":2},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"InternetTroll\\\",\\\"qty\\\":1}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"Terrorist\\\",\\\"qty\\\":3}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"InternetTroll\\\",\\\"qty\\\":3}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"Terrorist\\\",\\\"qty\\\":3},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"InternetTroll\\\",\\\"qty\\\":2}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"SelfRad\\\",\\\"qty\\\":1}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"Terrorist\\\",\\\"qty\\\":2},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"InternetTroll\\\",\\\"qty\\\":2},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"SelfRad\\\",\\\"qty\\\":1}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"SelfRad\\\",\\\"qty\\\":3}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"Terrorist\\\",\\\"qty\\\":4},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"InternetTroll\\\",\\\"qty\\\":4}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"Terrorist\\\",\\\"qty\\\":5},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"InternetTroll\\\",\\\"qty\\\":4}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"Terrorist\\\",\\\"qty\\\":6},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"SelfRad\\\",\\\"qty\\\":2}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"Terrorist\\\",\\\"qty\\\":7},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"SelfRad\\\",\\\"qty\\\":3}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"Terrorist\\\",\\\"qty\\\":8},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"InternetTroll\\\",\\\"qty\\\":5},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"SelfRad\\\",\\\"qty\\\":1}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"Terrorist\\\",\\\"qty\\\":9},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"InternetTroll\\\",\\\"qty\\\":5},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"SelfRad\\\",\\\"qty\\\":2}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"Terrorist\\\",\\\"qty\\\":10},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"InternetTroll\\\",\\\"qty\\\":6},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"SelfRad\\\",\\\"qty\\\":3}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"Terrorist\\\",\\\"qty\\\":10},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"InternetTroll\\\",\\\"qty\\\":8},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"SelfRad\\\",\\\"qty\\\":3}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"Terrorist\\\",\\\"qty\\\":15},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"InternetTroll\\\",\\\"qty\\\":10},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"SelfRad\\\",\\\"qty\\\":5}]]\"",
+                            "\"[[{\\\"action\\\":\\\"delay\\\",\\\"duration\\\":10}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"Terrorist\\\",\\\"qty\\\":1}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"Terrorist\\\",\\\"qty\\\":1}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"Terrorist\\\",\\\"qty\\\":2}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"Terrorist\\\",\\\"qty\\\":2},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"InternetTroll\\\",\\\"qty\\\":1}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"Terrorist\\\",\\\"qty\\\":3}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"InternetTroll\\\",\\\"qty\\\":3}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"Terrorist\\\",\\\"qty\\\":3},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"InternetTroll\\\",\\\"qty\\\":2}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"SelfRad\\\",\\\"qty\\\":1}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"Terrorist\\\",\\\"qty\\\":2},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"InternetTroll\\\",\\\"qty\\\":2},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"SelfRad\\\",\\\"qty\\\":1}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"SelfRad\\\",\\\"qty\\\":3}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"Terrorist\\\",\\\"qty\\\":4},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"InternetTroll\\\",\\\"qty\\\":4}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"Terrorist\\\",\\\"qty\\\":5},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"InternetTroll\\\",\\\"qty\\\":4}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"Terrorist\\\",\\\"qty\\\":6},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"SelfRad\\\",\\\"qty\\\":2}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"Terrorist\\\",\\\"qty\\\":7},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"SelfRad\\\",\\\"qty\\\":3}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"Terrorist\\\",\\\"qty\\\":8},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"InternetTroll\\\",\\\"qty\\\":5},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"SelfRad\\\",\\\"qty\\\":1}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"Terrorist\\\",\\\"qty\\\":9},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"InternetTroll\\\",\\\"qty\\\":5},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"SelfRad\\\",\\\"qty\\\":2}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"Terrorist\\\",\\\"qty\\\":10},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"InternetTroll\\\",\\\"qty\\\":6},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"SelfRad\\\",\\\"qty\\\":3}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"Terrorist\\\",\\\"qty\\\":10},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"InternetTroll\\\",\\\"qty\\\":8},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"SelfRad\\\",\\\"qty\\\":3}],[{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"Terrorist\\\",\\\"qty\\\":15},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"InternetTroll\\\",\\\"qty\\\":10},{\\\"action\\\":\\\"spawn\\\",\\\"type\\\":\\\"enemy\\\",\\\"name\\\":\\\"SelfRad\\\",\\\"qty\\\":5}]]\"",
                             "Waves"
                           ]
                         },
@@ -9068,6 +9433,22 @@
                         "1",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "ConfirmBox"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "RiotWarning"
+                      ]
                     }
                   ]
                 },
@@ -9113,6 +9494,24 @@
                       "parameters": [
                         "",
                         "assets\\nudr.ogg"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PreloadSound"
+                      },
+                      "parameters": [
+                        "",
+                        "fire"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PreloadSound"
+                      },
+                      "parameters": [
+                        "",
+                        "destroyed"
                       ]
                     },
                     {
@@ -9251,66 +9650,210 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "VarGlobal"
+                    "value": "BuiltinCommonInstructions::Or"
                   },
-                  "parameters": [
-                    "CommSupportAmt",
-                    "<=",
-                    "3"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "VarGlobal"
-                  },
-                  "parameters": [
-                    "CommSupportAmt",
-                    ">",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "VarGlobalTxt"
-                  },
-                  "parameters": [
-                    "currentPlayingMusic",
-                    "!=",
-                    "\"nddl\""
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "isRioting",
+                        "True"
+                      ]
+                    }
                   ]
                 }
               ],
-              "actions": [
+              "actions": [],
+              "events": [
                 {
-                  "type": {
-                    "value": "StopMusicCanal"
-                  },
-                  "parameters": [
-                    "",
-                    "0"
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "CommSupportAmt",
+                        "<=",
+                        "3"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "CommSupportAmt",
+                        ">",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "VarGlobalTxt"
+                      },
+                      "parameters": [
+                        "currentPlayingMusic",
+                        "!=",
+                        "\"nddl\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "StopMusicCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlayMusicCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\nddl.ogg",
+                        "0",
+                        "yes",
+                        "100",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobalTxt"
+                      },
+                      "parameters": [
+                        "currentPlayingMusic",
+                        "=",
+                        "\"nddl\""
+                      ]
+                    }
                   ]
                 },
                 {
-                  "type": {
-                    "value": "PlayMusicCanal"
-                  },
-                  "parameters": [
-                    "",
-                    "assets\\nddl.ogg",
-                    "0",
-                    "yes",
-                    "100",
-                    ""
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "CommSupportAmt",
+                        "<=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "VarGlobalTxt"
+                      },
+                      "parameters": [
+                        "currentPlayingMusic",
+                        "!=",
+                        "\"nudr\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "StopMusicCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlayMusicCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\nudr.ogg",
+                        "0",
+                        "yes",
+                        "100",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobalTxt"
+                      },
+                      "parameters": [
+                        "currentPlayingMusic",
+                        "=",
+                        "\"nudr\""
+                      ]
+                    }
                   ]
                 },
                 {
-                  "type": {
-                    "value": "ModVarGlobalTxt"
-                  },
-                  "parameters": [
-                    "currentPlayingMusic",
-                    "=",
-                    "\"nddl\""
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "CommSupportAmt",
+                        ">",
+                        "3"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "VarGlobalTxt"
+                      },
+                      "parameters": [
+                        "currentPlayingMusic",
+                        "!=",
+                        "\"ncdc\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "StopMusicCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlayMusicCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\ncdc.ogg",
+                        "0",
+                        "yes",
+                        "100",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobalTxt"
+                      },
+                      "parameters": [
+                        "currentPlayingMusic",
+                        "=",
+                        "\"ncdc\""
+                      ]
+                    }
                   ]
                 }
               ]
@@ -9320,12 +9863,19 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "VarGlobal"
+                    "value": "BuiltinCommonInstructions::Or"
                   },
-                  "parameters": [
-                    "CommSupportAmt",
-                    "<=",
-                    "0"
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "isRioting",
+                        "True"
+                      ]
+                    }
                   ]
                 },
                 {
@@ -9370,65 +9920,6 @@
                     "currentPlayingMusic",
                     "=",
                     "\"nudr\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarGlobal"
-                  },
-                  "parameters": [
-                    "CommSupportAmt",
-                    ">",
-                    "3"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "VarGlobalTxt"
-                  },
-                  "parameters": [
-                    "currentPlayingMusic",
-                    "!=",
-                    "\"ncdc\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "StopMusicCanal"
-                  },
-                  "parameters": [
-                    "",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PlayMusicCanal"
-                  },
-                  "parameters": [
-                    "",
-                    "assets\\ncdc.ogg",
-                    "0",
-                    "yes",
-                    "100",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobalTxt"
-                  },
-                  "parameters": [
-                    "currentPlayingMusic",
-                    "=",
-                    "\"ncdc\""
                   ]
                 }
               ]
@@ -9754,20 +10245,103 @@
                     "<=",
                     "VariableChildCount(Waves)"
                   ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::CompareStrings"
-                  },
-                  "parameters": [
-                    "VariableString(skill_issue)",
-                    "=",
-                    "\"0\""
-                  ]
                 }
               ],
               "actions": [],
               "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Reset states after crisis",
+                  "comment2": ""
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "isRioting",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetGlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "isRioting",
+                        "False"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "RiotWarning"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BitmapText::BitmapTextObject::SetText"
+                      },
+                      "parameters": [
+                        "SelectedText",
+                        "=",
+                        "\"Selected: None\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BitmapText::BitmapTextObject::SetText"
+                      },
+                      "parameters": [
+                        "SelectedDesc",
+                        "=",
+                        "\"Select a Tower for more information\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangeColor"
+                      },
+                      "parameters": [
+                        "EventBacking",
+                        "\"255;255;255\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BitmapText::SetTint"
+                      },
+                      "parameters": [
+                        "SelectedText",
+                        "\"255;255;255\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangeColor"
+                      },
+                      "parameters": [
+                        "DescBacking",
+                        "\"255;255;255\""
+                      ]
+                    }
+                  ]
+                },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
@@ -9871,7 +10445,7 @@
                           "parameters": [
                             "waveDelay",
                             "=",
-                            "15"
+                            "20"
                           ]
                         }
                       ],
@@ -9978,14 +10552,12 @@
                     {
                       "type": {
                         "inverted": true,
-                        "value": "CollisionNP"
+                        "value": "ObjectVariableAsBoolean"
                       },
                       "parameters": [
                         "Towers",
-                        "CommLeader",
-                        "",
-                        "",
-                        "no"
+                        "isGrouped",
+                        "True"
                       ]
                     },
                     {
@@ -9993,7 +10565,7 @@
                         "value": "BuiltinCommonInstructions::CompareNumbers"
                       },
                       "parameters": [
-                        "RandomInRange(1,4)",
+                        "RandomInRange(1,1)",
                         "=",
                         "1"
                       ]
@@ -10016,6 +10588,80 @@
                       "parameters": [
                         "Towers",
                         "\"RiotKillTimer\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Montre"
+                      },
+                      "parameters": [
+                        "RiotWarning",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BitmapText::BitmapTextObject::SetText"
+                      },
+                      "parameters": [
+                        "SelectedText",
+                        "=",
+                        "\"Community Riots!\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BitmapText::SetTint"
+                      },
+                      "parameters": [
+                        "SelectedText",
+                        "\"255;159;0\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BitmapText::BitmapTextObject::SetText"
+                      },
+                      "parameters": [
+                        "SelectedDesc",
+                        "=",
+                        "\"Tensions are getting high! Place down Community\nLeaders near all grouped towers!\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangeTimeScale"
+                      },
+                      "parameters": [
+                        "",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangeColor"
+                      },
+                      "parameters": [
+                        "DescBacking",
+                        "\"0;0;0\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangeColor"
+                      },
+                      "parameters": [
+                        "EventBacking",
+                        "\"0;0;0\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetGlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "isRioting",
+                        "True"
                       ]
                     }
                   ]
@@ -10123,6 +10769,30 @@
                     "750",
                     "yes"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "CommSupportEffect",
+                    "CommunitySupportIcon.X()",
+                    "CommunitySupportIcon.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetCenter"
+                  },
+                  "parameters": [
+                    "CommSupportEffect",
+                    "=",
+                    "CommunitySupportIcon.CenterX()",
+                    "=",
+                    "CommunitySupportIcon.CenterY()"
+                  ]
                 }
               ],
               "events": [
@@ -10205,15 +10875,6 @@
                     },
                     {
                       "type": {
-                        "value": "SetGlobalVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "GameStarted",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
                         "value": "ModVarGlobal"
                       },
                       "parameters": [
@@ -10245,6 +10906,19 @@
               ]
             },
             {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Return Menu",
+              "comment2": ""
+            },
+            {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -10271,12 +10945,95 @@
               "actions": [
                 {
                   "type": {
-                    "value": "Scene"
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "ConfirmBox",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjetTxt"
+                  },
+                  "parameters": [
+                    "Confirm",
+                    "Action",
+                    "=",
+                    "\"Quit\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "Confirm",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextPressed"
                   },
                   "parameters": [
                     "",
-                    "\"MainMenu\"",
-                    "yes"
+                    "\"Left\""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarObjetTxt"
+                      },
+                      "parameters": [
+                        "Confirm",
+                        "Action",
+                        "=",
+                        "\"Quit\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Scene"
+                      },
+                      "parameters": [
+                        "",
+                        "\"MainMenu\"",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "Confirm",
+                        "Action",
+                        "=",
+                        "\"\""
+                      ]
+                    }
                   ]
                 }
               ]
@@ -10547,7 +11304,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Tower/Enemy Info",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -10562,6 +11318,16 @@
                   "parameters": [
                     "",
                     "Left"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "isRioting",
+                    "True"
                   ]
                 }
               ],
@@ -10659,7 +11425,7 @@
                       "parameters": [
                         "SelectedDesc",
                         "=",
-                        "\"Cheerleaders boost morale among citizens, and keeps the country\nmotivated to move on.\""
+                        "\"Cheerleaders boost morale among citizens, and keeps the country motivated to move on.\""
                       ]
                     }
                   ]
@@ -10743,7 +11509,7 @@
                       "parameters": [
                         "SelectedDesc",
                         "=",
-                        "\"Caring citizens give a listening ear to those in need and will help\nthem if necessary.\""
+                        "\"Caring citizens give a listening ear to those in need and will help them if necessary.\""
                       ]
                     }
                   ]
@@ -10840,7 +11606,7 @@
                       "parameters": [
                         "SelectedDesc",
                         "=",
-                        "\"Volunteers step up to help when there is a need for it, no matter\nthe circumstances.\""
+                        "\"Volunteers step up to help when there is a need for it, no matter the circumstances.\""
                       ]
                     }
                   ]
@@ -10937,7 +11703,7 @@
                       "parameters": [
                         "SelectedDesc",
                         "=",
-                        "\"Leaders are able to solve problems within a community,\neffectively and efficiently.\""
+                        "\"Leaders are able to solve problems within a community, effectively and efficiently.\""
                       ]
                     }
                   ]
@@ -11034,7 +11800,7 @@
                       "parameters": [
                         "SelectedDesc",
                         "=",
-                        "\"Career Guiders help lead people into suitable jobs that the\ncountry needs.\""
+                        "\"Career Guiders help lead people into suitable jobs that the country needs.\""
                       ]
                     }
                   ]
@@ -11118,7 +11884,7 @@
                       "parameters": [
                         "SelectedDesc",
                         "=",
-                        "\"Investors help fund new companies and support existing local\nbusinesses.\""
+                        "\"Investors help fund new companies and support existing local businesses.\""
                       ]
                     }
                   ]
@@ -11215,7 +11981,7 @@
                       "parameters": [
                         "SelectedDesc",
                         "=",
-                        "\"Soldiers are the first line of defence against physical threats\nto Singapore.\""
+                        "\"Soldiers are the first line of defence against physical threats to Singapore.\""
                       ]
                     }
                   ]
@@ -11299,7 +12065,7 @@
                       "parameters": [
                         "SelectedDesc",
                         "=",
-                        "\"Intelligence helps detect and deter threats before they can be\nexecuted.\""
+                        "\"Intelligence helps detect and deter threats before they can be executed.\""
                       ]
                     }
                   ]
@@ -11396,7 +12162,7 @@
                       "parameters": [
                         "SelectedDesc",
                         "=",
-                        "\"Not only do Firefighters fight fire, they also help out in many\nother aspects as well.\""
+                        "\"Not only do Firefighters fight fire, they also help out in many other aspects as well.\""
                       ]
                     }
                   ]
@@ -11493,7 +12259,7 @@
                       "parameters": [
                         "SelectedDesc",
                         "=",
-                        "\"Doctors treat health conditions to help the community live\nbetter.\""
+                        "\"Doctors treat health conditions to help the community live better.\""
                       ]
                     }
                   ]
@@ -11590,7 +12356,7 @@
                       "parameters": [
                         "SelectedDesc",
                         "=",
-                        "\"White-hat hackers have good intentions, and prevent their bad\ncounterparts from doing damage.\""
+                        "\"White-hat hackers have good intentions, and prevent their bad counterparts from doing damage.\""
                       ]
                     }
                   ]
@@ -11674,7 +12440,7 @@
                       "parameters": [
                         "SelectedDesc",
                         "=",
-                        "\"Dicerning Citizens tell lies from truth online and take appropriate\nresponses against them.\""
+                        "\"Dicerning Citizens tell lies from truth online and take appropriate responses against them.\""
                       ]
                     }
                   ]
@@ -12196,17 +12962,6 @@
                     "NegThoughts",
                     "True"
                   ]
-                },
-                {
-                  "type": {
-                    "value": "PickNearest"
-                  },
-                  "parameters": [
-                    "EffectIcon",
-                    "Towers.X()",
-                    "Towers.Y()",
-                    ""
-                  ]
                 }
               ],
               "actions": [
@@ -12222,10 +12977,13 @@
                 },
                 {
                   "type": {
-                    "value": "Delete"
+                    "value": "TDTD::RemoveEffectIcon"
                   },
                   "parameters": [
-                    "CheerleaderCureProjectile",
+                    "",
+                    "Towers",
+                    "\"NegThoughts\"",
+                    "EffectIcon",
                     ""
                   ]
                 },
@@ -12234,7 +12992,7 @@
                     "value": "Delete"
                   },
                   "parameters": [
-                    "EffectIcon",
+                    "CheerleaderCureProjectile",
                     ""
                   ]
                 }
@@ -12261,6 +13019,17 @@
                     "\"SecondTime\"",
                     ">",
                     "CaringCitizen.Variable(SecondRate)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "CaringCitizen",
+                    "Saved",
+                    "<",
+                    "2"
                   ]
                 }
               ],
@@ -12365,7 +13134,7 @@
                         "UnradicaliseProjectile",
                         "TowerX",
                         "=",
-                        "CaringCitizen.X()"
+                        "CaringCitizen.X()-60+120*CaringCitizen.Variable(Saved)"
                       ]
                     },
                     {
@@ -12376,7 +13145,18 @@
                         "UnradicaliseProjectile",
                         "TowerY",
                         "=",
-                        "CaringCitizen.Y()"
+                        "CaringCitizen.Y()-60+120*CaringCitizen.Variable(Saved)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "CaringCitizen",
+                        "Saved",
+                        "+",
+                        "1"
                       ]
                     }
                   ]
@@ -12532,6 +13312,62 @@
                     "Enemies",
                     "FirefighterPuddle",
                     "Enemies"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "IntelligenceBarrier",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareObjectTimer"
+                  },
+                  "parameters": [
+                    "IntelligenceBarrier",
+                    "\"TrapTimeout\"",
+                    ">",
+                    "30"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "IntelligenceBarrier",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "FirefighterPuddle",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareObjectTimer"
+                  },
+                  "parameters": [
+                    "FirefighterPuddle",
+                    "\"TrapTimeout\"",
+                    ">",
+                    "30"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "FirefighterPuddle",
+                    ""
                   ]
                 }
               ]
@@ -12895,46 +13731,61 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "BuiltinCommonInstructions::Or"
+                    "value": "CollisionNP"
                   },
-                  "parameters": [],
-                  "subInstructions": [
-                    {
-                      "type": {
-                        "value": "CollisionNP"
-                      },
-                      "parameters": [
-                        "SpawnBox",
-                        "DescBacking",
-                        "",
-                        "",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "CollisionNP"
-                      },
-                      "parameters": [
-                        "SpawnBox",
-                        "EventBacking",
-                        "",
-                        "",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "CollisionNP"
-                      },
-                      "parameters": [
-                        "SpawnBox",
-                        "WalkTiles",
-                        "",
-                        "",
-                        ""
-                      ]
-                    }
+                  "parameters": [
+                    "SpawnBox",
+                    "Unspawnanble",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "SpawnBox",
+                    "\"CannotSpawn\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "SpawnBox",
+                    "doElse",
+                    "False"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PickNearest"
+                  },
+                  "parameters": [
+                    "Towers",
+                    "SpawnBox.CenterX()",
+                    "SpawnBox.CenterY()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "DistanceBetweenPositions(SpawnBox.CenterX(), SpawnBox.CenterY(), Towers.CenterX(), Towers.CenterY())",
+                    "<=",
+                    "50"
                   ]
                 }
               ],
@@ -13444,6 +14295,16 @@
                             "=",
                             "Cheerleader.VariableString(Pillar)"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "CheerleaderCost",
+                            "*",
+                            "GlobalVariable(BUY_SAME_MULTIPLIER)"
+                          ]
                         }
                       ]
                     },
@@ -13479,6 +14340,16 @@
                             "PillarSpawned",
                             "=",
                             "CaringCitizen.VariableString(Pillar)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "CaringCitizenCost",
+                            "*",
+                            "GlobalVariable(BUY_SAME_MULTIPLIER)"
                           ]
                         }
                       ]
@@ -13563,6 +14434,16 @@
                             "nextID",
                             "+",
                             "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "VolunteerCost",
+                            "*",
+                            "GlobalVariable(BUY_SAME_MULTIPLIER)"
                           ]
                         }
                       ],
@@ -13662,6 +14543,16 @@
                             "CommString",
                             "=",
                             "\"Social\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "CommLeaderCost",
+                            "*",
+                            "GlobalVariable(BUY_SAME_MULTIPLIER)"
                           ]
                         }
                       ],
@@ -13791,6 +14682,16 @@
                             "=",
                             "CareerGuider.VariableString(Pillar)"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "GuiderCost",
+                            "*",
+                            "GlobalVariable(BUY_SAME_MULTIPLIER)"
+                          ]
                         }
                       ]
                     },
@@ -13826,6 +14727,16 @@
                             "PillarSpawned",
                             "=",
                             "Investor.VariableString(Pillar)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "InvestorCost",
+                            "*",
+                            "GlobalVariable(BUY_SAME_MULTIPLIER)"
                           ]
                         }
                       ]
@@ -13876,6 +14787,16 @@
                             "=",
                             "Soldier.VariableString(Pillar)"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "SoldierCost",
+                            "*",
+                            "GlobalVariable(BUY_SAME_MULTIPLIER)"
+                          ]
                         }
                       ]
                     },
@@ -13901,6 +14822,16 @@
                             "PillarSpawned",
                             "=",
                             "\"Military\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "IntelOfficerCost",
+                            "*",
+                            "GlobalVariable(BUY_SAME_MULTIPLIER)"
                           ]
                         }
                       ],
@@ -14351,6 +15282,16 @@
                             "=",
                             "\"Civil\""
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "FirefighterCost",
+                            "*",
+                            "GlobalVariable(BUY_SAME_MULTIPLIER)"
+                          ]
                         }
                       ],
                       "events": [
@@ -14797,6 +15738,16 @@
                             "=",
                             "Doctor.VariableString(Pillar)"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "DoctorCost",
+                            "*",
+                            "GlobalVariable(BUY_SAME_MULTIPLIER)"
+                          ]
                         }
                       ]
                     },
@@ -14846,6 +15797,16 @@
                             "=",
                             "WhiteHat.VariableString(Pillar)"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "WhiteHatCost",
+                            "*",
+                            "GlobalVariable(BUY_SAME_MULTIPLIER)"
+                          ]
                         }
                       ]
                     },
@@ -14881,6 +15842,16 @@
                             "PillarSpawned",
                             "=",
                             "DiscerningCitizen.VariableString(Pillar)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "DiscernCitizenCost",
+                            "*",
+                            "GlobalVariable(BUY_SAME_MULTIPLIER)"
                           ]
                         }
                       ]
@@ -17443,16 +18414,6 @@
                             "value": "ModVarGlobal"
                           },
                           "parameters": [
-                            "CheerleaderCost",
-                            "*",
-                            "GlobalVariable(BUY_SAME_MULTIPLIER)"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ModVarGlobal"
-                          },
-                          "parameters": [
                             "SpawnerRange",
                             "=",
                             "150"
@@ -17482,16 +18443,6 @@
                           "parameters": [
                             "VolunteerSpawn",
                             "True"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ModVarGlobal"
-                          },
-                          "parameters": [
-                            "VolunteerCost",
-                            "*",
-                            "GlobalVariable(BUY_SAME_MULTIPLIER)"
                           ]
                         },
                         {
@@ -17535,26 +18486,6 @@
                             "value": "ModVarGlobal"
                           },
                           "parameters": [
-                            "GuiderCost",
-                            "*",
-                            "GlobalVariable(BUY_SAME_MULTIPLIER)"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ModVarGlobal"
-                          },
-                          "parameters": [
-                            "SpawnerRange",
-                            "=",
-                            "150"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ModVarGlobal"
-                          },
-                          "parameters": [
                             "SpawnerRange",
                             "=",
                             "150"
@@ -17591,19 +18522,9 @@
                             "value": "ModVarGlobal"
                           },
                           "parameters": [
-                            "SoldierCost",
-                            "*",
-                            "GlobalVariable(BUY_SAME_MULTIPLIER)"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ModVarGlobal"
-                          },
-                          "parameters": [
                             "SpawnerRange",
                             "=",
-                            "200"
+                            "225"
                           ]
                         }
                       ]
@@ -17630,16 +18551,6 @@
                           "parameters": [
                             "FirefighterSpawn",
                             "True"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ModVarGlobal"
-                          },
-                          "parameters": [
-                            "FirefighterCost",
-                            "*",
-                            "GlobalVariable(BUY_SAME_MULTIPLIER)"
                           ]
                         },
                         {
@@ -17676,16 +18587,6 @@
                           "parameters": [
                             "WhiteHatSpawn",
                             "True"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ModVarGlobal"
-                          },
-                          "parameters": [
-                            "WhiteHatCost",
-                            "*",
-                            "GlobalVariable(BUY_SAME_MULTIPLIER)"
                           ]
                         },
                         {
@@ -17861,16 +18762,6 @@
                             "value": "ModVarGlobal"
                           },
                           "parameters": [
-                            "CaringCitizenCost",
-                            "*",
-                            "GlobalVariable(BUY_SAME_MULTIPLIER)"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ModVarGlobal"
-                          },
-                          "parameters": [
                             "SpawnerRange",
                             "=",
                             "50"
@@ -17900,16 +18791,6 @@
                           "parameters": [
                             "CommLeaderSpawn",
                             "True"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ModVarGlobal"
-                          },
-                          "parameters": [
-                            "CommLeaderCost",
-                            "*",
-                            "GlobalVariable(BUY_SAME_MULTIPLIER)"
                           ]
                         },
                         {
@@ -17953,16 +18834,6 @@
                             "value": "ModVarGlobal"
                           },
                           "parameters": [
-                            "InvestorCost",
-                            "*",
-                            "GlobalVariable(BUY_SAME_MULTIPLIER)"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ModVarGlobal"
-                          },
-                          "parameters": [
                             "SpawnerRange",
                             "=",
                             "50"
@@ -17992,16 +18863,6 @@
                           "parameters": [
                             "IntelOfficerSpawn",
                             "True"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ModVarGlobal"
-                          },
-                          "parameters": [
-                            "IntelOfficerCost",
-                            "*",
-                            "GlobalVariable(BUY_SAME_MULTIPLIER)"
                           ]
                         },
                         {
@@ -18045,16 +18906,6 @@
                             "value": "ModVarGlobal"
                           },
                           "parameters": [
-                            "DoctorCost",
-                            "*",
-                            "GlobalVariable(BUY_SAME_MULTIPLIER)"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ModVarGlobal"
-                          },
-                          "parameters": [
                             "SpawnerRange",
                             "=",
                             "50"
@@ -18084,16 +18935,6 @@
                           "parameters": [
                             "DiscernCitizenSpawn",
                             "True"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ModVarGlobal"
-                          },
-                          "parameters": [
-                            "DiscernCitizenCost",
-                            "*",
-                            "GlobalVariable(BUY_SAME_MULTIPLIER)"
                           ]
                         },
                         {
@@ -18251,7 +19092,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.35125043207465967,
+        "zoomFactor": 0.5656854249492372,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -18302,9 +19143,24 @@
           "name": "NewTiledSprite",
           "persistentUuid": "0e164f2e-cc73-4af5-b48b-62d1d08d5ce4",
           "width": 2018,
-          "x": -68,
-          "y": -28,
+          "x": -145,
+          "y": -54,
           "zOrder": -1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Version",
+          "persistentUuid": "24f0f02b-1963-493b-bea8-d4f5e68ad0a8",
+          "width": 0,
+          "x": 22,
+          "y": 1034,
+          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -18347,9 +19203,9 @@
           "textAlignment": "",
           "characterSize": 100,
           "color": {
-            "b": 36,
-            "g": 102,
-            "r": 51
+            "b": 5,
+            "g": 32,
+            "r": 19
           }
         },
         {
@@ -18736,12 +19592,34 @@
           "height": 32,
           "name": "NewTiledSprite",
           "tags": "",
-          "texture": "New image4",
+          "texture": "New image42",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
           "variables": [],
           "effects": [],
           "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Version",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "v0.1.1",
+          "font": "assets\\AlfaSlabOne-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 24,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
         }
       ],
       "events": [
@@ -20207,29 +21085,7 @@
                             "=",
                             "0"
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "CompareObjectTimer"
-                          },
-                          "parameters": [
-                            "Object",
-                            "\"RecalculatePath\"",
-                            ">",
-                            "5"
-                          ]
                         }
-                      ]
-                    },
-                    {
-                      "type": {
-                        "inverted": true,
-                        "value": "ObjectVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "Object",
-                        "hasSlipped",
-                        "True"
                       ]
                     }
                   ],
@@ -20323,13 +21179,31 @@
                     },
                     {
                       "type": {
-                        "inverted": true,
-                        "value": "ObjectVariableAsBoolean"
+                        "value": "BuiltinCommonInstructions::Or"
                       },
-                      "parameters": [
-                        "Object",
-                        "stunAfterDeath",
-                        "True"
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Object",
+                            "stunAfterDeath",
+                            "True"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::CompareNumbers"
+                          },
+                          "parameters": [
+                            "RandomInRange(1,3)",
+                            "!=",
+                            "1"
+                          ]
+                        }
                       ]
                     }
                   ],
@@ -20699,16 +21573,6 @@
                         "AffectedTowers",
                         "\"NegThoughts\"",
                         "EffectIcon",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "DebuggerTools::ConsoleLog"
-                      },
-                      "parameters": [
-                        "ToString(AffectedTowers.Distance(EffectProtector))",
-                        "\"info\"",
                         ""
                       ]
                     }
@@ -21096,6 +21960,18 @@
                         "Trap",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "destroyed",
+                        "",
+                        "",
+                        ""
+                      ]
                     }
                   ]
                 }
@@ -21170,7 +22046,7 @@
               "fullName": "Automatically Target and Fire Bullet",
               "functionType": "Action",
               "name": "attack",
-              "sentence": "[While _PARAM3_ is in range] Fire _PARAM2_ from _PARAM0_ ",
+              "sentence": "Fire _PARAM2_ from _PARAM0_ at _PARAM3_",
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::Comment",
@@ -21187,58 +22063,15 @@
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ModVarScene"
-                      },
-                      "parameters": [
-                        "MaxRange",
-                        "=",
-                        "Object.Variable(Range)"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "value": "ObjectVariableAsBoolean"
+                        "value": "PickNearest"
                       },
                       "parameters": [
-                        "Object",
-                        "RangeBoosted",
-                        "True"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ModVarScene"
-                      },
-                      "parameters": [
-                        "MaxRange",
-                        "*",
-                        "1.5"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "Distance"
-                      },
-                      "parameters": [
-                        "Object",
                         "Enemy",
-                        "Variable(MaxRange)",
+                        "Object.CenterX()",
+                        "Object.CenterY()",
                         ""
                       ]
                     }
@@ -21259,7 +22092,20 @@
                           ]
                         }
                       ],
-                      "actions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "RotateTowardPosition"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Enemy.CenterX()",
+                            "Enemy.CenterY()",
+                            "0",
+                            ""
+                          ]
+                        }
+                      ],
                       "events": [
                         {
                           "type": "BuiltinCommonInstructions::Standard",
@@ -21276,8 +22122,8 @@
                                   },
                                   "parameters": [
                                     "Object",
-                                    ">=",
-                                    "90"
+                                    "<",
+                                    "-90"
                                   ]
                                 },
                                 {
@@ -21286,8 +22132,8 @@
                                   },
                                   "parameters": [
                                     "Object",
-                                    "<=",
-                                    "0"
+                                    "<",
+                                    "90"
                                   ]
                                 }
                               ]
@@ -21322,8 +22168,8 @@
                                   },
                                   "parameters": [
                                     "Object",
-                                    ">=",
-                                    "90"
+                                    "<",
+                                    "-90"
                                   ]
                                 },
                                 {
@@ -21332,8 +22178,8 @@
                                   },
                                   "parameters": [
                                     "Object",
-                                    "<=",
-                                    "0"
+                                    "<",
+                                    "90"
                                   ]
                                 }
                               ]
@@ -21355,20 +22201,7 @@
                         {
                           "type": "BuiltinCommonInstructions::Standard",
                           "conditions": [],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "RotateTowardPosition"
-                              },
-                              "parameters": [
-                                "Object",
-                                "Enemy.X()",
-                                "Enemy.Y()",
-                                "0",
-                                ""
-                              ]
-                            }
-                          ]
+                          "actions": []
                         }
                       ]
                     },
@@ -21417,8 +22250,8 @@
                           },
                           "parameters": [
                             "Projectile",
-                            "Enemy.X()",
-                            "Enemy.Y()",
+                            "Enemy.CenterX()",
+                            "Enemy.CenterY()",
                             "0",
                             ""
                           ]
@@ -21440,10 +22273,10 @@
                           },
                           "parameters": [
                             "",
-                            "ShootTest.wav",
+                            "fire",
                             "",
-                            "25",
-                            "RandomFloat(2)"
+                            "",
+                            ""
                           ]
                         }
                       ]
@@ -21575,6 +22408,15 @@
                         "=",
                         "Object.Variable(SpawnY)+RandomInRange(-20,20)"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "Trap",
+                        "\"TrapTimeout\""
+                      ]
                     }
                   ]
                 }
@@ -21611,7 +22453,19 @@
                 {
                   "type": "BuiltinCommonInstructions::ForEach",
                   "object": "Object",
-                  "conditions": [],
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "TDTD::TowerV2::enemyInRange"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "Enemies",
+                        ""
+                      ]
+                    }
+                  ],
                   "actions": [],
                   "events": [
                     {
@@ -21669,17 +22523,6 @@
                       "conditions": [
                         {
                           "type": {
-                            "inverted": true,
-                            "value": "ObjectVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "Object",
-                            "NegThoughts",
-                            "True"
-                          ]
-                        },
-                        {
-                          "type": {
                             "value": "CompareObjectTimer"
                           },
                           "parameters": [
@@ -21687,6 +22530,17 @@
                             "\"ShootTime\"",
                             ">",
                             "Object.Variable(FireRate)\n"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Object",
+                            "NegThoughts",
+                            "True"
                           ]
                         }
                       ],
@@ -21728,6 +22582,16 @@
                             ">",
                             "Object.Variable(FireRate)*2"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Object",
+                            "NegThoughts",
+                            "True"
+                          ]
                         }
                       ],
                       "actions": [
@@ -21746,7 +22610,7 @@
                           },
                           "parameters": [
                             "Object",
-                            "Tower2",
+                            "Behavior",
                             "Projectile",
                             "Enemies",
                             "DiscerningCitizen",
@@ -21857,17 +22721,6 @@
                       "conditions": [
                         {
                           "type": {
-                            "inverted": true,
-                            "value": "ObjectVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "Object",
-                            "NegThoughts",
-                            "True"
-                          ]
-                        },
-                        {
-                          "type": {
                             "value": "CompareObjectTimer"
                           },
                           "parameters": [
@@ -21875,6 +22728,17 @@
                             "\"ShootTime\"",
                             ">",
                             "Object.Variable(FireRate)\n"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Object",
+                            "NegThoughts",
+                            "True"
                           ]
                         }
                       ],
@@ -21912,7 +22776,7 @@
                             "Object",
                             "\"ShootTime\"",
                             ">",
-                            "Object.Variable(FireRate)*2"
+                            "Object.Variable(FireRate)*1.5"
                           ]
                         }
                       ],
@@ -22252,13 +23116,31 @@
                       "conditions": [
                         {
                           "type": {
-                            "value": "Distance"
+                            "value": "BuiltinCommonInstructions::Or"
                           },
-                          "parameters": [
-                            "Object",
-                            "CommLeader",
-                            "CommLeader.Variable(Range)",
-                            ""
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "Distance"
+                              },
+                              "parameters": [
+                                "Object",
+                                "CommLeader",
+                                "CommLeader.Variable(Range)",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::CompareStrings"
+                              },
+                              "parameters": [
+                                "Object.ObjectName()",
+                                "=",
+                                "\"CommLeader\""
+                              ]
+                            }
                           ]
                         },
                         {
@@ -22338,6 +23220,170 @@
                             "CommLeader",
                             "CommLeader.Variable(Range)",
                             ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::CompareStrings"
+                          },
+                          "parameters": [
+                            "Object.ObjectName()",
+                            "!=",
+                            "\"CommLeader\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Object",
+                            "isGrouped",
+                            "False"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TDTD::RemoveEffectIcon"
+                          },
+                          "parameters": [
+                            "",
+                            "Object",
+                            "\"IsGrouped\"",
+                            "EffectIcon",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Or"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "Distance"
+                              },
+                              "parameters": [
+                                "Object",
+                                "CommLeader",
+                                "CommLeader.Variable(Range)",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::CompareStrings"
+                              },
+                              "parameters": [
+                                "Object.ObjectName()",
+                                "=",
+                                "\"CommLeader\""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Object",
+                            "isGrouped",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Object",
+                            "isGrouped",
+                            "True"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TDTD::AddEffectIcon"
+                          },
+                          "parameters": [
+                            "",
+                            "Object",
+                            "\"IsGrouped\"",
+                            "EffectIcon",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "RemoveObjectTimer"
+                          },
+                          "parameters": [
+                            "Object",
+                            "\"RiotKillTimer\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ChangeColor"
+                          },
+                          "parameters": [
+                            "Object",
+                            "\"255;255;255\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Object",
+                            "isGrouped",
+                            "True"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "Distance"
+                          },
+                          "parameters": [
+                            "Object",
+                            "CommLeader",
+                            "CommLeader.Variable(Range)",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::CompareStrings"
+                          },
+                          "parameters": [
+                            "Object.ObjectName()",
+                            "!=",
+                            "\"CommLeader\""
                           ]
                         }
                       ],
@@ -22855,6 +23901,124 @@
                 {
                   "description": "Effect Icon",
                   "name": "EffectIcon",
+                  "supplementaryInformation": "Sprite",
+                  "type": "objectList"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Checks if enemy is in range, taking into account boosts",
+              "fullName": "Enemy in range",
+              "functionType": "Condition",
+              "name": "enemyInRange",
+              "sentence": "If _PARAM2_ within range of _PARAM0_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "False"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "MaxRange",
+                        "=",
+                        "Object.Variable(Range)"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Object",
+                        "RangeBoosted",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "MaxRange",
+                        "*",
+                        "1.5"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PickNearest"
+                      },
+                      "parameters": [
+                        "Enemy",
+                        "Object.CenterX()",
+                        "Object.CenterY()",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Distance"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Enemy",
+                        "Variable(MaxRange)",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "Sprite",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "TDTD::TowerV2",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Enemies to check",
+                  "name": "Enemy",
                   "supplementaryInformation": "Sprite",
                   "type": "objectList"
                 }
