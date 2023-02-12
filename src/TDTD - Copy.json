@@ -2292,15 +2292,6 @@
         "name": "NewFile-1-4-1.png2",
         "smoothed": true,
         "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Plus.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Plus.png",
-        "smoothed": true,
-        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2402,7 +2393,7 @@
           "folded": true,
           "name": "Range",
           "type": "number",
-          "value": 80
+          "value": 100
         },
         {
           "folded": true,
@@ -2450,13 +2441,7 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "sprites\\Towers\\Caring Citizen\\Idle\\Picture2.png",
-                  "points": [
-                    {
-                      "name": "OriginPoint",
-                      "x": 32.846484374999996,
-                      "y": 57.301171874999994
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2779,7 +2764,7 @@
           "folded": true,
           "name": "Range",
           "type": "number",
-          "value": 175
+          "value": 225
         },
         {
           "folded": true,
@@ -3064,7 +3049,7 @@
           "folded": true,
           "name": "Range",
           "type": "number",
-          "value": 80
+          "value": 100
         },
         {
           "folded": true,
@@ -3118,13 +3103,7 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "sprites\\Towers\\Doctor\\Idle\\Picture7.png",
-                  "points": [
-                    {
-                      "name": "OriginPoint",
-                      "x": 48.146484375,
-                      "y": 94.201171875
-                    }
-                  ],
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -3155,7 +3134,7 @@
           "folded": true,
           "name": "Range",
           "type": "number",
-          "value": 250
+          "value": 300
         },
         {
           "folded": true,
@@ -3444,17 +3423,17 @@
   ],
   "layouts": [
     {
-      "b": 0,
+      "b": 209,
       "disableInputWhenNotFocused": true,
       "mangledName": "GameScene",
       "name": "GameScene",
-      "r": 0,
+      "r": 209,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
       "title": "TDTD",
-      "v": 0,
+      "v": 209,
       "uiSettings": {
-        "grid": false,
+        "grid": true,
         "gridType": "rectangular",
         "gridWidth": 32,
         "gridHeight": 32,
@@ -3462,8 +3441,8 @@
         "gridOffsetY": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
-        "snap": false,
-        "zoomFactor": 0.3942898477536227,
+        "snap": true,
+        "zoomFactor": 1.1645951124821154,
         "windowMask": false
       },
       "objectsGroups": [
@@ -3652,8 +3631,8 @@
           "name": "Spawner",
           "persistentUuid": "3f6f4e18-0c68-4997-bc33-99385d0650d0",
           "width": 0,
-          "x": -242,
-          "y": 568,
+          "x": -128,
+          "y": 544,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -4128,16 +4107,29 @@
         {
           "angle": 0,
           "customSize": true,
+          "height": 251,
+          "layer": "Projectile layer",
+          "name": "Wall",
+          "persistentUuid": "b75c8f85-1691-4236-a0c0-9552fb384ec0",
+          "width": 51,
+          "x": 310,
+          "y": 1226,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
           "height": 186,
-          "layer": "Path layer",
-          "locked": true,
+          "layer": "Projectile layer",
           "name": "Wall",
           "persistentUuid": "f57eb5be-ac86-4256-af61-225a42564bb3",
-          "sealed": true,
           "width": 11,
           "x": 1609,
           "y": 510,
-          "zOrder": -1,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4145,14 +4137,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 80,
-          "layer": "Path layer",
+          "height": 153,
+          "layer": "",
           "name": "Fire",
           "persistentUuid": "ac8e9cdd-023f-4e28-b638-c23b12647b71",
-          "width": 82,
-          "x": 226,
-          "y": 122,
-          "zOrder": -1,
+          "width": 107,
+          "x": 1490,
+          "y": 180,
+          "zOrder": 1032,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4160,14 +4152,44 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 72,
-          "layer": "Path layer",
+          "height": 103,
+          "layer": "",
+          "name": "Fire",
+          "persistentUuid": "6a1018e7-877a-48d2-9f74-d04d93ab8939",
+          "width": 91,
+          "x": 1426,
+          "y": 919,
+          "zOrder": 1033,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 127,
+          "layer": "",
           "name": "Fire",
           "persistentUuid": "70f408b2-c5ba-45af-8e6f-df820efe8ff9",
-          "width": 91,
-          "x": 220,
-          "y": 895,
-          "zOrder": -1,
+          "width": 98,
+          "x": 1362,
+          "y": 146,
+          "zOrder": 1034,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 95,
+          "layer": "",
+          "name": "Fire",
+          "persistentUuid": "fe64aac1-da99-4846-86aa-e5a3d0198d99",
+          "width": 75,
+          "x": 46,
+          "y": 953,
+          "zOrder": 1035,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4247,6 +4269,21 @@
           "x": 1319,
           "y": 13,
           "zOrder": 1038,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 95,
+          "layer": "",
+          "name": "Fire",
+          "persistentUuid": "bde85db7-48f8-4836-8e48-4863ce2cfd72",
+          "width": 75,
+          "x": 587,
+          "y": 523,
+          "zOrder": 1035,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4360,15 +4397,13 @@
           "angle": 0,
           "customSize": true,
           "height": 32,
-          "layer": "Path layer",
-          "locked": true,
+          "layer": "",
           "name": "Wall",
           "persistentUuid": "7ecfc81e-906d-4d78-9d6a-892a56c7f360",
-          "sealed": true,
           "width": 128,
           "x": 160,
           "y": 704,
-          "zOrder": -1,
+          "zOrder": 1047,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4377,15 +4412,13 @@
           "angle": 0,
           "customSize": true,
           "height": 32,
-          "layer": "Path layer",
-          "locked": true,
+          "layer": "",
           "name": "Wall",
           "persistentUuid": "0129d3cd-b349-46f1-8617-733fbacb999e",
-          "sealed": true,
           "width": 96,
           "x": 256,
           "y": 736,
-          "zOrder": -1,
+          "zOrder": 1047,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4394,15 +4427,13 @@
           "angle": 0,
           "customSize": true,
           "height": 32,
-          "layer": "Path layer",
-          "locked": true,
+          "layer": "",
           "name": "Wall",
           "persistentUuid": "3d6e53a1-809f-4410-a360-d35695aaca51",
-          "sealed": true,
           "width": 96,
           "x": 320,
           "y": 768,
-          "zOrder": -1,
+          "zOrder": 1047,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4411,15 +4442,13 @@
           "angle": 0,
           "customSize": true,
           "height": 32,
-          "layer": "Path layer",
-          "locked": true,
+          "layer": "",
           "name": "Wall",
           "persistentUuid": "1c6f0126-deb3-4043-9099-ac7ead8d2123",
-          "sealed": true,
           "width": 96,
           "x": 352,
           "y": 800,
-          "zOrder": -1,
+          "zOrder": 1047,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4428,15 +4457,13 @@
           "angle": 0,
           "customSize": true,
           "height": 32,
-          "layer": "Path layer",
-          "locked": true,
+          "layer": "",
           "name": "Wall",
           "persistentUuid": "5c8dab0b-373d-4530-a03a-d61d3a3c4c03",
-          "sealed": true,
           "width": 128,
           "x": 416,
           "y": 832,
-          "zOrder": -1,
+          "zOrder": 1047,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4445,15 +4472,13 @@
           "angle": 0,
           "customSize": true,
           "height": 32,
-          "layer": "Path layer",
-          "locked": true,
+          "layer": "",
           "name": "Wall",
           "persistentUuid": "7f67605e-3c2f-4007-9918-cdc8e0f28f8c",
-          "sealed": true,
           "width": 480,
           "x": 512,
           "y": 864,
-          "zOrder": -1,
+          "zOrder": 1047,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4462,15 +4487,13 @@
           "angle": 0,
           "customSize": true,
           "height": 32,
-          "layer": "Path layer",
-          "locked": true,
+          "layer": "",
           "name": "Wall",
           "persistentUuid": "f44f906c-9bbe-48a5-bc44-ce9019b56da7",
-          "sealed": true,
           "width": 96,
           "x": 992,
           "y": 800,
-          "zOrder": -1,
+          "zOrder": 1047,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4479,15 +4502,13 @@
           "angle": 0,
           "customSize": true,
           "height": 32,
-          "layer": "Path layer",
-          "locked": true,
+          "layer": "",
           "name": "Wall",
           "persistentUuid": "96f4e604-5a34-4995-bd17-a3583a762c88",
-          "sealed": true,
           "width": 96,
           "x": 1056,
           "y": 768,
-          "zOrder": -1,
+          "zOrder": 1047,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4496,15 +4517,13 @@
           "angle": 0,
           "customSize": true,
           "height": 32,
-          "layer": "Path layer",
-          "locked": true,
+          "layer": "",
           "name": "Wall",
           "persistentUuid": "3a69b91d-dbf7-4934-9d94-659e1c58d653",
-          "sealed": true,
           "width": 96,
           "x": 1120,
           "y": 736,
-          "zOrder": -1,
+          "zOrder": 1047,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4513,15 +4532,13 @@
           "angle": 0,
           "customSize": true,
           "height": 32,
-          "layer": "Path layer",
-          "locked": true,
+          "layer": "",
           "name": "Wall",
           "persistentUuid": "5cc41e23-470b-445f-b3f8-2e0c01b0235c",
-          "sealed": true,
           "width": 64,
           "x": 1184,
           "y": 704,
-          "zOrder": -1,
+          "zOrder": 1047,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4530,15 +4547,13 @@
           "angle": 0,
           "customSize": true,
           "height": 32,
-          "layer": "Path layer",
-          "locked": true,
+          "layer": "",
           "name": "Wall",
           "persistentUuid": "1cd250e3-ed24-471d-a190-ab279f3f1b8b",
-          "sealed": true,
-          "width": 160,
+          "width": 384,
           "x": 1216,
           "y": 672,
-          "zOrder": -1,
+          "zOrder": 1047,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4547,15 +4562,13 @@
           "angle": 0,
           "customSize": true,
           "height": 32,
-          "layer": "Path layer",
-          "locked": true,
+          "layer": "",
           "name": "Wall",
-          "persistentUuid": "dd4a9b68-48f4-46d8-bb18-f0d70dc9e251",
-          "sealed": true,
-          "width": 96,
-          "x": -32,
-          "y": 480,
-          "zOrder": -1,
+          "persistentUuid": "efb2ea17-8451-4255-9666-4373ab985432",
+          "width": 320,
+          "x": 1024,
+          "y": 832,
+          "zOrder": 1047,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4564,15 +4577,28 @@
           "angle": 0,
           "customSize": true,
           "height": 29,
-          "layer": "Path layer",
-          "locked": true,
+          "layer": "Projectile layer",
+          "name": "Wall",
+          "persistentUuid": "dd4a9b68-48f4-46d8-bb18-f0d70dc9e251",
+          "width": 480,
+          "x": -32,
+          "y": 483,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 29,
+          "layer": "Projectile layer",
           "name": "Wall",
           "persistentUuid": "512cc165-901c-471a-981c-79b232c9cfd9",
-          "sealed": true,
           "width": 352,
           "x": -384,
           "y": 291,
-          "zOrder": -1,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4581,15 +4607,13 @@
           "angle": 0,
           "customSize": true,
           "height": 224,
-          "layer": "Path layer",
-          "locked": true,
+          "layer": "Projectile layer",
           "name": "Wall",
           "persistentUuid": "1083a887-907b-4af6-aa67-d11ef035c6d1",
-          "sealed": true,
           "width": 32,
           "x": -64,
           "y": 288,
-          "zOrder": -1,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4598,15 +4622,13 @@
           "angle": 0,
           "customSize": true,
           "height": 224,
-          "layer": "Path layer",
-          "locked": true,
+          "layer": "Projectile layer",
           "name": "Wall",
           "persistentUuid": "1c4648a5-e11e-4686-b793-add4bff1f8d6",
-          "sealed": true,
           "width": 32,
           "x": -64,
           "y": 672,
-          "zOrder": -1,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4615,15 +4637,13 @@
           "angle": 0,
           "customSize": true,
           "height": 29,
-          "layer": "Path layer",
-          "locked": true,
+          "layer": "Projectile layer",
           "name": "Wall",
           "persistentUuid": "65e136b9-7244-472a-8dec-3ab580823333",
-          "sealed": true,
           "width": 352,
           "x": -384,
           "y": 867,
-          "zOrder": -1,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4632,15 +4652,13 @@
           "angle": 0,
           "customSize": true,
           "height": 608,
-          "layer": "Path layer",
-          "locked": true,
+          "layer": "Projectile layer",
           "name": "Wall",
           "persistentUuid": "9f0e2c51-1a22-46ec-b856-f52d4d4e9f6d",
-          "sealed": true,
           "width": 32,
           "x": -416,
           "y": 288,
-          "zOrder": -1,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4649,15 +4667,13 @@
           "angle": 0,
           "customSize": true,
           "height": 32,
-          "layer": "Path layer",
-          "locked": true,
+          "layer": "",
           "name": "Wall",
           "persistentUuid": "8536f3ad-31ab-4ea9-96d3-0caab69ab246",
-          "sealed": true,
           "width": 192,
           "x": -32,
           "y": 672,
-          "zOrder": -1,
+          "zOrder": 1047,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4666,15 +4682,13 @@
           "angle": 0,
           "customSize": true,
           "height": 32,
-          "layer": "Path layer",
-          "locked": true,
+          "layer": "",
           "name": "Wall",
           "persistentUuid": "deced6c6-096b-4fa3-a65f-47034f18d8dc",
-          "sealed": true,
           "width": 96,
           "x": 960,
           "y": 832,
-          "zOrder": -1,
+          "zOrder": 1047,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4683,15 +4697,13 @@
           "angle": 0,
           "customSize": true,
           "height": 32,
-          "layer": "Path layer",
-          "locked": true,
+          "layer": "",
           "name": "Wall",
           "persistentUuid": "fc639974-ffb3-4e4f-bf3b-722c3fcdcbac",
-          "sealed": true,
           "width": 96,
           "x": 352,
           "y": 576,
-          "zOrder": -1,
+          "zOrder": 1047,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4700,15 +4712,13 @@
           "angle": 0,
           "customSize": true,
           "height": 32,
-          "layer": "Path layer",
-          "locked": true,
+          "layer": "",
           "name": "Wall",
           "persistentUuid": "69c66a9d-17e8-4746-ad57-0527cb5a3c51",
-          "sealed": true,
           "width": 64,
           "x": 480,
           "y": 640,
-          "zOrder": -1,
+          "zOrder": 1047,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4717,15 +4727,13 @@
           "angle": 0,
           "customSize": true,
           "height": 32,
-          "layer": "Path layer",
-          "locked": true,
+          "layer": "",
           "name": "Wall",
           "persistentUuid": "21dff019-d603-4932-b090-153c938df0ce",
-          "sealed": true,
           "width": 96,
           "x": 352,
-          "y": 544,
-          "zOrder": -1,
+          "y": 576,
+          "zOrder": 1047,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4734,15 +4742,13 @@
           "angle": 0,
           "customSize": true,
           "height": 32,
-          "layer": "Path layer",
-          "locked": true,
+          "layer": "",
           "name": "Wall",
           "persistentUuid": "80d1d66e-6ffd-4984-8076-4d669ad3491e",
-          "sealed": true,
           "width": 64,
           "x": 416,
           "y": 608,
-          "zOrder": -1,
+          "zOrder": 1047,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4751,15 +4757,13 @@
           "angle": 0,
           "customSize": true,
           "height": 32,
-          "layer": "Path layer",
-          "locked": true,
+          "layer": "",
           "name": "Wall",
           "persistentUuid": "ca59d034-7c51-47cc-8497-8ef75cc7ffe4",
-          "sealed": true,
           "width": 192,
           "x": 512,
           "y": 672,
-          "zOrder": -1,
+          "zOrder": 1047,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4768,15 +4772,13 @@
           "angle": 0,
           "customSize": true,
           "height": 32,
-          "layer": "Path layer",
-          "locked": true,
+          "layer": "",
           "name": "Wall",
           "persistentUuid": "d1f53ad1-90df-462c-98b7-5ccf7cd84219",
-          "sealed": true,
           "width": 192,
           "x": 704,
           "y": 640,
-          "zOrder": -1,
+          "zOrder": 1047,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4785,15 +4787,13 @@
           "angle": 0,
           "customSize": true,
           "height": 32,
-          "layer": "Path layer",
-          "locked": true,
+          "layer": "",
           "name": "Wall",
           "persistentUuid": "37655d7a-0bbd-4d72-a14c-1bd5cc4e3bfa",
-          "sealed": true,
           "width": 64,
           "x": 896,
           "y": 672,
-          "zOrder": -1,
+          "zOrder": 1047,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4802,15 +4802,13 @@
           "angle": 0,
           "customSize": true,
           "height": 32,
-          "layer": "Path layer",
-          "locked": true,
+          "layer": "",
           "name": "Wall",
           "persistentUuid": "4d69e623-8316-4b99-9866-cc8034a253eb",
-          "sealed": true,
           "width": 96,
           "x": 928,
           "y": 640,
-          "zOrder": -1,
+          "zOrder": 1047,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4819,15 +4817,13 @@
           "angle": 0,
           "customSize": true,
           "height": 32,
-          "layer": "Path layer",
-          "locked": true,
+          "layer": "",
           "name": "Wall",
           "persistentUuid": "de481c28-c79e-4f8e-a455-ed1df7d0c2b6",
-          "sealed": true,
           "width": 96,
           "x": 992,
           "y": 608,
-          "zOrder": -1,
+          "zOrder": 1047,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4836,15 +4832,13 @@
           "angle": 0,
           "customSize": true,
           "height": 32,
-          "layer": "Path layer",
-          "locked": true,
+          "layer": "",
           "name": "Wall",
           "persistentUuid": "784b5a77-88d5-4c97-912d-995c7cac20cf",
-          "sealed": true,
           "width": 96,
           "x": 1056,
           "y": 576,
-          "zOrder": -1,
+          "zOrder": 1047,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4853,1188 +4847,12 @@
           "angle": 0,
           "customSize": true,
           "height": 32,
-          "layer": "Path layer",
-          "locked": true,
+          "layer": "",
           "name": "Wall",
           "persistentUuid": "e3a137dd-8cf1-47b8-a54a-0a6bf242a2cf",
-          "sealed": true,
           "width": 96,
           "x": 1120,
           "y": 544,
-          "zOrder": -1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 32,
-          "layer": "Path layer",
-          "locked": true,
-          "name": "Wall",
-          "persistentUuid": "9b18271a-abd9-40c4-9ae1-87c65713a46d",
-          "sealed": true,
-          "width": 224,
-          "x": 1376,
-          "y": 640,
-          "zOrder": -1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 32,
-          "layer": "Path layer",
-          "locked": true,
-          "name": "Wall",
-          "persistentUuid": "14eac336-e4f8-4332-b3d4-4e06010d710e",
-          "sealed": true,
-          "width": 128,
-          "x": 384,
-          "y": 512,
-          "zOrder": -1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 32,
-          "layer": "Path layer",
-          "locked": true,
-          "name": "Wall",
-          "persistentUuid": "397d8ca3-882c-43da-9162-d1fee9a13adc",
-          "sealed": true,
-          "width": 96,
-          "x": 480,
-          "y": 480,
-          "zOrder": -1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 32,
-          "layer": "Path layer",
-          "locked": true,
-          "name": "Wall",
-          "persistentUuid": "1715dbdb-3d90-483b-bd87-2da8770a6a45",
-          "sealed": true,
-          "width": 160,
-          "x": 448,
-          "y": 480,
-          "zOrder": -1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 32,
-          "layer": "Path layer",
-          "locked": true,
-          "name": "Wall",
-          "persistentUuid": "0a9d7e4d-4190-47d5-9a35-4ba778801e13",
-          "sealed": true,
-          "width": 64,
-          "x": 544,
-          "y": 448,
-          "zOrder": -1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 32,
-          "layer": "Path layer",
-          "locked": true,
-          "name": "Wall",
-          "persistentUuid": "f5be5f95-6e9e-4af9-a2a7-e0e68e924e44",
-          "sealed": true,
-          "width": 64,
-          "x": 608,
-          "y": 416,
-          "zOrder": -1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 32,
-          "layer": "Path layer",
-          "locked": true,
-          "name": "Wall",
-          "persistentUuid": "42851789-3deb-4648-9cd9-2776a4d7a13a",
-          "sealed": true,
-          "width": 64,
-          "x": 672,
-          "y": 448,
-          "zOrder": -1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 32,
-          "layer": "Path layer",
-          "locked": true,
-          "name": "Wall",
-          "persistentUuid": "08cc73a1-76c8-48cd-9dff-17a43bf3bdc1",
-          "sealed": true,
-          "width": 160,
-          "x": 736,
-          "y": 480,
-          "zOrder": -1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 32,
-          "layer": "Path layer",
-          "locked": true,
-          "name": "Wall",
-          "persistentUuid": "8cb95617-9828-493b-8b59-422e0be7bf00",
-          "sealed": true,
-          "width": 96,
-          "x": 896,
-          "y": 448,
-          "zOrder": -1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 32,
-          "layer": "Path layer",
-          "locked": true,
-          "name": "Wall",
-          "persistentUuid": "01a7f499-7aba-44de-9c76-87bdddbb88ad",
-          "sealed": true,
-          "width": 128,
-          "x": 992,
-          "y": 480,
-          "zOrder": -1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 32,
-          "layer": "Path layer",
-          "locked": true,
-          "name": "Wall",
-          "persistentUuid": "8eb0a6df-03c2-4c5f-b7b4-145105e5c5cd",
-          "sealed": true,
-          "width": 64,
-          "x": 1120,
-          "y": 512,
-          "zOrder": -1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 78,
-          "layer": "Path layer",
-          "name": "Fire",
-          "persistentUuid": "bd722c79-94d4-4ba0-a4d0-70941288cf73",
-          "width": 96,
-          "x": 1349,
-          "y": 114,
-          "zOrder": -1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 81,
-          "layer": "Path layer",
-          "name": "Fire",
-          "persistentUuid": "ca7eaaef-56e4-40ed-929d-a0a89df958a1",
-          "width": 90,
-          "x": 1347,
-          "y": 894,
-          "zOrder": -1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 32,
-          "layer": "Path layer",
-          "locked": true,
-          "name": "Wall",
-          "persistentUuid": "c40da963-02de-419d-8150-ee4bb5b135af",
-          "sealed": true,
-          "width": 96,
-          "x": 64,
-          "y": 448,
-          "zOrder": -1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 32,
-          "layer": "Path layer",
-          "locked": true,
-          "name": "Wall",
-          "persistentUuid": "e2e9ad03-4217-4c9d-99d5-df0ea7eb8e44",
-          "sealed": true,
-          "width": 96,
-          "x": 192,
-          "y": 384,
-          "zOrder": -1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 32,
-          "layer": "Path layer",
-          "locked": true,
-          "name": "Wall",
-          "persistentUuid": "c4ec3e2d-ad72-49c1-9fdc-0327e55679ab",
-          "sealed": true,
-          "width": 32,
-          "x": 160,
-          "y": 416,
-          "zOrder": -1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 32,
-          "layer": "Path layer",
-          "locked": true,
-          "name": "Wall",
-          "persistentUuid": "54f7d482-95f9-4077-9380-41e59d254833",
-          "sealed": true,
-          "width": 128,
-          "x": 288,
-          "y": 352,
-          "zOrder": -1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 32,
-          "layer": "Path layer",
-          "locked": true,
-          "name": "Wall",
-          "persistentUuid": "05245131-3ce9-439a-912c-b5105465dca3",
-          "sealed": true,
-          "width": 320,
-          "x": 448,
-          "y": 256,
-          "zOrder": -1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 64,
-          "layer": "Path layer",
-          "locked": true,
-          "name": "Wall",
-          "persistentUuid": "b37dc46e-fe07-41f5-9b8d-90b0bb9ad0e8",
-          "sealed": true,
-          "width": 32,
-          "x": 416,
-          "y": 288,
-          "zOrder": -1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 32,
-          "layer": "Path layer",
-          "locked": true,
-          "name": "Wall",
-          "persistentUuid": "64c5c86f-aaa1-4663-91c0-f72ac10d8691",
-          "sealed": true,
-          "width": 320,
-          "x": 768,
-          "y": 288,
-          "zOrder": -1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 32,
-          "layer": "Path layer",
-          "locked": true,
-          "name": "Wall",
-          "persistentUuid": "ce043b6a-492f-453d-ab2c-050dbd79be97",
-          "sealed": true,
-          "width": 128,
-          "x": 1088,
-          "y": 320,
-          "zOrder": -1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 32,
-          "layer": "Path layer",
-          "locked": true,
-          "name": "Wall",
-          "persistentUuid": "e71514dd-197a-4594-8f50-8c2d063b9e35",
-          "sealed": true,
-          "width": 128,
-          "x": 1184,
-          "y": 352,
-          "zOrder": -1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 32,
-          "layer": "Path layer",
-          "locked": true,
-          "name": "Wall",
-          "persistentUuid": "e7a2ec81-fdc3-4fec-91ff-e20e99b6439c",
-          "sealed": true,
-          "width": 64,
-          "x": 1280,
-          "y": 384,
-          "zOrder": -1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 32,
-          "layer": "Path layer",
-          "locked": true,
-          "name": "Wall",
-          "persistentUuid": "e5545e33-9fae-41f2-a535-28161dd1cecd",
-          "sealed": true,
-          "width": 64,
-          "x": 1344,
-          "y": 416,
-          "zOrder": -1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 32,
-          "layer": "Path layer",
-          "locked": true,
-          "name": "Wall",
-          "persistentUuid": "3d7d576d-17d2-459d-8e46-1e20b79024b3",
-          "sealed": true,
-          "width": 192,
-          "x": 1408,
-          "y": 448,
-          "zOrder": -1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 58,
-          "customSize": true,
-          "height": 49,
-          "layer": "Path layer",
-          "name": "Fire",
-          "persistentUuid": "5ead5993-756c-4d43-90a2-7411cf4dda5e",
-          "width": 54,
-          "x": 567,
-          "y": 532,
-          "zOrder": -1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 160,
-          "layer": "Path layer",
-          "locked": true,
-          "name": "WalkTiles",
-          "persistentUuid": "090f5a24-b237-434d-a4d2-94d4fb2f5988",
-          "sealed": true,
-          "width": 384,
-          "x": -32,
-          "y": 512,
-          "zOrder": -1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 160,
-          "layer": "Path layer",
-          "locked": true,
-          "name": "WalkTiles",
-          "persistentUuid": "94a8fa19-843d-4380-8b22-41af54885cd3",
-          "sealed": true,
-          "width": 416,
-          "x": 544,
-          "y": 704,
-          "zOrder": -1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 32,
-          "layer": "Path layer",
-          "locked": true,
-          "name": "WalkTiles",
-          "persistentUuid": "89a9488f-cc94-4272-99d8-f349536628e4",
-          "sealed": true,
-          "width": 192,
-          "x": 160,
-          "y": 672,
-          "zOrder": -1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 128,
-          "layer": "Path layer",
-          "locked": true,
-          "name": "WalkTiles",
-          "persistentUuid": "fb17ba61-530a-4729-b453-155bbc9cc833",
-          "sealed": true,
-          "width": 96,
-          "x": 448,
-          "y": 704,
-          "zOrder": -1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 32,
-          "layer": "Path layer",
-          "locked": true,
-          "name": "WalkTiles",
-          "persistentUuid": "04ca10e0-7474-4a27-b085-2aa5ac447835",
-          "sealed": true,
-          "width": 160,
-          "x": 288,
-          "y": 704,
-          "zOrder": -1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 32,
-          "layer": "Path layer",
-          "locked": true,
-          "name": "WalkTiles",
-          "persistentUuid": "603d5db5-f761-4095-98d1-92f7996a9356",
-          "sealed": true,
-          "width": 160,
-          "x": 352,
-          "y": 672,
-          "zOrder": -1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 32,
-          "layer": "Path layer",
-          "locked": true,
-          "name": "WalkTiles",
-          "persistentUuid": "e6a264b1-587f-4704-8577-edb6751e6017",
-          "sealed": true,
-          "width": 128,
-          "x": 352,
-          "y": 640,
-          "zOrder": -1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 32,
-          "layer": "Path layer",
-          "locked": true,
-          "name": "WalkTiles",
-          "persistentUuid": "7fc9e77c-670f-41cf-a651-74953e10ae09",
-          "sealed": true,
-          "width": 64,
-          "x": 352,
-          "y": 608,
-          "zOrder": -1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 32,
-          "layer": "Path layer",
-          "locked": true,
-          "name": "WalkTiles",
-          "persistentUuid": "e8085bc8-46e3-4309-89eb-e0c5428d171c",
-          "sealed": true,
-          "width": 96,
-          "x": 352,
-          "y": 736,
-          "zOrder": -1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 32,
-          "layer": "Path layer",
-          "locked": true,
-          "name": "WalkTiles",
-          "persistentUuid": "d1cd62fe-b368-47d6-942f-fd0e41e9c653",
-          "sealed": true,
-          "width": 32,
-          "x": 416,
-          "y": 768,
-          "zOrder": -1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 32,
-          "layer": "Path layer",
-          "locked": true,
-          "name": "WalkTiles",
-          "persistentUuid": "2ef7bae6-2a61-4a2a-aac7-117ef788cd0b",
-          "sealed": true,
-          "width": 192,
-          "x": 704,
-          "y": 672,
-          "zOrder": -1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 160,
-          "layer": "Path layer",
-          "locked": true,
-          "name": "WalkTiles",
-          "persistentUuid": "c8414c66-740a-4729-a0dc-8a145e68cd65",
-          "sealed": true,
-          "width": 32,
-          "x": 960,
-          "y": 672,
-          "zOrder": -1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 128,
-          "layer": "Path layer",
-          "locked": true,
-          "name": "WalkTiles",
-          "persistentUuid": "d3668895-97eb-4ea1-a1ef-8e8f964809d8",
-          "sealed": true,
-          "width": 64,
-          "x": 992,
-          "y": 672,
-          "zOrder": -1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 128,
-          "layer": "Path layer",
-          "locked": true,
-          "name": "WalkTiles",
-          "persistentUuid": "349013b4-f8df-4460-813c-4160bcf8ac3d",
-          "sealed": true,
-          "width": 64,
-          "x": 1056,
-          "y": 640,
-          "zOrder": -1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 128,
-          "layer": "Path layer",
-          "locked": true,
-          "name": "WalkTiles",
-          "persistentUuid": "fd36ee8f-4898-470d-a052-dcfcaf607231",
-          "sealed": true,
-          "width": 64,
-          "x": 1120,
-          "y": 608,
-          "zOrder": -1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 32,
-          "layer": "Path layer",
-          "locked": true,
-          "name": "WalkTiles",
-          "persistentUuid": "60722698-8a82-4552-bd1a-aa47dc9038e2",
-          "sealed": true,
-          "width": 32,
-          "x": 1024,
-          "y": 640,
-          "zOrder": -1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 32,
-          "layer": "Path layer",
-          "locked": true,
-          "name": "WalkTiles",
-          "persistentUuid": "49244cd9-d6be-4790-80da-f78c0eb69807",
-          "sealed": true,
-          "width": 32,
-          "x": 1088,
-          "y": 608,
-          "zOrder": -1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 32,
-          "layer": "Path layer",
-          "locked": true,
-          "name": "WalkTiles",
-          "persistentUuid": "472b33bf-a15f-412e-8927-147700eda2b7",
-          "sealed": true,
-          "width": 32,
-          "x": 1152,
-          "y": 576,
-          "zOrder": -1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 32,
-          "layer": "Path layer",
-          "locked": true,
-          "name": "WalkTiles",
-          "persistentUuid": "7b43f3da-267e-44c8-b337-b72f8ad5c225",
-          "sealed": true,
-          "width": 32,
-          "x": 1184,
-          "y": 672,
-          "zOrder": -1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 96,
-          "layer": "Path layer",
-          "locked": true,
-          "name": "WalkTiles",
-          "persistentUuid": "0e84c36c-b639-488a-86a9-bd845c654d78",
-          "sealed": true,
-          "width": 192,
-          "x": 1184,
-          "y": 576,
-          "zOrder": -1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 32,
-          "layer": "Path layer",
-          "locked": true,
-          "name": "WalkTiles",
-          "persistentUuid": "a59ff94d-4dcf-4f26-a541-29e7e4e3191e",
-          "sealed": true,
-          "width": 384,
-          "x": 64,
-          "y": 480,
-          "zOrder": -1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 32,
-          "layer": "Path layer",
-          "locked": true,
-          "name": "WalkTiles",
-          "persistentUuid": "7a098fb6-932c-4b47-bacb-3bd7554519f8",
-          "sealed": true,
-          "width": 384,
-          "x": 160,
-          "y": 448,
-          "zOrder": -1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 32,
-          "layer": "Path layer",
-          "locked": true,
-          "name": "WalkTiles",
-          "persistentUuid": "bd5d3888-86af-49ec-885d-54cb155f4b56",
-          "sealed": true,
-          "width": 32,
-          "x": 352,
-          "y": 512,
-          "zOrder": -1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 32,
-          "layer": "Path layer",
-          "locked": true,
-          "name": "WalkTiles",
-          "persistentUuid": "de12acc4-1c06-431b-be8c-685b0d005584",
-          "sealed": true,
-          "width": 416,
-          "x": 192,
-          "y": 416,
-          "zOrder": -1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 32,
-          "layer": "Path layer",
-          "locked": true,
-          "name": "WalkTiles",
-          "persistentUuid": "a0bb6485-1ad7-447b-8f58-6703b248f6b0",
-          "sealed": true,
-          "width": 384,
-          "x": 288,
-          "y": 384,
-          "zOrder": -1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 32,
-          "layer": "Path layer",
-          "locked": true,
-          "name": "WalkTiles",
-          "persistentUuid": "2e5c1fbe-a295-45a1-8d77-5ba4db768cb6",
-          "sealed": true,
-          "width": 256,
-          "x": 416,
-          "y": 352,
-          "zOrder": -1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 32,
-          "layer": "Path layer",
-          "locked": true,
-          "name": "WalkTiles",
-          "persistentUuid": "42ae9cda-48df-4dcc-87e2-e5ce20e4d0ce",
-          "sealed": true,
-          "width": 224,
-          "x": 448,
-          "y": 320,
-          "zOrder": -1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 32,
-          "layer": "Path layer",
-          "locked": true,
-          "name": "WalkTiles",
-          "persistentUuid": "88b2a826-8440-4615-b7e6-e9b57f5ac39a",
-          "sealed": true,
-          "width": 224,
-          "x": 448,
-          "y": 288,
-          "zOrder": -1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 160,
-          "layer": "Path layer",
-          "locked": true,
-          "name": "WalkTiles",
-          "persistentUuid": "3a03ec57-e994-413a-999b-a8006e4a8631",
-          "sealed": true,
-          "width": 96,
-          "x": 672,
-          "y": 288,
-          "zOrder": -1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 160,
-          "layer": "Path layer",
-          "locked": true,
-          "name": "WalkTiles",
-          "persistentUuid": "50d40ce8-41a3-4bfc-b323-c419f8dfd94d",
-          "sealed": true,
-          "width": 128,
-          "x": 768,
-          "y": 320,
-          "zOrder": -1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 128,
-          "layer": "Path layer",
-          "locked": true,
-          "name": "WalkTiles",
-          "persistentUuid": "dc7cf15b-897f-4ead-b04b-a2f4af09474f",
-          "sealed": true,
-          "width": 192,
-          "x": 896,
-          "y": 320,
-          "zOrder": -1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 32,
-          "layer": "Path layer",
-          "locked": true,
-          "name": "WalkTiles",
-          "persistentUuid": "54bdf87c-58ea-43fd-9b99-08b6490b5c32",
-          "sealed": true,
-          "width": 384,
-          "x": 992,
-          "y": 448,
-          "zOrder": -1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 32,
-          "layer": "Path layer",
-          "locked": true,
-          "name": "WalkTiles",
-          "persistentUuid": "4b604f70-ece8-4774-81f3-5d0043ed9561",
-          "sealed": true,
-          "width": 64,
-          "x": 1280,
-          "y": 416,
-          "zOrder": -1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 32,
-          "layer": "Path layer",
-          "locked": true,
-          "name": "WalkTiles",
-          "persistentUuid": "8b940c95-7c4c-436c-96e8-28b33b64b9d1",
-          "sealed": true,
-          "width": 96,
-          "x": 1088,
-          "y": 352,
-          "zOrder": -1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 64,
-          "layer": "Path layer",
-          "locked": true,
-          "name": "WalkTiles",
-          "persistentUuid": "021edb7f-1df7-4fde-a938-4e10931751cb",
-          "sealed": true,
-          "width": 192,
-          "x": 1088,
-          "y": 384,
-          "zOrder": -1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 96,
-          "layer": "Path layer",
-          "locked": true,
-          "name": "WalkTiles",
-          "persistentUuid": "5cf537b4-151c-4c91-82bb-d9751f936b93",
-          "sealed": true,
-          "width": 160,
-          "x": 1216,
-          "y": 480,
-          "zOrder": -1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 32,
-          "layer": "Path layer",
-          "locked": true,
-          "name": "WalkTiles",
-          "persistentUuid": "28084729-7dfb-4687-9e26-115747254ca5",
-          "sealed": true,
-          "width": 96,
-          "x": 1120,
-          "y": 480,
-          "zOrder": -1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 32,
-          "layer": "Path layer",
-          "locked": true,
-          "name": "WalkTiles",
-          "persistentUuid": "cb8fd728-ba3b-43a5-8619-e3d616bde8fe",
-          "sealed": true,
-          "width": 32,
-          "x": 1184,
-          "y": 512,
-          "zOrder": -1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 32,
-          "layer": "Path layer",
-          "locked": true,
-          "name": "WalkTiles",
-          "persistentUuid": "ea631566-280a-4453-bd43-5c957a96278b",
-          "sealed": true,
-          "width": 32,
-          "x": 736,
-          "y": 448,
-          "zOrder": -1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": -90,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "FireParticles",
-          "persistentUuid": "8584435a-1fba-4d04-905f-160b4beb0a1b",
-          "width": 0,
-          "x": 589,
-          "y": 577,
-          "zOrder": 1047,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": -90,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "FireParticles",
-          "persistentUuid": "6c596883-88f1-456f-8156-d3400e952e3f",
-          "width": 0,
-          "x": 271,
-          "y": 191,
-          "zOrder": 1047,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": -90,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "FireParticles",
-          "persistentUuid": "2e0cb5e8-71e9-41ee-b227-10484712ec89",
-          "width": 0,
-          "x": 1395,
-          "y": 190,
-          "zOrder": 1047,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": -90,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "FireParticles",
-          "persistentUuid": "6f6f168e-9cfa-476b-91a5-92d60a919e8c",
-          "width": 0,
-          "x": 1393,
-          "y": 958,
-          "zOrder": 1047,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": -90,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "FireParticles",
-          "persistentUuid": "1d32696b-9759-41d1-b815-176655ffde04",
-          "width": 0,
-          "x": 271,
-          "y": 950,
           "zOrder": 1047,
           "numberProperties": [],
           "stringProperties": [],
@@ -9052,12 +7870,63 @@
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": false,
+                  "looping": true,
                   "timeBetweenFrames": 0.1111,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
                       "image": "Fire13-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Fire13-2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Fire13-3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Fire13-4.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -9495,12 +8364,12 @@
               "TargetY": 350
             },
             {
-              "name": "Pathfinding",
-              "type": "PathfindingBehavior::PathfindingBehavior",
               "angularMaxSpeed": 90,
               "cellHeight": 32,
               "cellWidth": 32,
               "extraBorder": 0,
+              "name": "Pathfinding",
+              "type": "PathfindingBehavior::PathfindingBehavior",
               "acceleration": 50,
               "maxSpeed": 80,
               "allowDiagonals": true,
@@ -10407,51 +9276,6 @@
           "variables": [],
           "effects": [],
           "behaviors": []
-        },
-        {
-          "additive": false,
-          "assetStoreId": "",
-          "destroyWhenNoParticles": true,
-          "emitterAngleA": 0,
-          "emitterAngleB": 90,
-          "emitterForceMax": 40,
-          "emitterForceMin": 20,
-          "flow": 10,
-          "maxParticleNb": 20,
-          "name": "FireParticles",
-          "particleAlpha1": 204,
-          "particleAlpha2": 0,
-          "particleAlphaRandomness1": 0,
-          "particleAlphaRandomness2": 0,
-          "particleAngle1": -200,
-          "particleAngle2": 200,
-          "particleAngleRandomness1": 0,
-          "particleAngleRandomness2": 0,
-          "particleBlue1": 27,
-          "particleBlue2": 28,
-          "particleGravityX": 0,
-          "particleGravityY": 150,
-          "particleGreen1": 2,
-          "particleGreen2": 231,
-          "particleLifeTimeMax": 1,
-          "particleLifeTimeMin": 0.5,
-          "particleRed1": 208,
-          "particleRed2": 248,
-          "particleSize1": 100,
-          "particleSize2": 75,
-          "particleSizeRandomness1": 0,
-          "particleSizeRandomness2": 0,
-          "rendererParam1": 6,
-          "rendererParam2": 6,
-          "rendererType": "Line",
-          "tags": "",
-          "tank": -1,
-          "textureParticleName": "",
-          "type": "ParticleSystem::ParticleEmitter",
-          "zoneRadius": 45,
-          "variables": [],
-          "effects": [],
-          "behaviors": []
         }
       ],
       "events": [
@@ -10781,7 +9605,7 @@
                       "parameters": [
                         "nextID",
                         "=",
-                        "1"
+                        "0"
                       ]
                     }
                   ]
@@ -11074,22 +9898,6 @@
                       "parameters": [
                         "StatusIcons"
                       ]
-                    },
-                    {
-                      "type": {
-                        "value": "Cache"
-                      },
-                      "parameters": [
-                        "WalkTiles"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Cache"
-                      },
-                      "parameters": [
-                        "Wall"
-                      ]
                     }
                   ]
                 },
@@ -11222,12 +10030,37 @@
                 {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
-                  "actions": []
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetSceneVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "initDone",
+                        "True"
+                      ]
+                    }
+                  ]
                 }
               ]
             }
           ],
           "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneVariableAsBoolean"
+              },
+              "parameters": [
+                "initDone",
+                "True"
+              ]
+            }
+          ],
+          "actions": []
         },
         {
           "colorB": 228,
@@ -12149,8 +10982,8 @@
                                 "",
                                 "Enemies",
                                 "VariableString(waveData.name)",
-                                "Spawner.X()+RandomInRange(-100,100)",
-                                "Spawner.Y()+RandomInRange(-30,30)",
+                                "Spawner.X()+RandomInRange(-20,20)",
+                                "Spawner.Y()+RandomInRange(-20,20)",
                                 "\"Projectile layer\""
                               ]
                             },
@@ -12615,110 +11448,22 @@
               "actions": [
                 {
                   "type": {
-                    "value": "SetObjectVariableAsBoolean"
+                    "value": "Montre"
                   },
                   "parameters": [
-                    "Confirm",
-                    "doElse",
-                    "True"
-                  ]
-                }
-              ],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": true,
-                        "value": "VarObjetTxt"
-                      },
-                      "parameters": [
-                        "Confirm",
-                        "Action",
-                        "=",
-                        "\"Quit\""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Montre"
-                      },
-                      "parameters": [
-                        "ConfirmBox",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVarObjetTxt"
-                      },
-                      "parameters": [
-                        "Confirm",
-                        "Action",
-                        "=",
-                        "\"Quit\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetObjectVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "Confirm",
-                        "doElse",
-                        "False"
-                      ]
-                    }
+                    "ConfirmBox",
+                    ""
                   ]
                 },
                 {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "VarObjetTxt"
-                      },
-                      "parameters": [
-                        "Confirm",
-                        "Action",
-                        "=",
-                        "\"Quit\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ObjectVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "Confirm",
-                        "doElse",
-                        "True"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Cache"
-                      },
-                      "parameters": [
-                        "ConfirmBox"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVarObjetTxt"
-                      },
-                      "parameters": [
-                        "Confirm",
-                        "Action",
-                        "=",
-                        "\"\""
-                      ]
-                    }
+                  "type": {
+                    "value": "ModVarObjetTxt"
+                  },
+                  "parameters": [
+                    "Confirm",
+                    "Action",
+                    "=",
+                    "\"Quit\""
                   ]
                 }
               ]
@@ -13064,6 +11809,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Tower/Enemy Info",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -13132,8 +11878,8 @@
                       },
                       "parameters": [
                         "Towers",
-                        "SpawnBox.CenterX()+60",
-                        "SpawnBox.CenterY()+60",
+                        "Cursor.X()+60",
+                        "Cursor.Y()+60",
                         ""
                       ]
                     }
@@ -14863,18 +13609,6 @@
                 },
                 {
                   "type": {
-                    "value": "TDTD::TowerV2::selectivelyRemoveParticles"
-                  },
-                  "parameters": [
-                    "Towers",
-                    "TowerV2",
-                    "StatusParticles",
-                    "\"39;95;162\"",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
                     "value": "Delete"
                   },
                   "parameters": [
@@ -15326,8 +14060,7 @@
                     "Towers",
                     "150",
                     "CaringCitizen",
-                    "StatusParticles",
-                    ""
+                    "CaringCitizen"
                   ]
                 }
               ]
@@ -15452,26 +14185,6 @@
                     "Range",
                     "=",
                     "GlobalVariable(SpawnerRange)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Montre"
-                  },
-                  "parameters": [
-                    "ConfirmBox",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarObjetTxt"
-                  },
-                  "parameters": [
-                    "Confirm",
-                    "Action",
-                    "=",
-                    "\"Buy\""
                   ]
                 }
               ]
@@ -15934,8 +14647,8 @@
                       },
                       "parameters": [
                         "CommLeader",
-                        "SpawnBox.CenterX()",
-                        "SpawnBox.CenterY()",
+                        "CursorX()",
+                        "CursorY()",
                         ""
                       ]
                     },
@@ -15974,18 +14687,6 @@
                   "parameters": [
                     "",
                     "Left"
-                  ]
-                },
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "Confirm",
-                    "",
-                    "",
-                    ""
                   ]
                 }
               ],
@@ -16066,17 +14767,6 @@
                         "SpawnBox",
                         "\"CannotSpawn\""
                       ]
-                    },
-                    {
-                      "type": {
-                        "value": "SourisSurObjet"
-                      },
-                      "parameters": [
-                        "Confirm",
-                        "",
-                        "",
-                        ""
-                      ]
                     }
                   ],
                   "actions": [],
@@ -16110,12 +14800,11 @@
                       "actions": [
                         {
                           "type": {
-                            "value": "TDTD::SpawnTowerAtBox"
+                            "value": "TDTD::SpawnTower"
                           },
                           "parameters": [
                             "",
                             "Cheerleader",
-                            "SpawnBox",
                             ""
                           ]
                         },
@@ -16157,12 +14846,11 @@
                       "actions": [
                         {
                           "type": {
-                            "value": "TDTD::SpawnTowerAtBox"
+                            "value": "TDTD::SpawnTower"
                           },
                           "parameters": [
                             "",
                             "CaringCitizen",
-                            "SpawnBox",
                             ""
                           ]
                         },
@@ -16219,8 +14907,8 @@
                           },
                           "parameters": [
                             "Towers",
-                            "SpawnBox.CenterX()",
-                            "SpawnBox.CenterY()",
+                            "CursorX()",
+                            "CursorY()",
                             ""
                           ]
                         }
@@ -16234,8 +14922,8 @@
                             "",
                             "Towers",
                             "Towers.ObjectName()",
-                            "SpawnBox.CenterX()",
-                            "SpawnBox.CenterY()",
+                            "CursorX()",
+                            "CursorY()",
                             ""
                           ]
                         },
@@ -16291,8 +14979,8 @@
                               },
                               "parameters": [
                                 "Towers",
-                                "SpawnBox.CenterX()",
-                                "SpawnBox.CenterY()",
+                                "CursorX()",
+                                "CursorY()",
                                 ""
                               ]
                             }
@@ -16305,9 +14993,9 @@
                               "parameters": [
                                 "Towers",
                                 "=",
-                                "SpawnBox.CenterX()",
+                                "CursorX()",
                                 "=",
-                                "SpawnBox.CenterY()"
+                                "CursorY()"
                               ]
                             },
                             {
@@ -16317,19 +15005,8 @@
                               "parameters": [
                                 "Towers",
                                 "FireRate",
-                                "*",
-                                "1.5"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "ModVarObjet"
-                              },
-                              "parameters": [
-                                "Towers",
-                                "SecondRate",
-                                "*",
-                                "1.5"
+                                "/",
+                                "0.5"
                               ]
                             }
                           ]
@@ -16352,12 +15029,11 @@
                       "actions": [
                         {
                           "type": {
-                            "value": "TDTD::SpawnTowerAtBox"
+                            "value": "TDTD::SpawnTower"
                           },
                           "parameters": [
                             "",
                             "CommLeader",
-                            "SpawnBox",
                             ""
                           ]
                         },
@@ -16368,7 +15044,7 @@
                           "parameters": [
                             "CommX",
                             "=",
-                            "SpawnBox.CenterX()"
+                            "CursorX()"
                           ]
                         },
                         {
@@ -16378,7 +15054,7 @@
                           "parameters": [
                             "CommY",
                             "=",
-                            "SpawnBox.CenterY()"
+                            "CursorY()"
                           ]
                         },
                         {
@@ -16501,12 +15177,11 @@
                       "actions": [
                         {
                           "type": {
-                            "value": "TDTD::SpawnTowerAtBox"
+                            "value": "TDTD::SpawnTower"
                           },
                           "parameters": [
                             "",
                             "CareerGuider",
-                            "SpawnBox",
                             ""
                           ]
                         },
@@ -16558,12 +15233,11 @@
                       "actions": [
                         {
                           "type": {
-                            "value": "TDTD::SpawnTowerAtBox"
+                            "value": "TDTD::SpawnTower"
                           },
                           "parameters": [
                             "",
                             "Investor",
-                            "SpawnBox",
                             ""
                           ]
                         },
@@ -16618,12 +15292,11 @@
                       "actions": [
                         {
                           "type": {
-                            "value": "TDTD::SpawnTowerAtBox"
+                            "value": "TDTD::SpawnTower"
                           },
                           "parameters": [
                             "",
                             "Soldier",
-                            "SpawnBox",
                             ""
                           ]
                         },
@@ -16650,7 +15323,6 @@
                       ]
                     },
                     {
-                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -16704,8 +15376,8 @@
                               },
                               "parameters": [
                                 "WalkTiles",
-                                "SpawnBox.CenterX()",
-                                "SpawnBox.CenterY()+60"
+                                "CursorX()",
+                                "CursorY()+60"
                               ]
                             }
                           ],
@@ -16717,8 +15389,8 @@
                               "parameters": [
                                 "",
                                 "IntelligenceOfficer",
-                                "SpawnBox.CenterX()",
-                                "SpawnBox.CenterY()",
+                                "CursorX()",
+                                "CursorY()",
                                 ""
                               ]
                             },
@@ -16729,9 +15401,9 @@
                               "parameters": [
                                 "IntelligenceOfficer",
                                 "=",
-                                "SpawnBox.CenterX()",
+                                "CursorX()",
                                 "=",
-                                "SpawnBox.CenterY()-30"
+                                "MouseY()-30"
                               ]
                             },
                             {
@@ -16742,7 +15414,7 @@
                                 "IntelligenceOfficer",
                                 "SpawnX",
                                 "=",
-                                "SpawnBox.CenterX()"
+                                "CursorX()"
                               ]
                             },
                             {
@@ -16753,7 +15425,7 @@
                                 "IntelligenceOfficer",
                                 "SpawnY",
                                 "=",
-                                "SpawnBox.CenterY()+90"
+                                "CursorY()+90"
                               ]
                             },
                             {
@@ -16806,8 +15478,8 @@
                               },
                               "parameters": [
                                 "WalkTiles",
-                                "SpawnBox.CenterX()",
-                                "SpawnBox.CenterY()-60"
+                                "CursorX()",
+                                "CursorY()-60"
                               ]
                             }
                           ],
@@ -16819,8 +15491,8 @@
                               "parameters": [
                                 "",
                                 "IntelligenceOfficer",
-                                "SpawnBox.CenterX()",
-                                "SpawnBox.CenterY()",
+                                "CursorX()",
+                                "CursorY()",
                                 ""
                               ]
                             },
@@ -16831,9 +15503,9 @@
                               "parameters": [
                                 "IntelligenceOfficer",
                                 "=",
-                                "SpawnBox.CenterX()",
+                                "CursorX()",
                                 "=",
-                                "SpawnBox.CenterY()+30"
+                                "MouseY()+30"
                               ]
                             },
                             {
@@ -16844,7 +15516,7 @@
                                 "IntelligenceOfficer",
                                 "SpawnX",
                                 "=",
-                                "SpawnBox.CenterX()"
+                                "CursorX()"
                               ]
                             },
                             {
@@ -16855,7 +15527,7 @@
                                 "IntelligenceOfficer",
                                 "SpawnY",
                                 "=",
-                                "SpawnBox.CenterY()-90"
+                                "CursorY()-90"
                               ]
                             },
                             {
@@ -16908,8 +15580,8 @@
                               },
                               "parameters": [
                                 "WalkTiles",
-                                "SpawnBox.CenterX()+130",
-                                "SpawnBox.CenterY()"
+                                "CursorX()+130",
+                                "CursorY()"
                               ]
                             }
                           ],
@@ -16921,8 +15593,8 @@
                               "parameters": [
                                 "",
                                 "IntelligenceOfficer",
-                                "SpawnBox.CenterX()",
-                                "SpawnBox.CenterY()",
+                                "CursorX()",
+                                "CursorY()",
                                 ""
                               ]
                             },
@@ -16933,9 +15605,9 @@
                               "parameters": [
                                 "IntelligenceOfficer",
                                 "=",
-                                "SpawnBox.CenterX()-10",
+                                "CursorX()-10",
                                 "=",
-                                "SpawnBox.CenterY()"
+                                "MouseY()"
                               ]
                             },
                             {
@@ -16946,7 +15618,7 @@
                                 "IntelligenceOfficer",
                                 "SpawnX",
                                 "=",
-                                "SpawnBox.CenterX()+160"
+                                "CursorX()+160"
                               ]
                             },
                             {
@@ -16957,7 +15629,7 @@
                                 "IntelligenceOfficer",
                                 "SpawnY",
                                 "=",
-                                "SpawnBox.CenterY()"
+                                "CursorY()"
                               ]
                             },
                             {
@@ -17010,8 +15682,8 @@
                               },
                               "parameters": [
                                 "WalkTiles",
-                                "SpawnBox.CenterX()-130",
-                                "SpawnBox.CenterY()"
+                                "CursorX()-130",
+                                "CursorY()"
                               ]
                             }
                           ],
@@ -17023,8 +15695,8 @@
                               "parameters": [
                                 "",
                                 "IntelligenceOfficer",
-                                "SpawnBox.CenterX()",
-                                "SpawnBox.CenterY()",
+                                "CursorX()",
+                                "CursorY()",
                                 ""
                               ]
                             },
@@ -17035,9 +15707,9 @@
                               "parameters": [
                                 "IntelligenceOfficer",
                                 "=",
-                                "SpawnBox.CenterX()+30",
+                                "CursorX()+30",
                                 "=",
-                                "SpawnBox.CenterY()"
+                                "MouseY()"
                               ]
                             },
                             {
@@ -17048,7 +15720,7 @@
                                 "IntelligenceOfficer",
                                 "SpawnX",
                                 "=",
-                                "SpawnBox.CenterX()-190"
+                                "CursorX()-190"
                               ]
                             },
                             {
@@ -17059,7 +15731,7 @@
                                 "IntelligenceOfficer",
                                 "SpawnY",
                                 "=",
-                                "SpawnBox.CenterY()"
+                                "CursorY()"
                               ]
                             },
                             {
@@ -17110,7 +15782,6 @@
                       "comment2": ""
                     },
                     {
-                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -17164,8 +15835,8 @@
                               },
                               "parameters": [
                                 "WalkTiles",
-                                "SpawnBox.CenterX()",
-                                "SpawnBox.CenterY()+60"
+                                "CursorX()",
+                                "CursorY()+60"
                               ]
                             }
                           ],
@@ -17177,8 +15848,8 @@
                               "parameters": [
                                 "",
                                 "Firefighter",
-                                "SpawnBox.CenterX()",
-                                "SpawnBox.CenterY()",
+                                "CursorX()",
+                                "CursorY()",
                                 ""
                               ]
                             },
@@ -17189,9 +15860,9 @@
                               "parameters": [
                                 "Firefighter",
                                 "=",
-                                "SpawnBox.CenterX()",
+                                "CursorX()",
                                 "=",
-                                "SpawnBox.CenterY()-40"
+                                "MouseY()-40"
                               ]
                             },
                             {
@@ -17202,7 +15873,7 @@
                                 "Firefighter",
                                 "SpawnX",
                                 "=",
-                                "SpawnBox.CenterX()"
+                                "CursorX()"
                               ]
                             },
                             {
@@ -17213,7 +15884,7 @@
                                 "Firefighter",
                                 "SpawnY",
                                 "=",
-                                "SpawnBox.CenterY()+100"
+                                "CursorY()+100"
                               ]
                             },
                             {
@@ -17266,8 +15937,8 @@
                               },
                               "parameters": [
                                 "WalkTiles",
-                                "SpawnBox.CenterX()",
-                                "SpawnBox.CenterY()-60"
+                                "CursorX()",
+                                "CursorY()-60"
                               ]
                             }
                           ],
@@ -17279,8 +15950,8 @@
                               "parameters": [
                                 "",
                                 "Firefighter",
-                                "SpawnBox.CenterX()",
-                                "SpawnBox.CenterY()",
+                                "CursorX()",
+                                "CursorY()",
                                 ""
                               ]
                             },
@@ -17291,9 +15962,9 @@
                               "parameters": [
                                 "Firefighter",
                                 "=",
-                                "SpawnBox.CenterX()",
+                                "CursorX()",
                                 "=",
-                                "SpawnBox.CenterY()+40"
+                                "MouseY()+40"
                               ]
                             },
                             {
@@ -17304,7 +15975,7 @@
                                 "Firefighter",
                                 "SpawnX",
                                 "=",
-                                "SpawnBox.CenterX()"
+                                "CursorX()"
                               ]
                             },
                             {
@@ -17315,7 +15986,7 @@
                                 "Firefighter",
                                 "SpawnY",
                                 "=",
-                                "SpawnBox.CenterY()-100"
+                                "CursorY()-100"
                               ]
                             },
                             {
@@ -17368,8 +16039,8 @@
                               },
                               "parameters": [
                                 "WalkTiles",
-                                "SpawnBox.CenterX()+130",
-                                "SpawnBox.CenterY()"
+                                "CursorX()+130",
+                                "CursorY()"
                               ]
                             }
                           ],
@@ -17381,8 +16052,8 @@
                               "parameters": [
                                 "",
                                 "Firefighter",
-                                "SpawnBox.CenterX()",
-                                "SpawnBox.CenterY()",
+                                "CursorX()",
+                                "CursorY()",
                                 ""
                               ]
                             },
@@ -17393,9 +16064,9 @@
                               "parameters": [
                                 "Firefighter",
                                 "=",
-                                "SpawnBox.CenterX()",
+                                "CursorX()",
                                 "=",
-                                "SpawnBox.CenterY()"
+                                "MouseY()"
                               ]
                             },
                             {
@@ -17406,7 +16077,7 @@
                                 "Firefighter",
                                 "SpawnX",
                                 "=",
-                                "SpawnBox.CenterX()+130"
+                                "CursorX()+130"
                               ]
                             },
                             {
@@ -17417,7 +16088,7 @@
                                 "Firefighter",
                                 "SpawnY",
                                 "=",
-                                "SpawnBox.CenterY()"
+                                "CursorY()"
                               ]
                             },
                             {
@@ -17470,8 +16141,8 @@
                               },
                               "parameters": [
                                 "WalkTiles",
-                                "SpawnBox.CenterX()-130",
-                                "SpawnBox.CenterY()"
+                                "CursorX()-130",
+                                "CursorY()"
                               ]
                             }
                           ],
@@ -17483,8 +16154,8 @@
                               "parameters": [
                                 "",
                                 "Firefighter",
-                                "SpawnBox.CenterX()",
-                                "SpawnBox.CenterY()",
+                                "CursorX()",
+                                "CursorY()",
                                 ""
                               ]
                             },
@@ -17495,9 +16166,9 @@
                               "parameters": [
                                 "Firefighter",
                                 "=",
-                                "SpawnBox.CenterX()",
+                                "CursorX()",
                                 "=",
-                                "SpawnBox.CenterY()"
+                                "MouseY()"
                               ]
                             },
                             {
@@ -17508,7 +16179,7 @@
                                 "Firefighter",
                                 "SpawnX",
                                 "=",
-                                "SpawnBox.CenterX()-130"
+                                "CursorX()-130"
                               ]
                             },
                             {
@@ -17519,7 +16190,7 @@
                                 "Firefighter",
                                 "SpawnY",
                                 "=",
-                                "SpawnBox.CenterY()"
+                                "CursorY()"
                               ]
                             },
                             {
@@ -17572,12 +16243,11 @@
                       "actions": [
                         {
                           "type": {
-                            "value": "TDTD::SpawnTowerAtBox"
+                            "value": "TDTD::SpawnTower"
                           },
                           "parameters": [
                             "",
                             "Doctor",
-                            "SpawnBox",
                             ""
                           ]
                         },
@@ -17632,12 +16302,11 @@
                       "actions": [
                         {
                           "type": {
-                            "value": "TDTD::SpawnTowerAtBox"
+                            "value": "TDTD::SpawnTower"
                           },
                           "parameters": [
                             "",
                             "WhiteHat",
-                            "SpawnBox",
                             ""
                           ]
                         },
@@ -17679,12 +16348,11 @@
                       "actions": [
                         {
                           "type": {
-                            "value": "TDTD::SpawnTowerAtBox"
+                            "value": "TDTD::SpawnTower"
                           },
                           "parameters": [
                             "",
                             "DiscerningCitizen",
-                            "SpawnBox",
                             ""
                           ]
                         },
@@ -17728,8 +16396,8 @@
                           },
                           "parameters": [
                             "CommLeader",
-                            "SpawnBox.CenterX()",
-                            "SpawnBox.CenterY()",
+                            "CursorX()",
+                            "CursorY()",
                             ""
                           ]
                         },
@@ -17930,54 +16598,7 @@
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Or"
-                      },
-                      "parameters": [],
-                      "subInstructions": [
-                        {
-                          "type": {
-                            "value": "AnimationName"
-                          },
-                          "parameters": [
-                            "SpawnBox",
-                            "\"CannotSpawn\""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::And"
-                          },
-                          "parameters": [],
-                          "subInstructions": [
-                            {
-                              "type": {
-                                "value": "SourisSurObjet"
-                              },
-                              "parameters": [
-                                "Confirm",
-                                "",
-                                "",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "inverted": true,
-                                "value": "AnimationName"
-                              },
-                              "parameters": [
-                                "SpawnBox",
-                                "\"CannotSpawn\""
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ],
+                  "conditions": [],
                   "actions": [
                     {
                       "type": {
@@ -17986,17 +16607,6 @@
                       "parameters": [
                         "SpawnBox",
                         "="
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVarObjetTxt"
-                      },
-                      "parameters": [
-                        "Confirm",
-                        "Action",
-                        "=",
-                        "\"\""
                       ]
                     },
                     {
@@ -18122,23 +16732,6 @@
                       "parameters": [
                         "FirefighterSpawn",
                         "False"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "AjoutObjConcern"
-                      },
-                      "parameters": [
-                        "",
-                        "ConfirmBox"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Cache"
-                      },
-                      "parameters": [
-                        "ConfirmBox"
                       ]
                     }
                   ]
@@ -19638,7 +18231,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Change Shop Content",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -20418,7 +19010,7 @@
                           "parameters": [
                             "SpawnerRange",
                             "=",
-                            "0"
+                            "150"
                           ]
                         }
                       ]
@@ -20454,7 +19046,7 @@
                           "parameters": [
                             "SpawnerRange",
                             "=",
-                            "175"
+                            "225"
                           ]
                         }
                       ]
@@ -20526,7 +19118,7 @@
                           "parameters": [
                             "SpawnerRange",
                             "=",
-                            "250"
+                            "300"
                           ]
                         }
                       ]
@@ -20694,7 +19286,7 @@
                           "parameters": [
                             "SpawnerRange",
                             "=",
-                            "80"
+                            "50"
                           ]
                         }
                       ]
@@ -20730,7 +19322,7 @@
                           "parameters": [
                             "SpawnerRange",
                             "=",
-                            "120"
+                            "100"
                           ]
                         }
                       ]
@@ -20838,7 +19430,7 @@
                           "parameters": [
                             "SpawnerRange",
                             "=",
-                            "80"
+                            "50"
                           ]
                         }
                       ]
@@ -22659,81 +21251,6 @@
           "objectGroups": []
         },
         {
-          "description": "Spawn a Tower on the map at SpawnBox",
-          "fullName": "Spawn a Tower at SpawnBox",
-          "functionType": "Action",
-          "name": "SpawnTowerAtBox",
-          "sentence": "Spawn _PARAM1_ at the _PARAM2_ position",
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "Tower",
-                    "SpawnBox.CenterX()",
-                    "SpawnBox.CenterY()",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetCenter"
-                  },
-                  "parameters": [
-                    "Tower",
-                    "=",
-                    "SpawnBox.CenterX()",
-                    "=",
-                    "SpawnBox.CenterY()"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarObjet"
-                  },
-                  "parameters": [
-                    "Tower",
-                    "ID",
-                    "=",
-                    "GlobalVariable(nextID)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "nextID",
-                    "+",
-                    "1"
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "description": "Tower to spawn",
-              "name": "Tower",
-              "supplementaryInformation": "Sprite",
-              "type": "objectList"
-            },
-            {
-              "description": "SpawnBox",
-              "name": "SpawnBox",
-              "supplementaryInformation": "Sprite",
-              "type": "objectList"
-            }
-          ],
-          "objectGroups": []
-        },
-        {
           "description": "Move the Range Indicator to the appropriate Tower.",
           "fullName": "Move Range Indicator",
           "functionType": "Action",
@@ -22742,19 +21259,7 @@
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "Tower",
-                    "RangeBoosted",
-                    "True"
-                  ]
-                }
-              ],
+              "conditions": [],
               "actions": [
                 {
                   "type": {
@@ -22773,42 +21278,6 @@
                     "Tower.CenterX()",
                     "Tower.CenterY()",
                     "Tower.Variable(Range)"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "Tower",
-                    "RangeBoosted",
-                    "True"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "PrimitiveDrawing::Drawer::ClearShapes"
-                  },
-                  "parameters": [
-                    "Indicator"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PrimitiveDrawing::Circle"
-                  },
-                  "parameters": [
-                    "Indicator",
-                    "Tower.CenterX()",
-                    "Tower.CenterY()",
-                    "Tower.Variable(Range)*1.25"
                   ]
                 }
               ]
@@ -22880,17 +21349,6 @@
                   },
                   "parameters": [
                     "Particles",
-                    "GetArgumentAsString(\"Color\")"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarObjetTxt"
-                  },
-                  "parameters": [
-                    "Particles",
-                    "setColor",
-                    "=",
                     "GetArgumentAsString(\"Color\")"
                   ]
                 },
@@ -23440,7 +21898,7 @@
               "fullName": "Inflict Negative Thoughts (for enemies)",
               "functionType": "Action",
               "name": "InflictSlow",
-              "sentence": "[For each _PARAM0_] Inflict Negative Thoughts for _PARAM2_ within _PARAM3_ pixels unless _PARAM4_ is near and add _PARAM5_",
+              "sentence": "[For each _PARAM0_] Inflict Negative Thoughts for _PARAM2_ within _PARAM3_ pixels unless _PARAM4_ is near",
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::ForEach",
@@ -23489,18 +21947,6 @@
                         "NegThoughts",
                         "True"
                       ]
-                    },
-                    {
-                      "type": {
-                        "value": "TDTD::SummonParticleIndicator"
-                      },
-                      "parameters": [
-                        "",
-                        "AffectedTowers",
-                        "Particles",
-                        "\"39;95;162\"",
-                        ""
-                      ]
                     }
                   ]
                 },
@@ -23538,12 +21984,6 @@
                   "description": "Tower that protects others against effects",
                   "name": "EffectProtector",
                   "supplementaryInformation": "Sprite",
-                  "type": "objectList"
-                },
-                {
-                  "description": "Particles",
-                  "name": "Particles",
-                  "supplementaryInformation": "ParticleSystem::ParticleEmitter",
                   "type": "objectList"
                 }
               ],
@@ -25392,6 +23832,55 @@
               "sentence": "Remove all _PARAM2_ with color _PARAM3_ from _PARAM0_",
               "events": [
                 {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarSceneTxt"
+                      },
+                      "parameters": [
+                        "redValue",
+                        "=",
+                        "\"\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarSceneTxt"
+                      },
+                      "parameters": [
+                        "blueValue",
+                        "=",
+                        "\"\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarSceneTxt"
+                      },
+                      "parameters": [
+                        "greenValue",
+                        "=",
+                        "\"\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::JsCode",
+                  "inlineCode": [
+                    "var colorValues = eventsFunctionContext.getArgument(\"Color\").split(\";\")",
+                    "runtimeScene.getVariables.get(\"redValue\").setString(colorValues[0])",
+                    "runtimeScene.getVariables.get(\"blueValue\").setString(colorValues[1])",
+                    "runtimeScene.getVariables.get(\"greenValue\").setString(colorValues[2])",
+                    "console.log(colorValues)"
+                  ],
+                  "parameterObjects": "Object",
+                  "useStrict": true,
+                  "eventsSheetExpanded": false
+                },
+                {
                   "type": "BuiltinCommonInstructions::ForEach",
                   "object": "Particles",
                   "conditions": [
@@ -25408,13 +23897,32 @@
                     },
                     {
                       "type": {
-                        "value": "VarObjetTxt"
+                        "value": "ParticleSystem::ParticleRed1"
                       },
                       "parameters": [
                         "Particles",
-                        "setColor",
                         "=",
-                        "GetArgumentAsString(\"Color\")"
+                        "ToNumber(VariableString(redValue))"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ParticleSystem::ParticleBlue1"
+                      },
+                      "parameters": [
+                        "Particles",
+                        "=",
+                        "ToNumber(VariableString(blueValue))"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ParticleSystem::ParticleGreen1"
+                      },
+                      "parameters": [
+                        "Particles",
+                        "=",
+                        "ToNumber(VariableString(greenValue))"
                       ]
                     }
                   ],
@@ -25511,7 +24019,7 @@
                       "parameters": [
                         "MaxRange",
                         "*",
-                        "1.25"
+                        "1.5"
                       ]
                     }
                   ]
