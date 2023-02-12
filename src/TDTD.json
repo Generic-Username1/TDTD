@@ -2274,6 +2274,15 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "maybe.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "maybe.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2521,7 +2530,7 @@
           "folded": true,
           "name": "Range",
           "type": "number",
-          "value": 100
+          "value": 120
         },
         {
           "folded": true,
@@ -2952,7 +2961,7 @@
           "folded": true,
           "name": "FireRate",
           "type": "number",
-          "value": 2
+          "value": 10
         },
         {
           "folded": true,
@@ -3424,7 +3433,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5576100501992014,
+        "zoomFactor": 0.3942898477536267,
         "windowMask": false
       },
       "objectsGroups": [
@@ -4174,8 +4183,8 @@
           "name": "WalkTiles",
           "persistentUuid": "74da58d2-89b3-4ff4-ae02-63efe638c435",
           "width": 247,
-          "x": 1039,
-          "y": 263,
+          "x": 1062,
+          "y": 260,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -4484,15 +4493,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 993,
+          "height": 1011,
           "layer": "Path layer",
-          "locked": true,
           "name": "Map",
           "persistentUuid": "3c43b592-06c2-42d0-92e3-fb5611edf247",
-          "sealed": true,
-          "width": 1622,
-          "x": -1,
-          "y": 93,
+          "width": 1630,
+          "x": -6,
+          "y": 98,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -4536,8 +4543,8 @@
           "name": "DeathScreen",
           "persistentUuid": "776350bd-e6ab-4b76-930b-17127c8e3fd6",
           "width": 1684,
-          "x": -47,
-          "y": -19,
+          "x": -16,
+          "y": -14,
           "zOrder": -1,
           "numberProperties": [],
           "stringProperties": [],
@@ -4807,6 +4814,35 @@
           "effects": [],
           "behaviors": [],
           "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "maybe.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
             {
               "name": "NewSprite2",
               "useMultipleDirections": false,
@@ -7759,14 +7795,7 @@
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [
-            {
-              "folded": true,
-              "name": "Chance",
-              "type": "number",
-              "value": 100
-            }
-          ],
+          "variables": [],
           "effects": [],
           "behaviors": [
             {
@@ -7936,7 +7965,7 @@
               "folded": true,
               "name": "MoneyDrop",
               "type": "number",
-              "value": 80
+              "value": 30
             }
           ],
           "effects": [
@@ -8140,7 +8169,7 @@
               "folded": true,
               "name": "MoneyDrop",
               "type": "number",
-              "value": 50
+              "value": 20
             }
           ],
           "effects": [
@@ -8452,7 +8481,7 @@
               "folded": true,
               "name": "MoneyDrop",
               "type": "number",
-              "value": 100
+              "value": 40
             }
           ],
           "effects": [
@@ -10850,6 +10879,16 @@
                         "+",
                         "1"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "playerGold",
+                        "+",
+                        "Variable(wave)*30"
+                      ]
                     }
                   ]
                 },
@@ -10897,7 +10936,7 @@
                         "value": "BuiltinCommonInstructions::CompareNumbers"
                       },
                       "parameters": [
-                        "RandomInRange(1,1)",
+                        "RandomInRange(1,12)",
                         "=",
                         "1"
                       ]
@@ -13045,6 +13084,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Attack or Defend",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -13750,7 +13790,7 @@
                     "IntelligenceBarrier",
                     "\"TrapTimeout\"",
                     ">",
-                    "30"
+                    "18"
                   ]
                 }
               ],
@@ -13778,7 +13818,7 @@
                     "FirefighterPuddle",
                     "\"TrapTimeout\"",
                     ">",
-                    "30"
+                    "20"
                   ]
                 }
               ],
@@ -13795,7 +13835,8 @@
               ]
             },
             {
-              "type": "BuiltinCommonInstructions::Standard",
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Enemies",
               "conditions": [],
               "actions": [
                 {
@@ -13811,72 +13852,38 @@
                 },
                 {
                   "type": {
-                    "value": "TDTD::ProjectileV2::destroy"
+                    "value": "TDTD::EnemyV2::slow"
                   },
                   "parameters": [
-                    "FirefighterProjectile",
-                    "ProjectileV2",
                     "Enemies",
+                    "EnemyV2",
+                    "Pathfinding",
+                    "WhiteHatProjectile",
+                    "0.2",
+                    "3",
                     ""
                   ]
                 },
                 {
                   "type": {
-                    "value": "TDTD::ProjectileV2::destroy"
+                    "value": "TDTD::EnemyV2::slip"
                   },
                   "parameters": [
-                    "WhiteHatProjectile",
-                    "ProjectileV2",
                     "Enemies",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TDTD::EnemyV2::slow"
-                  },
-                  "parameters": [
-                    "InternetTroll",
                     "EnemyV2",
-                    "Pathfinding",
-                    "WhiteHatProjectile",
-                    "0.1",
-                    "5",
-                    ""
+                    "FirefighterPuddle",
+                    "150"
                   ]
                 },
                 {
                   "type": {
-                    "value": "TDTD::EnemyV2::slow"
+                    "value": "TDTD::EnemyV2::collide"
                   },
                   "parameters": [
-                    "SelfRad",
+                    "Enemies",
                     "EnemyV2",
-                    "Pathfinding",
-                    "WhiteHatProjectile",
-                    "0.1",
-                    "5",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TDTD::EnemyV2::slow"
-                  },
-                  "parameters": [
-                    "Terrorist",
-                    "EnemyV2",
-                    "Pathfinding",
-                    "WhiteHatProjectile",
-                    "0.1",
-                    "5",
-                    ""
+                    "IntelligenceBarrier",
+                    "150"
                   ]
                 }
               ]
@@ -13896,78 +13903,6 @@
                     "150",
                     "CaringCitizen",
                     "CaringCitizen"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TDTD::EnemyV2::slip"
-                  },
-                  "parameters": [
-                    "InternetTroll",
-                    "EnemyV2",
-                    "FirefighterPuddle",
-                    "150"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TDTD::EnemyV2::slip"
-                  },
-                  "parameters": [
-                    "Terrorist",
-                    "EnemyV2",
-                    "FirefighterPuddle",
-                    "150"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TDTD::EnemyV2::slip"
-                  },
-                  "parameters": [
-                    "SelfRad",
-                    "EnemyV2",
-                    "FirefighterPuddle",
-                    "150"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TDTD::EnemyV2::collide"
-                  },
-                  "parameters": [
-                    "InternetTroll",
-                    "EnemyV2",
-                    "IntelligenceBarrier",
-                    "150"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TDTD::EnemyV2::collide"
-                  },
-                  "parameters": [
-                    "Terrorist",
-                    "EnemyV2",
-                    "IntelligenceBarrier",
-                    "150"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TDTD::EnemyV2::collide"
-                  },
-                  "parameters": [
-                    "SelfRad",
-                    "EnemyV2",
-                    "IntelligenceBarrier",
-                    "150"
                   ]
                 }
               ]
@@ -14550,14 +14485,23 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "CollisionNP"
+                        "value": "PickNearest"
                       },
                       "parameters": [
-                        "SpawnBox",
                         "CommLeader",
-                        "",
-                        "",
+                        "CursorX()",
+                        "CursorY()",
                         ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "DistanceBetweenPositions(CommLeader.CenterX(), CommLeader.CenterY(), SpawnBox.CenterX(), SpawnBox.CenterY())",
+                        "<=",
+                        "CommLeader.Variable(Range)"
                       ]
                     }
                   ],
@@ -17305,6 +17249,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Shop Stuff",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -21341,7 +21286,7 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "BuiltinCommonInstructions::Or"
+                        "value": "BuiltinCommonInstructions::And"
                       },
                       "parameters": [],
                       "subInstructions": [
@@ -21991,16 +21936,6 @@
                         "Object",
                         "hasSlipped",
                         "True"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::CompareNumbers"
-                      },
-                      "parameters": [
-                        "Random(Trap.Variable(Chance))",
-                        "=",
-                        "1"
                       ]
                     },
                     {
