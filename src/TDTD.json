@@ -1230,6 +1230,438 @@
         "name": "NewFile-1-4-1.png2",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Enemies/Internet Trolls/Trollruncycle/frame_00001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Enemies\\Internet Trolls\\Trollruncycle\\frame_00001.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Enemies/Internet Trolls/Trollruncycle/frame_00002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Enemies\\Internet Trolls\\Trollruncycle\\frame_00002.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Enemies/Internet Trolls/Trollruncycle/frame_00003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Enemies\\Internet Trolls\\Trollruncycle\\frame_00003.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Enemies/Internet Trolls/Trollruncycle/frame_00004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Enemies\\Internet Trolls\\Trollruncycle\\frame_00004.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Enemies/Internet Trolls/Trollruncycle/frame_00005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Enemies\\Internet Trolls\\Trollruncycle\\frame_00005.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Enemies/Internet Trolls/Trollruncycle/frame_00006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Enemies\\Internet Trolls\\Trollruncycle\\frame_00006.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Enemies/Internet Trolls/Trollruncycle/frame_00007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Enemies\\Internet Trolls\\Trollruncycle\\frame_00007.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Enemies/Internet Trolls/Trollruncycle/frame_00008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Enemies\\Internet Trolls\\Trollruncycle\\frame_00008.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Enemies/Internet Trolls/Trollruncycle/frame_00009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Enemies\\Internet Trolls\\Trollruncycle\\frame_00009.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Enemies/Internet Trolls/Trollruncycle/frame_00010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Enemies\\Internet Trolls\\Trollruncycle\\frame_00010.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Enemies/Internet Trolls/Trollruncycle/frame_00011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Enemies\\Internet Trolls\\Trollruncycle\\frame_00011.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Enemies/Internet Trolls/Trollruncycle/frame_00012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Enemies\\Internet Trolls\\Trollruncycle\\frame_00012.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_Enemies_Internet Trolls_Trollruncycle_frame_00001.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sprites\\Enemies\\Internet Trolls\\Trollruncycle\\frame_00001.png2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_Enemies_Internet Trolls_Trollruncycle_frame_00001.png3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sprites\\Enemies\\Internet Trolls\\Trollruncycle\\frame_00001.png3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_Enemies_Internet Trolls_Trollruncycle_frame_00001.png4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sprites\\Enemies\\Internet Trolls\\Trollruncycle\\frame_00001.png4",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_Enemies_Internet Trolls_Trollruncycle_frame_00001.png5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sprites\\Enemies\\Internet Trolls\\Trollruncycle\\frame_00001.png5",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_Enemies_Internet Trolls_Trollruncycle_frame_00001.png6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sprites\\Enemies\\Internet Trolls\\Trollruncycle\\frame_00001.png6",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_Enemies_Internet Trolls_Trollruncycle_frame_00001.png7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sprites\\Enemies\\Internet Trolls\\Trollruncycle\\frame_00001.png7",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_Enemies_Internet Trolls_Trollruncycle_frame_00001.png8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sprites\\Enemies\\Internet Trolls\\Trollruncycle\\frame_00001.png8",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_Enemies_Internet Trolls_Trollruncycle_frame_00001.png9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sprites\\Enemies\\Internet Trolls\\Trollruncycle\\frame_00001.png9",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_Enemies_Internet Trolls_Trollruncycle_frame_00001.png10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sprites\\Enemies\\Internet Trolls\\Trollruncycle\\frame_00001.png10",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_Enemies_Internet Trolls_Trollruncycle_frame_00001.png11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sprites\\Enemies\\Internet Trolls\\Trollruncycle\\frame_00001.png11",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_Enemies_Internet Trolls_Trollruncycle_frame_00001.png12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sprites\\Enemies\\Internet Trolls\\Trollruncycle\\frame_00001.png12",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_Enemies_Internet Trolls_Trollruncycle_frame_00001.png13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sprites\\Enemies\\Internet Trolls\\Trollruncycle\\frame_00001.png13",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Enemies/SelfRad/SelfRadRunCycle/frame_00001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Enemies\\SelfRad\\SelfRadRunCycle\\frame_00001.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Enemies/SelfRad/SelfRadRunCycle/frame_00002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Enemies\\SelfRad\\SelfRadRunCycle\\frame_00002.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Enemies/SelfRad/SelfRadRunCycle/frame_00003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Enemies\\SelfRad\\SelfRadRunCycle\\frame_00003.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Enemies/SelfRad/SelfRadRunCycle/frame_00004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Enemies\\SelfRad\\SelfRadRunCycle\\frame_00004.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Enemies/SelfRad/SelfRadRunCycle/frame_00005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Enemies\\SelfRad\\SelfRadRunCycle\\frame_00005.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Enemies/SelfRad/SelfRadRunCycle/frame_00006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Enemies\\SelfRad\\SelfRadRunCycle\\frame_00006.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Enemies/SelfRad/SelfRadRunCycle/frame_00007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Enemies\\SelfRad\\SelfRadRunCycle\\frame_00007.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Enemies/SelfRad/SelfRadRunCycle/frame_00008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Enemies\\SelfRad\\SelfRadRunCycle\\frame_00008.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Enemies/SelfRad/SelfRadRunCycle/frame_00009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Enemies\\SelfRad\\SelfRadRunCycle\\frame_00009.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Enemies/SelfRad/SelfRadRunCycle/frame_00010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Enemies\\SelfRad\\SelfRadRunCycle\\frame_00010.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Enemies/SelfRad/SelfRadRunCycle/frame_00011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Enemies\\SelfRad\\SelfRadRunCycle\\frame_00011.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprites/Enemies/SelfRad/SelfRadRunCycle/frame_00012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprites\\Enemies\\SelfRad\\SelfRadRunCycle\\frame_00012.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_Enemies_SelfRad_SelfRadRunCycle_frame_00001.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sprites\\Enemies\\SelfRad\\SelfRadRunCycle\\frame_00001.png2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_Enemies_SelfRad_SelfRadRunCycle_frame_00001.png3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sprites\\Enemies\\SelfRad\\SelfRadRunCycle\\frame_00001.png3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_Enemies_SelfRad_SelfRadRunCycle_frame_00001.png4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sprites\\Enemies\\SelfRad\\SelfRadRunCycle\\frame_00001.png4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_Enemies_SelfRad_SelfRadRunCycle_frame_00001.png5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sprites\\Enemies\\SelfRad\\SelfRadRunCycle\\frame_00001.png5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_Enemies_SelfRad_SelfRadRunCycle_frame_00001.png6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sprites\\Enemies\\SelfRad\\SelfRadRunCycle\\frame_00001.png6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_Enemies_SelfRad_SelfRadRunCycle_frame_00001.png7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sprites\\Enemies\\SelfRad\\SelfRadRunCycle\\frame_00001.png7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_Enemies_SelfRad_SelfRadRunCycle_frame_00001.png8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sprites\\Enemies\\SelfRad\\SelfRadRunCycle\\frame_00001.png8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_Enemies_SelfRad_SelfRadRunCycle_frame_00001.png9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sprites\\Enemies\\SelfRad\\SelfRadRunCycle\\frame_00001.png9",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_Enemies_SelfRad_SelfRadRunCycle_frame_00001.png10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sprites\\Enemies\\SelfRad\\SelfRadRunCycle\\frame_00001.png10",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_Enemies_SelfRad_SelfRadRunCycle_frame_00001.png11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sprites\\Enemies\\SelfRad\\SelfRadRunCycle\\frame_00001.png11",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_Enemies_SelfRad_SelfRadRunCycle_frame_00001.png12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sprites\\Enemies\\SelfRad\\SelfRadRunCycle\\frame_00001.png12",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_Enemies_SelfRad_SelfRadRunCycle_frame_00001.png13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sprites\\Enemies\\SelfRad\\SelfRadRunCycle\\frame_00001.png13",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -2383,7 +2815,7 @@
       "title": "TDTD",
       "v": 0,
       "uiSettings": {
-        "grid": true,
+        "grid": false,
         "gridType": "rectangular",
         "gridWidth": 32,
         "gridHeight": 32,
@@ -2391,7 +2823,7 @@
         "gridOffsetY": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
-        "snap": true,
+        "snap": false,
         "zoomFactor": 0.6080780715540851,
         "windowMask": false
       },
@@ -7853,17 +8285,17 @@
           ],
           "animations": [
             {
-              "name": "sprites\\Enemies\\Internet Trolls\\Walk\\Frame1.png",
+              "name": "sprites\\Enemies\\Internet Trolls\\Trollruncycle\\frame_00001.png",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": true,
                   "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08330000191926956,
+                  "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "sprites\\Enemies\\Internet Trolls\\Walk\\Frame1.png8",
+                      "image": "sprites\\Enemies\\Internet Trolls\\Trollruncycle\\frame_00001.png2",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -7880,7 +8312,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "sprites\\Enemies\\Internet Trolls\\Walk\\Frame1.png9",
+                      "image": "sprites\\Enemies\\Internet Trolls\\Trollruncycle\\frame_00001.png3",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -7897,7 +8329,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "sprites\\Enemies\\Internet Trolls\\Walk\\Frame1.png10",
+                      "image": "sprites\\Enemies\\Internet Trolls\\Trollruncycle\\frame_00001.png4",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -7914,7 +8346,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "sprites\\Enemies\\Internet Trolls\\Walk\\Frame1.png11",
+                      "image": "sprites\\Enemies\\Internet Trolls\\Trollruncycle\\frame_00001.png5",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -7931,7 +8363,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "sprites\\Enemies\\Internet Trolls\\Walk\\Frame1.png12",
+                      "image": "sprites\\Enemies\\Internet Trolls\\Trollruncycle\\frame_00001.png6",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -7948,7 +8380,109 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "sprites\\Enemies\\Internet Trolls\\Walk\\Frame1.png13",
+                      "image": "sprites\\Enemies\\Internet Trolls\\Trollruncycle\\frame_00001.png7",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites\\Enemies\\Internet Trolls\\Trollruncycle\\frame_00001.png8",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites\\Enemies\\Internet Trolls\\Trollruncycle\\frame_00001.png9",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites\\Enemies\\Internet Trolls\\Trollruncycle\\frame_00001.png10",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites\\Enemies\\Internet Trolls\\Trollruncycle\\frame_00001.png11",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites\\Enemies\\Internet Trolls\\Trollruncycle\\frame_00001.png12",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites\\Enemies\\Internet Trolls\\Trollruncycle\\frame_00001.png13",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8382,17 +8916,204 @@
           ],
           "animations": [
             {
-              "name": "sprites\\Enemies\\SelfRad\\still.png",
+              "name": "sprites\\Enemies\\SelfRad\\SelfRadRunCycle\\frame_00001.png",
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": false,
+                  "looping": true,
                   "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "sprites\\Enemies\\SelfRad\\still.png2",
+                      "image": "sprites\\Enemies\\SelfRad\\SelfRadRunCycle\\frame_00001.png2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites\\Enemies\\SelfRad\\SelfRadRunCycle\\frame_00001.png3",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites\\Enemies\\SelfRad\\SelfRadRunCycle\\frame_00001.png4",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites\\Enemies\\SelfRad\\SelfRadRunCycle\\frame_00001.png5",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites\\Enemies\\SelfRad\\SelfRadRunCycle\\frame_00001.png6",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites\\Enemies\\SelfRad\\SelfRadRunCycle\\frame_00001.png7",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites\\Enemies\\SelfRad\\SelfRadRunCycle\\frame_00001.png8",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites\\Enemies\\SelfRad\\SelfRadRunCycle\\frame_00001.png9",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites\\Enemies\\SelfRad\\SelfRadRunCycle\\frame_00001.png10",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites\\Enemies\\SelfRad\\SelfRadRunCycle\\frame_00001.png11",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites\\Enemies\\SelfRad\\SelfRadRunCycle\\frame_00001.png12",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "sprites\\Enemies\\SelfRad\\SelfRadRunCycle\\frame_00001.png13",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -17630,7 +18351,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Shop Stuff",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -19198,7 +19918,7 @@
                           "parameters": [
                             "SpawnerRange",
                             "=",
-                            "0"
+                            "50"
                           ]
                         }
                       ]
@@ -19234,7 +19954,7 @@
                           "parameters": [
                             "SpawnerRange",
                             "=",
-                            "0"
+                            "50"
                           ]
                         }
                       ]
@@ -19306,7 +20026,7 @@
                           "parameters": [
                             "SpawnerRange",
                             "=",
-                            "0"
+                            "120"
                           ]
                         }
                       ]
@@ -19618,7 +20338,7 @@
                           "parameters": [
                             "SpawnerRange",
                             "=",
-                            "0"
+                            "120"
                           ]
                         }
                       ]
