@@ -1483,6 +1483,77 @@
             }
           ],
           "objectGroups": []
+        },
+        {
+          "description": "Update the linked health bar for the enemy.",
+          "fullName": "Update health bar",
+          "functionType": "Action",
+          "name": "updateHealthBar",
+          "sentence": "Update _PARAM2_ for _PARAM0_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "LinkedObjects::PickObjectsLinkedTo"
+                  },
+                  "parameters": [
+                    "",
+                    "HealthBar",
+                    "Object",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+                  },
+                  "parameters": [
+                    "HealthBar",
+                    "=",
+                    "Object.Variable(Health)",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetCenter"
+                  },
+                  "parameters": [
+                    "HealthBar",
+                    "=",
+                    "Object.CenterX()",
+                    "=",
+                    "Object.CenterY()-Object.Height()/2"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "supplementaryInformation": "Sprite",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "TDTD::EnemyV2",
+              "type": "behavior"
+            },
+            {
+              "description": "Object type of enemy health bar",
+              "name": "HealthBar",
+              "supplementaryInformation": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
+              "type": "objectList"
+            }
+          ],
+          "objectGroups": []
         }
       ],
       "propertyDescriptors": [
@@ -1774,6 +1845,11 @@
                       ]
                     }
                   ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": []
                 }
               ]
             }
@@ -3286,6 +3362,23 @@
                 },
                 {
                   "type": {
+                    "value": "ShakeObject::ShakeObject_PositionAngleScale::ShakeObject_PositionAngleScale"
+                  },
+                  "parameters": [
+                    "Enemy",
+                    "Shaker",
+                    "0.3",
+                    "5",
+                    "5",
+                    "3",
+                    "3",
+                    "0.08",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "SetCenter"
                   },
                   "parameters": [
@@ -3437,7 +3530,14 @@
             {
               "description": "The target enemy.",
               "name": "Enemy",
+              "supplementaryInformation": "Sprite",
               "type": "objectList"
+            },
+            {
+              "description": "Shake behaviour for fancy effects",
+              "name": "Shaker",
+              "supplementaryInformation": "ShakeObject::ShakeObject_PositionAngleScale",
+              "type": "behavior"
             }
           ],
           "objectGroups": []
@@ -3594,11 +3694,6 @@
                   ]
                 }
               ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": []
             }
           ],
           "parameters": [

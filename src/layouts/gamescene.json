@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.47367930513284395,
+    "zoomFactor": 0.3882094164426314,
     "windowMask": false
   },
   "objectsGroups": [
@@ -2841,7 +2841,12 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "ShakeObject_PositionAngleScale",
+          "type": "ShakeObject::ShakeObject_PositionAngleScale"
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -5733,6 +5738,10 @@
           "smoothingMaxCellGap": 1
         },
         {
+          "name": "ShakeObject_PositionAngleScale",
+          "type": "ShakeObject::ShakeObject_PositionAngleScale"
+        },
+        {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
         }
@@ -6052,6 +6061,10 @@
           "smoothingMaxCellGap": 1
         },
         {
+          "name": "ShakeObject_PositionAngleScale",
+          "type": "ShakeObject::ShakeObject_PositionAngleScale"
+        },
+        {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
         }
@@ -6350,9 +6363,9 @@
         {
           "name": "Pathfinding",
           "type": "PathfindingBehavior::PathfindingBehavior",
+          "angleOffset": 0,
           "acceleration": 400,
           "allowDiagonals": true,
-          "angleOffset": 0,
           "angularMaxSpeed": 180,
           "cellHeight": 20,
           "cellWidth": 20,
@@ -6362,6 +6375,10 @@
           "maxSpeed": 150,
           "rotateObject": true,
           "smoothingMaxCellGap": 1
+        },
+        {
+          "name": "ShakeObject_PositionAngleScale",
+          "type": "ShakeObject::ShakeObject_PositionAngleScale"
         },
         {
           "name": "Tween",
@@ -7736,6 +7753,73 @@
           "width": 256
         }
       }
+    },
+    {
+      "assetStoreId": "3d6c54e76a9a06cbd7629c1e78388d4ab808bbf36d644c61d6a14c9ad34d4f89",
+      "name": "EnemyHealthBar",
+      "tags": "",
+      "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "PreviousHighValueDuration": 0,
+        "ShowLabel": false,
+        "BarTopPadding": 2,
+        "BarBottomPadding": 3,
+        "BarLeftPadding": 2,
+        "BarRightPadding": 2,
+        "MaxValue": 16,
+        "InitialValue": 8,
+        "EasingDuration": 0
+      },
+      "childrenContent": {
+        "Background": {
+          "bottomMargin": 3,
+          "height": 10,
+          "leftMargin": 2,
+          "rightMargin": 2,
+          "texture": "Flat Bar White Border.png",
+          "tiled": true,
+          "topMargin": 2,
+          "width": 60
+        },
+        "Buffer": {
+          "bottomMargin": 0,
+          "height": 16,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "Flat Bar Red Fill Bar.png",
+          "tiled": true,
+          "topMargin": 0,
+          "width": 16
+        },
+        "FillBar": {
+          "bottomMargin": 0,
+          "height": 16,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "Flat Bar Red Fill Bar.png",
+          "tiled": true,
+          "topMargin": 0,
+          "width": 16
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "8 / 16",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 16,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        }
+      }
     }
   ],
   "events": [
@@ -9054,6 +9138,11 @@
           ]
         },
         {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
             "b": 109,
@@ -9619,6 +9708,39 @@
                             },
                             {
                               "type": {
+                                "value": "Create"
+                              },
+                              "parameters": [
+                                "",
+                                "EnemyHealthBar",
+                                "Enemies.X()",
+                                "Enemies.Y()",
+                                "\"Projectile layer\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetMaxValue"
+                              },
+                              "parameters": [
+                                "EnemyHealthBar",
+                                "=",
+                                "Enemies.Variable(Health)",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "LinkedObjects::LinkObjects"
+                              },
+                              "parameters": [
+                                "",
+                                "Enemies",
+                                "EnemyHealthBar"
+                              ]
+                            },
+                            {
+                              "type": {
                                 "value": "TDTD::EnemyV2::changeTarget"
                               },
                               "parameters": [
@@ -9944,7 +10066,6 @@
           "comment2": ""
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -10028,6 +10149,35 @@
                 "CommunitySupportIcon.CenterX()",
                 "=",
                 "CommunitySupportIcon.CenterY()"
+              ]
+            },
+            {
+              "type": {
+                "value": "ShakeObject::ShakeObject_PositionAngleScale::ShakeObject_PositionAngleScale"
+              },
+              "parameters": [
+                "Base",
+                "ShakeObject_PositionAngleScale",
+                "0.8",
+                "10",
+                "8",
+                "8",
+                "8",
+                "0.15",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "base_hurt",
+                "",
+                "MenuSFXVolumeSlider.Value()",
+                "1"
               ]
             }
           ],
@@ -13018,7 +13168,8 @@
                 "SoldierProjectile",
                 "Projectile2",
                 "Enemies",
-                "NSMenProjectile.Variable(Damage)"
+                "ShakeObject_PositionAngleScale",
+                ""
               ]
             },
             {
@@ -13056,6 +13207,17 @@
                 "IntelligenceBarrier",
                 "150"
               ]
+            },
+            {
+              "type": {
+                "value": "TDTD::EnemyV2::updateHealthBar"
+              },
+              "parameters": [
+                "Enemies",
+                "EnemyV2",
+                "EnemyHealthBar",
+                ""
+              ]
             }
           ]
         },
@@ -13074,6 +13236,35 @@
                 "150",
                 "CaringCitizen",
                 "StatusParticles",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "EnemyHealthBar",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "LinkedObjects::PickObjectsLinkedTo"
+              },
+              "parameters": [
+                "",
+                "Enemies",
+                "EnemyHealthBar",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "EnemyHealthBar",
                 ""
               ]
             }
@@ -19130,6 +19321,10 @@
     {
       "name": "ProjectileV2",
       "type": "TDTD::ProjectileV2"
+    },
+    {
+      "name": "ShakeObject_PositionAngleScale",
+      "type": "ShakeObject::ShakeObject_PositionAngleScale"
     },
     {
       "name": "TowerV2",
