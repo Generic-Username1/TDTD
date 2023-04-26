@@ -1,0 +1,986 @@
+{
+  "b": 209,
+  "disableInputWhenNotFocused": true,
+  "mangledName": "WinScreen",
+  "name": "WinScreen",
+  "r": 209,
+  "standardSortMethod": true,
+  "stopSoundsOnStartup": true,
+  "title": "",
+  "v": 209,
+  "uiSettings": {
+    "grid": false,
+    "gridType": "rectangular",
+    "gridWidth": 32,
+    "gridHeight": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": false,
+    "zoomFactor": 0.4920691631664714,
+    "windowMask": false
+  },
+  "objectsGroups": [],
+  "variables": [],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 1119,
+      "layer": "",
+      "locked": true,
+      "name": "Background",
+      "persistentUuid": "e575bb99-a80e-4d02-bf36-f7d2e07db33e",
+      "sealed": true,
+      "width": 1656,
+      "x": -17,
+      "y": -19,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "WinTitle",
+      "persistentUuid": "70481289-fae4-4bd4-be99-c8e20ca99fca",
+      "width": 0,
+      "x": 643,
+      "y": 163,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Description",
+      "persistentUuid": "48b29987-21b1-477a-8379-3033428c5b79",
+      "width": 0,
+      "x": 294,
+      "y": 506,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Cheerleader",
+      "persistentUuid": "77f0b52c-70ba-4e31-8264-f422f1e68e41",
+      "width": 0,
+      "x": 80,
+      "y": 883,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "CaringCitizen",
+      "persistentUuid": "c6430137-24c3-42b3-a959-78f56576d5e0",
+      "width": 0,
+      "x": 238,
+      "y": 888,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Volunteer",
+      "persistentUuid": "48e4d8d1-7039-42e2-a63a-df860cb59d3e",
+      "width": 0,
+      "x": 368,
+      "y": 885,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "CommLeader",
+      "persistentUuid": "9a26a01c-e680-413d-80f0-6aab25f7ea07",
+      "width": 0,
+      "x": 480,
+      "y": 885,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "CareerGuider",
+      "persistentUuid": "cbd375db-6df7-4b83-8432-56629154f0c6",
+      "width": 0,
+      "x": 600,
+      "y": 886,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Investor",
+      "persistentUuid": "c43f645c-3837-4c15-9d69-c9380a8615d6",
+      "width": 0,
+      "x": 741,
+      "y": 882,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Soldier",
+      "persistentUuid": "951568ed-ef95-4c85-98a4-f4bf7a7f1980",
+      "width": 0,
+      "x": 876,
+      "y": 883,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "IntelligenceOfficer",
+      "persistentUuid": "e7c8db4c-fba3-449f-a80d-ef795fbb91eb",
+      "width": 0,
+      "x": 979,
+      "y": 882,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Firefighter",
+      "persistentUuid": "162556bc-679d-468b-b354-f433d34ea0b7",
+      "width": 0,
+      "x": 1089,
+      "y": 887,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Doctor",
+      "persistentUuid": "d66939fe-db79-4f5c-8d55-ce5ccdc33633",
+      "width": 0,
+      "x": 1183,
+      "y": 881,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "WhiteHat",
+      "persistentUuid": "06ca9298-5422-4929-9b0e-b2625a6ca61a",
+      "width": 0,
+      "x": 1293,
+      "y": 876,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "DiscerningCitizen",
+      "persistentUuid": "5a9d2cea-2b29-48ed-ab8e-56caf4245176",
+      "width": 0,
+      "x": 1419,
+      "y": 880,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 330,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "ParticlesRed",
+      "persistentUuid": "27b9f381-1d13-4d6f-afff-6085b754412d",
+      "width": 0,
+      "x": 25,
+      "y": 285,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 330,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "ParticlesGreen",
+      "persistentUuid": "c9b3399f-698a-466e-9203-84b7e5654f57",
+      "width": 0,
+      "x": 25,
+      "y": 290,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 330,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "ParticlesYellow",
+      "persistentUuid": "2fa39a82-0c41-4210-b242-99c2aa885f44",
+      "width": 0,
+      "x": 25,
+      "y": 287,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 330,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "ParticlesBlue",
+      "persistentUuid": "3936b91e-da2c-4e53-b3e9-8ba7c021b85c",
+      "width": 0,
+      "x": 25,
+      "y": 286,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 330,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "ParticlesRed",
+      "persistentUuid": "15b6405b-9fdf-4b7f-95a9-b793b6ce2bd1",
+      "width": 0,
+      "x": 25,
+      "y": 450,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 330,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "ParticlesGreen",
+      "persistentUuid": "daa95f55-2db2-4d1d-8f08-9dd4589aabd8",
+      "width": 0,
+      "x": 25,
+      "y": 450,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 330,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "ParticlesYellow",
+      "persistentUuid": "1ed18864-bbc0-4682-9e89-a1952ac07923",
+      "width": 0,
+      "x": 25,
+      "y": 450,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 330,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "ParticlesBlue",
+      "persistentUuid": "311440be-bb18-48f1-9d41-91838a1fc7a6",
+      "width": 0,
+      "x": 25,
+      "y": 450,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 210,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "ParticlesRed",
+      "persistentUuid": "e0b94c2e-4c6e-4088-8674-6dd0f002e4ac",
+      "width": 0,
+      "x": 1600,
+      "y": 285,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 210,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "ParticlesGreen",
+      "persistentUuid": "4df6db58-55fc-4913-a888-bcaa19b1e95b",
+      "width": 0,
+      "x": 1600,
+      "y": 290,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 210,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "ParticlesYellow",
+      "persistentUuid": "b0784072-7ba8-40eb-b56c-2419637316b7",
+      "width": 0,
+      "x": 1600,
+      "y": 287,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 210,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "ParticlesBlue",
+      "persistentUuid": "8321e34e-0d8d-4ad1-9014-5b8cb3cdcfce",
+      "width": 0,
+      "x": 1600,
+      "y": 286,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 210,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "ParticlesRed",
+      "persistentUuid": "8f60fa23-b465-406f-861e-df0e1d3c03d2",
+      "width": 0,
+      "x": 1600,
+      "y": 450,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 210,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "ParticlesGreen",
+      "persistentUuid": "d57e3383-fdd6-4d42-a59a-b6c8316d65f4",
+      "width": 0,
+      "x": 1600,
+      "y": 450,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 210,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "ParticlesYellow",
+      "persistentUuid": "795f96bf-fdb2-4132-a79a-02d727fbb431",
+      "width": 0,
+      "x": 1600,
+      "y": 450,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 210,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "ParticlesBlue",
+      "persistentUuid": "f7f0d786-f8a9-484d-bfc2-7f38733cdf42",
+      "width": 0,
+      "x": 1600,
+      "y": 450,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Restart",
+      "persistentUuid": "23e04253-64c0-4fef-b0f7-248664116bb9",
+      "width": 0,
+      "x": 749,
+      "y": 678,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "ExitPrompt",
+      "persistentUuid": "6fcec73d-26f2-4594-8354-af77a41a1026",
+      "width": 0,
+      "x": 674,
+      "y": 812,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "objects": [
+    {
+      "assetStoreId": "",
+      "height": 256,
+      "name": "Background",
+      "tags": "",
+      "texture": "assets\\New image42.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 256,
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Adjustment",
+          "name": "Effect",
+          "doubleParameters": {
+            "alpha": 1,
+            "blue": 1,
+            "brightness": 1,
+            "contrast": 1,
+            "gamma": 1,
+            "green": 1,
+            "red": 1,
+            "saturation": 1
+          },
+          "stringParameters": {},
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "WinTitle",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Outline",
+          "name": "Outline",
+          "doubleParameters": {
+            "padding": 0,
+            "thickness": 5
+          },
+          "stringParameters": {
+            "color": "0;0;0"
+          },
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "Glow",
+          "name": "Effect",
+          "doubleParameters": {
+            "distance": 15,
+            "innerStrength": 1,
+            "outerStrength": 2
+          },
+          "stringParameters": {
+            "color": "255;255;255"
+          },
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [],
+      "string": "You Win!",
+      "font": "assets\\AlfaSlabOne-Regular.ttf",
+      "textAlignment": "center",
+      "characterSize": 70,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Description",
+      "tags": "",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "You survived all the waves and defended the country!\nCongratulations!\nDate: ",
+        "opacity": 255,
+        "scale": 1,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "assets\\fonts\\AlbaSlab\\36px\\Alba Slab 36px.fnt",
+        "textureAtlasResourceName": "assets\\fonts\\AlbaSlab\\36px\\Alba Slab 36px.png",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "ExitPrompt",
+      "tags": "",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Back to Main Screen",
+        "opacity": 255,
+        "scale": 1,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "assets\\fonts\\AlbaSlab\\24px\\Alba Slab 24px.fnt",
+        "textureAtlasResourceName": "assets\\fonts\\AlbaSlab\\24px\\Alba Slab 24px.png",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "additive": false,
+      "assetStoreId": "",
+      "destroyWhenNoParticles": true,
+      "emitterAngleA": 0,
+      "emitterAngleB": 45,
+      "emitterForceMax": 400,
+      "emitterForceMin": 300,
+      "flow": 20,
+      "jumpForwardInTimeOnCreation": 0,
+      "maxParticleNb": 300,
+      "name": "ParticlesRed",
+      "particleAlpha1": 204,
+      "particleAlpha2": 0,
+      "particleAlphaRandomness1": 0,
+      "particleAlphaRandomness2": 0,
+      "particleAngle1": -200,
+      "particleAngle2": 200,
+      "particleAngleRandomness1": 0,
+      "particleAngleRandomness2": 0,
+      "particleBlue1": 27,
+      "particleBlue2": 27,
+      "particleGravityX": 0,
+      "particleGravityY": 300,
+      "particleGreen1": 2,
+      "particleGreen2": 2,
+      "particleLifeTimeMax": 2.5,
+      "particleLifeTimeMin": 1.5,
+      "particleRed1": 208,
+      "particleRed2": 208,
+      "particleSize1": 100,
+      "particleSize2": 100,
+      "particleSizeRandomness1": 0,
+      "particleSizeRandomness2": 0,
+      "rendererParam1": 10,
+      "rendererParam2": 5,
+      "rendererType": "Line",
+      "tags": "",
+      "tank": -1,
+      "textureParticleName": "",
+      "type": "ParticleSystem::ParticleEmitter",
+      "zoneRadius": 3,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "additive": false,
+      "assetStoreId": "",
+      "destroyWhenNoParticles": true,
+      "emitterAngleA": 0,
+      "emitterAngleB": 45,
+      "emitterForceMax": 400,
+      "emitterForceMin": 300,
+      "flow": 20,
+      "jumpForwardInTimeOnCreation": 0,
+      "maxParticleNb": 300,
+      "name": "ParticlesGreen",
+      "particleAlpha1": 204,
+      "particleAlpha2": 0,
+      "particleAlphaRandomness1": 0,
+      "particleAlphaRandomness2": 0,
+      "particleAngle1": -200,
+      "particleAngle2": 200,
+      "particleAngleRandomness1": 0,
+      "particleAngleRandomness2": 0,
+      "particleBlue1": 33,
+      "particleBlue2": 33,
+      "particleGravityX": 0,
+      "particleGravityY": 300,
+      "particleGreen1": 211,
+      "particleGreen2": 211,
+      "particleLifeTimeMax": 2.5,
+      "particleLifeTimeMin": 1.5,
+      "particleRed1": 126,
+      "particleRed2": 126,
+      "particleSize1": 100,
+      "particleSize2": 100,
+      "particleSizeRandomness1": 0,
+      "particleSizeRandomness2": 0,
+      "rendererParam1": 10,
+      "rendererParam2": 5,
+      "rendererType": "Line",
+      "tags": "",
+      "tank": -1,
+      "textureParticleName": "",
+      "type": "ParticleSystem::ParticleEmitter",
+      "zoneRadius": 3,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "additive": false,
+      "assetStoreId": "",
+      "destroyWhenNoParticles": true,
+      "emitterAngleA": 0,
+      "emitterAngleB": 45,
+      "emitterForceMax": 400,
+      "emitterForceMin": 300,
+      "flow": 20,
+      "jumpForwardInTimeOnCreation": 0,
+      "maxParticleNb": 300,
+      "name": "ParticlesYellow",
+      "particleAlpha1": 204,
+      "particleAlpha2": 0,
+      "particleAlphaRandomness1": 0,
+      "particleAlphaRandomness2": 0,
+      "particleAngle1": -200,
+      "particleAngle2": 200,
+      "particleAngleRandomness1": 0,
+      "particleAngleRandomness2": 0,
+      "particleBlue1": 28,
+      "particleBlue2": 28,
+      "particleGravityX": 0,
+      "particleGravityY": 300,
+      "particleGreen1": 231,
+      "particleGreen2": 231,
+      "particleLifeTimeMax": 2.5,
+      "particleLifeTimeMin": 1.5,
+      "particleRed1": 248,
+      "particleRed2": 248,
+      "particleSize1": 100,
+      "particleSize2": 100,
+      "particleSizeRandomness1": 0,
+      "particleSizeRandomness2": 0,
+      "rendererParam1": 10,
+      "rendererParam2": 5,
+      "rendererType": "Line",
+      "tags": "",
+      "tank": -1,
+      "textureParticleName": "",
+      "type": "ParticleSystem::ParticleEmitter",
+      "zoneRadius": 3,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "additive": false,
+      "assetStoreId": "",
+      "destroyWhenNoParticles": true,
+      "emitterAngleA": 0,
+      "emitterAngleB": 45,
+      "emitterForceMax": 400,
+      "emitterForceMin": 300,
+      "flow": 20,
+      "jumpForwardInTimeOnCreation": 0,
+      "maxParticleNb": 300,
+      "name": "ParticlesBlue",
+      "particleAlpha1": 204,
+      "particleAlpha2": 0,
+      "particleAlphaRandomness1": 0,
+      "particleAlphaRandomness2": 0,
+      "particleAngle1": -200,
+      "particleAngle2": 200,
+      "particleAngleRandomness1": 0,
+      "particleAngleRandomness2": 0,
+      "particleBlue1": 226,
+      "particleBlue2": 226,
+      "particleGravityX": 0,
+      "particleGravityY": 300,
+      "particleGreen1": 144,
+      "particleGreen2": 144,
+      "particleLifeTimeMax": 2.5,
+      "particleLifeTimeMin": 1.5,
+      "particleRed1": 74,
+      "particleRed2": 74,
+      "particleSize1": 100,
+      "particleSize2": 100,
+      "particleSizeRandomness1": 0,
+      "particleSizeRandomness2": 0,
+      "rendererParam1": 10,
+      "rendererParam2": 5,
+      "rendererType": "Line",
+      "tags": "",
+      "tank": -1,
+      "textureParticleName": "",
+      "type": "ParticleSystem::ParticleEmitter",
+      "zoneRadius": 3,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "name": "Restart",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Glow",
+          "name": "Glow",
+          "doubleParameters": {
+            "distance": 20,
+            "innerStrength": 1,
+            "outerStrength": 10
+          },
+          "stringParameters": {
+            "color": "255;255;255"
+          },
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [
+        {
+          "name": "Button",
+          "type": "TDTD::Button"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\Menu.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "BitmapText::BitmapTextObject::SetText"
+          },
+          "parameters": [
+            "Description",
+            "+",
+            "ToString(Time(\"hour\"))+\":\"+ToString(Time(\"min\"))+\" \"+ToString(Time(\"mday\"))+\"/\"+ToString(Time(\"mon\")+1)+\"/\"+ToString(1900+Time(\"year\"))"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "Restart",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonReleased"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"MainMenu\"",
+            ""
+          ]
+        }
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "ambientLightColorB": 2,
+      "ambientLightColorG": 134217728,
+      "ambientLightColorR": 1597132097,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "",
+      "visibility": true,
+      "cameras": [
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        }
+      ],
+      "effects": []
+    }
+  ],
+  "behaviorsSharedData": [
+    {
+      "name": "Button",
+      "type": "TDTD::Button"
+    },
+    {
+      "name": "TowerV2",
+      "type": "TDTD::TowerV2"
+    }
+  ]
+}
