@@ -1898,6 +1898,33 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/c090d31cafed0c8ef7bb4d5af75a7dbf7149bcc03a7d5d63ae997d59100e362e_Flat Bar White Border.png",
           "name": "Flat Bar White Border.png"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Upgrade.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Upgrade",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Upgrade2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Upgrade2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Delete.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Delete",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []

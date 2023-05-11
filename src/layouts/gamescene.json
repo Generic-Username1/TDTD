@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4582277153203292,
+    "zoomFactor": 0.5061631522790238,
     "windowMask": false
   },
   "objectsGroups": [
@@ -2807,6 +2807,36 @@
       "x": 930,
       "y": 800,
       "zOrder": 1060,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "UpgradeButton",
+      "persistentUuid": "eae83b01-5e57-452e-bbae-ec276d776b8a",
+      "width": 0,
+      "x": -60,
+      "y": 108,
+      "zOrder": 1061,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "RemoveButton",
+      "persistentUuid": "e3127f30-92cf-4689-a2be-601a37064b94",
+      "width": 0,
+      "x": -56,
+      "y": 161,
+      "zOrder": 1062,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -7820,6 +7850,90 @@
           }
         }
       }
+    },
+    {
+      "assetStoreId": "",
+      "name": "UpgradeButton",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Upgrade",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Upgrade2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "RemoveButton",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Delete",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Delete",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
@@ -10707,7 +10821,6 @@
           "comment2": ""
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -10960,13 +11073,141 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "name": "Upgrades",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "UpgradeButton",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "Towers",
+                "ID",
+                "=",
+                "UpgradeButton.Variable(TowerID)"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetEffectDoubleParameter"
+              },
+              "parameters": [
+                "Towers",
+                "\"Outline\"",
+                "\"thickness\"",
+                "20"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "Towers",
+                "FireRate",
+                "/",
+                "2"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "RemoveButton",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "Towers",
+                "ID",
+                "=",
+                "UpgradeButton.Variable(TowerID)"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Towers",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "PlacedTowers",
+                "-",
+                "1"
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
       "folded": true,
       "name": "Tower/Enemy Info",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -11066,6 +11307,52 @@
                     "RangePainter",
                     "doElse",
                     "False"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetCenter"
+                  },
+                  "parameters": [
+                    "UpgradeButton",
+                    "=",
+                    "Towers.CenterX()-28",
+                    "=",
+                    "Towers.Y()-28"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetCenter"
+                  },
+                  "parameters": [
+                    "RemoveButton",
+                    "=",
+                    "Towers.CenterX()+28",
+                    "=",
+                    "Towers.Y()-28"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "UpgradeButton",
+                    "TowerID",
+                    "=",
+                    "Towers.Variable(ID)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "RemoveButton",
+                    "TowerID",
+                    "=",
+                    "Towers.Variable(ID)"
                   ]
                 }
               ],
@@ -12310,6 +12597,30 @@
                   },
                   "parameters": [
                     "RangePainter"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "UpgradeButton",
+                    "=",
+                    "-100",
+                    "=",
+                    "-100"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "RemoveButton",
+                    "=",
+                    "-100",
+                    "=",
+                    "-100"
                   ]
                 }
               ],
@@ -16290,6 +16601,30 @@
                   },
                   "parameters": [
                     "RangePainter"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "UpgradeButton",
+                    "=",
+                    "-100",
+                    "=",
+                    "-100"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "RemoveButton",
+                    "=",
+                    "-100",
+                    "=",
+                    "-100"
                   ]
                 },
                 {
