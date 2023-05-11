@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3882094164426314,
+    "zoomFactor": 0.4582277153203292,
     "windowMask": false
   },
   "objectsGroups": [
@@ -7828,6 +7828,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Initialization",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -8802,6 +8803,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Continuous Events",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -12392,6 +12394,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Attack or Defend",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -13010,7 +13013,7 @@
             },
             {
               "type": {
-                "value": "Create"
+                "value": "TDTD::SpawnTowerAtPos"
               },
               "parameters": [
                 "Soldier",
@@ -13018,27 +13021,6 @@
                 "UnradicaliseProjectile.Variable(TowerX)",
                 "UnradicaliseProjectile.Variable(TowerY)",
                 ""
-              ]
-            },
-            {
-              "type": {
-                "value": "ModVarObjet"
-              },
-              "parameters": [
-                "Soldier",
-                "ID",
-                "=",
-                "GlobalVariable(nextID)"
-              ]
-            },
-            {
-              "type": {
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "nextID",
-                "+",
-                "1"
               ]
             }
           ]
@@ -13278,6 +13260,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "SpawnBox and Spawning",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -17134,6 +17117,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Shop Stuff",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",

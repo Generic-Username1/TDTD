@@ -18,7 +18,7 @@
       "description": "Spawn a Tower on the map at MouseX and MouseY.",
       "fullName": "Spawn a Tower",
       "functionType": "Action",
-      "name": "SpawnTower",
+      "name": "SpawnTowerAtCursor",
       "sentence": "Spawn _PARAM1_ at the cursor position",
       "events": [
         {
@@ -79,6 +79,73 @@
           "name": "Tower",
           "supplementaryInformation": "Sprite",
           "type": "objectList"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "description": "Spawn a Tower at the specified position",
+      "fullName": "Spawn Tower at Position",
+      "functionType": "Action",
+      "name": "SpawnTowerAtPos",
+      "sentence": "Spawn _PARAM1_ at x: _PARAM2_ y: _PARAM3_",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Tower",
+                "GetArgumentAsNumber(\"xPos\")",
+                "GetArgumentAsNumber(\"yPos\")",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "Tower",
+                "ID",
+                "=",
+                "GlobalVariable(nextID)"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "nextID",
+                "+",
+                "1"
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": [
+        {
+          "description": "Tower ",
+          "name": "Tower",
+          "supplementaryInformation": "Sprite",
+          "type": "objectList"
+        },
+        {
+          "description": "X Position",
+          "name": "xPos",
+          "type": "expression"
+        },
+        {
+          "description": "Y Position",
+          "name": "yPos",
+          "type": "expression"
         }
       ],
       "objectGroups": []
