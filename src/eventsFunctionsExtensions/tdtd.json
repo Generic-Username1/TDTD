@@ -1863,7 +1863,50 @@
                         "=",
                         "Object.Variable(Pillar)"
                       ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareStrings"
+                      },
+                      "parameters": [
+                        "Object.ObjectName()",
+                        "=",
+                        "\"WhiteHat\""
+                      ]
                     },
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Upgraded",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ChangeScale"
+                      },
+                      "parameters": [
+                        "Projectile",
+                        "=",
+                        "10"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
                     {
                       "type": {
                         "value": "SetCenter"
@@ -1912,11 +1955,6 @@
                       ]
                     }
                   ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": []
                 }
               ]
             }
@@ -2038,7 +2076,50 @@
                     "Object.Variable(SpawnY)",
                     ""
                   ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareStrings"
+                  },
+                  "parameters": [
+                    "Object.ObjectName()",
+                    "=",
+                    "\"Firefighter\""
+                  ]
                 },
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Upgraded",
+                    "True"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeScale"
+                  },
+                  "parameters": [
+                    "Trap",
+                    "=",
+                    "5"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
                 {
                   "type": {
                     "value": "SetCenter"
@@ -2098,6 +2179,51 @@
               "conditions": [
                 {
                   "type": {
+                    "value": "BuiltinCommonInstructions::CompareStrings"
+                  },
+                  "parameters": [
+                    "Object.ObjectName()",
+                    "=",
+                    "\"Soldier\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Upgraded",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Object",
+                    "FireRate",
+                    "/",
+                    "10"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Object",
+              "conditions": [
+                {
+                  "type": {
                     "value": "TDTD::TowerV2::enemyInRange"
                   },
                   "parameters": [
@@ -2131,6 +2257,56 @@
                       "parameters": [
                         "Object",
                         "CheerBoosted",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"ShootTime\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TDTD::TowerV2::attack"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "Projectile",
+                        "Enemies",
+                        "GetArgumentAsNumber(\"Volume\")",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CompareObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"ShootTime\"",
+                        ">",
+                        "Object.Variable(FireRate)/10\n"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Object",
+                        "CheerUltraBoosted",
                         "True"
                       ]
                     }
@@ -2374,6 +2550,54 @@
                         "Object",
                         "\"ShootTime\"",
                         ">",
+                        "Object.Variable(FireRate)/10\n"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Object",
+                        "CheerUltraBoosted",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"ShootTime\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TDTD::TowerV2::spawnTrap"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "Trap",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CompareObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"ShootTime\"",
+                        ">",
                         "Object.Variable(FireRate)\n"
                       ]
                     },
@@ -2425,6 +2649,16 @@
                         ">",
                         "Object.Variable(FireRate)*1.5"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Object",
+                        "NegThoughts",
+                        "True"
+                      ]
                     }
                   ],
                   "actions": [
@@ -2449,13 +2683,13 @@
                       ]
                     }
                   ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": []
                 }
               ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": []
             }
           ],
           "parameters": [
@@ -2541,7 +2775,7 @@
                       "parameters": [
                         "Object",
                         "CheerBoosted",
-                        ""
+                        "False"
                       ]
                     }
                   ],
@@ -2565,6 +2799,66 @@
                         "Object",
                         "Particles",
                         "\"208;2;27\"",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Distance"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Cheerleader",
+                        "Cheerleader.Variable(Range)",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Cheerleader",
+                        "Upgraded",
+                        "True"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Object",
+                        "CheerUltraBoosted",
+                        "False"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Object",
+                        "CheerUltraBoosted",
+                        "True"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TDTD::SummonParticleIndicator"
+                      },
+                      "parameters": [
+                        "",
+                        "Object",
+                        "Particles",
+                        "\"255;185;185\"",
                         ""
                       ]
                     }
@@ -2609,6 +2903,16 @@
                     },
                     {
                       "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Object",
+                        "CheerUltraBoosted",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "TDTD::TowerV2::selectivelyRemoveParticles"
                       },
                       "parameters": [
@@ -2616,6 +2920,78 @@
                         "Behavior",
                         "Particles",
                         "\"208;2;27\"",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TDTD::TowerV2::selectivelyRemoveParticles"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "Particles",
+                        "\"255;185;185\"",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Object",
+                        "CheerUltraBoosted",
+                        "True"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Distance"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Cheerleader",
+                        "Cheerleader.Variable(Range)",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Cheerleader",
+                        "Upgraded",
+                        "False"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Object",
+                        "CheerUltraBoosted",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TDTD::TowerV2::selectivelyRemoveParticles"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "Particles",
+                        "\"255;185;185\"",
                         ""
                       ]
                     }

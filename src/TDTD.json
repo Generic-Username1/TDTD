@@ -1954,6 +1954,12 @@
           "name": "FireBoost",
           "type": "number",
           "value": 1.2
+        },
+        {
+          "folded": true,
+          "name": "Upgraded",
+          "type": "boolean",
+          "value": false
         }
       ],
       "effects": [
@@ -2039,6 +2045,12 @@
           "name": "Saved",
           "type": "number",
           "value": 0
+        },
+        {
+          "folded": true,
+          "name": "Upgraded",
+          "type": "boolean",
+          "value": false
         }
       ],
       "effects": [
@@ -2112,6 +2124,12 @@
           "name": "Pillar",
           "type": "string",
           "value": "Social"
+        },
+        {
+          "folded": true,
+          "name": "Upgraded",
+          "type": "boolean",
+          "value": false
         }
       ],
       "effects": [
@@ -2191,6 +2209,12 @@
           "name": "Pillar",
           "type": "string",
           "value": "Social"
+        },
+        {
+          "folded": true,
+          "name": "Upgraded",
+          "type": "boolean",
+          "value": false
         }
       ],
       "effects": [
@@ -2258,6 +2282,12 @@
           "name": "Pillar",
           "type": "string",
           "value": "Economic"
+        },
+        {
+          "folded": true,
+          "name": "Upgraded",
+          "type": "boolean",
+          "value": false
         }
       ],
       "effects": [
@@ -2337,6 +2367,12 @@
           "name": "Discount",
           "type": "number",
           "value": 0.5
+        },
+        {
+          "folded": true,
+          "name": "Upgraded",
+          "type": "boolean",
+          "value": false
         }
       ],
       "effects": [
@@ -2422,6 +2458,12 @@
           "name": "Pillar",
           "type": "string",
           "value": "Military"
+        },
+        {
+          "folded": true,
+          "name": "Upgraded",
+          "type": "boolean",
+          "value": false
         }
       ],
       "effects": [
@@ -2543,6 +2585,12 @@
           "name": "Damage",
           "type": "number",
           "value": 100
+        },
+        {
+          "folded": true,
+          "name": "Upgraded",
+          "type": "boolean",
+          "value": false
         }
       ],
       "effects": [
@@ -2622,6 +2670,12 @@
           "name": "Pillar",
           "type": "string",
           "value": "Civil"
+        },
+        {
+          "folded": true,
+          "name": "Upgraded",
+          "type": "boolean",
+          "value": false
         }
       ],
       "effects": [
@@ -2707,6 +2761,12 @@
           "name": "SecondRate",
           "type": "number",
           "value": 5
+        },
+        {
+          "folded": true,
+          "name": "Upgraded",
+          "type": "boolean",
+          "value": false
         }
       ],
       "effects": [
@@ -2798,6 +2858,12 @@
           "name": "Pillar",
           "type": "string",
           "value": "Digital"
+        },
+        {
+          "folded": true,
+          "name": "Upgraded",
+          "type": "boolean",
+          "value": false
         }
       ],
       "effects": [
@@ -2877,6 +2943,12 @@
           "name": "Boost",
           "type": "number",
           "value": 2
+        },
+        {
+          "folded": true,
+          "name": "Upgraded",
+          "type": "boolean",
+          "value": false
         }
       ],
       "effects": [

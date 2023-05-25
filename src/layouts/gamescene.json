@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5061631522790238,
+    "zoomFactor": 0.5061631522790222,
     "windowMask": false
   },
   "objectsGroups": [
@@ -64,6 +64,20 @@
       ]
     },
     {
+      "name": "ShopTabC2",
+      "objects": [
+        {
+          "name": "MilitaryShopTab"
+        },
+        {
+          "name": "DigitalShopTab"
+        },
+        {
+          "name": "SocialShopTab"
+        }
+      ]
+    },
+    {
       "name": "Enemies",
       "objects": [
         {
@@ -88,20 +102,6 @@
         },
         {
           "name": "CivilShopTab"
-        }
-      ]
-    },
-    {
-      "name": "ShopTabC2",
-      "objects": [
-        {
-          "name": "MilitaryShopTab"
-        },
-        {
-          "name": "DigitalShopTab"
-        },
-        {
-          "name": "SocialShopTab"
         }
       ]
     },
@@ -3645,20 +3645,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 60.9999885559082,
-                        "y": 17.33333396911621
+                        "x": 61,
+                        "y": 114.5
                       },
                       {
                         "x": 61,
-                        "y": 17.33333396911621
+                        "y": 24
                       },
                       {
-                        "x": 61,
-                        "y": 115.23809814453125
+                        "x": 0,
+                        "y": 24.5
                       },
                       {
-                        "x": 60.9999885559082,
-                        "y": 115.23809814453125
+                        "x": 0.5,
+                        "y": 116
                       }
                     ]
                   ]
@@ -5683,8 +5683,7 @@
         "r": 0
       },
       "absoluteCoordinates": true,
-      "clearBetweenFrames": false,
-      "antialiasing": "none"
+      "clearBetweenFrames": false
     },
     {
       "assetStoreId": "",
@@ -7140,7 +7139,6 @@
       "emitterForceMax": 0,
       "emitterForceMin": 0,
       "flow": 1,
-      "jumpForwardInTimeOnCreation": 0,
       "maxParticleNb": 1,
       "name": "CommSupportEffect",
       "particleAlpha1": 204,
@@ -7186,7 +7184,6 @@
       "emitterForceMax": 40,
       "emitterForceMin": 45,
       "flow": 15,
-      "jumpForwardInTimeOnCreation": 0,
       "maxParticleNb": 15,
       "name": "StatusParticles",
       "particleAlpha1": 204,
@@ -7232,7 +7229,6 @@
       "emitterForceMax": 40,
       "emitterForceMin": 20,
       "flow": 10,
-      "jumpForwardInTimeOnCreation": 0,
       "maxParticleNb": 20,
       "name": "FireParticles",
       "particleAlpha1": 204,
@@ -7451,10 +7447,10 @@
       "effects": [],
       "behaviors": [],
       "content": {
-        "BarTopPadding": 3,
-        "BarLeftPadding": 3,
-        "BarRightPadding": 3,
-        "BarBottomPadding": 4,
+        "BarTopPadding": 1,
+        "BarLeftPadding": 1,
+        "BarRightPadding": 1,
+        "BarBottomPadding": 1,
         "LabelMargin": 4,
         "InitialValue": 100,
         "ShowLabelAtChanges": false
@@ -7462,13 +7458,13 @@
       "childrenContent": {
         "Background": {
           "bottomMargin": 4,
-          "height": 18,
+          "height": 8,
           "leftMargin": 2,
           "rightMargin": 2,
           "texture": "Square Blue Slider Border.png",
           "tiled": false,
           "topMargin": 4,
-          "width": 215
+          "width": 4
         },
         "FillBar": {
           "bottomMargin": 1,
@@ -7488,7 +7484,7 @@
           "string": "Drag slider to change volume",
           "font": "assets\\AlfaSlabOne-Regular.ttf",
           "textAlignment": "",
-          "characterSize": 16,
+          "characterSize": 0,
           "color": {
             "b": 0,
             "g": 0,
@@ -7536,10 +7532,10 @@
       "effects": [],
       "behaviors": [],
       "content": {
-        "BarTopPadding": 3,
-        "BarLeftPadding": 3,
-        "BarRightPadding": 3,
-        "BarBottomPadding": 4,
+        "BarTopPadding": 1,
+        "BarLeftPadding": 1,
+        "BarRightPadding": 1,
+        "BarBottomPadding": 1,
         "LabelMargin": 4,
         "InitialValue": 100,
         "ShowLabelAtChanges": false
@@ -7573,7 +7569,7 @@
           "string": "Drag slider to change volume",
           "font": "assets\\AlfaSlabOne-Regular.ttf",
           "textAlignment": "",
-          "characterSize": 16,
+          "characterSize": 0,
           "color": {
             "b": 0,
             "g": 0,
@@ -7942,7 +7938,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Initialization",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -8371,7 +8366,7 @@
                   "parameters": [
                     "playerGold",
                     "=",
-                    "500"
+                    "500000"
                   ]
                 },
                 {
@@ -8391,7 +8386,7 @@
                   "parameters": [
                     "CommSupportAmt",
                     "=",
-                    "5"
+                    "5000"
                   ]
                 },
                 {
@@ -8917,7 +8912,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Continuous Events",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -10656,7 +10650,7 @@
               },
               "parameters": [
                 "MenuMusicVolumeSlider",
-                ""
+                "ButtonFSM"
               ]
             }
           ],
@@ -10693,7 +10687,7 @@
               },
               "parameters": [
                 "MenuSFXVolumeSlider",
-                ""
+                "ButtonFSM"
               ]
             }
           ],
@@ -11126,13 +11120,41 @@
             },
             {
               "type": {
-                "value": "ModVarObjet"
+                "value": "SetObjectVariableAsBoolean"
               },
               "parameters": [
                 "Towers",
-                "FireRate",
-                "/",
-                "2"
+                "Upgraded",
+                "True"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareStrings"
+                  },
+                  "parameters": [
+                    "Towers.ObjectName()",
+                    "=",
+                    "\"CareerGuider\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "MaxTowers",
+                    "+",
+                    "2"
+                  ]
+                }
               ]
             }
           ]
@@ -11168,11 +11190,22 @@
                 "Towers",
                 "ID",
                 "=",
-                "UpgradeButton.Variable(TowerID)"
+                "RemoveButton.Variable(TowerID)"
               ]
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "TDTD::TowerV2::removeParticles"
+              },
+              "parameters": [
+                "Towers",
+                "TowerV2",
+                "StatusParticles",
+                ""
+              ]
+            },
             {
               "type": {
                 "value": "Delete"
@@ -11192,6 +11225,227 @@
                 "1"
               ]
             }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareStrings"
+                  },
+                  "parameters": [
+                    "Towers.ObjectName()",
+                    "=",
+                    "\"CareerGuider\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Towers",
+                    "Upgraded",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "MaxTowers",
+                    "-",
+                    "3"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareStrings"
+                  },
+                  "parameters": [
+                    "Towers.ObjectName()",
+                    "=",
+                    "\"CareerGuider\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Towers",
+                    "Upgraded",
+                    "True"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "MaxTowers",
+                    "-",
+                    "5"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Investor",
+          "conditions": [
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Investor",
+                "Upgraded",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "Investor",
+                "Discount",
+                "=",
+                "0.25"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "CommLeader",
+          "conditions": [
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "CommLeader",
+                "Upgraded",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "CommLeader",
+                "Range",
+                "=",
+                "180"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "CaringCitizen",
+          "conditions": [
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "CaringCitizen",
+                "Upgraded",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "CaringCitizen",
+                "Range",
+                "=",
+                "120"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Doctor",
+          "conditions": [
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Doctor",
+                "Upgraded",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "Doctor",
+                "SecondRate",
+                "=",
+                "2.5"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "IntelligenceOfficer",
+          "conditions": [
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "IntelligenceOfficer",
+                "Upgraded",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "IntelligenceOfficer",
+                "FireRate",
+                "=",
+                "2.5"
+              ]
+            }
           ]
         }
       ],
@@ -11202,7 +11456,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Tower/Enemy Info",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -11227,6 +11480,17 @@
               "parameters": [
                 "isRioting",
                 "True"
+              ]
+            },
+            {
+              "type": {
+                "value": "SceneInstancesCount"
+              },
+              "parameters": [
+                "",
+                "SpawnBox",
+                "=",
+                "0"
               ]
             }
           ],
@@ -11314,34 +11578,11 @@
                     "value": "SetCenter"
                   },
                   "parameters": [
-                    "UpgradeButton",
-                    "=",
-                    "Towers.CenterX()-28",
-                    "=",
-                    "Towers.Y()-28"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetCenter"
-                  },
-                  "parameters": [
                     "RemoveButton",
                     "=",
                     "Towers.CenterX()+28",
                     "=",
                     "Towers.Y()-28"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarObjet"
-                  },
-                  "parameters": [
-                    "UpgradeButton",
-                    "TowerID",
-                    "=",
-                    "Towers.Variable(ID)"
                   ]
                 },
                 {
@@ -11357,6 +11598,75 @@
                 }
               ],
               "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Towers",
+                        "Upgraded",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetCenter"
+                      },
+                      "parameters": [
+                        "UpgradeButton",
+                        "=",
+                        "Towers.CenterX()-28",
+                        "=",
+                        "Towers.Y()-28"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "UpgradeButton",
+                        "TowerID",
+                        "=",
+                        "Towers.Variable(ID)"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Towers",
+                        "Upgraded",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetCenter"
+                      },
+                      "parameters": [
+                        "UpgradeButton",
+                        "=",
+                        "-100",
+                        "=",
+                        "-100"
+                      ]
+                    }
+                  ]
+                },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
@@ -12705,7 +13015,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Attack or Defend",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -13103,6 +13412,16 @@
               "parameters": [
                 "",
                 "CaringCitizen"
+              ]
+            },
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "CaringCitizen",
+                "Upgraded",
+                "True"
               ]
             },
             {
@@ -13571,7 +13890,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "SpawnBox and Spawning",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -13874,7 +14192,7 @@
               "parameters": [
                 "GlobalVariable(playerGold)",
                 "<",
-                "GlobalVariable(toPay)/2"
+                "GlobalVariable(toPay)*Investor.Variable(Discount)"
               ]
             }
           ],
@@ -17452,7 +17770,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Shop Stuff",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -18276,7 +18593,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Change Shop Content",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",

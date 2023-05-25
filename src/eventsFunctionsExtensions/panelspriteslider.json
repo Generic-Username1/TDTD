@@ -36,7 +36,6 @@
       "fullName": "Slider",
       "name": "Slider",
       "objectType": "",
-      "private": true,
       "eventsFunctions": [
         {
           "description": "the value of the object.",
@@ -528,7 +527,6 @@
       "fullName": "Button finite state machine",
       "name": "ButtonFSM",
       "objectType": "",
-      "private": true,
       "eventsFunctions": [
         {
           "fullName": "",
