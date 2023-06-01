@@ -39,6 +39,16 @@
             },
             {
               "type": {
+                "value": "ChangeScale"
+              },
+              "parameters": [
+                "Tower",
+                "=",
+                "0.4"
+              ]
+            },
+            {
+              "type": {
                 "value": "SetCenter"
               },
               "parameters": [
@@ -108,6 +118,16 @@
             },
             {
               "type": {
+                "value": "ChangeScale"
+              },
+              "parameters": [
+                "Tower",
+                "=",
+                "0.4"
+              ]
+            },
+            {
+              "type": {
                 "value": "ModVarObjet"
               },
               "parameters": [
@@ -171,6 +191,16 @@
                 "SpawnBox.CenterX()",
                 "SpawnBox.CenterY()",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeScale"
+              },
+              "parameters": [
+                "Tower",
+                "=",
+                "0.4"
               ]
             },
             {
@@ -985,6 +1015,28 @@
               "conditions": [
                 {
                   "type": {
+                    "inverted": true,
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Object",
+                    "hasSlipped",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Object",
+                    "deathStunned",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "CompareObjectTimer"
                   },
                   "parameters": [
@@ -1556,7 +1608,7 @@
           "fullName": "Update health bar",
           "functionType": "Action",
           "name": "updateHealthBar",
-          "sentence": "Update _PARAM2_ for _PARAM0_",
+          "sentence": "Update _PARAM2_ health bar for _PARAM0_",
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -1621,6 +1673,66 @@
             }
           ],
           "objectGroups": []
+        },
+        {
+          "description": "Update the Firefighter's Hitmarker on this Enemy.",
+          "fullName": "Update Hit Marker",
+          "functionType": "Action",
+          "name": "updateHitmarker",
+          "sentence": "Update _PARAM2_ hitmarker for _PARAM0_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "LinkedObjects::PickObjectsLinkedTo"
+                  },
+                  "parameters": [
+                    "",
+                    "HitMarker",
+                    "Object",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetCenter"
+                  },
+                  "parameters": [
+                    "HitMarker",
+                    "=",
+                    "Object.CenterX()",
+                    "=",
+                    "Object.CenterY()"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "supplementaryInformation": "Sprite",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "TDTD::EnemyV2",
+              "type": "behavior"
+            },
+            {
+              "description": "The Hit Marker",
+              "name": "HitMarker",
+              "supplementaryInformation": "Sprite",
+              "type": "objectList"
+            }
+          ],
+          "objectGroups": []
         }
       ],
       "propertyDescriptors": [
@@ -1670,8 +1782,23 @@
           "fullName": "Automatically Target and Fire Bullet",
           "functionType": "Action",
           "name": "attack",
-          "sentence": "Fire _PARAM2_ from _PARAM0_ at _PARAM3_ at volume _PARAM4_",
+          "sentence": "Fire _PARAM2_ (damage multiplier _PARAM5_x) from _PARAM0_ at _PARAM3_ at volume _PARAM4_",
           "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetSceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "doElse",
+                    "True"
+                  ]
+                }
+              ]
+            },
             {
               "type": "BuiltinCommonInstructions::Comment",
               "color": {
@@ -1682,12 +1809,21 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Actually Shoot the bullets",
-              "comment2": ""
+              "comment": "Actually Shoot the bullets"
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Enemy",
+                    "VeryVisible",
+                    "True"
+                  ]
+                },
                 {
                   "type": {
                     "value": "ObjectVariableAsBoolean"
@@ -1700,12 +1836,314 @@
                 },
                 {
                   "type": {
+                    "value": "PickedInstancesCount"
+                  },
+                  "parameters": [
+                    "Enemy",
+                    ">=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AjoutHasard"
+                  },
+                  "parameters": [
+                    "Enemy",
+                    "Enemy"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetSceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "doElse",
+                    "False"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Rotate",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "RotateTowardPosition"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Enemy.CenterX()",
+                        "Enemy.CenterY()",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetSceneVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "doElse",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Or"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "Angle"
+                              },
+                              "parameters": [
+                                "Object",
+                                "<",
+                                "-90"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Angle"
+                              },
+                              "parameters": [
+                                "Object",
+                                ">",
+                                "90"
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "FlipY"
+                          },
+                          "parameters": [
+                            "Object",
+                            "yes"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetSceneVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "doElse",
+                            "False"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "SceneVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "doElse",
+                            "True"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "FlipY"
+                          },
+                          "parameters": [
+                            "Object",
+                            "no"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Projectile",
+                        "Object.PointX(\"OriginPoint\")",
+                        "Object.PointY(\"OriginPoint\")",
+                        "\"Projectile layer\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "Projectile",
+                        "Pillar",
+                        "=",
+                        "Object.Variable(Pillar)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "Projectile",
+                        "Damage",
+                        "*",
+                        "GetArgumentAsNumber(\"BulletDamageMultiplier\")"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangeScale"
+                      },
+                      "parameters": [
+                        "Projectile",
+                        "+",
+                        "Object.Variable(AddBulletSize)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetCenter"
+                      },
+                      "parameters": [
+                        "Projectile",
+                        "=",
+                        "Object.PointX(\"OriginPoint\")",
+                        "=",
+                        "Object.PointY(\"OriginPoint\")"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "assets/fire.ogg",
+                        "",
+                        "GetArgumentAsNumber(\"Volume\")",
+                        "RandomFloatInRange(0.7,1.3)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "RotateTowardPosition"
+                      },
+                      "parameters": [
+                        "Projectile",
+                        "Enemy.CenterX()",
+                        "Enemy.CenterY()",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AddForceVers"
+                      },
+                      "parameters": [
+                        "Projectile",
+                        "Enemy",
+                        "Projectile.Variable(Speed)",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangeSprite"
+                      },
+                      "parameters": [
+                        "Object",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangeAnimation"
+                      },
+                      "parameters": [
+                        "Object",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "doElse",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "PickNearest"
                   },
                   "parameters": [
                     "Enemy",
                     "Object.CenterX()",
                     "Object.CenterY()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Enemy",
+                    "Variable(MaxRange)",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Enemy",
+                    "deathStunned",
                     ""
                   ]
                 }
@@ -1785,12 +2223,11 @@
                       "actions": [
                         {
                           "type": {
-                            "value": "ChangeAnimation"
+                            "value": "FlipY"
                           },
                           "parameters": [
                             "Object",
-                            "=",
-                            "1"
+                            "yes"
                           ]
                         },
                         {
@@ -1820,20 +2257,14 @@
                       "actions": [
                         {
                           "type": {
-                            "value": "ChangeAnimation"
+                            "value": "FlipY"
                           },
                           "parameters": [
                             "Object",
-                            "=",
-                            "0"
+                            "no"
                           ]
                         }
                       ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [],
-                      "actions": []
                     }
                   ]
                 },
@@ -1863,50 +2294,28 @@
                         "=",
                         "Object.Variable(Pillar)"
                       ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::CompareStrings"
-                      },
-                      "parameters": [
-                        "Object.ObjectName()",
-                        "=",
-                        "\"WhiteHat\""
-                      ]
                     },
                     {
                       "type": {
-                        "value": "ObjectVariableAsBoolean"
+                        "value": "ModVarObjet"
                       },
                       "parameters": [
-                        "Object",
-                        "Upgraded",
-                        "True"
+                        "Projectile",
+                        "Damage",
+                        "*",
+                        "GetArgumentAsNumber(\"BulletDamageMultiplier\")"
                       ]
-                    }
-                  ],
-                  "actions": [
+                    },
                     {
                       "type": {
                         "value": "ChangeScale"
                       },
                       "parameters": [
                         "Projectile",
-                        "=",
-                        "10"
+                        "+",
+                        "Object.Variable(AddBulletSize)"
                       ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
+                    },
                     {
                       "type": {
                         "value": "SetCenter"
@@ -1917,6 +2326,18 @@
                         "Object.PointX(\"OriginPoint\")",
                         "=",
                         "Object.PointY(\"OriginPoint\")"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "assets/fire.ogg",
+                        "",
+                        "GetArgumentAsNumber(\"Volume\")",
+                        "RandomFloatInRange(0.7,1.3)"
                       ]
                     },
                     {
@@ -1944,14 +2365,22 @@
                     },
                     {
                       "type": {
-                        "value": "PlaySound"
+                        "value": "ChangeSprite"
                       },
                       "parameters": [
-                        "",
-                        "assets/fire.ogg",
-                        "",
-                        "GetArgumentAsNumber(\"Volume\")",
-                        "RandomFloatInRange(0.7,1.3)"
+                        "Object",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangeAnimation"
+                      },
+                      "parameters": [
+                        "Object",
+                        "=",
+                        "1"
                       ]
                     }
                   ]
@@ -1987,6 +2416,11 @@
             {
               "description": "Volume to play sound effect at",
               "name": "Volume",
+              "type": "expression"
+            },
+            {
+              "description": "Bullet Damage Multipler (use 1 for default)",
+              "name": "BulletDamageMultiplier",
               "type": "expression"
             }
           ],
@@ -2059,7 +2493,7 @@
           "fullName": "Spawn a trap at the nearest path",
           "functionType": "Action",
           "name": "spawnTrap",
-          "sentence": "Spawn _PARAM2_ at nearest path from _PARAM0_",
+          "sentence": "Spawn _PARAM2_ (damage multiplier: _PARAM3_x) at nearest path from _PARAM0_",
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -2076,50 +2510,7 @@
                     "Object.Variable(SpawnY)",
                     ""
                   ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::CompareStrings"
-                  },
-                  "parameters": [
-                    "Object.ObjectName()",
-                    "=",
-                    "\"Firefighter\""
-                  ]
                 },
-                {
-                  "type": {
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "Object",
-                    "Upgraded",
-                    "True"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ChangeScale"
-                  },
-                  "parameters": [
-                    "Trap",
-                    "=",
-                    "5"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
                 {
                   "type": {
                     "value": "SetCenter"
@@ -2139,6 +2530,27 @@
                   "parameters": [
                     "Trap",
                     "\"TrapTimeout\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Trap",
+                    "Damage",
+                    "*",
+                    "GetArgumentAsNumber(\"DamageMultiplier\")"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeSprite"
+                  },
+                  "parameters": [
+                    "Object",
+                    "=",
+                    "0"
                   ]
                 }
               ]
@@ -2162,6 +2574,11 @@
               "name": "Trap",
               "supplementaryInformation": "Sprite",
               "type": "objectList"
+            },
+            {
+              "description": "Trap Damage Multiplier",
+              "name": "DamageMultiplier",
+              "type": "expression"
             }
           ],
           "objectGroups": []
@@ -2173,51 +2590,6 @@
           "name": "smartAttack",
           "sentence": "Using _PARAM0_, attack _PARAM2_ by shooting _PARAM3_, playing sound effect at volume _PARAM4_",
           "events": [
-            {
-              "type": "BuiltinCommonInstructions::ForEach",
-              "object": "Object",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::CompareStrings"
-                  },
-                  "parameters": [
-                    "Object.ObjectName()",
-                    "=",
-                    "\"Soldier\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "Object",
-                    "Upgraded",
-                    "True"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ModVarObjet"
-                  },
-                  "parameters": [
-                    "Object",
-                    "FireRate",
-                    "/",
-                    "10"
-                  ]
-                }
-              ]
-            },
             {
               "type": "BuiltinCommonInstructions::ForEach",
               "object": "Object",
@@ -2281,7 +2653,8 @@
                         "Projectile",
                         "Enemies",
                         "GetArgumentAsNumber(\"Volume\")",
-                        ""
+                        "1",
+                        "1"
                       ]
                     }
                   ]
@@ -2297,7 +2670,7 @@
                         "Object",
                         "\"ShootTime\"",
                         ">",
-                        "Object.Variable(FireRate)/10\n"
+                        "Object.Variable(FireRate)/2"
                       ]
                     },
                     {
@@ -2331,6 +2704,8 @@
                         "Projectile",
                         "Enemies",
                         "GetArgumentAsNumber(\"Volume\")",
+                        "1.5",
+                        "1",
                         ""
                       ]
                     }
@@ -2382,6 +2757,8 @@
                         "Projectile",
                         "Enemies",
                         "GetArgumentAsNumber(\"Volume\")",
+                        "1",
+                        "1",
                         ""
                       ]
                     }
@@ -2432,6 +2809,8 @@
                         "Projectile",
                         "Enemies",
                         "GetArgumentAsNumber(\"Volume\")",
+                        "1",
+                        "1",
                         ""
                       ]
                     }
@@ -2534,6 +2913,7 @@
                         "Object",
                         "Behavior",
                         "Trap",
+                        "1",
                         ""
                       ]
                     }
@@ -2550,7 +2930,7 @@
                         "Object",
                         "\"ShootTime\"",
                         ">",
-                        "Object.Variable(FireRate)/10\n"
+                        "Object.Variable(FireRate)/2\n"
                       ]
                     },
                     {
@@ -2582,7 +2962,7 @@
                         "Object",
                         "Behavior",
                         "Trap",
-                        ""
+                        "1.5"
                       ]
                     }
                   ]
@@ -2631,6 +3011,7 @@
                         "Object",
                         "Behavior",
                         "Trap",
+                        "1",
                         ""
                       ]
                     }
@@ -2679,6 +3060,7 @@
                         "Object",
                         "Behavior",
                         "Trap",
+                        "1",
                         ""
                       ]
                     }
@@ -3628,34 +4010,78 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "ObjectVariableAsBoolean"
+                    "value": "BuiltinCommonInstructions::Or"
                   },
-                  "parameters": [
-                    "Enemy",
-                    "deathStunned",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PickNearest"
-                  },
-                  "parameters": [
-                    "Enemy",
-                    "Object.CenterX()",
-                    "Object.CenterY()",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Distance"
-                  },
-                  "parameters": [
-                    "Object",
-                    "Enemy",
-                    "Variable(MaxRange)",
-                    ""
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::And"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "PickNearest"
+                          },
+                          "parameters": [
+                            "Enemy",
+                            "Object.CenterX()",
+                            "Object.CenterY()",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Distance"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Enemy",
+                            "Variable(MaxRange)",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Enemy",
+                            "deathStunned",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::And"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Enemy",
+                            "VeryVisible",
+                            "True"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Enemy",
+                            "deathStunned",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
                   ]
                 }
               ],
@@ -3776,9 +4202,14 @@
                 },
                 {
                   "type": {
-                    "value": "BuiltinCommonInstructions::Once"
+                    "inverted": true,
+                    "value": "ObjectVariableAsBoolean"
                   },
-                  "parameters": []
+                  "parameters": [
+                    "Enemy",
+                    "deathStunned",
+                    "True"
+                  ]
                 },
                 {
                   "type": {
@@ -3789,6 +4220,12 @@
                     "Piercing",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
@@ -3915,6 +4352,17 @@
               "conditions": [
                 {
                   "type": {
+                    "inverted": true,
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Enemy",
+                    "deathStunned",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "CollisionNP"
                   },
                   "parameters": [
@@ -4012,8 +4460,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Note: This is a WIP.",
-              "comment2": ""
+              "comment": "Note: This is a WIP."
             },
             {
               "type": "BuiltinCommonInstructions::Standard",

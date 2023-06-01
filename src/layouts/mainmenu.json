@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4967431248293929,
+    "zoomFactor": 0.44969979771695634,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -34,44 +34,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 147,
-      "layer": "",
-      "name": "Title",
-      "persistentUuid": "44177903-d5d8-48b8-8273-beb3a9a5c663",
-      "width": 320,
-      "x": 652,
-      "y": 176,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 134,
+      "height": 1,
       "layer": "",
       "name": "LargePlayButton",
       "persistentUuid": "35d888be-7d5c-499a-940a-076dd5cf03f8",
-      "width": 342.41802978515625,
-      "x": 648,
-      "y": 546,
+      "width": 1,
+      "x": 810,
+      "y": 807,
       "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 1095,
-      "layer": "",
-      "name": "NewTiledSprite",
-      "persistentUuid": "0e164f2e-cc73-4af5-b48b-62d1d08d5ce4",
-      "width": 1638,
-      "x": -8,
-      "y": -10,
-      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -87,6 +57,21 @@
       "x": 22,
       "y": 1034,
       "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 1080,
+      "layer": "",
+      "name": "Background",
+      "persistentUuid": "c65c5fa1-3155-474d-9d89-07d81d06910c",
+      "width": 1920,
+      "x": -150,
+      "y": 0,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -529,18 +514,6 @@
     },
     {
       "assetStoreId": "",
-      "height": 32,
-      "name": "NewTiledSprite",
-      "tags": "",
-      "texture": "New image42",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
-      "assetStoreId": "",
       "bold": false,
       "italic": false,
       "name": "Version",
@@ -551,7 +524,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "v0.1.3",
+      "string": "v0.2.0",
       "font": "assets\\AlfaSlabOne-Regular.ttf",
       "textAlignment": "left",
       "characterSize": 24,
@@ -560,6 +533,47 @@
         "g": 255,
         "r": 255
       }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Background",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Title Sceen background_001.jpg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
@@ -588,16 +602,6 @@
         },
         {
           "type": {
-            "value": "TextObject::Scale"
-          },
-          "parameters": [
-            "Title",
-            "=",
-            "0"
-          ]
-        },
-        {
-          "type": {
             "value": "ChangeScale"
           },
           "parameters": [
@@ -611,15 +615,15 @@
             "value": "Tween::AddObjectScaleTween"
           },
           "parameters": [
-            "Title",
+            "LargePlayButton",
             "Tween",
-            "\"TitleStartTween\"",
-            "1.2",
-            "1.2",
-            "\"easeInCubic\"",
+            "\"PlayTween\"",
+            "1",
+            "1",
+            "\"easeInOutQuad\"",
             "500",
             "",
-            "no"
+            "yes"
           ]
         },
         {
@@ -651,112 +655,6 @@
             "",
             "",
             ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "Tween::Exists"
-          },
-          "parameters": [
-            "Title",
-            "Tween",
-            "\"TitleStartTween\""
-          ]
-        },
-        {
-          "type": {
-            "value": "Tween::HasFinished"
-          },
-          "parameters": [
-            "Title",
-            "Tween",
-            "\"TitleStartTween\""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Tween::RemoveTween"
-          },
-          "parameters": [
-            "Title",
-            "Tween",
-            "\"TitleStartTween\""
-          ]
-        },
-        {
-          "type": {
-            "value": "Tween::AddObjectScaleTween"
-          },
-          "parameters": [
-            "Title",
-            "Tween",
-            "\"TitleEndTween\"",
-            "1.0",
-            "1.0",
-            "\"easeOutCubic\"",
-            "200",
-            "",
-            "no"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "Tween::Exists"
-          },
-          "parameters": [
-            "Title",
-            "Tween",
-            "\"TitleEndTween\""
-          ]
-        },
-        {
-          "type": {
-            "value": "Tween::HasFinished"
-          },
-          "parameters": [
-            "Title",
-            "Tween",
-            "\"TitleEndTween\""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Tween::RemoveTween"
-          },
-          "parameters": [
-            "Title",
-            "Tween",
-            "\"TitleEndTween\""
-          ]
-        },
-        {
-          "type": {
-            "value": "Tween::AddObjectScaleTween"
-          },
-          "parameters": [
-            "LargePlayButton",
-            "Tween",
-            "\"PlayTween\"",
-            "1",
-            "1",
-            "\"easeInOutQuad\"",
-            "500",
-            "",
-            "no"
           ]
         }
       ]
@@ -861,9 +759,14 @@
       "ambientLightColorB": 9538536,
       "ambientLightColorG": 150995054,
       "ambientLightColorR": 1869182049,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 0.1,
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
+      "isLocked": false,
       "name": "",
+      "renderingType": "",
       "visibility": true,
       "cameras": [
         {

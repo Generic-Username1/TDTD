@@ -59,8 +59,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "This is done after the events to allow users to read the previous value at the end of the change.",
-              "comment2": ""
+              "comment": "This is done after the events to allow users to read the previous value at the end of the change."
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -712,8 +711,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "This allows to detect a change of \"intial value\" on hot reload.",
-              "comment2": ""
+              "comment": "This allows to detect a change of \"intial value\" on hot reload."
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -741,8 +739,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Create the child-object instances.",
-              "comment2": ""
+              "comment": "Create the child-object instances."
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -843,8 +840,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Create the label over the bar.",
-              "comment2": ""
+              "comment": "Create the label over the bar."
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -926,8 +922,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Pass the configuration to the behavior.",
-              "comment2": ""
+              "comment": "Pass the configuration to the behavior."
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -1142,8 +1137,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Children instances must be resized when the parent size change:\n- background is resized to take the full dimensions of the parent\n- the bar size is refreshed according to the value\n- the label is put back at the center of the bar\n\nThe scale is set back to 1 because it means that the parent instance has the same dimensions as the union of its children instances.",
-                  "comment2": ""
+                  "comment": "Children instances must be resized when the parent size change:\n- background is resized to take the full dimensions of the parent\n- the bar size is refreshed according to the value\n- the label is put back at the center of the bar\n\nThe scale is set back to 1 because it means that the parent instance has the same dimensions as the union of its children instances."
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",

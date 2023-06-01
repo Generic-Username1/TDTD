@@ -71,8 +71,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Start/Reset duration timer",
-                  "comment2": ""
+                  "comment": "Start/Reset duration timer"
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -99,8 +98,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Pass input parameters to global variables so that onScenePostEvents can use them",
-                  "comment2": ""
+                  "comment": "Pass input parameters to global variables so that onScenePostEvents can use them"
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -173,8 +171,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Determine if the shake should keep going until stopped",
-                  "comment2": ""
+                  "comment": "Determine if the shake should keep going until stopped"
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -227,8 +224,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Add default values if none were provided",
-                  "comment2": ""
+                  "comment": "Add default values if none were provided"
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -298,8 +294,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "If duration is less than a single shake, increase duration to make 1 full shake",
-                  "comment2": ""
+                  "comment": "If duration is less than a single shake, increase duration to make 1 full shake"
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -340,8 +335,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Detect initial shake",
-                  "comment2": ""
+                  "comment": "Detect initial shake"
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -382,8 +376,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Initiate the onScenePostEvents function",
-                  "comment2": ""
+                  "comment": "Initiate the onScenePostEvents function"
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -505,8 +498,7 @@
                             "textG": 0,
                             "textR": 0
                           },
-                          "comment": "Keep object shaking forever (if desired)",
-                          "comment2": ""
+                          "comment": "Keep object shaking forever (if desired)"
                         },
                         {
                           "type": "BuiltinCommonInstructions::Standard",
@@ -564,8 +556,7 @@
                                 "textG": 0,
                                 "textR": 0
                               },
-                              "comment": "Run once before every shake movement",
-                              "comment2": ""
+                              "comment": "Run once before every shake movement"
                             },
                             {
                               "type": "BuiltinCommonInstructions::Standard",
@@ -642,8 +633,7 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Move to correct any drift from previous shake",
-                                      "comment2": ""
+                                      "comment": "Move to correct any drift from previous shake"
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -740,8 +730,7 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Reset drift detection variables",
-                                      "comment2": ""
+                                      "comment": "Reset drift detection variables"
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -795,8 +784,7 @@
                                     "textG": 0,
                                     "textR": 0
                                   },
-                                  "comment": "Calculate Position Shake",
-                                  "comment2": ""
+                                  "comment": "Calculate Position Shake"
                                 },
                                 {
                                   "type": "BuiltinCommonInstructions::Standard",
@@ -844,8 +832,7 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "PositionDisplacement = (DesiredDuration - RunningTimer) / DesiredDuration * Amplitude * [-1 or 1]",
-                                      "comment2": ""
+                                      "comment": "PositionDisplacement = (DesiredDuration - RunningTimer) / DesiredDuration * Amplitude * [-1 or 1]"
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Comment",
@@ -857,8 +844,7 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Make initial shake NOT random so users can set a direction for a one-shake effect",
-                                      "comment2": ""
+                                      "comment": "Make initial shake NOT random so users can set a direction for a one-shake effect"
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -947,8 +933,7 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "After initial shake pick a random direction",
-                                      "comment2": ""
+                                      "comment": "After initial shake pick a random direction"
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -1039,8 +1024,7 @@
                                     "textG": 0,
                                     "textR": 0
                                   },
-                                  "comment": "Calculate Rotation (angle) shake ",
-                                  "comment2": ""
+                                  "comment": "Calculate Rotation (angle) shake "
                                 },
                                 {
                                   "type": "BuiltinCommonInstructions::Standard",
@@ -1069,8 +1053,7 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Every \"even\" shake, rotate clockwise",
-                                      "comment2": ""
+                                      "comment": "Every \"even\" shake, rotate clockwise"
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Comment",
@@ -1082,8 +1065,7 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "AngleDisplacement = (DesiredDuration - RunningTimer) / DesiredDuration * Amplitude",
-                                      "comment2": ""
+                                      "comment": "AngleDisplacement = (DesiredDuration - RunningTimer) / DesiredDuration * Amplitude"
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -1123,8 +1105,7 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Every \"odd\" shake, rotate counter-clockwise",
-                                      "comment2": ""
+                                      "comment": "Every \"odd\" shake, rotate counter-clockwise"
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Comment",
@@ -1136,8 +1117,7 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "AngleDisplacement = (DesiredDuration - RunningTimer) / DesiredDuration * Amplitude",
-                                      "comment2": ""
+                                      "comment": "AngleDisplacement = (DesiredDuration - RunningTimer) / DesiredDuration * Amplitude"
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -1179,8 +1159,7 @@
                                     "textG": 0,
                                     "textR": 0
                                   },
-                                  "comment": "Save that initial shake has been processed",
-                                  "comment2": ""
+                                  "comment": "Save that initial shake has been processed"
                                 },
                                 {
                                   "type": "BuiltinCommonInstructions::Standard",
@@ -1223,8 +1202,7 @@
                                 "textG": 0,
                                 "textR": 0
                               },
-                              "comment": "Calculate the fraction of shake that occured during this frame",
-                              "comment2": ""
+                              "comment": "Calculate the fraction of shake that occured during this frame"
                             },
                             {
                               "type": "BuiltinCommonInstructions::Standard",
@@ -1253,8 +1231,7 @@
                                 "textG": 0,
                                 "textR": 0
                               },
-                              "comment": "Increase change for the first half of the shake (move away from original values)",
-                              "comment2": ""
+                              "comment": "Increase change for the first half of the shake (move away from original values)"
                             },
                             {
                               "type": "BuiltinCommonInstructions::Standard",
@@ -1283,8 +1260,7 @@
                                     "textG": 0,
                                     "textR": 0
                                   },
-                                  "comment": "Change position",
-                                  "comment2": ""
+                                  "comment": "Change position"
                                 },
                                 {
                                   "type": "BuiltinCommonInstructions::Standard",
@@ -1353,8 +1329,7 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Save movement to calculate drift",
-                                      "comment2": ""
+                                      "comment": "Save movement to calculate drift"
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -1396,8 +1371,7 @@
                                     "textG": 0,
                                     "textR": 0
                                   },
-                                  "comment": "Change angle",
-                                  "comment2": ""
+                                  "comment": "Change angle"
                                 },
                                 {
                                   "type": "BuiltinCommonInstructions::Standard",
@@ -1436,8 +1410,7 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Save movement to calculate drift",
-                                      "comment2": ""
+                                      "comment": "Save movement to calculate drift"
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -1470,8 +1443,7 @@
                                 "textG": 0,
                                 "textR": 0
                               },
-                              "comment": "Decrease change the second half of the shake (return to original position)",
-                              "comment2": ""
+                              "comment": "Decrease change the second half of the shake (return to original position)"
                             },
                             {
                               "type": "BuiltinCommonInstructions::Standard",
@@ -1499,8 +1471,7 @@
                                     "textG": 0,
                                     "textR": 0
                                   },
-                                  "comment": "Change position",
-                                  "comment2": ""
+                                  "comment": "Change position"
                                 },
                                 {
                                   "type": "BuiltinCommonInstructions::Standard",
@@ -1569,8 +1540,7 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Save movement to calculate drift",
-                                      "comment2": ""
+                                      "comment": "Save movement to calculate drift"
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -1612,8 +1582,7 @@
                                     "textG": 0,
                                     "textR": 0
                                   },
-                                  "comment": "Change angle",
-                                  "comment2": ""
+                                  "comment": "Change angle"
                                 },
                                 {
                                   "type": "BuiltinCommonInstructions::Standard",
@@ -1652,8 +1621,7 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Save movement to calculate drift",
-                                      "comment2": ""
+                                      "comment": "Save movement to calculate drift"
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -1703,8 +1671,7 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "Stop shaking when the duration has been reached (or if the stop shaking function was called)",
-                      "comment2": ""
+                      "comment": "Stop shaking when the duration has been reached (or if the stop shaking function was called)"
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -1789,8 +1756,7 @@
                                 "textG": 0,
                                 "textR": 0
                               },
-                              "comment": "Move to correct any drift from previous shake",
-                              "comment2": ""
+                              "comment": "Move to correct any drift from previous shake"
                             },
                             {
                               "type": "BuiltinCommonInstructions::Standard",
@@ -1887,8 +1853,7 @@
                                 "textG": 0,
                                 "textR": 0
                               },
-                              "comment": "Reset drift detection variables",
-                              "comment2": ""
+                              "comment": "Reset drift detection variables"
                             },
                             {
                               "type": "BuiltinCommonInstructions::Standard",
@@ -2092,8 +2057,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Start/Reset duration timer",
-                  "comment2": ""
+                  "comment": "Start/Reset duration timer"
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -2120,8 +2084,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Pass input parameters to global variables so that onScenePostEvents can use them",
-                  "comment2": ""
+                  "comment": "Pass input parameters to global variables so that onScenePostEvents can use them"
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -2205,8 +2168,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Determine if the shake should keep going until stopped",
-                  "comment2": ""
+                  "comment": "Determine if the shake should keep going until stopped"
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -2259,8 +2221,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Add default values if none were provided",
-                  "comment2": ""
+                  "comment": "Add default values if none were provided"
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -2330,8 +2291,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "If duration is less than a single shake, increase duration to make 1 full shake",
-                  "comment2": ""
+                  "comment": "If duration is less than a single shake, increase duration to make 1 full shake"
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -2372,8 +2332,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Detect initial shake",
-                  "comment2": ""
+                  "comment": "Detect initial shake"
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -2414,8 +2373,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Initiate the onScenePostEvents function",
-                  "comment2": ""
+                  "comment": "Initiate the onScenePostEvents function"
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -2543,8 +2501,7 @@
                             "textG": 0,
                             "textR": 0
                           },
-                          "comment": "Keep object shaking forever (if desired)",
-                          "comment2": ""
+                          "comment": "Keep object shaking forever (if desired)"
                         },
                         {
                           "type": "BuiltinCommonInstructions::Standard",
@@ -2602,8 +2559,7 @@
                                 "textG": 0,
                                 "textR": 0
                               },
-                              "comment": "Run once before every shake movement",
-                              "comment2": ""
+                              "comment": "Run once before every shake movement"
                             },
                             {
                               "type": "BuiltinCommonInstructions::Standard",
@@ -2681,8 +2637,7 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Move to correct any drift from previous shake",
-                                      "comment2": ""
+                                      "comment": "Move to correct any drift from previous shake"
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -2807,8 +2762,7 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Reset drift detection variables",
-                                      "comment2": ""
+                                      "comment": "Reset drift detection variables"
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -2873,8 +2827,7 @@
                                     "textG": 0,
                                     "textR": 0
                                   },
-                                  "comment": "Calculate Position Shake",
-                                  "comment2": ""
+                                  "comment": "Calculate Position Shake"
                                 },
                                 {
                                   "type": "BuiltinCommonInstructions::Standard",
@@ -2922,8 +2875,7 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "PositionDisplacement = (DesiredDuration - RunningTimer) / DesiredDuration * Amplitude * [-1 or 1]",
-                                      "comment2": ""
+                                      "comment": "PositionDisplacement = (DesiredDuration - RunningTimer) / DesiredDuration * Amplitude * [-1 or 1]"
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Comment",
@@ -2935,8 +2887,7 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Make initial shake NOT random so users can set a direction for a one-shake effect",
-                                      "comment2": ""
+                                      "comment": "Make initial shake NOT random so users can set a direction for a one-shake effect"
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -3025,8 +2976,7 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "After initial shake pick a random direction",
-                                      "comment2": ""
+                                      "comment": "After initial shake pick a random direction"
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -3117,8 +3067,7 @@
                                     "textG": 0,
                                     "textR": 0
                                   },
-                                  "comment": "Calculate Rotation (angle) shake ",
-                                  "comment2": ""
+                                  "comment": "Calculate Rotation (angle) shake "
                                 },
                                 {
                                   "type": "BuiltinCommonInstructions::Standard",
@@ -3147,8 +3096,7 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Every \"even\" shake, rotate clockwise",
-                                      "comment2": ""
+                                      "comment": "Every \"even\" shake, rotate clockwise"
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Comment",
@@ -3160,8 +3108,7 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "AngleDisplacement = (DesiredDuration - RunningTimer) / DesiredDuration * Amplitude",
-                                      "comment2": ""
+                                      "comment": "AngleDisplacement = (DesiredDuration - RunningTimer) / DesiredDuration * Amplitude"
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -3201,8 +3148,7 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Every \"odd\" shake, rotate counter-clockwise",
-                                      "comment2": ""
+                                      "comment": "Every \"odd\" shake, rotate counter-clockwise"
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Comment",
@@ -3214,8 +3160,7 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "AngleDisplacement = (DesiredDuration - RunningTimer) / DesiredDuration * Amplitude",
-                                      "comment2": ""
+                                      "comment": "AngleDisplacement = (DesiredDuration - RunningTimer) / DesiredDuration * Amplitude"
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -3257,8 +3202,7 @@
                                     "textG": 0,
                                     "textR": 0
                                   },
-                                  "comment": "Calculate Scale shake",
-                                  "comment2": ""
+                                  "comment": "Calculate Scale shake"
                                 },
                                 {
                                   "type": "BuiltinCommonInstructions::Standard",
@@ -3287,8 +3231,7 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Calculate object scale displacement, with linear decay over time",
-                                      "comment2": ""
+                                      "comment": "Calculate object scale displacement, with linear decay over time"
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Comment",
@@ -3300,8 +3243,7 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "ScaleDisplacement = (DesiredDuration - RunningTimer) / DesiredDuration * Amplitude *  1/100",
-                                      "comment2": ""
+                                      "comment": "ScaleDisplacement = (DesiredDuration - RunningTimer) / DesiredDuration * Amplitude *  1/100"
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Comment",
@@ -3313,8 +3255,7 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Every even shake, increase scale",
-                                      "comment2": ""
+                                      "comment": "Every even shake, increase scale"
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -3354,8 +3295,7 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Every \"odd\" shake, decrease scale",
-                                      "comment2": ""
+                                      "comment": "Every \"odd\" shake, decrease scale"
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Comment",
@@ -3367,8 +3307,7 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "ScaleDisplacement = -1 * (DesiredDuration - RunningTimer) / DesiredDuration * Amplitude *  1/100",
-                                      "comment2": ""
+                                      "comment": "ScaleDisplacement = -1 * (DesiredDuration - RunningTimer) / DesiredDuration * Amplitude *  1/100"
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -3410,8 +3349,7 @@
                                     "textG": 0,
                                     "textR": 0
                                   },
-                                  "comment": "Save that initial shake has been processed",
-                                  "comment2": ""
+                                  "comment": "Save that initial shake has been processed"
                                 },
                                 {
                                   "type": "BuiltinCommonInstructions::Standard",
@@ -3454,8 +3392,7 @@
                                 "textG": 0,
                                 "textR": 0
                               },
-                              "comment": "Calculate the fraction of shake that occured during this frame",
-                              "comment2": ""
+                              "comment": "Calculate the fraction of shake that occured during this frame"
                             },
                             {
                               "type": "BuiltinCommonInstructions::Standard",
@@ -3484,8 +3421,7 @@
                                 "textG": 0,
                                 "textR": 0
                               },
-                              "comment": "Increase change for the first half of the shake (move away from original values)",
-                              "comment2": ""
+                              "comment": "Increase change for the first half of the shake (move away from original values)"
                             },
                             {
                               "type": "BuiltinCommonInstructions::Standard",
@@ -3514,8 +3450,7 @@
                                     "textG": 0,
                                     "textR": 0
                                   },
-                                  "comment": "Change position",
-                                  "comment2": ""
+                                  "comment": "Change position"
                                 },
                                 {
                                   "type": "BuiltinCommonInstructions::Standard",
@@ -3584,8 +3519,7 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Save movement to calculate drift",
-                                      "comment2": ""
+                                      "comment": "Save movement to calculate drift"
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -3627,8 +3561,7 @@
                                     "textG": 0,
                                     "textR": 0
                                   },
-                                  "comment": "Change angle",
-                                  "comment2": ""
+                                  "comment": "Change angle"
                                 },
                                 {
                                   "type": "BuiltinCommonInstructions::Standard",
@@ -3667,8 +3600,7 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Save movement to calculate drift",
-                                      "comment2": ""
+                                      "comment": "Save movement to calculate drift"
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -3699,8 +3631,7 @@
                                     "textG": 0,
                                     "textR": 0
                                   },
-                                  "comment": "Change scale",
-                                  "comment2": ""
+                                  "comment": "Change scale"
                                 },
                                 {
                                   "type": "BuiltinCommonInstructions::Standard",
@@ -3739,8 +3670,7 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Save movement to calculate drift",
-                                      "comment2": ""
+                                      "comment": "Save movement to calculate drift"
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -3773,8 +3703,7 @@
                                 "textG": 0,
                                 "textR": 0
                               },
-                              "comment": "Decrease change the second half of the shake (return to original position)",
-                              "comment2": ""
+                              "comment": "Decrease change the second half of the shake (return to original position)"
                             },
                             {
                               "type": "BuiltinCommonInstructions::Standard",
@@ -3802,8 +3731,7 @@
                                     "textG": 0,
                                     "textR": 0
                                   },
-                                  "comment": "Change position",
-                                  "comment2": ""
+                                  "comment": "Change position"
                                 },
                                 {
                                   "type": "BuiltinCommonInstructions::Standard",
@@ -3872,8 +3800,7 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Save movement to calculate drift",
-                                      "comment2": ""
+                                      "comment": "Save movement to calculate drift"
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -3915,8 +3842,7 @@
                                     "textG": 0,
                                     "textR": 0
                                   },
-                                  "comment": "Change angle",
-                                  "comment2": ""
+                                  "comment": "Change angle"
                                 },
                                 {
                                   "type": "BuiltinCommonInstructions::Standard",
@@ -3955,8 +3881,7 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Save movement to calculate drift",
-                                      "comment2": ""
+                                      "comment": "Save movement to calculate drift"
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -3987,8 +3912,7 @@
                                     "textG": 0,
                                     "textR": 0
                                   },
-                                  "comment": "Change scale",
-                                  "comment2": ""
+                                  "comment": "Change scale"
                                 },
                                 {
                                   "type": "BuiltinCommonInstructions::Standard",
@@ -4027,8 +3951,7 @@
                                         "textG": 0,
                                         "textR": 0
                                       },
-                                      "comment": "Save movement to calculate drift",
-                                      "comment2": ""
+                                      "comment": "Save movement to calculate drift"
                                     },
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
@@ -4078,8 +4001,7 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "Stop shaking when the duration has been reached (or if the stop shaking function was called)",
-                      "comment2": ""
+                      "comment": "Stop shaking when the duration has been reached (or if the stop shaking function was called)"
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -4164,8 +4086,7 @@
                                 "textG": 0,
                                 "textR": 0
                               },
-                              "comment": "Move to correct any drift from previous shake",
-                              "comment2": ""
+                              "comment": "Move to correct any drift from previous shake"
                             },
                             {
                               "type": "BuiltinCommonInstructions::Standard",
@@ -4290,8 +4211,7 @@
                                 "textG": 0,
                                 "textR": 0
                               },
-                              "comment": "Reset drift detection variables",
-                              "comment2": ""
+                              "comment": "Reset drift detection variables"
                             },
                             {
                               "type": "BuiltinCommonInstructions::Standard",

@@ -1,13 +1,13 @@
 {
-  "b": 0,
+  "b": 255,
   "disableInputWhenNotFocused": true,
   "mangledName": "GameScene",
   "name": "GameScene",
-  "r": 0,
+  "r": 255,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
   "title": "TDTD",
-  "v": 0,
+  "v": 255,
   "uiSettings": {
     "grid": false,
     "gridType": "rectangular",
@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5061631522790222,
+    "zoomFactor": 0.48965192765410076,
     "windowMask": false
   },
   "objectsGroups": [
@@ -245,8 +245,8 @@
       "name": "Spawner",
       "persistentUuid": "3f6f4e18-0c68-4997-bc33-99385d0650d0",
       "width": 0,
-      "x": -242,
-      "y": 568,
+      "x": -320,
+      "y": 512,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -305,7 +305,7 @@
       "name": "Base",
       "persistentUuid": "0ca702d7-6557-4c23-91cc-2ae4930d2a30",
       "width": 245,
-      "x": 1355,
+      "x": 1440,
       "y": 471,
       "zOrder": 34,
       "numberProperties": [],
@@ -721,23 +721,6 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 186,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "Wall",
-      "persistentUuid": "f57eb5be-ac86-4256-af61-225a42564bb3",
-      "sealed": true,
-      "width": 11,
-      "x": 1636,
-      "y": 510,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
       "height": 80,
       "layer": "Path layer",
       "name": "Fire",
@@ -768,14 +751,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 1203,
-      "layer": "Path layer",
+      "height": 1080,
+      "layer": "",
       "name": "Map",
       "persistentUuid": "3c43b592-06c2-42d0-92e3-fb5611edf247",
-      "width": 1630,
-      "x": -3,
-      "y": -98,
-      "zOrder": 1,
+      "width": 1620,
+      "x": 0,
+      "y": 37,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -798,15 +781,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 1165,
+      "height": 1080,
       "layer": "Path layer",
       "locked": true,
       "name": "DeathScreen",
       "persistentUuid": "776350bd-e6ab-4b76-930b-17127c8e3fd6",
       "sealed": true,
-      "width": 1684,
-      "x": -16,
-      "y": -14,
+      "width": 1620,
+      "x": 0,
+      "y": 0,
       "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
@@ -950,695 +933,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 32,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "Wall",
-      "persistentUuid": "7ecfc81e-906d-4d78-9d6a-892a56c7f360",
-      "sealed": true,
-      "width": 160,
-      "x": 155,
-      "y": 704,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 32,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "Wall",
-      "persistentUuid": "0129d3cd-b349-46f1-8617-733fbacb999e",
-      "sealed": true,
-      "width": 96,
-      "x": 283,
-      "y": 736,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 32,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "Wall",
-      "persistentUuid": "3d6e53a1-809f-4410-a360-d35695aaca51",
-      "sealed": true,
-      "width": 96,
-      "x": 347,
-      "y": 768,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 32,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "Wall",
-      "persistentUuid": "1c6f0126-deb3-4043-9099-ac7ead8d2123",
-      "sealed": true,
-      "width": 64,
-      "x": 411,
-      "y": 800,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 32,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "Wall",
-      "persistentUuid": "5c8dab0b-373d-4530-a03a-d61d3a3c4c03",
-      "sealed": true,
-      "width": 128,
-      "x": 443,
-      "y": 832,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 32,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "Wall",
-      "persistentUuid": "7f67605e-3c2f-4007-9918-cdc8e0f28f8c",
-      "sealed": true,
-      "width": 480,
-      "x": 539,
-      "y": 864,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 32,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "Wall",
-      "persistentUuid": "f44f906c-9bbe-48a5-bc44-ce9019b56da7",
-      "sealed": true,
-      "width": 96,
-      "x": 1019,
-      "y": 800,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 32,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "Wall",
-      "persistentUuid": "96f4e604-5a34-4995-bd17-a3583a762c88",
-      "sealed": true,
-      "width": 96,
-      "x": 1083,
-      "y": 768,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 32,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "Wall",
-      "persistentUuid": "3a69b91d-dbf7-4934-9d94-659e1c58d653",
-      "sealed": true,
-      "width": 96,
-      "x": 1147,
-      "y": 736,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 32,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "Wall",
-      "persistentUuid": "5cc41e23-470b-445f-b3f8-2e0c01b0235c",
-      "sealed": true,
-      "width": 64,
-      "x": 1211,
-      "y": 704,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 32,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "Wall",
-      "persistentUuid": "1cd250e3-ed24-471d-a190-ab279f3f1b8b",
-      "sealed": true,
-      "width": 160,
-      "x": 1243,
-      "y": 672,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 32,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "Wall",
-      "persistentUuid": "dd4a9b68-48f4-46d8-bb18-f0d70dc9e251",
-      "sealed": true,
-      "width": 96,
-      "x": -5,
-      "y": 480,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 29,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "Wall",
-      "persistentUuid": "512cc165-901c-471a-981c-79b232c9cfd9",
-      "sealed": true,
-      "width": 352,
-      "x": -357,
-      "y": 291,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
       "height": 224,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "Wall",
-      "persistentUuid": "1083a887-907b-4af6-aa67-d11ef035c6d1",
-      "sealed": true,
-      "width": 32,
-      "x": -37,
-      "y": 288,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 224,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "Wall",
-      "persistentUuid": "1c4648a5-e11e-4686-b793-add4bff1f8d6",
-      "sealed": true,
-      "width": 32,
-      "x": -37,
-      "y": 672,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 29,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "Wall",
-      "persistentUuid": "65e136b9-7244-472a-8dec-3ab580823333",
-      "sealed": true,
-      "width": 352,
-      "x": -357,
-      "y": 867,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 608,
       "layer": "Path layer",
       "locked": true,
       "name": "Wall",
       "persistentUuid": "9f0e2c51-1a22-46ec-b856-f52d4d4e9f6d",
       "sealed": true,
       "width": 32,
-      "x": -389,
-      "y": 288,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 32,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "Wall",
-      "persistentUuid": "8536f3ad-31ab-4ea9-96d3-0caab69ab246",
-      "sealed": true,
-      "width": 192,
-      "x": -5,
-      "y": 672,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 32,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "Wall",
-      "persistentUuid": "deced6c6-096b-4fa3-a65f-47034f18d8dc",
-      "sealed": true,
-      "width": 96,
-      "x": 987,
-      "y": 832,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 32,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "Wall",
-      "persistentUuid": "fc639974-ffb3-4e4f-bf3b-722c3fcdcbac",
-      "sealed": true,
-      "width": 96,
-      "x": 379,
-      "y": 576,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 32,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "Wall",
-      "persistentUuid": "69c66a9d-17e8-4746-ad57-0527cb5a3c51",
-      "sealed": true,
-      "width": 64,
-      "x": 507,
+      "x": -32,
       "y": 640,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 32,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "Wall",
-      "persistentUuid": "21dff019-d603-4932-b090-153c938df0ce",
-      "sealed": true,
-      "width": 32,
-      "x": 379,
-      "y": 544,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 32,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "Wall",
-      "persistentUuid": "80d1d66e-6ffd-4984-8076-4d669ad3491e",
-      "sealed": true,
-      "width": 64,
-      "x": 443,
-      "y": 608,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 32,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "Wall",
-      "persistentUuid": "ca59d034-7c51-47cc-8497-8ef75cc7ffe4",
-      "sealed": true,
-      "width": 192,
-      "x": 539,
-      "y": 672,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 32,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "Wall",
-      "persistentUuid": "d1f53ad1-90df-462c-98b7-5ccf7cd84219",
-      "sealed": true,
-      "width": 192,
-      "x": 731,
-      "y": 640,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 32,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "Wall",
-      "persistentUuid": "37655d7a-0bbd-4d72-a14c-1bd5cc4e3bfa",
-      "sealed": true,
-      "width": 64,
-      "x": 923,
-      "y": 672,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 32,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "Wall",
-      "persistentUuid": "4d69e623-8316-4b99-9866-cc8034a253eb",
-      "sealed": true,
-      "width": 96,
-      "x": 955,
-      "y": 640,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 32,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "Wall",
-      "persistentUuid": "de481c28-c79e-4f8e-a455-ed1df7d0c2b6",
-      "sealed": true,
-      "width": 96,
-      "x": 1019,
-      "y": 608,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 32,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "Wall",
-      "persistentUuid": "784b5a77-88d5-4c97-912d-995c7cac20cf",
-      "sealed": true,
-      "width": 96,
-      "x": 1083,
-      "y": 576,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 32,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "Wall",
-      "persistentUuid": "e3a137dd-8cf1-47b8-a54a-0a6bf242a2cf",
-      "sealed": true,
-      "width": 64,
-      "x": 1179,
-      "y": 544,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 32,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "Wall",
-      "persistentUuid": "9b18271a-abd9-40c4-9ae1-87c65713a46d",
-      "sealed": true,
-      "width": 224,
-      "x": 1403,
-      "y": 640,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 32,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "Wall",
-      "persistentUuid": "14eac336-e4f8-4332-b3d4-4e06010d710e",
-      "sealed": true,
-      "width": 128,
-      "x": 411,
-      "y": 512,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 32,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "Wall",
-      "persistentUuid": "397d8ca3-882c-43da-9162-d1fee9a13adc",
-      "sealed": true,
-      "width": 96,
-      "x": 507,
-      "y": 480,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 32,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "Wall",
-      "persistentUuid": "1715dbdb-3d90-483b-bd87-2da8770a6a45",
-      "sealed": true,
-      "width": 160,
-      "x": 475,
-      "y": 480,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 32,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "Wall",
-      "persistentUuid": "0a9d7e4d-4190-47d5-9a35-4ba778801e13",
-      "sealed": true,
-      "width": 64,
-      "x": 571,
-      "y": 448,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 32,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "Wall",
-      "persistentUuid": "f5be5f95-6e9e-4af9-a2a7-e0e68e924e44",
-      "sealed": true,
-      "width": 64,
-      "x": 635,
-      "y": 416,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 32,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "Wall",
-      "persistentUuid": "42851789-3deb-4648-9cd9-2776a4d7a13a",
-      "sealed": true,
-      "width": 64,
-      "x": 699,
-      "y": 448,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 32,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "Wall",
-      "persistentUuid": "08cc73a1-76c8-48cd-9dff-17a43bf3bdc1",
-      "sealed": true,
-      "width": 160,
-      "x": 763,
-      "y": 480,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 32,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "Wall",
-      "persistentUuid": "8cb95617-9828-493b-8b59-422e0be7bf00",
-      "sealed": true,
-      "width": 96,
-      "x": 923,
-      "y": 448,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 32,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "Wall",
-      "persistentUuid": "01a7f499-7aba-44de-9c76-87bdddbb88ad",
-      "sealed": true,
-      "width": 128,
-      "x": 1019,
-      "y": 480,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 32,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "Wall",
-      "persistentUuid": "8eb0a6df-03c2-4c5f-b7b4-145105e5c5cd",
-      "sealed": true,
-      "width": 64,
-      "x": 1147,
-      "y": 512,
       "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
@@ -1675,210 +978,6 @@
       "initialVariables": []
     },
     {
-      "angle": 0,
-      "customSize": true,
-      "height": 32,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "Wall",
-      "persistentUuid": "c40da963-02de-419d-8150-ee4bb5b135af",
-      "sealed": true,
-      "width": 96,
-      "x": 91,
-      "y": 448,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 32,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "Wall",
-      "persistentUuid": "e2e9ad03-4217-4c9d-99d5-df0ea7eb8e44",
-      "sealed": true,
-      "width": 96,
-      "x": 219,
-      "y": 384,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 32,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "Wall",
-      "persistentUuid": "c4ec3e2d-ad72-49c1-9fdc-0327e55679ab",
-      "sealed": true,
-      "width": 32,
-      "x": 187,
-      "y": 416,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 32,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "Wall",
-      "persistentUuid": "54f7d482-95f9-4077-9380-41e59d254833",
-      "sealed": true,
-      "width": 128,
-      "x": 315,
-      "y": 352,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 32,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "Wall",
-      "persistentUuid": "05245131-3ce9-439a-912c-b5105465dca3",
-      "sealed": true,
-      "width": 320,
-      "x": 475,
-      "y": 256,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 64,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "Wall",
-      "persistentUuid": "b37dc46e-fe07-41f5-9b8d-90b0bb9ad0e8",
-      "sealed": true,
-      "width": 32,
-      "x": 443,
-      "y": 288,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 32,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "Wall",
-      "persistentUuid": "64c5c86f-aaa1-4663-91c0-f72ac10d8691",
-      "sealed": true,
-      "width": 320,
-      "x": 795,
-      "y": 288,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 32,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "Wall",
-      "persistentUuid": "ce043b6a-492f-453d-ab2c-050dbd79be97",
-      "sealed": true,
-      "width": 128,
-      "x": 1115,
-      "y": 320,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 32,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "Wall",
-      "persistentUuid": "e71514dd-197a-4594-8f50-8c2d063b9e35",
-      "sealed": true,
-      "width": 128,
-      "x": 1211,
-      "y": 352,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 32,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "Wall",
-      "persistentUuid": "e7a2ec81-fdc3-4fec-91ff-e20e99b6439c",
-      "sealed": true,
-      "width": 64,
-      "x": 1307,
-      "y": 384,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 32,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "Wall",
-      "persistentUuid": "e5545e33-9fae-41f2-a535-28161dd1cecd",
-      "sealed": true,
-      "width": 64,
-      "x": 1371,
-      "y": 416,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 32,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "Wall",
-      "persistentUuid": "3d7d576d-17d2-459d-8e46-1e20b79024b3",
-      "sealed": true,
-      "width": 192,
-      "x": 1435,
-      "y": 448,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
       "angle": 58,
       "customSize": true,
       "height": 49,
@@ -1894,669 +993,6 @@
       "initialVariables": []
     },
     {
-      "angle": 0,
-      "customSize": true,
-      "height": 160,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "WalkTiles",
-      "persistentUuid": "090f5a24-b237-434d-a4d2-94d4fb2f5988",
-      "sealed": true,
-      "width": 384,
-      "x": -6,
-      "y": 512,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 160,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "WalkTiles",
-      "persistentUuid": "94a8fa19-843d-4380-8b22-41af54885cd3",
-      "sealed": true,
-      "width": 416,
-      "x": 570,
-      "y": 704,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 32,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "WalkTiles",
-      "persistentUuid": "89a9488f-cc94-4272-99d8-f349536628e4",
-      "sealed": true,
-      "width": 192,
-      "x": 186,
-      "y": 672,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 128,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "WalkTiles",
-      "persistentUuid": "fb17ba61-530a-4729-b453-155bbc9cc833",
-      "sealed": true,
-      "width": 96,
-      "x": 474,
-      "y": 704,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 32,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "WalkTiles",
-      "persistentUuid": "04ca10e0-7474-4a27-b085-2aa5ac447835",
-      "sealed": true,
-      "width": 160,
-      "x": 314,
-      "y": 704,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 32,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "WalkTiles",
-      "persistentUuid": "603d5db5-f761-4095-98d1-92f7996a9356",
-      "sealed": true,
-      "width": 160,
-      "x": 378,
-      "y": 672,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 32,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "WalkTiles",
-      "persistentUuid": "e6a264b1-587f-4704-8577-edb6751e6017",
-      "sealed": true,
-      "width": 128,
-      "x": 378,
-      "y": 640,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 32,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "WalkTiles",
-      "persistentUuid": "7fc9e77c-670f-41cf-a651-74953e10ae09",
-      "sealed": true,
-      "width": 64,
-      "x": 378,
-      "y": 608,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 32,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "WalkTiles",
-      "persistentUuid": "e8085bc8-46e3-4309-89eb-e0c5428d171c",
-      "sealed": true,
-      "width": 96,
-      "x": 378,
-      "y": 736,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 32,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "WalkTiles",
-      "persistentUuid": "d1cd62fe-b368-47d6-942f-fd0e41e9c653",
-      "sealed": true,
-      "width": 32,
-      "x": 442,
-      "y": 768,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 32,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "WalkTiles",
-      "persistentUuid": "2ef7bae6-2a61-4a2a-aac7-117ef788cd0b",
-      "sealed": true,
-      "width": 192,
-      "x": 730,
-      "y": 672,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 160,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "WalkTiles",
-      "persistentUuid": "c8414c66-740a-4729-a0dc-8a145e68cd65",
-      "sealed": true,
-      "width": 32,
-      "x": 986,
-      "y": 672,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 128,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "WalkTiles",
-      "persistentUuid": "d3668895-97eb-4ea1-a1ef-8e8f964809d8",
-      "sealed": true,
-      "width": 64,
-      "x": 1018,
-      "y": 672,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 128,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "WalkTiles",
-      "persistentUuid": "349013b4-f8df-4460-813c-4160bcf8ac3d",
-      "sealed": true,
-      "width": 64,
-      "x": 1082,
-      "y": 640,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 128,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "WalkTiles",
-      "persistentUuid": "fd36ee8f-4898-470d-a052-dcfcaf607231",
-      "sealed": true,
-      "width": 64,
-      "x": 1146,
-      "y": 608,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 32,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "WalkTiles",
-      "persistentUuid": "60722698-8a82-4552-bd1a-aa47dc9038e2",
-      "sealed": true,
-      "width": 32,
-      "x": 1050,
-      "y": 640,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 32,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "WalkTiles",
-      "persistentUuid": "49244cd9-d6be-4790-80da-f78c0eb69807",
-      "sealed": true,
-      "width": 32,
-      "x": 1114,
-      "y": 608,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 32,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "WalkTiles",
-      "persistentUuid": "472b33bf-a15f-412e-8927-147700eda2b7",
-      "sealed": true,
-      "width": 32,
-      "x": 1178,
-      "y": 576,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 32,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "WalkTiles",
-      "persistentUuid": "7b43f3da-267e-44c8-b337-b72f8ad5c225",
-      "sealed": true,
-      "width": 32,
-      "x": 1210,
-      "y": 672,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 96,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "WalkTiles",
-      "persistentUuid": "0e84c36c-b639-488a-86a9-bd845c654d78",
-      "sealed": true,
-      "width": 192,
-      "x": 1210,
-      "y": 576,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 32,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "WalkTiles",
-      "persistentUuid": "a59ff94d-4dcf-4f26-a541-29e7e4e3191e",
-      "sealed": true,
-      "width": 384,
-      "x": 90,
-      "y": 480,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 32,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "WalkTiles",
-      "persistentUuid": "7a098fb6-932c-4b47-bacb-3bd7554519f8",
-      "sealed": true,
-      "width": 384,
-      "x": 186,
-      "y": 448,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 32,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "WalkTiles",
-      "persistentUuid": "bd5d3888-86af-49ec-885d-54cb155f4b56",
-      "sealed": true,
-      "width": 32,
-      "x": 378,
-      "y": 512,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 32,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "WalkTiles",
-      "persistentUuid": "de12acc4-1c06-431b-be8c-685b0d005584",
-      "sealed": true,
-      "width": 416,
-      "x": 218,
-      "y": 416,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 32,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "WalkTiles",
-      "persistentUuid": "a0bb6485-1ad7-447b-8f58-6703b248f6b0",
-      "sealed": true,
-      "width": 384,
-      "x": 314,
-      "y": 384,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 32,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "WalkTiles",
-      "persistentUuid": "2e5c1fbe-a295-45a1-8d77-5ba4db768cb6",
-      "sealed": true,
-      "width": 256,
-      "x": 442,
-      "y": 352,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 32,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "WalkTiles",
-      "persistentUuid": "42ae9cda-48df-4dcc-87e2-e5ce20e4d0ce",
-      "sealed": true,
-      "width": 224,
-      "x": 474,
-      "y": 320,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 32,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "WalkTiles",
-      "persistentUuid": "88b2a826-8440-4615-b7e6-e9b57f5ac39a",
-      "sealed": true,
-      "width": 224,
-      "x": 474,
-      "y": 288,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 160,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "WalkTiles",
-      "persistentUuid": "3a03ec57-e994-413a-999b-a8006e4a8631",
-      "sealed": true,
-      "width": 96,
-      "x": 698,
-      "y": 288,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 160,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "WalkTiles",
-      "persistentUuid": "50d40ce8-41a3-4bfc-b323-c419f8dfd94d",
-      "sealed": true,
-      "width": 128,
-      "x": 794,
-      "y": 320,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 128,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "WalkTiles",
-      "persistentUuid": "dc7cf15b-897f-4ead-b04b-a2f4af09474f",
-      "sealed": true,
-      "width": 192,
-      "x": 922,
-      "y": 320,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 32,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "WalkTiles",
-      "persistentUuid": "54bdf87c-58ea-43fd-9b99-08b6490b5c32",
-      "sealed": true,
-      "width": 384,
-      "x": 1018,
-      "y": 448,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 32,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "WalkTiles",
-      "persistentUuid": "4b604f70-ece8-4774-81f3-5d0043ed9561",
-      "sealed": true,
-      "width": 64,
-      "x": 1306,
-      "y": 416,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 32,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "WalkTiles",
-      "persistentUuid": "8b940c95-7c4c-436c-96e8-28b33b64b9d1",
-      "sealed": true,
-      "width": 96,
-      "x": 1114,
-      "y": 352,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 64,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "WalkTiles",
-      "persistentUuid": "021edb7f-1df7-4fde-a938-4e10931751cb",
-      "sealed": true,
-      "width": 192,
-      "x": 1114,
-      "y": 384,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 96,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "WalkTiles",
-      "persistentUuid": "5cf537b4-151c-4c91-82bb-d9751f936b93",
-      "sealed": true,
-      "width": 160,
-      "x": 1242,
-      "y": 480,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 32,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "WalkTiles",
-      "persistentUuid": "28084729-7dfb-4687-9e26-115747254ca5",
-      "sealed": true,
-      "width": 96,
-      "x": 1146,
-      "y": 480,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 32,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "WalkTiles",
-      "persistentUuid": "cb8fd728-ba3b-43a5-8619-e3d616bde8fe",
-      "sealed": true,
-      "width": 32,
-      "x": 1210,
-      "y": 512,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 32,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "WalkTiles",
-      "persistentUuid": "ea631566-280a-4453-bd43-5c957a96278b",
-      "sealed": true,
-      "width": 32,
-      "x": 762,
-      "y": 448,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
       "angle": -90,
       "customSize": false,
       "height": 0,
@@ -2564,8 +1000,8 @@
       "name": "FireParticles",
       "persistentUuid": "8584435a-1fba-4d04-905f-160b4beb0a1b",
       "width": 0,
-      "x": 589,
-      "y": 577,
+      "x": 1230,
+      "y": 1069,
       "zOrder": 1047,
       "numberProperties": [],
       "stringProperties": [],
@@ -2579,8 +1015,8 @@
       "name": "FireParticles",
       "persistentUuid": "6c596883-88f1-456f-8156-d3400e952e3f",
       "width": 0,
-      "x": 271,
-      "y": 191,
+      "x": 600,
+      "y": 771,
       "zOrder": 1047,
       "numberProperties": [],
       "stringProperties": [],
@@ -2594,8 +1030,8 @@
       "name": "FireParticles",
       "persistentUuid": "2e0cb5e8-71e9-41ee-b227-10484712ec89",
       "width": 0,
-      "x": 1395,
-      "y": 190,
+      "x": 1495,
+      "y": 186,
       "zOrder": 1047,
       "numberProperties": [],
       "stringProperties": [],
@@ -2609,8 +1045,8 @@
       "name": "FireParticles",
       "persistentUuid": "6f6f168e-9cfa-476b-91a5-92d60a919e8c",
       "width": 0,
-      "x": 1393,
-      "y": 958,
+      "x": 396,
+      "y": 164,
       "zOrder": 1047,
       "numberProperties": [],
       "stringProperties": [],
@@ -2624,8 +1060,8 @@
       "name": "FireParticles",
       "persistentUuid": "1d32696b-9759-41d1-b815-176655ffde04",
       "width": 0,
-      "x": 271,
-      "y": 950,
+      "x": 124,
+      "y": 454,
       "zOrder": 1047,
       "numberProperties": [],
       "stringProperties": [],
@@ -2815,7 +1251,7 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "",
+      "layer": "Shop Layer",
       "name": "UpgradeButton",
       "persistentUuid": "eae83b01-5e57-452e-bbae-ec276d776b8a",
       "width": 0,
@@ -2830,13 +1266,455 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "",
+      "layer": "Shop Layer",
       "name": "RemoveButton",
       "persistentUuid": "e3127f30-92cf-4689-a2be-601a37064b94",
       "width": 0,
       "x": -56,
       "y": 161,
       "zOrder": 1062,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32,
+      "layer": "Path layer",
+      "locked": true,
+      "name": "Wall",
+      "persistentUuid": "9ccf02ff-1471-4876-a70a-de051075eabc",
+      "sealed": true,
+      "width": 289,
+      "x": -1,
+      "y": 448,
+      "zOrder": 1063,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32,
+      "layer": "Path layer",
+      "locked": true,
+      "name": "Wall",
+      "persistentUuid": "c2f00099-8584-4e12-a20d-7fcf72f49e30",
+      "sealed": true,
+      "width": 320,
+      "x": -32,
+      "y": 608,
+      "zOrder": 1063,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 384,
+      "layer": "Path layer",
+      "locked": true,
+      "name": "Wall",
+      "persistentUuid": "470b95c1-0951-4573-8969-da5288784cc9",
+      "sealed": true,
+      "width": 32,
+      "x": 256,
+      "y": 640,
+      "zOrder": 1063,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 512,
+      "layer": "Path layer",
+      "locked": true,
+      "name": "Wall",
+      "persistentUuid": "819af838-a045-46e2-aefe-9e0e95f3d3cf",
+      "sealed": true,
+      "width": 32,
+      "x": 384,
+      "y": 352,
+      "zOrder": 1063,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32,
+      "layer": "Path layer",
+      "locked": true,
+      "name": "Wall",
+      "persistentUuid": "88a1c512-e73f-4324-a481-5eb83a3c91fe",
+      "sealed": true,
+      "width": 864,
+      "x": 256,
+      "y": 992,
+      "zOrder": 1063,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 256,
+      "layer": "Path layer",
+      "locked": true,
+      "name": "Wall",
+      "persistentUuid": "78c5fbc3-725e-46b4-804b-3c0ed52486c2",
+      "sealed": true,
+      "width": 32,
+      "x": -32,
+      "y": 224,
+      "zOrder": -1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32,
+      "layer": "Path layer",
+      "locked": true,
+      "name": "Wall",
+      "persistentUuid": "16f50dad-fd32-4692-a928-78223c0115b5",
+      "sealed": true,
+      "width": 672,
+      "x": -672,
+      "y": 224,
+      "zOrder": -1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32,
+      "layer": "Path layer",
+      "locked": true,
+      "name": "Wall",
+      "persistentUuid": "2b576226-c206-4a88-9d9e-ead17dea0064",
+      "sealed": true,
+      "width": 672,
+      "x": -704,
+      "y": 832,
+      "zOrder": -1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 608,
+      "layer": "Path layer",
+      "locked": true,
+      "name": "Wall",
+      "persistentUuid": "11b404dc-49df-498f-aaf8-5616adb36557",
+      "sealed": true,
+      "width": 32,
+      "x": -704,
+      "y": 224,
+      "zOrder": -1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 384,
+      "layer": "Path layer",
+      "locked": true,
+      "name": "Wall",
+      "persistentUuid": "89c29e5a-15eb-4526-87fe-6328c265ced1",
+      "sealed": true,
+      "width": 32,
+      "x": 1088,
+      "y": 640,
+      "zOrder": 1063,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32,
+      "layer": "Path layer",
+      "locked": true,
+      "name": "Wall",
+      "persistentUuid": "29f4b238-5950-4425-acc8-814319117460",
+      "sealed": true,
+      "width": 544,
+      "x": 416,
+      "y": 832,
+      "zOrder": 1063,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 384,
+      "layer": "Path layer",
+      "locked": true,
+      "name": "Wall",
+      "persistentUuid": "e963b61b-51a6-4646-964c-a4c66701c564",
+      "sealed": true,
+      "width": 32,
+      "x": 928,
+      "y": 480,
+      "zOrder": 1063,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32,
+      "layer": "Path layer",
+      "locked": true,
+      "name": "Wall",
+      "persistentUuid": "f0047d94-16fe-43f4-9afd-3d00c3368586",
+      "sealed": true,
+      "width": 256,
+      "x": 1088,
+      "y": 608,
+      "zOrder": 1063,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32,
+      "layer": "Path layer",
+      "locked": true,
+      "name": "Wall",
+      "persistentUuid": "65335f71-1a39-49d2-a8b4-e7aee46ae9aa",
+      "sealed": true,
+      "width": 768,
+      "x": 384,
+      "y": 320,
+      "zOrder": 1063,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 192,
+      "layer": "Path layer",
+      "locked": true,
+      "name": "Wall",
+      "persistentUuid": "94c83506-f847-427e-9986-1a43fb4a0db3",
+      "sealed": true,
+      "width": 32,
+      "x": 1152,
+      "y": 320,
+      "zOrder": 1063,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 320,
+      "layer": "Path layer",
+      "locked": true,
+      "name": "Wall",
+      "persistentUuid": "5fd84287-b644-48ea-958b-f68c13e64960",
+      "sealed": true,
+      "width": 32,
+      "x": 1312,
+      "y": 192,
+      "zOrder": 1063,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32,
+      "layer": "Path layer",
+      "locked": true,
+      "name": "Wall",
+      "persistentUuid": "7134bcc5-b5ac-4516-a8c9-cdc34b256736",
+      "sealed": true,
+      "width": 1024,
+      "x": 288,
+      "y": 192,
+      "zOrder": 1063,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 256,
+      "layer": "Path layer",
+      "locked": true,
+      "name": "Wall",
+      "persistentUuid": "81838bfb-1a8c-4c56-931f-75565b7e5442",
+      "sealed": true,
+      "width": 32,
+      "x": 256,
+      "y": 192,
+      "zOrder": 1063,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32,
+      "layer": "Path layer",
+      "locked": true,
+      "name": "Wall",
+      "persistentUuid": "f91f9bfc-a957-4c3c-bd5e-9cbd4f2354c8",
+      "sealed": true,
+      "width": 192,
+      "x": 960,
+      "y": 480,
+      "zOrder": 1063,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 128,
+      "layer": "Path layer",
+      "locked": true,
+      "name": "WalkTiles",
+      "persistentUuid": "0ded300a-7fc4-4ff6-99e3-876e1ac87e14",
+      "sealed": true,
+      "width": 288,
+      "x": 0,
+      "y": 480,
+      "zOrder": 1064,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 768,
+      "layer": "Path layer",
+      "locked": true,
+      "name": "WalkTiles",
+      "persistentUuid": "0bb3b642-ae2e-4a70-82e6-076d57b9b870",
+      "sealed": true,
+      "width": 96,
+      "x": 288,
+      "y": 224,
+      "zOrder": 1064,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 96,
+      "layer": "Path layer",
+      "locked": true,
+      "name": "WalkTiles",
+      "persistentUuid": "dd4da9a6-91c3-493f-a26a-20af0cfe893f",
+      "sealed": true,
+      "width": 928,
+      "x": 384,
+      "y": 224,
+      "zOrder": 1064,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 128,
+      "layer": "Path layer",
+      "locked": true,
+      "name": "WalkTiles",
+      "persistentUuid": "e3085b6f-10ee-4fa9-8d72-e3cf84846ac8",
+      "sealed": true,
+      "width": 704,
+      "x": 384,
+      "y": 864,
+      "zOrder": 1064,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 352,
+      "layer": "Path layer",
+      "locked": true,
+      "name": "WalkTiles",
+      "persistentUuid": "9a686214-fa2b-4fcc-834c-40e22546ec1d",
+      "sealed": true,
+      "width": 128,
+      "x": 960,
+      "y": 512,
+      "zOrder": 1064,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 192,
+      "layer": "Path layer",
+      "locked": true,
+      "name": "WalkTiles",
+      "persistentUuid": "e0a64d4d-36c6-4323-a9e4-58edff619210",
+      "sealed": true,
+      "width": 128,
+      "x": 1184,
+      "y": 320,
+      "zOrder": 1064,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 96,
+      "layer": "Path layer",
+      "locked": true,
+      "name": "WalkTiles",
+      "persistentUuid": "84fb624e-d670-473c-9fa8-ad4a4d98b5f3",
+      "sealed": true,
+      "width": 256,
+      "x": 1088,
+      "y": 512,
+      "zOrder": 1064,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2887,7 +1765,7 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "sprites\\Maps\\SAM.png",
                   "points": [],
                   "originPoint": {
@@ -2901,7 +1779,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 30,
+                        "y": 30
+                      },
+                      {
+                        "x": 171,
+                        "y": 30
+                      },
+                      {
+                        "x": 171,
+                        "y": 112
+                      },
+                      {
+                        "x": 30,
+                        "y": 112
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -2941,36 +1838,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "maybe.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "NewSprite2",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.07999999821186066,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "Background5.png",
+                  "image": "background_map_V3.jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3154,7 +2022,7 @@
           "folded": true,
           "name": "Speed",
           "type": "number",
-          "value": 400
+          "value": 1500
         },
         {
           "folded": true,
@@ -3515,19 +2383,19 @@
           "folded": true,
           "name": "Damage",
           "type": "number",
-          "value": 30
+          "value": 0
         },
         {
           "folded": true,
           "name": "Speed",
           "type": "number",
-          "value": 100
+          "value": 400
         },
         {
           "folded": true,
           "name": "AoE",
           "type": "number",
-          "value": 10
+          "value": 15
         },
         {
           "folded": true,
@@ -3542,10 +2410,6 @@
           "name": "DestroyOutside",
           "type": "DestroyOutsideBehavior::DestroyOutside",
           "extraBorder": 0
-        },
-        {
-          "name": "ProjectileV2",
-          "type": "TDTD::ProjectileV2"
         }
       ],
       "animations": [
@@ -3555,11 +2419,12 @@
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.07999999821186066,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
-                  "image": "sprites\\Projectiles\\Firefighter Projectile.png",
+                  "hasCustomCollisionMask": true,
+                  "image": "FirefighterProjectile",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3572,7 +2437,22 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 49,
+                        "y": 102.5
+                      },
+                      {
+                        "x": 150.5,
+                        "y": 62
+                      },
+                      {
+                        "x": 150.5,
+                        "y": 139
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -3625,11 +2505,12 @@
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.07999999821186066,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "sprites\\Projectiles\\White Hat Projectile.png",
+                  "image": "WhiteHatProjectile",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5683,7 +4564,8 @@
         "r": 0
       },
       "absoluteCoordinates": true,
-      "clearBetweenFrames": false
+      "clearBetweenFrames": false,
+      "antialiasing": "none"
     },
     {
       "assetStoreId": "",
@@ -5777,17 +4659,17 @@
       ],
       "animations": [
         {
-          "name": "sprites\\Enemies\\Internet Trolls\\Trollruncycle\\frame_00001.png",
+          "name": "006_internet troll_00000",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": true,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.1667,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprites\\Enemies\\Internet Trolls\\Trollruncycle\\frame_00001.png2",
+                  "image": "006_internet troll_00000",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5804,7 +4686,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprites\\Enemies\\Internet Trolls\\Trollruncycle\\frame_00001.png3",
+                  "image": "006_internet troll_000002",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5821,7 +4703,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprites\\Enemies\\Internet Trolls\\Trollruncycle\\frame_00001.png4",
+                  "image": "006_internet troll_000003",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5838,7 +4720,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprites\\Enemies\\Internet Trolls\\Trollruncycle\\frame_00001.png5",
+                  "image": "006_internet troll_000004",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5855,7 +4737,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprites\\Enemies\\Internet Trolls\\Trollruncycle\\frame_00001.png6",
+                  "image": "006_internet troll_000005",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5872,7 +4754,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprites\\Enemies\\Internet Trolls\\Trollruncycle\\frame_00001.png7",
+                  "image": "006_internet troll_000006",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5889,7 +4771,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprites\\Enemies\\Internet Trolls\\Trollruncycle\\frame_00001.png8",
+                  "image": "006_internet troll_000007",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5906,7 +4788,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprites\\Enemies\\Internet Trolls\\Trollruncycle\\frame_00001.png9",
+                  "image": "006_internet troll_000008",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5923,7 +4805,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprites\\Enemies\\Internet Trolls\\Trollruncycle\\frame_00001.png10",
+                  "image": "006_internet troll_000009",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5940,7 +4822,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprites\\Enemies\\Internet Trolls\\Trollruncycle\\frame_00001.png11",
+                  "image": "006_internet troll_0000010",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5957,7 +4839,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprites\\Enemies\\Internet Trolls\\Trollruncycle\\frame_00001.png12",
+                  "image": "006_internet troll_0000011",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5974,7 +4856,75 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprites\\Enemies\\Internet Trolls\\Trollruncycle\\frame_00001.png13",
+                  "image": "006_internet troll_0000012",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "006_internet troll_0000013",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "006_internet troll_0000014",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "006_internet troll_0000015",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "006_internet troll_0000016",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6074,9 +5024,10 @@
           "TargetY": 350
         },
         {
-          "name": "Pathfinding",
-          "type": "PathfindingBehavior::PathfindingBehavior",
           "angularMaxSpeed": 90,
+          "name": "Pathfinding",
+          "smoothingMaxCellGap": 0,
+          "type": "PathfindingBehavior::PathfindingBehavior",
           "cellHeight": 32,
           "cellWidth": 32,
           "extraBorder": 0,
@@ -6086,8 +5037,7 @@
           "angleOffset": 0,
           "gridOffsetX": 0,
           "gridOffsetY": 0,
-          "rotateObject": true,
-          "smoothingMaxCellGap": 1
+          "rotateObject": true
         },
         {
           "name": "ShakeObject_PositionAngleScale",
@@ -6100,7 +5050,7 @@
       ],
       "animations": [
         {
-          "name": "sprites\\Enemies\\Terrorist\\Run\\frame_00001.png",
+          "name": "001_terrorist_00000",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -6110,7 +5060,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprites\\Enemies\\Terrorist\\Run\\frame_00001.png2",
+                  "image": "001_terrorist_00000",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6127,7 +5077,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprites\\Enemies\\Terrorist\\Run\\frame_00001.png3",
+                  "image": "001_terrorist_000002",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6144,7 +5094,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprites\\Enemies\\Terrorist\\Run\\frame_00001.png4",
+                  "image": "001_terrorist_000003",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6161,7 +5111,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprites\\Enemies\\Terrorist\\Run\\frame_00001.png5",
+                  "image": "001_terrorist_000004",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6178,7 +5128,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprites\\Enemies\\Terrorist\\Run\\frame_00001.png6",
+                  "image": "001_terrorist_000005",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6195,7 +5145,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprites\\Enemies\\Terrorist\\Run\\frame_00001.png7",
+                  "image": "001_terrorist_000006",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6212,7 +5162,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprites\\Enemies\\Terrorist\\Run\\frame_00001.png8",
+                  "image": "001_terrorist_000007",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6229,7 +5179,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprites\\Enemies\\Terrorist\\Run\\frame_00001.png9",
+                  "image": "001_terrorist_000008",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6246,7 +5196,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprites\\Enemies\\Terrorist\\Run\\frame_00001.png10",
+                  "image": "001_terrorist_000009",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6263,7 +5213,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprites\\Enemies\\Terrorist\\Run\\frame_00001.png11",
+                  "image": "001_terrorist_0000010",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6280,7 +5230,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprites\\Enemies\\Terrorist\\Run\\frame_00001.png12",
+                  "image": "001_terrorist_0000011",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6297,7 +5247,143 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprites\\Enemies\\Terrorist\\Run\\frame_00001.png13",
+                  "image": "001_terrorist_0000012",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "001_terrorist_0000013",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "001_terrorist_0000014",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "001_terrorist_0000015",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "001_terrorist_0000016",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "001_terrorist_0000017",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "001_terrorist_0000018",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "001_terrorist_0000019",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "001_terrorist_0000020",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6416,17 +5502,17 @@
       ],
       "animations": [
         {
-          "name": "sprites\\Enemies\\SelfRad\\SelfRadRunCycle\\frame_00001.png",
+          "name": "004_self-radicalised_00000",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": true,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.125,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprites\\Enemies\\SelfRad\\SelfRadRunCycle\\frame_00001.png2",
+                  "image": "004_self-radicalised_00000",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6443,7 +5529,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprites\\Enemies\\SelfRad\\SelfRadRunCycle\\frame_00001.png3",
+                  "image": "004_self-radicalised_000002",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6460,7 +5546,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprites\\Enemies\\SelfRad\\SelfRadRunCycle\\frame_00001.png4",
+                  "image": "004_self-radicalised_000003",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6477,7 +5563,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprites\\Enemies\\SelfRad\\SelfRadRunCycle\\frame_00001.png5",
+                  "image": "004_self-radicalised_000004",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6494,7 +5580,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprites\\Enemies\\SelfRad\\SelfRadRunCycle\\frame_00001.png6",
+                  "image": "004_self-radicalised_000005",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6511,7 +5597,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprites\\Enemies\\SelfRad\\SelfRadRunCycle\\frame_00001.png7",
+                  "image": "004_self-radicalised_000006",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6528,7 +5614,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprites\\Enemies\\SelfRad\\SelfRadRunCycle\\frame_00001.png8",
+                  "image": "004_self-radicalised_000007",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6545,7 +5631,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprites\\Enemies\\SelfRad\\SelfRadRunCycle\\frame_00001.png9",
+                  "image": "004_self-radicalised_000008",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6562,7 +5648,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprites\\Enemies\\SelfRad\\SelfRadRunCycle\\frame_00001.png10",
+                  "image": "004_self-radicalised_000009",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6579,7 +5665,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprites\\Enemies\\SelfRad\\SelfRadRunCycle\\frame_00001.png11",
+                  "image": "004_self-radicalised_0000010",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6596,7 +5682,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprites\\Enemies\\SelfRad\\SelfRadRunCycle\\frame_00001.png12",
+                  "image": "004_self-radicalised_0000011",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6613,7 +5699,143 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "sprites\\Enemies\\SelfRad\\SelfRadRunCycle\\frame_00001.png13",
+                  "image": "004_self-radicalised_0000012",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "004_self-radicalised_0000013",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "004_self-radicalised_0000014",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "004_self-radicalised_0000015",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "004_self-radicalised_0000016",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "004_self-radicalised_0000017",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "004_self-radicalised_0000018",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "004_self-radicalised_0000019",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "004_self-radicalised_0000020",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7139,6 +6361,7 @@
       "emitterForceMax": 0,
       "emitterForceMin": 0,
       "flow": 1,
+      "jumpForwardInTimeOnCreation": 0,
       "maxParticleNb": 1,
       "name": "CommSupportEffect",
       "particleAlpha1": 204,
@@ -7184,6 +6407,7 @@
       "emitterForceMax": 40,
       "emitterForceMin": 45,
       "flow": 15,
+      "jumpForwardInTimeOnCreation": 0,
       "maxParticleNb": 15,
       "name": "StatusParticles",
       "particleAlpha1": 204,
@@ -7229,6 +6453,7 @@
       "emitterForceMax": 40,
       "emitterForceMin": 20,
       "flow": 10,
+      "jumpForwardInTimeOnCreation": 0,
       "maxParticleNb": 20,
       "name": "FireParticles",
       "particleAlpha1": 204,
@@ -7930,6 +7155,71 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "FirefighterHitmarker",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "DestroyOutside",
+          "type": "DestroyOutsideBehavior::DestroyOutside",
+          "extraBorder": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "HitMarker",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.5,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "HitMarker6",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "HitMarker7",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
@@ -7938,6 +7228,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Initialization",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -7966,8 +7257,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Game Settings",
-              "comment2": ""
+              "comment": "Game Settings"
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -7995,8 +7285,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Tower Costs",
-              "comment2": ""
+              "comment": "Tower Costs"
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -8274,8 +7563,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Map Specific Variables",
-              "comment2": ""
+              "comment": "Map Specific Variables"
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -8352,8 +7640,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Set Player Variables",
-              "comment2": ""
+              "comment": "Set Player Variables"
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -8366,7 +7653,7 @@
                   "parameters": [
                     "playerGold",
                     "=",
-                    "500000"
+                    "500"
                   ]
                 },
                 {
@@ -8386,7 +7673,7 @@
                   "parameters": [
                     "CommSupportAmt",
                     "=",
-                    "5000"
+                    "5"
                   ]
                 },
                 {
@@ -8421,8 +7708,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "UI",
-              "comment2": ""
+              "comment": "UI"
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -8590,8 +7876,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Settings Menu Magic",
-              "comment2": ""
+              "comment": "Settings Menu Magic"
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -8786,8 +8071,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Music and Sound",
-              "comment2": ""
+              "comment": "Music and Sound"
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -8873,8 +8157,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Events",
-              "comment2": ""
+              "comment": "Events"
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -8912,6 +8195,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Continuous Events",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -8926,8 +8210,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Update Currencies",
-          "comment2": ""
+          "comment": "Update Currencies"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -8965,8 +8248,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Change music according to comm support",
-          "comment2": ""
+          "comment": "Change music according to comm support"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -9262,8 +8544,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Finish off ungrouped enemies",
-          "comment2": ""
+          "comment": "Finish off ungrouped enemies"
         },
         {
           "type": "BuiltinCommonInstructions::ForEach",
@@ -9492,8 +8773,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Enemy Spawning",
-          "comment2": ""
+          "comment": "Enemy Spawning"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -9591,8 +8871,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Reset states after crisis",
-              "comment2": ""
+              "comment": "Reset states after crisis"
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -9818,6 +9097,16 @@
                             },
                             {
                               "type": {
+                                "value": "ChangeScale"
+                              },
+                              "parameters": [
+                                "Enemies",
+                                "=",
+                                "0.4"
+                              ]
+                            },
+                            {
+                              "type": {
                                 "value": "Create"
                               },
                               "parameters": [
@@ -9937,7 +9226,7 @@
                               "parameters": [
                                 "Terrorist",
                                 "=",
-                                "1.5"
+                                "0.5"
                               ]
                             },
                             {
@@ -10025,8 +9314,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Kill Groups without Community Leader",
-              "comment2": ""
+              "comment": "Kill Groups without Community Leader"
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -10159,6 +9447,104 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Add Comm Support if Community Leader has Upgrade"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "CommLeader",
+                    "Upgraded",
+                    "True"
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "CommLeader",
+                        "OneUpCount",
+                        "<",
+                        "8"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "CommLeader",
+                        "OneUpCount",
+                        "+",
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "CommLeader",
+                        "OneUpCount",
+                        ">=",
+                        "8"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "CommLeader",
+                        "OneUpCount",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "CommSupportAmt",
+                        "+",
+                        "1"
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -10172,8 +9558,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Death",
-          "comment2": ""
+          "comment": "Death"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -10411,8 +9796,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Return Menu",
-          "comment2": ""
+          "comment": "Return Menu"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -10811,8 +10195,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Time Skip",
-          "comment2": ""
+          "comment": "Time Skip"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -11026,8 +10409,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Debug",
-          "comment2": ""
+          "comment": "Debug"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -11067,6 +10449,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Upgrades",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -11135,6 +10518,56 @@
               "conditions": [
                 {
                   "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Towers",
+                    "ID",
+                    "=",
+                    "UpgradeButton.Variable(TowerID)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareStrings"
+                  },
+                  "parameters": [
+                    "Towers.ObjectName()",
+                    "=",
+                    "\"CaringCitizen\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Towers",
+                    "Range",
+                    "=",
+                    "125"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Towers",
+                    "ID",
+                    "=",
+                    "UpgradeButton.Variable(TowerID)"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "BuiltinCommonInstructions::CompareStrings"
                   },
                   "parameters": [
@@ -11156,6 +10589,251 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Towers",
+                    "ID",
+                    "=",
+                    "UpgradeButton.Variable(TowerID)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareStrings"
+                  },
+                  "parameters": [
+                    "Towers.ObjectName()",
+                    "=",
+                    "\"Investor\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Towers",
+                    "Discount",
+                    "=",
+                    "0.25"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Towers",
+                    "ID",
+                    "=",
+                    "UpgradeButton.Variable(TowerID)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareStrings"
+                  },
+                  "parameters": [
+                    "Towers.ObjectName()",
+                    "=",
+                    "\"CommLeader\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Towers",
+                    "Range",
+                    "=",
+                    "180"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Towers",
+                    "ID",
+                    "=",
+                    "UpgradeButton.Variable(TowerID)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareStrings"
+                  },
+                  "parameters": [
+                    "Towers.ObjectName()",
+                    "=",
+                    "\"Soldier\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Towers",
+                    "FireRate",
+                    "/",
+                    "2"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Towers",
+                    "ID",
+                    "=",
+                    "UpgradeButton.Variable(TowerID)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareStrings"
+                  },
+                  "parameters": [
+                    "Towers.ObjectName()",
+                    "=",
+                    "\"IntelligenceOfficer\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Towers",
+                    "FireRate",
+                    "=",
+                    "2.5"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Towers",
+                    "ID",
+                    "=",
+                    "UpgradeButton.Variable(TowerID)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareStrings"
+                  },
+                  "parameters": [
+                    "Towers.ObjectName()",
+                    "=",
+                    "\"Doctor\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Towers",
+                    "SecondRate",
+                    "=",
+                    "2.5"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Towers",
+                    "ID",
+                    "=",
+                    "UpgradeButton.Variable(TowerID)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareStrings"
+                  },
+                  "parameters": [
+                    "Towers.ObjectName()",
+                    "=",
+                    "\"WhiteHat\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Towers",
+                    "AddBulletSize",
+                    "=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Towers",
+                    "FireRate",
+                    "/",
+                    "1.5"
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -11173,17 +10851,6 @@
             },
             {
               "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "RemoveButton",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "VarObjet"
               },
               "parameters": [
@@ -11191,6 +10858,17 @@
                 "ID",
                 "=",
                 "RemoveButton.Variable(TowerID)"
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "RemoveButton",
+                "",
+                "",
+                ""
               ]
             }
           ],
@@ -11203,15 +10881,6 @@
                 "Towers",
                 "TowerV2",
                 "StatusParticles",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "Towers",
                 ""
               ]
             },
@@ -11230,6 +10899,17 @@
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Towers",
+                    "ID",
+                    "=",
+                    "RemoveButton.Variable(TowerID)"
+                  ]
+                },
                 {
                   "type": {
                     "value": "BuiltinCommonInstructions::CompareStrings"
@@ -11259,7 +10939,7 @@
                   "parameters": [
                     "MaxTowers",
                     "-",
-                    "3"
+                    "4"
                   ]
                 }
               ]
@@ -11267,6 +10947,17 @@
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Towers",
+                    "ID",
+                    "=",
+                    "RemoveButton.Variable(TowerID)"
+                  ]
+                },
                 {
                   "type": {
                     "value": "BuiltinCommonInstructions::CompareStrings"
@@ -11296,154 +10987,36 @@
                   "parameters": [
                     "MaxTowers",
                     "-",
-                    "5"
+                    "6"
                   ]
                 }
               ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::ForEach",
-          "object": "Investor",
-          "conditions": [
+            },
             {
-              "type": {
-                "value": "ObjectVariableAsBoolean"
-              },
-              "parameters": [
-                "Investor",
-                "Upgraded",
-                "True"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ModVarObjet"
-              },
-              "parameters": [
-                "Investor",
-                "Discount",
-                "=",
-                "0.25"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::ForEach",
-          "object": "CommLeader",
-          "conditions": [
-            {
-              "type": {
-                "value": "ObjectVariableAsBoolean"
-              },
-              "parameters": [
-                "CommLeader",
-                "Upgraded",
-                "True"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ModVarObjet"
-              },
-              "parameters": [
-                "CommLeader",
-                "Range",
-                "=",
-                "180"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::ForEach",
-          "object": "CaringCitizen",
-          "conditions": [
-            {
-              "type": {
-                "value": "ObjectVariableAsBoolean"
-              },
-              "parameters": [
-                "CaringCitizen",
-                "Upgraded",
-                "True"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ModVarObjet"
-              },
-              "parameters": [
-                "CaringCitizen",
-                "Range",
-                "=",
-                "120"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::ForEach",
-          "object": "Doctor",
-          "conditions": [
-            {
-              "type": {
-                "value": "ObjectVariableAsBoolean"
-              },
-              "parameters": [
-                "Doctor",
-                "Upgraded",
-                "True"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ModVarObjet"
-              },
-              "parameters": [
-                "Doctor",
-                "SecondRate",
-                "=",
-                "2.5"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::ForEach",
-          "object": "IntelligenceOfficer",
-          "conditions": [
-            {
-              "type": {
-                "value": "ObjectVariableAsBoolean"
-              },
-              "parameters": [
-                "IntelligenceOfficer",
-                "Upgraded",
-                "True"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ModVarObjet"
-              },
-              "parameters": [
-                "IntelligenceOfficer",
-                "FireRate",
-                "=",
-                "2.5"
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Towers",
+                    "ID",
+                    "=",
+                    "RemoveButton.Variable(TowerID)"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Towers",
+                    ""
+                  ]
+                }
               ]
             }
           ]
@@ -11456,6 +11029,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Tower/Enemy Info",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -11520,6 +11094,31 @@
               "conditions": [
                 {
                   "type": {
+                    "value": "AjoutObjConcern"
+                  },
+                  "parameters": [
+                    "",
+                    "Towers"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeLayer"
+                  },
+                  "parameters": [
+                    "Towers",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
                     "value": "SourisSurObjet"
                   },
                   "parameters": [
@@ -11535,8 +11134,8 @@
                   },
                   "parameters": [
                     "Towers",
-                    "SpawnBox.CenterX()+60",
-                    "SpawnBox.CenterY()+60",
+                    "CursorX()",
+                    "CursorY()",
                     ""
                   ]
                 }
@@ -11594,6 +11193,15 @@
                     "TowerID",
                     "=",
                     "Towers.Variable(ID)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeLayer"
+                  },
+                  "parameters": [
+                    "Towers",
+                    "\"Projectile layer\""
                   ]
                 }
               ],
@@ -11783,8 +11391,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Psychological",
-              "comment2": ""
+              "comment": "Psychological"
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -11962,8 +11569,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Social",
-              "comment2": ""
+              "comment": "Social"
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -12058,8 +11664,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "TODO: Make Leader give free upgrade",
-              "comment2": ""
+              "comment": "TODO: Make Leader give free upgrade"
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -12154,8 +11759,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Economic",
-              "comment2": ""
+              "comment": "Economic"
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -12333,8 +11937,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Military",
-              "comment2": ""
+              "comment": "Military"
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -12512,8 +12115,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Civil",
-              "comment2": ""
+              "comment": "Civil"
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -12608,8 +12210,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "TODO: Make Towers not die when in range of doctor after implementing death",
-              "comment2": ""
+              "comment": "TODO: Make Towers not die when in range of doctor after implementing death"
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -12704,8 +12305,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Digital\n",
-              "comment2": ""
+              "comment": "Digital\n"
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -12883,8 +12483,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Range Indicator",
-              "comment2": ""
+              "comment": "Range Indicator"
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -12897,6 +12496,15 @@
                     "RangePainter",
                     "doElse",
                     "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AjoutObjConcern"
+                  },
+                  "parameters": [
+                    "",
+                    "Towers"
                   ]
                 }
               ],
@@ -12931,6 +12539,15 @@
                     "-100",
                     "=",
                     "-100"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeLayer"
+                  },
+                  "parameters": [
+                    "Towers",
+                    ""
                   ]
                 }
               ],
@@ -13195,6 +12812,158 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "BitmapText::BitmapTextObject::SetText"
+              },
+              "parameters": [
+                "Debug",
+                "=",
+                "\"\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "DiscerningCitizen",
+                "Upgraded",
+                "True"
+              ]
+            },
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "Enemies",
+                "DiscerningCitizen",
+                "DiscerningCitizen.Variable(Range)",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Enemies",
+                "VeryVisible",
+                "True"
+              ]
+            },
+            {
+              "type": {
+                "value": "BitmapText::BitmapTextObject::SetText"
+              },
+              "parameters": [
+                "Debug",
+                "+",
+                "\"y\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "Enemies",
+                "DiscerningCitizen",
+                "DiscerningCitizen.Variable(Range)",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "DiscerningCitizen",
+                "Upgraded",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Enemies",
+                "VeryVisible",
+                "False"
+              ]
+            },
+            {
+              "type": {
+                "value": "BitmapText::BitmapTextObject::SetText"
+              },
+              "parameters": [
+                "Debug",
+                "+",
+                "\"n\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "Distance"
+              },
+              "parameters": [
+                "Enemies",
+                "DiscerningCitizen",
+                "DiscerningCitizen.Variable(Range)",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Enemies",
+                "VeryVisible",
+                "False"
+              ]
+            },
+            {
+              "type": {
+                "value": "BitmapText::BitmapTextObject::SetText"
+              },
+              "parameters": [
+                "Debug",
+                "+",
+                "\"o\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
@@ -13249,6 +13018,16 @@
                 "Doctor.PointX(\"OriginPoint\")",
                 "=",
                 "Doctor.PointY(\"OriginPoint\")"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeSprite"
+              },
+              "parameters": [
+                "Doctor",
+                "=",
+                "0"
               ]
             }
           ],
@@ -13657,21 +13436,336 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
+          "conditions": [
+            {
+              "type": {
+                "value": "AjoutObjConcern"
+              },
+              "parameters": [
+                "",
+                "Firefighter"
+              ]
+            },
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Firefighter",
+                "Upgraded",
+                "True"
+              ]
+            },
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "Firefighter",
+                "\"SecondTime\"",
+                ">",
+                "Firefighter.Variable(SecondRate)"
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Enemies",
+                "hasSlipped",
+                "True"
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Enemies",
+                "deathStunned",
+                "True"
+              ]
+            },
+            {
+              "type": {
+                "value": "AjoutHasard"
+              },
+              "parameters": [
+                "",
+                "Enemies"
+              ]
+            }
+          ],
           "actions": [
             {
               "type": {
-                "value": "TDTD::TowerV2::smartAttack"
+                "value": "ResetObjectTimer"
               },
               "parameters": [
-                "Soldier",
-                "TowerV2",
+                "Firefighter",
+                "\"SecondTime\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "FirefighterProjectile",
+                "Firefighter.PointX(\"OriginPoint\")",
+                "Firefighter.PointY(\"OriginPoint\")",
+                "\"Projectile layer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCenter"
+              },
+              "parameters": [
+                "FirefighterProjectile",
+                "=",
+                "Firefighter.PointX(\"OriginPoint\")",
+                "=",
+                "Firefighter.PointY(\"OriginPoint\")"
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "FirefighterHitmarker",
+                "Enemies.CenterX()",
+                "Enemies.CenterY()",
+                "\"Projectile layer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "LinkedObjects::LinkObjects"
+              },
+              "parameters": [
+                "",
                 "Enemies",
-                "SoldierProjectile",
-                "MenuSFXVolumeSlider.Value()",
+                "FirefighterHitmarker"
+              ]
+            },
+            {
+              "type": {
+                "value": "RotateTowardPosition"
+              },
+              "parameters": [
+                "FirefighterProjectile",
+                "FirefighterHitmarker.CenterX()",
+                "FirefighterHitmarker.CenterY()",
+                "0",
                 ""
               ]
             },
+            {
+              "type": {
+                "value": "AddForceVers"
+              },
+              "parameters": [
+                "FirefighterProjectile",
+                "FirefighterHitmarker",
+                "FirefighterProjectile.Variable(Speed)",
+                "0"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PickedInstancesCount"
+                  },
+                  "parameters": [
+                    "Enemies",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "FirefighterHitmarker",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "FirefighterProjectile",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "FirefighterProjectile",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "FirefighterProjectile",
+                "FirefighterHitmarker",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "Enemies",
+                    "FirefighterHitmarker",
+                    "FirefighterProjectile.Variable(AoE)",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PathfindingBehavior::MaxSpeed"
+                  },
+                  "parameters": [
+                    "Enemies",
+                    "Pathfinding",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Enemies",
+                    "hasSlipped",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PauseAnimation"
+                  },
+                  "parameters": [
+                    "Enemies"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "FirefighterProjectile",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "LinkedObjects::RemoveAllLinksOf"
+                  },
+                  "parameters": [
+                    "",
+                    "FirefighterHitmarker"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "FirefighterHitmarker",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "FirefighterProjectile",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "FirefighterProjectile",
+                "FirefighterHitmarker",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "RotateTowardPosition"
+              },
+              "parameters": [
+                "FirefighterProjectile",
+                "FirefighterHitmarker.CenterX()",
+                "FirefighterHitmarker.CenterY()",
+                "0",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceVers"
+              },
+              "parameters": [
+                "FirefighterProjectile",
+                "FirefighterHitmarker",
+                "FirefighterProjectile.Variable(Speed)",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
             {
               "type": {
                 "value": "TDTD::TowerV2::smartAttack"
@@ -13713,7 +13807,75 @@
         },
         {
           "type": "BuiltinCommonInstructions::ForEach",
-          "object": "IntelligenceBarrier",
+          "object": "Soldier",
+          "conditions": [],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Soldier",
+                    "Upgraded",
+                    "True"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TDTD::TowerV2::smartAttack"
+                  },
+                  "parameters": [
+                    "Soldier",
+                    "TowerV2",
+                    "Enemies",
+                    "OfficerProjectile",
+                    "MenuSFXVolumeSlider.Value()",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Soldier",
+                    "Upgraded",
+                    "True"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TDTD::TowerV2::smartAttack"
+                  },
+                  "parameters": [
+                    "Soldier",
+                    "TowerV2",
+                    "Enemies",
+                    "SoldierProjectile",
+                    "MenuSFXVolumeSlider.Value()",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
@@ -13740,8 +13902,7 @@
           ]
         },
         {
-          "type": "BuiltinCommonInstructions::ForEach",
-          "object": "FirefighterPuddle",
+          "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
@@ -13778,6 +13939,18 @@
               },
               "parameters": [
                 "SoldierProjectile",
+                "Projectile2",
+                "Enemies",
+                "ShakeObject_PositionAngleScale",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "TDTD::ProjectileV2::destroy"
+              },
+              "parameters": [
+                "OfficerProjectile",
                 "Projectile2",
                 "Enemies",
                 "ShakeObject_PositionAngleScale",
@@ -13828,6 +14001,17 @@
                 "Enemies",
                 "EnemyV2",
                 "EnemyHealthBar",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "TDTD::EnemyV2::updateHitmarker"
+              },
+              "parameters": [
+                "Enemies",
+                "EnemyV2",
+                "FirefighterHitmarker",
                 ""
               ]
             }
@@ -13890,6 +14074,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "SpawnBox and Spawning",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -14526,6 +14711,45 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "SpawnBox",
+                    "Investor",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Investor",
+                    "Upgraded",
+                    "True"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "SpawnBox",
+                    "DontIncreasePrice",
+                    "True"
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -14643,8 +14867,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Spawning Mechanics",
-          "comment2": ""
+          "comment": "Spawning Mechanics"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -14717,6 +14940,43 @@
               "actions": [],
               "events": [
                 {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "SpawnBox",
+                        "DontIncreasePrice",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "BuySameBackup",
+                        "=",
+                        "GlobalVariable(BUY_SAME_MULTIPLIER)+0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "BUY_SAME_MULTIPLIER",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
                   "type": "BuiltinCommonInstructions::Comment",
                   "color": {
                     "b": 109,
@@ -14726,8 +14986,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Volunteer Logic",
-                  "comment2": ""
+                  "comment": "Volunteer Logic"
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -14821,6 +15080,16 @@
                         "SpawnBox.CenterX()",
                         "SpawnBox.CenterY()",
                         ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangeScale"
+                      },
+                      "parameters": [
+                        "Towers",
+                        "=",
+                        "0.4"
                       ]
                     },
                     {
@@ -15025,8 +15294,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Psychological",
-                  "comment2": ""
+                  "comment": "Psychological"
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -15132,8 +15400,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Social",
-                  "comment2": ""
+                  "comment": "Social"
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -15281,8 +15548,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Economic",
-                  "comment2": ""
+                  "comment": "Economic"
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -15398,8 +15664,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Military",
-                  "comment2": ""
+                  "comment": "Military"
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -15527,6 +15792,16 @@
                         },
                         {
                           "type": {
+                            "value": "ChangeScale"
+                          },
+                          "parameters": [
+                            "IntelligenceOfficer",
+                            "=",
+                            "0.4"
+                          ]
+                        },
+                        {
+                          "type": {
                             "value": "SetCenter"
                           },
                           "parameters": [
@@ -15630,6 +15905,16 @@
                             "SpawnBox.CenterX()",
                             "SpawnBox.CenterY()",
                             ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ChangeScale"
+                          },
+                          "parameters": [
+                            "IntelligenceOfficer",
+                            "=",
+                            "0.4"
                           ]
                         },
                         {
@@ -15741,6 +16026,16 @@
                         },
                         {
                           "type": {
+                            "value": "ChangeScale"
+                          },
+                          "parameters": [
+                            "IntelligenceOfficer",
+                            "=",
+                            "0.4"
+                          ]
+                        },
+                        {
+                          "type": {
                             "value": "SetCenter"
                           },
                           "parameters": [
@@ -15844,6 +16139,16 @@
                             "SpawnBox.CenterX()",
                             "SpawnBox.CenterY()",
                             ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ChangeScale"
+                          },
+                          "parameters": [
+                            "IntelligenceOfficer",
+                            "=",
+                            "0.4"
                           ]
                         },
                         {
@@ -15954,8 +16259,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Civil",
-                  "comment2": ""
+                  "comment": "Civil"
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -16032,6 +16336,16 @@
                             "SpawnBox.CenterX()",
                             "SpawnBox.CenterY()",
                             ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ChangeScale"
+                          },
+                          "parameters": [
+                            "Firefighter",
+                            "=",
+                            "0.4"
                           ]
                         },
                         {
@@ -16143,6 +16457,16 @@
                         },
                         {
                           "type": {
+                            "value": "ChangeScale"
+                          },
+                          "parameters": [
+                            "Firefighter",
+                            "=",
+                            "0.4"
+                          ]
+                        },
+                        {
+                          "type": {
                             "value": "SetCenter"
                           },
                           "parameters": [
@@ -16250,6 +16574,16 @@
                         },
                         {
                           "type": {
+                            "value": "ChangeScale"
+                          },
+                          "parameters": [
+                            "Firefighter",
+                            "=",
+                            "0.4"
+                          ]
+                        },
+                        {
+                          "type": {
                             "value": "SetCenter"
                           },
                           "parameters": [
@@ -16353,6 +16687,16 @@
                             "SpawnBox.CenterX()",
                             "SpawnBox.CenterY()",
                             ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ChangeScale"
+                          },
+                          "parameters": [
+                            "Firefighter",
+                            "=",
+                            "0.4"
                           ]
                         },
                         {
@@ -16505,8 +16849,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Digital",
-                  "comment2": ""
+                  "comment": "Digital"
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -16820,8 +17163,30 @@
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": []
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "SpawnBox",
+                        "DontIncreasePrice",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "BUY_SAME_MULTIPLIER",
+                        "=",
+                        "GlobalVariable(BuySameBackup)"
+                      ]
+                    }
+                  ]
                 }
               ]
             },
@@ -17096,6 +17461,24 @@
                   "parameters": [
                     "ConfirmBox"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "AjoutObjConcern"
+                  },
+                  "parameters": [
+                    "",
+                    "Towers"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeLayer"
+                  },
+                  "parameters": [
+                    "Towers",
+                    ""
+                  ]
                 }
               ]
             }
@@ -17167,8 +17550,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "oh no a crisis",
-          "comment2": ""
+          "comment": "oh no a crisis"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -17324,8 +17706,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Set appropritate Crisis title and info",
-                  "comment2": ""
+                  "comment": "Set appropritate Crisis title and info"
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -17411,8 +17792,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Animate Text Entry",
-              "comment2": ""
+              "comment": "Animate Text Entry"
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -17556,8 +17936,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Remove Text when Ok",
-              "comment2": ""
+              "comment": "Remove Text when Ok"
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -17654,8 +18033,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Crisis specific events",
-                  "comment2": ""
+                  "comment": "Crisis specific events"
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -17739,8 +18117,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Clear CrisisNo to continue execution",
-                  "comment2": ""
+                  "comment": "Clear CrisisNo to continue execution"
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -17770,6 +18147,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Shop Stuff",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -17784,8 +18162,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Shop Open/Close",
-          "comment2": ""
+          "comment": "Shop Open/Close"
         },
         {
           "folded": true,
@@ -18394,8 +18771,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Switch Tabs",
-          "comment2": ""
+          "comment": "Switch Tabs"
         },
         {
           "folded": true,
@@ -19847,9 +20223,14 @@
       "ambientLightColorB": 150995058,
       "ambientLightColorG": 6069792,
       "ambientLightColorR": 8356968,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 0.1,
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
+      "isLocked": false,
       "name": "Hidden Layer",
+      "renderingType": "",
       "visibility": true,
       "cameras": [],
       "effects": []
@@ -19858,9 +20239,14 @@
       "ambientLightColorB": 7604408,
       "ambientLightColorG": 6043312,
       "ambientLightColorR": 7569360,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 0.1,
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
+      "isLocked": false,
       "name": "Path layer",
+      "renderingType": "",
       "visibility": true,
       "cameras": [],
       "effects": []
@@ -19869,9 +20255,14 @@
       "ambientLightColorB": 0,
       "ambientLightColorG": 6043312,
       "ambientLightColorR": 7605152,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 0.1,
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
+      "isLocked": false,
       "name": "e",
+      "renderingType": "",
       "visibility": true,
       "cameras": [],
       "effects": []
@@ -19880,9 +20271,14 @@
       "ambientLightColorB": 32,
       "ambientLightColorG": 0,
       "ambientLightColorR": 0,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 0.1,
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
+      "isLocked": false,
       "name": "",
+      "renderingType": "",
       "visibility": true,
       "cameras": [
         {
@@ -19902,9 +20298,14 @@
       "ambientLightColorB": 8017968,
       "ambientLightColorG": 6050880,
       "ambientLightColorR": 9507912,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 0.1,
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
+      "isLocked": false,
       "name": "Projectile layer",
+      "renderingType": "",
       "visibility": true,
       "cameras": [],
       "effects": []
@@ -19913,9 +20314,14 @@
       "ambientLightColorB": 150995058,
       "ambientLightColorG": 6057056,
       "ambientLightColorR": 10379224,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 0.1,
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
+      "isLocked": false,
       "name": "Shop Layer",
+      "renderingType": "",
       "visibility": true,
       "cameras": [],
       "effects": []
@@ -19924,9 +20330,14 @@
       "ambientLightColorB": 10675424,
       "ambientLightColorG": 6057056,
       "ambientLightColorR": 10889896,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 0.1,
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
+      "isLocked": false,
       "name": "Overlay(er)",
+      "renderingType": "",
       "visibility": true,
       "cameras": [],
       "effects": []
