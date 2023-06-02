@@ -1483,6 +1483,17 @@
                 },
                 {
                   "type": {
+                    "inverted": true,
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Object",
+                    "hasSlipped",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "VarObjet"
                   },
                   "parameters": [
@@ -1531,6 +1542,17 @@
                     "",
                     "",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Object",
+                    "hasSlipped",
+                    "True"
                   ]
                 },
                 {
@@ -2509,6 +2531,16 @@
                     "Object.Variable(SpawnX)",
                     "Object.Variable(SpawnY)",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "Trap",
+                    "=",
+                    "1"
                   ]
                 },
                 {

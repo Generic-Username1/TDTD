@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.48965192765410076,
+    "zoomFactor": 0.6599560079524728,
     "windowMask": false
   },
   "objectsGroups": [
@@ -151,9 +151,6 @@
           "name": "WalkTiles"
         },
         {
-          "name": "Fire"
-        },
-        {
           "name": "EventBacking"
         },
         {
@@ -226,6 +223,23 @@
           "name": "BackToGameButton"
         }
       ]
+    },
+    {
+      "name": "SpawnRail",
+      "objects": [
+        {
+          "name": "SpawnRailNorth"
+        },
+        {
+          "name": "SpawnRailEast"
+        },
+        {
+          "name": "SpawnRailSouth"
+        },
+        {
+          "name": "SpawnRailWest"
+        }
+      ]
     }
   ],
   "variables": [
@@ -256,7 +270,7 @@
       "angle": 0,
       "customSize": true,
       "height": 47,
-      "layer": "",
+      "layer": "Shop Layer",
       "name": "GoldIcon",
       "persistentUuid": "10888e97-e624-4560-831c-38c81559fa72",
       "width": 49,
@@ -271,7 +285,7 @@
       "angle": 0,
       "customSize": true,
       "height": 63.806060791015625,
-      "layer": "",
+      "layer": "Shop Layer",
       "name": "CommunitySupportIcon",
       "persistentUuid": "076b6e70-28cb-4aec-a0bc-45e8eb91dbec",
       "width": 64,
@@ -286,7 +300,7 @@
       "angle": 0,
       "customSize": true,
       "height": 110,
-      "layer": "",
+      "layer": "Shop Layer",
       "name": "EventBacking",
       "persistentUuid": "c4bce853-f0db-48c9-be4c-3f0fabfcae91",
       "width": 240,
@@ -316,7 +330,7 @@
       "angle": 0,
       "customSize": true,
       "height": 110,
-      "layer": "",
+      "layer": "Shop Layer",
       "name": "EventBacking",
       "persistentUuid": "fc328bc0-fbd2-43e5-b144-46e5199bc11b",
       "width": 354,
@@ -331,7 +345,7 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "",
+      "layer": "Shop Layer",
       "name": "CurrentEvent",
       "persistentUuid": "f33a1ab4-5ad0-40a5-af36-000276599de0",
       "width": 0,
@@ -346,7 +360,7 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "",
+      "layer": "Shop Layer",
       "name": "GoldAmount",
       "persistentUuid": "b673cab7-f629-4add-9702-6489e8925f7b",
       "width": 0,
@@ -361,7 +375,7 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "",
+      "layer": "Shop Layer",
       "name": "CommSupportAmt",
       "persistentUuid": "a1f98c25-2e8c-485a-8d25-ec342096c116",
       "width": 0,
@@ -376,7 +390,7 @@
       "angle": 0,
       "customSize": true,
       "height": 110,
-      "layer": "",
+      "layer": "Shop Layer",
       "name": "DescBacking",
       "persistentUuid": "737afe40-854b-4b45-ad00-e41112e72150",
       "width": 1046,
@@ -391,7 +405,7 @@
       "angle": 0,
       "customSize": false,
       "height": 92,
-      "layer": "",
+      "layer": "Shop Layer",
       "name": "ShopButton",
       "persistentUuid": "709b8a61-8c19-4c57-96d6-626b4a6527df",
       "width": 83.90399932861328,
@@ -406,7 +420,7 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "",
+      "layer": "Shop Layer",
       "name": "SelectedText",
       "persistentUuid": "889c3b43-b6c0-4f44-b000-70dd1726ccf8",
       "width": 0,
@@ -421,7 +435,7 @@
       "angle": 0,
       "customSize": true,
       "height": 61,
-      "layer": "",
+      "layer": "Shop Layer",
       "name": "SelectedDesc",
       "persistentUuid": "ce1b61ee-ffd3-4566-bb31-7953d0605931",
       "width": 617,
@@ -721,36 +735,6 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 80,
-      "layer": "Path layer",
-      "name": "Fire",
-      "persistentUuid": "ac8e9cdd-023f-4e28-b638-c23b12647b71",
-      "width": 82,
-      "x": 226,
-      "y": 122,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 72,
-      "layer": "Path layer",
-      "name": "Fire",
-      "persistentUuid": "70f408b2-c5ba-45af-8e6f-df820efe8ff9",
-      "width": 91,
-      "x": 220,
-      "y": 895,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
       "height": 1080,
       "layer": "",
       "name": "Map",
@@ -799,7 +783,7 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "",
+      "layer": "Shop Layer",
       "name": "TimeSkip",
       "persistentUuid": "78c5e7be-af67-4765-9b48-b5d673381151",
       "width": 0,
@@ -814,7 +798,7 @@
       "angle": 0,
       "customSize": true,
       "height": 89,
-      "layer": "",
+      "layer": "Shop Layer",
       "name": "OpenMenuButton",
       "persistentUuid": "4d65d898-329c-477a-a5f3-ae78873e05da",
       "width": 81,
@@ -859,7 +843,7 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "",
+      "layer": "Shop Layer",
       "name": "RiotWarning",
       "persistentUuid": "17c9ec54-5b63-421c-aff2-602c7e82233f",
       "width": 0,
@@ -874,7 +858,7 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "",
+      "layer": "Shop Layer",
       "name": "NegThoughtsIcon",
       "persistentUuid": "ed50f8ad-434e-4767-99c9-494d6d4ea049",
       "width": 0,
@@ -889,7 +873,7 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "",
+      "layer": "Shop Layer",
       "name": "CheerBoostIcon",
       "persistentUuid": "e5c1637d-0173-4401-b416-1ebd0f7b5caf",
       "width": 0,
@@ -904,7 +888,7 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "",
+      "layer": "Shop Layer",
       "name": "RangeBoostIcon",
       "persistentUuid": "77101dfe-ebd5-4f18-a714-ac16f96f35ba",
       "width": 0,
@@ -919,7 +903,7 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "",
+      "layer": "Shop Layer",
       "name": "IsGroupedIcon",
       "persistentUuid": "e186d4a1-d0c8-470f-9ce7-231bb1239a59",
       "width": 0,
@@ -942,51 +926,6 @@
       "width": 32,
       "x": -32,
       "y": 640,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 78,
-      "layer": "Path layer",
-      "name": "Fire",
-      "persistentUuid": "bd722c79-94d4-4ba0-a4d0-70941288cf73",
-      "width": 96,
-      "x": 1349,
-      "y": 114,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 81,
-      "layer": "Path layer",
-      "name": "Fire",
-      "persistentUuid": "ca7eaaef-56e4-40ed-929d-a0a89df958a1",
-      "width": 90,
-      "x": 1347,
-      "y": 894,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 58,
-      "customSize": true,
-      "height": 49,
-      "layer": "Path layer",
-      "name": "Fire",
-      "persistentUuid": "5ead5993-756c-4d43-90a2-7411cf4dda5e",
-      "width": 54,
-      "x": 567,
-      "y": 532,
       "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
@@ -1715,6 +1654,291 @@
       "x": 1088,
       "y": 512,
       "zOrder": 1064,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32,
+      "layer": "Projectile layer",
+      "name": "SpawnRailNorth",
+      "persistentUuid": "4a9cef8b-6a3f-4e47-b7ec-9efef621805f",
+      "width": 609,
+      "x": 480,
+      "y": 360,
+      "zOrder": 1065,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32,
+      "layer": "Projectile layer",
+      "name": "SpawnRailNorth",
+      "persistentUuid": "06ee97e7-6fbe-4670-9214-d1797462175d",
+      "width": 429,
+      "x": 1192,
+      "y": 648,
+      "zOrder": 1065,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "SpawnBoxSpawnerPreview",
+      "persistentUuid": "5a54df34-ea11-4e9f-80a9-ad037406e8eb",
+      "width": 0,
+      "x": -96,
+      "y": 128,
+      "zOrder": 1066,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32,
+      "layer": "Projectile layer",
+      "name": "SpawnRailNorth",
+      "persistentUuid": "1c9f5188-34e9-4817-89fe-4c939f03bbca",
+      "width": 703,
+      "x": 365,
+      "y": 1001,
+      "zOrder": 1067,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32,
+      "layer": "Projectile layer",
+      "name": "SpawnRailNorth",
+      "persistentUuid": "1b833a11-d456-4fa7-a5b2-c095365e6a5f",
+      "width": 235,
+      "x": -2,
+      "y": 648,
+      "zOrder": 1067,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 238,
+      "layer": "Projectile layer",
+      "name": "SpawnRailEast",
+      "persistentUuid": "fd00cdf5-021c-4ff4-a7a2-9e72eb622cb5",
+      "width": 32,
+      "x": 969,
+      "y": 584,
+      "zOrder": 1068,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 219,
+      "layer": "Projectile layer",
+      "name": "SpawnRailEast",
+      "persistentUuid": "325ed3fd-2bb6-48fd-a028-c8952540a45b",
+      "width": 29,
+      "x": 268,
+      "y": 717,
+      "zOrder": 1068,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 163,
+      "layer": "Projectile layer",
+      "name": "SpawnRailEast",
+      "persistentUuid": "47616178-13bb-4945-a705-a0b9473f9f27",
+      "width": 32,
+      "x": 261,
+      "y": 288,
+      "zOrder": 1068,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 65,
+      "layer": "Projectile layer",
+      "name": "SpawnRailEast",
+      "persistentUuid": "c28105a9-7ab6-47c9-80ab-400178b80e58",
+      "width": 32,
+      "x": 1126,
+      "y": 405,
+      "zOrder": 1068,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32,
+      "layer": "Projectile layer",
+      "name": "SpawnRailSouth",
+      "persistentUuid": "1275c368-67df-4b12-97e5-06cd94ff3571",
+      "width": 865,
+      "x": 368,
+      "y": 202,
+      "zOrder": 1069,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32,
+      "layer": "Projectile layer",
+      "name": "SpawnRailSouth",
+      "persistentUuid": "d0a53529-9dca-48a4-956a-493618048518",
+      "width": 66,
+      "x": 1048,
+      "y": 493,
+      "zOrder": 1070,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32,
+      "layer": "Projectile layer",
+      "name": "SpawnRailSouth",
+      "persistentUuid": "f755716e-bd97-4aee-b401-024f6a9b0457",
+      "width": 259,
+      "x": 1361,
+      "y": 491,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32,
+      "layer": "Projectile layer",
+      "name": "SpawnRailSouth",
+      "persistentUuid": "1fc74648-65f3-46f3-8096-24b20fd7e694",
+      "width": 461,
+      "x": 483,
+      "y": 842,
+      "zOrder": 1071,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32,
+      "layer": "Projectile layer",
+      "name": "SpawnRailSouth",
+      "persistentUuid": "ebbf2577-cd60-4e79-8e35-3822fd35c15b",
+      "width": 234,
+      "x": 1,
+      "y": 480,
+      "zOrder": 1072,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 228,
+      "layer": "Projectile layer",
+      "name": "SpawnRailWest",
+      "persistentUuid": "d3804d3e-c998-4f84-91fe-92f43fdd773d",
+      "width": 32,
+      "x": 1131,
+      "y": 704,
+      "zOrder": 1073,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 1080,
+      "layer": "",
+      "name": "Map",
+      "persistentUuid": "edc448b6-8b36-488c-8332-801f19320bc1",
+      "width": 1620,
+      "x": 0,
+      "y": 37,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 372,
+      "layer": "Projectile layer",
+      "name": "SpawnRailWest",
+      "persistentUuid": "671f28f6-d25c-434d-a2ac-fb01a4096d65",
+      "width": 32,
+      "x": 421,
+      "y": 426,
+      "zOrder": 1074,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 157,
+      "layer": "Projectile layer",
+      "name": "SpawnRailWest",
+      "persistentUuid": "f8182623-a2c6-44bc-947e-2c1104fad582",
+      "width": 32,
+      "x": 1301,
+      "y": 308,
+      "zOrder": 1073,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 1080,
+      "layer": "",
+      "name": "Map",
+      "persistentUuid": "fa28a1ac-d1ac-4d73-bcd8-a4a67da18970",
+      "width": 1620,
+      "x": 0,
+      "y": 37,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -4361,47 +4585,6 @@
     },
     {
       "assetStoreId": "",
-      "name": "Fire",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "Fire13",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.1111,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "Fire13-1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "assetStoreId": "",
       "name": "FirefighterPuddle",
       "tags": "",
       "type": "Sprite",
@@ -4551,7 +4734,7 @@
       "effects": [],
       "behaviors": [],
       "fillOpacity": 100,
-      "outlineSize": 1,
+      "outlineSize": 0,
       "outlineOpacity": 255,
       "fillColor": {
         "b": 255,
@@ -5024,10 +5207,10 @@
           "TargetY": 350
         },
         {
-          "angularMaxSpeed": 90,
           "name": "Pathfinding",
-          "smoothingMaxCellGap": 0,
           "type": "PathfindingBehavior::PathfindingBehavior",
+          "angularMaxSpeed": 90,
+          "smoothingMaxCellGap": 0,
           "cellHeight": 32,
           "cellWidth": 32,
           "extraBorder": 0,
@@ -7164,13 +7347,7 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [
-        {
-          "name": "DestroyOutside",
-          "type": "DestroyOutsideBehavior::DestroyOutside",
-          "extraBorder": 0
-        }
-      ],
+      "behaviors": [],
       "animations": [
         {
           "name": "HitMarker",
@@ -7201,6 +7378,101 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "HitMarker7",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "SpawnRailNorth",
+      "tags": "",
+      "texture": "SpawnRailNorth",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "SpawnRailEast",
+      "tags": "",
+      "texture": "SpawnRailEast",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "SpawnRailSouth",
+      "tags": "",
+      "texture": "SpawnRailSouth",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "SpawnRailWest",
+      "tags": "",
+      "texture": "SpawnRailWest",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "name": "SpawnBoxSpawnerPreview",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "SpawnBoxPreview",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "SpawnBoxPreview2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -8195,7 +8467,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Continuous Events",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -8760,6 +9031,13 @@
                 "StatusParticles",
                 ""
               ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
             }
           ]
         },
@@ -12632,6 +12910,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Attack or Defend",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -13491,6 +13770,16 @@
             },
             {
               "type": {
+                "value": "PosX"
+              },
+              "parameters": [
+                "Enemies",
+                ">",
+                "50"
+              ]
+            },
+            {
+              "type": {
                 "value": "AjoutHasard"
               },
               "parameters": [
@@ -13714,6 +14003,42 @@
                     ""
                   ]
                 }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneInstancesCount"
+              },
+              "parameters": [
+                "",
+                "FirefighterHitmarker",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AjoutObjConcern"
+              },
+              "parameters": [
+                "",
+                "FirefighterProjectile"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "FirefighterProjectile",
+                ""
               ]
             }
           ]
@@ -14074,7 +14399,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "SpawnBox and Spawning",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -14267,6 +14591,28 @@
                 "doElse",
                 "True"
               ]
+            },
+            {
+              "type": {
+                "value": "SetObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "SpawnBox",
+                "SpawnSpawnerFlag",
+                "True"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCenter"
+              },
+              "parameters": [
+                "SpawnBoxSpawnerPreview",
+                "=",
+                "-100",
+                "=",
+                "-100"
+              ]
             }
           ]
         },
@@ -14275,14 +14621,42 @@
           "conditions": [
             {
               "type": {
-                "value": "CollisionNP"
+                "value": "BuiltinCommonInstructions::And"
               },
-              "parameters": [
-                "SpawnBox",
-                "Unspawnanble",
-                "",
-                "",
-                ""
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "SpawnBox",
+                    "Unspawnanble",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "FirefighterSpawn",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "IntelOfficerSpawn",
+                    "True"
+                  ]
+                }
               ]
             }
           ],
@@ -14453,19 +14827,17 @@
           ]
         },
         {
-          "type": "BuiltinCommonInstructions::Standard",
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "SpawnRail",
           "conditions": [
             {
               "type": {
-                "inverted": true,
-                "value": "CollisionNP"
+                "value": "CollisionPoint"
               },
               "parameters": [
-                "SpawnBox",
-                "Wall",
-                "",
-                "",
-                ""
+                "SpawnRail",
+                "SpawnBox.CenterX()",
+                "SpawnBox.CenterY()"
               ]
             },
             {
@@ -14492,6 +14864,59 @@
                     "True"
                   ]
                 }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "SpawnBox",
+                "SpawnSpawnerFlag",
+                "False"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "FirefighterSpawn",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "IntelOfficerSpawn",
+                    "True"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "SpawnBox",
+                "SpawnSpawnerFlag",
+                "True"
               ]
             }
           ],
@@ -14747,6 +15172,244 @@
                     "SpawnBox",
                     "DontIncreasePrice",
                     "True"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "FirefighterSpawn",
+                        "True"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "IntelOfficerSpawn",
+                        "True"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionPoint"
+                      },
+                      "parameters": [
+                        "SpawnRailNorth",
+                        "SpawnBox.CenterX()",
+                        "SpawnBox.CenterY()"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetCenter"
+                      },
+                      "parameters": [
+                        "SpawnBoxSpawnerPreview",
+                        "=",
+                        "SpawnBox.CenterX()",
+                        "=",
+                        "SpawnBox.CenterY()-80"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "SpawnBox",
+                        "SpawnerSpawnX",
+                        "=",
+                        "SpawnBox.CenterX()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "SpawnBox",
+                        "SpawnerSpawnY",
+                        "=",
+                        "SpawnBox.CenterY()-80"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionPoint"
+                      },
+                      "parameters": [
+                        "SpawnRailEast",
+                        "SpawnBox.CenterX()",
+                        "SpawnBox.CenterY()"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetCenter"
+                      },
+                      "parameters": [
+                        "SpawnBoxSpawnerPreview",
+                        "=",
+                        "SpawnBox.CenterX()+80",
+                        "=",
+                        "SpawnBox.CenterY()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "SpawnBox",
+                        "SpawnerSpawnX",
+                        "=",
+                        "SpawnBox.CenterX()+80"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "SpawnBox",
+                        "SpawnerSpawnY",
+                        "=",
+                        "SpawnBox.CenterY()"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionPoint"
+                      },
+                      "parameters": [
+                        "SpawnRailSouth",
+                        "SpawnBox.CenterX()",
+                        "SpawnBox.CenterY()"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetCenter"
+                      },
+                      "parameters": [
+                        "SpawnBoxSpawnerPreview",
+                        "=",
+                        "SpawnBox.CenterX()",
+                        "=",
+                        "SpawnBox.CenterY()+80"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "SpawnBox",
+                        "SpawnerSpawnX",
+                        "=",
+                        "SpawnBox.CenterX()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "SpawnBox",
+                        "SpawnerSpawnY",
+                        "=",
+                        "SpawnBox.CenterY()+80"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionPoint"
+                      },
+                      "parameters": [
+                        "SpawnRailWest",
+                        "SpawnBox.CenterX()",
+                        "SpawnBox.CenterY()"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetCenter"
+                      },
+                      "parameters": [
+                        "SpawnBoxSpawnerPreview",
+                        "=",
+                        "SpawnBox.CenterX()-80",
+                        "=",
+                        "SpawnBox.CenterY()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "SpawnBox",
+                        "SpawnerSpawnX",
+                        "=",
+                        "SpawnBox.CenterX()-80"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "SpawnBox",
+                        "SpawnerSpawnY",
+                        "=",
+                        "SpawnBox.CenterY()"
+                      ]
+                    }
                   ]
                 }
               ]
@@ -15763,17 +16426,12 @@
                         },
                         {
                           "type": {
-                            "value": "RaycastToPosition"
+                            "value": "CollisionPoint"
                           },
                           "parameters": [
-                            "WalkTiles",
+                            "SpawnRailNorth",
                             "SpawnBox.CenterX()",
-                            "SpawnBox.CenterY()",
-                            "SpawnBox.CenterX()",
-                            "SpawnBox.CenterY()-100",
-                            "resultX",
-                            "resultY",
-                            ""
+                            "SpawnBox.CenterY()"
                           ]
                         }
                       ],
@@ -15809,29 +16467,7 @@
                             "=",
                             "SpawnBox.CenterX()",
                             "=",
-                            "SpawnBox.CenterY()+40"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ModVarObjet"
-                          },
-                          "parameters": [
-                            "IntelligenceOfficer",
-                            "SpawnX",
-                            "=",
-                            "SpawnBox.CenterX()"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ModVarObjet"
-                          },
-                          "parameters": [
-                            "IntelligenceOfficer",
-                            "SpawnY",
-                            "=",
-                            "SpawnBox.CenterY()-100"
+                            "SpawnBox.CenterY()+70"
                           ]
                         },
                         {
@@ -15856,88 +16492,13 @@
                         },
                         {
                           "type": {
-                            "value": "ModVarGlobal"
-                          },
-                          "parameters": [
-                            "nextID",
-                            "+",
-                            "1"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "IntelOfficerSpawn",
-                            "True"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "RaycastToPosition"
-                          },
-                          "parameters": [
-                            "WalkTiles",
-                            "SpawnBox.CenterX()",
-                            "SpawnBox.CenterY()",
-                            "SpawnBox.CenterX()",
-                            "SpawnBox.CenterY()+130",
-                            "resultX",
-                            "resultY",
-                            ""
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "Create"
-                          },
-                          "parameters": [
-                            "",
-                            "IntelligenceOfficer",
-                            "SpawnBox.CenterX()",
-                            "SpawnBox.CenterY()",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ChangeScale"
-                          },
-                          "parameters": [
-                            "IntelligenceOfficer",
-                            "=",
-                            "0.4"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "SetCenter"
-                          },
-                          "parameters": [
-                            "IntelligenceOfficer",
-                            "=",
-                            "SpawnBox.CenterX()",
-                            "=",
-                            "SpawnBox.CenterY()-20"
-                          ]
-                        },
-                        {
-                          "type": {
                             "value": "ModVarObjet"
                           },
                           "parameters": [
                             "IntelligenceOfficer",
                             "SpawnX",
                             "=",
-                            "SpawnBox.CenterX()"
+                            "SpawnBox.Variable(SpawnerSpawnX)"
                           ]
                         },
                         {
@@ -15948,27 +16509,7 @@
                             "IntelligenceOfficer",
                             "SpawnY",
                             "=",
-                            "SpawnBox.CenterY()+130"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "SetGlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "IntelOfficerSpawn",
-                            "False"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ModVarObjet"
-                          },
-                          "parameters": [
-                            "IntelligenceOfficer",
-                            "ID",
-                            "=",
-                            "GlobalVariable(nextID)"
+                            "SpawnBox.Variable(SpawnerSpawnY)"
                           ]
                         },
                         {
@@ -15979,6 +16520,15 @@
                             "nextID",
                             "+",
                             "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "FlipX"
+                          },
+                          "parameters": [
+                            "IntelligenceOfficer",
+                            "yes"
                           ]
                         }
                       ]
@@ -15997,17 +16547,12 @@
                         },
                         {
                           "type": {
-                            "value": "RaycastToPosition"
+                            "value": "CollisionPoint"
                           },
                           "parameters": [
-                            "WalkTiles",
+                            "SpawnRailEast",
                             "SpawnBox.CenterX()",
-                            "SpawnBox.CenterY()",
-                            "SpawnBox.CenterX()+150",
-                            "SpawnBox.CenterY()",
-                            "resultX",
-                            "resultY",
-                            ""
+                            "SpawnBox.CenterY()"
                           ]
                         }
                       ],
@@ -16048,28 +16593,6 @@
                         },
                         {
                           "type": {
-                            "value": "ModVarObjet"
-                          },
-                          "parameters": [
-                            "IntelligenceOfficer",
-                            "SpawnX",
-                            "=",
-                            "SpawnBox.CenterX()+150"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ModVarObjet"
-                          },
-                          "parameters": [
-                            "IntelligenceOfficer",
-                            "SpawnY",
-                            "=",
-                            "SpawnBox.CenterY()"
-                          ]
-                        },
-                        {
-                          "type": {
                             "value": "SetGlobalVariableAsBoolean"
                           },
                           "parameters": [
@@ -16086,6 +16609,28 @@
                             "ID",
                             "=",
                             "GlobalVariable(nextID)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "IntelligenceOfficer",
+                            "SpawnX",
+                            "=",
+                            "SpawnBox.Variable(SpawnerSpawnX)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "IntelligenceOfficer",
+                            "SpawnY",
+                            "=",
+                            "SpawnBox.Variable(SpawnerSpawnY)"
                           ]
                         },
                         {
@@ -16114,17 +16659,124 @@
                         },
                         {
                           "type": {
-                            "value": "RaycastToPosition"
+                            "value": "CollisionPoint"
                           },
                           "parameters": [
-                            "WalkTiles",
+                            "SpawnRailSouth",
+                            "SpawnBox.CenterX()",
+                            "SpawnBox.CenterY()"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "IntelligenceOfficer",
                             "SpawnBox.CenterX()",
                             "SpawnBox.CenterY()",
-                            "SpawnBox.CenterX()-150",
-                            "SpawnBox.CenterY()",
-                            "resultX",
-                            "resultY",
                             ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ChangeScale"
+                          },
+                          "parameters": [
+                            "IntelligenceOfficer",
+                            "=",
+                            "0.4"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetCenter"
+                          },
+                          "parameters": [
+                            "IntelligenceOfficer",
+                            "=",
+                            "SpawnBox.CenterX()",
+                            "=",
+                            "SpawnBox.CenterY()-70"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetGlobalVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "IntelOfficerSpawn",
+                            "False"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "IntelligenceOfficer",
+                            "ID",
+                            "=",
+                            "GlobalVariable(nextID)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "IntelligenceOfficer",
+                            "SpawnX",
+                            "=",
+                            "SpawnBox.Variable(SpawnerSpawnX)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "IntelligenceOfficer",
+                            "SpawnY",
+                            "=",
+                            "SpawnBox.Variable(SpawnerSpawnY)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "nextID",
+                            "+",
+                            "1"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "GlobalVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "IntelOfficerSpawn",
+                            "True"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "CollisionPoint"
+                          },
+                          "parameters": [
+                            "SpawnRailWest",
+                            "SpawnBox.CenterX()",
+                            "SpawnBox.CenterY()"
                           ]
                         }
                       ],
@@ -16165,28 +16817,6 @@
                         },
                         {
                           "type": {
-                            "value": "ModVarObjet"
-                          },
-                          "parameters": [
-                            "IntelligenceOfficer",
-                            "SpawnX",
-                            "=",
-                            "SpawnBox.CenterX()-150"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ModVarObjet"
-                          },
-                          "parameters": [
-                            "IntelligenceOfficer",
-                            "SpawnY",
-                            "=",
-                            "SpawnBox.CenterY()"
-                          ]
-                        },
-                        {
-                          "type": {
                             "value": "SetGlobalVariableAsBoolean"
                           },
                           "parameters": [
@@ -16207,12 +16837,43 @@
                         },
                         {
                           "type": {
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "IntelligenceOfficer",
+                            "SpawnX",
+                            "=",
+                            "SpawnBox.Variable(SpawnerSpawnX)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "IntelligenceOfficer",
+                            "SpawnY",
+                            "=",
+                            "SpawnBox.Variable(SpawnerSpawnY)"
+                          ]
+                        },
+                        {
+                          "type": {
                             "value": "ModVarGlobal"
                           },
                           "parameters": [
                             "nextID",
                             "+",
                             "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "FlipX"
+                          },
+                          "parameters": [
+                            "IntelligenceOfficer",
+                            "yes"
                           ]
                         }
                       ]
@@ -18147,7 +18808,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Shop Stuff",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -19820,7 +20480,7 @@
                       "parameters": [
                         "SpawnerRange",
                         "=",
-                        "120"
+                        "80"
                       ]
                     }
                   ]
@@ -20132,7 +20792,7 @@
                       "parameters": [
                         "SpawnerRange",
                         "=",
-                        "120"
+                        "80"
                       ]
                     }
                   ]
