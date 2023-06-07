@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6599560079524728,
+    "zoomFactor": 0.6384280048949468,
     "windowMask": false
   },
   "objectsGroups": [
@@ -1668,7 +1668,7 @@
       "width": 609,
       "x": 480,
       "y": 360,
-      "zOrder": 1065,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1683,7 +1683,7 @@
       "width": 429,
       "x": 1192,
       "y": 648,
-      "zOrder": 1065,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1713,7 +1713,7 @@
       "width": 703,
       "x": 365,
       "y": 1001,
-      "zOrder": 1067,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1728,7 +1728,7 @@
       "width": 235,
       "x": -2,
       "y": 648,
-      "zOrder": 1067,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1743,7 +1743,7 @@
       "width": 32,
       "x": 969,
       "y": 584,
-      "zOrder": 1068,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1758,7 +1758,7 @@
       "width": 29,
       "x": 268,
       "y": 717,
-      "zOrder": 1068,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1773,7 +1773,7 @@
       "width": 32,
       "x": 261,
       "y": 288,
-      "zOrder": 1068,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1788,7 +1788,7 @@
       "width": 32,
       "x": 1126,
       "y": 405,
-      "zOrder": 1068,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1803,7 +1803,7 @@
       "width": 865,
       "x": 368,
       "y": 202,
-      "zOrder": 1069,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1818,7 +1818,7 @@
       "width": 66,
       "x": 1048,
       "y": 493,
-      "zOrder": 1070,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1833,7 +1833,7 @@
       "width": 259,
       "x": 1361,
       "y": 491,
-      "zOrder": 1,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1848,7 +1848,7 @@
       "width": 461,
       "x": 483,
       "y": 842,
-      "zOrder": 1071,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1863,7 +1863,7 @@
       "width": 234,
       "x": 1,
       "y": 480,
-      "zOrder": 1072,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1878,7 +1878,7 @@
       "width": 32,
       "x": 1131,
       "y": 704,
-      "zOrder": 1073,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1908,7 +1908,7 @@
       "width": 32,
       "x": 421,
       "y": 426,
-      "zOrder": 1074,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1923,7 +1923,7 @@
       "width": 32,
       "x": 1301,
       "y": 308,
-      "zOrder": 1073,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -5243,7 +5243,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "001_terrorist_00000",
+                  "image": "001_terrorist_0000021",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5260,7 +5260,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "001_terrorist_000002",
+                  "image": "001_terrorist_0000022",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5277,7 +5277,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "001_terrorist_000003",
+                  "image": "001_terrorist_0000023",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5294,7 +5294,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "001_terrorist_000004",
+                  "image": "001_terrorist_0000024",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5311,7 +5311,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "001_terrorist_000005",
+                  "image": "001_terrorist_0000025",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5328,7 +5328,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "001_terrorist_000006",
+                  "image": "001_terrorist_0000026",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5345,7 +5345,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "001_terrorist_000007",
+                  "image": "001_terrorist_0000027",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5362,7 +5362,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "001_terrorist_000008",
+                  "image": "001_terrorist_0000028",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5379,7 +5379,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "001_terrorist_000009",
+                  "image": "001_terrorist_0000029",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5396,7 +5396,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "001_terrorist_0000010",
+                  "image": "001_terrorist_0000030",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5413,7 +5413,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "001_terrorist_0000011",
+                  "image": "001_terrorist_0000031",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5430,7 +5430,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "001_terrorist_0000012",
+                  "image": "001_terrorist_0000032",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5447,7 +5447,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "001_terrorist_0000013",
+                  "image": "001_terrorist_0000033",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5464,7 +5464,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "001_terrorist_0000014",
+                  "image": "001_terrorist_0000034",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5481,7 +5481,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "001_terrorist_0000015",
+                  "image": "001_terrorist_0000035",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5498,7 +5498,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "001_terrorist_0000016",
+                  "image": "001_terrorist_0000036",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5515,7 +5515,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "001_terrorist_0000017",
+                  "image": "001_terrorist_0000037",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5532,7 +5532,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "001_terrorist_0000018",
+                  "image": "001_terrorist_0000038",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5549,7 +5549,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "001_terrorist_0000019",
+                  "image": "001_terrorist_0000039",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5566,7 +5566,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "001_terrorist_0000020",
+                  "image": "001_terrorist_0000040",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7408,12 +7408,7 @@
       "width": 32,
       "variables": [],
       "effects": [],
-      "behaviors": [
-        {
-          "name": "Tween",
-          "type": "Tween::TweenBehavior"
-        }
-      ]
+      "behaviors": []
     },
     {
       "assetStoreId": "",
@@ -8135,6 +8130,16 @@
                   "parameters": [
                     "Wall"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "TiledSpriteObject::SetOpacity"
+                  },
+                  "parameters": [
+                    "SpawnRail",
+                    "=",
+                    "0"
+                  ]
                 }
               ]
             },
@@ -8467,6 +8472,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Continuous Events",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -14939,6 +14945,16 @@
                 "doElse",
                 "False"
               ]
+            },
+            {
+              "type": {
+                "value": "TiledSpriteObject::SetOpacity"
+              },
+              "parameters": [
+                "SpawnRail",
+                "=",
+                "100"
+              ]
             }
           ]
         },
@@ -16972,17 +16988,12 @@
                         },
                         {
                           "type": {
-                            "value": "RaycastToPosition"
+                            "value": "CollisionPoint"
                           },
                           "parameters": [
-                            "WalkTiles",
+                            "SpawnRailNorth",
                             "SpawnBox.CenterX()",
-                            "SpawnBox.CenterY()",
-                            "SpawnBox.CenterX()",
-                            "SpawnBox.CenterY()+130",
-                            "resultX",
-                            "resultY",
-                            ""
+                            "SpawnBox.CenterY()"
                           ]
                         }
                       ],
@@ -17018,7 +17029,7 @@
                             "=",
                             "SpawnBox.CenterX()",
                             "=",
-                            "SpawnBox.CenterY()-20"
+                            "SpawnBox.CenterY()+70"
                           ]
                         },
                         {
@@ -17029,7 +17040,7 @@
                             "Firefighter",
                             "SpawnX",
                             "=",
-                            "SpawnBox.CenterX()"
+                            "SpawnBox.Variable(SpawnerSpawnX)"
                           ]
                         },
                         {
@@ -17040,7 +17051,7 @@
                             "Firefighter",
                             "SpawnY",
                             "=",
-                            "SpawnBox.CenterY()+130"
+                            "SpawnBox.Variable(SpawnerSpawnY)"
                           ]
                         },
                         {
@@ -17089,134 +17100,12 @@
                         },
                         {
                           "type": {
-                            "value": "RaycastToPosition"
+                            "value": "CollisionPoint"
                           },
                           "parameters": [
-                            "WalkTiles",
+                            "SpawnRailEast",
                             "SpawnBox.CenterX()",
-                            "SpawnBox.CenterY()",
-                            "SpawnBox.CenterX()",
-                            "SpawnBox.CenterY()-100",
-                            "resultX",
-                            "resultY",
-                            ""
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "Create"
-                          },
-                          "parameters": [
-                            "",
-                            "Firefighter",
-                            "SpawnBox.CenterX()",
-                            "SpawnBox.CenterY()",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ChangeScale"
-                          },
-                          "parameters": [
-                            "Firefighter",
-                            "=",
-                            "0.4"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "SetCenter"
-                          },
-                          "parameters": [
-                            "Firefighter",
-                            "=",
-                            "SpawnBox.CenterX()",
-                            "=",
-                            "SpawnBox.CenterY()+40"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ModVarObjet"
-                          },
-                          "parameters": [
-                            "Firefighter",
-                            "SpawnX",
-                            "=",
-                            "SpawnBox.CenterX()"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ModVarObjet"
-                          },
-                          "parameters": [
-                            "Firefighter",
-                            "SpawnY",
-                            "=",
-                            "SpawnBox.CenterY()-100"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "SetGlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "FirefighterSpawn",
-                            "False"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ModVarObjet"
-                          },
-                          "parameters": [
-                            "Firefighter",
-                            "ID",
-                            "=",
-                            "GlobalVariable(nextID)"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ModVarGlobal"
-                          },
-                          "parameters": [
-                            "nextID",
-                            "+",
-                            "1"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "GlobalVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "FirefighterSpawn",
-                            "True"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "RaycastToPosition"
-                          },
-                          "parameters": [
-                            "WalkTiles",
-                            "SpawnBox.CenterX()",
-                            "SpawnBox.CenterY()",
-                            "SpawnBox.CenterX()+200",
-                            "SpawnBox.CenterY()",
-                            "resultX",
-                            "resultY",
-                            ""
+                            "SpawnBox.CenterY()"
                           ]
                         }
                       ],
@@ -17263,7 +17152,7 @@
                             "Firefighter",
                             "SpawnX",
                             "=",
-                            "SpawnBox.CenterX()+200"
+                            "SpawnBox.Variable(SpawnerSpawnX)"
                           ]
                         },
                         {
@@ -17274,7 +17163,7 @@
                             "Firefighter",
                             "SpawnY",
                             "=",
-                            "SpawnBox.CenterY()"
+                            "SpawnBox.Variable(SpawnerSpawnY)"
                           ]
                         },
                         {
@@ -17323,17 +17212,124 @@
                         },
                         {
                           "type": {
-                            "value": "RaycastToPosition"
+                            "value": "CollisionPoint"
                           },
                           "parameters": [
-                            "WalkTiles",
+                            "SpawnRailSouth",
+                            "SpawnBox.CenterX()",
+                            "SpawnBox.CenterY()"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "Firefighter",
                             "SpawnBox.CenterX()",
                             "SpawnBox.CenterY()",
-                            "SpawnBox.CenterX()-200",
-                            "SpawnBox.CenterY()",
-                            "resultX",
-                            "resultY",
                             ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ChangeScale"
+                          },
+                          "parameters": [
+                            "Firefighter",
+                            "=",
+                            "0.4"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetCenter"
+                          },
+                          "parameters": [
+                            "Firefighter",
+                            "=",
+                            "SpawnBox.CenterX()",
+                            "=",
+                            "SpawnBox.CenterY()-70"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "Firefighter",
+                            "SpawnX",
+                            "=",
+                            "SpawnBox.Variable(SpawnerSpawnX)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "Firefighter",
+                            "SpawnY",
+                            "=",
+                            "SpawnBox.Variable(SpawnerSpawnY)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetGlobalVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "FirefighterSpawn",
+                            "False"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "Firefighter",
+                            "ID",
+                            "=",
+                            "GlobalVariable(nextID)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "nextID",
+                            "+",
+                            "1"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "GlobalVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "FirefighterSpawn",
+                            "True"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "CollisionPoint"
+                          },
+                          "parameters": [
+                            "SpawnRailWest",
+                            "SpawnBox.CenterX()",
+                            "SpawnBox.CenterY()"
                           ]
                         }
                       ],
@@ -17380,7 +17376,7 @@
                             "Firefighter",
                             "SpawnX",
                             "=",
-                            "SpawnBox.CenterX()-200"
+                            "SpawnBox.Variable(SpawnerSpawnX)"
                           ]
                         },
                         {
@@ -17391,7 +17387,7 @@
                             "Firefighter",
                             "SpawnY",
                             "=",
-                            "SpawnBox.CenterY()"
+                            "SpawnBox.Variable(SpawnerSpawnY)"
                           ]
                         },
                         {
@@ -17422,6 +17418,15 @@
                             "nextID",
                             "+",
                             "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "FlipX"
+                          },
+                          "parameters": [
+                            "Firefighter",
+                            "yes"
                           ]
                         }
                       ]
@@ -18139,6 +18144,16 @@
                   "parameters": [
                     "Towers",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TiledSpriteObject::SetOpacity"
+                  },
+                  "parameters": [
+                    "SpawnRail",
+                    "=",
+                    "0"
                   ]
                 }
               ]

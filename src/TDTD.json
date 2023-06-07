@@ -7271,6 +7271,294 @@
         "name": "SpawnRailWest",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../Downloads/terrorist_00000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "../../../Downloads/terrorist_00000.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../Downloads/terrorist_00001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "../../../Downloads/terrorist_00001.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../Downloads/terrorist_00002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "../../../Downloads/terrorist_00002.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../Downloads/terrorist_00003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "../../../Downloads/terrorist_00003.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../Downloads/terrorist_00004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "../../../Downloads/terrorist_00004.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../Downloads/terrorist_00005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "../../../Downloads/terrorist_00005.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../Downloads/terrorist_00006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "../../../Downloads/terrorist_00006.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../Downloads/terrorist_00007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "../../../Downloads/terrorist_00007.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../Downloads/terrorist_00008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "../../../Downloads/terrorist_00008.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../Downloads/terrorist_00009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "../../../Downloads/terrorist_00009.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../Downloads/terrorist_00010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "../../../Downloads/terrorist_00010.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../Downloads/terrorist_00011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "../../../Downloads/terrorist_00011.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/001_terrorist_0000021.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "001_terrorist_0000021",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/001_terrorist_0000022.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "001_terrorist_0000022",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/001_terrorist_0000023.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "001_terrorist_0000023",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/001_terrorist_0000024.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "001_terrorist_0000024",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/001_terrorist_0000025.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "001_terrorist_0000025",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/001_terrorist_0000026.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "001_terrorist_0000026",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/001_terrorist_0000027.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "001_terrorist_0000027",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/001_terrorist_0000028.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "001_terrorist_0000028",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/001_terrorist_0000029.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "001_terrorist_0000029",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/001_terrorist_0000030.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "001_terrorist_0000030",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/001_terrorist_0000031.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "001_terrorist_0000031",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/001_terrorist_0000032.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "001_terrorist_0000032",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/001_terrorist_0000033.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "001_terrorist_0000033",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/001_terrorist_0000034.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "001_terrorist_0000034",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/001_terrorist_0000035.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "001_terrorist_0000035",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/001_terrorist_0000036.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "001_terrorist_0000036",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/001_terrorist_0000037.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "001_terrorist_0000037",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/001_terrorist_0000038.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "001_terrorist_0000038",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/001_terrorist_0000039.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "001_terrorist_0000039",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/001_terrorist_0000040.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "001_terrorist_0000040",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
