@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6384280048949468,
+    "zoomFactor": 0.6176022530633515,
     "windowMask": false
   },
   "objectsGroups": [
@@ -450,7 +450,7 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "",
+      "layer": "Shop Layer",
       "name": "TowerCap",
       "persistentUuid": "94514a7b-20b5-4587-b50d-00732f7e3593",
       "width": 0,
@@ -734,21 +734,6 @@
     },
     {
       "angle": 0,
-      "customSize": true,
-      "height": 1080,
-      "layer": "",
-      "name": "Map",
-      "persistentUuid": "3c43b592-06c2-42d0-92e3-fb5611edf247",
-      "width": 1620,
-      "x": 0,
-      "y": 37,
-      "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": false,
       "height": 0,
       "layer": "",
@@ -927,81 +912,6 @@
       "x": -32,
       "y": 640,
       "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": -90,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "FireParticles",
-      "persistentUuid": "8584435a-1fba-4d04-905f-160b4beb0a1b",
-      "width": 0,
-      "x": 1230,
-      "y": 1069,
-      "zOrder": 1047,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": -90,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "FireParticles",
-      "persistentUuid": "6c596883-88f1-456f-8156-d3400e952e3f",
-      "width": 0,
-      "x": 600,
-      "y": 771,
-      "zOrder": 1047,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": -90,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "FireParticles",
-      "persistentUuid": "2e0cb5e8-71e9-41ee-b227-10484712ec89",
-      "width": 0,
-      "x": 1495,
-      "y": 186,
-      "zOrder": 1047,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": -90,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "FireParticles",
-      "persistentUuid": "6f6f168e-9cfa-476b-91a5-92d60a919e8c",
-      "width": 0,
-      "x": 396,
-      "y": 164,
-      "zOrder": 1047,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": -90,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "FireParticles",
-      "persistentUuid": "1d32696b-9759-41d1-b815-176655ffde04",
-      "width": 0,
-      "x": 124,
-      "y": 454,
-      "zOrder": 1047,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1886,21 +1796,6 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 1080,
-      "layer": "",
-      "name": "Map",
-      "persistentUuid": "edc448b6-8b36-488c-8332-801f19320bc1",
-      "width": 1620,
-      "x": 0,
-      "y": 37,
-      "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
       "height": 372,
       "layer": "Projectile layer",
       "name": "SpawnRailWest",
@@ -1930,15 +1825,30 @@
     },
     {
       "angle": 0,
-      "customSize": true,
+      "customSize": false,
       "height": 1080,
-      "layer": "",
+      "layer": "Path layer",
       "name": "Map",
       "persistentUuid": "fa28a1ac-d1ac-4d73-bcd8-a4a67da18970",
       "width": 1620,
       "x": 0,
       "y": 37,
-      "zOrder": 0,
+      "zOrder": 2000,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Path layer",
+      "name": "MapOverlay",
+      "persistentUuid": "d6e0f491-94f2-4fab-bc0b-ca8d63d58975",
+      "width": 0,
+      "x": 0,
+      "y": 37,
+      "zOrder": 2001,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2062,7 +1972,371 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "background_map_V3.jpg",
+                  "image": "BG_PNG.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "MapOverlay",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.0833,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "BG_animations_00000.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "BG_animations_00001.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "BG_animations_00002.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "BG_animations_00003.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "BG_animations_00004.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "BG_animations_00005.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "BG_animations_00006.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "BG_animations_00007.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "BG_animations_00008.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "BG_animations_00009.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "BG_animations_00010.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "BG_animations_00011.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "BG_animations_00012.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "BG_animations_00013.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "BG_animations_00014.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "BG_animations_00015.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "BG_animations_00016.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "BG_animations_00017.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "BG_animations_00018.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "BG_animations_00019.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6623,52 +6897,6 @@
       "textureParticleName": "",
       "type": "ParticleSystem::ParticleEmitter",
       "zoneRadius": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
-      "additive": false,
-      "assetStoreId": "",
-      "destroyWhenNoParticles": true,
-      "emitterAngleA": 0,
-      "emitterAngleB": 90,
-      "emitterForceMax": 40,
-      "emitterForceMin": 20,
-      "flow": 10,
-      "jumpForwardInTimeOnCreation": 0,
-      "maxParticleNb": 20,
-      "name": "FireParticles",
-      "particleAlpha1": 204,
-      "particleAlpha2": 0,
-      "particleAlphaRandomness1": 0,
-      "particleAlphaRandomness2": 0,
-      "particleAngle1": -200,
-      "particleAngle2": 200,
-      "particleAngleRandomness1": 0,
-      "particleAngleRandomness2": 0,
-      "particleBlue1": 27,
-      "particleBlue2": 28,
-      "particleGravityX": 0,
-      "particleGravityY": 150,
-      "particleGreen1": 2,
-      "particleGreen2": 231,
-      "particleLifeTimeMax": 1,
-      "particleLifeTimeMin": 0.5,
-      "particleRed1": 208,
-      "particleRed2": 248,
-      "particleSize1": 100,
-      "particleSize2": 75,
-      "particleSizeRandomness1": 0,
-      "particleSizeRandomness2": 0,
-      "rendererParam1": 6,
-      "rendererParam2": 6,
-      "rendererType": "Line",
-      "tags": "",
-      "tank": -1,
-      "textureParticleName": "",
-      "type": "ParticleSystem::ParticleEmitter",
-      "zoneRadius": 45,
       "variables": [],
       "effects": [],
       "behaviors": []
@@ -12916,7 +13144,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Attack or Defend",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -14405,6 +14632,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "SpawnBox and Spawning",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
