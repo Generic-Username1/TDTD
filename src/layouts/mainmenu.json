@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.44969979771695634,
+    "zoomFactor": 0.3020549805669002,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -72,6 +72,21 @@
       "x": -150,
       "y": 0,
       "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 4,
+      "layer": "",
+      "name": "TutorialButton",
+      "persistentUuid": "1aecdd75-d60b-4be0-b188-5a9a6a81adea",
+      "width": 1,
+      "x": 823,
+      "y": 955,
+      "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -287,6 +302,72 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Large Play Button.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "889b4fcc7396cd7435513d4c5b887b0b18999fe5bbfbc4474baa78c46c3a112d",
+      "name": "TutorialButton",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Glow",
+          "name": "Glow",
+          "doubleParameters": {
+            "distance": 20,
+            "innerStrength": 1,
+            "outerStrength": 10
+          },
+          "stringParameters": {
+            "color": "255;255;255"
+          },
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [
+        {
+          "name": "Button",
+          "type": "TDTD::Button",
+          "Property": "Tween"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "Large Play Button",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.02500000037252903,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "ewfef.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -574,6 +655,28 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "NewText",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "TUTORIAL",
+      "font": "assets\\AlfaSlabOne-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 40,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
     }
   ],
   "events": [
@@ -628,6 +731,22 @@
         },
         {
           "type": {
+            "value": "Tween::AddObjectScaleTween"
+          },
+          "parameters": [
+            "TutorialButton",
+            "Tween",
+            "\"PlayTween\"",
+            "1",
+            "1",
+            "\"easeInOutQuad\"",
+            "500",
+            "",
+            "yes"
+          ]
+        },
+        {
+          "type": {
             "value": "PreloadMusic"
           },
           "parameters": [
@@ -656,6 +775,15 @@
             "",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "SetGlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "Tutorial",
+            ""
+          ]
         }
       ]
     },
@@ -680,6 +808,16 @@
           },
           "parameters": [
             "LargePlayButton",
+            "Tween",
+            "\"PlayTween\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::RemoveTween"
+          },
+          "parameters": [
+            "TutorialButton",
             "Tween",
             "\"PlayTween\""
           ]
@@ -711,6 +849,52 @@
         }
       ],
       "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"GameScene\"",
+            "yes"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "TutorialButton",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonPressed"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetGlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "Tutorial",
+            "True"
+          ]
+        },
         {
           "type": {
             "value": "Scene"

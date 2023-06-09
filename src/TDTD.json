@@ -7562,1432 +7562,334 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/002_cheerleader_0000021.png",
+        "file": "assets/Large Play Button2.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": "002_cheerleader_0000021",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/002_cheerleader_0000022.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "002_cheerleader_0000022",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/002_cheerleader_0000023.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "002_cheerleader_0000023",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/002_cheerleader_0000024.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "002_cheerleader_0000024",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/002_cheerleader_0000025.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "002_cheerleader_0000025",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/002_cheerleader_0000026.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "002_cheerleader_0000026",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/002_cheerleader_0000027.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "002_cheerleader_0000027",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/002_cheerleader_0000028.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "002_cheerleader_0000028",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/002_cheerleader_0000029.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "002_cheerleader_0000029",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/002_cheerleader_0000030.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "002_cheerleader_0000030",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/002_cheerleader_0000031.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "002_cheerleader_0000031",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/002_cheerleader_0000032.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "002_cheerleader_0000032",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/002_cheerleader_0000033.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "002_cheerleader_0000033",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/002_cheerleader_0000034.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "002_cheerleader_0000034",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/002_cheerleader_0000035.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "002_cheerleader_0000035",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/002_cheerleader_0000036.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "002_cheerleader_0000036",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/002_cheerleader_0000037.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "002_cheerleader_0000037",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/002_cheerleader_0000038.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "002_cheerleader_0000038",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/002_cheerleader_0000039.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "002_cheerleader_0000039",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/002_cheerleader_0000040.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "002_cheerleader_0000040",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/002_cheerleader_0000041.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "002_cheerleader_0000041",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/002_cheerleader_0000042.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "002_cheerleader_0000042",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/002_cheerleader_0000043.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "002_cheerleader_0000043",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/002_cheerleader_0000044.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "002_cheerleader_0000044",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/002_cheerleader_0000045.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "002_cheerleader_0000045",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/002_cheerleader_0000046.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "002_cheerleader_0000046",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/002_cheerleader_0000047.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "002_cheerleader_0000047",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/003_caring citizen_0000037.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "003_caring citizen_0000037",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/003_caring citizen_0000038.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "003_caring citizen_0000038",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/003_caring citizen_0000039.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "003_caring citizen_0000039",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/003_caring citizen_0000040.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "003_caring citizen_0000040",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/003_caring citizen_0000041.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "003_caring citizen_0000041",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/003_caring citizen_0000042.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "003_caring citizen_0000042",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/003_caring citizen_0000043.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "003_caring citizen_0000043",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/003_caring citizen_0000044.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "003_caring citizen_0000044",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/003_caring citizen_0000045.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "003_caring citizen_0000045",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/003_caring citizen_0000046.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "003_caring citizen_0000046",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/003_caring citizen_0000047.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "003_caring citizen_0000047",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/003_caring citizen_0000048.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "003_caring citizen_0000048",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/003_caring citizen_0000049.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "003_caring citizen_0000049",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/003_caring citizen_0000050.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "003_caring citizen_0000050",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/003_caring citizen_0000051.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "003_caring citizen_0000051",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/003_caring citizen_0000052.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "003_caring citizen_0000052",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/003_caring citizen_0000053.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "003_caring citizen_0000053",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/003_caring citizen_0000054.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "003_caring citizen_0000054",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/003_caring citizen_0000055.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "003_caring citizen_0000055",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/003_caring citizen_0000056.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "003_caring citizen_0000056",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/003_caring citizen_0000057.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "003_caring citizen_0000057",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/003_caring citizen_0000058.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "003_caring citizen_0000058",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/003_caring citizen_0000059.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "003_caring citizen_0000059",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/003_caring citizen_0000060.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "003_caring citizen_0000060",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/003_caring citizen_0000061.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "003_caring citizen_0000061",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/003_caring citizen_0000062.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "003_caring citizen_0000062",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/003_caring citizen_0000063.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "003_caring citizen_0000063",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/003_caring citizen_0000064.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "003_caring citizen_0000064",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/005_community leader_0000041.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/005_community leader_0000041.png\"}",
-        "name": "005_community leader_0000041",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/005_community leader_0000042.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/005_community leader_0000042.png\"}",
-        "name": "005_community leader_0000042",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/005_community leader_0000043.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/005_community leader_0000043.png\"}",
-        "name": "005_community leader_0000043",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/005_community leader_0000044.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/005_community leader_0000044.png\"}",
-        "name": "005_community leader_0000044",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/005_community leader_0000045.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/005_community leader_0000045.png\"}",
-        "name": "005_community leader_0000045",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/005_community leader_0000046.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/005_community leader_0000046.png\"}",
-        "name": "005_community leader_0000046",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/005_community leader_0000047.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/005_community leader_0000047.png\"}",
-        "name": "005_community leader_0000047",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/005_community leader_0000048.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/005_community leader_0000048.png\"}",
-        "name": "005_community leader_0000048",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/005_community leader_0000049.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/005_community leader_0000049.png\"}",
-        "name": "005_community leader_0000049",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/005_community leader_0000050.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/005_community leader_0000050.png\"}",
-        "name": "005_community leader_0000050",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/005_community leader_0000051.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/005_community leader_0000051.png\"}",
-        "name": "005_community leader_0000051",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/005_community leader_0000052.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/005_community leader_0000052.png\"}",
-        "name": "005_community leader_0000052",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/005_community leader_0000053.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/005_community leader_0000053.png\"}",
-        "name": "005_community leader_0000053",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/005_community leader_0000054.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/005_community leader_0000054.png\"}",
-        "name": "005_community leader_0000054",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/005_community leader_0000055.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/005_community leader_0000055.png\"}",
-        "name": "005_community leader_0000055",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/005_community leader_0000056.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/005_community leader_0000056.png\"}",
-        "name": "005_community leader_0000056",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/005_community leader_0000057.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/005_community leader_0000057.png\"}",
-        "name": "005_community leader_0000057",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/005_community leader_0000058.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/005_community leader_0000058.png\"}",
-        "name": "005_community leader_0000058",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/005_community leader_0000059.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/005_community leader_0000059.png\"}",
-        "name": "005_community leader_0000059",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/005_community leader_0000060.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/005_community leader_0000060.png\"}",
-        "name": "005_community leader_0000060",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/005_community leader_00000412.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "005_community leader_00000412",
+        "name": "Large Play Button",
         "smoothed": true,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/005_community leader_00000413.png",
+        "file": "assets/Large Play Button22.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": "005_community leader_00000413",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/005_community leader_00000414.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "005_community leader_00000414",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/005_community leader_00000415.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "005_community leader_00000415",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/005_community leader_00000416.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "005_community leader_00000416",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/005_community leader_00000417.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "005_community leader_00000417",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/005_community leader_00000418.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "005_community leader_00000418",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/005_community leader_00000419.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "005_community leader_00000419",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/005_community leader_000004110.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "005_community leader_000004110",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/005_community leader_000004111.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "005_community leader_000004111",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/005_community leader_000004112.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "005_community leader_000004112",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/005_community leader_000004113.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "005_community leader_000004113",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/005_community leader_000004114.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "005_community leader_000004114",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/005_community leader_000004115.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "005_community leader_000004115",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/005_community leader_000004116.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "005_community leader_000004116",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/008_discerning citizen_0000021.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "008_discerning citizen_0000021",
+        "name": "Large Play Button2",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/008_discerning citizen_0000022.png",
+        "file": "assets/Large Play Button3.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "008_discerning citizen_0000022",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Large Play Button3.png\"}",
+        "name": "Large Play Button3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Large Play Button4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Large Play Button4.png\"}",
+        "name": "Large Play Button4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ewfef.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"ewfef.png\",\"extension\":\".png\"}",
+        "name": "ewfef.png",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/008_discerning citizen_0000023.png",
+        "file": "assets/New image43.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "008_discerning citizen_0000023",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image4",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/008_discerning citizen_0000024.png",
+        "file": "assets/NewSprite.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": "008_discerning citizen_0000024",
+        "name": "NewSprite",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/008_discerning citizen_0000025.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "008_discerning citizen_0000025",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/008_discerning citizen_0000026.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "008_discerning citizen_0000026",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/008_discerning citizen_0000027.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "008_discerning citizen_0000027",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/008_discerning citizen_0000028.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "008_discerning citizen_0000028",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/008_discerning citizen_0000029.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "008_discerning citizen_0000029",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/008_discerning citizen_0000030.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "008_discerning citizen_0000030",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/008_discerning citizen_0000031.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "008_discerning citizen_0000031",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/008_discerning citizen_0000032.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "008_discerning citizen_0000032",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/008_discerning citizen_0000033.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "008_discerning citizen_0000033",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/008_discerning citizen_0000034.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "008_discerning citizen_0000034",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/008_discerning citizen_0000035.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "008_discerning citizen_0000035",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/008_discerning citizen_0000036.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "008_discerning citizen_0000036",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/008_discerning citizen_0000037.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "008_discerning citizen_0000037",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/008_discerning citizen_0000038.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "008_discerning citizen_0000038",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/008_discerning citizen_0000039.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "008_discerning citizen_0000039",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/008_discerning citizen_0000040.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "008_discerning citizen_0000040",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/003_caring citizen_0000065.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "003_caring citizen_0000065",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/003_caring citizen_0000066.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "003_caring citizen_0000066",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/003_caring citizen_0000067.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "003_caring citizen_0000067",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/003_caring citizen_0000068.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "003_caring citizen_0000068",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/003_caring citizen_0000069.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "003_caring citizen_0000069",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/003_caring citizen_0000070.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "003_caring citizen_0000070",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/003_caring citizen_0000071.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "003_caring citizen_0000071",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/003_caring citizen_0000072.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "003_caring citizen_0000072",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/003_caring citizen_0000073.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "003_caring citizen_0000073",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/003_caring citizen_0000074.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "003_caring citizen_0000074",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/003_caring citizen_0000075.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "003_caring citizen_0000075",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/003_caring citizen_0000076.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "003_caring citizen_0000076",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/003_caring citizen_0000077.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "003_caring citizen_0000077",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/003_caring citizen_0000078.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "003_caring citizen_0000078",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/003_caring citizen_0000079.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "003_caring citizen_0000079",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/003_caring citizen_0000080.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "003_caring citizen_0000080",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/003_caring citizen_0000081.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "003_caring citizen_0000081",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/003_caring citizen_0000082.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "003_caring citizen_0000082",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/003_caring citizen_0000083.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "003_caring citizen_0000083",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/003_caring citizen_0000084.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "003_caring citizen_0000084",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/003_caring citizen_0000085.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "003_caring citizen_0000085",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/003_caring citizen_0000086.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "003_caring citizen_0000086",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/003_caring citizen_0000087.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "003_caring citizen_0000087",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/003_caring citizen_0000088.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "003_caring citizen_0000088",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/003_caring citizen_0000089.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "003_caring citizen_0000089",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/003_caring citizen_0000090.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "003_caring citizen_0000090",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/003_caring citizen_0000091.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "003_caring citizen_0000091",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/003_caring citizen_0000092.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "003_caring citizen_0000092",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "BG_PNG.png",
+        "file": "Screenshot 2023-06-09 004245.png",
         "kind": "image",
         "metadata": "",
-        "name": "BG_PNG.png",
+        "name": "Screenshot 2023-06-09 004245.png",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "BG_animations_00000.png",
+        "file": "Screenshot 2023-06-09 004428.png",
         "kind": "image",
         "metadata": "",
-        "name": "BG_animations_00000.png",
+        "name": "Screenshot 2023-06-09 004428.png",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "BG_animations_00001.png",
+        "file": "Screenshot 2023-06-09 004535.png",
         "kind": "image",
         "metadata": "",
-        "name": "BG_animations_00001.png",
+        "name": "Screenshot 2023-06-09 004535.png",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "BG_animations_00002.png",
+        "file": "Screenshot 2023-06-09 0045352.png",
         "kind": "image",
         "metadata": "",
-        "name": "BG_animations_00002.png",
+        "name": "Screenshot 2023-06-09 0045352.png",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "BG_animations_00003.png",
+        "file": "Screenshot 2023-06-09 004703.png",
         "kind": "image",
         "metadata": "",
-        "name": "BG_animations_00003.png",
+        "name": "Screenshot 2023-06-09 004703.png",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "BG_animations_00004.png",
+        "file": "assets/Large Play Button2.png",
         "kind": "image",
         "metadata": "",
-        "name": "BG_animations_00004.png",
+        "name": "assets\\Large Play Button2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Large Play Button4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Large Play Button4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Large Play Button22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Large Play Button22.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sprites_UI_Ok.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sprites\\UI\\Ok",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "BG_animations_000002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "BG_animations_000002.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "BG_animations_000012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "BG_animations_000012.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "BG_animations_000022.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "BG_animations_000022.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "BG_animations_000032.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "BG_animations_000032.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "BG_animations_000042.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "BG_animations_000042.png",
         "smoothed": true,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "BG_animations_00005.png",
+        "file": "BG_animations_000052.png",
         "kind": "image",
         "metadata": "",
-        "name": "BG_animations_00005.png",
+        "name": "BG_animations_000052.png",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "BG_animations_00006.png",
+        "file": "BG_animations_000062.png",
         "kind": "image",
         "metadata": "",
-        "name": "BG_animations_00006.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "BG_animations_00007.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "BG_animations_00007.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "BG_animations_00008.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "BG_animations_00008.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "BG_animations_00009.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "BG_animations_00009.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "BG_animations_00010.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "BG_animations_00010.png",
+        "name": "BG_animations_000062.png",
         "smoothed": true,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "BG_animations_00011.png",
+        "file": "BG_animations_000072.png",
         "kind": "image",
         "metadata": "",
-        "name": "BG_animations_00011.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "BG_animations_00012.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "BG_animations_00012.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "BG_animations_00013.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "BG_animations_00013.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "BG_animations_00014.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "BG_animations_00014.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "BG_animations_00015.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "BG_animations_00015.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "BG_animations_00016.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "BG_animations_00016.png",
+        "name": "BG_animations_000072.png",
         "smoothed": true,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "BG_animations_00017.png",
+        "file": "BG_animations_000082.png",
         "kind": "image",
         "metadata": "",
-        "name": "BG_animations_00017.png",
+        "name": "BG_animations_000082.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "BG_animations_000092.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "BG_animations_000092.png",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "BG_animations_00018.png",
+        "file": "BG_animations_000102.png",
         "kind": "image",
         "metadata": "",
-        "name": "BG_animations_00018.png",
+        "name": "BG_animations_000102.png",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "BG_animations_00019.png",
+        "file": "BG_animations_000112.png",
         "kind": "image",
         "metadata": "",
-        "name": "BG_animations_00019.png",
+        "name": "BG_animations_000112.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "BG_animations_000122.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "BG_animations_000122.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "BG_animations_000132.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "BG_animations_000132.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "BG_animations_000142.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "BG_animations_000142.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "BG_animations_000152.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "BG_animations_000152.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "BG_animations_000162.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "BG_animations_000162.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "BG_animations_000172.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "BG_animations_000172.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "BG_animations_000182.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "BG_animations_000182.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "BG_animations_000192.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "BG_animations_000192.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "BG_PNG2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "BG_PNG2.png",
         "smoothed": true,
         "userAdded": true
       }
@@ -9055,11 +7957,11 @@
             {
               "looping": true,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.125,
+              "timeBetweenFrames": 0.2,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "002_cheerleader_0000021",
+                  "image": "002_cheerleader_00000",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -9076,7 +7978,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "002_cheerleader_0000022",
+                  "image": "002_cheerleader_000002",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -9093,7 +7995,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "002_cheerleader_0000023",
+                  "image": "002_cheerleader_000003",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -9110,7 +8012,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "002_cheerleader_0000024",
+                  "image": "002_cheerleader_000004",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -9127,7 +8029,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "002_cheerleader_0000025",
+                  "image": "002_cheerleader_000005",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -9144,7 +8046,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "002_cheerleader_0000026",
+                  "image": "002_cheerleader_000006",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -9161,7 +8063,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "002_cheerleader_0000027",
+                  "image": "002_cheerleader_000007",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -9178,7 +8080,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "002_cheerleader_0000028",
+                  "image": "002_cheerleader_000008",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -9195,7 +8097,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "002_cheerleader_0000029",
+                  "image": "002_cheerleader_000009",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -9212,7 +8114,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "002_cheerleader_0000030",
+                  "image": "002_cheerleader_0000010",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -9229,7 +8131,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "002_cheerleader_0000031",
+                  "image": "002_cheerleader_0000011",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -9246,7 +8148,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "002_cheerleader_0000032",
+                  "image": "002_cheerleader_0000012",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -9263,7 +8165,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "002_cheerleader_0000033",
+                  "image": "002_cheerleader_0000013",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -9280,7 +8182,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "002_cheerleader_0000034",
+                  "image": "002_cheerleader_0000014",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -9297,7 +8199,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "002_cheerleader_0000035",
+                  "image": "002_cheerleader_0000015",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -9314,7 +8216,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "002_cheerleader_0000036",
+                  "image": "002_cheerleader_0000016",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -9331,7 +8233,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "002_cheerleader_0000037",
+                  "image": "002_cheerleader_0000017",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -9348,7 +8250,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "002_cheerleader_0000038",
+                  "image": "002_cheerleader_0000018",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -9365,7 +8267,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "002_cheerleader_0000039",
+                  "image": "002_cheerleader_0000019",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -9382,126 +8284,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "002_cheerleader_0000040",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "002_cheerleader_0000041",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "002_cheerleader_0000042",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "002_cheerleader_0000043",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "002_cheerleader_0000044",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "002_cheerleader_0000045",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "002_cheerleader_0000046",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "002_cheerleader_0000047",
+                  "image": "002_cheerleader_0000020",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -9588,12 +8371,18 @@
             {
               "looping": true,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.1,
+              "timeBetweenFrames": 0.25,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "003_caring citizen_0000065",
-                  "points": [],
+                  "image": "003_caring citizen_0000021",
+                  "points": [
+                    {
+                      "name": "OriginPoint",
+                      "x": 223.5,
+                      "y": 97
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -9609,8 +8398,14 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "003_caring citizen_0000066",
-                  "points": [],
+                  "image": "003_caring citizen_0000022",
+                  "points": [
+                    {
+                      "name": "OriginPoint",
+                      "x": 223.5,
+                      "y": 97
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -9626,8 +8421,14 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "003_caring citizen_0000067",
-                  "points": [],
+                  "image": "003_caring citizen_0000023",
+                  "points": [
+                    {
+                      "name": "OriginPoint",
+                      "x": 223.5,
+                      "y": 97
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -9643,8 +8444,14 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "003_caring citizen_0000068",
-                  "points": [],
+                  "image": "003_caring citizen_0000024",
+                  "points": [
+                    {
+                      "name": "OriginPoint",
+                      "x": 223.5,
+                      "y": 97
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -9660,8 +8467,14 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "003_caring citizen_0000069",
-                  "points": [],
+                  "image": "003_caring citizen_0000025",
+                  "points": [
+                    {
+                      "name": "OriginPoint",
+                      "x": 223.5,
+                      "y": 97
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -9677,8 +8490,14 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "003_caring citizen_0000070",
-                  "points": [],
+                  "image": "003_caring citizen_0000026",
+                  "points": [
+                    {
+                      "name": "OriginPoint",
+                      "x": 223.5,
+                      "y": 97
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -9694,8 +8513,14 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "003_caring citizen_0000071",
-                  "points": [],
+                  "image": "003_caring citizen_0000027",
+                  "points": [
+                    {
+                      "name": "OriginPoint",
+                      "x": 223.5,
+                      "y": 97
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -9711,8 +8536,14 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "003_caring citizen_0000072",
-                  "points": [],
+                  "image": "003_caring citizen_0000028",
+                  "points": [
+                    {
+                      "name": "OriginPoint",
+                      "x": 223.5,
+                      "y": 97
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -9728,8 +8559,14 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "003_caring citizen_0000073",
-                  "points": [],
+                  "image": "003_caring citizen_0000029",
+                  "points": [
+                    {
+                      "name": "OriginPoint",
+                      "x": 223.5,
+                      "y": 97
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -9745,8 +8582,14 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "003_caring citizen_0000074",
-                  "points": [],
+                  "image": "003_caring citizen_0000030",
+                  "points": [
+                    {
+                      "name": "OriginPoint",
+                      "x": 223.5,
+                      "y": 97
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -9762,8 +8605,14 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "003_caring citizen_0000075",
-                  "points": [],
+                  "image": "003_caring citizen_0000031",
+                  "points": [
+                    {
+                      "name": "OriginPoint",
+                      "x": 223.5,
+                      "y": 97
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -9779,8 +8628,14 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "003_caring citizen_0000076",
-                  "points": [],
+                  "image": "003_caring citizen_0000032",
+                  "points": [
+                    {
+                      "name": "OriginPoint",
+                      "x": 223.5,
+                      "y": 97
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -9796,8 +8651,14 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "003_caring citizen_0000077",
-                  "points": [],
+                  "image": "003_caring citizen_0000033",
+                  "points": [
+                    {
+                      "name": "OriginPoint",
+                      "x": 223.5,
+                      "y": 97
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -9813,8 +8674,14 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "003_caring citizen_0000078",
-                  "points": [],
+                  "image": "003_caring citizen_0000034",
+                  "points": [
+                    {
+                      "name": "OriginPoint",
+                      "x": 223.5,
+                      "y": 97
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -9830,8 +8697,14 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "003_caring citizen_0000079",
-                  "points": [],
+                  "image": "003_caring citizen_0000035",
+                  "points": [
+                    {
+                      "name": "OriginPoint",
+                      "x": 223.5,
+                      "y": 97
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -9847,212 +8720,14 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "003_caring citizen_0000080",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "003_caring citizen_0000081",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "003_caring citizen_0000082",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "003_caring citizen_0000083",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "003_caring citizen_0000084",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "003_caring citizen_0000085",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "003_caring citizen_0000086",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "003_caring citizen_0000087",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "003_caring citizen_0000088",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "003_caring citizen_0000089",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "003_caring citizen_0000090",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "003_caring citizen_0000091",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "003_caring citizen_0000092",
-                  "points": [],
+                  "image": "003_caring citizen_0000036",
+                  "points": [
+                    {
+                      "name": "OriginPoint",
+                      "x": 223.5,
+                      "y": 97
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -10199,17 +8874,17 @@
       ],
       "animations": [
         {
-          "name": "005_community leader_0000041",
+          "name": "005_community leader_00000",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": true,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.1,
+              "timeBetweenFrames": 0.2,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "005_community leader_0000041",
+                  "image": "005_community leader_0000021",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -10226,7 +8901,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "005_community leader_0000042",
+                  "image": "005_community leader_0000022",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -10243,7 +8918,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "005_community leader_0000043",
+                  "image": "005_community leader_0000023",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -10260,7 +8935,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "005_community leader_0000044",
+                  "image": "005_community leader_0000024",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -10277,7 +8952,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "005_community leader_0000045",
+                  "image": "005_community leader_0000025",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -10294,7 +8969,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "005_community leader_0000046",
+                  "image": "005_community leader_0000026",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -10311,7 +8986,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "005_community leader_0000047",
+                  "image": "005_community leader_0000027",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -10328,7 +9003,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "005_community leader_0000048",
+                  "image": "005_community leader_0000028",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -10345,7 +9020,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "005_community leader_0000049",
+                  "image": "005_community leader_0000029",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -10362,7 +9037,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "005_community leader_0000050",
+                  "image": "005_community leader_0000030",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -10379,7 +9054,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "005_community leader_0000051",
+                  "image": "005_community leader_0000031",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -10396,7 +9071,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "005_community leader_0000052",
+                  "image": "005_community leader_0000032",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -10413,7 +9088,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "005_community leader_0000053",
+                  "image": "005_community leader_0000033",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -10430,7 +9105,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "005_community leader_0000054",
+                  "image": "005_community leader_0000034",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -10447,7 +9122,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "005_community leader_0000055",
+                  "image": "005_community leader_0000035",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -10464,7 +9139,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "005_community leader_0000056",
+                  "image": "005_community leader_0000036",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -10481,7 +9156,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "005_community leader_0000057",
+                  "image": "005_community leader_0000037",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -10498,7 +9173,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "005_community leader_0000058",
+                  "image": "005_community leader_0000038",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -10515,7 +9190,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "005_community leader_0000059",
+                  "image": "005_community leader_0000039",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -10532,262 +9207,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "005_community leader_00000412",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "005_community leader_00000413",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "005_community leader_00000414",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "005_community leader_00000415",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "005_community leader_00000416",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "005_community leader_00000417",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "005_community leader_00000418",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "005_community leader_00000419",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "005_community leader_000004110",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "005_community leader_000004111",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "005_community leader_000004112",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "005_community leader_000004113",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "005_community leader_000004114",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "005_community leader_000004115",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "005_community leader_000004116",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "005_community leader_0000060",
+                  "image": "005_community leader_0000040",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13440,11 +11860,11 @@
             {
               "looping": true,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.1,
+              "timeBetweenFrames": 0.1667,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "008_discerning citizen_0000021",
+                  "image": "008_discerning citizen_00000",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13461,7 +11881,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "008_discerning citizen_0000022",
+                  "image": "008_discerning citizen_000002",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13478,7 +11898,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "008_discerning citizen_0000023",
+                  "image": "008_discerning citizen_000003",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13495,7 +11915,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "008_discerning citizen_0000024",
+                  "image": "008_discerning citizen_000004",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13512,7 +11932,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "008_discerning citizen_0000025",
+                  "image": "008_discerning citizen_000005",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13529,7 +11949,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "008_discerning citizen_0000026",
+                  "image": "008_discerning citizen_000006",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13546,7 +11966,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "008_discerning citizen_0000027",
+                  "image": "008_discerning citizen_000007",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13563,7 +11983,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "008_discerning citizen_0000028",
+                  "image": "008_discerning citizen_000008",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13580,7 +12000,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "008_discerning citizen_0000029",
+                  "image": "008_discerning citizen_000009",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13597,7 +12017,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "008_discerning citizen_0000030",
+                  "image": "008_discerning citizen_0000010",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13614,7 +12034,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "008_discerning citizen_0000031",
+                  "image": "008_discerning citizen_0000011",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13631,7 +12051,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "008_discerning citizen_0000032",
+                  "image": "008_discerning citizen_0000012",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13648,7 +12068,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "008_discerning citizen_0000033",
+                  "image": "008_discerning citizen_0000013",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13665,7 +12085,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "008_discerning citizen_0000034",
+                  "image": "008_discerning citizen_0000014",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13682,7 +12102,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "008_discerning citizen_0000035",
+                  "image": "008_discerning citizen_0000015",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13699,7 +12119,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "008_discerning citizen_0000036",
+                  "image": "008_discerning citizen_0000016",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13716,7 +12136,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "008_discerning citizen_0000037",
+                  "image": "008_discerning citizen_0000017",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13733,7 +12153,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "008_discerning citizen_0000038",
+                  "image": "008_discerning citizen_0000018",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13750,7 +12170,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "008_discerning citizen_0000039",
+                  "image": "008_discerning citizen_0000019",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13767,7 +12187,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "008_discerning citizen_0000040",
+                  "image": "008_discerning citizen_0000020",
                   "points": [],
                   "originPoint": {
                     "name": "origine",

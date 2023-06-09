@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6176022530633515,
+    "zoomFactor": 0.25224717832144944,
     "windowMask": false
   },
   "objectsGroups": [
@@ -319,9 +319,9 @@
       "name": "Base",
       "persistentUuid": "0ca702d7-6557-4c23-91cc-2ae4930d2a30",
       "width": 245,
-      "x": 1440,
-      "y": 471,
-      "zOrder": 34,
+      "x": 1472,
+      "y": 479,
+      "zOrder": 50000,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -450,7 +450,7 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "Shop Layer",
+      "layer": "",
       "name": "TowerCap",
       "persistentUuid": "94514a7b-20b5-4587-b50d-00732f7e3593",
       "width": 0,
@@ -734,6 +734,21 @@
     },
     {
       "angle": 0,
+      "customSize": true,
+      "height": 1080,
+      "layer": "",
+      "name": "Map",
+      "persistentUuid": "3c43b592-06c2-42d0-92e3-fb5611edf247",
+      "width": 1620,
+      "x": 0,
+      "y": 37,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
       "customSize": false,
       "height": 0,
       "layer": "",
@@ -912,6 +927,81 @@
       "x": -32,
       "y": 640,
       "zOrder": -1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": -90,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "FireParticles",
+      "persistentUuid": "8584435a-1fba-4d04-905f-160b4beb0a1b",
+      "width": 0,
+      "x": 1230,
+      "y": 1069,
+      "zOrder": 1047,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": -90,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "FireParticles",
+      "persistentUuid": "6c596883-88f1-456f-8156-d3400e952e3f",
+      "width": 0,
+      "x": 600,
+      "y": 771,
+      "zOrder": 1047,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": -90,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "FireParticles",
+      "persistentUuid": "2e0cb5e8-71e9-41ee-b227-10484712ec89",
+      "width": 0,
+      "x": 1495,
+      "y": 186,
+      "zOrder": 1047,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": -90,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "FireParticles",
+      "persistentUuid": "6f6f168e-9cfa-476b-91a5-92d60a919e8c",
+      "width": 0,
+      "x": 396,
+      "y": 164,
+      "zOrder": 1047,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": -90,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "FireParticles",
+      "persistentUuid": "1d32696b-9759-41d1-b815-176655ffde04",
+      "width": 0,
+      "x": 124,
+      "y": 454,
+      "zOrder": 1047,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1796,6 +1886,21 @@
     {
       "angle": 0,
       "customSize": true,
+      "height": 1080,
+      "layer": "",
+      "name": "Map",
+      "persistentUuid": "edc448b6-8b36-488c-8332-801f19320bc1",
+      "width": 1620,
+      "x": 0,
+      "y": 37,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
       "height": 372,
       "layer": "Projectile layer",
       "name": "SpawnRailWest",
@@ -1825,15 +1930,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
+      "customSize": true,
       "height": 1080,
-      "layer": "Path layer",
+      "layer": "",
       "name": "Map",
       "persistentUuid": "fa28a1ac-d1ac-4d73-bcd8-a4a67da18970",
       "width": 1620,
-      "x": 0,
-      "y": 37,
-      "zOrder": 2000,
+      "x": -3,
+      "y": 42,
+      "zOrder": 9999,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1842,13 +1947,88 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "Path layer",
-      "name": "MapOverlay",
-      "persistentUuid": "d6e0f491-94f2-4fab-bc0b-ca8d63d58975",
+      "layer": "Overlay(er)",
+      "name": "OkButton",
+      "persistentUuid": "fff3fe51-b57f-4ddb-a4a3-29fe559c52bb",
       "width": 0,
-      "x": 0,
-      "y": 37,
-      "zOrder": 2001,
+      "x": 1835,
+      "y": 937,
+      "zOrder": 1067,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Overlay(er)",
+      "name": "CrisisInfo",
+      "persistentUuid": "3a4c12ee-3fb2-4499-b077-af217cc49326",
+      "width": 0,
+      "x": 1724,
+      "y": 526,
+      "zOrder": 1068,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 406,
+      "layer": "Overlay(er)",
+      "name": "TutorialGuide",
+      "persistentUuid": "21bb356e-5c10-4e96-9920-92d04d85efec",
+      "width": 978,
+      "x": 2324,
+      "y": 478,
+      "zOrder": 1071,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 1120,
+      "layer": "Overlay(er)",
+      "name": "TutorialOverlay",
+      "persistentUuid": "197cad69-dedb-42d7-b8d9-a2e1db277514",
+      "width": 1703,
+      "x": -4400,
+      "y": -4,
+      "zOrder": 1070,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "TutorialOkButton",
+      "persistentUuid": "d4a18acf-df51-4fb9-bc0f-e2e96b5cd07b",
+      "width": 0,
+      "x": 2021,
+      "y": 933,
+      "zOrder": 1072,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "MapBackground",
+      "persistentUuid": "93101a20-20b7-4dda-804f-581af376bbdf",
+      "width": 0,
+      "x": -1,
+      "y": 44,
+      "zOrder": 1071,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1967,53 +2147,12 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
+              "looping": true,
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "BG_PNG.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "assetStoreId": "",
-      "name": "MapOverlay",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.0833,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "BG_animations_00000.png",
+                  "image": "BG_animations_000002.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2030,7 +2169,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "BG_animations_00001.png",
+                  "image": "BG_animations_000012.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2047,7 +2186,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "BG_animations_00002.png",
+                  "image": "BG_animations_000022.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2064,7 +2203,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "BG_animations_00003.png",
+                  "image": "BG_animations_000032.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2081,7 +2220,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "BG_animations_00004.png",
+                  "image": "BG_animations_000042.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2098,7 +2237,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "BG_animations_00005.png",
+                  "image": "BG_animations_000052.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2115,7 +2254,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "BG_animations_00006.png",
+                  "image": "BG_animations_000062.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2132,7 +2271,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "BG_animations_00007.png",
+                  "image": "BG_animations_000072.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2149,7 +2288,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "BG_animations_00008.png",
+                  "image": "BG_animations_000082.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2166,7 +2305,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "BG_animations_00009.png",
+                  "image": "BG_animations_000092.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2183,7 +2322,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "BG_animations_00010.png",
+                  "image": "BG_animations_000102.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2200,7 +2339,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "BG_animations_00011.png",
+                  "image": "BG_animations_000112.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2217,7 +2356,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "BG_animations_00012.png",
+                  "image": "BG_animations_000122.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2234,7 +2373,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "BG_animations_00013.png",
+                  "image": "BG_animations_000132.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2251,7 +2390,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "BG_animations_00014.png",
+                  "image": "BG_animations_000142.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2268,7 +2407,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "BG_animations_00015.png",
+                  "image": "BG_animations_000152.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2285,7 +2424,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "BG_animations_00016.png",
+                  "image": "BG_animations_000162.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2302,7 +2441,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "BG_animations_00017.png",
+                  "image": "BG_animations_000172.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2319,7 +2458,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "BG_animations_00018.png",
+                  "image": "BG_animations_000182.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2336,7 +2475,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "BG_animations_00019.png",
+                  "image": "BG_animations_000192.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4692,6 +4831,10 @@
           "Property": "Tween",
           "SmallScale": 0.8,
           "NormalScale": 1
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
         }
       ],
       "animations": [
@@ -6902,6 +7045,52 @@
       "behaviors": []
     },
     {
+      "additive": false,
+      "assetStoreId": "",
+      "destroyWhenNoParticles": true,
+      "emitterAngleA": 0,
+      "emitterAngleB": 90,
+      "emitterForceMax": 40,
+      "emitterForceMin": 20,
+      "flow": 10,
+      "jumpForwardInTimeOnCreation": 0,
+      "maxParticleNb": 20,
+      "name": "FireParticles",
+      "particleAlpha1": 204,
+      "particleAlpha2": 0,
+      "particleAlphaRandomness1": 0,
+      "particleAlphaRandomness2": 0,
+      "particleAngle1": -200,
+      "particleAngle2": 200,
+      "particleAngleRandomness1": 0,
+      "particleAngleRandomness2": 0,
+      "particleBlue1": 27,
+      "particleBlue2": 28,
+      "particleGravityX": 0,
+      "particleGravityY": 150,
+      "particleGreen1": 2,
+      "particleGreen2": 231,
+      "particleLifeTimeMax": 1,
+      "particleLifeTimeMin": 0.5,
+      "particleRed1": 208,
+      "particleRed2": 248,
+      "particleSize1": 100,
+      "particleSize2": 75,
+      "particleSizeRandomness1": 0,
+      "particleSizeRandomness2": 0,
+      "rendererParam1": 6,
+      "rendererParam2": 6,
+      "rendererType": "Line",
+      "tags": "",
+      "tank": -1,
+      "textureParticleName": "",
+      "type": "ParticleSystem::ParticleEmitter",
+      "zoneRadius": 45,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
       "assetStoreId": "",
       "bottomMargin": 8,
       "height": 128,
@@ -7715,6 +7904,238 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "zzzzzzzzz",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "B",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 1000,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "TutorialGuide",
+      "tags": "",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "content": {
+        "text": "Tutorial Text 1234",
+        "opacity": 255,
+        "scale": 1,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "assets\\fonts\\AlbaSlab\\36px\\Alba Slab 36px.fnt",
+        "textureAtlasResourceName": "assets\\fonts\\AlbaSlab\\36px\\Alba Slab 36px.png",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "NewTiledSprite",
+      "tags": "",
+      "texture": "",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "name": "TutorialOverlay",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Screenshot 2023-06-09 004703.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "TutorialOkButton",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Glow",
+          "name": "Glow",
+          "doubleParameters": {
+            "distance": 15,
+            "innerStrength": 1,
+            "outerStrength": 2
+          },
+          "stringParameters": {
+            "color": "255;255;255"
+          },
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [
+        {
+          "name": "Button",
+          "type": "TDTD::Button"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "sprites\\UI\\Ok",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "sprites\\UI\\Ok",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "TutorialLight",
+      "tags": "",
+      "type": "Lighting::LightObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "content": {
+        "radius": 100,
+        "color": "255;255;255",
+        "debugMode": false,
+        "texture": ""
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "MapBackground",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "BG_PNG2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
@@ -7723,7 +8144,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Initialization",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -7766,6 +8186,195 @@
                     "",
                     "yes",
                     "yes"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Tutorial Magic"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Tutorial",
+                    "True"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "TutorialOverlay",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "TutorialOverlay",
+                    "=",
+                    "-44",
+                    "=",
+                    "-4"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BitmapText::BitmapTextObject::SetOpacity"
+                  },
+                  "parameters": [
+                    "TutorialGuide",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BitmapText::BitmapTextObject::SetText"
+                  },
+                  "parameters": [
+                    "TutorialGuide",
+                    "=",
+                    "\"Welcome, Guardian of Singapore! Before you set out to defend our country, you must know how to do so.\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreX"
+                  },
+                  "parameters": [
+                    "TutorialGuide",
+                    "=",
+                    "810-TutorialGuide.Width()/2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "TutorialOkButton",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::AddObjectOpacityTween"
+                  },
+                  "parameters": [
+                    "TutorialOverlay",
+                    "Tween",
+                    "\"FadeIn\"",
+                    "180",
+                    "\"easeOutCubic\"",
+                    "1000",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::AddObjectOpacityTween"
+                  },
+                  "parameters": [
+                    "TutorialGuide",
+                    "Tween",
+                    "\"FadeIn\"",
+                    "255",
+                    "\"easeOutCubic\"",
+                    "1000",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeLayerTimeScale"
+                  },
+                  "parameters": [
+                    "",
+                    "",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeLayerTimeScale"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Projectile layer\"",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeLayerTimeScale"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Shop Layer\"",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PauseObjectTimer"
+                  },
+                  "parameters": [
+                    "Spawner",
+                    "\"SpawnerClock\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreX"
+                  },
+                  "parameters": [
+                    "TutorialOkButton",
+                    "=",
+                    "745"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::AddObjectOpacityTween"
+                  },
+                  "parameters": [
+                    "TutorialOkButton",
+                    "Tween",
+                    "\"FadeIn\"",
+                    "255",
+                    "\"easeOutCubic\"",
+                    "1000",
+                    ""
                   ]
                 }
               ]
@@ -8122,8 +8731,29 @@
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": []
+              "conditions": [
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Tutorial",
+                    "True"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "maxWave",
+                    "=",
+                    "4"
+                  ]
+                }
+              ]
             },
             {
               "type": "BuiltinCommonInstructions::Comment",
@@ -8139,7 +8769,17 @@
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
+              "conditions": [
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Tutorial",
+                    ""
+                  ]
+                }
+              ],
               "actions": [
                 {
                   "type": {
@@ -8189,6 +8829,72 @@
                     "MaxTowers",
                     "=",
                     "8"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Tutorial",
+                    "True"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "playerGold",
+                    "=",
+                    "1000"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "UnlockedTier",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "CommSupportAmt",
+                    "=",
+                    "5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "PlacedTowers",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "MaxTowers",
+                    "=",
+                    "1"
                   ]
                 }
               ]
@@ -8687,6 +9393,16 @@
                     "=",
                     "0"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "Crisis2Count",
+                    "=",
+                    "0"
+                  ]
                 }
               ]
             }
@@ -8700,7 +9416,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Continuous Events",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -9863,6 +10578,15 @@
                     "=",
                     "1"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Tutorial",
+                    ""
+                  ]
                 }
               ],
               "actions": [
@@ -10378,6 +11102,16 @@
                 },
                 {
                   "type": {
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "PauseMenu",
+                    "=",
+                    "9999"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "ChangeTimeScale"
                   },
                   "parameters": [
@@ -10731,6 +11465,17 @@
                 "",
                 "\"Left\""
               ]
+            },
+            {
+              "type": {
+                "value": "LayerTimeScale"
+              },
+              "parameters": [
+                "",
+                "\"Shop Layer\"",
+                "!=",
+                "0"
+              ]
             }
           ],
           "actions": [
@@ -10952,6 +11697,449 @@
             }
           ],
           "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Additional Spawning During Crises"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "Spawner",
+                "\"TerroristAttackSpawnerClock\"",
+                ">=",
+                "0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "CrisisSpawnNo",
+                "=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Crisis2Count",
+                "<=",
+                "10"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Terrorist",
+                "Spawner.X()+RandomInRange(-100,100)",
+                "Spawner.Y()+RandomInRange(-30,30)",
+                "\"Projectile layer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "Spawner",
+                "\"TerroristAttackSpawnerClock\""
+              ]
+            },
+            {
+              "type": {
+                "value": "TDTD::EnemyV2::changeTarget"
+              },
+              "parameters": [
+                "Terrorist",
+                "EnemyV2",
+                "Base.CenterX()",
+                "Base.CenterY()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeScale"
+              },
+              "parameters": [
+                "Terrorist",
+                "=",
+                "0.4"
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "EnemyHealthBar",
+                "Terrorist.X()",
+                "Terrorist.Y()",
+                "\"Projectile layer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetMaxValue"
+              },
+              "parameters": [
+                "EnemyHealthBar",
+                "=",
+                "Terrorist.Variable(Health)",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "LinkedObjects::LinkObjects"
+              },
+              "parameters": [
+                "",
+                "Terrorist",
+                "EnemyHealthBar"
+              ]
+            },
+            {
+              "type": {
+                "value": "EnableEffect"
+              },
+              "parameters": [
+                "Terrorist",
+                "\"Aura\"",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "EnableEffect"
+              },
+              "parameters": [
+                "Terrorist",
+                "\"Glitch\"",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Crisis2Count",
+                "+",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Crisis2Count",
+                "=",
+                "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "SelfRad",
+                "Spawner.X()+RandomInRange(-100,100)",
+                "Spawner.Y()+RandomInRange(-30,30)",
+                "\"Projectile layer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "InternetTroll",
+                "Spawner.X()+RandomInRange(-100,100)",
+                "Spawner.Y()+RandomInRange(-30,30)",
+                "\"Projectile layer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "TDTD::EnemyV2::changeTarget"
+              },
+              "parameters": [
+                "Enemies",
+                "EnemyV2",
+                "Base.CenterX()",
+                "Base.CenterY()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeScale"
+              },
+              "parameters": [
+                "Enemies",
+                "=",
+                "0.4"
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "EnemyHealthBar",
+                "Enemies.X()",
+                "Enemies.Y()",
+                "\"Projectile layer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetMaxValue"
+              },
+              "parameters": [
+                "EnemyHealthBar",
+                "=",
+                "Enemies.Variable(Health)",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "LinkedObjects::LinkObjects"
+              },
+              "parameters": [
+                "",
+                "Enemies",
+                "EnemyHealthBar"
+              ]
+            },
+            {
+              "type": {
+                "value": "EnableEffect"
+              },
+              "parameters": [
+                "Enemies",
+                "\"Glitch\"",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "EnableEffect"
+              },
+              "parameters": [
+                "Enemies",
+                "\"Aura\"",
+                "no"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Crisis2Count",
+                "=",
+                "10"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "SelfRad",
+                "Spawner.X()+RandomInRange(-100,100)",
+                "Spawner.Y()+RandomInRange(-30,30)",
+                "\"Projectile layer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "InternetTroll",
+                "Spawner.X()+RandomInRange(-100,100)",
+                "Spawner.Y()+RandomInRange(-30,30)",
+                "\"Projectile layer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "TDTD::EnemyV2::changeTarget"
+              },
+              "parameters": [
+                "Enemies",
+                "EnemyV2",
+                "Base.CenterX()",
+                "Base.CenterY()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeScale"
+              },
+              "parameters": [
+                "Enemies",
+                "=",
+                "0.4"
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "EnemyHealthBar",
+                "Enemies.X()",
+                "Enemies.Y()",
+                "\"Projectile layer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetMaxValue"
+              },
+              "parameters": [
+                "EnemyHealthBar",
+                "=",
+                "Enemies.Variable(Health)",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "LinkedObjects::LinkObjects"
+              },
+              "parameters": [
+                "",
+                "Enemies",
+                "EnemyHealthBar"
+              ]
+            },
+            {
+              "type": {
+                "value": "EnableEffect"
+              },
+              "parameters": [
+                "Enemies",
+                "\"Glitch\"",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "EnableEffect"
+              },
+              "parameters": [
+                "Enemies",
+                "\"Aura\"",
+                "no"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Crisis2Count",
+                ">",
+                "10"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "CrisisSpawnNo",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Crisis2Count",
+                "=",
+                "0"
+              ]
+            }
+          ]
         }
       ],
       "parameters": []
@@ -13144,6 +14332,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Attack or Defend",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -13333,7 +14522,7 @@
               "parameters": [
                 "Debug",
                 "=",
-                "\"\""
+                "\"Debug\""
               ]
             }
           ]
@@ -14798,6 +15987,16 @@
                 "",
                 "!=",
                 "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "TutorialPart",
+                "!=",
+                "3"
               ]
             }
           ],
@@ -18532,7 +19731,7 @@
                   "parameters": [
                     "OkButton",
                     "=",
-                    "1"
+                    "3"
                   ]
                 },
                 {
@@ -18542,7 +19741,7 @@
                   "parameters": [
                     "CrisisInfo",
                     "=",
-                    "2"
+                    "3"
                   ]
                 },
                 {
@@ -18766,6 +19965,16 @@
                 },
                 {
                   "type": {
+                    "value": "MettreX"
+                  },
+                  "parameters": [
+                    "CrisisInfo",
+                    "=",
+                    "810-CrisisTitle.Width()/1.6"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Tween::AddObjectOpacityTween"
                   },
                   "parameters": [
@@ -18807,12 +20016,22 @@
                 },
                 {
                   "type": {
+                    "value": "MettreX"
+                  },
+                  "parameters": [
+                    "OkButton",
+                    "=",
+                    "745"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Tween::AddObjectOpacityTween"
                   },
                   "parameters": [
                     "OkButton",
                     "Tween",
-                    "\"Show\"",
+                    "\"Show2\"",
                     "255",
                     "\"linear\"",
                     "500",
@@ -18869,10 +20088,11 @@
               "actions": [
                 {
                   "type": {
-                    "value": "Cache"
+                    "value": "Delete"
                   },
                   "parameters": [
-                    "CrisisOverlay"
+                    "CrisisOverlay",
+                    ""
                   ]
                 },
                 {
@@ -18901,6 +20121,26 @@
                   },
                   "parameters": [
                     "CrisisTitle",
+                    "=",
+                    "-800"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreX"
+                  },
+                  "parameters": [
+                    "CrisisInfo",
+                    "=",
+                    "-800"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreX"
+                  },
+                  "parameters": [
+                    "OkButton",
                     "=",
                     "-800"
                   ]
@@ -19008,6 +20248,25 @@
                         "=",
                         "2"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "Crisis2Count",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "UnPauseObjectTimer"
+                      },
+                      "parameters": [
+                        "Spawner",
+                        "\"SpawnerClock\""
+                      ]
                     }
                   ]
                 },
@@ -19051,6 +20310,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Shop Stuff",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -19065,10 +20325,73 @@
             "textG": 0,
             "textR": 0
           },
+          "comment": "Tutorial Magic"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "Tutorial",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "ShopCostBackingBottom",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "ShopCostBottom",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "ShopIconBottom",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "ShopLabelBottom",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
           "comment": "Shop Open/Close"
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -19089,6 +20412,17 @@
               "parameters": [
                 "",
                 "Left"
+              ]
+            },
+            {
+              "type": {
+                "value": "LayerTimeScale"
+              },
+              "parameters": [
+                "",
+                "\"Shop Layer\"",
+                "!=",
+                "0"
               ]
             }
           ],
@@ -19416,6 +20750,32 @@
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Tutorial",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarSceneTxt"
+                      },
+                      "parameters": [
+                        "ShopPillar",
+                        "=",
+                        "\"Military\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
                     {
@@ -19677,7 +21037,6 @@
           "comment": "Switch Tabs"
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -19703,6 +21062,15 @@
                     "PsychologicalShopTab",
                     "",
                     "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Tutorial",
                     ""
                   ]
                 }
@@ -19733,6 +21101,15 @@
                     "",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Tutorial",
+                    ""
+                  ]
                 }
               ],
               "actions": [
@@ -19760,6 +21137,16 @@
                     "",
                     "",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "TutorialPart",
+                    "!=",
+                    "1"
                   ]
                 }
               ],
@@ -19817,6 +21204,15 @@
                     "",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Tutorial",
+                    ""
+                  ]
                 }
               ],
               "actions": [
@@ -19843,6 +21239,15 @@
                     "DigitalShopTab",
                     "",
                     "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Tutorial",
                     ""
                   ]
                 }
@@ -21116,6 +22521,1354 @@
             }
           ],
           "parameters": []
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Tutorial Stuff",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Tutorial Lore????????????"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "TutorialOkButton",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "value": "BitmapText::BitmapTextObject::Text"
+              },
+              "parameters": [
+                "TutorialGuide",
+                "=",
+                "\"You are not alone. The Total Defence Towers of Defence have offered their help in defending the city.\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "BitmapText::BitmapTextObject::SetText"
+              },
+              "parameters": [
+                "TutorialGuide",
+                "=",
+                "\"Oh no, an enemy is spawning! Quick, go to the Shop tab ($) and recruit a Soldier!\""
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "TutorialGuide",
+                "=",
+                "810-TutorialGuide.Width()/2"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "TutorialOverlay",
+                "=",
+                "1700"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "TutorialOkButton",
+                "=",
+                "1700"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeLayerTimeScale"
+              },
+              "parameters": [
+                "",
+                "",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeLayerTimeScale"
+              },
+              "parameters": [
+                "",
+                "\"Projectile layer\"",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeLayerTimeScale"
+              },
+              "parameters": [
+                "",
+                "\"Shop Layer\"",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "Spawner",
+                "=",
+                "-10"
+              ]
+            },
+            {
+              "type": {
+                "value": "UnPauseObjectTimer"
+              },
+              "parameters": [
+                "Spawner",
+                "\"SpawnerClock\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "waveDelay",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "PauseObjectTimer"
+              },
+              "parameters": [
+                "Spawner",
+                "\"SpawnerClock\""
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "Spawner",
+                "=",
+                "-320"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "TutorialPart",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "TutorialLight",
+                "TutorialLight",
+                "1555",
+                "55",
+                "\"Overlay(er)\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "TutorialOkButton",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "value": "BitmapText::BitmapTextObject::Text"
+              },
+              "parameters": [
+                "TutorialGuide",
+                "=",
+                "\"Welcome, Guardian of Singapore! Before you set out to defend our country, you must know how to do so.\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "BitmapText::BitmapTextObject::SetText"
+              },
+              "parameters": [
+                "TutorialGuide",
+                "=",
+                "\"You are not alone. The Total Defence Towers of Defence have offered their help in defending the city.\""
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "TutorialGuide",
+                "=",
+                "810-TutorialGuide.Width()/2"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Tutorial Part 1: Spawning 1 Tower"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "TutorialPart",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "ShopButton",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.35"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::AddObjectPositionTween"
+              },
+              "parameters": [
+                "TutorialLight",
+                "Tween",
+                "\"Move\"",
+                "1515",
+                "255",
+                "\"easeOutQuad\"",
+                "250",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BitmapText::BitmapTextObject::SetText"
+              },
+              "parameters": [
+                "TutorialGuide",
+                "=",
+                "\"Click and drag the green spawnbox to set the spawn location of the Soldier, then click the Confirm button. The circle around the spawnbox represents the Tower's range.\""
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "TutorialGuide",
+                "=",
+                "810-TutorialGuide.Width()/2"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "TutorialPart",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SceneInstancesCount"
+              },
+              "parameters": [
+                "",
+                "Towers",
+                ">",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "TutorialLight",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BitmapText::BitmapTextObject::SetText"
+              },
+              "parameters": [
+                "TutorialGuide",
+                "=",
+                "\"The Soldier will automatically attack the enemy Terrorist, as long as it is in range!\""
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "TutorialGuide",
+                "=",
+                "810-TutorialGuide.Width()/2"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "TutorialPart",
+                "=",
+                "2"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Tutorial Part 2: Killing 1 Enemy"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "TutorialPart",
+                "=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "SceneInstancesCount"
+              },
+              "parameters": [
+                "",
+                "Enemies",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "BitmapText::BitmapTextObject::SetText"
+              },
+              "parameters": [
+                "TutorialGuide",
+                "=",
+                "\"The enemy Terrorist has been killed! Hooray!\""
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "TutorialGuide",
+                "=",
+                "810-TutorialGuide.Width()/2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Opacity"
+              },
+              "parameters": [
+                "TutorialOkButton",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "TutorialOkButton",
+                "=",
+                "745"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "TutorialPart",
+                "=",
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::AddObjectOpacityTween"
+              },
+              "parameters": [
+                "TutorialOkButton",
+                "Tween",
+                "\"FadeIn\"",
+                "255",
+                "\"easeOutCubic\"",
+                "1000",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Tutorial Part 3: Career Guider"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "TutorialPart",
+                "=",
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "TutorialOkButton",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "BitmapText::BitmapTextObject::SetText"
+              },
+              "parameters": [
+                "TowerCap",
+                "=",
+                "\"Towers Placed: \""
+              ]
+            },
+            {
+              "type": {
+                "value": "BitmapText::BitmapTextObject::SetText"
+              },
+              "parameters": [
+                "TowerCap",
+                "+",
+                "ToString(GlobalVariable(PlacedTowers))"
+              ]
+            },
+            {
+              "type": {
+                "value": "BitmapText::BitmapTextObject::SetText"
+              },
+              "parameters": [
+                "TowerCap",
+                "+",
+                "\"/\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BitmapText::BitmapTextObject::SetText"
+              },
+              "parameters": [
+                "TowerCap",
+                "+",
+                "ToString(GlobalVariable(MaxTowers))"
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "TowerCap",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BitmapText::BitmapTextObject::SetText"
+              },
+              "parameters": [
+                "TutorialGuide",
+                "=",
+                "\"If you look at the top left corner, you'll see we've run out of Towers! Luckily, you can buy the Career Guider to increase your Tower cap!\""
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "TutorialGuide",
+                "=",
+                "810-TutorialGuide.Width()/2"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "TutorialOkButton",
+                "=",
+                "1700"
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "TutorialLight",
+                "TutorialLight",
+                "1555",
+                "55",
+                "\"Overlay(er)\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "TutorialPart",
+                "=",
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "VarSceneTxt"
+              },
+              "parameters": [
+                "ShopPillar",
+                "=",
+                "\"Military\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SceneVariableAsBoolean"
+              },
+              "parameters": [
+                "ShopIsOpen",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::AddObjectPositionTween"
+              },
+              "parameters": [
+                "TutorialLight",
+                "Tween",
+                "\"Move\"",
+                "1085",
+                "335",
+                "\"easeOutQuad\"",
+                "250",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BitmapText::BitmapTextObject::SetText"
+              },
+              "parameters": [
+                "TutorialGuide",
+                "=",
+                "\"Career Guider can be found under the yellow Economic tab.\""
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "TutorialGuide",
+                "=",
+                "810-TutorialGuide.Width()/2"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "TutorialPart",
+                "=",
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "VarSceneTxt"
+              },
+              "parameters": [
+                "ShopPillar",
+                "=",
+                "\"Economic\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SceneVariableAsBoolean"
+              },
+              "parameters": [
+                "ShopIsOpen",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::AddObjectPositionTween"
+              },
+              "parameters": [
+                "TutorialLight",
+                "Tween",
+                "\"Move\"",
+                "1515",
+                "255",
+                "\"easeOutQuad\"",
+                "250",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "TutorialPart",
+                "=",
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "SceneInstancesCount"
+              },
+              "parameters": [
+                "",
+                "CareerGuider",
+                ">",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "BitmapText::BitmapTextObject::SetText"
+              },
+              "parameters": [
+                "TowerCap",
+                "=",
+                "\"Towers Placed: \""
+              ]
+            },
+            {
+              "type": {
+                "value": "BitmapText::BitmapTextObject::SetText"
+              },
+              "parameters": [
+                "TowerCap",
+                "+",
+                "ToString(GlobalVariable(PlacedTowers))"
+              ]
+            },
+            {
+              "type": {
+                "value": "BitmapText::BitmapTextObject::SetText"
+              },
+              "parameters": [
+                "TowerCap",
+                "+",
+                "\"/\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BitmapText::BitmapTextObject::SetText"
+              },
+              "parameters": [
+                "TowerCap",
+                "+",
+                "ToString(GlobalVariable(MaxTowers))"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "TutorialLight",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BitmapText::BitmapTextObject::SetText"
+              },
+              "parameters": [
+                "TutorialGuide",
+                "=",
+                "\"Now you can recruit more Soldiers to assist you in the fight!\nThere are many more Towers that you can recruit after this tutorial. Check out what they do in the main menu!\""
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "TutorialGuide",
+                "=",
+                "810-TutorialGuide.Width()/2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Opacity"
+              },
+              "parameters": [
+                "TutorialOkButton",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "TutorialOkButton",
+                "=",
+                "745"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "TutorialPart",
+                "=",
+                "4"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::AddObjectOpacityTween"
+              },
+              "parameters": [
+                "TutorialOkButton",
+                "Tween",
+                "\"FadeIn\"",
+                "255",
+                "\"easeOutCubic\"",
+                "1000",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Tutorial Part 4: Upgrades"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "TutorialPart",
+                "=",
+                "4"
+              ]
+            },
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Towers",
+                "Upgraded",
+                "True"
+              ]
+            },
+            {
+              "type": {
+                "value": "BitmapText::BitmapTextObject::Text"
+              },
+              "parameters": [
+                "TutorialGuide",
+                "=",
+                "\"Towers can also be upgraded to improve their abilities! Upgrade any tower by clicking on them and clicking the green upgrade button.\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "BitmapText::BitmapTextObject::SetText"
+              },
+              "parameters": [
+                "TutorialGuide",
+                "=",
+                "\"Great! Now that you know the basics of the game, you have what it takes to survive a horde of enemies!\nYou can also check out what upgraded Towers do in the main menu!\""
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "TutorialGuide",
+                "=",
+                "810-TutorialGuide.Width()/2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Opacity"
+              },
+              "parameters": [
+                "TutorialOkButton",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "TutorialOkButton",
+                "=",
+                "745"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "TutorialPart",
+                "=",
+                "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::AddObjectOpacityTween"
+              },
+              "parameters": [
+                "TutorialOkButton",
+                "Tween",
+                "\"FadeIn\"",
+                "255",
+                "\"easeOutCubic\"",
+                "1000",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "TutorialPart",
+                "=",
+                "4"
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "TutorialOkButton",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "BitmapText::BitmapTextObject::SetText"
+              },
+              "parameters": [
+                "TutorialGuide",
+                "=",
+                "\"Towers can also be upgraded to improve their abilities! Upgrade any tower by clicking on them and clicking the green upgrade button.\""
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "TutorialGuide",
+                "=",
+                "810-TutorialGuide.Width()/2"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "TutorialOkButton",
+                "=",
+                "1700"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Tutorial Part 5: Crisis"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "TutorialPart",
+                "=",
+                "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "TutorialOkButton",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "value": "BitmapText::BitmapTextObject::Text"
+              },
+              "parameters": [
+                "TutorialGuide",
+                "=",
+                "\"You're all set! Defend against the remaining enemies to complete the tutorial!\nOne more thing: Crises are randomly occuring events that spawn a horde of enemies at you. Make sure you're prepared for them!\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "BitmapText::BitmapTextObject::SetText"
+              },
+              "parameters": [
+                "TutorialGuide",
+                "=",
+                "\"Test123\""
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "TutorialGuide",
+                "=",
+                "1700"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "TutorialOkButton",
+                "=",
+                "1700"
+              ]
+            },
+            {
+              "type": {
+                "value": "UnPauseObjectTimer"
+              },
+              "parameters": [
+                "Spawner",
+                "\"SpawnerClock\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "TutorialPart",
+                "=",
+                "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "TutorialOkButton",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "value": "BitmapText::BitmapTextObject::Text"
+              },
+              "parameters": [
+                "TutorialGuide",
+                "=",
+                "\"Great! Now that you know the basics of the game, you have what it takes to survive a horde of enemies!\nYou can also check out what upgraded Towers do in the main menu!\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "BitmapText::BitmapTextObject::SetText"
+              },
+              "parameters": [
+                "TutorialGuide",
+                "=",
+                "\"You're all set! Defend against the remaining enemies to complete the tutorial!\nOne more thing: Crises are randomly occuring events that spawn a horde of enemies at you. Make sure you're prepared for them!\""
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "TutorialGuide",
+                "=",
+                "810-TutorialGuide.Width()/2"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "TutorialPart",
+                "=",
+                "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "VarScene"
+              },
+              "parameters": [
+                "wave",
+                "=",
+                "5"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "CrisisNo",
+                "=",
+                "2"
+              ]
+            }
+          ]
         }
       ],
       "parameters": []
