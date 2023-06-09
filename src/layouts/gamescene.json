@@ -18,8 +18,8 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.25224717832144944,
-    "windowMask": false
+    "zoomFactor": 0.26075303643625786,
+    "windowMask": true
   },
   "objectsGroups": [
     {
@@ -314,13 +314,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 169,
+      "height": 861,
       "layer": "",
+      "locked": true,
       "name": "Base",
       "persistentUuid": "0ca702d7-6557-4c23-91cc-2ae4930d2a30",
-      "width": 245,
-      "x": 1472,
-      "y": 479,
+      "sealed": true,
+      "width": 1232,
+      "x": 392,
+      "y": 153,
       "zOrder": 50000,
       "numberProperties": [],
       "stringProperties": [],
@@ -456,7 +458,7 @@
       "width": 0,
       "x": 23,
       "y": 116,
-      "zOrder": 1008,
+      "zOrder": 1220,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -742,7 +744,7 @@
       "width": 1620,
       "x": 0,
       "y": 37,
-      "zOrder": 0,
+      "zOrder": 1066,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -757,7 +759,7 @@
       "width": 0,
       "x": -55,
       "y": 55,
-      "zOrder": 10,
+      "zOrder": 1070,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -819,7 +821,7 @@
       "width": 0,
       "x": 29,
       "y": 943,
-      "zOrder": 1039,
+      "zOrder": 1100,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -834,7 +836,7 @@
       "width": 0,
       "x": 163,
       "y": 982,
-      "zOrder": 1040,
+      "zOrder": 1101,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1893,7 +1895,7 @@
       "width": 1620,
       "x": 0,
       "y": 37,
-      "zOrder": 0,
+      "zOrder": 1066,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1938,7 +1940,7 @@
       "width": 1620,
       "x": -3,
       "y": 42,
-      "zOrder": 9999,
+      "zOrder": 1066,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1953,7 +1955,7 @@
       "width": 0,
       "x": 1835,
       "y": 937,
-      "zOrder": 1067,
+      "zOrder": 1100,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2007,13 +2009,13 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "",
+      "layer": "Overlay(er)",
       "name": "TutorialOkButton",
       "persistentUuid": "d4a18acf-df51-4fb9-bc0f-e2e96b5cd07b",
       "width": 0,
       "x": 2021,
       "y": 933,
-      "zOrder": 1072,
+      "zOrder": 1120,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2028,7 +2030,7 @@
       "width": 0,
       "x": -1,
       "y": 44,
-      "zOrder": 1071,
+      "zOrder": 1065,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2075,12 +2077,12 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
+              "looping": true,
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "sprites\\Maps\\SAM.png",
+                  "image": "MBS,Merlion and Art science museum_00000.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2096,20 +2098,704 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 30,
-                        "y": 30
+                        "x": 1483.5,
+                        "y": 470
                       },
                       {
-                        "x": 171,
-                        "y": 30
+                        "x": 1620,
+                        "y": 477
                       },
                       {
-                        "x": 171,
-                        "y": 112
+                        "x": 1620,
+                        "y": 610
                       },
                       {
-                        "x": 30,
-                        "y": 112
+                        "x": 1478.5,
+                        "y": 612
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "MBS,Merlion and Art science museum_00001.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1483.5,
+                        "y": 470
+                      },
+                      {
+                        "x": 1620,
+                        "y": 477
+                      },
+                      {
+                        "x": 1620,
+                        "y": 610
+                      },
+                      {
+                        "x": 1478.5,
+                        "y": 612
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "MBS,Merlion and Art science museum_00002.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1483.5,
+                        "y": 470
+                      },
+                      {
+                        "x": 1620,
+                        "y": 477
+                      },
+                      {
+                        "x": 1620,
+                        "y": 610
+                      },
+                      {
+                        "x": 1478.5,
+                        "y": 612
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "MBS,Merlion and Art science museum_00003.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1483.5,
+                        "y": 470
+                      },
+                      {
+                        "x": 1620,
+                        "y": 477
+                      },
+                      {
+                        "x": 1620,
+                        "y": 610
+                      },
+                      {
+                        "x": 1478.5,
+                        "y": 612
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "MBS,Merlion and Art science museum_00004.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1483.5,
+                        "y": 470
+                      },
+                      {
+                        "x": 1620,
+                        "y": 477
+                      },
+                      {
+                        "x": 1620,
+                        "y": 610
+                      },
+                      {
+                        "x": 1478.5,
+                        "y": 612
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "MBS,Merlion and Art science museum_00005.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1483.5,
+                        "y": 470
+                      },
+                      {
+                        "x": 1620,
+                        "y": 477
+                      },
+                      {
+                        "x": 1620,
+                        "y": 610
+                      },
+                      {
+                        "x": 1478.5,
+                        "y": 612
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "MBS,Merlion and Art science museum_00006.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1483.5,
+                        "y": 470
+                      },
+                      {
+                        "x": 1620,
+                        "y": 477
+                      },
+                      {
+                        "x": 1620,
+                        "y": 610
+                      },
+                      {
+                        "x": 1478.5,
+                        "y": 612
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "MBS,Merlion and Art science museum_00007.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1483.5,
+                        "y": 470
+                      },
+                      {
+                        "x": 1620,
+                        "y": 477
+                      },
+                      {
+                        "x": 1620,
+                        "y": 610
+                      },
+                      {
+                        "x": 1478.5,
+                        "y": 612
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "MBS,Merlion and Art science museum_00008.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1483.5,
+                        "y": 470
+                      },
+                      {
+                        "x": 1620,
+                        "y": 477
+                      },
+                      {
+                        "x": 1620,
+                        "y": 610
+                      },
+                      {
+                        "x": 1478.5,
+                        "y": 612
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "MBS,Merlion and Art science museum_00009.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1483.5,
+                        "y": 470
+                      },
+                      {
+                        "x": 1620,
+                        "y": 477
+                      },
+                      {
+                        "x": 1620,
+                        "y": 610
+                      },
+                      {
+                        "x": 1478.5,
+                        "y": 612
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "MBS,Merlion and Art science museum_00010.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1483.5,
+                        "y": 470
+                      },
+                      {
+                        "x": 1620,
+                        "y": 477
+                      },
+                      {
+                        "x": 1620,
+                        "y": 610
+                      },
+                      {
+                        "x": 1478.5,
+                        "y": 612
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "MBS,Merlion and Art science museum_00011.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1483.5,
+                        "y": 470
+                      },
+                      {
+                        "x": 1620,
+                        "y": 477
+                      },
+                      {
+                        "x": 1620,
+                        "y": 610
+                      },
+                      {
+                        "x": 1478.5,
+                        "y": 612
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "MBS,Merlion and Art science museum_00012.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1483.5,
+                        "y": 470
+                      },
+                      {
+                        "x": 1620,
+                        "y": 477
+                      },
+                      {
+                        "x": 1620,
+                        "y": 610
+                      },
+                      {
+                        "x": 1478.5,
+                        "y": 612
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "MBS,Merlion and Art science museum_00013.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1483.5,
+                        "y": 470
+                      },
+                      {
+                        "x": 1620,
+                        "y": 477
+                      },
+                      {
+                        "x": 1620,
+                        "y": 610
+                      },
+                      {
+                        "x": 1478.5,
+                        "y": 612
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "MBS,Merlion and Art science museum_00014.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1483.5,
+                        "y": 470
+                      },
+                      {
+                        "x": 1620,
+                        "y": 477
+                      },
+                      {
+                        "x": 1620,
+                        "y": 610
+                      },
+                      {
+                        "x": 1478.5,
+                        "y": 612
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "MBS,Merlion and Art science museum_00015.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1483.5,
+                        "y": 470
+                      },
+                      {
+                        "x": 1620,
+                        "y": 477
+                      },
+                      {
+                        "x": 1620,
+                        "y": 610
+                      },
+                      {
+                        "x": 1478.5,
+                        "y": 612
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "MBS,Merlion and Art science museum_00016.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1483.5,
+                        "y": 470
+                      },
+                      {
+                        "x": 1620,
+                        "y": 477
+                      },
+                      {
+                        "x": 1620,
+                        "y": 610
+                      },
+                      {
+                        "x": 1478.5,
+                        "y": 612
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "MBS,Merlion and Art science museum_00017.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1483.5,
+                        "y": 470
+                      },
+                      {
+                        "x": 1620,
+                        "y": 477
+                      },
+                      {
+                        "x": 1620,
+                        "y": 610
+                      },
+                      {
+                        "x": 1478.5,
+                        "y": 612
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "MBS,Merlion and Art science museum_00018.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1483.5,
+                        "y": 470
+                      },
+                      {
+                        "x": 1620,
+                        "y": 477
+                      },
+                      {
+                        "x": 1620,
+                        "y": 610
+                      },
+                      {
+                        "x": 1478.5,
+                        "y": 612
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "MBS,Merlion and Art science museum_00019.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1483.5,
+                        "y": 470
+                      },
+                      {
+                        "x": 1620,
+                        "y": 477
+                      },
+                      {
+                        "x": 1620,
+                        "y": 610
+                      },
+                      {
+                        "x": 1478.5,
+                        "y": 612
                       }
                     ]
                   ]
@@ -2152,7 +2838,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "BG_animations_000002.png",
+                  "image": "Elements_animations_00000.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2169,7 +2855,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "BG_animations_000012.png",
+                  "image": "Elements_animations_00001.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2186,7 +2872,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "BG_animations_000022.png",
+                  "image": "Elements_animations_00002.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2203,7 +2889,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "BG_animations_000032.png",
+                  "image": "Elements_animations_00003.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2220,7 +2906,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "BG_animations_000042.png",
+                  "image": "Elements_animations_00004.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2237,7 +2923,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "BG_animations_000052.png",
+                  "image": "Elements_animations_00005.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2254,7 +2940,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "BG_animations_000062.png",
+                  "image": "Elements_animations_00006.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2271,7 +2957,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "BG_animations_000072.png",
+                  "image": "Elements_animations_00007.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2288,7 +2974,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "BG_animations_000082.png",
+                  "image": "Elements_animations_00008.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2305,7 +2991,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "BG_animations_000092.png",
+                  "image": "Elements_animations_00009.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2322,7 +3008,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "BG_animations_000102.png",
+                  "image": "Elements_animations_00010.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2339,7 +3025,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "BG_animations_000112.png",
+                  "image": "Elements_animations_00011.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2356,7 +3042,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "BG_animations_000122.png",
+                  "image": "Elements_animations_00012.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2373,7 +3059,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "BG_animations_000132.png",
+                  "image": "Elements_animations_00013.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2390,7 +3076,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "BG_animations_000142.png",
+                  "image": "Elements_animations_00014.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2407,7 +3093,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "BG_animations_000152.png",
+                  "image": "Elements_animations_00015.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2424,7 +3110,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "BG_animations_000162.png",
+                  "image": "Elements_animations_00016.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2441,7 +3127,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "BG_animations_000172.png",
+                  "image": "Elements_animations_00017.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2458,7 +3144,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "BG_animations_000182.png",
+                  "image": "Elements_animations_00018.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2475,7 +3161,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "BG_animations_000192.png",
+                  "image": "Elements_animations_00019.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -8160,7 +8846,18 @@
               ]
             }
           ],
-          "actions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "TutorialPart",
+                "=",
+                "0"
+              ]
+            }
+          ],
           "events": [
             {
               "type": "BuiltinCommonInstructions::Comment",
@@ -9416,6 +10113,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Continuous Events",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -10372,8 +11070,8 @@
                               "parameters": [
                                 "Enemies",
                                 "EnemyV2",
-                                "Base.CenterX()",
-                                "Base.CenterY()",
+                                "1618",
+                                "584",
                                 ""
                               ]
                             },
@@ -10441,8 +11139,8 @@
                               "parameters": [
                                 "Enemies",
                                 "EnemyV2",
-                                "Base.CenterX()",
-                                "Base.CenterY()",
+                                "1618",
+                                "584",
                                 ""
                               ]
                             },
@@ -11774,8 +12472,8 @@
               "parameters": [
                 "Terrorist",
                 "EnemyV2",
-                "Base.CenterX()",
-                "Base.CenterY()",
+                "1618",
+                "584",
                 ""
               ]
             },
@@ -11906,8 +12604,8 @@
               "parameters": [
                 "Enemies",
                 "EnemyV2",
-                "Base.CenterX()",
-                "Base.CenterY()",
+                "1618",
+                "584",
                 ""
               ]
             },
@@ -12028,8 +12726,8 @@
               "parameters": [
                 "Enemies",
                 "EnemyV2",
-                "Base.CenterX()",
-                "Base.CenterY()",
+                "1618",
+                "584",
                 ""
               ]
             },
@@ -15821,7 +16519,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "SpawnBox and Spawning",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -20310,7 +21007,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Shop Stuff",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",

@@ -1,5 +1,5 @@
 {
-  "firstLayout": "MainMenu",
+  "firstLayout": "LoreScene???????",
   "gdVersion": {
     "build": 99,
     "major": 4,
@@ -7892,6 +7892,1068 @@
         "name": "BG_PNG2.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Elements_animations_00004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Elements_animations_00004.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Elements_animations_00005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Elements_animations_00005.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Elements_animations_00006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Elements_animations_00006.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Elements_animations_00007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Elements_animations_00007.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Elements_animations_00010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Elements_animations_00010.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Elements_animations_00011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Elements_animations_00011.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Elements_animations_00012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Elements_animations_00012.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Elements_animations_00013.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Elements_animations_00013.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Elements_animations_00018.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Elements_animations_00018.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Elements_animations_00001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Elements_animations_00001.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Elements_animations_00002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Elements_animations_00002.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Elements_animations_00003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Elements_animations_00003.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Elements_animations_00008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Elements_animations_00008.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Elements_animations_00009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Elements_animations_00009.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Elements_animations_00014.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Elements_animations_00014.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Elements_animations_00015.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Elements_animations_00015.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Elements_animations_00016.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Elements_animations_00016.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Elements_animations_00017.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Elements_animations_00017.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Elements_animations_00019.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Elements_animations_00019.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Elements_animations_00000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Elements_animations_00000.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../../Downloads/Background Animation/Elements/Elements_animations_00000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\..\\Downloads\\Background Animation\\Elements\\Elements_animations_00000.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../../Downloads/Background Animation/Elements/Elements_animations_00001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\..\\Downloads\\Background Animation\\Elements\\Elements_animations_00001.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../../Downloads/Background Animation/Elements/Elements_animations_00002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\..\\Downloads\\Background Animation\\Elements\\Elements_animations_00002.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../../Downloads/Background Animation/Elements/Elements_animations_00003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\..\\Downloads\\Background Animation\\Elements\\Elements_animations_00003.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../../Downloads/TDTD-main/src/Elements_animations_00000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\..\\Downloads\\TDTD-main\\src\\Elements_animations_00000.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../../Downloads/TDTD-main/src/Elements_animations_00001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\..\\Downloads\\TDTD-main\\src\\Elements_animations_00001.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../../Downloads/TDTD-main/src/Elements_animations_00002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\..\\Downloads\\TDTD-main\\src\\Elements_animations_00002.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../../Downloads/TDTD-main/src/Elements_animations_00003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\..\\Downloads\\TDTD-main\\src\\Elements_animations_00003.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "MBS,Merlion and Art science museum_00000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "MBS,Merlion and Art science museum_00000.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "MBS,Merlion and Art science museum_00001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "MBS,Merlion and Art science museum_00001.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "MBS,Merlion and Art science museum_00002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "MBS,Merlion and Art science museum_00002.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "MBS,Merlion and Art science museum_00003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "MBS,Merlion and Art science museum_00003.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "MBS,Merlion and Art science museum_00004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "MBS,Merlion and Art science museum_00004.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "MBS,Merlion and Art science museum_00005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "MBS,Merlion and Art science museum_00005.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "MBS,Merlion and Art science museum_00006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "MBS,Merlion and Art science museum_00006.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "MBS,Merlion and Art science museum_00007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "MBS,Merlion and Art science museum_00007.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "MBS,Merlion and Art science museum_00008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "MBS,Merlion and Art science museum_00008.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "MBS,Merlion and Art science museum_00009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "MBS,Merlion and Art science museum_00009.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "MBS,Merlion and Art science museum_00010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "MBS,Merlion and Art science museum_00010.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "MBS,Merlion and Art science museum_00011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "MBS,Merlion and Art science museum_00011.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "MBS,Merlion and Art science museum_00012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "MBS,Merlion and Art science museum_00012.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "MBS,Merlion and Art science museum_00013.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "MBS,Merlion and Art science museum_00013.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "MBS,Merlion and Art science museum_00014.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "MBS,Merlion and Art science museum_00014.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "MBS,Merlion and Art science museum_00015.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "MBS,Merlion and Art science museum_00015.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "MBS,Merlion and Art science museum_00016.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "MBS,Merlion and Art science museum_00016.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "MBS,Merlion and Art science museum_00017.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "MBS,Merlion and Art science museum_00017.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "MBS,Merlion and Art science museum_00018.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "MBS,Merlion and Art science museum_00018.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "MBS,Merlion and Art science museum_00019.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "MBS,Merlion and Art science museum_00019.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "screen_title_BG.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "screen_title_BG.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "screen_title_foreground.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "screen_title_foreground.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "screen_title_name.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "screen_title_name.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Title_Screen_Fire_00004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Title_Screen_Fire_00004.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Title_Screen_Fire_00005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Title_Screen_Fire_00005.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Title_Screen_Fire_00006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Title_Screen_Fire_00006.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Title_Screen_Fire_00007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Title_Screen_Fire_00007.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Title_Screen_Fire_00010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Title_Screen_Fire_00010.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Title_Screen_Fire_00011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Title_Screen_Fire_00011.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Title_Screen_Fire_00012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Title_Screen_Fire_00012.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Title_Screen_Fire_00013.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Title_Screen_Fire_00013.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Title_Screen_Fire_00018.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Title_Screen_Fire_00018.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Title_Screen_Fire_00019.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Title_Screen_Fire_00019.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Title_Screen_Fire_00024.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Title_Screen_Fire_00024.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Title_Screen_Fire_00026.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Title_Screen_Fire_00026.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Title_Screen_Fire_00027.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Title_Screen_Fire_00027.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Title_Screen_Fire_00030.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Title_Screen_Fire_00030.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Title_Screen_Fire_00031.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Title_Screen_Fire_00031.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Title_Screen_Fire_00000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Title_Screen_Fire_00000.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Title_Screen_Fire_00001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Title_Screen_Fire_00001.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Title_Screen_Fire_00002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Title_Screen_Fire_00002.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Title_Screen_Fire_00003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Title_Screen_Fire_00003.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Title_Screen_Fire_00008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Title_Screen_Fire_00008.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Title_Screen_Fire_00009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Title_Screen_Fire_00009.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Title_Screen_Fire_00014.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Title_Screen_Fire_00014.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Title_Screen_Fire_00015.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Title_Screen_Fire_00015.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Title_Screen_Fire_00016.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Title_Screen_Fire_00016.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Title_Screen_Fire_00017.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Title_Screen_Fire_00017.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Title_Screen_Fire_00020.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Title_Screen_Fire_00020.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Title_Screen_Fire_00021.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Title_Screen_Fire_00021.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Title_Screen_Fire_00022.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Title_Screen_Fire_00022.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Title_Screen_Fire_00023.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Title_Screen_Fire_00023.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Title_Screen_Fire_00025.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Title_Screen_Fire_00025.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Title_Screen_Fire_00028.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Title_Screen_Fire_00028.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Title_Screen_Fire_00029.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Title_Screen_Fire_00029.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Title_Screen_Fire_000042.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Title_Screen_Fire_000042.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Title_Screen_Fire_000052.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Title_Screen_Fire_000052.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Title_Screen_Fire_000062.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Title_Screen_Fire_000062.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Title_Screen_Fire_000072.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Title_Screen_Fire_000072.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Title_Screen_Fire_000102.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Title_Screen_Fire_000102.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Title_Screen_Fire_000112.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Title_Screen_Fire_000112.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Title_Screen_Fire_000122.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Title_Screen_Fire_000122.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Title_Screen_Fire_000132.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Title_Screen_Fire_000132.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Title_Screen_Fire_000182.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Title_Screen_Fire_000182.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Title_Screen_Fire_000192.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Title_Screen_Fire_000192.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Title_Screen_Fire_000242.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Title_Screen_Fire_000242.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Title_Screen_Fire_000262.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Title_Screen_Fire_000262.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Title_Screen_Fire_000272.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Title_Screen_Fire_000272.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Title_Screen_Fire_000302.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Title_Screen_Fire_000302.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Title_Screen_Fire_000312.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Title_Screen_Fire_000312.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Title_Screen_Fire_000002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Title_Screen_Fire_000002.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Title_Screen_Fire_000012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Title_Screen_Fire_000012.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Title_Screen_Fire_000022.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Title_Screen_Fire_000022.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Title_Screen_Fire_000032.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Title_Screen_Fire_000032.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Title_Screen_Fire_000082.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Title_Screen_Fire_000082.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Title_Screen_Fire_000092.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Title_Screen_Fire_000092.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Title_Screen_Fire_000142.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Title_Screen_Fire_000142.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Title_Screen_Fire_000152.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Title_Screen_Fire_000152.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Title_Screen_Fire_000162.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Title_Screen_Fire_000162.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Title_Screen_Fire_000172.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Title_Screen_Fire_000172.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Title_Screen_Fire_000202.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Title_Screen_Fire_000202.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Title_Screen_Fire_000212.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Title_Screen_Fire_000212.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Title_Screen_Fire_000222.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Title_Screen_Fire_000222.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Title_Screen_Fire_000232.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Title_Screen_Fire_000232.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Title_Screen_Fire_000252.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Title_Screen_Fire_000252.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Title_Screen_Fire_000282.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Title_Screen_Fire_000282.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Title_Screen_Fire_000292.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Title_Screen_Fire_000292.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "LoreText1.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"LoreText1.png\",\"extension\":\".png\"}",
+        "name": "LoreText1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "LoreText2.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"LoreText2.png\",\"extension\":\".png\"}",
+        "name": "LoreText2.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -12358,6 +13420,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/winscreen"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/lorescene"
     }
   ],
   "externalEvents": [],
