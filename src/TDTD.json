@@ -8989,6 +8989,12 @@
           "name": "Upgraded",
           "type": "boolean",
           "value": false
+        },
+        {
+          "folded": true,
+          "name": "RangeReduced",
+          "type": "boolean",
+          "value": false
         }
       ],
       "effects": [
@@ -9401,6 +9407,12 @@
         {
           "folded": true,
           "name": "Upgraded",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "folded": true,
+          "name": "RangeReduced",
           "type": "boolean",
           "value": false
         }
@@ -9912,6 +9924,12 @@
           "name": "Upgraded",
           "type": "boolean",
           "value": false
+        },
+        {
+          "folded": true,
+          "name": "RangeReduced",
+          "type": "boolean",
+          "value": false
         }
       ],
       "effects": [
@@ -10308,6 +10326,12 @@
           "name": "Upgraded",
           "type": "boolean",
           "value": false
+        },
+        {
+          "folded": true,
+          "name": "RangeReduced",
+          "type": "boolean",
+          "value": false
         }
       ],
       "effects": [
@@ -10391,6 +10415,12 @@
         {
           "folded": true,
           "name": "Upgraded",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "folded": true,
+          "name": "RangeReduced",
           "type": "boolean",
           "value": false
         }
@@ -10482,6 +10512,18 @@
         {
           "folded": true,
           "name": "Upgraded",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "folded": true,
+          "name": "RangeReduced",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "folded": true,
+          "name": "FireSuppressed",
           "type": "boolean",
           "value": false
         }
@@ -11002,6 +11044,12 @@
           "name": "Upgraded",
           "type": "boolean",
           "value": false
+        },
+        {
+          "folded": true,
+          "name": "RangeReduced",
+          "type": "boolean",
+          "value": false
         }
       ],
       "effects": [
@@ -11416,6 +11464,12 @@
           "name": "SecondRate",
           "type": "number",
           "value": 20
+        },
+        {
+          "folded": true,
+          "name": "RangeReduced",
+          "type": "boolean",
+          "value": false
         }
       ],
       "effects": [
@@ -11828,6 +11882,12 @@
         {
           "folded": true,
           "name": "Upgraded",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "folded": true,
+          "name": "RangeReduced",
           "type": "boolean",
           "value": false
         }
@@ -12364,6 +12424,12 @@
           "name": "Upgraded",
           "type": "boolean",
           "value": false
+        },
+        {
+          "folded": true,
+          "name": "RangeReduced",
+          "type": "boolean",
+          "value": false
         }
       ],
       "effects": [
@@ -12890,6 +12956,12 @@
         {
           "folded": true,
           "name": "Upgraded",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "folded": true,
+          "name": "RangeReduced",
           "type": "boolean",
           "value": false
         }

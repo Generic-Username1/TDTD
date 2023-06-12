@@ -3164,6 +3164,16 @@
                     ">",
                     "0"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "CrisisSpawnNo",
+                    "!=",
+                    "5"
+                  ]
                 }
               ],
               "actions": [],
@@ -3435,6 +3445,16 @@
                     "Range",
                     ">",
                     "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "CrisisSpawnNo",
+                    "!=",
+                    "5"
                   ]
                 }
               ],

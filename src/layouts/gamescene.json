@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.26075303643625786,
+    "zoomFactor": 0.16942973275228584,
     "windowMask": true
   },
   "objectsGroups": [
@@ -238,6 +238,32 @@
         },
         {
           "name": "SpawnRailWest"
+        }
+      ]
+    },
+    {
+      "name": "Projectile",
+      "objects": [
+        {
+          "name": "SoldierProjectile"
+        },
+        {
+          "name": "OfficerProjectile"
+        },
+        {
+          "name": "PosThoughtsProjectile"
+        },
+        {
+          "name": "UnradicaliseProjectile"
+        },
+        {
+          "name": "FirefighterProjectile"
+        },
+        {
+          "name": "WhiteHatProjectile"
+        },
+        {
+          "name": "VolunteerProjectile"
         }
       ]
     }
@@ -727,7 +753,7 @@
       "name": "CrisisTitle",
       "persistentUuid": "7fbfa6a7-2449-41f5-b354-db07fb55b4bb",
       "width": 0,
-      "x": -1883,
+      "x": -2000,
       "y": 99,
       "zOrder": 1027,
       "numberProperties": [],
@@ -920,11 +946,9 @@
       "angle": 0,
       "customSize": true,
       "height": 224,
-      "layer": "Path layer",
-      "locked": true,
+      "layer": "Hidden Layer",
       "name": "Wall",
       "persistentUuid": "9f0e2c51-1a22-46ec-b856-f52d4d4e9f6d",
-      "sealed": true,
       "width": 32,
       "x": -32,
       "y": 640,
@@ -1222,11 +1246,9 @@
       "angle": 0,
       "customSize": true,
       "height": 32,
-      "layer": "Path layer",
-      "locked": true,
+      "layer": "Hidden Layer",
       "name": "Wall",
       "persistentUuid": "9ccf02ff-1471-4876-a70a-de051075eabc",
-      "sealed": true,
       "width": 289,
       "x": -1,
       "y": 448,
@@ -1239,11 +1261,9 @@
       "angle": 0,
       "customSize": true,
       "height": 32,
-      "layer": "Path layer",
-      "locked": true,
+      "layer": "Hidden Layer",
       "name": "Wall",
       "persistentUuid": "c2f00099-8584-4e12-a20d-7fcf72f49e30",
-      "sealed": true,
       "width": 320,
       "x": -32,
       "y": 608,
@@ -1256,11 +1276,9 @@
       "angle": 0,
       "customSize": true,
       "height": 384,
-      "layer": "Path layer",
-      "locked": true,
+      "layer": "Hidden Layer",
       "name": "Wall",
       "persistentUuid": "470b95c1-0951-4573-8969-da5288784cc9",
-      "sealed": true,
       "width": 32,
       "x": 256,
       "y": 640,
@@ -1273,11 +1291,9 @@
       "angle": 0,
       "customSize": true,
       "height": 512,
-      "layer": "Path layer",
-      "locked": true,
+      "layer": "Hidden Layer",
       "name": "Wall",
       "persistentUuid": "819af838-a045-46e2-aefe-9e0e95f3d3cf",
-      "sealed": true,
       "width": 32,
       "x": 384,
       "y": 352,
@@ -1290,11 +1306,9 @@
       "angle": 0,
       "customSize": true,
       "height": 32,
-      "layer": "Path layer",
-      "locked": true,
+      "layer": "Hidden Layer",
       "name": "Wall",
       "persistentUuid": "88a1c512-e73f-4324-a481-5eb83a3c91fe",
-      "sealed": true,
       "width": 864,
       "x": 256,
       "y": 992,
@@ -1307,11 +1321,9 @@
       "angle": 0,
       "customSize": true,
       "height": 256,
-      "layer": "Path layer",
-      "locked": true,
+      "layer": "Hidden Layer",
       "name": "Wall",
       "persistentUuid": "78c5fbc3-725e-46b4-804b-3c0ed52486c2",
-      "sealed": true,
       "width": 32,
       "x": -32,
       "y": 224,
@@ -1324,11 +1336,9 @@
       "angle": 0,
       "customSize": true,
       "height": 32,
-      "layer": "Path layer",
-      "locked": true,
+      "layer": "Hidden Layer",
       "name": "Wall",
       "persistentUuid": "16f50dad-fd32-4692-a928-78223c0115b5",
-      "sealed": true,
       "width": 672,
       "x": -672,
       "y": 224,
@@ -1341,11 +1351,9 @@
       "angle": 0,
       "customSize": true,
       "height": 32,
-      "layer": "Path layer",
-      "locked": true,
+      "layer": "Hidden Layer",
       "name": "Wall",
       "persistentUuid": "2b576226-c206-4a88-9d9e-ead17dea0064",
-      "sealed": true,
       "width": 672,
       "x": -704,
       "y": 832,
@@ -1358,11 +1366,9 @@
       "angle": 0,
       "customSize": true,
       "height": 608,
-      "layer": "Path layer",
-      "locked": true,
+      "layer": "Hidden Layer",
       "name": "Wall",
       "persistentUuid": "11b404dc-49df-498f-aaf8-5616adb36557",
-      "sealed": true,
       "width": 32,
       "x": -704,
       "y": 224,
@@ -1375,11 +1381,9 @@
       "angle": 0,
       "customSize": true,
       "height": 384,
-      "layer": "Path layer",
-      "locked": true,
+      "layer": "Hidden Layer",
       "name": "Wall",
       "persistentUuid": "89c29e5a-15eb-4526-87fe-6328c265ced1",
-      "sealed": true,
       "width": 32,
       "x": 1088,
       "y": 640,
@@ -1392,11 +1396,9 @@
       "angle": 0,
       "customSize": true,
       "height": 32,
-      "layer": "Path layer",
-      "locked": true,
+      "layer": "Hidden Layer",
       "name": "Wall",
       "persistentUuid": "29f4b238-5950-4425-acc8-814319117460",
-      "sealed": true,
       "width": 544,
       "x": 416,
       "y": 832,
@@ -1409,11 +1411,9 @@
       "angle": 0,
       "customSize": true,
       "height": 384,
-      "layer": "Path layer",
-      "locked": true,
+      "layer": "Hidden Layer",
       "name": "Wall",
       "persistentUuid": "e963b61b-51a6-4646-964c-a4c66701c564",
-      "sealed": true,
       "width": 32,
       "x": 928,
       "y": 480,
@@ -1426,11 +1426,9 @@
       "angle": 0,
       "customSize": true,
       "height": 32,
-      "layer": "Path layer",
-      "locked": true,
+      "layer": "Hidden Layer",
       "name": "Wall",
       "persistentUuid": "f0047d94-16fe-43f4-9afd-3d00c3368586",
-      "sealed": true,
       "width": 256,
       "x": 1088,
       "y": 608,
@@ -1443,11 +1441,9 @@
       "angle": 0,
       "customSize": true,
       "height": 32,
-      "layer": "Path layer",
-      "locked": true,
+      "layer": "Hidden Layer",
       "name": "Wall",
       "persistentUuid": "65335f71-1a39-49d2-a8b4-e7aee46ae9aa",
-      "sealed": true,
       "width": 768,
       "x": 384,
       "y": 320,
@@ -1460,11 +1456,9 @@
       "angle": 0,
       "customSize": true,
       "height": 192,
-      "layer": "Path layer",
-      "locked": true,
+      "layer": "Hidden Layer",
       "name": "Wall",
       "persistentUuid": "94c83506-f847-427e-9986-1a43fb4a0db3",
-      "sealed": true,
       "width": 32,
       "x": 1152,
       "y": 320,
@@ -1477,13 +1471,11 @@
       "angle": 0,
       "customSize": true,
       "height": 320,
-      "layer": "Path layer",
-      "locked": true,
+      "layer": "Hidden Layer",
       "name": "Wall",
       "persistentUuid": "5fd84287-b644-48ea-958b-f68c13e64960",
-      "sealed": true,
       "width": 32,
-      "x": 1312,
+      "x": 1297,
       "y": 192,
       "zOrder": 1063,
       "numberProperties": [],
@@ -1494,11 +1486,9 @@
       "angle": 0,
       "customSize": true,
       "height": 32,
-      "layer": "Path layer",
-      "locked": true,
+      "layer": "Hidden Layer",
       "name": "Wall",
       "persistentUuid": "7134bcc5-b5ac-4516-a8c9-cdc34b256736",
-      "sealed": true,
       "width": 1024,
       "x": 288,
       "y": 192,
@@ -1511,11 +1501,9 @@
       "angle": 0,
       "customSize": true,
       "height": 256,
-      "layer": "Path layer",
-      "locked": true,
+      "layer": "Hidden Layer",
       "name": "Wall",
       "persistentUuid": "81838bfb-1a8c-4c56-931f-75565b7e5442",
-      "sealed": true,
       "width": 32,
       "x": 256,
       "y": 192,
@@ -1528,11 +1516,9 @@
       "angle": 0,
       "customSize": true,
       "height": 32,
-      "layer": "Path layer",
-      "locked": true,
+      "layer": "Hidden Layer",
       "name": "Wall",
       "persistentUuid": "f91f9bfc-a957-4c3c-bd5e-9cbd4f2354c8",
-      "sealed": true,
       "width": 192,
       "x": 960,
       "y": 480,
@@ -1545,11 +1531,10 @@
       "angle": 0,
       "customSize": true,
       "height": 128,
-      "layer": "Path layer",
+      "layer": "Hidden Layer",
       "locked": true,
       "name": "WalkTiles",
       "persistentUuid": "0ded300a-7fc4-4ff6-99e3-876e1ac87e14",
-      "sealed": true,
       "width": 288,
       "x": 0,
       "y": 480,
@@ -1562,11 +1547,10 @@
       "angle": 0,
       "customSize": true,
       "height": 768,
-      "layer": "Path layer",
+      "layer": "Hidden Layer",
       "locked": true,
       "name": "WalkTiles",
       "persistentUuid": "0bb3b642-ae2e-4a70-82e6-076d57b9b870",
-      "sealed": true,
       "width": 96,
       "x": 288,
       "y": 224,
@@ -1579,11 +1563,10 @@
       "angle": 0,
       "customSize": true,
       "height": 96,
-      "layer": "Path layer",
+      "layer": "Hidden Layer",
       "locked": true,
       "name": "WalkTiles",
       "persistentUuid": "dd4da9a6-91c3-493f-a26a-20af0cfe893f",
-      "sealed": true,
       "width": 928,
       "x": 384,
       "y": 224,
@@ -1596,11 +1579,10 @@
       "angle": 0,
       "customSize": true,
       "height": 128,
-      "layer": "Path layer",
+      "layer": "Hidden Layer",
       "locked": true,
       "name": "WalkTiles",
       "persistentUuid": "e3085b6f-10ee-4fa9-8d72-e3cf84846ac8",
-      "sealed": true,
       "width": 704,
       "x": 384,
       "y": 864,
@@ -1613,11 +1595,10 @@
       "angle": 0,
       "customSize": true,
       "height": 352,
-      "layer": "Path layer",
+      "layer": "Hidden Layer",
       "locked": true,
       "name": "WalkTiles",
       "persistentUuid": "9a686214-fa2b-4fcc-834c-40e22546ec1d",
-      "sealed": true,
       "width": 128,
       "x": 960,
       "y": 512,
@@ -1630,13 +1611,11 @@
       "angle": 0,
       "customSize": true,
       "height": 192,
-      "layer": "Path layer",
-      "locked": true,
+      "layer": "Hidden Layer",
       "name": "WalkTiles",
       "persistentUuid": "e0a64d4d-36c6-4323-a9e4-58edff619210",
-      "sealed": true,
       "width": 128,
-      "x": 1184,
+      "x": 1165,
       "y": 320,
       "zOrder": 1064,
       "numberProperties": [],
@@ -1647,11 +1626,10 @@
       "angle": 0,
       "customSize": true,
       "height": 96,
-      "layer": "Path layer",
+      "layer": "Hidden Layer",
       "locked": true,
       "name": "WalkTiles",
       "persistentUuid": "84fb624e-d670-473c-9fa8-ad4a4d98b5f3",
-      "sealed": true,
       "width": 256,
       "x": 1088,
       "y": 512,
@@ -1962,12 +1940,12 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "height": 216,
       "layer": "Overlay(er)",
       "name": "CrisisInfo",
       "persistentUuid": "3a4c12ee-3fb2-4499-b077-af217cc49326",
-      "width": 0,
+      "width": 887,
       "x": 1724,
       "y": 526,
       "zOrder": 1068,
@@ -8856,6 +8834,15 @@
                 "=",
                 "0"
               ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"SceneTimer\""
+              ]
             }
           ],
           "events": [
@@ -9505,7 +9492,7 @@
                   "parameters": [
                     "CommSupportAmt",
                     "=",
-                    "5"
+                    "5000"
                   ]
                 },
                 {
@@ -10113,7 +10100,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Continuous Events",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -11216,15 +11202,234 @@
                     "+",
                     "Variable(wave)*25"
                   ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "CrisisSpawnNo",
+                        "=",
+                        "3"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "playerGold",
+                        "-",
+                        "Variable(wave)*25"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarScene"
+                          },
+                          "parameters": [
+                            "wave",
+                            ">=",
+                            "Variable(waveBackup)+3"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "playerGold",
+                            "+",
+                            "Variable(wave)*25"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "CrisisSpawnNo",
+                            "=",
+                            "0"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarScene"
+                          },
+                          "parameters": [
+                            "waveBackup",
+                            "=",
+                            "0"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
                 },
                 {
-                  "type": {
-                    "value": "ModVarScene"
-                  },
-                  "parameters": [
-                    "wave",
-                    "+",
-                    "1"
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "CrisisSpawnNo",
+                        "=",
+                        "5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "wave",
+                        ">=",
+                        "Variable(waveBackup)+3"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "CrisisSpawnNo",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "waveBackup",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "CrisisSpawnNo",
+                        "=",
+                        "6"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "wave",
+                        ">=",
+                        "Variable(waveBackup)+3"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "CrisisSpawnNo",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "waveBackup",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::ForEach",
+                      "object": "Soldier",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Soldier",
+                            "FireSuppressed",
+                            "True"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "Soldier",
+                            "FireRate",
+                            "/",
+                            "999999"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Soldier",
+                            "FireSuppressed",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "wave",
+                        "+",
+                        "1"
+                      ]
+                    }
                   ]
                 }
               ]
@@ -12409,6 +12614,449 @@
           "comment": "Additional Spawning During Crises"
         },
         {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Crisis 1 (Cyber Attack)"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "Spawner",
+                "\"CyberAttackSpawnerClock\"",
+                ">=",
+                "0.1"
+              ]
+            },
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "CrisisSpawnNo",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Crisis1Count",
+                "<=",
+                "10"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "InternetTroll",
+                "Spawner.X()+RandomInRange(-100,100)",
+                "Spawner.Y()+RandomInRange(-30,30)",
+                "\"Projectile layer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "Spawner",
+                "\"CyberAttackSpawnerClock\""
+              ]
+            },
+            {
+              "type": {
+                "value": "TDTD::EnemyV2::changeTarget"
+              },
+              "parameters": [
+                "InternetTroll",
+                "EnemyV2",
+                "1618",
+                "584",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeScale"
+              },
+              "parameters": [
+                "InternetTroll",
+                "=",
+                "0.4"
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "EnemyHealthBar",
+                "InternetTroll.X()",
+                "InternetTroll.Y()",
+                "\"Projectile layer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetMaxValue"
+              },
+              "parameters": [
+                "EnemyHealthBar",
+                "=",
+                "InternetTroll.Variable(Health)",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "LinkedObjects::LinkObjects"
+              },
+              "parameters": [
+                "",
+                "InternetTroll",
+                "EnemyHealthBar"
+              ]
+            },
+            {
+              "type": {
+                "value": "EnableEffect"
+              },
+              "parameters": [
+                "InternetTroll",
+                "\"Aura\"",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "EnableEffect"
+              },
+              "parameters": [
+                "InternetTroll",
+                "\"Glitch\"",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Crisis1Count",
+                "+",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Crisis1Count",
+                "=",
+                "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "SelfRad",
+                "Spawner.X()+RandomInRange(-100,100)",
+                "Spawner.Y()+RandomInRange(-30,30)",
+                "\"Projectile layer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Terrorist",
+                "Spawner.X()+RandomInRange(-100,100)",
+                "Spawner.Y()+RandomInRange(-30,30)",
+                "\"Projectile layer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "TDTD::EnemyV2::changeTarget"
+              },
+              "parameters": [
+                "Enemies",
+                "EnemyV2",
+                "1618",
+                "584",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeScale"
+              },
+              "parameters": [
+                "Enemies",
+                "=",
+                "0.4"
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "EnemyHealthBar",
+                "Enemies.X()",
+                "Enemies.Y()",
+                "\"Projectile layer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetMaxValue"
+              },
+              "parameters": [
+                "EnemyHealthBar",
+                "=",
+                "Enemies.Variable(Health)",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "LinkedObjects::LinkObjects"
+              },
+              "parameters": [
+                "",
+                "Enemies",
+                "EnemyHealthBar"
+              ]
+            },
+            {
+              "type": {
+                "value": "EnableEffect"
+              },
+              "parameters": [
+                "Enemies",
+                "\"Glitch\"",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "EnableEffect"
+              },
+              "parameters": [
+                "Enemies",
+                "\"Aura\"",
+                "no"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Crisis1Count",
+                "=",
+                "10"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "SelfRad",
+                "Spawner.X()+RandomInRange(-100,100)",
+                "Spawner.Y()+RandomInRange(-30,30)",
+                "\"Projectile layer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Terrorist",
+                "Spawner.X()+RandomInRange(-100,100)",
+                "Spawner.Y()+RandomInRange(-30,30)",
+                "\"Projectile layer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "TDTD::EnemyV2::changeTarget"
+              },
+              "parameters": [
+                "Enemies",
+                "EnemyV2",
+                "1618",
+                "584",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeScale"
+              },
+              "parameters": [
+                "Enemies",
+                "=",
+                "0.4"
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "EnemyHealthBar",
+                "Enemies.X()",
+                "Enemies.Y()",
+                "\"Projectile layer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetMaxValue"
+              },
+              "parameters": [
+                "EnemyHealthBar",
+                "=",
+                "Enemies.Variable(Health)",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "LinkedObjects::LinkObjects"
+              },
+              "parameters": [
+                "",
+                "Enemies",
+                "EnemyHealthBar"
+              ]
+            },
+            {
+              "type": {
+                "value": "EnableEffect"
+              },
+              "parameters": [
+                "Enemies",
+                "\"Glitch\"",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "EnableEffect"
+              },
+              "parameters": [
+                "Enemies",
+                "\"Aura\"",
+                "no"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Towers",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Towers",
+                    "RangeReduced",
+                    "True"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Towers",
+                    "Range",
+                    "*",
+                    "2"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Crisis 2 (Terrorist Attack)"
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -12419,7 +13067,7 @@
                 "Spawner",
                 "\"TerroristAttackSpawnerClock\"",
                 ">=",
-                "0.5"
+                "2"
               ]
             },
             {
@@ -12847,7 +13495,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Upgrades",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -13427,7 +14074,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Tower/Enemy Info",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -20292,7 +20938,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Crisis Stuff",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -20335,7 +20980,60 @@
               "parameters": [
                 "CrisisNo",
                 "=",
-                "2"
+                "5"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"SceneTimer\"",
+                ">=",
+                "30"
+              ]
+            },
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "CrisisSpawnNo",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "CrisisNo",
+                "=",
+                "RandomInRange(1, 6)"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"SceneTimer\""
               ]
             }
           ]
@@ -20539,7 +21237,17 @@
                       "parameters": [
                         "CrisisInfo",
                         "=",
-                        "\"Your towers have been hacked by unidentified cybercriminals, reducing their fire rate!\nBeware of the internet trolls and defeat them before they slow your towers down further!\""
+                        "\"Your towers have been hacked by unidentified cybercriminals, reducing their range!\nBeware of the internet trolls and defeat them before they slow your towers down!\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangeScale"
+                      },
+                      "parameters": [
+                        "CrisisTitle",
+                        "=",
+                        "2"
                       ]
                     }
                   ]
@@ -20576,6 +21284,150 @@
                         "CrisisInfo",
                         "=",
                         "\"Terrorists have invaded the country! \nDefeat the terrorists and survive the attack!\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "CrisisNo",
+                        "=",
+                        "3"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "CrisisTitle",
+                        "\"EconomicStrangulation\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BitmapText::BitmapTextObject::SetText"
+                      },
+                      "parameters": [
+                        "CrisisInfo",
+                        "=",
+                        "\"The economy is falling and money is running tight!\nThe next 3 waves will not give any money!\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "CrisisNo",
+                        "=",
+                        "4"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "CrisisTitle",
+                        "\"Pandemic\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BitmapText::BitmapTextObject::SetText"
+                      },
+                      "parameters": [
+                        "CrisisInfo",
+                        "=",
+                        "\"Your towers have been infected with a viral plague, reducing their fire rate! Cure them with Doctors!\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "CrisisNo",
+                        "=",
+                        "5"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "CrisisTitle",
+                        "\"DisinformationCampaign\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BitmapText::BitmapTextObject::SetText"
+                      },
+                      "parameters": [
+                        "CrisisInfo",
+                        "=",
+                        "\"Your towers have stopped trusting each other! For the next 3 waves, bonuses provided by towers are removed! (except Community Leader)\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "CrisisNo",
+                        "=",
+                        "6"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "CrisisTitle",
+                        "\"MilitaryConflict\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BitmapText::BitmapTextObject::SetText"
+                      },
+                      "parameters": [
+                        "CrisisInfo",
+                        "=",
+                        "\"Some of your soldiers have sabotaged your Towers and refuse to fire for the next 3 waves!\""
                       ]
                     }
                   ]
@@ -20667,7 +21519,7 @@
                   "parameters": [
                     "CrisisInfo",
                     "=",
-                    "810-CrisisTitle.Width()/1.6"
+                    "810-CrisisInfo.Width()/2"
                   ]
                 },
                 {
@@ -20763,22 +21615,48 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "MouseButtonReleased"
+                    "value": "BuiltinCommonInstructions::Or"
                   },
-                  "parameters": [
-                    "",
-                    "Left"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "OkButton",
-                    "",
-                    "",
-                    ""
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "CrisisNo",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::And"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "MouseButtonReleased"
+                          },
+                          "parameters": [
+                            "",
+                            "Left"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SourisSurObjet"
+                          },
+                          "parameters": [
+                            "OkButton",
+                            "",
+                            "",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
                   ]
                 }
               ],
@@ -20814,12 +21692,22 @@
                 },
                 {
                   "type": {
+                    "value": "ChangeScale"
+                  },
+                  "parameters": [
+                    "CrisisTitle",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "MettreX"
                   },
                   "parameters": [
                     "CrisisTitle",
                     "=",
-                    "-800"
+                    "-2000"
                   ]
                 },
                 {
@@ -20829,7 +21717,7 @@
                   "parameters": [
                     "CrisisInfo",
                     "=",
-                    "-800"
+                    "-2000"
                   ]
                 },
                 {
@@ -20839,7 +21727,7 @@
                   "parameters": [
                     "OkButton",
                     "=",
-                    "-800"
+                    "-2000"
                   ]
                 },
                 {
@@ -20909,6 +21797,46 @@
                         "=",
                         "1"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "Crisis1Count",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "UnPauseObjectTimer"
+                      },
+                      "parameters": [
+                        "Spawner",
+                        "\"SpawnerClock\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Towers",
+                        "RangeReduced",
+                        "True"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "Towers",
+                        "Range",
+                        "*",
+                        "0.5"
+                      ]
                     }
                   ]
                 },
@@ -20968,6 +21896,263 @@
                   ]
                 },
                 {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "CrisisNo",
+                        "=",
+                        "3"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "CrisisSpawnNo",
+                        "=",
+                        "3"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "waveBackup",
+                        "=",
+                        "Variable(wave)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "UnPauseObjectTimer"
+                      },
+                      "parameters": [
+                        "Spawner",
+                        "\"SpawnerClock\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "CrisisNo",
+                        "=",
+                        "4"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Towers",
+                        "NegThoughts",
+                        "True"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "UnPauseObjectTimer"
+                      },
+                      "parameters": [
+                        "Spawner",
+                        "\"SpawnerClock\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "CrisisNo",
+                        "=",
+                        "5"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "UnPauseObjectTimer"
+                      },
+                      "parameters": [
+                        "Spawner",
+                        "\"SpawnerClock\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "CrisisSpawnNo",
+                        "=",
+                        "5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TDTD::TowerV2::forceApplyVars"
+                      },
+                      "parameters": [
+                        "Towers",
+                        "TowerV2",
+                        "Cheerleader",
+                        "DiscerningCitizen",
+                        "CommLeader",
+                        "StatusParticles",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "waveBackup",
+                        "=",
+                        "Variable(wave)"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "CrisisNo",
+                        "=",
+                        "6"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "CrisisSpawnNo",
+                        "=",
+                        "6"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "waveBackup",
+                        "=",
+                        "Variable(wave)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "UnPauseObjectTimer"
+                      },
+                      "parameters": [
+                        "Spawner",
+                        "\"SpawnerClock\""
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::ForEach",
+                      "object": "Soldier",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ModVarScene"
+                          },
+                          "parameters": [
+                            "RNG",
+                            "=",
+                            "RandomInRange(1, 3)"
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "VarScene"
+                              },
+                              "parameters": [
+                                "RNG",
+                                "=",
+                                "3"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "ModVarObjet"
+                              },
+                              "parameters": [
+                                "Soldier",
+                                "FireRate",
+                                "*",
+                                "999999"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetObjectVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "Soldier",
+                                "FireSuppressed",
+                                "True"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ModVarScene"
+                              },
+                              "parameters": [
+                                "RNG",
+                                "=",
+                                "0"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
                   "type": "BuiltinCommonInstructions::Comment",
                   "color": {
                     "b": 109,
@@ -21007,6 +22192,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Shop Stuff",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -23226,6 +24412,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Tutorial Stuff",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
