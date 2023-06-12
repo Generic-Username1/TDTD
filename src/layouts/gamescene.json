@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.16942973275228584,
+    "zoomFactor": 0.3755458852323249,
     "windowMask": true
   },
   "objectsGroups": [
@@ -339,16 +339,14 @@
     },
     {
       "angle": 0,
-      "customSize": true,
+      "customSize": false,
       "height": 861,
       "layer": "",
-      "locked": true,
       "name": "Base",
       "persistentUuid": "0ca702d7-6557-4c23-91cc-2ae4930d2a30",
-      "sealed": true,
       "width": 1232,
-      "x": 392,
-      "y": 153,
+      "x": 1242,
+      "y": 433,
       "zOrder": 50000,
       "numberProperties": [],
       "stringProperties": [],
@@ -484,7 +482,7 @@
       "width": 0,
       "x": 23,
       "y": 116,
-      "zOrder": 1220,
+      "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -770,7 +768,7 @@
       "width": 1620,
       "x": 0,
       "y": 37,
-      "zOrder": 1066,
+      "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1530,14 +1528,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 128,
+      "height": 160,
       "layer": "Hidden Layer",
-      "locked": true,
       "name": "WalkTiles",
       "persistentUuid": "0ded300a-7fc4-4ff6-99e3-876e1ac87e14",
-      "width": 288,
-      "x": 0,
-      "y": 480,
+      "width": 290,
+      "x": 2,
+      "y": 501,
       "zOrder": 1064,
       "numberProperties": [],
       "stringProperties": [],
@@ -1546,14 +1543,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 768,
+      "height": 798,
       "layer": "Hidden Layer",
-      "locked": true,
       "name": "WalkTiles",
       "persistentUuid": "0bb3b642-ae2e-4a70-82e6-076d57b9b870",
-      "width": 96,
-      "x": 288,
-      "y": 224,
+      "width": 155,
+      "x": 285,
+      "y": 217,
       "zOrder": 1064,
       "numberProperties": [],
       "stringProperties": [],
@@ -1562,14 +1558,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 96,
+      "height": 150,
       "layer": "Hidden Layer",
-      "locked": true,
       "name": "WalkTiles",
       "persistentUuid": "dd4da9a6-91c3-493f-a26a-20af0cfe893f",
-      "width": 928,
-      "x": 384,
-      "y": 224,
+      "width": 884,
+      "x": 428,
+      "y": 219,
       "zOrder": 1064,
       "numberProperties": [],
       "stringProperties": [],
@@ -1578,14 +1573,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 128,
+      "height": 154,
       "layer": "Hidden Layer",
-      "locked": true,
       "name": "WalkTiles",
       "persistentUuid": "e3085b6f-10ee-4fa9-8d72-e3cf84846ac8",
-      "width": 704,
-      "x": 384,
-      "y": 864,
+      "width": 725,
+      "x": 418,
+      "y": 861,
       "zOrder": 1064,
       "numberProperties": [],
       "stringProperties": [],
@@ -1594,14 +1588,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 352,
+      "height": 373,
       "layer": "Hidden Layer",
-      "locked": true,
       "name": "WalkTiles",
       "persistentUuid": "9a686214-fa2b-4fcc-834c-40e22546ec1d",
-      "width": 128,
-      "x": 960,
-      "y": 512,
+      "width": 154,
+      "x": 991,
+      "y": 509,
       "zOrder": 1064,
       "numberProperties": [],
       "stringProperties": [],
@@ -1614,9 +1607,9 @@
       "layer": "Hidden Layer",
       "name": "WalkTiles",
       "persistentUuid": "e0a64d4d-36c6-4323-a9e4-58edff619210",
-      "width": 128,
-      "x": 1165,
-      "y": 320,
+      "width": 166,
+      "x": 1143,
+      "y": 349,
       "zOrder": 1064,
       "numberProperties": [],
       "stringProperties": [],
@@ -1625,14 +1618,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 96,
+      "height": 156,
       "layer": "Hidden Layer",
-      "locked": true,
       "name": "WalkTiles",
       "persistentUuid": "84fb624e-d670-473c-9fa8-ad4a4d98b5f3",
-      "width": 256,
-      "x": 1088,
-      "y": 512,
+      "width": 500,
+      "x": 1118,
+      "y": 510,
       "zOrder": 1064,
       "numberProperties": [],
       "stringProperties": [],
@@ -1866,21 +1858,6 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 1080,
-      "layer": "",
-      "name": "Map",
-      "persistentUuid": "edc448b6-8b36-488c-8332-801f19320bc1",
-      "width": 1620,
-      "x": 0,
-      "y": 37,
-      "zOrder": 1066,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
       "height": 372,
       "layer": "Projectile layer",
       "name": "SpawnRailWest",
@@ -1904,21 +1881,6 @@
       "x": 1301,
       "y": 308,
       "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 1080,
-      "layer": "",
-      "name": "Map",
-      "persistentUuid": "fa28a1ac-d1ac-4d73-bcd8-a4a67da18970",
-      "width": 1620,
-      "x": -3,
-      "y": 42,
-      "zOrder": 1066,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2008,7 +1970,7 @@
       "width": 0,
       "x": -1,
       "y": 44,
-      "zOrder": 1065,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2051,16 +2013,17 @@
       ],
       "animations": [
         {
-          "name": "",
+          "name": "MBS,Merlion and Art science museum_00000",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": true,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "MBS,Merlion and Art science museum_00000.png",
+                  "image": "MBS,Merlion and Art science museum_00000",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2076,27 +2039,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1483.5,
-                        "y": 470
+                        "x": 150,
+                        "y": 0
                       },
                       {
-                        "x": 1620,
-                        "y": 477
+                        "x": 450,
+                        "y": 0
                       },
                       {
-                        "x": 1620,
-                        "y": 610
+                        "x": 450,
+                        "y": 300
                       },
                       {
-                        "x": 1478.5,
-                        "y": 612
+                        "x": 150,
+                        "y": 300
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "MBS,Merlion and Art science museum_00001.png",
+                  "image": "MBS,Merlion and Art science museum_000002",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2112,27 +2075,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1483.5,
-                        "y": 470
+                        "x": 150,
+                        "y": 0
                       },
                       {
-                        "x": 1620,
-                        "y": 477
+                        "x": 450,
+                        "y": 0
                       },
                       {
-                        "x": 1620,
-                        "y": 610
+                        "x": 450,
+                        "y": 300
                       },
                       {
-                        "x": 1478.5,
-                        "y": 612
+                        "x": 150,
+                        "y": 300
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "MBS,Merlion and Art science museum_00002.png",
+                  "image": "MBS,Merlion and Art science museum_000003",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2148,27 +2111,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1483.5,
-                        "y": 470
+                        "x": 150,
+                        "y": 0
                       },
                       {
-                        "x": 1620,
-                        "y": 477
+                        "x": 450,
+                        "y": 0
                       },
                       {
-                        "x": 1620,
-                        "y": 610
+                        "x": 450,
+                        "y": 300
                       },
                       {
-                        "x": 1478.5,
-                        "y": 612
+                        "x": 150,
+                        "y": 300
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "MBS,Merlion and Art science museum_00003.png",
+                  "image": "MBS,Merlion and Art science museum_000004",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2184,27 +2147,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1483.5,
-                        "y": 470
+                        "x": 150,
+                        "y": 0
                       },
                       {
-                        "x": 1620,
-                        "y": 477
+                        "x": 450,
+                        "y": 0
                       },
                       {
-                        "x": 1620,
-                        "y": 610
+                        "x": 450,
+                        "y": 300
                       },
                       {
-                        "x": 1478.5,
-                        "y": 612
+                        "x": 150,
+                        "y": 300
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "MBS,Merlion and Art science museum_00004.png",
+                  "image": "MBS,Merlion and Art science museum_000005",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2220,27 +2183,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1483.5,
-                        "y": 470
+                        "x": 150,
+                        "y": 0
                       },
                       {
-                        "x": 1620,
-                        "y": 477
+                        "x": 450,
+                        "y": 0
                       },
                       {
-                        "x": 1620,
-                        "y": 610
+                        "x": 450,
+                        "y": 300
                       },
                       {
-                        "x": 1478.5,
-                        "y": 612
+                        "x": 150,
+                        "y": 300
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "MBS,Merlion and Art science museum_00005.png",
+                  "image": "MBS,Merlion and Art science museum_000006",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2256,27 +2219,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1483.5,
-                        "y": 470
+                        "x": 150,
+                        "y": 0
                       },
                       {
-                        "x": 1620,
-                        "y": 477
+                        "x": 450,
+                        "y": 0
                       },
                       {
-                        "x": 1620,
-                        "y": 610
+                        "x": 450,
+                        "y": 300
                       },
                       {
-                        "x": 1478.5,
-                        "y": 612
+                        "x": 150,
+                        "y": 300
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "MBS,Merlion and Art science museum_00006.png",
+                  "image": "MBS,Merlion and Art science museum_000007",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2292,27 +2255,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1483.5,
-                        "y": 470
+                        "x": 150,
+                        "y": 0
                       },
                       {
-                        "x": 1620,
-                        "y": 477
+                        "x": 450,
+                        "y": 0
                       },
                       {
-                        "x": 1620,
-                        "y": 610
+                        "x": 450,
+                        "y": 300
                       },
                       {
-                        "x": 1478.5,
-                        "y": 612
+                        "x": 150,
+                        "y": 300
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "MBS,Merlion and Art science museum_00007.png",
+                  "image": "MBS,Merlion and Art science museum_000008",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2328,27 +2291,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1483.5,
-                        "y": 470
+                        "x": 150,
+                        "y": 0
                       },
                       {
-                        "x": 1620,
-                        "y": 477
+                        "x": 450,
+                        "y": 0
                       },
                       {
-                        "x": 1620,
-                        "y": 610
+                        "x": 450,
+                        "y": 300
                       },
                       {
-                        "x": 1478.5,
-                        "y": 612
+                        "x": 150,
+                        "y": 300
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "MBS,Merlion and Art science museum_00008.png",
+                  "image": "MBS,Merlion and Art science museum_000009",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2364,27 +2327,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1483.5,
-                        "y": 470
+                        "x": 150,
+                        "y": 0
                       },
                       {
-                        "x": 1620,
-                        "y": 477
+                        "x": 450,
+                        "y": 0
                       },
                       {
-                        "x": 1620,
-                        "y": 610
+                        "x": 450,
+                        "y": 300
                       },
                       {
-                        "x": 1478.5,
-                        "y": 612
+                        "x": 150,
+                        "y": 300
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "MBS,Merlion and Art science museum_00009.png",
+                  "image": "MBS,Merlion and Art science museum_0000010",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2400,27 +2363,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1483.5,
-                        "y": 470
+                        "x": 150,
+                        "y": 0
                       },
                       {
-                        "x": 1620,
-                        "y": 477
+                        "x": 450,
+                        "y": 0
                       },
                       {
-                        "x": 1620,
-                        "y": 610
+                        "x": 450,
+                        "y": 300
                       },
                       {
-                        "x": 1478.5,
-                        "y": 612
+                        "x": 150,
+                        "y": 300
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "MBS,Merlion and Art science museum_00010.png",
+                  "image": "MBS,Merlion and Art science museum_0000011",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2436,27 +2399,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1483.5,
-                        "y": 470
+                        "x": 150,
+                        "y": 0
                       },
                       {
-                        "x": 1620,
-                        "y": 477
+                        "x": 450,
+                        "y": 0
                       },
                       {
-                        "x": 1620,
-                        "y": 610
+                        "x": 450,
+                        "y": 300
                       },
                       {
-                        "x": 1478.5,
-                        "y": 612
+                        "x": 150,
+                        "y": 300
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "MBS,Merlion and Art science museum_00011.png",
+                  "image": "MBS,Merlion and Art science museum_0000012",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2472,27 +2435,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1483.5,
-                        "y": 470
+                        "x": 150,
+                        "y": 0
                       },
                       {
-                        "x": 1620,
-                        "y": 477
+                        "x": 450,
+                        "y": 0
                       },
                       {
-                        "x": 1620,
-                        "y": 610
+                        "x": 450,
+                        "y": 300
                       },
                       {
-                        "x": 1478.5,
-                        "y": 612
+                        "x": 150,
+                        "y": 300
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "MBS,Merlion and Art science museum_00012.png",
+                  "image": "MBS,Merlion and Art science museum_0000013",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2508,27 +2471,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1483.5,
-                        "y": 470
+                        "x": 150,
+                        "y": 0
                       },
                       {
-                        "x": 1620,
-                        "y": 477
+                        "x": 450,
+                        "y": 0
                       },
                       {
-                        "x": 1620,
-                        "y": 610
+                        "x": 450,
+                        "y": 300
                       },
                       {
-                        "x": 1478.5,
-                        "y": 612
+                        "x": 150,
+                        "y": 300
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "MBS,Merlion and Art science museum_00013.png",
+                  "image": "MBS,Merlion and Art science museum_0000014",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2544,27 +2507,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1483.5,
-                        "y": 470
+                        "x": 150,
+                        "y": 0
                       },
                       {
-                        "x": 1620,
-                        "y": 477
+                        "x": 450,
+                        "y": 0
                       },
                       {
-                        "x": 1620,
-                        "y": 610
+                        "x": 450,
+                        "y": 300
                       },
                       {
-                        "x": 1478.5,
-                        "y": 612
+                        "x": 150,
+                        "y": 300
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "MBS,Merlion and Art science museum_00014.png",
+                  "image": "MBS,Merlion and Art science museum_0000015",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2580,27 +2543,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1483.5,
-                        "y": 470
+                        "x": 150,
+                        "y": 0
                       },
                       {
-                        "x": 1620,
-                        "y": 477
+                        "x": 450,
+                        "y": 0
                       },
                       {
-                        "x": 1620,
-                        "y": 610
+                        "x": 450,
+                        "y": 300
                       },
                       {
-                        "x": 1478.5,
-                        "y": 612
+                        "x": 150,
+                        "y": 300
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "MBS,Merlion and Art science museum_00015.png",
+                  "image": "MBS,Merlion and Art science museum_0000016",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2616,27 +2579,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1483.5,
-                        "y": 470
+                        "x": 150,
+                        "y": 0
                       },
                       {
-                        "x": 1620,
-                        "y": 477
+                        "x": 450,
+                        "y": 0
                       },
                       {
-                        "x": 1620,
-                        "y": 610
+                        "x": 450,
+                        "y": 300
                       },
                       {
-                        "x": 1478.5,
-                        "y": 612
+                        "x": 150,
+                        "y": 300
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "MBS,Merlion and Art science museum_00016.png",
+                  "image": "MBS,Merlion and Art science museum_0000017",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2652,27 +2615,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1483.5,
-                        "y": 470
+                        "x": 150,
+                        "y": 0
                       },
                       {
-                        "x": 1620,
-                        "y": 477
+                        "x": 450,
+                        "y": 0
                       },
                       {
-                        "x": 1620,
-                        "y": 610
+                        "x": 450,
+                        "y": 300
                       },
                       {
-                        "x": 1478.5,
-                        "y": 612
+                        "x": 150,
+                        "y": 300
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "MBS,Merlion and Art science museum_00017.png",
+                  "image": "MBS,Merlion and Art science museum_0000018",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2688,27 +2651,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1483.5,
-                        "y": 470
+                        "x": 150,
+                        "y": 0
                       },
                       {
-                        "x": 1620,
-                        "y": 477
+                        "x": 450,
+                        "y": 0
                       },
                       {
-                        "x": 1620,
-                        "y": 610
+                        "x": 450,
+                        "y": 300
                       },
                       {
-                        "x": 1478.5,
-                        "y": 612
+                        "x": 150,
+                        "y": 300
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "MBS,Merlion and Art science museum_00018.png",
+                  "image": "MBS,Merlion and Art science museum_0000019",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2724,27 +2687,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1483.5,
-                        "y": 470
+                        "x": 150,
+                        "y": 0
                       },
                       {
-                        "x": 1620,
-                        "y": 477
+                        "x": 450,
+                        "y": 0
                       },
                       {
-                        "x": 1620,
-                        "y": 610
+                        "x": 450,
+                        "y": 300
                       },
                       {
-                        "x": 1478.5,
-                        "y": 612
+                        "x": 150,
+                        "y": 300
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "MBS,Merlion and Art science museum_00019.png",
+                  "image": "MBS,Merlion and Art science museum_0000020",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2760,20 +2723,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1483.5,
-                        "y": 470
+                        "x": 150,
+                        "y": 0
                       },
                       {
-                        "x": 1620,
-                        "y": 477
+                        "x": 450,
+                        "y": 0
                       },
                       {
-                        "x": 1620,
-                        "y": 610
+                        "x": 450,
+                        "y": 300
                       },
                       {
-                        "x": 1478.5,
-                        "y": 612
+                        "x": 150,
+                        "y": 300
                       }
                     ]
                   ]
@@ -7709,52 +7672,6 @@
       "behaviors": []
     },
     {
-      "additive": false,
-      "assetStoreId": "",
-      "destroyWhenNoParticles": true,
-      "emitterAngleA": 0,
-      "emitterAngleB": 90,
-      "emitterForceMax": 40,
-      "emitterForceMin": 20,
-      "flow": 10,
-      "jumpForwardInTimeOnCreation": 0,
-      "maxParticleNb": 20,
-      "name": "FireParticles",
-      "particleAlpha1": 204,
-      "particleAlpha2": 0,
-      "particleAlphaRandomness1": 0,
-      "particleAlphaRandomness2": 0,
-      "particleAngle1": -200,
-      "particleAngle2": 200,
-      "particleAngleRandomness1": 0,
-      "particleAngleRandomness2": 0,
-      "particleBlue1": 27,
-      "particleBlue2": 28,
-      "particleGravityX": 0,
-      "particleGravityY": 150,
-      "particleGreen1": 2,
-      "particleGreen2": 231,
-      "particleLifeTimeMax": 1,
-      "particleLifeTimeMin": 0.5,
-      "particleRed1": 208,
-      "particleRed2": 248,
-      "particleSize1": 100,
-      "particleSize2": 75,
-      "particleSizeRandomness1": 0,
-      "particleSizeRandomness2": 0,
-      "rendererParam1": 6,
-      "rendererParam2": 6,
-      "rendererType": "Line",
-      "tags": "",
-      "tank": -1,
-      "textureParticleName": "",
-      "type": "ParticleSystem::ParticleEmitter",
-      "zoneRadius": 45,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
       "assetStoreId": "",
       "bottomMargin": 8,
       "height": 128,
@@ -8808,6 +8725,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Initialization",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -9096,7 +9014,7 @@
                   "parameters": [
                     "CheerleaderUpgCost",
                     "=",
-                    "GlobalVariable(CheerleaderCost)*1.5"
+                    "GlobalVariable(CheerleaderCost)*5"
                   ]
                 },
                 {
@@ -9107,16 +9025,6 @@
                     "VolunteerCost",
                     "=",
                     "80"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "VolunteerUpgCost",
-                    "=",
-                    "GlobalVariable(VolunteerCost)*1.5"
                   ]
                 },
                 {
@@ -9136,7 +9044,7 @@
                   "parameters": [
                     "GuiderUpgCost",
                     "=",
-                    "GlobalVariable(GuiderUpgCost)*1.5"
+                    "GlobalVariable(GuiderCost)*3"
                   ]
                 },
                 {
@@ -9156,7 +9064,7 @@
                   "parameters": [
                     "SoldierUpgCost",
                     "=",
-                    "GlobalVariable(SoldierCost)*1.5"
+                    "GlobalVariable(SoldierCost)*8"
                   ]
                 },
                 {
@@ -9176,7 +9084,7 @@
                   "parameters": [
                     "FirefighterUpgCost",
                     "=",
-                    "GlobalVariable(FirefighterCost)*1.5"
+                    "GlobalVariable(FirefighterCost)*8"
                   ]
                 },
                 {
@@ -9196,7 +9104,7 @@
                   "parameters": [
                     "WhiteHatUpgCost",
                     "=",
-                    "GlobalVariable(WhiteHatCost)*1.5"
+                    "GlobalVariable(WhiteHatCost)*5"
                   ]
                 },
                 {
@@ -9216,7 +9124,7 @@
                   "parameters": [
                     "CaringCitizenUpgCost",
                     "=",
-                    "GlobalVariable(CaringCitizenCost)*1.5"
+                    "GlobalVariable(CaringCitizenCost)*8"
                   ]
                 },
                 {
@@ -9236,7 +9144,7 @@
                   "parameters": [
                     "CommLeaderUpgCost",
                     "=",
-                    "GlobalVariable(CommLeaderCost)*1.5"
+                    "GlobalVariable(CommLeaderCost)*5"
                   ]
                 },
                 {
@@ -9256,7 +9164,7 @@
                   "parameters": [
                     "InvestorUpgCost",
                     "=",
-                    "GlobalVariable(InvestorCost)*1.5"
+                    "GlobalVariable(InvestorCost)*4"
                   ]
                 },
                 {
@@ -9276,7 +9184,7 @@
                   "parameters": [
                     "IntelOfficerUpgCost",
                     "=",
-                    "GlobalVariable(IntelOfficerCost)*1.5"
+                    "GlobalVariable(IntelOfficerCost)*6"
                   ]
                 },
                 {
@@ -9296,7 +9204,7 @@
                   "parameters": [
                     "DoctorUpgCost",
                     "=",
-                    "GlobalVariable(DoctorCost)*1.5"
+                    "GlobalVariable(DoctorCost)*3"
                   ]
                 },
                 {
@@ -9316,7 +9224,7 @@
                   "parameters": [
                     "DiscernCitizenUpgCost",
                     "=",
-                    "GlobalVariable(DiscernCitizenCost)*1.5"
+                    "GlobalVariable(DiscernCitizenCost)*8"
                   ]
                 },
                 {
@@ -9410,6 +9318,16 @@
                     "=",
                     "VariableChildCount(Waves)-1"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "crisisInterval",
+                    "=",
+                    "150"
+                  ]
                 }
               ]
             },
@@ -9492,7 +9410,7 @@
                   "parameters": [
                     "CommSupportAmt",
                     "=",
-                    "5000"
+                    "5"
                   ]
                 },
                 {
@@ -10100,6 +10018,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Continuous Events",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -11681,6 +11600,99 @@
                         "1"
                       ]
                     }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Increase Crisis Frequency"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "wave",
+                    "=",
+                    "11"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "crisisInterval",
+                    "=",
+                    "75"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "wave",
+                    "=",
+                    "21"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "crisisInterval",
+                    "=",
+                    "30"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "wave",
+                    "=",
+                    "28"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "crisisInterval",
+                    "=",
+                    "15"
                   ]
                 }
               ]
@@ -13495,6 +13507,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Upgrades",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -13521,43 +13534,247 @@
                 "",
                 ""
               ]
-            },
-            {
-              "type": {
-                "value": "VarObjet"
-              },
-              "parameters": [
-                "Towers",
-                "ID",
-                "=",
-                "UpgradeButton.Variable(TowerID)"
-              ]
             }
           ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetEffectDoubleParameter"
-              },
-              "parameters": [
-                "Towers",
-                "\"Outline\"",
-                "\"thickness\"",
-                "20"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetObjectVariableAsBoolean"
-              },
-              "parameters": [
-                "Towers",
-                "Upgraded",
-                "True"
-              ]
-            }
-          ],
+          "actions": [],
           "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Towers",
+                    "ID",
+                    "=",
+                    "UpgradeButton.Variable(TowerID)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareStrings"
+                  },
+                  "parameters": [
+                    "Towers.ObjectName()",
+                    "=",
+                    "\"Cheerleader\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "playerGold",
+                    ">=",
+                    "GlobalVariable(CheerleaderUpgCost)"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetEffectDoubleParameter"
+                  },
+                  "parameters": [
+                    "Towers",
+                    "\"Outline\"",
+                    "\"thickness\"",
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Towers",
+                    "Upgraded",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "playerGold",
+                    "-",
+                    "GlobalVariable(CheerleaderUpgCost)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "CheerleaderUpgCost",
+                    "*",
+                    "3"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Towers",
+                    "ID",
+                    "=",
+                    "UpgradeButton.Variable(TowerID)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareStrings"
+                  },
+                  "parameters": [
+                    "Towers.ObjectName()",
+                    "=",
+                    "\"Firefighter\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "playerGold",
+                    ">=",
+                    "GlobalVariable(FirefighterUpgCost)"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetEffectDoubleParameter"
+                  },
+                  "parameters": [
+                    "Towers",
+                    "\"Outline\"",
+                    "\"thickness\"",
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Towers",
+                    "Upgraded",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "playerGold",
+                    "-",
+                    "GlobalVariable(FirefighterUpgCost)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "FirefighterUpgCost",
+                    "*",
+                    "3"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Towers",
+                    "ID",
+                    "=",
+                    "UpgradeButton.Variable(TowerID)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "playerGold",
+                    ">=",
+                    "GlobalVariable(DiscernCitizenUpgCost)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareStrings"
+                  },
+                  "parameters": [
+                    "Towers.ObjectName()",
+                    "=",
+                    "\"DiscerningCitizen\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetEffectDoubleParameter"
+                  },
+                  "parameters": [
+                    "Towers",
+                    "\"Outline\"",
+                    "\"thickness\"",
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Towers",
+                    "Upgraded",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "playerGold",
+                    "-",
+                    "GlobalVariable(DiscernCitizenUpgCost)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "DiscernCitizenUpgCost",
+                    "*",
+                    "3"
+                  ]
+                }
+              ]
+            },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
@@ -13581,9 +13798,60 @@
                     "=",
                     "\"CaringCitizen\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "playerGold",
+                    ">=",
+                    "GlobalVariable(CaringCitizenUpgCost)"
+                  ]
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Towers",
+                    "Upgraded",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetEffectDoubleParameter"
+                  },
+                  "parameters": [
+                    "Towers",
+                    "\"Outline\"",
+                    "\"thickness\"",
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "playerGold",
+                    "-",
+                    "GlobalVariable(CaringCitizenUpgCost)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "CaringCitizenUpgCost",
+                    "*",
+                    "3"
+                  ]
+                },
                 {
                   "type": {
                     "value": "ModVarObjet"
@@ -13620,9 +13888,60 @@
                     "=",
                     "\"CareerGuider\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "playerGold",
+                    ">=",
+                    "GlobalVariable(GuiderUpgCost)"
+                  ]
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Towers",
+                    "Upgraded",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetEffectDoubleParameter"
+                  },
+                  "parameters": [
+                    "Towers",
+                    "\"Outline\"",
+                    "\"thickness\"",
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "playerGold",
+                    "-",
+                    "GlobalVariable(GuiderUpgCost)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "GuiderUpgCost",
+                    "*",
+                    "3"
+                  ]
+                },
                 {
                   "type": {
                     "value": "ModVarGlobal"
@@ -13658,9 +13977,60 @@
                     "=",
                     "\"Investor\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "playerGold",
+                    ">=",
+                    "GlobalVariable(InvestorUpgCost)"
+                  ]
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Towers",
+                    "Upgraded",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetEffectDoubleParameter"
+                  },
+                  "parameters": [
+                    "Towers",
+                    "\"Outline\"",
+                    "\"thickness\"",
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "playerGold",
+                    "-",
+                    "GlobalVariable(InvestorUpgCost)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "InvestorUpgCost",
+                    "*",
+                    "3"
+                  ]
+                },
                 {
                   "type": {
                     "value": "ModVarObjet"
@@ -13697,9 +14067,60 @@
                     "=",
                     "\"CommLeader\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "playerGold",
+                    ">=",
+                    "GlobalVariable(CommLeaderUpgCost)"
+                  ]
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Towers",
+                    "Upgraded",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetEffectDoubleParameter"
+                  },
+                  "parameters": [
+                    "Towers",
+                    "\"Outline\"",
+                    "\"thickness\"",
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "playerGold",
+                    "-",
+                    "GlobalVariable(CommLeaderUpgCost)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "CommLeaderUpgCost",
+                    "*",
+                    "3"
+                  ]
+                },
                 {
                   "type": {
                     "value": "ModVarObjet"
@@ -13736,9 +14157,60 @@
                     "=",
                     "\"Soldier\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "playerGold",
+                    ">=",
+                    "GlobalVariable(SoldierUpgCost)"
+                  ]
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Towers",
+                    "Upgraded",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetEffectDoubleParameter"
+                  },
+                  "parameters": [
+                    "Towers",
+                    "\"Outline\"",
+                    "\"thickness\"",
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "playerGold",
+                    "-",
+                    "GlobalVariable(SoldierUpgCost)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "SoldierUpgCost",
+                    "*",
+                    "3"
+                  ]
+                },
                 {
                   "type": {
                     "value": "ModVarObjet"
@@ -13775,9 +14247,60 @@
                     "=",
                     "\"IntelligenceOfficer\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "playerGold",
+                    ">=",
+                    "GlobalVariable(IntelOfficerUpgCost)"
+                  ]
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Towers",
+                    "Upgraded",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetEffectDoubleParameter"
+                  },
+                  "parameters": [
+                    "Towers",
+                    "\"Outline\"",
+                    "\"thickness\"",
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "playerGold",
+                    "-",
+                    "GlobalVariable(IntelOfficerUpgCost)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "IntelOfficerUpgCost",
+                    "*",
+                    "3"
+                  ]
+                },
                 {
                   "type": {
                     "value": "ModVarObjet"
@@ -13814,9 +14337,60 @@
                     "=",
                     "\"Doctor\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "playerGold",
+                    ">=",
+                    "GlobalVariable(DoctorUpgCost)"
+                  ]
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Towers",
+                    "Upgraded",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetEffectDoubleParameter"
+                  },
+                  "parameters": [
+                    "Towers",
+                    "\"Outline\"",
+                    "\"thickness\"",
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "playerGold",
+                    "-",
+                    "GlobalVariable(DoctorUpgCost)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "DoctorUpgCost",
+                    "*",
+                    "3"
+                  ]
+                },
                 {
                   "type": {
                     "value": "ModVarObjet"
@@ -13853,9 +14427,60 @@
                     "=",
                     "\"WhiteHat\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "playerGold",
+                    ">=",
+                    "GlobalVariable(WhiteHatUpgCost)"
+                  ]
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Towers",
+                    "Upgraded",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetEffectDoubleParameter"
+                  },
+                  "parameters": [
+                    "Towers",
+                    "\"Outline\"",
+                    "\"thickness\"",
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "playerGold",
+                    "-",
+                    "GlobalVariable(WhiteHatUpgCost)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "WhiteHatUpgCost",
+                    "*",
+                    "3"
+                  ]
+                },
                 {
                   "type": {
                     "value": "ModVarObjet"
@@ -14074,6 +14699,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Tower/Enemy Info",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -19159,6 +19785,26 @@
                         "*",
                         "GlobalVariable(BUY_SAME_MULTIPLIER)"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "RotateTowardAngle"
+                      },
+                      "parameters": [
+                        "Soldier",
+                        "180",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "FlipY"
+                      },
+                      "parameters": [
+                        "Soldier",
+                        "yes"
+                      ]
                     }
                   ]
                 },
@@ -20874,6 +21520,126 @@
                 },
                 {
                   "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "VolunteerCost",
+                    "=",
+                    "round(GlobalVariable(VolunteerCost))"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "CaringCitizenCost",
+                    "=",
+                    "round(GlobalVariable(CaringCitizenCost))"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "GuiderCost",
+                    "=",
+                    "round(GlobalVariable(GuiderCost))"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "DoctorCost",
+                    "=",
+                    "round(GlobalVariable(DoctorCost))"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "SoldierCost",
+                    "=",
+                    "round(GlobalVariable(SoldierCost))"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "CheerleaderCost",
+                    "=",
+                    "round(GlobalVariable(CheerleaderCost))"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "WhiteHatCost",
+                    "=",
+                    "round(GlobalVariable(WhiteHatCost))"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "InvestorCost",
+                    "=",
+                    "round(GlobalVariable(InvestorCost))"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "DiscernCitizenCost",
+                    "=",
+                    "round(GlobalVariable(DiscernCitizenCost))"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "IntelOfficerCost",
+                    "=",
+                    "round(GlobalVariable(IntelOfficerCost))"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "CommLeaderCost",
+                    "=",
+                    "round(GlobalVariable(CommLeaderCost))"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "FirefighterCost",
+                    "=",
+                    "round(GlobalVariable(FirefighterCost))"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "AjoutObjConcern"
                   },
                   "parameters": [
@@ -20938,6 +21704,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Crisis Stuff",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -20996,7 +21763,7 @@
                 "",
                 "\"SceneTimer\"",
                 ">=",
-                "30"
+                "Variable(crisisInterval)"
               ]
             },
             {
@@ -22274,6 +23041,7 @@
           "comment": "Shop Open/Close"
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -22919,6 +23687,7 @@
           "comment": "Switch Tabs"
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -23159,6 +23928,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Change Shop Content",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",

@@ -79,8 +79,8 @@
       "name": "Cheerleader",
       "persistentUuid": "77f0b52c-70ba-4e31-8264-f422f1e68e41",
       "width": 0,
-      "x": 80,
-      "y": 883,
+      "x": -38,
+      "y": 417,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -88,14 +88,14 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "height": 305,
       "layer": "",
       "name": "CaringCitizen",
       "persistentUuid": "c6430137-24c3-42b3-a959-78f56576d5e0",
-      "width": 0,
-      "x": 238,
-      "y": 888,
+      "width": 305,
+      "x": -26,
+      "y": 770,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -103,29 +103,14 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Volunteer",
-      "persistentUuid": "48e4d8d1-7039-42e2-a63a-df860cb59d3e",
-      "width": 0,
-      "x": 368,
-      "y": 885,
-      "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "height": 281,
       "layer": "",
       "name": "CommLeader",
       "persistentUuid": "9a26a01c-e680-413d-80f0-6aab25f7ea07",
-      "width": 0,
-      "x": 480,
-      "y": 885,
+      "width": 281,
+      "x": 974,
+      "y": 733,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -133,14 +118,14 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "height": 298,
       "layer": "",
       "name": "CareerGuider",
       "persistentUuid": "cbd375db-6df7-4b83-8432-56629154f0c6",
-      "width": 0,
-      "x": 600,
-      "y": 886,
+      "width": 298,
+      "x": 320,
+      "y": 90,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -148,14 +133,14 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "height": 310,
       "layer": "",
       "name": "Investor",
       "persistentUuid": "c43f645c-3837-4c15-9d69-c9380a8615d6",
-      "width": 0,
-      "x": 741,
-      "y": 882,
+      "width": 307,
+      "x": 1059,
+      "y": 73,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -163,14 +148,14 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "height": 314,
       "layer": "",
       "name": "Soldier",
       "persistentUuid": "951568ed-ef95-4c85-98a4-f4bf7a7f1980",
-      "width": 0,
-      "x": 876,
-      "y": 883,
+      "width": 314,
+      "x": 433,
+      "y": 776,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -178,14 +163,14 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "height": 271,
       "layer": "",
       "name": "IntelligenceOfficer",
       "persistentUuid": "e7c8db4c-fba3-449f-a80d-ef795fbb91eb",
-      "width": 0,
-      "x": 979,
-      "y": 882,
+      "width": 271,
+      "x": 941,
+      "y": 786,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -193,14 +178,14 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "height": 317,
       "layer": "",
       "name": "Firefighter",
       "persistentUuid": "162556bc-679d-468b-b354-f433d34ea0b7",
-      "width": 0,
-      "x": 1089,
-      "y": 887,
+      "width": 290,
+      "x": 219,
+      "y": 769,
       "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
@@ -208,14 +193,14 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "height": 310,
       "layer": "",
       "name": "Doctor",
       "persistentUuid": "d66939fe-db79-4f5c-8d55-ce5ccdc33633",
-      "width": 0,
-      "x": 1183,
-      "y": 881,
+      "width": 310,
+      "x": 1327,
+      "y": 450,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -223,14 +208,14 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "height": 312,
       "layer": "",
       "name": "WhiteHat",
       "persistentUuid": "06ca9298-5422-4929-9b0e-b2625a6ca61a",
-      "width": 0,
-      "x": 1293,
-      "y": 876,
+      "width": 312,
+      "x": 1298,
+      "y": 749,
       "zOrder": 14,
       "numberProperties": [],
       "stringProperties": [],
@@ -238,14 +223,14 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "height": 290,
       "layer": "",
       "name": "DiscerningCitizen",
       "persistentUuid": "5a9d2cea-2b29-48ed-ab8e-56caf4245176",
-      "width": 0,
-      "x": 1419,
-      "y": 880,
+      "width": 290,
+      "x": 1139,
+      "y": 767,
       "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
@@ -609,7 +594,7 @@
       "effects": [],
       "behaviors": [],
       "content": {
-        "text": "You survived all the waves and defended the country!\nCongratulations!\nDate: ",
+        "text": "You survived all the waves and defended the country!\nCongratulations!\n\nDate: ",
         "opacity": 255,
         "scale": 1,
         "fontSize": 20,
@@ -908,6 +893,43 @@
             "+",
             "ToString(Time(\"hour\"))+\":\"+ToString(Time(\"min\"))+\" \"+ToString(Time(\"mday\"))+\"/\"+ToString(Time(\"mon\")+1)+\"/\"+ToString(1900+Time(\"year\"))"
           ]
+        },
+        {
+          "type": {
+            "value": "FlipX"
+          },
+          "parameters": [
+            "Doctor",
+            "yes"
+          ]
+        },
+        {
+          "type": {
+            "value": "FlipX"
+          },
+          "parameters": [
+            "Investor",
+            "yes"
+          ]
+        },
+        {
+          "type": {
+            "value": "FlipX"
+          },
+          "parameters": [
+            "Soldier",
+            "yes"
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangeAnimation"
+          },
+          "parameters": [
+            "Soldier",
+            "=",
+            "1"
+          ]
         }
       ],
       "events": [
@@ -988,6 +1010,135 @@
             "",
             "\"MainMenu\"",
             ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Sprite"
+          },
+          "parameters": [
+            "Soldier",
+            ">",
+            "12"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PauseAnimation"
+          },
+          "parameters": [
+            "Soldier"
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangeSprite"
+          },
+          "parameters": [
+            "Soldier",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlayAnimation"
+          },
+          "parameters": [
+            "Soldier"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Sprite"
+          },
+          "parameters": [
+            "Firefighter",
+            ">",
+            "18"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PauseAnimation"
+          },
+          "parameters": [
+            "Firefighter"
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangeSprite"
+          },
+          "parameters": [
+            "Firefighter",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlayAnimation"
+          },
+          "parameters": [
+            "Firefighter"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Sprite"
+          },
+          "parameters": [
+            "Doctor",
+            ">",
+            "18"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PauseAnimation"
+          },
+          "parameters": [
+            "Doctor"
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangeSprite"
+          },
+          "parameters": [
+            "Doctor",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlayAnimation"
+          },
+          "parameters": [
+            "Doctor"
           ]
         }
       ]

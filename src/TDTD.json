@@ -8954,6 +8954,186 @@
         "name": "LoreText2.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MBS,Merlion and Art science museum_00000.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MBS,Merlion and Art science museum_00000",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MBS,Merlion and Art science museum_000002.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MBS,Merlion and Art science museum_000002",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MBS,Merlion and Art science museum_000003.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MBS,Merlion and Art science museum_000003",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MBS,Merlion and Art science museum_000004.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MBS,Merlion and Art science museum_000004",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MBS,Merlion and Art science museum_000005.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MBS,Merlion and Art science museum_000005",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MBS,Merlion and Art science museum_000006.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MBS,Merlion and Art science museum_000006",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MBS,Merlion and Art science museum_000007.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MBS,Merlion and Art science museum_000007",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MBS,Merlion and Art science museum_000008.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MBS,Merlion and Art science museum_000008",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MBS,Merlion and Art science museum_000009.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MBS,Merlion and Art science museum_000009",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MBS,Merlion and Art science museum_0000010.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MBS,Merlion and Art science museum_0000010",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MBS,Merlion and Art science museum_0000011.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MBS,Merlion and Art science museum_0000011",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MBS,Merlion and Art science museum_0000012.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MBS,Merlion and Art science museum_0000012",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MBS,Merlion and Art science museum_0000013.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MBS,Merlion and Art science museum_0000013",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MBS,Merlion and Art science museum_0000014.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MBS,Merlion and Art science museum_0000014",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MBS,Merlion and Art science museum_0000015.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MBS,Merlion and Art science museum_0000015",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MBS,Merlion and Art science museum_0000016.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MBS,Merlion and Art science museum_0000016",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MBS,Merlion and Art science museum_0000017.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MBS,Merlion and Art science museum_0000017",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MBS,Merlion and Art science museum_0000018.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MBS,Merlion and Art science museum_0000018",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MBS,Merlion and Art science museum_0000019.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MBS,Merlion and Art science museum_0000019",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MBS,Merlion and Art science museum_0000020.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MBS,Merlion and Art science museum_0000020",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -9003,7 +9183,7 @@
           "name": "Outline",
           "doubleParameters": {
             "padding": 0,
-            "thickness": 2
+            "thickness": 0
           },
           "stringParameters": {
             "color": "208;2;27"
@@ -9423,7 +9603,7 @@
           "name": "Outline",
           "doubleParameters": {
             "padding": 0,
-            "thickness": 2
+            "thickness": 0
           },
           "stringParameters": {
             "color": "208;2;27"
@@ -9938,7 +10118,7 @@
           "name": "Outline",
           "doubleParameters": {
             "padding": 0,
-            "thickness": 2
+            "thickness": 0
           },
           "stringParameters": {
             "color": "245;166;35"
@@ -10340,7 +10520,7 @@
           "name": "Outline",
           "doubleParameters": {
             "padding": 0,
-            "thickness": 2
+            "thickness": 0
           },
           "stringParameters": {
             "color": "248;231;28"
@@ -10431,7 +10611,7 @@
           "name": "Outline",
           "doubleParameters": {
             "padding": 0,
-            "thickness": 2
+            "thickness": 0
           },
           "stringParameters": {
             "color": "248;231;28"
@@ -10534,7 +10714,7 @@
           "name": "Outline",
           "doubleParameters": {
             "padding": 0,
-            "thickness": 2
+            "thickness": 0
           },
           "stringParameters": {
             "color": "41;211;33"
@@ -11058,7 +11238,7 @@
           "name": "Outline",
           "doubleParameters": {
             "padding": 0,
-            "thickness": 2
+            "thickness": 0
           },
           "stringParameters": {
             "color": "41;211;33"
@@ -11478,7 +11658,7 @@
           "name": "Outline",
           "doubleParameters": {
             "padding": 0,
-            "thickness": 2
+            "thickness": 0
           },
           "stringParameters": {
             "color": "74;144;226"
@@ -11898,7 +12078,7 @@
           "name": "Outline",
           "doubleParameters": {
             "padding": 0,
-            "thickness": 2
+            "thickness": 0
           },
           "stringParameters": {
             "color": "74;144;226"
@@ -12438,7 +12618,7 @@
           "name": "Outline",
           "doubleParameters": {
             "padding": 0,
-            "thickness": 2
+            "thickness": 0
           },
           "stringParameters": {
             "color": "155;155;155"
@@ -12972,7 +13152,7 @@
           "name": "Outline",
           "doubleParameters": {
             "padding": 0,
-            "thickness": 2
+            "thickness": 0
           },
           "stringParameters": {
             "color": "155;155;155"
@@ -13386,26 +13566,6 @@
     },
     {
       "assetStoreId": "",
-      "name": "GoldAmount",
-      "tags": "",
-      "type": "BitmapText::BitmapTextObject",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "text": "10000",
-        "opacity": 255,
-        "scale": 1,
-        "fontSize": 20,
-        "tint": "255;255;255",
-        "bitmapFontResourceName": "assets\\fonts\\AlbaSlab\\36px\\Alba Slab 36px.fnt",
-        "textureAtlasResourceName": "assets\\fonts\\AlbaSlab\\36px\\Alba Slab 36px.png",
-        "align": "left",
-        "wordWrap": true
-      }
-    },
-    {
-      "assetStoreId": "",
       "name": "CommunitySupportIcon",
       "tags": "",
       "type": "Sprite",
@@ -13445,6 +13605,26 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "GoldAmount",
+      "tags": "",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "10000",
+        "opacity": 255,
+        "scale": 1,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "assets\\fonts\\AlbaSlab\\36px\\Alba Slab 36px.fnt",
+        "textureAtlasResourceName": "assets\\fonts\\AlbaSlab\\36px\\Alba Slab 36px.png",
+        "align": "left",
+        "wordWrap": true
+      }
     },
     {
       "assetStoreId": "",
