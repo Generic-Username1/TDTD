@@ -9134,6 +9134,123 @@
         "name": "MBS,Merlion and Art science museum_0000020",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NotifyCircle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/NotifyCircle.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/002_cheerleader_00000.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/002_cheerleader_00000.png\",\"extension\":\".png\"}",
+        "name": "assets/002_cheerleader_00000.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/003_caring citizen_00000.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/003_caring citizen_00000.png\",\"extension\":\".png\"}",
+        "name": "assets/003_caring citizen_00000.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/005_community leader_00000.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/005_community leader_00000.png\",\"extension\":\".png\"}",
+        "name": "assets/005_community leader_00000.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/016_career guider.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/016_career guider.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/015_inverstor2.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/015_inverstor2.png\",\"extension\":\".png\"}",
+        "name": "assets/015_inverstor2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/016_career guider2.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/016_career guider2.png\",\"extension\":\".png\"}",
+        "name": "assets/016_career guider2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/013_intelligence officer_00000.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/013_intelligence officer_00000.png\",\"extension\":\".png\"}",
+        "name": "assets/013_intelligence officer_00000.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/011_fire fighter_00000.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/011_fire fighter_00000.png\",\"extension\":\".png\"}",
+        "name": "assets/011_fire fighter_00000.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/012_doctor_00000.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/012_doctor_00000.png\",\"extension\":\".png\"}",
+        "name": "assets/012_doctor_00000.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/007_white-hat hacker_00000.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/007_white-hat hacker_00000.png\",\"extension\":\".png\"}",
+        "name": "assets/007_white-hat hacker_00000.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/008_discerning citizen_00000.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/008_discerning citizen_00000.png\",\"extension\":\".png\"}",
+        "name": "assets/008_discerning citizen_00000.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_002_cheerleader_00000.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/002_cheerleader_00000",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []

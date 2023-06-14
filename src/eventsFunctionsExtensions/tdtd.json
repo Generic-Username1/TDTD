@@ -450,6 +450,151 @@
         }
       ],
       "objectGroups": []
+    },
+    {
+      "description": "Show a circle which will grow and pop up to notify of something that happened",
+      "fullName": "Summon a Notify Circle",
+      "functionType": "Action",
+      "name": "SummonNotifyCircle",
+      "sentence": "Spawn _PARAM1_ (has _PARAM2_) with color _PARAM3_ alongside _PARAM4_ particles at X: _PARAM5_ and Y: _PARAM6_",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "NotifyCircle",
+                "0",
+                "0",
+                "\"Shop Layer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "NotifyParticles",
+                "GetArgumentAsNumber(\"XPos\")",
+                "GetArgumentAsNumber(\"YPos\")",
+                "\"Shop Layer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeScale"
+              },
+              "parameters": [
+                "NotifyCircle",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCenter"
+              },
+              "parameters": [
+                "NotifyCircle",
+                "=",
+                "GetArgumentAsNumber(\"XPos\")",
+                "=",
+                "GetArgumentAsNumber(\"YPos\")"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeColor"
+              },
+              "parameters": [
+                "NotifyCircle",
+                "GetArgumentAsString(\"Color\")"
+              ]
+            },
+            {
+              "type": {
+                "value": "ParticleSystem::ParticleColor1"
+              },
+              "parameters": [
+                "NotifyParticles",
+                "GetArgumentAsString(\"Color\")"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::AddObjectScaleTween"
+              },
+              "parameters": [
+                "NotifyCircle",
+                "Parameter",
+                "\"ScaleTween\"",
+                "0.5",
+                "0.5",
+                "\"easeOutQuad\"",
+                "500",
+                "",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::AddObjectOpacityTween"
+              },
+              "parameters": [
+                "NotifyCircle",
+                "Parameter",
+                "\"OpacityTween\"",
+                "0",
+                "\"easeOutQuad\"",
+                "600",
+                "yes"
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": [
+        {
+          "description": "NotifyCircle Sprite",
+          "name": "NotifyCircle",
+          "supplementaryInformation": "Sprite",
+          "type": "objectList"
+        },
+        {
+          "description": "Tween Behaviour",
+          "name": "Parameter",
+          "supplementaryInformation": "Tween::TweenBehavior",
+          "type": "behavior"
+        },
+        {
+          "description": "Color of circle",
+          "name": "Color",
+          "type": "color"
+        },
+        {
+          "description": "NotifyParticles Emitter",
+          "name": "NotifyParticles",
+          "supplementaryInformation": "ParticleSystem::ParticleEmitter",
+          "type": "objectList"
+        },
+        {
+          "description": "X Position to spawn at",
+          "name": "XPos",
+          "type": "expression"
+        },
+        {
+          "description": "Y Position to spawn at",
+          "name": "YPos",
+          "type": "expression"
+        }
+      ],
+      "objectGroups": []
     }
   ],
   "eventsBasedBehaviors": [
@@ -4074,6 +4219,16 @@
                       "subInstructions": [
                         {
                           "type": {
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Enemy",
+                            "deathStunned",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
                             "value": "PickNearest"
                           },
                           "parameters": [
@@ -4093,16 +4248,6 @@
                             "Variable(MaxRange)",
                             ""
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "ObjectVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "Enemy",
-                            "deathStunned",
-                            ""
-                          ]
                         }
                       ]
                     },
@@ -4118,8 +4263,8 @@
                           },
                           "parameters": [
                             "Enemy",
-                            "VeryVisible",
-                            "True"
+                            "deathStunned",
+                            ""
                           ]
                         },
                         {
@@ -4128,8 +4273,8 @@
                           },
                           "parameters": [
                             "Enemy",
-                            "deathStunned",
-                            ""
+                            "VeryVisible",
+                            "True"
                           ]
                         }
                       ]

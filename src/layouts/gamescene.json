@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3755458852323249,
+    "zoomFactor": 0.2977430307523694,
     "windowMask": true
   },
   "objectsGroups": [
@@ -264,6 +264,32 @@
         },
         {
           "name": "VolunteerProjectile"
+        }
+      ]
+    },
+    {
+      "name": "ShopInfoPopup",
+      "objects": [
+        {
+          "name": "ShopInfoBacking"
+        },
+        {
+          "name": "ShopInfoSprite"
+        },
+        {
+          "name": "ShopInfoTitle"
+        },
+        {
+          "name": "ShopInfoBasicText"
+        },
+        {
+          "name": "ShopInfoUpgradeText"
+        },
+        {
+          "name": "ShopInfoUpgradeLabel"
+        },
+        {
+          "name": "ShopInfoPopupConfirm"
         }
       ]
     }
@@ -1974,6 +2000,128 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "NotifyParticles",
+      "persistentUuid": "d3e850e1-ea31-48a9-9abc-a150744de99b",
+      "width": 0,
+      "x": 1299,
+      "y": 880,
+      "zOrder": 50001,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 640,
+      "layer": "Hidden Layer",
+      "locked": true,
+      "name": "ShopInfoBacking",
+      "persistentUuid": "9f8a9628-701a-4fba-964d-e099504e5825",
+      "sealed": true,
+      "width": 1000,
+      "x": 310,
+      "y": 290,
+      "zOrder": 50002,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Hidden Layer",
+      "name": "ShopInfoSprite",
+      "persistentUuid": "967c4e5e-d222-4e4c-a65a-1f4b0abdc0b5",
+      "width": 0,
+      "x": 365,
+      "y": 430,
+      "zOrder": 50003,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 38,
+      "layer": "Hidden Layer",
+      "name": "ShopInfoTitle",
+      "persistentUuid": "32a9baba-7c80-43f9-bda3-257f81cf3223",
+      "width": 500,
+      "x": 847,
+      "y": 377,
+      "zOrder": 50004,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 150,
+      "layer": "Hidden Layer",
+      "name": "ShopInfoBasicText",
+      "persistentUuid": "7ebac4c6-d36f-4ac7-827a-f27f19386694",
+      "width": 500,
+      "x": 758,
+      "y": 461,
+      "zOrder": 50005,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Hidden Layer",
+      "name": "ShopInfoUpgradeLabel",
+      "persistentUuid": "b228f6b1-aa44-4234-9479-ee2315ae2996",
+      "width": 0,
+      "x": 945,
+      "y": 618,
+      "zOrder": 50006,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 150,
+      "layer": "Hidden Layer",
+      "name": "ShopInfoUpgradeText",
+      "persistentUuid": "49ee976d-cb18-4da8-8212-03ce9fc80da5",
+      "width": 500,
+      "x": 763,
+      "y": 663,
+      "zOrder": 50007,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 97,
+      "layer": "Hidden Layer",
+      "name": "ShopInfoPopupConfirm",
+      "persistentUuid": "fa80844f-df73-4cb6-b836-7b6809c791af",
+      "width": 88,
+      "x": 773,
+      "y": 814,
+      "zOrder": 50008,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -2758,6 +2906,47 @@
       "variables": [],
       "effects": [],
       "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "name": "MapBackground",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "BG_PNG2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "assetStoreId": "",
@@ -8679,13 +8868,18 @@
     },
     {
       "assetStoreId": "",
-      "name": "MapBackground",
+      "name": "NotifyCircle",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -8697,7 +8891,470 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "BG_PNG2.png",
+                  "image": "assets/NotifyCircle.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "additive": false,
+      "assetStoreId": "",
+      "destroyWhenNoParticles": true,
+      "emitterAngleA": 0,
+      "emitterAngleB": 360,
+      "emitterForceMax": 65,
+      "emitterForceMin": 45,
+      "flow": 45,
+      "jumpForwardInTimeOnCreation": 0.5,
+      "maxParticleNb": 25,
+      "name": "NotifyParticles",
+      "particleAlpha1": 204,
+      "particleAlpha2": 0,
+      "particleAlphaRandomness1": 0,
+      "particleAlphaRandomness2": 0,
+      "particleAngle1": 0,
+      "particleAngle2": 90,
+      "particleAngleRandomness1": 0,
+      "particleAngleRandomness2": 0,
+      "particleBlue1": 255,
+      "particleBlue2": 255,
+      "particleGravityX": 0,
+      "particleGravityY": 0,
+      "particleGreen1": 255,
+      "particleGreen2": 255,
+      "particleLifeTimeMax": 1,
+      "particleLifeTimeMin": 1,
+      "particleRed1": 255,
+      "particleRed2": 255,
+      "particleSize1": 100,
+      "particleSize2": 100,
+      "particleSizeRandomness1": 0,
+      "particleSizeRandomness2": 0,
+      "rendererParam1": 5,
+      "rendererParam2": 5,
+      "rendererType": "Line",
+      "tags": "",
+      "tank": 25,
+      "textureParticleName": "",
+      "type": "ParticleSystem::ParticleEmitter",
+      "zoneRadius": 0,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "bottomMargin": 8,
+      "height": 128,
+      "leftMargin": 8,
+      "name": "ShopInfoBacking",
+      "rightMargin": 8,
+      "tags": "",
+      "texture": "sprites\\UI\\White-Grey-TextBacking.png",
+      "tiled": false,
+      "topMargin": 8,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 128,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "ShopInfoSprite",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "assets/002_cheerleader_00000",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.00001,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets/002_cheerleader_00000.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets/003_caring citizen_00000.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets/002_cheerleader_00000",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets/005_community leader_00000.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets/016_career guider2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets/015_inverstor2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets/014_soldier_00000.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets/013_intelligence officer_00000.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets/011_fire fighter_00000.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets/012_doctor_00000.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets/007_white-hat hacker_00000.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets/008_discerning citizen_00000.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "ShopInfoTitle",
+      "tags": "",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Outline",
+          "name": "Effect",
+          "doubleParameters": {
+            "padding": 0,
+            "thickness": 2
+          },
+          "stringParameters": {
+            "color": "0;0;0"
+          },
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [],
+      "content": {
+        "text": "TOWERNAME",
+        "opacity": 255,
+        "scale": 1,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "assets\\fonts\\AlbaSlab\\36px\\Alba Slab 36px.fnt",
+        "textureAtlasResourceName": "assets\\fonts\\AlbaSlab\\36px\\Alba Slab 36px.png",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "ShopInfoBasicText",
+      "tags": "",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "This is the normal ability of the tower. It does something to help you win the game.",
+        "opacity": 255,
+        "scale": 1,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "assets\\fonts\\AlbaSlab\\24px\\Alba Slab 24px.fnt",
+        "textureAtlasResourceName": "assets\\fonts\\AlbaSlab\\24px\\Alba Slab 24px.png",
+        "align": "left",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "ShopInfoUpgradeText",
+      "tags": "",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "This is the upgraded ability of the tower. It does something to help you win the game.",
+        "opacity": 255,
+        "scale": 1,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "assets\\fonts\\AlbaSlab\\24px\\Alba Slab 24px.fnt",
+        "textureAtlasResourceName": "assets\\fonts\\AlbaSlab\\24px\\Alba Slab 24px.png",
+        "align": "left",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "ShopInfoUpgradeLabel",
+      "tags": "",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Outline",
+          "name": "Effect",
+          "doubleParameters": {
+            "padding": 0,
+            "thickness": 2
+          },
+          "stringParameters": {
+            "color": "0;0;0"
+          },
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [],
+      "content": {
+        "text": "Upgrade",
+        "opacity": 255,
+        "scale": 1,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "assets\\fonts\\AlbaSlab\\24px\\Alba Slab 24px.fnt",
+        "textureAtlasResourceName": "assets\\fonts\\AlbaSlab\\24px\\Alba Slab 24px.png",
+        "align": "left",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "ShopInfoPopupConfirm",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Glow",
+          "name": "Glow",
+          "doubleParameters": {
+            "distance": 20,
+            "innerStrength": 1,
+            "outerStrength": 10
+          },
+          "stringParameters": {
+            "color": "255;255;255"
+          },
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [
+        {
+          "name": "Button",
+          "type": "TDTD::Button"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\Apply.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -9390,7 +10047,7 @@
                   "parameters": [
                     "playerGold",
                     "=",
-                    "500"
+                    "50000"
                   ]
                 },
                 {
@@ -9675,6 +10332,24 @@
                     "SpawnRail",
                     "=",
                     "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreY"
+                  },
+                  "parameters": [
+                    "ShopInfoPopup",
+                    "+",
+                    "1000"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PauseAnimation"
+                  },
+                  "parameters": [
+                    "ShopInfoSprite"
                   ]
                 }
               ]
@@ -11578,26 +12253,61 @@
                       ]
                     }
                   ],
-                  "actions": [
+                  "actions": [],
+                  "events": [
                     {
-                      "type": {
-                        "value": "ModVarObjet"
-                      },
-                      "parameters": [
-                        "CommLeader",
-                        "OneUpCount",
-                        "=",
-                        "0"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVarGlobal"
-                      },
-                      "parameters": [
-                        "CommSupportAmt",
-                        "+",
-                        "1"
+                      "type": "BuiltinCommonInstructions::ForEach",
+                      "object": "CommLeader",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarObjet"
+                          },
+                          "parameters": [
+                            "CommLeader",
+                            "OneUpCount",
+                            ">=",
+                            "8"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "CommLeader",
+                            "OneUpCount",
+                            "=",
+                            "0"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "CommSupportAmt",
+                            "+",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TDTD::SummonNotifyCircle"
+                          },
+                          "parameters": [
+                            "",
+                            "NotifyCircle",
+                            "Tween",
+                            "\"245;166;35\"",
+                            "NotifyParticles",
+                            "CommLeader.CenterX()",
+                            "CommLeader.CenterY()",
+                            ""
+                          ]
+                        }
                       ]
                     }
                   ]
@@ -13576,6 +14286,21 @@
               "actions": [
                 {
                   "type": {
+                    "value": "TDTD::SummonNotifyCircle"
+                  },
+                  "parameters": [
+                    "",
+                    "NotifyCircle",
+                    "Tween",
+                    "\"126;211;33\"",
+                    "NotifyParticles",
+                    "Towers.CenterX()",
+                    "Towers.CenterY()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "SetEffectDoubleParameter"
                   },
                   "parameters": [
@@ -13653,6 +14378,21 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "TDTD::SummonNotifyCircle"
+                  },
+                  "parameters": [
+                    "",
+                    "NotifyCircle",
+                    "Tween",
+                    "\"126;211;33\"",
+                    "NotifyParticles",
+                    "Towers.CenterX()",
+                    "Towers.CenterY()",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "SetEffectDoubleParameter"
@@ -13734,6 +14474,21 @@
               "actions": [
                 {
                   "type": {
+                    "value": "TDTD::SummonNotifyCircle"
+                  },
+                  "parameters": [
+                    "",
+                    "NotifyCircle",
+                    "Tween",
+                    "\"126;211;33\"",
+                    "NotifyParticles",
+                    "Towers.CenterX()",
+                    "Towers.CenterY()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "SetEffectDoubleParameter"
                   },
                   "parameters": [
@@ -13813,12 +14568,17 @@
               "actions": [
                 {
                   "type": {
-                    "value": "SetObjectVariableAsBoolean"
+                    "value": "TDTD::SummonNotifyCircle"
                   },
                   "parameters": [
-                    "Towers",
-                    "Upgraded",
-                    "True"
+                    "",
+                    "NotifyCircle",
+                    "Tween",
+                    "\"126;211;33\"",
+                    "NotifyParticles",
+                    "Towers.CenterX()",
+                    "Towers.CenterY()",
+                    ""
                   ]
                 },
                 {
@@ -13830,6 +14590,16 @@
                     "\"Outline\"",
                     "\"thickness\"",
                     "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Towers",
+                    "Upgraded",
+                    "True"
                   ]
                 },
                 {
@@ -13909,6 +14679,21 @@
                     "Towers",
                     "Upgraded",
                     "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TDTD::SummonNotifyCircle"
+                  },
+                  "parameters": [
+                    "",
+                    "NotifyCircle",
+                    "Tween",
+                    "\"126;211;33\"",
+                    "NotifyParticles",
+                    "Towers.CenterX()",
+                    "Towers.CenterY()",
+                    ""
                   ]
                 },
                 {
@@ -13998,6 +14783,21 @@
                     "Towers",
                     "Upgraded",
                     "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TDTD::SummonNotifyCircle"
+                  },
+                  "parameters": [
+                    "",
+                    "NotifyCircle",
+                    "Tween",
+                    "\"126;211;33\"",
+                    "NotifyParticles",
+                    "Towers.CenterX()",
+                    "Towers.CenterY()",
+                    ""
                   ]
                 },
                 {
@@ -14092,6 +14892,21 @@
                 },
                 {
                   "type": {
+                    "value": "TDTD::SummonNotifyCircle"
+                  },
+                  "parameters": [
+                    "",
+                    "NotifyCircle",
+                    "Tween",
+                    "\"126;211;33\"",
+                    "NotifyParticles",
+                    "Towers.CenterX()",
+                    "Towers.CenterY()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "SetEffectDoubleParameter"
                   },
                   "parameters": [
@@ -14178,6 +14993,21 @@
                     "Towers",
                     "Upgraded",
                     "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TDTD::SummonNotifyCircle"
+                  },
+                  "parameters": [
+                    "",
+                    "NotifyCircle",
+                    "Tween",
+                    "\"126;211;33\"",
+                    "NotifyParticles",
+                    "Towers.CenterX()",
+                    "Towers.CenterY()",
+                    ""
                   ]
                 },
                 {
@@ -14272,6 +15102,21 @@
                 },
                 {
                   "type": {
+                    "value": "TDTD::SummonNotifyCircle"
+                  },
+                  "parameters": [
+                    "",
+                    "NotifyCircle",
+                    "Tween",
+                    "\"126;211;33\"",
+                    "NotifyParticles",
+                    "Towers.CenterX()",
+                    "Towers.CenterY()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "SetEffectDoubleParameter"
                   },
                   "parameters": [
@@ -14362,6 +15207,21 @@
                 },
                 {
                   "type": {
+                    "value": "TDTD::SummonNotifyCircle"
+                  },
+                  "parameters": [
+                    "",
+                    "NotifyCircle",
+                    "Tween",
+                    "\"126;211;33\"",
+                    "NotifyParticles",
+                    "Towers.CenterX()",
+                    "Towers.CenterY()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "SetEffectDoubleParameter"
                   },
                   "parameters": [
@@ -14448,6 +15308,21 @@
                     "Towers",
                     "Upgraded",
                     "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TDTD::SummonNotifyCircle"
+                  },
+                  "parameters": [
+                    "",
+                    "NotifyCircle",
+                    "Tween",
+                    "\"126;211;33\"",
+                    "NotifyParticles",
+                    "Towers.CenterX()",
+                    "Towers.CenterY()",
+                    ""
                   ]
                 },
                 {
@@ -15068,49 +15943,12 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "BuiltinCommonInstructions::Or"
+                    "value": "VarSceneTxt"
                   },
-                  "parameters": [],
-                  "subInstructions": [
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::And"
-                      },
-                      "parameters": [],
-                      "subInstructions": [
-                        {
-                          "type": {
-                            "value": "SourisSurObjet"
-                          },
-                          "parameters": [
-                            "ShopIconTop",
-                            "",
-                            "",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "VarSceneTxt"
-                          },
-                          "parameters": [
-                            "ShopPillar",
-                            "=",
-                            "\"Psychological\""
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "VarSceneTxt"
-                      },
-                      "parameters": [
-                        "selectedTower",
-                        "=",
-                        "\"Cheerleader\""
-                      ]
-                    }
+                  "parameters": [
+                    "selectedTower",
+                    "=",
+                    "\"Cheerleader\""
                   ]
                 }
               ],
@@ -15151,49 +15989,12 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "BuiltinCommonInstructions::Or"
+                    "value": "VarSceneTxt"
                   },
-                  "parameters": [],
-                  "subInstructions": [
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::And"
-                      },
-                      "parameters": [],
-                      "subInstructions": [
-                        {
-                          "type": {
-                            "value": "SourisSurObjet"
-                          },
-                          "parameters": [
-                            "ShopIconBottom",
-                            "",
-                            "",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "VarSceneTxt"
-                          },
-                          "parameters": [
-                            "ShopPillar",
-                            "=",
-                            "\"Psychological\""
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "VarSceneTxt"
-                      },
-                      "parameters": [
-                        "selectedTower",
-                        "=",
-                        "\"CaringCitizen\""
-                      ]
-                    }
+                  "parameters": [
+                    "selectedTower",
+                    "=",
+                    "\"CaringCitizen\""
                   ]
                 }
               ],
@@ -15246,144 +16047,12 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "BuiltinCommonInstructions::Or"
-                  },
-                  "parameters": [],
-                  "subInstructions": [
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::And"
-                      },
-                      "parameters": [],
-                      "subInstructions": [
-                        {
-                          "type": {
-                            "value": "SourisSurObjet"
-                          },
-                          "parameters": [
-                            "ShopIconTop",
-                            "",
-                            "",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "VarSceneTxt"
-                          },
-                          "parameters": [
-                            "ShopPillar",
-                            "=",
-                            "\"Social\""
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "VarSceneTxt"
-                      },
-                      "parameters": [
-                        "selectedTower",
-                        "=",
-                        "\"Volunteer\""
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ChangeColor"
+                    "value": "VarSceneTxt"
                   },
                   "parameters": [
-                    "DescBacking",
-                    "\"250;221;172\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BitmapText::BitmapTextObject::SetText"
-                  },
-                  "parameters": [
-                    "SelectedText",
+                    "selectedTower",
                     "=",
-                    "\"Selected: Volunteer\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BitmapText::BitmapTextObject::SetText"
-                  },
-                  "parameters": [
-                    "SelectedDesc",
-                    "=",
-                    "\"Volunteers step up to help when there is a need for it, no matter the circumstances.\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "TODO: Make Leader give free upgrade"
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Or"
-                  },
-                  "parameters": [],
-                  "subInstructions": [
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::And"
-                      },
-                      "parameters": [],
-                      "subInstructions": [
-                        {
-                          "type": {
-                            "value": "SourisSurObjet"
-                          },
-                          "parameters": [
-                            "ShopIconBottom",
-                            "",
-                            "",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "VarSceneTxt"
-                          },
-                          "parameters": [
-                            "ShopPillar",
-                            "=",
-                            "\"Social\""
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "VarSceneTxt"
-                      },
-                      "parameters": [
-                        "selectedTower",
-                        "=",
-                        "\"CommLeader\""
-                      ]
-                    }
+                    "\"CommLeader\""
                   ]
                 }
               ],
@@ -15436,49 +16105,12 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "BuiltinCommonInstructions::Or"
+                    "value": "VarSceneTxt"
                   },
-                  "parameters": [],
-                  "subInstructions": [
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::And"
-                      },
-                      "parameters": [],
-                      "subInstructions": [
-                        {
-                          "type": {
-                            "value": "SourisSurObjet"
-                          },
-                          "parameters": [
-                            "ShopIconTop",
-                            "",
-                            "",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "VarSceneTxt"
-                          },
-                          "parameters": [
-                            "ShopPillar",
-                            "=",
-                            "\"Economic\""
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "VarSceneTxt"
-                      },
-                      "parameters": [
-                        "selectedTower",
-                        "=",
-                        "\"CareerGuider\""
-                      ]
-                    }
+                  "parameters": [
+                    "selectedTower",
+                    "=",
+                    "\"CareerGuider\""
                   ]
                 }
               ],
@@ -15519,49 +16151,12 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "BuiltinCommonInstructions::Or"
+                    "value": "VarSceneTxt"
                   },
-                  "parameters": [],
-                  "subInstructions": [
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::And"
-                      },
-                      "parameters": [],
-                      "subInstructions": [
-                        {
-                          "type": {
-                            "value": "SourisSurObjet"
-                          },
-                          "parameters": [
-                            "ShopIconBottom",
-                            "",
-                            "",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "VarSceneTxt"
-                          },
-                          "parameters": [
-                            "ShopPillar",
-                            "=",
-                            "\"Economic\""
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "VarSceneTxt"
-                      },
-                      "parameters": [
-                        "selectedTower",
-                        "=",
-                        "\"Investor\""
-                      ]
-                    }
+                  "parameters": [
+                    "selectedTower",
+                    "=",
+                    "\"Investor\""
                   ]
                 }
               ],
@@ -15614,49 +16209,12 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "BuiltinCommonInstructions::Or"
+                    "value": "VarSceneTxt"
                   },
-                  "parameters": [],
-                  "subInstructions": [
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::And"
-                      },
-                      "parameters": [],
-                      "subInstructions": [
-                        {
-                          "type": {
-                            "value": "SourisSurObjet"
-                          },
-                          "parameters": [
-                            "ShopIconTop",
-                            "",
-                            "",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "VarSceneTxt"
-                          },
-                          "parameters": [
-                            "ShopPillar",
-                            "=",
-                            "\"Military\""
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "VarSceneTxt"
-                      },
-                      "parameters": [
-                        "selectedTower",
-                        "=",
-                        "\"Soldier\""
-                      ]
-                    }
+                  "parameters": [
+                    "selectedTower",
+                    "=",
+                    "\"Soldier\""
                   ]
                 }
               ],
@@ -15697,49 +16255,12 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "BuiltinCommonInstructions::Or"
+                    "value": "VarSceneTxt"
                   },
-                  "parameters": [],
-                  "subInstructions": [
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::And"
-                      },
-                      "parameters": [],
-                      "subInstructions": [
-                        {
-                          "type": {
-                            "value": "SourisSurObjet"
-                          },
-                          "parameters": [
-                            "ShopIconBottom",
-                            "",
-                            "",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "VarSceneTxt"
-                          },
-                          "parameters": [
-                            "ShopPillar",
-                            "=",
-                            "\"Military\""
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "VarSceneTxt"
-                      },
-                      "parameters": [
-                        "selectedTower",
-                        "=",
-                        "\"IntelligenceOfficer\""
-                      ]
-                    }
+                  "parameters": [
+                    "selectedTower",
+                    "=",
+                    "\"IntelligenceOfficer\""
                   ]
                 }
               ],
@@ -15792,49 +16313,12 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "BuiltinCommonInstructions::Or"
+                    "value": "VarSceneTxt"
                   },
-                  "parameters": [],
-                  "subInstructions": [
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::And"
-                      },
-                      "parameters": [],
-                      "subInstructions": [
-                        {
-                          "type": {
-                            "value": "SourisSurObjet"
-                          },
-                          "parameters": [
-                            "ShopIconTop",
-                            "",
-                            "",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "VarSceneTxt"
-                          },
-                          "parameters": [
-                            "ShopPillar",
-                            "=",
-                            "\"Civil\""
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "VarSceneTxt"
-                      },
-                      "parameters": [
-                        "selectedTower",
-                        "=",
-                        "\"Firefighter\""
-                      ]
-                    }
+                  "parameters": [
+                    "selectedTower",
+                    "=",
+                    "\"Firefighter\""
                   ]
                 }
               ],
@@ -15871,65 +16355,16 @@
               ]
             },
             {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "TODO: Make Towers not die when in range of doctor after implementing death"
-            },
-            {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "value": "BuiltinCommonInstructions::Or"
+                    "value": "VarSceneTxt"
                   },
-                  "parameters": [],
-                  "subInstructions": [
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::And"
-                      },
-                      "parameters": [],
-                      "subInstructions": [
-                        {
-                          "type": {
-                            "value": "SourisSurObjet"
-                          },
-                          "parameters": [
-                            "ShopIconBottom",
-                            "",
-                            "",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "VarSceneTxt"
-                          },
-                          "parameters": [
-                            "ShopPillar",
-                            "=",
-                            "\"Civil\""
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "VarSceneTxt"
-                      },
-                      "parameters": [
-                        "selectedTower",
-                        "=",
-                        "\"Doctor\""
-                      ]
-                    }
+                  "parameters": [
+                    "selectedTower",
+                    "=",
+                    "\"Doctor\""
                   ]
                 }
               ],
@@ -15982,49 +16417,12 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "BuiltinCommonInstructions::Or"
+                    "value": "VarSceneTxt"
                   },
-                  "parameters": [],
-                  "subInstructions": [
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::And"
-                      },
-                      "parameters": [],
-                      "subInstructions": [
-                        {
-                          "type": {
-                            "value": "SourisSurObjet"
-                          },
-                          "parameters": [
-                            "ShopIconTop",
-                            "",
-                            "",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "VarSceneTxt"
-                          },
-                          "parameters": [
-                            "ShopPillar",
-                            "=",
-                            "\"Digital\""
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "VarSceneTxt"
-                      },
-                      "parameters": [
-                        "selectedTower",
-                        "=",
-                        "\"WhiteHat\""
-                      ]
-                    }
+                  "parameters": [
+                    "selectedTower",
+                    "=",
+                    "\"WhiteHat\""
                   ]
                 }
               ],
@@ -16065,49 +16463,12 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "BuiltinCommonInstructions::Or"
+                    "value": "VarSceneTxt"
                   },
-                  "parameters": [],
-                  "subInstructions": [
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::And"
-                      },
-                      "parameters": [],
-                      "subInstructions": [
-                        {
-                          "type": {
-                            "value": "SourisSurObjet"
-                          },
-                          "parameters": [
-                            "ShopIconBottom",
-                            "",
-                            "",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "VarSceneTxt"
-                          },
-                          "parameters": [
-                            "ShopPillar",
-                            "=",
-                            "\"Digital\""
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "VarSceneTxt"
-                      },
-                      "parameters": [
-                        "selectedTower",
-                        "=",
-                        "\"DiscerningCitizen\""
-                      ]
-                    }
+                  "parameters": [
+                    "selectedTower",
+                    "=",
+                    "\"DiscerningCitizen\""
                   ]
                 }
               ],
@@ -16219,75 +16580,42 @@
                     "Towers",
                     ""
                   ]
-                }
-              ],
-              "events": [
+                },
                 {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": true,
-                        "value": "SourisSurObjet"
-                      },
-                      "parameters": [
-                        "ShopIconTop",
-                        "",
-                        "",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "inverted": true,
-                        "value": "SourisSurObjet"
-                      },
-                      "parameters": [
-                        "ShopIconBottom",
-                        "",
-                        "",
-                        ""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "BitmapText::BitmapTextObject::SetText"
-                      },
-                      "parameters": [
-                        "SelectedText",
-                        "=",
-                        "\"Selected: None\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BitmapText::BitmapTextObject::SetText"
-                      },
-                      "parameters": [
-                        "SelectedDesc",
-                        "=",
-                        "\"Select a Tower for more information\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ChangeColor"
-                      },
-                      "parameters": [
-                        "DescBacking",
-                        "\"255;255;255\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Cache"
-                      },
-                      "parameters": [
-                        "StatusIcons"
-                      ]
-                    }
+                  "type": {
+                    "value": "BitmapText::BitmapTextObject::SetText"
+                  },
+                  "parameters": [
+                    "SelectedText",
+                    "=",
+                    "\"Selected: None\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BitmapText::BitmapTextObject::SetText"
+                  },
+                  "parameters": [
+                    "SelectedDesc",
+                    "=",
+                    "\"Select a Tower for more information\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeColor"
+                  },
+                  "parameters": [
+                    "DescBacking",
+                    "\"255;255;255\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "StatusIcons"
                   ]
                 }
               ]
@@ -17791,6 +18119,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "SpawnBox and Spawning",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -22959,7 +23288,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Shop Stuff",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -23922,6 +24250,997 @@
               "actions": []
             }
           ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Show Info Popup",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "MouseButtonReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "ShopInfoPopupConfirm",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeTimeScale"
+                  },
+                  "parameters": [
+                    "",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeLayer"
+                  },
+                  "parameters": [
+                    "ShopInfoPopup",
+                    "\"Hidden Layer\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreY"
+                  },
+                  "parameters": [
+                    "ShopInfoPopup",
+                    "+",
+                    "1000"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "MouseButtonReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "ShopIconTop",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "ShopIconBottom",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeTimeScale"
+                  },
+                  "parameters": [
+                    "",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeLayer"
+                  },
+                  "parameters": [
+                    "ShopInfoPopup",
+                    "\"Shop Layer\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreY"
+                  },
+                  "parameters": [
+                    "ShopInfoPopup",
+                    "-",
+                    "1000"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "ShopIconTop",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarSceneTxt"
+                          },
+                          "parameters": [
+                            "ShopPillar",
+                            "=",
+                            "\"Psychological\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "BitmapText::BitmapTextObject::SetText"
+                          },
+                          "parameters": [
+                            "ShopInfoTitle",
+                            "=",
+                            "\"Cheerleader\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BitmapText::BitmapTextObject::SetText"
+                          },
+                          "parameters": [
+                            "ShopInfoBasicText",
+                            "=",
+                            "\"Boosts fire rate of towers in range.\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BitmapText::BitmapTextObject::SetText"
+                          },
+                          "parameters": [
+                            "ShopInfoUpgradeText",
+                            "=",
+                            "\"Further boosts fire rate, and boosts damage as well.\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BitmapText::BitmapTextObject::SetText"
+                          },
+                          "parameters": [
+                            "ShopInfoUpgradeText",
+                            "+",
+                            "\" \" + ToString(GlobalVariable(CheerleaderUpgCost)) + \" coins.\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ChangeSprite"
+                          },
+                          "parameters": [
+                            "ShopInfoSprite",
+                            "=",
+                            "0"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarSceneTxt"
+                          },
+                          "parameters": [
+                            "ShopPillar",
+                            "=",
+                            "\"Social\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "BitmapText::BitmapTextObject::SetText"
+                          },
+                          "parameters": [
+                            "ShopInfoTitle",
+                            "=",
+                            "\"Volunteer\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BitmapText::BitmapTextObject::SetText"
+                          },
+                          "parameters": [
+                            "ShopInfoBasicText",
+                            "=",
+                            "\"Must be placed onto another tower. It will then copy the type of tower it is placed on, but with half its original fire rate.\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BitmapText::BitmapTextObject::SetText"
+                          },
+                          "parameters": [
+                            "ShopInfoUpgradeText",
+                            "=",
+                            "\"This tower cannot be upgraded.\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ChangeSprite"
+                          },
+                          "parameters": [
+                            "ShopInfoSprite",
+                            "=",
+                            "2"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarSceneTxt"
+                          },
+                          "parameters": [
+                            "ShopPillar",
+                            "=",
+                            "\"Economic\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "BitmapText::BitmapTextObject::SetText"
+                          },
+                          "parameters": [
+                            "ShopInfoTitle",
+                            "=",
+                            "\"Career Guider\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BitmapText::BitmapTextObject::SetText"
+                          },
+                          "parameters": [
+                            "ShopInfoBasicText",
+                            "=",
+                            "\"Increases the maximum number of towers that can be placed by 4. Can be placed even if there is not enough tower slots.\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BitmapText::BitmapTextObject::SetText"
+                          },
+                          "parameters": [
+                            "ShopInfoUpgradeText",
+                            "=",
+                            "\"Further increases the maximum number of towers by 2.\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BitmapText::BitmapTextObject::SetText"
+                          },
+                          "parameters": [
+                            "ShopInfoUpgradeText",
+                            "+",
+                            "\" \" + ToString(GlobalVariable(GuiderUpgCost)) + \" coins.\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ChangeSprite"
+                          },
+                          "parameters": [
+                            "ShopInfoSprite",
+                            "=",
+                            "4"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarSceneTxt"
+                          },
+                          "parameters": [
+                            "ShopPillar",
+                            "=",
+                            "\"Military\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "BitmapText::BitmapTextObject::SetText"
+                          },
+                          "parameters": [
+                            "ShopInfoTitle",
+                            "=",
+                            "\"Soldier\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BitmapText::BitmapTextObject::SetText"
+                          },
+                          "parameters": [
+                            "ShopInfoBasicText",
+                            "=",
+                            "\"Shoots at enemies, dealing high damage.\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BitmapText::BitmapTextObject::SetText"
+                          },
+                          "parameters": [
+                            "ShopInfoUpgradeText",
+                            "=",
+                            "\"Increases fire rate and bullet damage.\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BitmapText::BitmapTextObject::SetText"
+                          },
+                          "parameters": [
+                            "ShopInfoUpgradeText",
+                            "+",
+                            "\" \" + ToString(GlobalVariable(SoldierUpgCost)) + \" coins.\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ChangeSprite"
+                          },
+                          "parameters": [
+                            "ShopInfoSprite",
+                            "=",
+                            "6"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarSceneTxt"
+                          },
+                          "parameters": [
+                            "ShopPillar",
+                            "=",
+                            "\"Civil\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "BitmapText::BitmapTextObject::SetText"
+                          },
+                          "parameters": [
+                            "ShopInfoTitle",
+                            "=",
+                            "\"Firefighter\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BitmapText::BitmapTextObject::SetText"
+                          },
+                          "parameters": [
+                            "ShopInfoBasicText",
+                            "=",
+                            "\"Spawns puddles on the path that permanently stuns a single enemy that steps on it.\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BitmapText::BitmapTextObject::SetText"
+                          },
+                          "parameters": [
+                            "ShopInfoUpgradeText",
+                            "=",
+                            "\"Firefighter will now sometimes fire a huge water droplet that tracks enemies and also stuns enemies near the target.\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BitmapText::BitmapTextObject::SetText"
+                          },
+                          "parameters": [
+                            "ShopInfoUpgradeText",
+                            "+",
+                            "\" \" + ToString(GlobalVariable(FirefighterUpgCost)) + \" coins.\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ChangeSprite"
+                          },
+                          "parameters": [
+                            "ShopInfoSprite",
+                            "=",
+                            "8"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarSceneTxt"
+                          },
+                          "parameters": [
+                            "ShopPillar",
+                            "=",
+                            "\"Digital\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "BitmapText::BitmapTextObject::SetText"
+                          },
+                          "parameters": [
+                            "ShopInfoTitle",
+                            "=",
+                            "\"White-hat Hacker\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BitmapText::BitmapTextObject::SetText"
+                          },
+                          "parameters": [
+                            "ShopInfoBasicText",
+                            "=",
+                            "\"Fires large signals at the enemies which slow them down for a while.\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BitmapText::BitmapTextObject::SetText"
+                          },
+                          "parameters": [
+                            "ShopInfoUpgradeText",
+                            "=",
+                            "\"Increases signal size and fire rate.\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BitmapText::BitmapTextObject::SetText"
+                          },
+                          "parameters": [
+                            "ShopInfoUpgradeText",
+                            "+",
+                            "\" \" + ToString(GlobalVariable(WhiteHatUpgCost)) + \" coins.\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ChangeSprite"
+                          },
+                          "parameters": [
+                            "ShopInfoSprite",
+                            "=",
+                            "10"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "ShopIconBottom",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarSceneTxt"
+                          },
+                          "parameters": [
+                            "ShopPillar",
+                            "=",
+                            "\"Psychological\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "BitmapText::BitmapTextObject::SetText"
+                          },
+                          "parameters": [
+                            "ShopInfoTitle",
+                            "=",
+                            "\"Caring Citizen\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BitmapText::BitmapTextObject::SetText"
+                          },
+                          "parameters": [
+                            "ShopInfoBasicText",
+                            "=",
+                            "\"Prevents nearby towers from being targeted by negative status effects. Does not cure pre-existing status effects.\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BitmapText::BitmapTextObject::SetText"
+                          },
+                          "parameters": [
+                            "ShopInfoUpgradeText",
+                            "=",
+                            "\"Caring Citizen can now recruit up to two Self-radicalised Individuals that hang around after they are defeated to become Soldiers.\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BitmapText::BitmapTextObject::SetText"
+                          },
+                          "parameters": [
+                            "ShopInfoUpgradeText",
+                            "+",
+                            "\" \" + ToString(GlobalVariable(CaringCitizenUpgCost)) + \" coins.\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ChangeSprite"
+                          },
+                          "parameters": [
+                            "ShopInfoSprite",
+                            "=",
+                            "1"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarSceneTxt"
+                          },
+                          "parameters": [
+                            "ShopPillar",
+                            "=",
+                            "\"Social\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "BitmapText::BitmapTextObject::SetText"
+                          },
+                          "parameters": [
+                            "ShopInfoTitle",
+                            "=",
+                            "\"Community Leader\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BitmapText::BitmapTextObject::SetText"
+                          },
+                          "parameters": [
+                            "ShopInfoBasicText",
+                            "=",
+                            "\"Towers placed close together may cause a community riot. Place a Community Leader near them to prevent this.\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BitmapText::BitmapTextObject::SetText"
+                          },
+                          "parameters": [
+                            "ShopInfoUpgradeText",
+                            "=",
+                            "\"Range of Community Leader increases. Additionally, produces one Community Support every 8 rounds.\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BitmapText::BitmapTextObject::SetText"
+                          },
+                          "parameters": [
+                            "ShopInfoUpgradeText",
+                            "+",
+                            "\" \" + ToString(GlobalVariable(CommLeaderUpgCost)) + \" coins.\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ChangeSprite"
+                          },
+                          "parameters": [
+                            "ShopInfoSprite",
+                            "=",
+                            "3"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarSceneTxt"
+                          },
+                          "parameters": [
+                            "ShopPillar",
+                            "=",
+                            "\"Economic\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "BitmapText::BitmapTextObject::SetText"
+                          },
+                          "parameters": [
+                            "ShopInfoTitle",
+                            "=",
+                            "\"Investor\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BitmapText::BitmapTextObject::SetText"
+                          },
+                          "parameters": [
+                            "ShopInfoBasicText",
+                            "=",
+                            "\"Towers placed in range have a 20% discount.\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BitmapText::BitmapTextObject::SetText"
+                          },
+                          "parameters": [
+                            "ShopInfoUpgradeText",
+                            "=",
+                            "\"Towers placed in range now have an 25% discount and do not increase prices of that type of tower.\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BitmapText::BitmapTextObject::SetText"
+                          },
+                          "parameters": [
+                            "ShopInfoUpgradeText",
+                            "+",
+                            "\" \" + ToString(GlobalVariable(InvestorUpgCost)) + \" coins.\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ChangeSprite"
+                          },
+                          "parameters": [
+                            "ShopInfoSprite",
+                            "=",
+                            "5"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarSceneTxt"
+                          },
+                          "parameters": [
+                            "ShopPillar",
+                            "=",
+                            "\"Military\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "BitmapText::BitmapTextObject::SetText"
+                          },
+                          "parameters": [
+                            "ShopInfoTitle",
+                            "=",
+                            "\"Intelligence Officer\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BitmapText::BitmapTextObject::SetText"
+                          },
+                          "parameters": [
+                            "ShopInfoBasicText",
+                            "=",
+                            "\"Spawns barricades on the path that deal moderate damage to enemies that collide with it.\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BitmapText::BitmapTextObject::SetText"
+                          },
+                          "parameters": [
+                            "ShopInfoUpgradeText",
+                            "=",
+                            "\"Increases maximum number of barricades on the map at once, and rate of barricade spawning.\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BitmapText::BitmapTextObject::SetText"
+                          },
+                          "parameters": [
+                            "ShopInfoUpgradeText",
+                            "+",
+                            "\" \" + ToString(GlobalVariable(IntelOfficerUpgCost)) + \" coins.\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ChangeSprite"
+                          },
+                          "parameters": [
+                            "ShopInfoSprite",
+                            "=",
+                            "7"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarSceneTxt"
+                          },
+                          "parameters": [
+                            "ShopPillar",
+                            "=",
+                            "\"Civil\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "BitmapText::BitmapTextObject::SetText"
+                          },
+                          "parameters": [
+                            "ShopInfoTitle",
+                            "=",
+                            "\"Doctor\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BitmapText::BitmapTextObject::SetText"
+                          },
+                          "parameters": [
+                            "ShopInfoBasicText",
+                            "=",
+                            "\"Cures all towers on map of negative status effects one by one.\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BitmapText::BitmapTextObject::SetText"
+                          },
+                          "parameters": [
+                            "ShopInfoUpgradeText",
+                            "=",
+                            "\"Not implemented! Drop a suggestion.\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BitmapText::BitmapTextObject::SetText"
+                          },
+                          "parameters": [
+                            "ShopInfoUpgradeText",
+                            "+",
+                            "\" \" + ToString(GlobalVariable(DoctorUpgCost)) + \" coins.\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ChangeSprite"
+                          },
+                          "parameters": [
+                            "ShopInfoSprite",
+                            "=",
+                            "9"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarSceneTxt"
+                          },
+                          "parameters": [
+                            "ShopPillar",
+                            "=",
+                            "\"Digital\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "BitmapText::BitmapTextObject::SetText"
+                          },
+                          "parameters": [
+                            "ShopInfoTitle",
+                            "=",
+                            "\"Discerning Citizen\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BitmapText::BitmapTextObject::SetText"
+                          },
+                          "parameters": [
+                            "ShopInfoBasicText",
+                            "=",
+                            "\"Increases range of towers in range.\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BitmapText::BitmapTextObject::SetText"
+                          },
+                          "parameters": [
+                            "ShopInfoUpgradeText",
+                            "=",
+                            "\"Enemies in range of this tower can be targetted by any tower on the map.\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BitmapText::BitmapTextObject::SetText"
+                          },
+                          "parameters": [
+                            "ShopInfoUpgradeText",
+                            "+",
+                            "\" \" + ToString(GlobalVariable(DiscernCitizenUpgCost)) + \" coins.\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ChangeSprite"
+                          },
+                          "parameters": [
+                            "ShopInfoSprite",
+                            "=",
+                            "11"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetCenterX"
+                      },
+                      "parameters": [
+                        "ShopInfoTitle",
+                        "=",
+                        "ShopInfoBasicText.CenterX()"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
         },
         {
           "colorB": 228,
