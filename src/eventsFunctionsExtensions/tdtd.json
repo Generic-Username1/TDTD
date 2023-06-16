@@ -372,7 +372,7 @@
                 "Particles",
                 "Tower.X()",
                 "Tower.Y()",
-                "\"e\""
+                "\"Shop Layer\""
               ]
             },
             {
@@ -2790,6 +2790,85 @@
                   "conditions": [
                     {
                       "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Object",
+                        "NegThoughts",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "Object",
+                        "FireRate",
+                        "*",
+                        "2"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CompareObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"ShootTime\"",
+                        ">",
+                        "Object.Variable(FireRate)\n"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Object",
+                        "CheerBoosted",
+                        "False"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"ShootTime\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TDTD::TowerV2::attack"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "Projectile",
+                        "Enemies",
+                        "GetArgumentAsNumber(\"Volume\")",
+                        "1",
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
                         "value": "CompareObjectTimer"
                       },
                       "parameters": [
@@ -2893,18 +2972,6 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "CompareObjectTimer"
-                      },
-                      "parameters": [
-                        "Object",
-                        "\"ShootTime\"",
-                        ">",
-                        "Object.Variable(FireRate)\n"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "inverted": true,
                         "value": "ObjectVariableAsBoolean"
                       },
                       "parameters": [
@@ -2917,88 +2984,23 @@
                   "actions": [
                     {
                       "type": {
-                        "value": "ResetObjectTimer"
+                        "value": "ModVarObjet"
                       },
                       "parameters": [
                         "Object",
-                        "\"ShootTime\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "TDTD::TowerV2::attack"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "Projectile",
-                        "Enemies",
-                        "GetArgumentAsNumber(\"Volume\")",
-                        "1",
-                        "1",
-                        ""
+                        "FireRate",
+                        "/",
+                        "2"
                       ]
                     }
                   ]
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "CompareObjectTimer"
-                      },
-                      "parameters": [
-                        "Object",
-                        "\"ShootTime\"",
-                        ">",
-                        "Object.Variable(FireRate)*2"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ObjectVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "Object",
-                        "NegThoughts",
-                        "True"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ResetObjectTimer"
-                      },
-                      "parameters": [
-                        "Object",
-                        "\"ShootTime\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "TDTD::TowerV2::attack"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "Projectile",
-                        "Enemies",
-                        "GetArgumentAsNumber(\"Volume\")",
-                        "1",
-                        "1",
-                        ""
-                      ]
-                    }
-                  ]
+                  "conditions": [],
+                  "actions": []
                 }
               ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": []
             }
           ],
           "parameters": [
@@ -3301,17 +3303,6 @@
                 },
                 {
                   "type": {
-                    "value": "VarObjet"
-                  },
-                  "parameters": [
-                    "Object",
-                    "FireRate",
-                    ">",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "VarGlobal"
                   },
                   "parameters": [
@@ -3428,6 +3419,18 @@
                         "Object",
                         "Particles",
                         "\"255;185;185\"",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TDTD::TowerV2::selectivelyRemoveParticles"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "Particles",
+                        "\"208;2;27\"",
                         ""
                       ]
                     }
@@ -3861,6 +3864,89 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Object",
+                    "NegThoughts",
+                    "True"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TDTD::SummonParticleIndicator"
+                  },
+                  "parameters": [
+                    "",
+                    "Object",
+                    "Particles",
+                    "\"0;0;0\"",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.25"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TDTD::TowerV2::selectivelyRemoveParticles"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    "Particles",
+                    "\"0;0;0\"",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Object",
+                    "NegThoughts",
+                    "False"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TDTD::TowerV2::selectivelyRemoveParticles"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    "Particles",
+                    "\"0;0;0\"",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
             }
           ],
           "parameters": [

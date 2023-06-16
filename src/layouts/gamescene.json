@@ -1120,7 +1120,7 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "",
+      "layer": "Overlay(er)",
       "name": "Debug",
       "persistentUuid": "75d1d21e-3073-4993-aabe-3b02b3d346c1",
       "width": 0,
@@ -9382,7 +9382,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Initialization",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -10067,7 +10066,7 @@
                   "parameters": [
                     "CommSupportAmt",
                     "=",
-                    "5"
+                    "5000"
                   ]
                 },
                 {
@@ -10113,7 +10112,7 @@
                   "parameters": [
                     "playerGold",
                     "=",
-                    "1000"
+                    "100000"
                   ]
                 },
                 {
@@ -10693,7 +10692,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Continuous Events",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -13358,7 +13356,7 @@
                 "Spawner",
                 "\"CyberAttackSpawnerClock\"",
                 ">=",
-                "0.1"
+                "3"
               ]
             },
             {
@@ -13526,6 +13524,104 @@
             },
             {
               "type": {
+                "value": "TDTD::EnemyV2::changeTarget"
+              },
+              "parameters": [
+                "SelfRad",
+                "EnemyV2",
+                "1618",
+                "584",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeScale"
+              },
+              "parameters": [
+                "SelfRad",
+                "=",
+                "0.4"
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "EnemyHealthBar",
+                "SelfRad.X()",
+                "SelfRad.Y()",
+                "\"Projectile layer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetMaxValue"
+              },
+              "parameters": [
+                "EnemyHealthBar",
+                "=",
+                "SelfRad.Variable(Health)",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "LinkedObjects::LinkObjects"
+              },
+              "parameters": [
+                "",
+                "SelfRad",
+                "EnemyHealthBar"
+              ]
+            },
+            {
+              "type": {
+                "value": "EnableEffect"
+              },
+              "parameters": [
+                "SelfRad",
+                "\"Glitch\"",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "EnableEffect"
+              },
+              "parameters": [
+                "SelfRad",
+                "\"Aura\"",
+                "no"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Crisis1Count",
+                "=",
+                "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
                 "value": "Create"
               },
               "parameters": [
@@ -13541,7 +13637,7 @@
                 "value": "TDTD::EnemyV2::changeTarget"
               },
               "parameters": [
-                "Enemies",
+                "Terrorist",
                 "EnemyV2",
                 "1618",
                 "584",
@@ -13553,7 +13649,7 @@
                 "value": "ChangeScale"
               },
               "parameters": [
-                "Enemies",
+                "Terrorist",
                 "=",
                 "0.4"
               ]
@@ -13565,8 +13661,8 @@
               "parameters": [
                 "",
                 "EnemyHealthBar",
-                "Enemies.X()",
-                "Enemies.Y()",
+                "Terrorist.X()",
+                "Terrorist.Y()",
                 "\"Projectile layer\""
               ]
             },
@@ -13577,7 +13673,7 @@
               "parameters": [
                 "EnemyHealthBar",
                 "=",
-                "Enemies.Variable(Health)",
+                "Terrorist.Variable(Health)",
                 ""
               ]
             },
@@ -13587,7 +13683,7 @@
               },
               "parameters": [
                 "",
-                "Enemies",
+                "Terrorist",
                 "EnemyHealthBar"
               ]
             },
@@ -13596,7 +13692,7 @@
                 "value": "EnableEffect"
               },
               "parameters": [
-                "Enemies",
+                "Terrorist",
                 "\"Glitch\"",
                 "no"
               ]
@@ -13606,7 +13702,7 @@
                 "value": "EnableEffect"
               },
               "parameters": [
-                "Enemies",
+                "Terrorist",
                 "\"Aura\"",
                 "no"
               ]
@@ -13648,6 +13744,104 @@
             },
             {
               "type": {
+                "value": "TDTD::EnemyV2::changeTarget"
+              },
+              "parameters": [
+                "SelfRad",
+                "EnemyV2",
+                "1618",
+                "584",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeScale"
+              },
+              "parameters": [
+                "SelfRad",
+                "=",
+                "0.4"
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "EnemyHealthBar",
+                "SelfRad.X()",
+                "SelfRad.Y()",
+                "\"Projectile layer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetMaxValue"
+              },
+              "parameters": [
+                "EnemyHealthBar",
+                "=",
+                "SelfRad.Variable(Health)",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "LinkedObjects::LinkObjects"
+              },
+              "parameters": [
+                "",
+                "SelfRad",
+                "EnemyHealthBar"
+              ]
+            },
+            {
+              "type": {
+                "value": "EnableEffect"
+              },
+              "parameters": [
+                "SelfRad",
+                "\"Glitch\"",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "EnableEffect"
+              },
+              "parameters": [
+                "SelfRad",
+                "\"Aura\"",
+                "no"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Crisis1Count",
+                "=",
+                "10"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
                 "value": "Create"
               },
               "parameters": [
@@ -13663,7 +13857,7 @@
                 "value": "TDTD::EnemyV2::changeTarget"
               },
               "parameters": [
-                "Enemies",
+                "Terrorist",
                 "EnemyV2",
                 "1618",
                 "584",
@@ -13675,7 +13869,7 @@
                 "value": "ChangeScale"
               },
               "parameters": [
-                "Enemies",
+                "Terrorist",
                 "=",
                 "0.4"
               ]
@@ -13687,8 +13881,8 @@
               "parameters": [
                 "",
                 "EnemyHealthBar",
-                "Enemies.X()",
-                "Enemies.Y()",
+                "Terrorist.X()",
+                "Terrorist.Y()",
                 "\"Projectile layer\""
               ]
             },
@@ -13699,7 +13893,7 @@
               "parameters": [
                 "EnemyHealthBar",
                 "=",
-                "Enemies.Variable(Health)",
+                "Terrorist.Variable(Health)",
                 ""
               ]
             },
@@ -13709,7 +13903,7 @@
               },
               "parameters": [
                 "",
-                "Enemies",
+                "Terrorist",
                 "EnemyHealthBar"
               ]
             },
@@ -13718,7 +13912,7 @@
                 "value": "EnableEffect"
               },
               "parameters": [
-                "Enemies",
+                "Terrorist",
                 "\"Glitch\"",
                 "no"
               ]
@@ -13728,7 +13922,7 @@
                 "value": "EnableEffect"
               },
               "parameters": [
-                "Enemies",
+                "Terrorist",
                 "\"Aura\"",
                 "no"
               ]
@@ -13957,6 +14151,104 @@
             },
             {
               "type": {
+                "value": "TDTD::EnemyV2::changeTarget"
+              },
+              "parameters": [
+                "SelfRad",
+                "EnemyV2",
+                "1618",
+                "584",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeScale"
+              },
+              "parameters": [
+                "SelfRad",
+                "=",
+                "0.4"
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "EnemyHealthBar",
+                "SelfRad.X()",
+                "SelfRad.Y()",
+                "\"Projectile layer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetMaxValue"
+              },
+              "parameters": [
+                "EnemyHealthBar",
+                "=",
+                "SelfRad.Variable(Health)",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "LinkedObjects::LinkObjects"
+              },
+              "parameters": [
+                "",
+                "SelfRad",
+                "EnemyHealthBar"
+              ]
+            },
+            {
+              "type": {
+                "value": "EnableEffect"
+              },
+              "parameters": [
+                "SelfRad",
+                "\"Glitch\"",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "EnableEffect"
+              },
+              "parameters": [
+                "SelfRad",
+                "\"Aura\"",
+                "no"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Crisis2Count",
+                "=",
+                "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
                 "value": "Create"
               },
               "parameters": [
@@ -13972,7 +14264,7 @@
                 "value": "TDTD::EnemyV2::changeTarget"
               },
               "parameters": [
-                "Enemies",
+                "InternetTroll",
                 "EnemyV2",
                 "1618",
                 "584",
@@ -13984,7 +14276,7 @@
                 "value": "ChangeScale"
               },
               "parameters": [
-                "Enemies",
+                "InternetTroll",
                 "=",
                 "0.4"
               ]
@@ -13996,8 +14288,8 @@
               "parameters": [
                 "",
                 "EnemyHealthBar",
-                "Enemies.X()",
-                "Enemies.Y()",
+                "InternetTroll.X()",
+                "InternetTroll.Y()",
                 "\"Projectile layer\""
               ]
             },
@@ -14008,7 +14300,7 @@
               "parameters": [
                 "EnemyHealthBar",
                 "=",
-                "Enemies.Variable(Health)",
+                "InternetTroll.Variable(Health)",
                 ""
               ]
             },
@@ -14018,7 +14310,7 @@
               },
               "parameters": [
                 "",
-                "Enemies",
+                "InternetTroll",
                 "EnemyHealthBar"
               ]
             },
@@ -14027,7 +14319,7 @@
                 "value": "EnableEffect"
               },
               "parameters": [
-                "Enemies",
+                "InternetTroll",
                 "\"Glitch\"",
                 "no"
               ]
@@ -14037,7 +14329,7 @@
                 "value": "EnableEffect"
               },
               "parameters": [
-                "Enemies",
+                "InternetTroll",
                 "\"Aura\"",
                 "no"
               ]
@@ -14079,6 +14371,104 @@
             },
             {
               "type": {
+                "value": "TDTD::EnemyV2::changeTarget"
+              },
+              "parameters": [
+                "SelfRad",
+                "EnemyV2",
+                "1618",
+                "584",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeScale"
+              },
+              "parameters": [
+                "SelfRad",
+                "=",
+                "0.4"
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "EnemyHealthBar",
+                "SelfRad.X()",
+                "SelfRad.Y()",
+                "\"Projectile layer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetMaxValue"
+              },
+              "parameters": [
+                "EnemyHealthBar",
+                "=",
+                "SelfRad.Variable(Health)",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "LinkedObjects::LinkObjects"
+              },
+              "parameters": [
+                "",
+                "SelfRad",
+                "EnemyHealthBar"
+              ]
+            },
+            {
+              "type": {
+                "value": "EnableEffect"
+              },
+              "parameters": [
+                "SelfRad",
+                "\"Glitch\"",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "EnableEffect"
+              },
+              "parameters": [
+                "SelfRad",
+                "\"Aura\"",
+                "no"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Crisis2Count",
+                "=",
+                "10"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
                 "value": "Create"
               },
               "parameters": [
@@ -14094,7 +14484,7 @@
                 "value": "TDTD::EnemyV2::changeTarget"
               },
               "parameters": [
-                "Enemies",
+                "InternetTroll",
                 "EnemyV2",
                 "1618",
                 "584",
@@ -14106,7 +14496,7 @@
                 "value": "ChangeScale"
               },
               "parameters": [
-                "Enemies",
+                "InternetTroll",
                 "=",
                 "0.4"
               ]
@@ -14118,8 +14508,8 @@
               "parameters": [
                 "",
                 "EnemyHealthBar",
-                "Enemies.X()",
-                "Enemies.Y()",
+                "InternetTroll.X()",
+                "InternetTroll.Y()",
                 "\"Projectile layer\""
               ]
             },
@@ -14130,7 +14520,7 @@
               "parameters": [
                 "EnemyHealthBar",
                 "=",
-                "Enemies.Variable(Health)",
+                "InternetTroll.Variable(Health)",
                 ""
               ]
             },
@@ -14140,7 +14530,7 @@
               },
               "parameters": [
                 "",
-                "Enemies",
+                "InternetTroll",
                 "EnemyHealthBar"
               ]
             },
@@ -14149,7 +14539,7 @@
                 "value": "EnableEffect"
               },
               "parameters": [
-                "Enemies",
+                "InternetTroll",
                 "\"Glitch\"",
                 "no"
               ]
@@ -14159,7 +14549,7 @@
                 "value": "EnableEffect"
               },
               "parameters": [
-                "Enemies",
+                "InternetTroll",
                 "\"Aura\"",
                 "no"
               ]
@@ -14217,7 +14607,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Upgrades",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -15574,7 +15963,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Tower/Enemy Info",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -16630,7 +17018,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Attack or Defend",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -17116,6 +17503,11 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
             }
           ]
         },
@@ -18119,7 +18511,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "SpawnBox and Spawning",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -22033,7 +22424,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Crisis Stuff",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -22076,7 +22466,7 @@
               "parameters": [
                 "CrisisNo",
                 "=",
-                "5"
+                "2"
               ]
             }
           ]
@@ -23369,7 +23759,6 @@
           "comment": "Shop Open/Close"
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -24015,7 +24404,6 @@
           "comment": "Switch Tabs"
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -24046,11 +24434,46 @@
                 },
                 {
                   "type": {
-                    "value": "GlobalVariableAsBoolean"
+                    "value": "BuiltinCommonInstructions::Or"
                   },
-                  "parameters": [
-                    "Tutorial",
-                    ""
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Tutorial",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::And"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "GlobalVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Tutorial",
+                            "True"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "VarGlobal"
+                          },
+                          "parameters": [
+                            "TutorialPart",
+                            ">=",
+                            "5"
+                          ]
+                        }
+                      ]
+                    }
                   ]
                 }
               ],
@@ -26501,7 +26924,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Tutorial Stuff",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -26829,7 +27251,7 @@
               "parameters": [
                 "TutorialGuide",
                 "=",
-                "\"Click and drag the green spawnbox to set the spawn location of the Soldier, then click the Confirm button. The circle around the spawnbox represents the Tower's range.\""
+                "\"Click the buy button, then drag the green spawnbox to set the spawn location of the Soldier, then click the Confirm button. The circle around the spawnbox represents the Tower's range.\""
               ]
             },
             {
@@ -26968,7 +27390,7 @@
               "parameters": [
                 "TutorialGuide",
                 "=",
-                "\"The enemy Terrorist has been killed! Hooray!\""
+                "\"The enemy Terrorist has been killed! Hooray!\nOn the top of the screen you'll see you have 5 Community Support points. Each time an enemy gets to the base you lose 1 point. If an enemy reaches your base at 0 points you lose, so don't let them get close!\""
               ]
             },
             {
@@ -26993,12 +27415,10 @@
             },
             {
               "type": {
-                "value": "MettreX"
+                "value": "Wait"
               },
               "parameters": [
-                "TutorialOkButton",
-                "=",
-                "745"
+                "1"
               ]
             },
             {
@@ -27013,10 +27433,12 @@
             },
             {
               "type": {
-                "value": "Wait"
+                "value": "MettreX"
               },
               "parameters": [
-                "1"
+                "TutorialOkButton",
+                "=",
+                "745"
               ]
             },
             {
@@ -27078,6 +27500,16 @@
               "parameters": [
                 "",
                 "Left"
+              ]
+            },
+            {
+              "type": {
+                "value": "BitmapText::BitmapTextObject::Text"
+              },
+              "parameters": [
+                "TutorialGuide",
+                "=",
+                "\"The enemy Terrorist has been killed! Hooray!\""
               ]
             }
           ],
@@ -27205,6 +27637,16 @@
               "parameters": [
                 "ShopIsOpen",
                 "True"
+              ]
+            },
+            {
+              "type": {
+                "value": "BitmapText::BitmapTextObject::Text"
+              },
+              "parameters": [
+                "TutorialGuide",
+                "=",
+                "\"If you look at the top left corner, you'll see we've run out of Towers! Luckily, you can buy the Career Guider to increase your Tower cap!\""
               ]
             }
           ],
@@ -27410,16 +27852,6 @@
             },
             {
               "type": {
-                "value": "MettreX"
-              },
-              "parameters": [
-                "TutorialOkButton",
-                "=",
-                "745"
-              ]
-            },
-            {
-              "type": {
                 "value": "Wait"
               },
               "parameters": [
@@ -27434,6 +27866,16 @@
                 "TutorialPart",
                 "=",
                 "4"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "TutorialOkButton",
+                "=",
+                "745"
               ]
             },
             {
@@ -27494,7 +27936,7 @@
               "parameters": [
                 "TutorialGuide",
                 "=",
-                "\"Towers can also be upgraded to improve their abilities! Upgrade any tower by clicking on them and clicking the green upgrade button.\""
+                "\"Towers can also be upgraded to improve their abilities, but for a price! Upgrade any tower by clicking on them and clicking the green upgrade button.\""
               ]
             }
           ],
@@ -27506,17 +27948,7 @@
               "parameters": [
                 "TutorialGuide",
                 "=",
-                "\"Great! Now that you know the basics of the game, you have what it takes to survive a horde of enemies!\nYou can also check out what upgraded Towers do in the main menu!\""
-              ]
-            },
-            {
-              "type": {
-                "value": "MettreX"
-              },
-              "parameters": [
-                "TutorialGuide",
-                "=",
-                "810-TutorialGuide.Width()/2"
+                "\"Great! Now you know how to make your towers stronger!\nYou can also check out what upgraded Towers do in the main menu!\""
               ]
             },
             {
@@ -27534,9 +27966,9 @@
                 "value": "MettreX"
               },
               "parameters": [
-                "TutorialOkButton",
+                "TutorialGuide",
                 "=",
-                "745"
+                "810-TutorialGuide.Width()/2"
               ]
             },
             {
@@ -27555,6 +27987,16 @@
                 "TutorialPart",
                 "=",
                 "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "TutorialOkButton",
+                "=",
+                "745"
               ]
             },
             {
@@ -27615,7 +28057,7 @@
               "parameters": [
                 "TutorialGuide",
                 "=",
-                "\"Towers can also be upgraded to improve their abilities! Upgrade any tower by clicking on them and clicking the green upgrade button.\""
+                "\"Towers can also be upgraded to improve their abilities, but for a price! Upgrade any tower by clicking on them and clicking the green upgrade button.\""
               ]
             },
             {
@@ -27650,7 +28092,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Tutorial Part 5: Crisis"
+          "comment": "Tutorial Part 5: Cheerleader"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -27663,6 +28105,551 @@
                 "TutorialPart",
                 "=",
                 "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Soldier",
+                "CheerBoosted",
+                "True"
+              ]
+            },
+            {
+              "type": {
+                "value": "BitmapText::BitmapTextObject::Text"
+              },
+              "parameters": [
+                "TutorialGuide",
+                "=",
+                "\"Cheerleader can be found under the red Psychological tab.\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "BitmapText::BitmapTextObject::SetText"
+              },
+              "parameters": [
+                "TutorialGuide",
+                "=",
+                "\"Great! Notice the red particles surrounding the Soldier? This means that the Cheerleader boost is active. Beware of negative effects, too! If black particles surround your Tower, that means its fire rate has been reduced!\""
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "TutorialGuide",
+                "=",
+                "810-TutorialGuide.Width()/2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Opacity"
+              },
+              "parameters": [
+                "TutorialOkButton",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "TutorialPart",
+                "=",
+                "6"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "TutorialOkButton",
+                "=",
+                "745"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::AddObjectOpacityTween"
+              },
+              "parameters": [
+                "TutorialOkButton",
+                "Tween",
+                "\"FadeIn\"",
+                "255",
+                "\"easeOutCubic\"",
+                "1000",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "TutorialPart",
+                "=",
+                "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "VarSceneTxt"
+              },
+              "parameters": [
+                "ShopPillar",
+                "!=",
+                "\"Psychological\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SceneVariableAsBoolean"
+              },
+              "parameters": [
+                "ShopIsOpen",
+                "True"
+              ]
+            },
+            {
+              "type": {
+                "value": "BitmapText::BitmapTextObject::Text"
+              },
+              "parameters": [
+                "TutorialGuide",
+                "=",
+                "\"Towers can also be boosted by other towers! For instance, having a Cheerleader near your towers will boost their fire rate! Buy a Cheerleader from the shop and place it near a Soldier.\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::AddObjectPositionTween"
+              },
+              "parameters": [
+                "TutorialLight",
+                "Tween",
+                "\"Move\"",
+                "1085",
+                "200",
+                "\"easeOutQuad\"",
+                "250",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BitmapText::BitmapTextObject::SetText"
+              },
+              "parameters": [
+                "TutorialGuide",
+                "=",
+                "\"Cheerleader can be found under the red Psychological tab.\""
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "TutorialGuide",
+                "=",
+                "810-TutorialGuide.Width()/2"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "TutorialPart",
+                "=",
+                "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "VarSceneTxt"
+              },
+              "parameters": [
+                "ShopPillar",
+                "=",
+                "\"Psychological\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SceneVariableAsBoolean"
+              },
+              "parameters": [
+                "ShopIsOpen",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::AddObjectPositionTween"
+              },
+              "parameters": [
+                "TutorialLight",
+                "Tween",
+                "\"Move\"",
+                "1515",
+                "255",
+                "\"easeOutQuad\"",
+                "250",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "TutorialPart",
+                "=",
+                "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "TutorialOkButton",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "value": "BitmapText::BitmapTextObject::Text"
+              },
+              "parameters": [
+                "TutorialGuide",
+                "=",
+                "\"Great! Now you know how to make your towers stronger!\nYou can also check out what upgraded Towers do in the main menu!\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "BitmapText::BitmapTextObject::SetText"
+              },
+              "parameters": [
+                "TutorialGuide",
+                "=",
+                "\"Towers can also be boosted by other towers! For instance, having a Cheerleader near your towers will boost their fire rate! Buy a Cheerleader from the shop and place it near a Soldier.\""
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "TutorialGuide",
+                "=",
+                "810-TutorialGuide.Width()/2"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "TutorialOkButton",
+                "=",
+                "1700"
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "TutorialLight",
+                "TutorialLight",
+                "1555",
+                "55",
+                "\"Overlay(er)\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Tutorial Part 6: Upgraded Cheerleader"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "TutorialPart",
+                "=",
+                "6"
+              ]
+            },
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Soldier",
+                "CheerUltraBoosted",
+                "True"
+              ]
+            },
+            {
+              "type": {
+                "value": "BitmapText::BitmapTextObject::Text"
+              },
+              "parameters": [
+                "TutorialGuide",
+                "=",
+                "\"Now upgrade your Cheerleader to increase the fire rate boost even more!\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "BitmapText::BitmapTextObject::SetText"
+              },
+              "parameters": [
+                "TutorialGuide",
+                "=",
+                "\"Great! Notice the colour of the particles? They're now pink to show that the Soldier is being boosted by an upgraded Cheerleader!\nYou can learn more about status effects when buying Towers in the main game by clicking the icon in the shop.\""
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "TutorialGuide",
+                "=",
+                "810-TutorialGuide.Width()/2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Opacity"
+              },
+              "parameters": [
+                "TutorialOkButton",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "TutorialPart",
+                "=",
+                "7"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "TutorialOkButton",
+                "=",
+                "745"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::AddObjectOpacityTween"
+              },
+              "parameters": [
+                "TutorialOkButton",
+                "Tween",
+                "\"FadeIn\"",
+                "255",
+                "\"easeOutCubic\"",
+                "1000",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "TutorialPart",
+                "=",
+                "6"
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "TutorialOkButton",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "value": "BitmapText::BitmapTextObject::Text"
+              },
+              "parameters": [
+                "TutorialGuide",
+                "=",
+                "\"Great! Notice the red particles surrounding the Soldier? This means that the Cheerleader boost is active. Beware of negative effects, too! If black particles surround your Tower, that means its fire rate has been reduced!\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "BitmapText::BitmapTextObject::SetText"
+              },
+              "parameters": [
+                "TutorialGuide",
+                "=",
+                "\"Now upgrade your Cheerleader to increase the fire rate boost even more!\""
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "TutorialGuide",
+                "=",
+                "810-TutorialGuide.Width()/2"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "TutorialOkButton",
+                "=",
+                "1700"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Tutorial Part 7: Crisis"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "TutorialPart",
+                "=",
+                "7"
               ]
             },
             {
@@ -27748,7 +28735,7 @@
               "parameters": [
                 "TutorialPart",
                 "=",
-                "5"
+                "7"
               ]
             },
             {
@@ -27778,7 +28765,7 @@
               "parameters": [
                 "TutorialGuide",
                 "=",
-                "\"Great! Now that you know the basics of the game, you have what it takes to survive a horde of enemies!\nYou can also check out what upgraded Towers do in the main menu!\""
+                "\"Great! Notice the colour of the particles? They're now pink to show that the Soldier is being boosted by an upgraded Cheerleader!\nYou can learn more about status effects when buying Towers in the main game by clicking the icon in the shop.\""
               ]
             }
           ],
@@ -27815,7 +28802,7 @@
               "parameters": [
                 "TutorialPart",
                 "=",
-                "5"
+                "7"
               ]
             },
             {
