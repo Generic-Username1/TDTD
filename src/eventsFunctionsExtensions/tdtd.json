@@ -357,7 +357,7 @@
       "fullName": "Summon Particles",
       "functionType": "Action",
       "name": "SummonParticleIndicator",
-      "sentence": "Summon _PARAM2_ at _PARAM1_ with colour _PARAM3_ and bind ID",
+      "sentence": "Summon _PARAM2_  and _PARAM4_ (alongside _PARAM6_) at _PARAM1_ with colour _PARAM3_ and bind ID",
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -372,7 +372,7 @@
                 "Particles",
                 "Tower.X()",
                 "Tower.Y()",
-                "\"Shop Layer\""
+                "\"e\""
               ]
             },
             {
@@ -426,6 +426,21 @@
                 "=",
                 "Tower.Variable(ID)"
               ]
+            },
+            {
+              "type": {
+                "value": "TDTD::SummonNotifyCircle"
+              },
+              "parameters": [
+                "",
+                "NotifyCircle",
+                "NotifyTween",
+                "GetArgumentAsString(\"Color\")",
+                "NotifyParticles",
+                "Tower.CenterX()",
+                "Tower.CenterY()",
+                ""
+              ]
             }
           ]
         }
@@ -447,6 +462,24 @@
           "description": "Color",
           "name": "Color",
           "type": "color"
+        },
+        {
+          "description": "NotifyCircle Sprite",
+          "name": "NotifyCircle",
+          "supplementaryInformation": "Sprite",
+          "type": "objectList"
+        },
+        {
+          "description": "Tween Behaviour of NotifyCircle",
+          "name": "NotifyTween",
+          "supplementaryInformation": "Tween::TweenBehavior",
+          "type": "behavior"
+        },
+        {
+          "description": "NotifyParticle Emitter",
+          "name": "NotifyParticles",
+          "supplementaryInformation": "ParticleSystem::ParticleEmitter",
+          "type": "objectList"
         }
       ],
       "objectGroups": []
@@ -469,18 +502,6 @@
               "parameters": [
                 "",
                 "NotifyCircle",
-                "0",
-                "0",
-                "\"Shop Layer\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "NotifyParticles",
                 "GetArgumentAsNumber(\"XPos\")",
                 "GetArgumentAsNumber(\"YPos\")",
                 "\"Shop Layer\""
@@ -510,6 +531,18 @@
             },
             {
               "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "NotifyParticles",
+                "GetArgumentAsNumber(\"XPos\")",
+                "GetArgumentAsNumber(\"YPos\")",
+                "\"Shop Layer\""
+              ]
+            },
+            {
+              "type": {
                 "value": "ChangeColor"
               },
               "parameters": [
@@ -532,10 +565,10 @@
               },
               "parameters": [
                 "NotifyCircle",
-                "Parameter",
+                "Tween",
                 "\"ScaleTween\"",
-                "0.5",
-                "0.5",
+                "0.4",
+                "0.4",
                 "\"easeOutQuad\"",
                 "500",
                 "",
@@ -548,7 +581,7 @@
               },
               "parameters": [
                 "NotifyCircle",
-                "Parameter",
+                "Tween",
                 "\"OpacityTween\"",
                 "0",
                 "\"easeOutQuad\"",
@@ -568,7 +601,7 @@
         },
         {
           "description": "Tween Behaviour",
-          "name": "Parameter",
+          "name": "Tween",
           "supplementaryInformation": "Tween::TweenBehavior",
           "type": "behavior"
         },
@@ -592,6 +625,86 @@
           "description": "Y Position to spawn at",
           "name": "YPos",
           "type": "expression"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "description": "Show the funny info float thing to provide contextual information",
+      "fullName": "Summon Info Float",
+      "functionType": "Action",
+      "name": "SummonInfoFloat",
+      "sentence": "Summon _PARAM1_ at x: _PARAM3_, y: _PARAM4_, saying _PARAM5_",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "InfoFloatText",
+                "GetArgumentAsNumber(\"PosX\")",
+                "GetArgumentAsNumber(\"PosY\")",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BitmapText::BitmapTextObject::SetText"
+              },
+              "parameters": [
+                "InfoFloatText",
+                "=",
+                "GetArgumentAsString(\"Text\")"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCenter"
+              },
+              "parameters": [
+                "InfoFloatText",
+                "=",
+                "GetArgumentAsNumber(\"PosX\")",
+                "=",
+                "GetArgumentAsNumber(\"PosY\")"
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": [
+        {
+          "description": "InfoFloat Bitmap Text",
+          "name": "InfoFloatText",
+          "supplementaryInformation": "BitmapText::BitmapTextObject",
+          "type": "objectList"
+        },
+        {
+          "description": "Tween Behaviour",
+          "name": "Floater",
+          "supplementaryInformation": "TDTD::InfoFloat",
+          "type": "behavior"
+        },
+        {
+          "description": "X Position",
+          "name": "PosX",
+          "supplementaryInformation": "Sprite",
+          "type": "expression"
+        },
+        {
+          "description": "Starting Y Position",
+          "name": "PosY",
+          "type": "expression"
+        },
+        {
+          "description": "Info to show",
+          "name": "Text",
+          "type": "string"
         }
       ],
       "objectGroups": []
@@ -3286,7 +3399,7 @@
           "fullName": "Set object variables",
           "functionType": "Action",
           "name": "applyEffectVars",
-          "sentence": "Change the object variables of _PARAM0_ according to _PARAM2_, _PARAM3_ and _PARAM4_ and spawn _PARAM5_",
+          "sentence": "Change the object variables of _PARAM0_ according to _PARAM2_, _PARAM3_ and _PARAM4_ and spawn _PARAM5_ and _PARAM6_ (alongside _PARAM8_)",
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -3359,6 +3472,9 @@
                         "Object",
                         "Particles",
                         "\"208;2;27\"",
+                        "NotifyCircle",
+                        "Tween",
+                        "NotifyParticles",
                         ""
                       ]
                     }
@@ -3419,6 +3535,9 @@
                         "Object",
                         "Particles",
                         "\"255;185;185\"",
+                        "NotifyCircle",
+                        "Tween",
+                        "NotifyParticles",
                         ""
                       ]
                     },
@@ -3653,6 +3772,9 @@
                         "Object",
                         "Particles",
                         "\"155;155;155\"",
+                        "NotifyCircle",
+                        "NotifyTween",
+                        "NotifyParticles",
                         ""
                       ]
                     }
@@ -3797,6 +3919,9 @@
                         "Object",
                         "Particles",
                         "\"245;166;35\"",
+                        "NotifyCircle",
+                        "NotifyTween",
+                        "NotifyParticles",
                         ""
                       ]
                     }
@@ -3889,6 +4014,9 @@
                     "Object",
                     "Particles",
                     "\"0;0;0\"",
+                    "NotifyCircle",
+                    "",
+                    "NotifyParticles",
                     ""
                   ]
                 },
@@ -3985,6 +4113,24 @@
               "name": "Particles",
               "supplementaryInformation": "ParticleSystem::ParticleEmitter",
               "type": "objectList"
+            },
+            {
+              "description": "NotifyCircle Sprite",
+              "name": "NotifyCircle",
+              "supplementaryInformation": "Sprite",
+              "type": "objectList"
+            },
+            {
+              "description": "Tween Behaviour for NotifyCircle",
+              "name": "Tween",
+              "supplementaryInformation": "Tween::TweenBehavior",
+              "type": "behavior"
+            },
+            {
+              "description": "NotifyParticles Emitter",
+              "name": "NotifyParticles",
+              "supplementaryInformation": "ParticleSystem::ParticleEmitter",
+              "type": "objectList"
             }
           ],
           "objectGroups": []
@@ -3994,7 +4140,7 @@
           "fullName": "Force update object variables",
           "functionType": "Action",
           "name": "forceApplyVars",
-          "sentence": "Force update object variables of _PARAM0_ according to _PARAM2_, _PARAM3_ and _PARAM4_ and update _PARAM5_",
+          "sentence": "Force update object variables of _PARAM0_ according to _PARAM2_, _PARAM3_ and _PARAM4_ and update _PARAM5_ and _PARAM6_ (alongside _PARAM8_)",
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -4052,6 +4198,9 @@
                     "DiscerningCitizen",
                     "CommLeader",
                     "Particles",
+                    "NotifyCircle",
+                    "",
+                    "NotifyParticles",
                     ""
                   ]
                 }
@@ -4092,6 +4241,24 @@
             {
               "description": "Particles",
               "name": "Particles",
+              "supplementaryInformation": "ParticleSystem::ParticleEmitter",
+              "type": "objectList"
+            },
+            {
+              "description": "NotifyCircle Sprite",
+              "name": "NotifyCircle",
+              "supplementaryInformation": "Sprite",
+              "type": "objectList"
+            },
+            {
+              "description": "Tween Behaviour",
+              "name": "Tween",
+              "supplementaryInformation": "Tween::TweenBehavior",
+              "type": "behavior"
+            },
+            {
+              "description": "NotifyParticles Emitter",
+              "name": "NotifyParticles",
               "supplementaryInformation": "ParticleSystem::ParticleEmitter",
               "type": "objectList"
             }
@@ -4926,6 +5093,193 @@
         }
       ],
       "propertyDescriptors": [],
+      "sharedPropertyDescriptors": []
+    },
+    {
+      "description": "Do a funny info text flying",
+      "fullName": "Text Info Float",
+      "name": "InfoFloat",
+      "objectType": "BitmapText::BitmapTextObject",
+      "eventsFunctions": [
+        {
+          "fullName": "",
+          "functionType": "Action",
+          "name": "onCreated",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "BitmapText::BitmapTextObject::SetOpacity"
+                  },
+                  "parameters": [
+                    "Object",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::AddObjectOpacityTween"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Tween",
+                    "\"FadeIn\"",
+                    "255",
+                    "\"easeInQuad\"",
+                    "200",
+                    "no"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "supplementaryInformation": "BitmapText::BitmapTextObject",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "TDTD::InfoFloat",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "fullName": "",
+          "functionType": "Action",
+          "name": "doStepPreEvents",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Tween::HasFinished"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Tween",
+                    "\"Float\""
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "Tween::IsPlaying"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Tween",
+                    "\"Drop\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Tween::AddObjectPositionYTween"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Tween",
+                    "\"Drop\"",
+                    "Object.CenterY()+60",
+                    "\"easeOutQuad\"",
+                    "200",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::AddObjectOpacityTween"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Tween",
+                    "\"FadeOut\"",
+                    "0",
+                    "\"easeOutQuint\"",
+                    "200",
+                    "yes"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "Tween::Exists"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Tween",
+                    "\"Float\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Tween::AddObjectPositionYTween"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Tween",
+                    "\"Float\"",
+                    "Object.CenterY()-60",
+                    "\"easeOutQuad\"",
+                    "1000",
+                    "no"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "supplementaryInformation": "BitmapText::BitmapTextObject",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "TDTD::InfoFloat",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        }
+      ],
+      "propertyDescriptors": [
+        {
+          "value": "",
+          "type": "Behavior",
+          "label": "Animator Tween",
+          "description": "",
+          "group": "",
+          "extraInformation": [
+            "Tween::TweenBehavior"
+          ],
+          "hidden": false,
+          "name": "Tween"
+        }
+      ],
       "sharedPropertyDescriptors": []
     }
   ],

@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.2977430307523694,
+    "zoomFactor": 0.473679305132848,
     "windowMask": true
   },
   "objectsGroups": [
@@ -740,21 +740,6 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 104,
-      "layer": "Path layer",
-      "name": "OkButton",
-      "persistentUuid": "c9b813e5-e081-433b-a505-b66832026647",
-      "width": 97,
-      "x": 765,
-      "y": 819,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": true,
       "height": 294,
       "layer": "Path layer",
@@ -788,7 +773,7 @@
       "angle": 0,
       "customSize": true,
       "height": 1080,
-      "layer": "",
+      "layer": "Path layer",
       "name": "Map",
       "persistentUuid": "3c43b592-06c2-42d0-92e3-fb5611edf247",
       "width": 1620,
@@ -1913,21 +1898,6 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "Overlay(er)",
-      "name": "OkButton",
-      "persistentUuid": "fff3fe51-b57f-4ddb-a4a3-29fe559c52bb",
-      "width": 0,
-      "x": 1835,
-      "y": 937,
-      "zOrder": 1100,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": true,
       "height": 216,
       "layer": "Overlay(er)",
@@ -1990,28 +1960,13 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "",
+      "layer": "Path layer",
       "name": "MapBackground",
       "persistentUuid": "93101a20-20b7-4dda-804f-581af376bbdf",
       "width": 0,
       "x": -1,
       "y": 44,
       "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "NotifyParticles",
-      "persistentUuid": "d3e850e1-ea31-48a9-9abc-a150744de99b",
-      "width": 0,
-      "x": 1299,
-      "y": 880,
-      "zOrder": 50001,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2119,6 +2074,21 @@
       "x": 773,
       "y": 814,
       "zOrder": 50008,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Overlay(er)",
+      "name": "OkButton",
+      "persistentUuid": "d49934ac-3a4d-4b2f-bc4f-904f9ddc2027",
+      "width": 0,
+      "x": 2000,
+      "y": 860,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -9374,6 +9344,36 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "InfoTextFloat",
+      "tags": "",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "InfoFloat",
+          "type": "TDTD::InfoFloat",
+          "Tween": "Tween"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "content": {
+        "text": "TESTINGPHRASE",
+        "opacity": 255,
+        "scale": 1,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "assets\\fonts\\AlbaSlab\\24px\\Alba Slab 24px.fnt",
+        "textureAtlasResourceName": "assets\\fonts\\AlbaSlab\\24px\\Alba Slab 24px.png",
+        "align": "center",
+        "wordWrap": true
+      }
     }
   ],
   "events": [
@@ -9382,6 +9382,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Initialization",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -10066,7 +10067,7 @@
                   "parameters": [
                     "CommSupportAmt",
                     "=",
-                    "5000"
+                    "5"
                   ]
                 },
                 {
@@ -10331,6 +10332,14 @@
                     "SpawnRail",
                     "=",
                     "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "SpawnRail"
                   ]
                 },
                 {
@@ -10692,6 +10701,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Continuous Events",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -11100,6 +11110,9 @@
                 "DiscerningCitizen",
                 "CommLeader",
                 "StatusParticles",
+                "NotifyCircle",
+                "",
+                "NotifyParticles",
                 ""
               ]
             },
@@ -11114,6 +11127,9 @@
                 "DiscerningCitizen",
                 "CommLeader",
                 "StatusParticles",
+                "NotifyCircle",
+                "",
+                "NotifyParticles",
                 ""
               ]
             },
@@ -11122,25 +11138,14 @@
                 "value": "TDTD::TowerV2::forceApplyVars"
               },
               "parameters": [
-                "Volunteer",
+                "CommLeader",
                 "TowerV2",
                 "Cheerleader",
                 "DiscerningCitizen",
                 "CommLeader",
                 "StatusParticles",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "TDTD::TowerV2::forceApplyVars"
-              },
-              "parameters": [
-                "CommLeader",
-                "TowerV2",
-                "Cheerleader",
-                "DiscerningCitizen",
-                "CommLeader",
+                "NotifyCircle",
+                "",
                 "StatusParticles",
                 ""
               ]
@@ -11156,6 +11161,9 @@
                 "DiscerningCitizen",
                 "CommLeader",
                 "StatusParticles",
+                "NotifyCircle",
+                "",
+                "NotifyParticles",
                 ""
               ]
             },
@@ -11170,6 +11178,9 @@
                 "DiscerningCitizen",
                 "CommLeader",
                 "StatusParticles",
+                "NotifyCircle",
+                "",
+                "NotifyParticles",
                 ""
               ]
             },
@@ -11184,6 +11195,9 @@
                 "DiscerningCitizen",
                 "CommLeader",
                 "StatusParticles",
+                "NotifyCircle",
+                "",
+                "NotifyParticles",
                 ""
               ]
             },
@@ -11198,6 +11212,9 @@
                 "DiscerningCitizen",
                 "CommLeader",
                 "StatusParticles",
+                "NotifyCircle",
+                "",
+                "NotifyParticles",
                 ""
               ]
             },
@@ -11212,6 +11229,9 @@
                 "DiscerningCitizen",
                 "CommLeader",
                 "StatusParticles",
+                "NotifyCircle",
+                "",
+                "NotifyParticles",
                 ""
               ]
             },
@@ -11226,6 +11246,9 @@
                 "DiscerningCitizen",
                 "CommLeader",
                 "StatusParticles",
+                "NotifyCircle",
+                "",
+                "NotifyParticles",
                 ""
               ]
             },
@@ -11240,6 +11263,9 @@
                 "DiscerningCitizen",
                 "CommLeader",
                 "StatusParticles",
+                "NotifyCircle",
+                "",
+                "NotifyParticles",
                 ""
               ]
             },
@@ -11254,6 +11280,9 @@
                 "DiscerningCitizen",
                 "CommLeader",
                 "StatusParticles",
+                "NotifyCircle",
+                "",
+                "NotifyParticles",
                 ""
               ]
             }
@@ -14607,6 +14636,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Upgrades",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -14673,6 +14703,34 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "TDTD::SummonInfoFloat"
+                  },
+                  "parameters": [
+                    "",
+                    "InfoTextFloat",
+                    "InfoFloat",
+                    "Towers.CenterX()",
+                    "Towers.Y()",
+                    "\"+ Damage Boost!\"",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TDTD::SummonInfoFloat"
+                  },
+                  "parameters": [
+                    "",
+                    "InfoTextFloat",
+                    "InfoFloat",
+                    "Towers.CenterX()",
+                    "Towers.Y()",
+                    "\"\n+ Fire Rate Boost!\"",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "TDTD::SummonNotifyCircle"
@@ -14769,6 +14827,20 @@
               "actions": [
                 {
                   "type": {
+                    "value": "TDTD::SummonInfoFloat"
+                  },
+                  "parameters": [
+                    "",
+                    "InfoTextFloat",
+                    "InfoFloat",
+                    "Towers.CenterX()",
+                    "Towers.Y()",
+                    "\"Homing Stun!\"",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "TDTD::SummonNotifyCircle"
                   },
                   "parameters": [
@@ -14863,6 +14935,20 @@
               "actions": [
                 {
                   "type": {
+                    "value": "TDTD::SummonInfoFloat"
+                  },
+                  "parameters": [
+                    "",
+                    "InfoTextFloat",
+                    "InfoFloat",
+                    "Towers.CenterX()",
+                    "Towers.Y()",
+                    "\"Global Visibility!\"",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "TDTD::SummonNotifyCircle"
                   },
                   "parameters": [
@@ -14955,6 +15041,34 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "TDTD::SummonInfoFloat"
+                  },
+                  "parameters": [
+                    "",
+                    "InfoTextFloat",
+                    "InfoFloat",
+                    "Towers.CenterX()",
+                    "Towers.Y()",
+                    "\"Recruiting!\"",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TDTD::SummonInfoFloat"
+                  },
+                  "parameters": [
+                    "",
+                    "InfoTextFloat",
+                    "InfoFloat",
+                    "Towers.CenterX()",
+                    "Towers.Y()",
+                    "\"\n+ Range!\"",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "TDTD::SummonNotifyCircle"
@@ -15062,6 +15176,20 @@
               "actions": [
                 {
                   "type": {
+                    "value": "TDTD::SummonInfoFloat"
+                  },
+                  "parameters": [
+                    "",
+                    "InfoTextFloat",
+                    "InfoFloat",
+                    "Towers.CenterX()",
+                    "Towers.Y()",
+                    "\"+ 2 Towers!\"",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "SetObjectVariableAsBoolean"
                   },
                   "parameters": [
@@ -15164,6 +15292,34 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "TDTD::SummonInfoFloat"
+                  },
+                  "parameters": [
+                    "",
+                    "InfoTextFloat",
+                    "InfoFloat",
+                    "Towers.CenterX()",
+                    "Towers.Y()",
+                    "\"- Inflation!\"",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TDTD::SummonInfoFloat"
+                  },
+                  "parameters": [
+                    "",
+                    "InfoTextFloat",
+                    "InfoFloat",
+                    "Towers.CenterX()",
+                    "Towers.Y()",
+                    "\"\n+ Discount!\"",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "SetObjectVariableAsBoolean"
@@ -15271,6 +15427,34 @@
               "actions": [
                 {
                   "type": {
+                    "value": "TDTD::SummonInfoFloat"
+                  },
+                  "parameters": [
+                    "",
+                    "InfoTextFloat",
+                    "InfoFloat",
+                    "Towers.CenterX()",
+                    "Towers.Y()",
+                    "\"Passive Comm Support!\"",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TDTD::SummonInfoFloat"
+                  },
+                  "parameters": [
+                    "",
+                    "InfoTextFloat",
+                    "InfoFloat",
+                    "Towers.CenterX()",
+                    "Towers.Y()",
+                    "\"\n+ Range!\"",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "SetObjectVariableAsBoolean"
                   },
                   "parameters": [
@@ -15374,6 +15558,34 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "TDTD::SummonInfoFloat"
+                  },
+                  "parameters": [
+                    "",
+                    "InfoTextFloat",
+                    "InfoFloat",
+                    "Towers.CenterX()",
+                    "Towers.Y()",
+                    "\"+ Damage!\"",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TDTD::SummonInfoFloat"
+                  },
+                  "parameters": [
+                    "",
+                    "InfoTextFloat",
+                    "InfoFloat",
+                    "Towers.CenterX()",
+                    "Towers.Y()",
+                    "\"\n+ Fire Rate!\"",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "SetObjectVariableAsBoolean"
@@ -15481,6 +15693,20 @@
               "actions": [
                 {
                   "type": {
+                    "value": "TDTD::SummonInfoFloat"
+                  },
+                  "parameters": [
+                    "",
+                    "InfoTextFloat",
+                    "InfoFloat",
+                    "Towers.CenterX()",
+                    "Towers.Y()",
+                    "\"+ Max Barricades!\"",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "SetObjectVariableAsBoolean"
                   },
                   "parameters": [
@@ -15586,6 +15812,20 @@
               "actions": [
                 {
                   "type": {
+                    "value": "TDTD::SummonInfoFloat"
+                  },
+                  "parameters": [
+                    "",
+                    "InfoTextFloat",
+                    "InfoFloat",
+                    "Towers.CenterX()",
+                    "Towers.Y()",
+                    "\"+ Cure Rate!\"",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "SetObjectVariableAsBoolean"
                   },
                   "parameters": [
@@ -15648,7 +15888,7 @@
                     "Towers",
                     "SecondRate",
                     "=",
-                    "2.5"
+                    "2"
                   ]
                 }
               ]
@@ -15689,6 +15929,34 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "TDTD::SummonInfoFloat"
+                  },
+                  "parameters": [
+                    "",
+                    "InfoTextFloat",
+                    "InfoFloat",
+                    "Towers.CenterX()",
+                    "Towers.Y()",
+                    "\"+ Bullet Size!\"",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TDTD::SummonInfoFloat"
+                  },
+                  "parameters": [
+                    "",
+                    "InfoTextFloat",
+                    "InfoFloat",
+                    "Towers.CenterX()",
+                    "Towers.Y()",
+                    "\"\n+ Fire Rate!\"",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "SetObjectVariableAsBoolean"
@@ -15765,6 +16033,49 @@
                     "FireRate",
                     "/",
                     "1.5"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Towers",
+                    "ID",
+                    "=",
+                    "UpgradeButton.Variable(TowerID)"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Towers",
+                    "Upgraded",
+                    "True"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TDTD::SummonInfoFloat"
+                  },
+                  "parameters": [
+                    "",
+                    "InfoTextFloat",
+                    "InfoFloat",
+                    "Towers.CenterX()",
+                    "Towers.Y()",
+                    "\"Not enough money!\"",
+                    ""
                   ]
                 }
               ]
@@ -15963,6 +16274,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Tower/Enemy Info",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -17037,6 +17349,9 @@
                 "DiscerningCitizen",
                 "CommLeader",
                 "StatusParticles",
+                "NotifyCircle",
+                "",
+                "NotifyParticles",
                 ""
               ]
             },
@@ -17051,20 +17366,9 @@
                 "DiscerningCitizen",
                 "CommLeader",
                 "StatusParticles",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "TDTD::TowerV2::applyEffectVars"
-              },
-              "parameters": [
-                "Volunteer",
-                "TowerV2",
-                "Cheerleader",
-                "DiscerningCitizen",
-                "CommLeader",
-                "StatusParticles",
+                "NotifyCircle",
+                "Tween",
+                "NotifyParticles",
                 ""
               ]
             },
@@ -17079,6 +17383,9 @@
                 "DiscerningCitizen",
                 "CommLeader",
                 "StatusParticles",
+                "NotifyCircle",
+                "",
+                "NotifyParticles",
                 ""
               ]
             },
@@ -17093,6 +17400,9 @@
                 "DiscerningCitizen",
                 "CommLeader",
                 "StatusParticles",
+                "NotifyCircle",
+                "",
+                "NotifyParticles",
                 ""
               ]
             },
@@ -17107,6 +17417,9 @@
                 "DiscerningCitizen",
                 "CommLeader",
                 "StatusParticles",
+                "NotifyCircle",
+                "",
+                "NotifyParticles",
                 ""
               ]
             },
@@ -17121,6 +17434,9 @@
                 "DiscerningCitizen",
                 "CommLeader",
                 "StatusParticles",
+                "NotifyCircle",
+                "",
+                "NotifyParticles",
                 ""
               ]
             },
@@ -17135,6 +17451,9 @@
                 "DiscerningCitizen",
                 "CommLeader",
                 "StatusParticles",
+                "NotifyCircle",
+                "",
+                "NotifyParticles",
                 ""
               ]
             },
@@ -17149,6 +17468,9 @@
                 "DiscerningCitizen",
                 "CommLeader",
                 "StatusParticles",
+                "NotifyCircle",
+                "",
+                "NotifyParticles",
                 ""
               ]
             },
@@ -17163,6 +17485,9 @@
                 "DiscerningCitizen",
                 "CommLeader",
                 "StatusParticles",
+                "NotifyCircle",
+                "",
+                "NotifyParticles",
                 ""
               ]
             },
@@ -17177,6 +17502,9 @@
                 "DiscerningCitizen",
                 "CommLeader",
                 "StatusParticles",
+                "NotifyCircle",
+                "",
+                "NotifyParticles",
                 ""
               ]
             },
@@ -17191,6 +17519,9 @@
                 "DiscerningCitizen",
                 "CommLeader",
                 "StatusParticles",
+                "NotifyCircle",
+                "",
+                "NotifyParticles",
                 ""
               ]
             }
@@ -18511,6 +18842,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "SpawnBox and Spawning",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -18702,7 +19034,19 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneInstancesCount"
+              },
+              "parameters": [
+                "",
+                "SpawnBox",
+                ">",
+                "0"
+              ]
+            }
+          ],
           "actions": [
             {
               "type": {
@@ -18736,464 +19080,74 @@
                 "-100"
               ]
             }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+          ],
+          "events": [
             {
-              "type": {
-                "value": "BuiltinCommonInstructions::And"
-              },
-              "parameters": [],
-              "subInstructions": [
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
                 {
                   "type": {
-                    "value": "CollisionNP"
+                    "value": "BuiltinCommonInstructions::And"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "SpawnBox",
+                        "Unspawnanble",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "FirefighterSpawn",
+                        "True"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "IntelOfficerSpawn",
+                        "True"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetAnimationName"
                   },
                   "parameters": [
                     "SpawnBox",
-                    "Unspawnanble",
-                    "",
-                    "",
-                    ""
+                    "\"CannotSpawn\""
                   ]
                 },
                 {
                   "type": {
-                    "inverted": true,
-                    "value": "GlobalVariableAsBoolean"
+                    "value": "SetObjectVariableAsBoolean"
                   },
                   "parameters": [
-                    "FirefighterSpawn",
-                    "True"
-                  ]
-                },
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "GlobalVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "IntelOfficerSpawn",
-                    "True"
-                  ]
-                }
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetAnimationName"
-              },
-              "parameters": [
-                "SpawnBox",
-                "\"CannotSpawn\""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetObjectVariableAsBoolean"
-              },
-              "parameters": [
-                "SpawnBox",
-                "doElse",
-                "False"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "PickNearest"
-              },
-              "parameters": [
-                "Towers",
-                "SpawnBox.CenterX()",
-                "SpawnBox.CenterY()",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::CompareNumbers"
-              },
-              "parameters": [
-                "DistanceBetweenPositions(SpawnBox.CenterX(), SpawnBox.CenterY(), Towers.CenterX(), Towers.CenterY())",
-                "<=",
-                "50"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetAnimationName"
-              },
-              "parameters": [
-                "SpawnBox",
-                "\"CannotSpawn\""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetObjectVariableAsBoolean"
-              },
-              "parameters": [
-                "SpawnBox",
-                "doElse",
-                "False"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "SpawnBox",
-                "Investor",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::CompareNumbers"
-              },
-              "parameters": [
-                "GlobalVariable(playerGold)",
-                "<",
-                "GlobalVariable(toPay)*Investor.Variable(Discount)"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetAnimationName"
-              },
-              "parameters": [
-                "SpawnBox",
-                "\"CannotSpawn\""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetObjectVariableAsBoolean"
-              },
-              "parameters": [
-                "SpawnBox",
-                "doElse",
-                "False"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "SpawnBox",
-                "Investor",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::CompareNumbers"
-              },
-              "parameters": [
-                "GlobalVariable(playerGold)",
-                "<",
-                "GlobalVariable(toPay)"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetAnimationName"
-              },
-              "parameters": [
-                "SpawnBox",
-                "\"CannotSpawn\""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetObjectVariableAsBoolean"
-              },
-              "parameters": [
-                "SpawnBox",
-                "doElse",
-                "False"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::ForEach",
-          "object": "SpawnRail",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionPoint"
-              },
-              "parameters": [
-                "SpawnRail",
-                "SpawnBox.CenterX()",
-                "SpawnBox.CenterY()"
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Or"
-              },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "value": "GlobalVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "FirefighterSpawn",
-                    "True"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "GlobalVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "IntelOfficerSpawn",
-                    "True"
-                  ]
-                }
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetObjectVariableAsBoolean"
-              },
-              "parameters": [
-                "SpawnBox",
-                "SpawnSpawnerFlag",
-                "False"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Or"
-              },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "value": "GlobalVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "FirefighterSpawn",
-                    "True"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "GlobalVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "IntelOfficerSpawn",
-                    "True"
+                    "SpawnBox",
+                    "doElse",
+                    "False"
                   ]
                 }
               ]
             },
-            {
-              "type": {
-                "value": "ObjectVariableAsBoolean"
-              },
-              "parameters": [
-                "SpawnBox",
-                "SpawnSpawnerFlag",
-                "True"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetAnimationName"
-              },
-              "parameters": [
-                "SpawnBox",
-                "\"CannotSpawn\""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetObjectVariableAsBoolean"
-              },
-              "parameters": [
-                "SpawnBox",
-                "doElse",
-                "False"
-              ]
-            },
-            {
-              "type": {
-                "value": "TiledSpriteObject::SetOpacity"
-              },
-              "parameters": [
-                "SpawnRail",
-                "=",
-                "100"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "VarGlobal"
-              },
-              "parameters": [
-                "PlacedTowers",
-                "=",
-                "GlobalVariable(MaxTowers)"
-              ]
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "GlobalVariableAsBoolean"
-              },
-              "parameters": [
-                "GuiderSpawn",
-                "True"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetAnimationName"
-              },
-              "parameters": [
-                "SpawnBox",
-                "\"CannotSpawn\""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetObjectVariableAsBoolean"
-              },
-              "parameters": [
-                "SpawnBox",
-                "doElse",
-                "False"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "GlobalVariableAsBoolean"
-              },
-              "parameters": [
-                "VolunteerSpawn",
-                "True"
-              ]
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "SpawnBox",
-                "Towers",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetAnimationName"
-              },
-              "parameters": [
-                "SpawnBox",
-                "\"CannotSpawn\""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetObjectVariableAsBoolean"
-              },
-              "parameters": [
-                "SpawnBox",
-                "doElse",
-                "False"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "ObjectVariableAsBoolean"
-              },
-              "parameters": [
-                "SpawnBox",
-                "doElse",
-                "True"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetAnimationName"
-              },
-              "parameters": [
-                "SpawnBox",
-                "\"CanSpawn\""
-              ]
-            }
-          ],
-          "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
@@ -19202,7 +19156,7 @@
                     "value": "PickNearest"
                   },
                   "parameters": [
-                    "CommLeader",
+                    "Towers",
                     "SpawnBox.CenterX()",
                     "SpawnBox.CenterY()",
                     ""
@@ -19213,9 +19167,9 @@
                     "value": "BuiltinCommonInstructions::CompareNumbers"
                   },
                   "parameters": [
-                    "DistanceBetweenPositions(CommLeader.CenterX(), CommLeader.CenterY(), SpawnBox.CenterX(), SpawnBox.CenterY())",
+                    "DistanceBetweenPositions(SpawnBox.CenterX(), SpawnBox.CenterY(), Towers.CenterX(), Towers.CenterY())",
                     "<=",
-                    "CommLeader.Variable(Range)"
+                    "50"
                   ]
                 }
               ],
@@ -19226,45 +19180,17 @@
                   },
                   "parameters": [
                     "SpawnBox",
-                    "\"CanGroup.png\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "SpawnBox",
-                    "Investor",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetAnimationName"
-                  },
-                  "parameters": [
-                    "SpawnBox",
-                    "\"CanDiscount\""
+                    "\"CannotSpawn\""
                   ]
                 },
                 {
                   "type": {
-                    "value": "ModVarScene"
+                    "value": "SetObjectVariableAsBoolean"
                   },
                   "parameters": [
-                    "Discount",
-                    "=",
-                    "Investor.Variable(Discount)"
+                    "SpawnBox",
+                    "doElse",
+                    "False"
                   ]
                 }
               ]
@@ -19286,12 +19212,124 @@
                 },
                 {
                   "type": {
-                    "value": "ObjectVariableAsBoolean"
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
                   },
                   "parameters": [
+                    "GlobalVariable(playerGold)",
+                    "<",
+                    "GlobalVariable(toPay)*Investor.Variable(Discount)"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "SpawnBox",
+                    "\"CannotSpawn\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "SpawnBox",
+                    "doElse",
+                    "False"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "SpawnBox",
                     "Investor",
-                    "Upgraded",
-                    "True"
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "GlobalVariable(playerGold)",
+                    "<",
+                    "GlobalVariable(toPay)"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "SpawnBox",
+                    "\"CannotSpawn\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "SpawnBox",
+                    "doElse",
+                    "False"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "SpawnRail",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionPoint"
+                  },
+                  "parameters": [
+                    "SpawnRail",
+                    "SpawnBox.CenterX()",
+                    "SpawnBox.CenterY()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "FirefighterSpawn",
+                        "True"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "IntelOfficerSpawn",
+                        "True"
+                      ]
+                    }
                   ]
                 }
               ],
@@ -19302,8 +19340,8 @@
                   },
                   "parameters": [
                     "SpawnBox",
-                    "DontIncreasePrice",
-                    "True"
+                    "SpawnSpawnerFlag",
+                    "False"
                   ]
                 }
               ]
@@ -19336,57 +19374,212 @@
                       ]
                     }
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "SpawnBox",
+                    "SpawnSpawnerFlag",
+                    "True"
+                  ]
                 }
               ],
-              "actions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "SpawnBox",
+                    "\"CannotSpawn\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "SpawnBox",
+                    "doElse",
+                    "False"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "SpawnRail",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TiledSpriteObject::SetOpacity"
+                  },
+                  "parameters": [
+                    "SpawnRail",
+                    "=",
+                    "100"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "PlacedTowers",
+                    "=",
+                    "GlobalVariable(MaxTowers)"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "GuiderSpawn",
+                    "True"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "SpawnBox",
+                    "\"CannotSpawn\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "SpawnBox",
+                    "doElse",
+                    "False"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "VolunteerSpawn",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "SpawnBox",
+                    "Towers",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "SpawnBox",
+                    "\"CannotSpawn\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "SpawnBox",
+                    "doElse",
+                    "False"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "SpawnBox",
+                    "doElse",
+                    "True"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "SpawnBox",
+                    "\"CanSpawn\""
+                  ]
+                }
+              ],
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "value": "CollisionPoint"
+                        "value": "PickNearest"
                       },
                       "parameters": [
-                        "SpawnRailNorth",
+                        "CommLeader",
                         "SpawnBox.CenterX()",
-                        "SpawnBox.CenterY()"
+                        "SpawnBox.CenterY()",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "DistanceBetweenPositions(CommLeader.CenterX(), CommLeader.CenterY(), SpawnBox.CenterX(), SpawnBox.CenterY())",
+                        "<=",
+                        "CommLeader.Variable(Range)"
                       ]
                     }
                   ],
                   "actions": [
                     {
                       "type": {
-                        "value": "SetCenter"
-                      },
-                      "parameters": [
-                        "SpawnBoxSpawnerPreview",
-                        "=",
-                        "SpawnBox.CenterX()",
-                        "=",
-                        "SpawnBox.CenterY()-80"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVarObjet"
+                        "value": "SetAnimationName"
                       },
                       "parameters": [
                         "SpawnBox",
-                        "SpawnerSpawnX",
-                        "=",
-                        "SpawnBox.CenterX()"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVarObjet"
-                      },
-                      "parameters": [
-                        "SpawnBox",
-                        "SpawnerSpawnY",
-                        "=",
-                        "SpawnBox.CenterY()-80"
+                        "\"CanGroup.png\""
                       ]
                     }
                   ]
@@ -19396,48 +19589,35 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "CollisionPoint"
+                        "value": "CollisionNP"
                       },
                       "parameters": [
-                        "SpawnRailEast",
-                        "SpawnBox.CenterX()",
-                        "SpawnBox.CenterY()"
+                        "SpawnBox",
+                        "Investor",
+                        "",
+                        "",
+                        ""
                       ]
                     }
                   ],
                   "actions": [
                     {
                       "type": {
-                        "value": "SetCenter"
+                        "value": "SetAnimationName"
                       },
                       "parameters": [
-                        "SpawnBoxSpawnerPreview",
-                        "=",
-                        "SpawnBox.CenterX()+80",
-                        "=",
-                        "SpawnBox.CenterY()"
+                        "SpawnBox",
+                        "\"CanDiscount\""
                       ]
                     },
                     {
                       "type": {
-                        "value": "ModVarObjet"
+                        "value": "ModVarScene"
                       },
                       "parameters": [
-                        "SpawnBox",
-                        "SpawnerSpawnX",
+                        "Discount",
                         "=",
-                        "SpawnBox.CenterX()+80"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVarObjet"
-                      },
-                      "parameters": [
-                        "SpawnBox",
-                        "SpawnerSpawnY",
-                        "=",
-                        "SpawnBox.CenterY()"
+                        "Investor.Variable(Discount)"
                       ]
                     }
                   ]
@@ -19447,48 +19627,36 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "CollisionPoint"
+                        "value": "CollisionNP"
                       },
                       "parameters": [
-                        "SpawnRailSouth",
-                        "SpawnBox.CenterX()",
-                        "SpawnBox.CenterY()"
+                        "SpawnBox",
+                        "Investor",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Investor",
+                        "Upgraded",
+                        "True"
                       ]
                     }
                   ],
                   "actions": [
                     {
                       "type": {
-                        "value": "SetCenter"
-                      },
-                      "parameters": [
-                        "SpawnBoxSpawnerPreview",
-                        "=",
-                        "SpawnBox.CenterX()",
-                        "=",
-                        "SpawnBox.CenterY()+80"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVarObjet"
+                        "value": "SetObjectVariableAsBoolean"
                       },
                       "parameters": [
                         "SpawnBox",
-                        "SpawnerSpawnX",
-                        "=",
-                        "SpawnBox.CenterX()"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVarObjet"
-                      },
-                      "parameters": [
-                        "SpawnBox",
-                        "SpawnerSpawnY",
-                        "=",
-                        "SpawnBox.CenterY()+80"
+                        "DontIncreasePrice",
+                        "True"
                       ]
                     }
                   ]
@@ -19498,48 +19666,235 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "CollisionPoint"
+                        "value": "BuiltinCommonInstructions::Or"
                       },
-                      "parameters": [
-                        "SpawnRailWest",
-                        "SpawnBox.CenterX()",
-                        "SpawnBox.CenterY()"
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "GlobalVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "FirefighterSpawn",
+                            "True"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "GlobalVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "IntelOfficerSpawn",
+                            "True"
+                          ]
+                        }
                       ]
                     }
                   ],
-                  "actions": [
+                  "actions": [],
+                  "events": [
                     {
-                      "type": {
-                        "value": "SetCenter"
-                      },
-                      "parameters": [
-                        "SpawnBoxSpawnerPreview",
-                        "=",
-                        "SpawnBox.CenterX()-80",
-                        "=",
-                        "SpawnBox.CenterY()"
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CollisionPoint"
+                          },
+                          "parameters": [
+                            "SpawnRailNorth",
+                            "SpawnBox.CenterX()",
+                            "SpawnBox.CenterY()"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetCenter"
+                          },
+                          "parameters": [
+                            "SpawnBoxSpawnerPreview",
+                            "=",
+                            "SpawnBox.CenterX()",
+                            "=",
+                            "SpawnBox.CenterY()-80"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "SpawnBox",
+                            "SpawnerSpawnX",
+                            "=",
+                            "SpawnBox.CenterX()"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "SpawnBox",
+                            "SpawnerSpawnY",
+                            "=",
+                            "SpawnBox.CenterY()-80"
+                          ]
+                        }
                       ]
                     },
                     {
-                      "type": {
-                        "value": "ModVarObjet"
-                      },
-                      "parameters": [
-                        "SpawnBox",
-                        "SpawnerSpawnX",
-                        "=",
-                        "SpawnBox.CenterX()-80"
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CollisionPoint"
+                          },
+                          "parameters": [
+                            "SpawnRailEast",
+                            "SpawnBox.CenterX()",
+                            "SpawnBox.CenterY()"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetCenter"
+                          },
+                          "parameters": [
+                            "SpawnBoxSpawnerPreview",
+                            "=",
+                            "SpawnBox.CenterX()+80",
+                            "=",
+                            "SpawnBox.CenterY()"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "SpawnBox",
+                            "SpawnerSpawnX",
+                            "=",
+                            "SpawnBox.CenterX()+80"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "SpawnBox",
+                            "SpawnerSpawnY",
+                            "=",
+                            "SpawnBox.CenterY()"
+                          ]
+                        }
                       ]
                     },
                     {
-                      "type": {
-                        "value": "ModVarObjet"
-                      },
-                      "parameters": [
-                        "SpawnBox",
-                        "SpawnerSpawnY",
-                        "=",
-                        "SpawnBox.CenterY()"
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CollisionPoint"
+                          },
+                          "parameters": [
+                            "SpawnRailSouth",
+                            "SpawnBox.CenterX()",
+                            "SpawnBox.CenterY()"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetCenter"
+                          },
+                          "parameters": [
+                            "SpawnBoxSpawnerPreview",
+                            "=",
+                            "SpawnBox.CenterX()",
+                            "=",
+                            "SpawnBox.CenterY()+80"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "SpawnBox",
+                            "SpawnerSpawnX",
+                            "=",
+                            "SpawnBox.CenterX()"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "SpawnBox",
+                            "SpawnerSpawnY",
+                            "=",
+                            "SpawnBox.CenterY()+80"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CollisionPoint"
+                          },
+                          "parameters": [
+                            "SpawnRailWest",
+                            "SpawnBox.CenterX()",
+                            "SpawnBox.CenterY()"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetCenter"
+                          },
+                          "parameters": [
+                            "SpawnBoxSpawnerPreview",
+                            "=",
+                            "SpawnBox.CenterX()-80",
+                            "=",
+                            "SpawnBox.CenterY()"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "SpawnBox",
+                            "SpawnerSpawnX",
+                            "=",
+                            "SpawnBox.CenterX()-80"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "SpawnBox",
+                            "SpawnerSpawnY",
+                            "=",
+                            "SpawnBox.CenterY()"
+                          ]
+                        }
                       ]
                     }
                   ]
@@ -22411,6 +22766,26 @@
                     "=",
                     "0"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "SpawnRail"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetCenter"
+                  },
+                  "parameters": [
+                    "SpawnBoxSpawnerPreview",
+                    "=",
+                    "-100",
+                    "=",
+                    "-100"
+                  ]
                 }
               ]
             }
@@ -23508,6 +23883,9 @@
                         "DiscerningCitizen",
                         "CommLeader",
                         "StatusParticles",
+                        "NotifyCircle",
+                        "",
+                        "NotifyParticles",
                         ""
                       ]
                     },
@@ -23678,6 +24056,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Shop Stuff",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -23759,6 +24138,7 @@
           "comment": "Shop Open/Close"
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -24404,6 +24784,7 @@
           "comment": "Switch Tabs"
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -25550,7 +25931,7 @@
                           "parameters": [
                             "ShopInfoUpgradeText",
                             "=",
-                            "\"Not implemented! Drop a suggestion.\""
+                            "\"Cures effects much faster!\""
                           ]
                         },
                         {
@@ -26924,6 +27305,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Tutorial Stuff",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -28966,6 +29348,10 @@
     {
       "name": "EnemyV2",
       "type": "TDTD::EnemyV2"
+    },
+    {
+      "name": "InfoFloat",
+      "type": "TDTD::InfoFloat"
     },
     {
       "name": "Pathfinding",
