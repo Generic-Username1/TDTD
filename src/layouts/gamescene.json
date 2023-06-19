@@ -3439,7 +3439,7 @@
           "folded": true,
           "name": "Damage",
           "type": "number",
-          "value": 100
+          "value": 60
         },
         {
           "folded": true,
@@ -3451,7 +3451,7 @@
           "folded": true,
           "name": "Piercing",
           "type": "boolean",
-          "value": false
+          "value": true
         }
       ],
       "effects": [],
@@ -10701,7 +10701,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Continuous Events",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -11588,7 +11587,7 @@
                       "parameters": [
                         "waveDelay",
                         "=",
-                        "20"
+                        "5"
                       ]
                     }
                   ],
@@ -11791,6 +11790,39 @@
                                 "Health",
                                 "=",
                                 "Variable(waveData.hp)"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Create"
+                              },
+                              "parameters": [
+                                "",
+                                "EnemyHealthBar",
+                                "Terrorist.X()",
+                                "Terrorist.Y()",
+                                "\"Projectile layer\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetMaxValue"
+                              },
+                              "parameters": [
+                                "EnemyHealthBar",
+                                "=",
+                                "Terrorist.Variable(Health)",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "LinkedObjects::LinkObjects"
+                              },
+                              "parameters": [
+                                "",
+                                "Terrorist",
+                                "EnemyHealthBar"
                               ]
                             }
                           ]
@@ -14636,7 +14668,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Upgrades",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -15568,21 +15599,7 @@
                     "InfoFloat",
                     "Towers.CenterX()",
                     "Towers.Y()",
-                    "\"+ Damage!\"",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TDTD::SummonInfoFloat"
-                  },
-                  "parameters": [
-                    "",
-                    "InfoTextFloat",
-                    "InfoFloat",
-                    "Towers.CenterX()",
-                    "Towers.Y()",
-                    "\"\n+ Fire Rate!\"",
+                    "\"+ Piercing!\"",
                     ""
                   ]
                 },
@@ -15640,17 +15657,6 @@
                     "SoldierUpgCost",
                     "*",
                     "3"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarObjet"
-                  },
-                  "parameters": [
-                    "Towers",
-                    "FireRate",
-                    "/",
-                    "2"
                   ]
                 }
               ]
@@ -17330,6 +17336,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Attack or Defend",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -22799,6 +22806,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Crisis Stuff",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",

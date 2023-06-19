@@ -4640,6 +4640,18 @@
               "conditions": [
                 {
                   "type": {
+                    "inverted": true,
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Object",
+                    "AoE",
+                    ">",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "CollisionNP"
                   },
                   "parameters": [
@@ -4709,90 +4721,21 @@
                 },
                 {
                   "type": {
-                    "value": "SetCenter"
+                    "value": "Delete"
                   },
                   "parameters": [
                     "Object",
-                    "=",
-                    "Enemy.X()",
-                    "=",
-                    "Enemy.Y()"
-                  ]
-                }
-              ],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "VarObjet"
-                      },
-                      "parameters": [
-                        "Object",
-                        "AoE",
-                        ">",
-                        "0"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "AjoutObjConcern"
-                      },
-                      "parameters": [
-                        "",
-                        "Enemy"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Distance"
-                      },
-                      "parameters": [
-                        "Enemy",
-                        "Object",
-                        "Object.Variable(AoE)",
-                        ""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ModVarObjet"
-                      },
-                      "parameters": [
-                        "Enemy",
-                        "Health",
-                        "-",
-                        "Object.Variable(Damage)"
-                      ]
-                    }
+                    ""
                   ]
                 },
                 {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Delete"
-                      },
-                      "parameters": [
-                        "Object",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ActivateBehavior"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        ""
-                      ]
-                    }
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    ""
                   ]
                 }
               ]
