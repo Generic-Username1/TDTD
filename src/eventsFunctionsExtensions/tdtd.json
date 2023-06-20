@@ -434,7 +434,7 @@
               "parameters": [
                 "",
                 "NotifyCircle",
-                "NotifyTween",
+                "Tween",
                 "GetArgumentAsString(\"Color\")",
                 "NotifyParticles",
                 "Tower.CenterX()",
@@ -471,7 +471,7 @@
         },
         {
           "description": "Tween Behaviour of NotifyCircle",
-          "name": "NotifyTween",
+          "name": "Tween",
           "supplementaryInformation": "Tween::TweenBehavior",
           "type": "behavior"
         },
@@ -1379,23 +1379,12 @@
           "fullName": "Inflict Negative Thoughts (for enemies)",
           "functionType": "Action",
           "name": "InflictSlow",
-          "sentence": "[For each _PARAM0_] Inflict Negative Thoughts for _PARAM2_ within _PARAM3_ pixels unless _PARAM4_ is near and add _PARAM5_",
+          "sentence": "[For each _PARAM0_] Inflict Negative Thoughts for _PARAM2_ within _PARAM3_ pixels unless _PARAM4_ is near and add _PARAM5_ and _PARAM6_ (alongside _PARAM8_)",
           "events": [
             {
               "type": "BuiltinCommonInstructions::ForEach",
               "object": "AffectedTowers",
               "conditions": [
-                {
-                  "type": {
-                    "value": "Distance"
-                  },
-                  "parameters": [
-                    "Object",
-                    "AffectedTowers",
-                    "GetArgumentAsNumber(\"AoE\")",
-                    ""
-                  ]
-                },
                 {
                   "type": {
                     "inverted": true,
@@ -1405,6 +1394,17 @@
                     "AffectedTowers",
                     "NegThoughts",
                     "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "Object",
+                    "AffectedTowers",
+                    "GetArgumentAsNumber(\"AoE\")",
+                    ""
                   ]
                 },
                 {
@@ -1431,14 +1431,11 @@
                 },
                 {
                   "type": {
-                    "value": "TDTD::SummonParticleIndicator"
+                    "value": "ResetObjectTimer"
                   },
                   "parameters": [
-                    "",
                     "AffectedTowers",
-                    "Particles",
-                    "\"39;95;162\"",
-                    ""
+                    "\"PulseTimer\""
                   ]
                 }
               ]
@@ -1482,6 +1479,24 @@
             {
               "description": "Particles",
               "name": "Particles",
+              "supplementaryInformation": "ParticleSystem::ParticleEmitter",
+              "type": "objectList"
+            },
+            {
+              "description": "NotifyCircle Sprite",
+              "name": "NotifyCircle",
+              "supplementaryInformation": "Sprite",
+              "type": "objectList"
+            },
+            {
+              "description": "Tween",
+              "name": "Tween",
+              "supplementaryInformation": "Tween::TweenBehavior",
+              "type": "behavior"
+            },
+            {
+              "description": "NotifyParticles Emitter",
+              "name": "NotifyParticles",
               "supplementaryInformation": "ParticleSystem::ParticleEmitter",
               "type": "objectList"
             }
@@ -4002,71 +4017,42 @@
                     "NegThoughts",
                     "True"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "CompareObjectTimer"
+                  },
+                  "parameters": [
+                    "Object",
+                    "\"PulseTimer\"",
+                    ">=",
+                    "0.5"
+                  ]
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "value": "TDTD::SummonParticleIndicator"
+                    "value": "TDTD::SummonNotifyCircle"
                   },
                   "parameters": [
                     "",
-                    "Object",
-                    "Particles",
-                    "\"0;0;0\"",
                     "NotifyCircle",
-                    "",
+                    "Tween",
+                    "\"0;0;0\"",
                     "NotifyParticles",
+                    "Object.CenterX()",
+                    "Object.CenterY()",
                     ""
                   ]
                 },
                 {
                   "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "0.25"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TDTD::TowerV2::selectivelyRemoveParticles"
+                    "value": "ResetObjectTimer"
                   },
                   "parameters": [
                     "Object",
-                    "Behavior",
-                    "Particles",
-                    "\"0;0;0\"",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "Object",
-                    "NegThoughts",
-                    "False"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TDTD::TowerV2::selectivelyRemoveParticles"
-                  },
-                  "parameters": [
-                    "Object",
-                    "Behavior",
-                    "Particles",
-                    "\"0;0;0\"",
-                    ""
+                    "\"PulseTimer\""
                   ]
                 }
               ]
@@ -4645,21 +4631,9 @@
                   },
                   "parameters": [
                     "Object",
-                    "AoE",
+                    "HP",
                     ">",
                     "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Object",
-                    "Enemy",
-                    "",
-                    "",
-                    ""
                   ]
                 },
                 {
@@ -4680,6 +4654,18 @@
                   "parameters": [
                     "Object",
                     "Piercing",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Enemy",
+                    "",
+                    "",
                     ""
                   ]
                 },
@@ -4745,12 +4731,33 @@
               "conditions": [
                 {
                   "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Object",
+                    "HP",
+                    ">",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
                     "inverted": true,
                     "value": "ObjectVariableAsBoolean"
                   },
                   "parameters": [
                     "Enemy",
                     "deathStunned",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Piercing",
                     "True"
                   ]
                 },
@@ -4764,16 +4771,6 @@
                     "",
                     "",
                     ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "Object",
-                    "Piercing",
-                    "True"
                   ]
                 },
                 {
@@ -4793,6 +4790,17 @@
                     "Health",
                     "-",
                     "Object.Variable(Damage)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Object",
+                    "HP",
+                    "-",
+                    "1"
                   ]
                 }
               ]

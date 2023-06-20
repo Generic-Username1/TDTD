@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.473679305132848,
+    "zoomFactor": 0.40129996610533697,
     "windowMask": true
   },
   "objectsGroups": [
@@ -2157,19 +2157,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 150,
-                        "y": 0
+                        "x": 200,
+                        "y": 100
                       },
                       {
                         "x": 450,
-                        "y": 0
+                        "y": 100
                       },
                       {
                         "x": 450,
                         "y": 300
                       },
                       {
-                        "x": 150,
+                        "x": 200,
                         "y": 300
                       }
                     ]
@@ -2193,19 +2193,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 150,
-                        "y": 0
+                        "x": 200,
+                        "y": 100
                       },
                       {
                         "x": 450,
-                        "y": 0
+                        "y": 100
                       },
                       {
                         "x": 450,
                         "y": 300
                       },
                       {
-                        "x": 150,
+                        "x": 200,
                         "y": 300
                       }
                     ]
@@ -2229,19 +2229,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 150,
-                        "y": 0
+                        "x": 200,
+                        "y": 100
                       },
                       {
                         "x": 450,
-                        "y": 0
+                        "y": 100
                       },
                       {
                         "x": 450,
                         "y": 300
                       },
                       {
-                        "x": 150,
+                        "x": 200,
                         "y": 300
                       }
                     ]
@@ -2265,19 +2265,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 150,
-                        "y": 0
+                        "x": 200,
+                        "y": 100
                       },
                       {
                         "x": 450,
-                        "y": 0
+                        "y": 100
                       },
                       {
                         "x": 450,
                         "y": 300
                       },
                       {
-                        "x": 150,
+                        "x": 200,
                         "y": 300
                       }
                     ]
@@ -2301,19 +2301,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 150,
-                        "y": 0
+                        "x": 200,
+                        "y": 100
                       },
                       {
                         "x": 450,
-                        "y": 0
+                        "y": 100
                       },
                       {
                         "x": 450,
                         "y": 300
                       },
                       {
-                        "x": 150,
+                        "x": 200,
                         "y": 300
                       }
                     ]
@@ -2337,19 +2337,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 150,
-                        "y": 0
+                        "x": 200,
+                        "y": 100
                       },
                       {
                         "x": 450,
-                        "y": 0
+                        "y": 100
                       },
                       {
                         "x": 450,
                         "y": 300
                       },
                       {
-                        "x": 150,
+                        "x": 200,
                         "y": 300
                       }
                     ]
@@ -2373,19 +2373,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 150,
-                        "y": 0
+                        "x": 200,
+                        "y": 100
                       },
                       {
                         "x": 450,
-                        "y": 0
+                        "y": 100
                       },
                       {
                         "x": 450,
                         "y": 300
                       },
                       {
-                        "x": 150,
+                        "x": 200,
                         "y": 300
                       }
                     ]
@@ -2409,19 +2409,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 150,
-                        "y": 0
+                        "x": 200,
+                        "y": 100
                       },
                       {
                         "x": 450,
-                        "y": 0
+                        "y": 100
                       },
                       {
                         "x": 450,
                         "y": 300
                       },
                       {
-                        "x": 150,
+                        "x": 200,
                         "y": 300
                       }
                     ]
@@ -2445,19 +2445,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 150,
-                        "y": 0
+                        "x": 200,
+                        "y": 100
                       },
                       {
                         "x": 450,
-                        "y": 0
+                        "y": 100
                       },
                       {
                         "x": 450,
                         "y": 300
                       },
                       {
-                        "x": 150,
+                        "x": 200,
                         "y": 300
                       }
                     ]
@@ -2481,19 +2481,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 150,
-                        "y": 0
+                        "x": 200,
+                        "y": 100
                       },
                       {
                         "x": 450,
-                        "y": 0
+                        "y": 100
                       },
                       {
                         "x": 450,
                         "y": 300
                       },
                       {
-                        "x": 150,
+                        "x": 200,
                         "y": 300
                       }
                     ]
@@ -2517,19 +2517,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 150,
-                        "y": 0
+                        "x": 200,
+                        "y": 100
                       },
                       {
                         "x": 450,
-                        "y": 0
+                        "y": 100
                       },
                       {
                         "x": 450,
                         "y": 300
                       },
                       {
-                        "x": 150,
+                        "x": 200,
                         "y": 300
                       }
                     ]
@@ -2553,19 +2553,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 150,
-                        "y": 0
+                        "x": 200,
+                        "y": 100
                       },
                       {
                         "x": 450,
-                        "y": 0
+                        "y": 100
                       },
                       {
                         "x": 450,
                         "y": 300
                       },
                       {
-                        "x": 150,
+                        "x": 200,
                         "y": 300
                       }
                     ]
@@ -2589,19 +2589,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 150,
-                        "y": 0
+                        "x": 200,
+                        "y": 100
                       },
                       {
                         "x": 450,
-                        "y": 0
+                        "y": 100
                       },
                       {
                         "x": 450,
                         "y": 300
                       },
                       {
-                        "x": 150,
+                        "x": 200,
                         "y": 300
                       }
                     ]
@@ -2625,19 +2625,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 150,
-                        "y": 0
+                        "x": 200,
+                        "y": 100
                       },
                       {
                         "x": 450,
-                        "y": 0
+                        "y": 100
                       },
                       {
                         "x": 450,
                         "y": 300
                       },
                       {
-                        "x": 150,
+                        "x": 200,
                         "y": 300
                       }
                     ]
@@ -2661,19 +2661,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 150,
-                        "y": 0
+                        "x": 200,
+                        "y": 100
                       },
                       {
                         "x": 450,
-                        "y": 0
+                        "y": 100
                       },
                       {
                         "x": 450,
                         "y": 300
                       },
                       {
-                        "x": 150,
+                        "x": 200,
                         "y": 300
                       }
                     ]
@@ -2697,19 +2697,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 150,
-                        "y": 0
+                        "x": 200,
+                        "y": 100
                       },
                       {
                         "x": 450,
-                        "y": 0
+                        "y": 100
                       },
                       {
                         "x": 450,
                         "y": 300
                       },
                       {
-                        "x": 150,
+                        "x": 200,
                         "y": 300
                       }
                     ]
@@ -2733,19 +2733,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 150,
-                        "y": 0
+                        "x": 200,
+                        "y": 100
                       },
                       {
                         "x": 450,
-                        "y": 0
+                        "y": 100
                       },
                       {
                         "x": 450,
                         "y": 300
                       },
                       {
-                        "x": 150,
+                        "x": 200,
                         "y": 300
                       }
                     ]
@@ -2769,19 +2769,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 150,
-                        "y": 0
+                        "x": 200,
+                        "y": 100
                       },
                       {
                         "x": 450,
-                        "y": 0
+                        "y": 100
                       },
                       {
                         "x": 450,
                         "y": 300
                       },
                       {
-                        "x": 150,
+                        "x": 200,
                         "y": 300
                       }
                     ]
@@ -2805,19 +2805,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 150,
-                        "y": 0
+                        "x": 200,
+                        "y": 100
                       },
                       {
                         "x": 450,
-                        "y": 0
+                        "y": 100
                       },
                       {
                         "x": 450,
                         "y": 300
                       },
                       {
-                        "x": 150,
+                        "x": 200,
                         "y": 300
                       }
                     ]
@@ -2841,19 +2841,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 150,
-                        "y": 0
+                        "x": 200,
+                        "y": 100
                       },
                       {
                         "x": 450,
-                        "y": 0
+                        "y": 100
                       },
                       {
                         "x": 450,
                         "y": 300
                       },
                       {
-                        "x": 150,
+                        "x": 200,
                         "y": 300
                       }
                     ]
@@ -3353,7 +3353,7 @@
           "folded": true,
           "name": "Damage",
           "type": "number",
-          "value": 60
+          "value": 45
         },
         {
           "folded": true,
@@ -3452,6 +3452,12 @@
           "name": "Piercing",
           "type": "boolean",
           "value": true
+        },
+        {
+          "folded": true,
+          "name": "HP",
+          "type": "number",
+          "value": 2
         }
       ],
       "effects": [],
@@ -9382,7 +9388,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Initialization",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -9701,7 +9706,7 @@
                   "parameters": [
                     "GuiderUpgCost",
                     "=",
-                    "GlobalVariable(GuiderCost)*3"
+                    "GlobalVariable(GuiderCost)*2"
                   ]
                 },
                 {
@@ -9721,7 +9726,7 @@
                   "parameters": [
                     "SoldierUpgCost",
                     "=",
-                    "GlobalVariable(SoldierCost)*8"
+                    "GlobalVariable(SoldierCost)*5"
                   ]
                 },
                 {
@@ -9983,7 +9988,7 @@
                   "parameters": [
                     "crisisInterval",
                     "=",
-                    "150"
+                    "450"
                   ]
                 }
               ]
@@ -10047,7 +10052,7 @@
                   "parameters": [
                     "playerGold",
                     "=",
-                    "50000"
+                    "500"
                   ]
                 },
                 {
@@ -11587,7 +11592,7 @@
                       "parameters": [
                         "waveDelay",
                         "=",
-                        "5"
+                        "20"
                       ]
                     }
                   ],
@@ -12395,7 +12400,7 @@
                   "parameters": [
                     "wave",
                     "=",
-                    "11"
+                    "23"
                   ]
                 }
               ],
@@ -12407,7 +12412,7 @@
                   "parameters": [
                     "crisisInterval",
                     "=",
-                    "75"
+                    "100"
                   ]
                 }
               ]
@@ -12422,7 +12427,7 @@
                   "parameters": [
                     "wave",
                     "=",
-                    "21"
+                    "34"
                   ]
                 }
               ],
@@ -12435,33 +12440,6 @@
                     "crisisInterval",
                     "=",
                     "30"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarScene"
-                  },
-                  "parameters": [
-                    "wave",
-                    "=",
-                    "28"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ModVarScene"
-                  },
-                  "parameters": [
-                    "crisisInterval",
-                    "=",
-                    "15"
                   ]
                 }
               ]
@@ -12612,16 +12590,6 @@
                 }
               ],
               "actions": [
-                {
-                  "type": {
-                    "value": "BitmapText::BitmapTextObject::SetText"
-                  },
-                  "parameters": [
-                    "CurrentEvent",
-                    "=",
-                    "\"YOU LOSE!\""
-                  ]
-                },
                 {
                   "type": {
                     "value": "ModVarGlobal"
@@ -13380,7 +13348,57 @@
               ]
             }
           ],
-          "actions": []
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeTimeScale"
+              },
+              "parameters": [
+                "",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeLayerTimeScale"
+              },
+              "parameters": [
+                "",
+                "",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeLayerTimeScale"
+              },
+              "parameters": [
+                "",
+                "\"Projectile layer\"",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeLayerTimeScale"
+              },
+              "parameters": [
+                "",
+                "\"Shop Layer\"",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeLayerTimeScale"
+              },
+              "parameters": [
+                "",
+                "\"Shop Layer\"",
+                "1"
+              ]
+            }
+          ]
         },
         {
           "type": "BuiltinCommonInstructions::Comment",
@@ -14013,8 +14031,8 @@
                   "parameters": [
                     "Towers",
                     "Range",
-                    "*",
-                    "2"
+                    "/",
+                    "0.75"
                   ]
                 }
               ]
@@ -14668,6 +14686,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Upgrades",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -14815,7 +14834,7 @@
                   "parameters": [
                     "CheerleaderUpgCost",
                     "*",
-                    "3"
+                    "2"
                   ]
                 }
               ]
@@ -14923,7 +14942,7 @@
                   "parameters": [
                     "FirefighterUpgCost",
                     "*",
-                    "3"
+                    "2"
                   ]
                 }
               ]
@@ -15031,7 +15050,7 @@
                   "parameters": [
                     "DiscernCitizenUpgCost",
                     "*",
-                    "3"
+                    "2"
                   ]
                 }
               ]
@@ -15153,7 +15172,7 @@
                   "parameters": [
                     "CaringCitizenUpgCost",
                     "*",
-                    "3"
+                    "2"
                   ]
                 },
                 {
@@ -15272,7 +15291,7 @@
                   "parameters": [
                     "GuiderUpgCost",
                     "*",
-                    "3"
+                    "2"
                   ]
                 },
                 {
@@ -15404,7 +15423,7 @@
                   "parameters": [
                     "InvestorUpgCost",
                     "*",
-                    "3"
+                    "2"
                   ]
                 },
                 {
@@ -15537,7 +15556,7 @@
                   "parameters": [
                     "CommLeaderUpgCost",
                     "*",
-                    "3"
+                    "2"
                   ]
                 },
                 {
@@ -15656,7 +15675,7 @@
                   "parameters": [
                     "SoldierUpgCost",
                     "*",
-                    "3"
+                    "2"
                   ]
                 }
               ]
@@ -15764,7 +15783,7 @@
                   "parameters": [
                     "IntelOfficerUpgCost",
                     "*",
-                    "3"
+                    "2"
                   ]
                 },
                 {
@@ -15883,7 +15902,7 @@
                   "parameters": [
                     "DoctorUpgCost",
                     "*",
-                    "3"
+                    "2"
                   ]
                 },
                 {
@@ -16016,7 +16035,7 @@
                   "parameters": [
                     "WhiteHatUpgCost",
                     "*",
-                    "3"
+                    "2"
                   ]
                 },
                 {
@@ -18807,6 +18826,9 @@
                 "150",
                 "CaringCitizen",
                 "StatusParticles",
+                "NotifyCircle",
+                "Tween",
+                "NotifyParticles",
                 ""
               ]
             }
@@ -19911,6 +19933,7 @@
           ]
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -20027,6 +20050,7 @@
           "comment": "Spawning Mechanics"
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -23615,7 +23639,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"\"",
+                    "",
                     "1"
                   ]
                 }
@@ -23704,7 +23728,7 @@
                         "Towers",
                         "Range",
                         "*",
-                        "0.5"
+                        "0.75"
                       ]
                     }
                   ]
@@ -23824,24 +23848,71 @@
                       ]
                     }
                   ],
-                  "actions": [
+                  "actions": [],
+                  "events": [
                     {
-                      "type": {
-                        "value": "SetObjectVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "Towers",
-                        "NegThoughts",
-                        "True"
+                      "type": "BuiltinCommonInstructions::ForEach",
+                      "object": "Towers",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "PickNearest"
+                          },
+                          "parameters": [
+                            "Doctor",
+                            "Towers.CenterX()",
+                            "Towers.CenterY()",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "Distance"
+                          },
+                          "parameters": [
+                            "Towers",
+                            "Doctor",
+                            "150",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Towers",
+                            "NegThoughts",
+                            "True"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ResetObjectTimer"
+                          },
+                          "parameters": [
+                            "Towers",
+                            "\"PulseTimer\""
+                          ]
+                        }
                       ]
                     },
                     {
-                      "type": {
-                        "value": "UnPauseObjectTimer"
-                      },
-                      "parameters": [
-                        "Spawner",
-                        "\"SpawnerClock\""
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "UnPauseObjectTimer"
+                          },
+                          "parameters": [
+                            "Spawner",
+                            "\"SpawnerClock\""
+                          ]
+                        }
                       ]
                     }
                   ]
@@ -25068,6 +25139,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Show Info Popup",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -25451,7 +25523,7 @@
                           "parameters": [
                             "ShopInfoUpgradeText",
                             "=",
-                            "\"Increases fire rate and bullet damage.\""
+                            "\"Bullets now deal slightly more damage and can pierce through up to three enemies.\""
                           ]
                         },
                         {
@@ -26602,6 +26674,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Buy Stuff",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -27115,7 +27188,7 @@
                       "parameters": [
                         "SpawnerRange",
                         "=",
-                        "80"
+                        "100"
                       ]
                     }
                   ]
