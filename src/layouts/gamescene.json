@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.40129996610533697,
+    "zoomFactor": 0.33998036445982976,
     "windowMask": true
   },
   "objectsGroups": [
@@ -307,13 +307,13 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "Path layer",
+      "layer": "Bottom Layer",
       "name": "Spawner",
       "persistentUuid": "3f6f4e18-0c68-4997-bc33-99385d0650d0",
       "width": 0,
       "x": -320,
       "y": 512,
-      "zOrder": 10,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -322,13 +322,13 @@
       "angle": 0,
       "customSize": true,
       "height": 47,
-      "layer": "Shop Layer",
+      "layer": "Top Layer",
       "name": "GoldIcon",
       "persistentUuid": "10888e97-e624-4560-831c-38c81559fa72",
       "width": 49,
       "x": 249,
       "y": 28,
-      "zOrder": 1001,
+      "zOrder": 50,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -337,13 +337,13 @@
       "angle": 0,
       "customSize": true,
       "height": 63.806060791015625,
-      "layer": "Shop Layer",
+      "layer": "Top Layer",
       "name": "CommunitySupportIcon",
       "persistentUuid": "076b6e70-28cb-4aec-a0bc-45e8eb91dbec",
       "width": 64,
       "x": 445,
       "y": 18,
-      "zOrder": 1002,
+      "zOrder": 50,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -352,13 +352,13 @@
       "angle": 0,
       "customSize": true,
       "height": 110,
-      "layer": "Shop Layer",
+      "layer": "Top Layer",
       "name": "EventBacking",
       "persistentUuid": "c4bce853-f0db-48c9-be4c-3f0fabfcae91",
       "width": 240,
       "x": 0,
       "y": 0,
-      "zOrder": 1000,
+      "zOrder": 40,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -373,7 +373,7 @@
       "width": 1232,
       "x": 1242,
       "y": 433,
-      "zOrder": 50000,
+      "zOrder": 40,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -382,13 +382,13 @@
       "angle": 0,
       "customSize": true,
       "height": 110,
-      "layer": "Shop Layer",
+      "layer": "Top Layer",
       "name": "EventBacking",
       "persistentUuid": "fc328bc0-fbd2-43e5-b144-46e5199bc11b",
       "width": 354,
       "x": 232,
       "y": 0,
-      "zOrder": 999,
+      "zOrder": 40,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -397,13 +397,13 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "Shop Layer",
+      "layer": "Top Layer",
       "name": "CurrentEvent",
       "persistentUuid": "f33a1ab4-5ad0-40a5-af36-000276599de0",
       "width": 0,
       "x": 24,
       "y": 24,
-      "zOrder": 1001,
+      "zOrder": 50,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -412,13 +412,13 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "Shop Layer",
+      "layer": "Top Layer",
       "name": "GoldAmount",
       "persistentUuid": "b673cab7-f629-4add-9702-6489e8925f7b",
       "width": 0,
       "x": 303,
       "y": 27,
-      "zOrder": 1002,
+      "zOrder": 50,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -427,13 +427,13 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "Shop Layer",
+      "layer": "Top Layer",
       "name": "CommSupportAmt",
       "persistentUuid": "a1f98c25-2e8c-485a-8d25-ec342096c116",
       "width": 0,
       "x": 517,
       "y": 26,
-      "zOrder": 1003,
+      "zOrder": 50,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -442,13 +442,13 @@
       "angle": 0,
       "customSize": true,
       "height": 110,
-      "layer": "Shop Layer",
+      "layer": "Top Layer",
       "name": "DescBacking",
       "persistentUuid": "737afe40-854b-4b45-ad00-e41112e72150",
       "width": 1046,
       "x": 578,
       "y": 0,
-      "zOrder": 1004,
+      "zOrder": 40,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -457,13 +457,13 @@
       "angle": 0,
       "customSize": false,
       "height": 92,
-      "layer": "Shop Layer",
+      "layer": "Top Layer",
       "name": "ShopButton",
       "persistentUuid": "709b8a61-8c19-4c57-96d6-626b4a6527df",
       "width": 83.90399932861328,
       "x": 1512,
       "y": 10,
-      "zOrder": 1005,
+      "zOrder": 50,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -472,13 +472,13 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "Shop Layer",
+      "layer": "Top Layer",
       "name": "SelectedText",
       "persistentUuid": "889c3b43-b6c0-4f44-b000-70dd1726ccf8",
       "width": 0,
       "x": 603,
       "y": 15,
-      "zOrder": 1006,
+      "zOrder": 50,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -487,13 +487,13 @@
       "angle": 0,
       "customSize": true,
       "height": 61,
-      "layer": "Shop Layer",
+      "layer": "Top Layer",
       "name": "SelectedDesc",
       "persistentUuid": "ce1b61ee-ffd3-4566-bb31-7953d0605931",
       "width": 617,
       "x": 602,
       "y": 43,
-      "zOrder": 1007,
+      "zOrder": 50,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -508,7 +508,7 @@
       "width": 0,
       "x": 23,
       "y": 116,
-      "zOrder": 20,
+      "zOrder": 50,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -517,13 +517,13 @@
       "angle": 0,
       "customSize": true,
       "height": 400,
-      "layer": "Shop Layer",
+      "layer": "Top Layer",
       "name": "ShopBacking",
       "persistentUuid": "ba8e758c-eeac-4a7f-855d-41ead8f2a139",
       "width": 600,
       "x": 1700,
       "y": 130,
-      "zOrder": 1009,
+      "zOrder": 40,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -532,13 +532,13 @@
       "angle": 0,
       "customSize": true,
       "height": 120,
-      "layer": "Shop Layer",
+      "layer": "Top Layer",
       "name": "PsychologicalShopTab",
       "persistentUuid": "23cec43a-3293-4249-a9fd-fb10c68d5cb5",
       "width": 120,
       "x": 1700,
       "y": 145,
-      "zOrder": 1012,
+      "zOrder": 50,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -547,13 +547,13 @@
       "angle": 0,
       "customSize": true,
       "height": 120,
-      "layer": "Shop Layer",
+      "layer": "Top Layer",
       "name": "SocialShopTab",
       "persistentUuid": "5a353b49-2fc3-4d03-8195-7dfb38323c9e",
       "width": 120,
       "x": 1700,
       "y": 145,
-      "zOrder": 1013,
+      "zOrder": 50,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -562,13 +562,13 @@
       "angle": 0,
       "customSize": true,
       "height": 120,
-      "layer": "Shop Layer",
+      "layer": "Top Layer",
       "name": "EconomicShopTab",
       "persistentUuid": "756bf131-e36e-4b4b-9298-e950b8c1ef36",
       "width": 120,
       "x": 1700,
       "y": 270,
-      "zOrder": 1014,
+      "zOrder": 50,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -577,13 +577,13 @@
       "angle": 0,
       "customSize": true,
       "height": 120,
-      "layer": "Shop Layer",
+      "layer": "Top Layer",
       "name": "MilitaryShopTab",
       "persistentUuid": "bf966c87-4020-4a69-ac07-2e3e416726d2",
       "width": 120,
       "x": 1700,
       "y": 270,
-      "zOrder": 1015,
+      "zOrder": 50,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -592,13 +592,13 @@
       "angle": 0,
       "customSize": true,
       "height": 120,
-      "layer": "Shop Layer",
+      "layer": "Top Layer",
       "name": "CivilShopTab",
       "persistentUuid": "6117c18e-50a4-4ead-954b-c1158e30ff97",
       "width": 120,
       "x": 1700,
       "y": 395,
-      "zOrder": 1016,
+      "zOrder": 50,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -607,13 +607,13 @@
       "angle": 0,
       "customSize": true,
       "height": 120,
-      "layer": "Shop Layer",
+      "layer": "Top Layer",
       "name": "DigitalShopTab",
       "persistentUuid": "e270ae37-1caf-45a8-b453-d2e11a5c7e48",
       "width": 120,
       "x": 1700,
       "y": 395,
-      "zOrder": 1017,
+      "zOrder": 50,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -622,13 +622,13 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "Shop Layer",
+      "layer": "Top Layer",
       "name": "ShopLabelTop",
       "persistentUuid": "4b12ccb7-101b-4365-a717-100c79eae10e",
       "width": 0,
       "x": 1700,
       "y": 150,
-      "zOrder": 1018,
+      "zOrder": 50,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -637,13 +637,13 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "Shop Layer",
+      "layer": "Top Layer",
       "name": "ShopLabelBottom",
       "persistentUuid": "0d69200e-6fe3-4c85-b373-b813b1a92b6d",
       "width": 0,
       "x": 1700,
       "y": 340,
-      "zOrder": 1019,
+      "zOrder": 50,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -652,13 +652,13 @@
       "angle": 0,
       "customSize": true,
       "height": 120,
-      "layer": "Shop Layer",
+      "layer": "Top Layer",
       "name": "ShopIconTop",
       "persistentUuid": "0a841b28-a55a-4a02-8b68-b73b86157eb3",
       "width": 120,
       "x": 1700,
       "y": 200,
-      "zOrder": 1020,
+      "zOrder": 50,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -667,14 +667,19 @@
       "angle": 0,
       "customSize": true,
       "height": 120,
-      "layer": "Shop Layer",
+      "layer": "Top Layer",
       "name": "ShopIconBottom",
       "persistentUuid": "7db3ddfe-7499-4449-8c40-2b6d2ca941ae",
       "width": 120,
       "x": 1700,
       "y": 390,
-      "zOrder": 1021,
-      "numberProperties": [],
+      "zOrder": 50,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 0
+        }
+      ],
       "stringProperties": [],
       "initialVariables": []
     },
@@ -682,13 +687,13 @@
       "angle": 0,
       "customSize": true,
       "height": 50,
-      "layer": "Shop Layer",
+      "layer": "Top Layer",
       "name": "ShopCostBackingTop",
       "persistentUuid": "d8cccca3-051e-4c50-b47e-ad19f0be6365",
       "width": 140,
       "x": 1700,
       "y": 230,
-      "zOrder": 1022,
+      "zOrder": 49,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -697,13 +702,13 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "Shop Layer",
+      "layer": "Top Layer",
       "name": "ShopCostTop",
       "persistentUuid": "1a6438ea-ee31-4fbb-8989-5a7625ac614b",
       "width": 0,
       "x": 1700,
       "y": 235,
-      "zOrder": 1023,
+      "zOrder": 50,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -712,13 +717,13 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "Shop Layer",
+      "layer": "Top Layer",
       "name": "ShopCostBottom",
       "persistentUuid": "c474d91d-2a60-4489-a868-d9ff029e5025",
       "width": 0,
       "x": 1700,
       "y": 427,
-      "zOrder": 1024,
+      "zOrder": 50,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -727,29 +732,13 @@
       "angle": 0,
       "customSize": true,
       "height": 50,
-      "layer": "Shop Layer",
+      "layer": "Top Layer",
       "name": "ShopCostBackingBottom",
       "persistentUuid": "5a5cc1d0-6290-4713-92cd-526b431d99fe",
       "width": 140,
       "x": 1700,
       "y": 420,
-      "zOrder": 1022,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 294,
-      "layer": "Path layer",
-      "locked": true,
-      "name": "CrisisInfo",
-      "persistentUuid": "f52be59c-0701-4492-ba75-d75691ea1e3b",
-      "width": 1000,
-      "x": 375,
-      "y": 537,
-      "zOrder": -1,
+      "zOrder": 49,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -758,13 +747,13 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "Overlay(er)",
+      "layer": "Top Layer",
       "name": "CrisisTitle",
       "persistentUuid": "7fbfa6a7-2449-41f5-b354-db07fb55b4bb",
       "width": 0,
       "x": -2000,
       "y": 99,
-      "zOrder": 1027,
+      "zOrder": 60,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -773,13 +762,13 @@
       "angle": 0,
       "customSize": true,
       "height": 1080,
-      "layer": "Path layer",
+      "layer": "",
       "name": "Map",
       "persistentUuid": "3c43b592-06c2-42d0-92e3-fb5611edf247",
       "width": 1620,
       "x": 0,
       "y": 37,
-      "zOrder": 10,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -794,7 +783,7 @@
       "width": 0,
       "x": -55,
       "y": 55,
-      "zOrder": 1070,
+      "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -803,7 +792,7 @@
       "angle": 0,
       "customSize": true,
       "height": 1080,
-      "layer": "Path layer",
+      "layer": "Bottom Layer",
       "locked": true,
       "name": "DeathScreen",
       "persistentUuid": "776350bd-e6ab-4b76-930b-17127c8e3fd6",
@@ -811,7 +800,7 @@
       "width": 1620,
       "x": 0,
       "y": 0,
-      "zOrder": -1,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -820,13 +809,13 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "Shop Layer",
+      "layer": "Top Layer",
       "name": "TimeSkip",
       "persistentUuid": "78c5e7be-af67-4765-9b48-b5d673381151",
       "width": 0,
       "x": 1415,
       "y": 10,
-      "zOrder": 1037,
+      "zOrder": 50,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -835,13 +824,13 @@
       "angle": 0,
       "customSize": true,
       "height": 89,
-      "layer": "Shop Layer",
+      "layer": "Top Layer",
       "name": "OpenMenuButton",
       "persistentUuid": "4d65d898-329c-477a-a5f3-ae78873e05da",
       "width": 81,
       "x": 1319,
       "y": 13,
-      "zOrder": 1038,
+      "zOrder": 50,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -850,13 +839,13 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "Hidden Layer",
+      "layer": "Bottom Layer",
       "name": "Confirm",
       "persistentUuid": "6252693f-d212-4ab6-ab4c-bc736c1e5bee",
       "width": 0,
       "x": 29,
       "y": 943,
-      "zOrder": 1100,
+      "zOrder": 50,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -865,13 +854,13 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "Hidden Layer",
+      "layer": "Bottom Layer",
       "name": "ConfirmPrompt",
       "persistentUuid": "dde66c50-432e-4310-9694-a2a5cdc8263d",
       "width": 0,
       "x": 163,
       "y": 982,
-      "zOrder": 1101,
+      "zOrder": 50,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -880,13 +869,13 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "Shop Layer",
+      "layer": "Top Layer",
       "name": "RiotWarning",
       "persistentUuid": "17c9ec54-5b63-421c-aff2-602c7e82233f",
       "width": 0,
       "x": 1215,
       "y": 7,
-      "zOrder": 1042,
+      "zOrder": 50,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -895,13 +884,13 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "Shop Layer",
+      "layer": "Top Layer",
       "name": "NegThoughtsIcon",
       "persistentUuid": "ed50f8ad-434e-4767-99c9-494d6d4ea049",
       "width": 0,
       "x": 1010,
       "y": 7,
-      "zOrder": 1043,
+      "zOrder": 50,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -910,13 +899,13 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "Shop Layer",
+      "layer": "Top Layer",
       "name": "CheerBoostIcon",
       "persistentUuid": "e5c1637d-0173-4401-b416-1ebd0f7b5caf",
       "width": 0,
       "x": 1110,
       "y": 7,
-      "zOrder": 1044,
+      "zOrder": 50,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -925,13 +914,13 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "Shop Layer",
+      "layer": "Top Layer",
       "name": "RangeBoostIcon",
       "persistentUuid": "77101dfe-ebd5-4f18-a714-ac16f96f35ba",
       "width": 0,
       "x": 1060,
       "y": 7,
-      "zOrder": 1045,
+      "zOrder": 50,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -940,13 +929,13 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "Shop Layer",
+      "layer": "Top Layer",
       "name": "IsGroupedIcon",
       "persistentUuid": "e186d4a1-d0c8-470f-9ce7-231bb1239a59",
       "width": 0,
       "x": 1160,
       "y": 7,
-      "zOrder": 1046,
+      "zOrder": 50,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -955,88 +944,13 @@
       "angle": 0,
       "customSize": true,
       "height": 224,
-      "layer": "Hidden Layer",
+      "layer": "Bottom Layer",
       "name": "Wall",
       "persistentUuid": "9f0e2c51-1a22-46ec-b856-f52d4d4e9f6d",
       "width": 32,
       "x": -32,
       "y": 640,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": -90,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "FireParticles",
-      "persistentUuid": "8584435a-1fba-4d04-905f-160b4beb0a1b",
-      "width": 0,
-      "x": 1230,
-      "y": 1069,
-      "zOrder": 1047,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": -90,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "FireParticles",
-      "persistentUuid": "6c596883-88f1-456f-8156-d3400e952e3f",
-      "width": 0,
-      "x": 600,
-      "y": 771,
-      "zOrder": 1047,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": -90,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "FireParticles",
-      "persistentUuid": "2e0cb5e8-71e9-41ee-b227-10484712ec89",
-      "width": 0,
-      "x": 1495,
-      "y": 186,
-      "zOrder": 1047,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": -90,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "FireParticles",
-      "persistentUuid": "6f6f168e-9cfa-476b-91a5-92d60a919e8c",
-      "width": 0,
-      "x": 396,
-      "y": 164,
-      "zOrder": 1047,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": -90,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "FireParticles",
-      "persistentUuid": "1d32696b-9759-41d1-b815-176655ffde04",
-      "width": 0,
-      "x": 124,
-      "y": 454,
-      "zOrder": 1047,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1045,13 +959,13 @@
       "angle": 0,
       "customSize": true,
       "height": 683,
-      "layer": "Hidden Layer",
+      "layer": "Bottom Layer",
       "name": "MenuBacking",
       "persistentUuid": "dbdf9b80-0979-43b8-8bd6-1a4b6025c6be",
       "width": 1100,
-      "x": 235,
-      "y": 244,
-      "zOrder": 1048,
+      "x": 231,
+      "y": 237,
+      "zOrder": 51,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1060,13 +974,13 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "Hidden Layer",
+      "layer": "Bottom Layer",
       "name": "MenuPauseLabel",
       "persistentUuid": "4d8b2dff-2d08-4d5e-af23-41cbca88035b",
       "width": 0,
       "x": 637,
       "y": 278,
-      "zOrder": 1049,
+      "zOrder": 60,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1075,13 +989,13 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "Hidden Layer",
+      "layer": "Bottom Layer",
       "name": "MenuAutoPlaceLabel",
       "persistentUuid": "b32429b2-b264-426b-addf-69e8df9e6bf2",
       "width": 0,
       "x": 317,
       "y": 413,
-      "zOrder": 1050,
+      "zOrder": 60,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1090,13 +1004,13 @@
       "angle": 0,
       "customSize": true,
       "height": 70,
-      "layer": "Hidden Layer",
+      "layer": "Bottom Layer",
       "name": "MenuAutoPlaceSwitch",
       "persistentUuid": "15ad2308-bb52-447e-bd65-b5bde3ac0113",
       "width": 170,
       "x": 1070,
       "y": 400,
-      "zOrder": 1052,
+      "zOrder": 60,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1105,28 +1019,13 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "Overlay(er)",
-      "name": "Debug",
-      "persistentUuid": "75d1d21e-3073-4993-aabe-3b02b3d346c1",
-      "width": 0,
-      "x": 759,
-      "y": 1026,
-      "zOrder": 1053,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "Hidden Layer",
+      "layer": "Bottom Layer",
       "name": "MenuMusicVolumeLabel",
       "persistentUuid": "57048fd8-cd1f-42f9-9b99-7601401b7416",
       "width": 0,
       "x": 450,
       "y": 540,
-      "zOrder": 1054,
+      "zOrder": 60,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1135,13 +1034,13 @@
       "angle": 0,
       "customSize": true,
       "height": 25,
-      "layer": "Hidden Layer",
+      "layer": "Bottom Layer",
       "name": "MenuMusicVolumeSlider",
       "persistentUuid": "009a4902-b57f-4ac3-a740-66f4e6bada5a",
       "width": 300,
       "x": 397,
       "y": 600,
-      "zOrder": 1055,
+      "zOrder": 60,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1150,13 +1049,13 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "Hidden Layer",
+      "layer": "Bottom Layer",
       "name": "MenuSFXVolumeLabel",
       "persistentUuid": "6ffbf903-9b29-480a-98dd-e075ed0480a9",
       "width": 0,
       "x": 900,
       "y": 540,
-      "zOrder": 1056,
+      "zOrder": 60,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1165,13 +1064,13 @@
       "angle": 0,
       "customSize": true,
       "height": 25,
-      "layer": "Hidden Layer",
+      "layer": "Bottom Layer",
       "name": "MenuSFXVolumeSlider",
       "persistentUuid": "0cdecd7e-1144-4ddf-9010-c3bc49732519",
       "width": 300,
       "x": 888,
       "y": 600,
-      "zOrder": 1057,
+      "zOrder": 60,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1180,13 +1079,13 @@
       "angle": 0,
       "customSize": true,
       "height": 93,
-      "layer": "Hidden Layer",
+      "layer": "Bottom Layer",
       "name": "ReturnToMenuButton",
       "persistentUuid": "e760643d-2465-43a9-89b3-c48aca185228",
       "width": 369,
       "x": 266,
       "y": 800,
-      "zOrder": 1058,
+      "zOrder": 60,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1195,13 +1094,13 @@
       "angle": 0,
       "customSize": true,
       "height": 93,
-      "layer": "Hidden Layer",
+      "layer": "Bottom Layer",
       "name": "RestartButton",
       "persistentUuid": "2222c59f-f55d-4f98-ac2a-3dd4db808354",
       "width": 256,
       "x": 653,
       "y": 800,
-      "zOrder": 1059,
+      "zOrder": 60,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1210,13 +1109,13 @@
       "angle": 0,
       "customSize": true,
       "height": 93,
-      "layer": "Hidden Layer",
+      "layer": "Bottom Layer",
       "name": "BackToGameButton",
       "persistentUuid": "a9f2927b-7929-416a-b8ee-783391bacb85",
       "width": 365,
       "x": 930,
       "y": 800,
-      "zOrder": 1060,
+      "zOrder": 60,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1225,13 +1124,13 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "Shop Layer",
+      "layer": "",
       "name": "UpgradeButton",
       "persistentUuid": "eae83b01-5e57-452e-bbae-ec276d776b8a",
       "width": 0,
       "x": -60,
       "y": 108,
-      "zOrder": 1061,
+      "zOrder": 50,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1240,13 +1139,13 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "Shop Layer",
+      "layer": "",
       "name": "RemoveButton",
       "persistentUuid": "e3127f30-92cf-4689-a2be-601a37064b94",
       "width": 0,
       "x": -56,
       "y": 161,
-      "zOrder": 1062,
+      "zOrder": 50,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1255,13 +1154,13 @@
       "angle": 0,
       "customSize": true,
       "height": 32,
-      "layer": "Hidden Layer",
+      "layer": "Bottom Layer",
       "name": "Wall",
       "persistentUuid": "9ccf02ff-1471-4876-a70a-de051075eabc",
       "width": 289,
       "x": -1,
       "y": 448,
-      "zOrder": 1063,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1270,13 +1169,13 @@
       "angle": 0,
       "customSize": true,
       "height": 32,
-      "layer": "Hidden Layer",
+      "layer": "Bottom Layer",
       "name": "Wall",
       "persistentUuid": "c2f00099-8584-4e12-a20d-7fcf72f49e30",
       "width": 320,
       "x": -32,
       "y": 608,
-      "zOrder": 1063,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1285,13 +1184,13 @@
       "angle": 0,
       "customSize": true,
       "height": 384,
-      "layer": "Hidden Layer",
+      "layer": "Bottom Layer",
       "name": "Wall",
       "persistentUuid": "470b95c1-0951-4573-8969-da5288784cc9",
       "width": 32,
       "x": 256,
       "y": 640,
-      "zOrder": 1063,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1299,14 +1198,15 @@
     {
       "angle": 0,
       "customSize": true,
+      "depth": 0,
       "height": 512,
-      "layer": "Hidden Layer",
+      "layer": "Bottom Layer",
       "name": "Wall",
       "persistentUuid": "819af838-a045-46e2-aefe-9e0e95f3d3cf",
       "width": 32,
       "x": 384,
       "y": 352,
-      "zOrder": 1063,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1315,13 +1215,13 @@
       "angle": 0,
       "customSize": true,
       "height": 32,
-      "layer": "Hidden Layer",
+      "layer": "Bottom Layer",
       "name": "Wall",
       "persistentUuid": "88a1c512-e73f-4324-a481-5eb83a3c91fe",
       "width": 864,
       "x": 256,
       "y": 992,
-      "zOrder": 1063,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1330,13 +1230,13 @@
       "angle": 0,
       "customSize": true,
       "height": 256,
-      "layer": "Hidden Layer",
+      "layer": "Bottom Layer",
       "name": "Wall",
       "persistentUuid": "78c5fbc3-725e-46b4-804b-3c0ed52486c2",
       "width": 32,
       "x": -32,
       "y": 224,
-      "zOrder": -1,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1345,13 +1245,13 @@
       "angle": 0,
       "customSize": true,
       "height": 32,
-      "layer": "Hidden Layer",
+      "layer": "Bottom Layer",
       "name": "Wall",
       "persistentUuid": "16f50dad-fd32-4692-a928-78223c0115b5",
       "width": 672,
       "x": -672,
       "y": 224,
-      "zOrder": -1,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1360,13 +1260,13 @@
       "angle": 0,
       "customSize": true,
       "height": 32,
-      "layer": "Hidden Layer",
+      "layer": "Bottom Layer",
       "name": "Wall",
       "persistentUuid": "2b576226-c206-4a88-9d9e-ead17dea0064",
       "width": 672,
       "x": -704,
       "y": 832,
-      "zOrder": -1,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1375,13 +1275,13 @@
       "angle": 0,
       "customSize": true,
       "height": 608,
-      "layer": "Hidden Layer",
+      "layer": "Bottom Layer",
       "name": "Wall",
       "persistentUuid": "11b404dc-49df-498f-aaf8-5616adb36557",
       "width": 32,
       "x": -704,
       "y": 224,
-      "zOrder": -1,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1390,13 +1290,13 @@
       "angle": 0,
       "customSize": true,
       "height": 384,
-      "layer": "Hidden Layer",
+      "layer": "Bottom Layer",
       "name": "Wall",
       "persistentUuid": "89c29e5a-15eb-4526-87fe-6328c265ced1",
       "width": 32,
       "x": 1088,
       "y": 640,
-      "zOrder": 1063,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1405,13 +1305,13 @@
       "angle": 0,
       "customSize": true,
       "height": 32,
-      "layer": "Hidden Layer",
+      "layer": "Bottom Layer",
       "name": "Wall",
       "persistentUuid": "29f4b238-5950-4425-acc8-814319117460",
       "width": 544,
       "x": 416,
       "y": 832,
-      "zOrder": 1063,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1420,13 +1320,13 @@
       "angle": 0,
       "customSize": true,
       "height": 384,
-      "layer": "Hidden Layer",
+      "layer": "Bottom Layer",
       "name": "Wall",
       "persistentUuid": "e963b61b-51a6-4646-964c-a4c66701c564",
       "width": 32,
       "x": 928,
       "y": 480,
-      "zOrder": 1063,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1435,13 +1335,13 @@
       "angle": 0,
       "customSize": true,
       "height": 32,
-      "layer": "Hidden Layer",
+      "layer": "Bottom Layer",
       "name": "Wall",
       "persistentUuid": "f0047d94-16fe-43f4-9afd-3d00c3368586",
       "width": 256,
       "x": 1088,
       "y": 608,
-      "zOrder": 1063,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1450,13 +1350,13 @@
       "angle": 0,
       "customSize": true,
       "height": 32,
-      "layer": "Hidden Layer",
+      "layer": "Bottom Layer",
       "name": "Wall",
       "persistentUuid": "65335f71-1a39-49d2-a8b4-e7aee46ae9aa",
       "width": 768,
       "x": 384,
       "y": 320,
-      "zOrder": 1063,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1465,13 +1365,13 @@
       "angle": 0,
       "customSize": true,
       "height": 192,
-      "layer": "Hidden Layer",
+      "layer": "Bottom Layer",
       "name": "Wall",
       "persistentUuid": "94c83506-f847-427e-9986-1a43fb4a0db3",
       "width": 32,
       "x": 1152,
       "y": 320,
-      "zOrder": 1063,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1480,13 +1380,13 @@
       "angle": 0,
       "customSize": true,
       "height": 320,
-      "layer": "Hidden Layer",
+      "layer": "Bottom Layer",
       "name": "Wall",
       "persistentUuid": "5fd84287-b644-48ea-958b-f68c13e64960",
       "width": 32,
       "x": 1297,
       "y": 192,
-      "zOrder": 1063,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1495,13 +1395,13 @@
       "angle": 0,
       "customSize": true,
       "height": 32,
-      "layer": "Hidden Layer",
+      "layer": "Bottom Layer",
       "name": "Wall",
       "persistentUuid": "7134bcc5-b5ac-4516-a8c9-cdc34b256736",
       "width": 1024,
       "x": 288,
       "y": 192,
-      "zOrder": 1063,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1510,13 +1410,13 @@
       "angle": 0,
       "customSize": true,
       "height": 256,
-      "layer": "Hidden Layer",
+      "layer": "Bottom Layer",
       "name": "Wall",
       "persistentUuid": "81838bfb-1a8c-4c56-931f-75565b7e5442",
       "width": 32,
       "x": 256,
       "y": 192,
-      "zOrder": 1063,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1525,13 +1425,13 @@
       "angle": 0,
       "customSize": true,
       "height": 32,
-      "layer": "Hidden Layer",
+      "layer": "Bottom Layer",
       "name": "Wall",
       "persistentUuid": "f91f9bfc-a957-4c3c-bd5e-9cbd4f2354c8",
       "width": 192,
       "x": 960,
       "y": 480,
-      "zOrder": 1063,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1540,13 +1440,13 @@
       "angle": 0,
       "customSize": true,
       "height": 160,
-      "layer": "Hidden Layer",
+      "layer": "Bottom Layer",
       "name": "WalkTiles",
       "persistentUuid": "0ded300a-7fc4-4ff6-99e3-876e1ac87e14",
       "width": 290,
       "x": 2,
       "y": 501,
-      "zOrder": 1064,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1555,13 +1455,13 @@
       "angle": 0,
       "customSize": true,
       "height": 798,
-      "layer": "Hidden Layer",
+      "layer": "Bottom Layer",
       "name": "WalkTiles",
       "persistentUuid": "0bb3b642-ae2e-4a70-82e6-076d57b9b870",
       "width": 155,
       "x": 285,
       "y": 217,
-      "zOrder": 1064,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1570,13 +1470,13 @@
       "angle": 0,
       "customSize": true,
       "height": 150,
-      "layer": "Hidden Layer",
+      "layer": "Bottom Layer",
       "name": "WalkTiles",
       "persistentUuid": "dd4da9a6-91c3-493f-a26a-20af0cfe893f",
       "width": 884,
       "x": 428,
       "y": 219,
-      "zOrder": 1064,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1585,13 +1485,13 @@
       "angle": 0,
       "customSize": true,
       "height": 154,
-      "layer": "Hidden Layer",
+      "layer": "Bottom Layer",
       "name": "WalkTiles",
       "persistentUuid": "e3085b6f-10ee-4fa9-8d72-e3cf84846ac8",
       "width": 725,
       "x": 418,
       "y": 861,
-      "zOrder": 1064,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1600,13 +1500,13 @@
       "angle": 0,
       "customSize": true,
       "height": 373,
-      "layer": "Hidden Layer",
+      "layer": "Bottom Layer",
       "name": "WalkTiles",
       "persistentUuid": "9a686214-fa2b-4fcc-834c-40e22546ec1d",
       "width": 154,
       "x": 991,
       "y": 509,
-      "zOrder": 1064,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1615,13 +1515,13 @@
       "angle": 0,
       "customSize": true,
       "height": 192,
-      "layer": "Hidden Layer",
+      "layer": "Bottom Layer",
       "name": "WalkTiles",
       "persistentUuid": "e0a64d4d-36c6-4323-a9e4-58edff619210",
       "width": 166,
       "x": 1143,
       "y": 349,
-      "zOrder": 1064,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1630,13 +1530,13 @@
       "angle": 0,
       "customSize": true,
       "height": 156,
-      "layer": "Hidden Layer",
+      "layer": "Bottom Layer",
       "name": "WalkTiles",
       "persistentUuid": "84fb624e-d670-473c-9fa8-ad4a4d98b5f3",
       "width": 500,
       "x": 1118,
       "y": 510,
-      "zOrder": 1064,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1645,7 +1545,7 @@
       "angle": 0,
       "customSize": true,
       "height": 32,
-      "layer": "Projectile layer",
+      "layer": "Top Layer",
       "name": "SpawnRailNorth",
       "persistentUuid": "4a9cef8b-6a3f-4e47-b7ec-9efef621805f",
       "width": 609,
@@ -1660,7 +1560,7 @@
       "angle": 0,
       "customSize": true,
       "height": 32,
-      "layer": "Projectile layer",
+      "layer": "Top Layer",
       "name": "SpawnRailNorth",
       "persistentUuid": "06ee97e7-6fbe-4670-9214-d1797462175d",
       "width": 429,
@@ -1675,13 +1575,13 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "",
+      "layer": "Top Layer",
       "name": "SpawnBoxSpawnerPreview",
       "persistentUuid": "5a54df34-ea11-4e9f-80a9-ad037406e8eb",
       "width": 0,
       "x": -96,
       "y": 128,
-      "zOrder": 1066,
+      "zOrder": 50,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1690,7 +1590,7 @@
       "angle": 0,
       "customSize": true,
       "height": 32,
-      "layer": "Projectile layer",
+      "layer": "Top Layer",
       "name": "SpawnRailNorth",
       "persistentUuid": "1c9f5188-34e9-4817-89fe-4c939f03bbca",
       "width": 703,
@@ -1705,7 +1605,7 @@
       "angle": 0,
       "customSize": true,
       "height": 32,
-      "layer": "Projectile layer",
+      "layer": "Top Layer",
       "name": "SpawnRailNorth",
       "persistentUuid": "1b833a11-d456-4fa7-a5b2-c095365e6a5f",
       "width": 235,
@@ -1720,7 +1620,7 @@
       "angle": 0,
       "customSize": true,
       "height": 238,
-      "layer": "Projectile layer",
+      "layer": "Top Layer",
       "name": "SpawnRailEast",
       "persistentUuid": "fd00cdf5-021c-4ff4-a7a2-9e72eb622cb5",
       "width": 32,
@@ -1735,7 +1635,7 @@
       "angle": 0,
       "customSize": true,
       "height": 219,
-      "layer": "Projectile layer",
+      "layer": "Top Layer",
       "name": "SpawnRailEast",
       "persistentUuid": "325ed3fd-2bb6-48fd-a028-c8952540a45b",
       "width": 29,
@@ -1750,7 +1650,7 @@
       "angle": 0,
       "customSize": true,
       "height": 163,
-      "layer": "Projectile layer",
+      "layer": "Top Layer",
       "name": "SpawnRailEast",
       "persistentUuid": "47616178-13bb-4945-a705-a0b9473f9f27",
       "width": 32,
@@ -1765,7 +1665,7 @@
       "angle": 0,
       "customSize": true,
       "height": 65,
-      "layer": "Projectile layer",
+      "layer": "Top Layer",
       "name": "SpawnRailEast",
       "persistentUuid": "c28105a9-7ab6-47c9-80ab-400178b80e58",
       "width": 32,
@@ -1780,7 +1680,7 @@
       "angle": 0,
       "customSize": true,
       "height": 32,
-      "layer": "Projectile layer",
+      "layer": "Top Layer",
       "name": "SpawnRailSouth",
       "persistentUuid": "1275c368-67df-4b12-97e5-06cd94ff3571",
       "width": 865,
@@ -1795,7 +1695,7 @@
       "angle": 0,
       "customSize": true,
       "height": 32,
-      "layer": "Projectile layer",
+      "layer": "Top Layer",
       "name": "SpawnRailSouth",
       "persistentUuid": "d0a53529-9dca-48a4-956a-493618048518",
       "width": 66,
@@ -1810,7 +1710,7 @@
       "angle": 0,
       "customSize": true,
       "height": 32,
-      "layer": "Projectile layer",
+      "layer": "Top Layer",
       "name": "SpawnRailSouth",
       "persistentUuid": "f755716e-bd97-4aee-b401-024f6a9b0457",
       "width": 259,
@@ -1825,7 +1725,7 @@
       "angle": 0,
       "customSize": true,
       "height": 32,
-      "layer": "Projectile layer",
+      "layer": "Top Layer",
       "name": "SpawnRailSouth",
       "persistentUuid": "1fc74648-65f3-46f3-8096-24b20fd7e694",
       "width": 461,
@@ -1840,7 +1740,7 @@
       "angle": 0,
       "customSize": true,
       "height": 32,
-      "layer": "Projectile layer",
+      "layer": "Top Layer",
       "name": "SpawnRailSouth",
       "persistentUuid": "ebbf2577-cd60-4e79-8e35-3822fd35c15b",
       "width": 234,
@@ -1855,7 +1755,7 @@
       "angle": 0,
       "customSize": true,
       "height": 228,
-      "layer": "Projectile layer",
+      "layer": "Top Layer",
       "name": "SpawnRailWest",
       "persistentUuid": "d3804d3e-c998-4f84-91fe-92f43fdd773d",
       "width": 32,
@@ -1870,7 +1770,7 @@
       "angle": 0,
       "customSize": true,
       "height": 372,
-      "layer": "Projectile layer",
+      "layer": "Top Layer",
       "name": "SpawnRailWest",
       "persistentUuid": "671f28f6-d25c-434d-a2ac-fb01a4096d65",
       "width": 32,
@@ -1885,7 +1785,7 @@
       "angle": 0,
       "customSize": true,
       "height": 157,
-      "layer": "Projectile layer",
+      "layer": "Top Layer",
       "name": "SpawnRailWest",
       "persistentUuid": "f8182623-a2c6-44bc-947e-2c1104fad582",
       "width": 32,
@@ -1900,13 +1800,13 @@
       "angle": 0,
       "customSize": true,
       "height": 216,
-      "layer": "Overlay(er)",
+      "layer": "Top Layer",
       "name": "CrisisInfo",
       "persistentUuid": "3a4c12ee-3fb2-4499-b077-af217cc49326",
       "width": 887,
       "x": 1724,
       "y": 526,
-      "zOrder": 1068,
+      "zOrder": 60,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1915,13 +1815,13 @@
       "angle": 0,
       "customSize": true,
       "height": 406,
-      "layer": "Overlay(er)",
+      "layer": "Top Layer",
       "name": "TutorialGuide",
       "persistentUuid": "21bb356e-5c10-4e96-9920-92d04d85efec",
       "width": 978,
       "x": 2324,
       "y": 478,
-      "zOrder": 1071,
+      "zOrder": 60,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1930,13 +1830,13 @@
       "angle": 0,
       "customSize": true,
       "height": 1120,
-      "layer": "Overlay(er)",
+      "layer": "Top Layer",
       "name": "TutorialOverlay",
       "persistentUuid": "197cad69-dedb-42d7-b8d9-a2e1db277514",
       "width": 1703,
       "x": -4400,
       "y": -4,
-      "zOrder": 1070,
+      "zOrder": 50,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1945,13 +1845,13 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "Overlay(er)",
+      "layer": "Top Layer",
       "name": "TutorialOkButton",
       "persistentUuid": "d4a18acf-df51-4fb9-bc0f-e2e96b5cd07b",
       "width": 0,
       "x": 2021,
       "y": 933,
-      "zOrder": 1120,
+      "zOrder": 60,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1960,7 +1860,7 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "Path layer",
+      "layer": "",
       "name": "MapBackground",
       "persistentUuid": "93101a20-20b7-4dda-804f-581af376bbdf",
       "width": 0,
@@ -1975,7 +1875,7 @@
       "angle": 0,
       "customSize": true,
       "height": 640,
-      "layer": "Hidden Layer",
+      "layer": "Bottom Layer",
       "locked": true,
       "name": "ShopInfoBacking",
       "persistentUuid": "9f8a9628-701a-4fba-964d-e099504e5825",
@@ -1983,7 +1883,7 @@
       "width": 1000,
       "x": 310,
       "y": 290,
-      "zOrder": 50002,
+      "zOrder": 40,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1992,13 +1892,13 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "Hidden Layer",
+      "layer": "Bottom Layer",
       "name": "ShopInfoSprite",
       "persistentUuid": "967c4e5e-d222-4e4c-a65a-1f4b0abdc0b5",
       "width": 0,
       "x": 365,
       "y": 430,
-      "zOrder": 50003,
+      "zOrder": 50,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2007,13 +1907,13 @@
       "angle": 0,
       "customSize": false,
       "height": 38,
-      "layer": "Hidden Layer",
+      "layer": "Bottom Layer",
       "name": "ShopInfoTitle",
       "persistentUuid": "32a9baba-7c80-43f9-bda3-257f81cf3223",
       "width": 500,
       "x": 847,
       "y": 377,
-      "zOrder": 50004,
+      "zOrder": 50,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2022,13 +1922,13 @@
       "angle": 0,
       "customSize": true,
       "height": 150,
-      "layer": "Hidden Layer",
+      "layer": "Bottom Layer",
       "name": "ShopInfoBasicText",
       "persistentUuid": "7ebac4c6-d36f-4ac7-827a-f27f19386694",
       "width": 500,
       "x": 758,
       "y": 461,
-      "zOrder": 50005,
+      "zOrder": 50,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2037,13 +1937,13 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "Hidden Layer",
+      "layer": "Bottom Layer",
       "name": "ShopInfoUpgradeLabel",
       "persistentUuid": "b228f6b1-aa44-4234-9479-ee2315ae2996",
       "width": 0,
       "x": 945,
       "y": 618,
-      "zOrder": 50006,
+      "zOrder": 50,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2052,13 +1952,13 @@
       "angle": 0,
       "customSize": true,
       "height": 150,
-      "layer": "Hidden Layer",
+      "layer": "Bottom Layer",
       "name": "ShopInfoUpgradeText",
       "persistentUuid": "49ee976d-cb18-4da8-8212-03ce9fc80da5",
       "width": 500,
       "x": 763,
       "y": 663,
-      "zOrder": 50007,
+      "zOrder": 50,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2067,13 +1967,13 @@
       "angle": 0,
       "customSize": true,
       "height": 97,
-      "layer": "Hidden Layer",
+      "layer": "Bottom Layer",
       "name": "ShopInfoPopupConfirm",
       "persistentUuid": "fa80844f-df73-4cb6-b836-7b6809c791af",
       "width": 88,
       "x": 773,
       "y": 814,
-      "zOrder": 50008,
+      "zOrder": 50,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2082,13 +1982,13 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "Overlay(er)",
+      "layer": "Top Layer",
       "name": "OkButton",
       "persistentUuid": "d49934ac-3a4d-4b2f-bc4f-904f9ddc2027",
       "width": 0,
       "x": 2000,
       "y": 860,
-      "zOrder": -1,
+      "zOrder": 60,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -9380,6 +9280,52 @@
         "align": "center",
         "wordWrap": true
       }
+    },
+    {
+      "additive": false,
+      "assetStoreId": "",
+      "destroyWhenNoParticles": true,
+      "emitterAngleA": 0,
+      "emitterAngleB": 90,
+      "emitterForceMax": 85,
+      "emitterForceMin": 45,
+      "flow": 45,
+      "jumpForwardInTimeOnCreation": 0,
+      "maxParticleNb": 300,
+      "name": "FireParticles",
+      "particleAlpha1": 204,
+      "particleAlpha2": 0,
+      "particleAlphaRandomness1": 0,
+      "particleAlphaRandomness2": 0,
+      "particleAngle1": 0,
+      "particleAngle2": 0,
+      "particleAngleRandomness1": 0,
+      "particleAngleRandomness2": 0,
+      "particleBlue1": 51,
+      "particleBlue2": 0,
+      "particleGravityX": 0,
+      "particleGravityY": 0,
+      "particleGreen1": 51,
+      "particleGreen2": 255,
+      "particleLifeTimeMax": 2.5,
+      "particleLifeTimeMin": 0.5,
+      "particleRed1": 255,
+      "particleRed2": 255,
+      "particleSize1": 100,
+      "particleSize2": 100,
+      "particleSizeRandomness1": 0,
+      "particleSizeRandomness2": 0,
+      "rendererParam1": 3,
+      "rendererParam2": 1,
+      "rendererType": "Point",
+      "tags": "",
+      "tank": -1,
+      "textureParticleName": "",
+      "type": "ParticleSystem::ParticleEmitter",
+      "zoneRadius": 3,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "events": [
@@ -9577,7 +9523,7 @@
                   },
                   "parameters": [
                     "",
-                    "",
+                    "\"Bottom Layer\"",
                     "0"
                   ]
                 },
@@ -9587,17 +9533,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"Projectile layer\"",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ChangeLayerTimeScale"
-                  },
-                  "parameters": [
                     "",
-                    "\"Shop Layer\"",
                     "0"
                   ]
                 },
@@ -10295,7 +10231,7 @@
                   },
                   "parameters": [
                     "ConfirmBox",
-                    "\"Hidden Layer\""
+                    "\"Bottom Layer\""
                   ]
                 },
                 {
@@ -10707,6 +10643,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Continuous Events",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -11629,7 +11566,7 @@
                                 "VariableString(waveData.name)",
                                 "Spawner.X()+RandomInRange(-100,100)",
                                 "Spawner.Y()+RandomInRange(-30,30)",
-                                "\"Projectile layer\""
+                                ""
                               ]
                             },
                             {
@@ -11644,6 +11581,16 @@
                             },
                             {
                               "type": {
+                                "value": "ChangePlan"
+                              },
+                              "parameters": [
+                                "Enemies",
+                                "=",
+                                "30"
+                              ]
+                            },
+                            {
+                              "type": {
                                 "value": "Create"
                               },
                               "parameters": [
@@ -11651,7 +11598,7 @@
                                 "EnemyHealthBar",
                                 "Enemies.X()",
                                 "Enemies.Y()",
-                                "\"Projectile layer\""
+                                ""
                               ]
                             },
                             {
@@ -11663,6 +11610,16 @@
                                 "=",
                                 "Enemies.Variable(Health)",
                                 ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ChangePlan"
+                              },
+                              "parameters": [
+                                "EnemyHealthBar",
+                                "=",
+                                "31"
                               ]
                             },
                             {
@@ -11741,7 +11698,7 @@
                                 "Terrorist",
                                 "Spawner.X()+RandomInRange(-100,100)",
                                 "Spawner.Y()+RandomInRange(-30,30)",
-                                "\"Projectile layer\""
+                                ""
                               ]
                             },
                             {
@@ -11764,6 +11721,16 @@
                                 "Terrorist",
                                 "=",
                                 "0.5"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ChangePlan"
+                              },
+                              "parameters": [
+                                "Terrorist",
+                                "=",
+                                "30"
                               ]
                             },
                             {
@@ -11807,7 +11774,7 @@
                                 "EnemyHealthBar",
                                 "Terrorist.X()",
                                 "Terrorist.Y()",
-                                "\"Projectile layer\""
+                                ""
                               ]
                             },
                             {
@@ -11819,6 +11786,16 @@
                                 "=",
                                 "Terrorist.Variable(Health)",
                                 ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ChangePlan"
+                              },
+                              "parameters": [
+                                "EnemyHealthBar",
+                                "=",
+                                "31"
                               ]
                             },
                             {
@@ -12440,7 +12417,7 @@
                   "parameters": [
                     "crisisInterval",
                     "=",
-                    "30"
+                    "60"
                   ]
                 }
               ]
@@ -12530,7 +12507,7 @@
                 "CommSupportEffect",
                 "CommunitySupportIcon.X()",
                 "CommunitySupportIcon.Y()",
-                ""
+                "\"Top Layer\""
               ]
             },
             {
@@ -12607,7 +12584,17 @@
                   },
                   "parameters": [
                     "",
-                    "\"Projectile layer\"",
+                    "\"Bottom Layer\"",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeLayerTimeScale"
+                  },
+                  "parameters": [
+                    "",
+                    "",
                     "0"
                   ]
                 },
@@ -12617,7 +12604,7 @@
                   },
                   "parameters": [
                     "DeathScreen",
-                    "\"Overlay(er)\""
+                    "\"Top Layer\""
                   ]
                 },
                 {
@@ -12750,17 +12737,7 @@
                   },
                   "parameters": [
                     "PauseMenu",
-                    "\"Overlay(er)\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ChangePlan"
-                  },
-                  "parameters": [
-                    "PauseMenu",
-                    "=",
-                    "9999"
+                    "\"Top Layer\""
                   ]
                 },
                 {
@@ -12900,7 +12877,7 @@
               },
               "parameters": [
                 "PauseMenu",
-                "\"Hidden Layer\""
+                "\"Bottom Layer\""
               ]
             },
             {
@@ -13125,7 +13102,7 @@
               },
               "parameters": [
                 "",
-                "\"Shop Layer\"",
+                "\"Top Layer\"",
                 "!=",
                 "0"
               ]
@@ -13349,57 +13326,7 @@
               ]
             }
           ],
-          "actions": [
-            {
-              "type": {
-                "value": "ChangeTimeScale"
-              },
-              "parameters": [
-                "",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangeLayerTimeScale"
-              },
-              "parameters": [
-                "",
-                "",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangeLayerTimeScale"
-              },
-              "parameters": [
-                "",
-                "\"Projectile layer\"",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangeLayerTimeScale"
-              },
-              "parameters": [
-                "",
-                "\"Shop Layer\"",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangeLayerTimeScale"
-              },
-              "parameters": [
-                "",
-                "\"Shop Layer\"",
-                "1"
-              ]
-            }
-          ]
+          "actions": []
         },
         {
           "type": "BuiltinCommonInstructions::Comment",
@@ -13470,7 +13397,7 @@
                 "InternetTroll",
                 "Spawner.X()+RandomInRange(-100,100)",
                 "Spawner.Y()+RandomInRange(-30,30)",
-                "\"Projectile layer\""
+                ""
               ]
             },
             {
@@ -13506,6 +13433,16 @@
             },
             {
               "type": {
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "InternetTroll",
+                "=",
+                "30"
+              ]
+            },
+            {
+              "type": {
                 "value": "Create"
               },
               "parameters": [
@@ -13513,7 +13450,7 @@
                 "EnemyHealthBar",
                 "InternetTroll.X()",
                 "InternetTroll.Y()",
-                "\"Projectile layer\""
+                ""
               ]
             },
             {
@@ -13525,6 +13462,16 @@
                 "=",
                 "InternetTroll.Variable(Health)",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "EnemyHealthBar",
+                "=",
+                "31"
               ]
             },
             {
@@ -13599,7 +13546,17 @@
                 "SelfRad",
                 "Spawner.X()+RandomInRange(-100,100)",
                 "Spawner.Y()+RandomInRange(-30,30)",
-                "\"Projectile layer\""
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "SelfRad",
+                "=",
+                "30"
               ]
             },
             {
@@ -13633,7 +13590,7 @@
                 "EnemyHealthBar",
                 "SelfRad.X()",
                 "SelfRad.Y()",
-                "\"Projectile layer\""
+                ""
               ]
             },
             {
@@ -13645,6 +13602,16 @@
                 "=",
                 "SelfRad.Variable(Health)",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "EnemyHealthBar",
+                "=",
+                "31"
               ]
             },
             {
@@ -13709,7 +13676,17 @@
                 "Terrorist",
                 "Spawner.X()+RandomInRange(-100,100)",
                 "Spawner.Y()+RandomInRange(-30,30)",
-                "\"Projectile layer\""
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "Terrorist",
+                "=",
+                "30"
               ]
             },
             {
@@ -13743,7 +13720,7 @@
                 "EnemyHealthBar",
                 "Terrorist.X()",
                 "Terrorist.Y()",
-                "\"Projectile layer\""
+                ""
               ]
             },
             {
@@ -13755,6 +13732,16 @@
                 "=",
                 "Terrorist.Variable(Health)",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "EnemyHealthBar",
+                "=",
+                "31"
               ]
             },
             {
@@ -13819,7 +13806,17 @@
                 "SelfRad",
                 "Spawner.X()+RandomInRange(-100,100)",
                 "Spawner.Y()+RandomInRange(-30,30)",
-                "\"Projectile layer\""
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "SelfRad",
+                "=",
+                "30"
               ]
             },
             {
@@ -13853,7 +13850,7 @@
                 "EnemyHealthBar",
                 "SelfRad.X()",
                 "SelfRad.Y()",
-                "\"Projectile layer\""
+                ""
               ]
             },
             {
@@ -13865,6 +13862,16 @@
                 "=",
                 "SelfRad.Variable(Health)",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "EnemyHealthBar",
+                "=",
+                "31"
               ]
             },
             {
@@ -13929,7 +13936,17 @@
                 "Terrorist",
                 "Spawner.X()+RandomInRange(-100,100)",
                 "Spawner.Y()+RandomInRange(-30,30)",
-                "\"Projectile layer\""
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "Terrorist",
+                "=",
+                "30"
               ]
             },
             {
@@ -13963,7 +13980,7 @@
                 "EnemyHealthBar",
                 "Terrorist.X()",
                 "Terrorist.Y()",
-                "\"Projectile layer\""
+                ""
               ]
             },
             {
@@ -13975,6 +13992,16 @@
                 "=",
                 "Terrorist.Variable(Health)",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "EnemyHealthBar",
+                "=",
+                "31"
               ]
             },
             {
@@ -14097,7 +14124,17 @@
                 "Terrorist",
                 "Spawner.X()+RandomInRange(-100,100)",
                 "Spawner.Y()+RandomInRange(-30,30)",
-                "\"Projectile layer\""
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "Terrorist",
+                "=",
+                "30"
               ]
             },
             {
@@ -14140,7 +14177,7 @@
                 "EnemyHealthBar",
                 "Terrorist.X()",
                 "Terrorist.Y()",
-                "\"Projectile layer\""
+                ""
               ]
             },
             {
@@ -14152,6 +14189,16 @@
                 "=",
                 "Terrorist.Variable(Health)",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "EnemyHealthBar",
+                "=",
+                "31"
               ]
             },
             {
@@ -14226,7 +14273,17 @@
                 "SelfRad",
                 "Spawner.X()+RandomInRange(-100,100)",
                 "Spawner.Y()+RandomInRange(-30,30)",
-                "\"Projectile layer\""
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "SelfRad",
+                "=",
+                "30"
               ]
             },
             {
@@ -14260,7 +14317,7 @@
                 "EnemyHealthBar",
                 "SelfRad.X()",
                 "SelfRad.Y()",
-                "\"Projectile layer\""
+                ""
               ]
             },
             {
@@ -14272,6 +14329,16 @@
                 "=",
                 "SelfRad.Variable(Health)",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "EnemyHealthBar",
+                "=",
+                "31"
               ]
             },
             {
@@ -14336,7 +14403,17 @@
                 "InternetTroll",
                 "Spawner.X()+RandomInRange(-100,100)",
                 "Spawner.Y()+RandomInRange(-30,30)",
-                "\"Projectile layer\""
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "InternetTroll",
+                "=",
+                "30"
               ]
             },
             {
@@ -14370,7 +14447,7 @@
                 "EnemyHealthBar",
                 "InternetTroll.X()",
                 "InternetTroll.Y()",
-                "\"Projectile layer\""
+                ""
               ]
             },
             {
@@ -14382,6 +14459,16 @@
                 "=",
                 "InternetTroll.Variable(Health)",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "EnemyHealthBar",
+                "=",
+                "31"
               ]
             },
             {
@@ -14446,7 +14533,17 @@
                 "SelfRad",
                 "Spawner.X()+RandomInRange(-100,100)",
                 "Spawner.Y()+RandomInRange(-30,30)",
-                "\"Projectile layer\""
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "SelfRad",
+                "=",
+                "30"
               ]
             },
             {
@@ -14480,7 +14577,7 @@
                 "EnemyHealthBar",
                 "SelfRad.X()",
                 "SelfRad.Y()",
-                "\"Projectile layer\""
+                ""
               ]
             },
             {
@@ -14492,6 +14589,16 @@
                 "=",
                 "SelfRad.Variable(Health)",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "EnemyHealthBar",
+                "=",
+                "31"
               ]
             },
             {
@@ -14556,7 +14663,17 @@
                 "InternetTroll",
                 "Spawner.X()+RandomInRange(-100,100)",
                 "Spawner.Y()+RandomInRange(-30,30)",
-                "\"Projectile layer\""
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "InternetTroll",
+                "=",
+                "30"
               ]
             },
             {
@@ -14590,7 +14707,7 @@
                 "EnemyHealthBar",
                 "InternetTroll.X()",
                 "InternetTroll.Y()",
-                "\"Projectile layer\""
+                ""
               ]
             },
             {
@@ -14602,6 +14719,16 @@
                 "=",
                 "InternetTroll.Variable(Health)",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "EnemyHealthBar",
+                "=",
+                "31"
               ]
             },
             {
@@ -16376,11 +16503,12 @@
               "actions": [
                 {
                   "type": {
-                    "value": "ChangeLayer"
+                    "value": "ChangePlan"
                   },
                   "parameters": [
                     "Towers",
-                    ""
+                    "=",
+                    "30"
                   ]
                 }
               ]
@@ -16468,11 +16596,12 @@
                 },
                 {
                   "type": {
-                    "value": "ChangeLayer"
+                    "value": "ChangePlan"
                   },
                   "parameters": [
                     "Towers",
-                    "\"Projectile layer\""
+                    "=",
+                    "31"
                   ]
                 }
               ],
@@ -17300,11 +17429,12 @@
                 },
                 {
                   "type": {
-                    "value": "ChangeLayer"
+                    "value": "ChangePlan"
                   },
                   "parameters": [
                     "Towers",
-                    ""
+                    "=",
+                    "30"
                   ]
                 },
                 {
@@ -17749,7 +17879,17 @@
                 "PosThoughtsProjectile",
                 "Doctor.PointX(\"OriginPoint\")",
                 "Doctor.PointY(\"OriginPoint\")",
-                "\"Projectile layer\""
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "PosThoughtsProjectile",
+                "=",
+                "40"
               ]
             },
             {
@@ -17994,7 +18134,17 @@
                 "UnradicaliseProjectile",
                 "CaringCitizen.PointX(\"OriginPoint\")",
                 "CaringCitizen.PointY(\"OriginPoint\")",
-                "\"Projectile layer\""
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "UnradicaliseProjectile",
+                "=",
+                "40"
               ]
             },
             {
@@ -18277,7 +18427,17 @@
                 "FirefighterProjectile",
                 "Firefighter.PointX(\"OriginPoint\")",
                 "Firefighter.PointY(\"OriginPoint\")",
-                "\"Projectile layer\""
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "FirefighterProjectile",
+                "=",
+                "40"
               ]
             },
             {
@@ -18301,7 +18461,17 @@
                 "FirefighterHitmarker",
                 "Enemies.CenterX()",
                 "Enemies.CenterY()",
-                "\"Projectile layer\""
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "FirefighterHitmarker",
+                "=",
+                "40"
               ]
             },
             {
@@ -18964,7 +19134,17 @@
                 "SpawnBox",
                 "CameraCenterX()",
                 "CameraCenterY()",
-                "\"Shop Layer\""
+                "\"Top Layer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "SpawnBox",
+                "=",
+                "0"
               ]
             },
             {
@@ -18993,7 +19173,7 @@
               },
               "parameters": [
                 "ConfirmBox",
-                ""
+                "\"Top Layer\""
               ]
             },
             {
@@ -20051,7 +20231,6 @@
           "comment": "Spawning Mechanics"
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -20262,6 +20441,16 @@
                         "SpawnBox.CenterX()",
                         "SpawnBox.CenterY()",
                         ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangePlan"
+                      },
+                      "parameters": [
+                        "Towers",
+                        "=",
+                        "30"
                       ]
                     },
                     {
@@ -20989,6 +21178,16 @@
                         },
                         {
                           "type": {
+                            "value": "ChangePlan"
+                          },
+                          "parameters": [
+                            "IntelligenceOfficer",
+                            "=",
+                            "30"
+                          ]
+                        },
+                        {
+                          "type": {
                             "value": "ChangeScale"
                           },
                           "parameters": [
@@ -21110,6 +21309,16 @@
                         },
                         {
                           "type": {
+                            "value": "ChangePlan"
+                          },
+                          "parameters": [
+                            "IntelligenceOfficer",
+                            "=",
+                            "30"
+                          ]
+                        },
+                        {
+                          "type": {
                             "value": "ChangeScale"
                           },
                           "parameters": [
@@ -21222,6 +21431,16 @@
                         },
                         {
                           "type": {
+                            "value": "ChangePlan"
+                          },
+                          "parameters": [
+                            "IntelligenceOfficer",
+                            "=",
+                            "30"
+                          ]
+                        },
+                        {
+                          "type": {
                             "value": "ChangeScale"
                           },
                           "parameters": [
@@ -21330,6 +21549,16 @@
                             "SpawnBox.CenterX()",
                             "SpawnBox.CenterY()",
                             ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ChangePlan"
+                          },
+                          "parameters": [
+                            "IntelligenceOfficer",
+                            "=",
+                            "30"
                           ]
                         },
                         {
@@ -21535,6 +21764,16 @@
                         },
                         {
                           "type": {
+                            "value": "ChangePlan"
+                          },
+                          "parameters": [
+                            "Firefighter",
+                            "=",
+                            "30"
+                          ]
+                        },
+                        {
+                          "type": {
                             "value": "ChangeScale"
                           },
                           "parameters": [
@@ -21643,6 +21882,16 @@
                             "SpawnBox.CenterX()",
                             "SpawnBox.CenterY()",
                             ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ChangePlan"
+                          },
+                          "parameters": [
+                            "Firefighter",
+                            "=",
+                            "30"
                           ]
                         },
                         {
@@ -21759,6 +22008,16 @@
                         },
                         {
                           "type": {
+                            "value": "ChangePlan"
+                          },
+                          "parameters": [
+                            "Firefighter",
+                            "=",
+                            "30"
+                          ]
+                        },
+                        {
+                          "type": {
                             "value": "ChangeScale"
                           },
                           "parameters": [
@@ -21867,6 +22126,16 @@
                             "SpawnBox.CenterX()",
                             "SpawnBox.CenterY()",
                             ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ChangePlan"
+                          },
+                          "parameters": [
+                            "Firefighter",
+                            "=",
+                            "30"
                           ]
                         },
                         {
@@ -22760,7 +23029,7 @@
                   },
                   "parameters": [
                     "ConfirmBox",
-                    "\"Hidden Layer\""
+                    "\"Bottom Layer\""
                   ]
                 },
                 {
@@ -22980,7 +23249,7 @@
                     "CrisisOverlay",
                     "0",
                     "0",
-                    "\"Overlay(er)\""
+                    "\"Top Layer\""
                   ]
                 },
                 {
@@ -23010,7 +23279,7 @@
                   "parameters": [
                     "CrisisOverlay",
                     "=",
-                    "0"
+                    "50"
                   ]
                 },
                 {
@@ -23020,7 +23289,7 @@
                   "parameters": [
                     "OkButton",
                     "=",
-                    "3"
+                    "51"
                   ]
                 },
                 {
@@ -23030,7 +23299,7 @@
                   "parameters": [
                     "CrisisInfo",
                     "=",
-                    "3"
+                    "51"
                   ]
                 },
                 {
@@ -23040,7 +23309,7 @@
                   "parameters": [
                     "CrisisTitle",
                     "=",
-                    "3"
+                    "51"
                   ]
                 },
                 {
@@ -23049,7 +23318,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"\"",
+                    "\"Bottom Layer\"",
                     "0"
                   ]
                 },
@@ -23059,7 +23328,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"Projectile layer\"",
+                    "\"\"",
                     "0"
                   ]
                 },
@@ -23630,7 +23899,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"Projectile layer\"",
+                    "\"Bottom Layer\"",
                     "1"
                   ]
                 },
@@ -24247,7 +24516,7 @@
               },
               "parameters": [
                 "",
-                "\"Shop Layer\"",
+                "\"Top Layer\"",
                 "!=",
                 "0"
               ]
@@ -25140,7 +25409,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Show Info Popup",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -25185,7 +25453,7 @@
                   },
                   "parameters": [
                     "ShopInfoPopup",
-                    "\"Hidden Layer\""
+                    "\"Bottom Layer\""
                   ]
                 },
                 {
@@ -25259,7 +25527,7 @@
                   },
                   "parameters": [
                     "ShopInfoPopup",
-                    "\"Shop Layer\""
+                    "\"Top Layer\""
                   ]
                 },
                 {
@@ -27484,7 +27752,7 @@
               },
               "parameters": [
                 "",
-                "",
+                "\"Bottom Layer\"",
                 "1"
               ]
             },
@@ -27494,17 +27762,7 @@
               },
               "parameters": [
                 "",
-                "\"Projectile layer\"",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangeLayerTimeScale"
-              },
-              "parameters": [
                 "",
-                "\"Shop Layer\"",
                 "1"
               ]
             },
@@ -27575,7 +27833,7 @@
                 "TutorialLight",
                 "1555",
                 "55",
-                "\"Overlay(er)\""
+                "\"Top Layer\""
               ]
             }
           ]
@@ -27960,7 +28218,7 @@
               },
               "parameters": [
                 "CommSupportAmt",
-                "<=",
+                "<",
                 "5"
               ]
             },
@@ -28098,7 +28356,7 @@
               "parameters": [
                 "TutorialGuide",
                 "=",
-                "\"The enemy Terrorist has been killed! Hooray!\""
+                "\"The enemy Terrorist has been killed! Hooray!\nOn the top of the screen you'll see you have 5 Community Support points. Each time an enemy gets to the base you lose 1 point. If an enemy reaches your base at 0 points you lose, so don't let them get close!\""
               ]
             }
           ],
@@ -28191,7 +28449,7 @@
                 "TutorialLight",
                 "1555",
                 "55",
-                "\"Overlay(er)\""
+                "\"Top Layer\""
               ]
             }
           ]
@@ -28416,7 +28674,7 @@
               "parameters": [
                 "TutorialGuide",
                 "=",
-                "\"Now you can recruit more Soldiers to assist you in the fight!\nThere are many more Towers that you can recruit after this tutorial. Check out what they do in the main menu!\""
+                "\"Now you can recruit more Soldiers to assist you in the fight!\nThere are many more Towers that you can recruit after this tutorial. Check out what they do by clicking the icons that represent the individual towers!\""
               ]
             },
             {
@@ -28537,7 +28795,7 @@
               "parameters": [
                 "TutorialGuide",
                 "=",
-                "\"Great! Now you know how to make your towers stronger!\nYou can also check out what upgraded Towers do in the main menu!\""
+                "\"Great! Now you know how to make your towers stronger!\nYou can also check out what upgraded Towers do by clicking on the tower's icon in the shop!\""
               ]
             },
             {
@@ -28789,6 +29047,18 @@
                 "1000",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "TutorialLight",
+                "=",
+                "3000",
+                "=",
+                "3000"
+              ]
             }
           ]
         },
@@ -28964,7 +29234,7 @@
               "parameters": [
                 "TutorialGuide",
                 "=",
-                "\"Great! Now you know how to make your towers stronger!\nYou can also check out what upgraded Towers do in the main menu!\""
+                "\"Great! Now you know how to make your towers stronger!\nYou can also check out what upgraded Towers do by clicking on the tower's icon in the shop!\""
               ]
             }
           ],
@@ -29008,7 +29278,7 @@
                 "TutorialLight",
                 "1555",
                 "55",
-                "\"Overlay(er)\""
+                "\"Top Layer\""
               ]
             }
           ]
@@ -29067,7 +29337,7 @@
               "parameters": [
                 "TutorialGuide",
                 "=",
-                "\"Great! Notice the colour of the particles? They're now pink to show that the Soldier is being boosted by an upgraded Cheerleader!\nYou can learn more about status effects when buying Towers in the main game by clicking the icon in the shop.\""
+                "\"Great! Notice the colour of the particles? They're now pink to show that the Soldier is being boosted by an upgraded Cheerleader!\nYou can see what effects certain towers give by clicking on the tower's shop icon as well.\""
               ]
             },
             {
@@ -29354,7 +29624,7 @@
               "parameters": [
                 "TutorialGuide",
                 "=",
-                "\"Great! Notice the colour of the particles? They're now pink to show that the Soldier is being boosted by an upgraded Cheerleader!\nYou can learn more about status effects when buying Towers in the main game by clicking the icon in the shop.\""
+                "\"Great! Notice the colour of the particles? They're now pink to show that the Soldier is being boosted by an upgraded Cheerleader!\nYou can see what effects certain towers give by clicking on the tower's shop icon as well.\""
               ]
             }
           ],
@@ -29498,38 +29768,6 @@
   ],
   "layers": [
     {
-      "ambientLightColorB": 150995058,
-      "ambientLightColorG": 6069792,
-      "ambientLightColorR": 8356968,
-      "camera3DFarPlaneDistance": 10000,
-      "camera3DFieldOfView": 45,
-      "camera3DNearPlaneDistance": 0.1,
-      "followBaseLayerCamera": false,
-      "isLightingLayer": false,
-      "isLocked": false,
-      "name": "Hidden Layer",
-      "renderingType": "",
-      "visibility": true,
-      "cameras": [],
-      "effects": []
-    },
-    {
-      "ambientLightColorB": 7604408,
-      "ambientLightColorG": 6043312,
-      "ambientLightColorR": 7569360,
-      "camera3DFarPlaneDistance": 10000,
-      "camera3DFieldOfView": 45,
-      "camera3DNearPlaneDistance": 0.1,
-      "followBaseLayerCamera": false,
-      "isLightingLayer": false,
-      "isLocked": false,
-      "name": "Path layer",
-      "renderingType": "",
-      "visibility": true,
-      "cameras": [],
-      "effects": []
-    },
-    {
       "ambientLightColorB": 0,
       "ambientLightColorG": 6043312,
       "ambientLightColorR": 7605152,
@@ -29539,7 +29777,7 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
-      "name": "e",
+      "name": "Bottom Layer",
       "renderingType": "",
       "visibility": true,
       "cameras": [],
@@ -29582,39 +29820,7 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
-      "name": "Projectile layer",
-      "renderingType": "",
-      "visibility": true,
-      "cameras": [],
-      "effects": []
-    },
-    {
-      "ambientLightColorB": 150995058,
-      "ambientLightColorG": 6057056,
-      "ambientLightColorR": 10379224,
-      "camera3DFarPlaneDistance": 10000,
-      "camera3DFieldOfView": 45,
-      "camera3DNearPlaneDistance": 0.1,
-      "followBaseLayerCamera": false,
-      "isLightingLayer": false,
-      "isLocked": false,
-      "name": "Shop Layer",
-      "renderingType": "",
-      "visibility": true,
-      "cameras": [],
-      "effects": []
-    },
-    {
-      "ambientLightColorB": 10675424,
-      "ambientLightColorG": 6057056,
-      "ambientLightColorR": 10889896,
-      "camera3DFarPlaneDistance": 10000,
-      "camera3DFieldOfView": 45,
-      "camera3DNearPlaneDistance": 0.1,
-      "followBaseLayerCamera": false,
-      "isLightingLayer": false,
-      "isLocked": false,
-      "name": "Overlay(er)",
+      "name": "Top Layer",
       "renderingType": "",
       "visibility": true,
       "cameras": [],

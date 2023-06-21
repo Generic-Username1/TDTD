@@ -484,8 +484,8 @@
       "name": "Restart",
       "persistentUuid": "23e04253-64c0-4fef-b0f7-248664116bb9",
       "width": 0,
-      "x": 749,
-      "y": 678,
+      "x": 751,
+      "y": 762,
       "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
@@ -499,8 +499,8 @@
       "name": "ExitPrompt",
       "persistentUuid": "6fcec73d-26f2-4594-8354-af77a41a1026",
       "width": 0,
-      "x": 674,
-      "y": 812,
+      "x": 676,
+      "y": 896,
       "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
@@ -955,6 +955,42 @@
                 "Description",
                 "+",
                 "\"\nNow that you've completed the tutorial, try out the actual game!\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "Tutorial",
+                "True"
+              ]
+            },
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "easymode",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "BitmapText::BitmapTextObject::SetText"
+              },
+              "parameters": [
+                "Description",
+                "+",
+                "\"\nTry to win in hard mode now!\""
               ]
             }
           ]

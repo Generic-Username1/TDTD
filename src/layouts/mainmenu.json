@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.22410857952634378,
+    "zoomFactor": 0.3122403742139964,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -56,7 +56,7 @@
       "width": 0,
       "x": 22,
       "y": 1034,
-      "zOrder": 9999999,
+      "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -114,8 +114,8 @@
       "name": "GameTitle",
       "persistentUuid": "f0916b77-42d7-4fcc-8fe3-a239c42b0899",
       "width": 0,
-      "x": -4,
-      "y": -500,
+      "x": 246,
+      "y": -503,
       "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
@@ -650,7 +650,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "v0.3.0",
+      "string": "v0.3.1",
       "font": "assets\\AlfaSlabOne-Regular.ttf",
       "textAlignment": "left",
       "characterSize": 24,
@@ -780,16 +780,17 @@
       ],
       "animations": [
         {
-          "name": "",
+          "name": "screen_title_name",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
-                  "image": "screen_title_name.png",
+                  "hasCustomCollisionMask": true,
+                  "image": "screen_title_name",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -802,7 +803,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 300,
+                        "y": 100
+                      },
+                      {
+                        "x": 1350,
+                        "y": 100
+                      },
+                      {
+                        "x": 1350,
+                        "y": 475.5
+                      },
+                      {
+                        "x": 300,
+                        "y": 467
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -1651,6 +1671,57 @@
       "conditions": [
         {
           "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "Version",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonPressed"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ToggleGlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "easymode"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "Version",
+            "=",
+            "\"easy mode: \" + ToString(GlobalVariable(easymode))"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
             "inverted": true,
             "value": "MusicPlaying"
           },
@@ -1681,23 +1752,136 @@
       "conditions": [
         {
           "type": {
-            "value": "MouseButtonReleased"
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "GameTitle",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonPressed"
           },
           "parameters": [
             "",
-            "Right"
+            "Left"
+          ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "Tween::Exists"
+          },
+          "parameters": [
+            "GameTitle",
+            "Tween",
+            "\"Enlarge\""
           ]
         }
       ],
       "actions": [
         {
           "type": {
-            "value": "Scene"
+            "value": "Tween::StopTween"
+          },
+          "parameters": [
+            "GameTitle",
+            "Tween",
+            "\"Shrink\"",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::RemoveTween"
+          },
+          "parameters": [
+            "GameTitle",
+            "Tween",
+            "\"Shrink\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::AddObjectScaleTween"
+          },
+          "parameters": [
+            "GameTitle",
+            "Tween",
+            "\"Enlarge\"",
+            "1.1",
+            "1.1",
+            "\"bouncePast\"",
+            "500",
+            "",
+            "yes"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "MouseButtonReleased"
           },
           "parameters": [
             "",
-            "\"MainMenu\"",
+            "Left"
+          ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "Tween::Exists"
+          },
+          "parameters": [
+            "GameTitle",
+            "Tween",
+            "\"Shrink\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Tween::StopTween"
+          },
+          "parameters": [
+            "GameTitle",
+            "Tween",
+            "\"Enlarge\"",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::RemoveTween"
+          },
+          "parameters": [
+            "GameTitle",
+            "Tween",
+            "\"Enlarge\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::AddObjectScaleTween"
+          },
+          "parameters": [
+            "GameTitle",
+            "Tween",
+            "\"Shrink\"",
+            "1.0",
+            "1.0",
+            "\"easeInOutSine\"",
+            "3000",
+            "",
+            "yes"
           ]
         }
       ]

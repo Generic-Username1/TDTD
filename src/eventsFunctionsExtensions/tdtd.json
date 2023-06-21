@@ -39,6 +39,16 @@
             },
             {
               "type": {
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "Tower",
+                "=",
+                "30"
+              ]
+            },
+            {
+              "type": {
                 "value": "ChangeScale"
               },
               "parameters": [
@@ -118,6 +128,16 @@
             },
             {
               "type": {
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "Tower",
+                "=",
+                "30"
+              ]
+            },
+            {
+              "type": {
                 "value": "ChangeScale"
               },
               "parameters": [
@@ -191,6 +211,16 @@
                 "SpawnBox.CenterX()",
                 "SpawnBox.CenterY()",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "Tower",
+                "=",
+                "30"
               ]
             },
             {
@@ -372,7 +402,17 @@
                 "Particles",
                 "Tower.X()",
                 "Tower.Y()",
-                "\"e\""
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "Particles",
+                "=",
+                "20"
               ]
             },
             {
@@ -504,7 +544,17 @@
                 "NotifyCircle",
                 "GetArgumentAsNumber(\"XPos\")",
                 "GetArgumentAsNumber(\"YPos\")",
-                "\"Shop Layer\""
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "NotifyCircle",
+                "=",
+                "20"
               ]
             },
             {
@@ -538,7 +588,17 @@
                 "NotifyParticles",
                 "GetArgumentAsNumber(\"XPos\")",
                 "GetArgumentAsNumber(\"YPos\")",
-                "\"Shop Layer\""
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "NotifyParticles",
+                "=",
+                "20"
               ]
             },
             {
@@ -650,6 +710,16 @@
                 "GetArgumentAsNumber(\"PosX\")",
                 "GetArgumentAsNumber(\"PosY\")",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "InfoFloatText",
+                "=",
+                "50"
               ]
             },
             {
@@ -2292,7 +2362,17 @@
                         "Projectile",
                         "Object.PointX(\"OriginPoint\")",
                         "Object.PointY(\"OriginPoint\")",
-                        "\"Projectile layer\""
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangePlan"
+                      },
+                      "parameters": [
+                        "Projectile",
+                        "=",
+                        "40"
                       ]
                     },
                     {
@@ -2581,6 +2661,16 @@
                     },
                     {
                       "type": {
+                        "value": "ChangePlan"
+                      },
+                      "parameters": [
+                        "Projectile",
+                        "=",
+                        "40"
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "ModVarObjet"
                       },
                       "parameters": [
@@ -2813,7 +2903,7 @@
                   "parameters": [
                     "Trap",
                     "=",
-                    "1"
+                    "40"
                   ]
                 },
                 {
