@@ -1,8 +1,8 @@
 {
   "b": 255,
   "disableInputWhenNotFocused": true,
-  "mangledName": "GameScene",
-  "name": "GameScene",
+  "mangledName": "GameScene2",
+  "name": "GameScene2",
   "r": 255,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5061631522790275,
+    "zoomFactor": 0.32889008232375583,
     "windowMask": true
   },
   "objectsGroups": [
@@ -1883,7 +1883,7 @@
       "width": 1000,
       "x": 310,
       "y": 290,
-      "zOrder": 51,
+      "zOrder": 40,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1898,7 +1898,7 @@
       "width": 0,
       "x": 365,
       "y": 430,
-      "zOrder": 60,
+      "zOrder": 50,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1913,7 +1913,7 @@
       "width": 500,
       "x": 847,
       "y": 377,
-      "zOrder": 60,
+      "zOrder": 50,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1928,7 +1928,7 @@
       "width": 500,
       "x": 758,
       "y": 461,
-      "zOrder": 60,
+      "zOrder": 50,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1943,7 +1943,7 @@
       "width": 0,
       "x": 945,
       "y": 618,
-      "zOrder": 60,
+      "zOrder": 50,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1958,7 +1958,7 @@
       "width": 500,
       "x": 763,
       "y": 663,
-      "zOrder": 60,
+      "zOrder": 50,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1973,7 +1973,7 @@
       "width": 88,
       "x": 773,
       "y": 814,
-      "zOrder": 60,
+      "zOrder": 50,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2035,7 +2035,7 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": true,
+              "looping": false,
               "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
@@ -2833,7 +2833,7 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": true,
+              "looping": false,
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
@@ -4663,21 +4663,7 @@
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
-      "effects": [
-        {
-          "effectType": "Glow",
-          "name": "Glow",
-          "doubleParameters": {
-            "distance": 15,
-            "innerStrength": 1,
-            "outerStrength": 2
-          },
-          "stringParameters": {
-            "color": "255;255;255"
-          },
-          "booleanParameters": {}
-        }
-      ],
+      "effects": [],
       "behaviors": [
         {
           "name": "Button",
@@ -4872,21 +4858,7 @@
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
-      "effects": [
-        {
-          "effectType": "Glow",
-          "name": "Glow",
-          "doubleParameters": {
-            "distance": 15,
-            "innerStrength": 1,
-            "outerStrength": 2
-          },
-          "stringParameters": {
-            "color": "255;255;255"
-          },
-          "booleanParameters": {}
-        }
-      ],
+      "effects": [],
       "behaviors": [
         {
           "name": "Button",
@@ -5932,7 +5904,7 @@
           "effectType": "Glitch",
           "name": "Glitch",
           "doubleParameters": {
-            "animationFrequency": 60,
+            "animationFrequency": 0,
             "blueX": 10,
             "blueY": -4,
             "direction": 0,
@@ -6310,7 +6282,7 @@
           "effectType": "Glitch",
           "name": "Glitch",
           "doubleParameters": {
-            "animationFrequency": 60,
+            "animationFrequency": 0,
             "blueX": 10,
             "blueY": -4,
             "direction": 0,
@@ -6775,7 +6747,7 @@
           "effectType": "Glitch",
           "name": "Glitch",
           "doubleParameters": {
-            "animationFrequency": 60,
+            "animationFrequency": 0,
             "blueX": 10,
             "blueY": -4,
             "direction": 0,
@@ -7690,7 +7662,7 @@
       "emitterForceMin": 0,
       "flow": 1,
       "jumpForwardInTimeOnCreation": 0,
-      "maxParticleNb": 1,
+      "maxParticleNb": 0,
       "name": "CommSupportEffect",
       "particleAlpha1": 204,
       "particleAlpha2": 0,
@@ -7736,7 +7708,7 @@
       "emitterForceMin": 45,
       "flow": 15,
       "jumpForwardInTimeOnCreation": 0,
-      "maxParticleNb": 15,
+      "maxParticleNb": 0,
       "name": "StatusParticles",
       "particleAlpha1": 204,
       "particleAlpha2": 0,
@@ -8834,7 +8806,7 @@
       "emitterForceMin": 45,
       "flow": 45,
       "jumpForwardInTimeOnCreation": 0.5,
-      "maxParticleNb": 25,
+      "maxParticleNb": 0,
       "name": "NotifyParticles",
       "particleAlpha1": 204,
       "particleAlpha2": 0,
@@ -9316,52 +9288,6 @@
         "align": "center",
         "wordWrap": true
       }
-    },
-    {
-      "additive": false,
-      "assetStoreId": "",
-      "destroyWhenNoParticles": true,
-      "emitterAngleA": 0,
-      "emitterAngleB": 90,
-      "emitterForceMax": 85,
-      "emitterForceMin": 45,
-      "flow": 45,
-      "jumpForwardInTimeOnCreation": 0,
-      "maxParticleNb": 300,
-      "name": "FireParticles",
-      "particleAlpha1": 204,
-      "particleAlpha2": 0,
-      "particleAlphaRandomness1": 0,
-      "particleAlphaRandomness2": 0,
-      "particleAngle1": 0,
-      "particleAngle2": 0,
-      "particleAngleRandomness1": 0,
-      "particleAngleRandomness2": 0,
-      "particleBlue1": 51,
-      "particleBlue2": 0,
-      "particleGravityX": 0,
-      "particleGravityY": 0,
-      "particleGreen1": 51,
-      "particleGreen2": 255,
-      "particleLifeTimeMax": 2.5,
-      "particleLifeTimeMin": 0.5,
-      "particleRed1": 255,
-      "particleRed2": 255,
-      "particleSize1": 100,
-      "particleSize2": 100,
-      "particleSizeRandomness1": 0,
-      "particleSizeRandomness2": 0,
-      "rendererParam1": 3,
-      "rendererParam2": 1,
-      "rendererType": "Point",
-      "tags": "",
-      "tank": -1,
-      "textureParticleName": "",
-      "type": "ParticleSystem::ParticleEmitter",
-      "zoneRadius": 3,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
     }
   ],
   "events": [
@@ -9370,6 +9296,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Initialization",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -10090,7 +10017,7 @@
                   "parameters": [
                     "playerGold",
                     "=",
-                    "50000"
+                    "100000"
                   ]
                 },
                 {
@@ -10678,6 +10605,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Continuous Events",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -19076,6 +19004,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "SpawnBox and Spawning",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -24438,6 +24367,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Shop Stuff",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -25165,6 +25095,7 @@
           "comment": "Switch Tabs"
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -25509,15 +25440,6 @@
                   "parameters": [
                     "",
                     "Left"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Layer"
-                  },
-                  "parameters": [
-                    "ShopInfoPopup",
-                    "\"Bottom Layer\""
                   ]
                 },
                 {
@@ -27788,6 +27710,26 @@
             },
             {
               "type": {
+                "value": "ChangeLayerTimeScale"
+              },
+              "parameters": [
+                "",
+                "\"Bottom Layer\"",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeLayerTimeScale"
+              },
+              "parameters": [
+                "",
+                "",
+                "1"
+              ]
+            },
+            {
+              "type": {
                 "value": "MettreX"
               },
               "parameters": [
@@ -28039,26 +27981,6 @@
             }
           ],
           "actions": [
-            {
-              "type": {
-                "value": "ChangeLayerTimeScale"
-              },
-              "parameters": [
-                "",
-                "\"Bottom Layer\"",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangeLayerTimeScale"
-              },
-              "parameters": [
-                "",
-                "",
-                "1"
-              ]
-            },
             {
               "type": {
                 "value": "Delete"

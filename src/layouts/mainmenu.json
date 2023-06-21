@@ -1696,26 +1696,7 @@
           "parameters": []
         }
       ],
-      "actions": [
-        {
-          "type": {
-            "value": "ToggleGlobalVariableAsBoolean"
-          },
-          "parameters": [
-            "easymode"
-          ]
-        },
-        {
-          "type": {
-            "value": "TextObject::String"
-          },
-          "parameters": [
-            "Version",
-            "=",
-            "\"easy mode: \" + ToString(GlobalVariable(easymode))"
-          ]
-        }
-      ]
+      "actions": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
