@@ -18,10 +18,22 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3122403742139964,
+    "zoomFactor": 0.5134934669637305,
     "windowMask": false
   },
-  "objectsGroups": [],
+  "objectsGroups": [
+    {
+      "name": "LowQualityGroup",
+      "objects": [
+        {
+          "name": "LowQualitySwitch"
+        },
+        {
+          "name": "LowQualityText"
+        }
+      ]
+    }
+  ],
   "variables": [
     {
       "folded": true,
@@ -69,8 +81,8 @@
       "name": "Background",
       "persistentUuid": "c65c5fa1-3155-474d-9d89-07d81d06910c",
       "width": 1622,
-      "x": -4,
-      "y": 2,
+      "x": 0,
+      "y": 0,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -99,8 +111,8 @@
       "name": "Foreground",
       "persistentUuid": "6329b145-def1-4330-8dc1-661f39afe9aa",
       "width": 0,
-      "x": -1,
-      "y": 1,
+      "x": 0,
+      "y": 0,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -129,9 +141,56 @@
       "name": "BackgroundFire",
       "persistentUuid": "916359a2-270a-4888-8072-e01558db48ed",
       "width": 0,
-      "x": -4,
+      "x": 0,
       "y": -70,
       "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "LowQualitySwitch",
+      "persistentUuid": "c898f7f0-0e5b-435e-a232-0791c98acc04",
+      "width": 0,
+      "x": 1438,
+      "y": 171,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 68,
+      "layer": "",
+      "name": "LowQualityText",
+      "persistentUuid": "35bb2dac-bab6-4885-8747-b00074a01abc",
+      "width": 309,
+      "x": 1284,
+      "y": 133,
+      "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 87,
+      "layer": "",
+      "name": "Config",
+      "persistentUuid": "515cfe80-5356-4cf8-b85e-333dd4cf6f18",
+      "width": 79,
+      "x": 1512,
+      "y": 31,
+      "zOrder": 23,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1397,6 +1456,111 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "99f912de1cf5033ae934a8453c2f98a712955bcdb5ea1b1fda2fe2aa616de4a9",
+      "name": "LowQualitySwitch",
+      "tags": "",
+      "type": "SpriteToggleSwitch::SpriteToggleSwitch",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "content": {},
+      "childrenContent": {
+        "State": {
+          "updateIfNotVisible": false,
+          "animations": [
+            {
+              "name": "Unchecked",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Small Plastic Green Round Switch_Off.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Checked",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Small Plastic Green Round Switch_On.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "LowQualityText",
+      "tags": "",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "content": {
+        "text": "High Quality Graphics",
+        "opacity": 255,
+        "scale": 1,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "assets\\fonts\\AlbaSlab\\24px\\Alba Slab 24px.fnt",
+        "textureAtlasResourceName": "assets\\fonts\\AlbaSlab\\24px\\Alba Slab 24px.png",
+        "align": "left",
+        "wordWrap": true
+      }
     }
   ],
   "events": [
@@ -1453,24 +1617,31 @@
         },
         {
           "type": {
-            "value": "PlayMusicCanal"
-          },
-          "parameters": [
-            "",
-            "assets\\nfdl_p1.ogg",
-            "0",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
             "value": "SetGlobalVariableAsBoolean"
           },
           "parameters": [
             "Tutorial",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SpriteToggleSwitch::SpriteToggleSwitch::SetOpacity"
+          },
+          "parameters": [
+            "LowQualitySwitch",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "BitmapText::BitmapTextObject::SetOpacity"
+          },
+          "parameters": [
+            "LowQualityText",
+            "=",
+            "0"
           ]
         },
         {
@@ -1485,6 +1656,237 @@
             "\"easeInOutQuad\"",
             "500",
             ""
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "LoadFile"
+              },
+              "parameters": [
+                "\"settings_storage\""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "GroupExists"
+                  },
+                  "parameters": [
+                    "\"settings_storage\"",
+                    "\"low_quality\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "LireFichierExp"
+                  },
+                  "parameters": [
+                    "\"settings_storage\"",
+                    "\"low_quality\"",
+                    "",
+                    "low_quality"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "GroupExists"
+                  },
+                  "parameters": [
+                    "\"settings_storage\"",
+                    "\"low_quality\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "music_volume",
+                    "=",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "low_quality",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SpriteToggleSwitch::SpriteToggleSwitch::SetChecked"
+                  },
+                  "parameters": [
+                    "LowQualitySwitch",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetGlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "LowQuality",
+                    "True"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "low_quality",
+                    "!=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SpriteToggleSwitch::SpriteToggleSwitch::SetChecked"
+                  },
+                  "parameters": [
+                    "LowQualitySwitch",
+                    "no",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetGlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "LowQuality",
+                    "False"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "GroupExists"
+                  },
+                  "parameters": [
+                    "\"settings_storage\"",
+                    "\"music_volume\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "LireFichierExp"
+                  },
+                  "parameters": [
+                    "\"settings_storage\"",
+                    "\"music_volume\"",
+                    "",
+                    "music_volume"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "GroupExists"
+                  },
+                  "parameters": [
+                    "\"settings_storage\"",
+                    "\"music_volume\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "music_volume",
+                    "=",
+                    "100"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlayMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\nfdl_p1.ogg",
+                    "0",
+                    "",
+                    "Variable(music_volume)",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "UnloadFile"
+                  },
+                  "parameters": [
+                    "\"settings_storage\""
+                  ]
+                }
+              ]
+            }
           ]
         }
       ]
@@ -1572,13 +1974,40 @@
           "parameters": [
             "TutorialButton",
             "Tween",
-            "\"PlayTween\"",
+            "\"TutorialTween\"",
             "1",
             "1",
             "\"easeInOutQuad\"",
             "500",
             "",
             "yes"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Tween::HasFinished"
+          },
+          "parameters": [
+            "TutorialButton",
+            "Tween",
+            "\"TutorialTween\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Tween::RemoveTween"
+          },
+          "parameters": [
+            "TutorialButton",
+            "Tween",
+            "\"TutorialTween\""
           ]
         }
       ]
@@ -1722,7 +2151,7 @@
             "assets\\nfdl_p2.ogg",
             "0",
             "yes",
-            "",
+            "Variable(music_volume)",
             ""
           ]
         }
@@ -1863,6 +2292,139 @@
             "3000",
             "",
             "yes"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "MouseButtonReleased"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        },
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "Config",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "BitmapText::BitmapTextObject::SetOpacity"
+          },
+          "parameters": [
+            "LowQualityText",
+            "=",
+            "255"
+          ]
+        },
+        {
+          "type": {
+            "value": "SpriteToggleSwitch::SpriteToggleSwitch::SetOpacity"
+          },
+          "parameters": [
+            "LowQualitySwitch",
+            "=",
+            "255"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SpriteToggleSwitch::SpriteToggleSwitch::HasJustBeenChecked"
+          },
+          "parameters": [
+            "LowQualitySwitch",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetGlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "LowQuality",
+            "False"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlayAnimation"
+          },
+          "parameters": [
+            "BackgroundFire"
+          ]
+        },
+        {
+          "type": {
+            "value": "EcrireFichierExp"
+          },
+          "parameters": [
+            "\"settings_storage\"",
+            "\"low_quality\"",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SpriteToggleSwitch::SpriteToggleSwitch::HasJustBeenUnchecked"
+          },
+          "parameters": [
+            "LowQualitySwitch",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetGlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "LowQuality",
+            "True"
+          ]
+        },
+        {
+          "type": {
+            "value": "PauseAnimation"
+          },
+          "parameters": [
+            "BackgroundFire"
+          ]
+        },
+        {
+          "type": {
+            "value": "EcrireFichierExp"
+          },
+          "parameters": [
+            "\"settings_storage\"",
+            "\"low_quality\"",
+            "0"
           ]
         }
       ]

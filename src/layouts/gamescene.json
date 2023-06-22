@@ -767,7 +767,7 @@
       "persistentUuid": "3c43b592-06c2-42d0-92e3-fb5611edf247",
       "width": 1620,
       "x": 0,
-      "y": 37,
+      "y": 44,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -1864,7 +1864,7 @@
       "name": "MapBackground",
       "persistentUuid": "93101a20-20b7-4dda-804f-581af376bbdf",
       "width": 0,
-      "x": -1,
+      "x": 0,
       "y": 44,
       "zOrder": 0,
       "numberProperties": [],
@@ -1989,21 +1989,6 @@
       "x": 2000,
       "y": 860,
       "zOrder": 60,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "FPSText",
-      "persistentUuid": "bd6ffdf4-eb31-42e1-987a-9f51b165410e",
-      "width": 0,
-      "x": 47,
-      "y": 1005,
-      "zOrder": 61,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -9371,26 +9356,6 @@
       "variables": [],
       "effects": [],
       "behaviors": []
-    },
-    {
-      "assetStoreId": "",
-      "name": "FPSText",
-      "tags": "",
-      "type": "BitmapText::BitmapTextObject",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "text": "0",
-        "opacity": 255,
-        "scale": 1,
-        "fontSize": 20,
-        "tint": "255;255;255",
-        "bitmapFontResourceName": "assets\\fonts\\AlbaSlab\\36px\\Alba Slab 36px.fnt",
-        "textureAtlasResourceName": "assets\\fonts\\AlbaSlab\\36px\\Alba Slab 36px.png",
-        "align": "left",
-        "wordWrap": true
-      }
     }
   ],
   "events": [
@@ -9399,6 +9364,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Initialization",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -9424,15 +9390,6 @@
                 "TutorialPart",
                 "=",
                 "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetGlobalVariableAsBoolean"
-              },
-              "parameters": [
-                "LowQuality",
-                "True"
               ]
             },
             {
@@ -10010,7 +9967,7 @@
                   "parameters": [
                     "wave",
                     "=",
-                    "1"
+                    "0"
                   ]
                 },
                 {
@@ -10094,7 +10051,7 @@
                   "parameters": [
                     "playerGold",
                     "=",
-                    "5000"
+                    "500"
                   ]
                 },
                 {
@@ -10584,20 +10541,18 @@
                         ""
                       ]
                     }
-                  ],
-                  "events": [
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
                     {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "UnloadFile"
-                          },
-                          "parameters": [
-                            "\"settings_storage\""
-                          ]
-                        }
+                      "type": {
+                        "value": "UnloadFile"
+                      },
+                      "parameters": [
+                        "\"settings_storage\""
                       ]
                     }
                   ]
@@ -10758,6 +10713,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Continuous Events",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -10765,18 +10721,7 @@
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "BitmapText::BitmapTextObject::SetText"
-              },
-              "parameters": [
-                "FPSText",
-                "=",
-                "ToString(FPS::FPS())"
-              ]
-            }
-          ]
+          "actions": []
         },
         {
           "type": "BuiltinCommonInstructions::Comment",
@@ -11917,234 +11862,124 @@
                           "type": "BuiltinCommonInstructions::Repeat",
                           "repeatExpression": "Variable(waveData.qty)",
                           "conditions": [],
-                          "actions": [],
-                          "events": [
+                          "actions": [
                             {
-                              "type": "BuiltinCommonInstructions::Standard",
-                              "conditions": [
-                                {
-                                  "type": {
-                                    "value": "GlobalVariableAsBoolean"
-                                  },
-                                  "parameters": [
-                                    "LowQuality",
-                                    "True"
-                                  ]
-                                }
-                              ],
-                              "actions": [
-                                {
-                                  "type": {
-                                    "value": "Create"
-                                  },
-                                  "parameters": [
-                                    "",
-                                    "Terrorist",
-                                    "Spawner.X()+RandomInRange(-100,100)",
-                                    "Spawner.Y()+RandomInRange(-30,30)",
-                                    ""
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "TDTD::EnemyV2::changeTarget"
-                                  },
-                                  "parameters": [
-                                    "Enemies",
-                                    "EnemyV2",
-                                    "1618",
-                                    "584",
-                                    ""
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "ChangeScale"
-                                  },
-                                  "parameters": [
-                                    "Terrorist",
-                                    "=",
-                                    "0.5"
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "ChangePlan"
-                                  },
-                                  "parameters": [
-                                    "Terrorist",
-                                    "=",
-                                    "30"
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "PathfindingBehavior::MaxSpeed"
-                                  },
-                                  "parameters": [
-                                    "Terrorist",
-                                    "Pathfinding",
-                                    "=",
-                                    "50"
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "EnableEffect"
-                                  },
-                                  "parameters": [
-                                    "Enemies",
-                                    "\"Glitch\"",
-                                    "no"
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "ModVarObjet"
-                                  },
-                                  "parameters": [
-                                    "Terrorist",
-                                    "Health",
-                                    "=",
-                                    "Variable(waveData.hp)"
-                                  ]
-                                }
+                              "type": {
+                                "value": "Create"
+                              },
+                              "parameters": [
+                                "",
+                                "Terrorist",
+                                "Spawner.X()+RandomInRange(-100,100)",
+                                "Spawner.Y()+RandomInRange(-30,30)",
+                                ""
                               ]
                             },
                             {
-                              "type": "BuiltinCommonInstructions::Standard",
-                              "conditions": [
-                                {
-                                  "type": {
-                                    "inverted": true,
-                                    "value": "GlobalVariableAsBoolean"
-                                  },
-                                  "parameters": [
-                                    "LowQuality",
-                                    "True"
-                                  ]
-                                }
-                              ],
-                              "actions": [
-                                {
-                                  "type": {
-                                    "value": "Create"
-                                  },
-                                  "parameters": [
-                                    "",
-                                    "Terrorist",
-                                    "Spawner.X()+RandomInRange(-100,100)",
-                                    "Spawner.Y()+RandomInRange(-30,30)",
-                                    ""
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "TDTD::EnemyV2::changeTarget"
-                                  },
-                                  "parameters": [
-                                    "Enemies",
-                                    "EnemyV2",
-                                    "1618",
-                                    "584",
-                                    ""
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "ChangeScale"
-                                  },
-                                  "parameters": [
-                                    "Terrorist",
-                                    "=",
-                                    "0.5"
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "ChangePlan"
-                                  },
-                                  "parameters": [
-                                    "Terrorist",
-                                    "=",
-                                    "30"
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "PathfindingBehavior::MaxSpeed"
-                                  },
-                                  "parameters": [
-                                    "Terrorist",
-                                    "Pathfinding",
-                                    "=",
-                                    "50"
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "EnableEffect"
-                                  },
-                                  "parameters": [
-                                    "Enemies",
-                                    "\"Glitch\"",
-                                    "no"
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "ModVarObjet"
-                                  },
-                                  "parameters": [
-                                    "Terrorist",
-                                    "Health",
-                                    "=",
-                                    "Variable(waveData.hp)"
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "Create"
-                                  },
-                                  "parameters": [
-                                    "",
-                                    "EnemyHealthBar",
-                                    "Terrorist.X()",
-                                    "Terrorist.Y()",
-                                    ""
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetMaxValue"
-                                  },
-                                  "parameters": [
-                                    "EnemyHealthBar",
-                                    "=",
-                                    "Terrorist.Variable(Health)",
-                                    ""
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "ChangePlan"
-                                  },
-                                  "parameters": [
-                                    "EnemyHealthBar",
-                                    "=",
-                                    "31"
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "LinkedObjects::LinkObjects"
-                                  },
-                                  "parameters": [
-                                    "",
-                                    "Terrorist",
-                                    "EnemyHealthBar"
-                                  ]
-                                }
+                              "type": {
+                                "value": "TDTD::EnemyV2::changeTarget"
+                              },
+                              "parameters": [
+                                "Enemies",
+                                "EnemyV2",
+                                "1618",
+                                "584",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ChangeScale"
+                              },
+                              "parameters": [
+                                "Terrorist",
+                                "=",
+                                "0.5"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ChangePlan"
+                              },
+                              "parameters": [
+                                "Terrorist",
+                                "=",
+                                "30"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "PathfindingBehavior::MaxSpeed"
+                              },
+                              "parameters": [
+                                "Terrorist",
+                                "Pathfinding",
+                                "=",
+                                "50"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "EnableEffect"
+                              },
+                              "parameters": [
+                                "Enemies",
+                                "\"Glitch\"",
+                                "no"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ModVarObjet"
+                              },
+                              "parameters": [
+                                "Terrorist",
+                                "Health",
+                                "=",
+                                "Variable(waveData.hp)"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Create"
+                              },
+                              "parameters": [
+                                "",
+                                "EnemyHealthBar",
+                                "Terrorist.X()",
+                                "Terrorist.Y()",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetMaxValue"
+                              },
+                              "parameters": [
+                                "EnemyHealthBar",
+                                "=",
+                                "Terrorist.Variable(Health)",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ChangePlan"
+                              },
+                              "parameters": [
+                                "EnemyHealthBar",
+                                "=",
+                                "31"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "LinkedObjects::LinkObjects"
+                              },
+                              "parameters": [
+                                "",
+                                "Terrorist",
+                                "EnemyHealthBar"
                               ]
                             }
                           ]
@@ -17887,6 +17722,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Tower Update Stats",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -19450,6 +19286,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Enemy Update Info",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -19808,14 +19645,13 @@
             },
             {
               "type": {
-                "value": "SetCenter"
+                "value": "ModVarObjetTxt"
               },
               "parameters": [
-                "SpawnBoxSpawnerPreview",
+                "SpawnBox",
+                "SpawnStatus",
                 "=",
-                "-100",
-                "=",
-                "-100"
+                "\"\""
               ]
             }
           ],
@@ -19831,12 +19667,11 @@
                   "subInstructions": [
                     {
                       "type": {
-                        "value": "CollisionNP"
+                        "value": "SourisSurObjet"
                       },
                       "parameters": [
-                        "SpawnBox",
                         "Unspawnanble",
-                        "",
+                        "Unspawnanble",
                         "",
                         ""
                       ]
@@ -19867,11 +19702,13 @@
               "actions": [
                 {
                   "type": {
-                    "value": "SetAnimationName"
+                    "value": "ModVarObjetTxt"
                   },
                   "parameters": [
                     "SpawnBox",
-                    "\"CannotSpawn\""
+                    "SpawnStatus",
+                    "=",
+                    "\"Cannot\""
                   ]
                 },
                 {
@@ -19895,8 +19732,8 @@
                   },
                   "parameters": [
                     "Towers",
-                    "SpawnBox.CenterX()",
-                    "SpawnBox.CenterY()",
+                    "CursorX()",
+                    "CursorY()",
                     ""
                   ]
                 },
@@ -19905,7 +19742,7 @@
                     "value": "BuiltinCommonInstructions::CompareNumbers"
                   },
                   "parameters": [
-                    "DistanceBetweenPositions(SpawnBox.CenterX(), SpawnBox.CenterY(), Towers.CenterX(), Towers.CenterY())",
+                    "DistanceBetweenPositions(CursorX(), CursorY(), Towers.CenterX(), Towers.CenterY())",
                     "<=",
                     "50"
                   ]
@@ -19914,11 +19751,13 @@
               "actions": [
                 {
                   "type": {
-                    "value": "SetAnimationName"
+                    "value": "ModVarObjetTxt"
                   },
                   "parameters": [
                     "SpawnBox",
-                    "\"CannotSpawn\""
+                    "SpawnStatus",
+                    "=",
+                    "\"Cannot\""
                   ]
                 },
                 {
@@ -19938,94 +19777,113 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "CollisionNP"
+                    "value": "PickNearest"
                   },
                   "parameters": [
-                    "SpawnBox",
                     "Investor",
-                    "",
-                    "",
+                    "CursorX()",
+                    "CursorY()",
                     ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::CompareNumbers"
-                  },
-                  "parameters": [
-                    "GlobalVariable(playerGold)",
-                    "<",
-                    "GlobalVariable(toPay)*Investor.Variable(Discount)"
                   ]
                 }
               ],
-              "actions": [
+              "actions": [],
+              "events": [
                 {
-                  "type": {
-                    "value": "SetAnimationName"
-                  },
-                  "parameters": [
-                    "SpawnBox",
-                    "\"CannotSpawn\""
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "DistanceBetweenPositions(CursorX(), CursorY(), Investor.CenterX(), Investor.CenterY())",
+                        "<=",
+                        "75"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "GlobalVariable(playerGold)",
+                        "<",
+                        "GlobalVariable(toPay)*Investor.Variable(Discount)"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "SpawnBox",
+                        "SpawnStatus",
+                        "=",
+                        "\"Cannot\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "SpawnBox",
+                        "doElse",
+                        "False"
+                      ]
+                    }
                   ]
                 },
                 {
-                  "type": {
-                    "value": "SetObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "SpawnBox",
-                    "doElse",
-                    "False"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "SpawnBox",
-                    "Investor",
-                    "",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::CompareNumbers"
-                  },
-                  "parameters": [
-                    "GlobalVariable(playerGold)",
-                    "<",
-                    "GlobalVariable(toPay)"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetAnimationName"
-                  },
-                  "parameters": [
-                    "SpawnBox",
-                    "\"CannotSpawn\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "SpawnBox",
-                    "doElse",
-                    "False"
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "DistanceBetweenPositions(CursorX(), CursorY(), Investor.CenterX(), Investor.CenterY())",
+                        "<=",
+                        "75"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "GlobalVariable(playerGold)",
+                        "<",
+                        "GlobalVariable(toPay)"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "SpawnBox",
+                        "SpawnStatus",
+                        "=",
+                        "\"Cannot\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "SpawnBox",
+                        "doElse",
+                        "False"
+                      ]
+                    }
                   ]
                 }
               ]
@@ -20040,8 +19898,8 @@
                   },
                   "parameters": [
                     "SpawnRail",
-                    "SpawnBox.CenterX()",
-                    "SpawnBox.CenterY()"
+                    "CursorX()",
+                    "CursorY()"
                   ]
                 },
                 {
@@ -20127,11 +19985,13 @@
               "actions": [
                 {
                   "type": {
-                    "value": "SetAnimationName"
+                    "value": "ModVarObjetTxt"
                   },
                   "parameters": [
                     "SpawnBox",
-                    "\"CannotSpawn\""
+                    "SpawnStatus",
+                    "=",
+                    "\"Cannot\""
                   ]
                 },
                 {
@@ -20192,11 +20052,13 @@
               "actions": [
                 {
                   "type": {
-                    "value": "SetAnimationName"
+                    "value": "ModVarObjetTxt"
                   },
                   "parameters": [
                     "SpawnBox",
-                    "\"CannotSpawn\""
+                    "SpawnStatus",
+                    "=",
+                    "\"Cannot\""
                   ]
                 },
                 {
@@ -20226,12 +20088,11 @@
                 {
                   "type": {
                     "inverted": true,
-                    "value": "CollisionNP"
+                    "value": "SourisSurObjet"
                   },
                   "parameters": [
-                    "SpawnBox",
                     "Towers",
-                    "",
+                    "Towers",
                     "",
                     ""
                   ]
@@ -20240,11 +20101,13 @@
               "actions": [
                 {
                   "type": {
-                    "value": "SetAnimationName"
+                    "value": "ModVarObjetTxt"
                   },
                   "parameters": [
                     "SpawnBox",
-                    "\"CannotSpawn\""
+                    "SpawnStatus",
+                    "=",
+                    "\"Cannot\""
                   ]
                 },
                 {
@@ -20276,11 +20139,13 @@
               "actions": [
                 {
                   "type": {
-                    "value": "SetAnimationName"
+                    "value": "ModVarObjetTxt"
                   },
                   "parameters": [
                     "SpawnBox",
-                    "\"CanSpawn\""
+                    "SpawnStatus",
+                    "=",
+                    "\"Can\""
                   ]
                 }
               ],
@@ -20294,8 +20159,8 @@
                       },
                       "parameters": [
                         "CommLeader",
-                        "SpawnBox.CenterX()",
-                        "SpawnBox.CenterY()",
+                        "CursorX()",
+                        "CursorY()",
                         ""
                       ]
                     },
@@ -20304,7 +20169,7 @@
                         "value": "BuiltinCommonInstructions::CompareNumbers"
                       },
                       "parameters": [
-                        "DistanceBetweenPositions(CommLeader.CenterX(), CommLeader.CenterY(), SpawnBox.CenterX(), SpawnBox.CenterY())",
+                        "DistanceBetweenPositions(CommLeader.CenterX(), CommLeader.CenterY(), CursorX(), CursorY())",
                         "<=",
                         "CommLeader.Variable(Range)"
                       ]
@@ -20313,11 +20178,13 @@
                   "actions": [
                     {
                       "type": {
-                        "value": "SetAnimationName"
+                        "value": "ModVarObjetTxt"
                       },
                       "parameters": [
                         "SpawnBox",
-                        "\"CanGroup.png\""
+                        "SpawnStatus",
+                        "=",
+                        "\"Group\""
                       ]
                     }
                   ]
@@ -20327,25 +20194,36 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "CollisionNP"
+                        "value": "PickNearest"
                       },
                       "parameters": [
-                        "SpawnBox",
                         "Investor",
-                        "",
-                        "",
+                        "CursorX()",
+                        "CursorY()",
                         ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "DistanceBetweenPositions(CursorX(), CursorY(), Investor.CenterX(), Investor.CenterY())",
+                        "<=",
+                        "75"
                       ]
                     }
                   ],
                   "actions": [
                     {
                       "type": {
-                        "value": "SetAnimationName"
+                        "value": "ModVarObjetTxt"
                       },
                       "parameters": [
                         "SpawnBox",
-                        "\"CanDiscount\""
+                        "SpawnStatus",
+                        "=",
+                        "\"Discount\""
                       ]
                     },
                     {
@@ -20358,43 +20236,33 @@
                         "Investor.Variable(Discount)"
                       ]
                     }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "CollisionNP"
-                      },
-                      "parameters": [
-                        "SpawnBox",
-                        "Investor",
-                        "",
-                        "",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ObjectVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "Investor",
-                        "Upgraded",
-                        "True"
-                      ]
-                    }
                   ],
-                  "actions": [
+                  "events": [
                     {
-                      "type": {
-                        "value": "SetObjectVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "SpawnBox",
-                        "DontIncreasePrice",
-                        "True"
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Investor",
+                            "Upgraded",
+                            "True"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "SpawnBox",
+                            "DontIncreasePrice",
+                            "True"
+                          ]
+                        }
                       ]
                     }
                   ]
@@ -20440,8 +20308,8 @@
                           },
                           "parameters": [
                             "SpawnRailNorth",
-                            "SpawnBox.CenterX()",
-                            "SpawnBox.CenterY()"
+                            "CursorX()",
+                            "CursorY()"
                           ]
                         }
                       ],
@@ -20453,9 +20321,9 @@
                           "parameters": [
                             "SpawnBoxSpawnerPreview",
                             "=",
-                            "SpawnBox.CenterX()",
+                            "CursorX()",
                             "=",
-                            "SpawnBox.CenterY()-80"
+                            "CursorY()-80"
                           ]
                         },
                         {
@@ -20466,7 +20334,7 @@
                             "SpawnBox",
                             "SpawnerSpawnX",
                             "=",
-                            "SpawnBox.CenterX()"
+                            "CursorX()"
                           ]
                         },
                         {
@@ -20477,7 +20345,7 @@
                             "SpawnBox",
                             "SpawnerSpawnY",
                             "=",
-                            "SpawnBox.CenterY()-80"
+                            "CursorY()-80"
                           ]
                         }
                       ]
@@ -20491,8 +20359,8 @@
                           },
                           "parameters": [
                             "SpawnRailEast",
-                            "SpawnBox.CenterX()",
-                            "SpawnBox.CenterY()"
+                            "CursorX()",
+                            "CursorX()"
                           ]
                         }
                       ],
@@ -20504,9 +20372,9 @@
                           "parameters": [
                             "SpawnBoxSpawnerPreview",
                             "=",
-                            "SpawnBox.CenterX()+80",
+                            "CursorX()+80",
                             "=",
-                            "SpawnBox.CenterY()"
+                            "CursorY()"
                           ]
                         },
                         {
@@ -20517,7 +20385,7 @@
                             "SpawnBox",
                             "SpawnerSpawnX",
                             "=",
-                            "SpawnBox.CenterX()+80"
+                            "CursorX()+80"
                           ]
                         },
                         {
@@ -20528,7 +20396,7 @@
                             "SpawnBox",
                             "SpawnerSpawnY",
                             "=",
-                            "SpawnBox.CenterY()"
+                            "CursorY()"
                           ]
                         }
                       ]
@@ -20542,8 +20410,8 @@
                           },
                           "parameters": [
                             "SpawnRailSouth",
-                            "SpawnBox.CenterX()",
-                            "SpawnBox.CenterY()"
+                            "CursorX()",
+                            "CursorY()"
                           ]
                         }
                       ],
@@ -20555,9 +20423,9 @@
                           "parameters": [
                             "SpawnBoxSpawnerPreview",
                             "=",
-                            "SpawnBox.CenterX()",
+                            "CursorX()",
                             "=",
-                            "SpawnBox.CenterY()+80"
+                            "CursorY()+80"
                           ]
                         },
                         {
@@ -20568,7 +20436,7 @@
                             "SpawnBox",
                             "SpawnerSpawnX",
                             "=",
-                            "SpawnBox.CenterX()"
+                            "CursorX()"
                           ]
                         },
                         {
@@ -20579,7 +20447,7 @@
                             "SpawnBox",
                             "SpawnerSpawnY",
                             "=",
-                            "SpawnBox.CenterY()+80"
+                            "CursorY()+80"
                           ]
                         }
                       ]
@@ -20593,8 +20461,8 @@
                           },
                           "parameters": [
                             "SpawnRailWest",
-                            "SpawnBox.CenterX()",
-                            "SpawnBox.CenterY()"
+                            "CursorX()",
+                            "CursorY()"
                           ]
                         }
                       ],
@@ -20606,9 +20474,9 @@
                           "parameters": [
                             "SpawnBoxSpawnerPreview",
                             "=",
-                            "SpawnBox.CenterX()-80",
+                            "CursorX()-80",
                             "=",
-                            "SpawnBox.CenterY()"
+                            "CursorY()"
                           ]
                         },
                         {
@@ -20619,7 +20487,7 @@
                             "SpawnBox",
                             "SpawnerSpawnX",
                             "=",
-                            "SpawnBox.CenterX()-80"
+                            "CursorX()-80"
                           ]
                         },
                         {
@@ -20630,7 +20498,7 @@
                             "SpawnBox",
                             "SpawnerSpawnY",
                             "=",
-                            "SpawnBox.CenterY()"
+                            "CursorY()"
                           ]
                         }
                       ]
@@ -20642,7 +20510,6 @@
           ]
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -20652,6 +20519,17 @@
               "parameters": [
                 "",
                 "Left"
+              ]
+            },
+            {
+              "type": {
+                "value": "SceneInstancesCount"
+              },
+              "parameters": [
+                "",
+                "SpawnBox",
+                ">",
+                "0"
               ]
             },
             {
@@ -20667,47 +20545,154 @@
               ]
             }
           ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetCenter"
-              },
-              "parameters": [
-                "SpawnBox",
-                "=",
-                "CursorX()",
-                "=",
-                "CursorY()"
-              ]
-            },
-            {
-              "type": {
-                "value": "TDTD::MoveRangeIndicator"
-              },
-              "parameters": [
-                "",
-                "SpawnBox",
-                "RangePainter",
-                ""
-              ]
-            }
-          ],
+          "actions": [],
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "inverted": true,
-                    "value": "AnimationName"
+                    "value": "VarObjetTxt"
+                  },
+                  "parameters": [
+                    "SpawnBox",
+                    "SpawnStatus",
+                    "=",
+                    "\"Cannot\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "SpawnBox.DistanceToPosition(CursorX(), CursorY())",
+                        ">",
+                        "50"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimationName"
+                      },
+                      "parameters": [
+                        "SpawnBox",
+                        "\"CannotSpawn\""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetCenter"
+                  },
+                  "parameters": [
+                    "SpawnBoxSpawnerPreview",
+                    "=",
+                    "-100",
+                    "=",
+                    "-100"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetAnimationName"
                   },
                   "parameters": [
                     "SpawnBox",
                     "\"CannotSpawn\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "SetCenter"
+                  },
+                  "parameters": [
+                    "SpawnBox",
+                    "=",
+                    "CursorX()",
+                    "=",
+                    "CursorY()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TDTD::MoveRangeIndicator"
+                  },
+                  "parameters": [
+                    "",
+                    "SpawnBox",
+                    "RangePainter",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PrimitiveDrawing::FillColor"
+                  },
+                  "parameters": [
+                    "RangePainter",
+                    "\"208;2;27\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjetTxt"
+                  },
+                  "parameters": [
+                    "SpawnBox",
+                    "SpawnStatus",
+                    "=",
+                    "\"Can\""
+                  ]
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "SpawnBox",
+                    "\"CanSpawn\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetCenter"
+                  },
+                  "parameters": [
+                    "SpawnBox",
+                    "=",
+                    "CursorX()",
+                    "=",
+                    "CursorY()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TDTD::MoveRangeIndicator"
+                  },
+                  "parameters": [
+                    "",
+                    "SpawnBox",
+                    "RangePainter",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "PrimitiveDrawing::FillColor"
@@ -20724,22 +20709,115 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "AnimationName"
+                    "value": "VarObjetTxt"
                   },
                   "parameters": [
                     "SpawnBox",
-                    "\"CannotSpawn\""
+                    "SpawnStatus",
+                    "=",
+                    "\"Discount\""
                   ]
                 }
               ],
               "actions": [
                 {
                   "type": {
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "SpawnBox",
+                    "\"CanDiscount\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetCenter"
+                  },
+                  "parameters": [
+                    "SpawnBox",
+                    "=",
+                    "CursorX()",
+                    "=",
+                    "CursorY()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TDTD::MoveRangeIndicator"
+                  },
+                  "parameters": [
+                    "",
+                    "SpawnBox",
+                    "RangePainter",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "PrimitiveDrawing::FillColor"
                   },
                   "parameters": [
                     "RangePainter",
-                    "\"208;2;27\""
+                    "\"126;211;33\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjetTxt"
+                  },
+                  "parameters": [
+                    "SpawnBox",
+                    "SpawnStatus",
+                    "=",
+                    "\"Group\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "SpawnBox",
+                    "\"CanGroup.png\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetCenter"
+                  },
+                  "parameters": [
+                    "SpawnBox",
+                    "=",
+                    "CursorX()",
+                    "=",
+                    "CursorY()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TDTD::MoveRangeIndicator"
+                  },
+                  "parameters": [
+                    "",
+                    "SpawnBox",
+                    "RangePainter",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PrimitiveDrawing::FillColor"
+                  },
+                  "parameters": [
+                    "RangePainter",
+                    "\"126;211;33\""
                   ]
                 }
               ]
@@ -24456,6 +24534,7 @@
                   "comment": "Crisis specific events"
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -24507,26 +24586,46 @@
                         "Spawner",
                         "\"SpawnerClock\""
                       ]
-                    },
+                    }
+                  ],
+                  "events": [
                     {
-                      "type": {
-                        "value": "SetObjectVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "Towers",
-                        "RangeReduced",
-                        "True"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVarObjet"
-                      },
-                      "parameters": [
-                        "Towers",
-                        "Range",
-                        "*",
-                        "0.75"
+                      "type": "BuiltinCommonInstructions::ForEach",
+                      "object": "Towers",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::CompareStrings"
+                          },
+                          "parameters": [
+                            "Towers.ObjectName()",
+                            "!=",
+                            "\"CommLeader\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Towers",
+                            "RangeReduced",
+                            "True"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "Towers",
+                            "Range",
+                            "*",
+                            "0.75"
+                          ]
+                        }
                       ]
                     }
                   ]
@@ -25661,6 +25760,7 @@
           "comment": "Switch Tabs"
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -25936,6 +26036,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Show Info Popup",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -27833,6 +27934,7 @@
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -28065,7 +28167,7 @@
                       "parameters": [
                         "SpawnerRange",
                         "=",
-                        "50"
+                        "75"
                       ]
                     }
                   ]
@@ -28250,7 +28352,7 @@
               "parameters": [
                 "TutorialGuide",
                 "=",
-                "\"Oh no, an enemy is spawning! Quick, go to the Shop tab ($) and recruit a Soldier!\""
+                "\"Oh no, an enemy is spawning! Quick, click on the Shop tab ($) and recruit a Soldier!\""
               ]
             },
             {
@@ -28348,9 +28450,24 @@
               "parameters": [
                 "TutorialLight",
                 "TutorialLight",
+                "CursorX()",
+                "CursorY()",
+                "\"Top Layer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::AddObjectPositionTween"
+              },
+              "parameters": [
+                "TutorialLight",
+                "Tween",
+                "\"Move\"",
                 "1555",
                 "55",
-                "\"Top Layer\""
+                "\"easeOutQuad\"",
+                "750",
+                ""
               ]
             }
           ]
@@ -28439,23 +28556,18 @@
             },
             {
               "type": {
-                "value": "SourisSurObjet"
+                "value": "SceneVariableAsBoolean"
               },
               "parameters": [
-                "ShopButton",
-                "",
-                "",
-                ""
+                "ShopIsOpen",
+                "True"
               ]
             },
             {
               "type": {
-                "value": "MouseButtonReleased"
+                "value": "BuiltinCommonInstructions::Once"
               },
-              "parameters": [
-                "",
-                "Left"
-              ]
+              "parameters": []
             }
           ],
           "actions": [
@@ -28519,6 +28631,106 @@
             },
             {
               "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "SpawnBoxAppear",
+                "True"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetCenter"
+              },
+              "parameters": [
+                "TutorialLight",
+                "=",
+                "480",
+                "=",
+                "400"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "TutorialPart",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SceneVariableAsBoolean"
+              },
+              "parameters": [
+                "ShopIsOpen",
+                "False"
+              ]
+            },
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "SpawnBoxAppear",
+                "False"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::AddObjectPositionTween"
+              },
+              "parameters": [
+                "TutorialLight",
+                "Tween",
+                "\"Move\"",
+                "1555",
+                "55",
+                "\"easeOutQuad\"",
+                "750",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "TutorialPart",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
                 "value": "SceneInstancesCount"
               },
               "parameters": [
@@ -28552,6 +28764,15 @@
               },
               "parameters": [
                 "",
+                "",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeTimeScale"
+              },
+              "parameters": [
                 "",
                 "1"
               ]
@@ -28984,9 +29205,24 @@
               "parameters": [
                 "TutorialLight",
                 "TutorialLight",
+                "CursorX()",
+                "CursorY()",
+                "\"Top Layer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::AddObjectPositionTween"
+              },
+              "parameters": [
+                "TutorialLight",
+                "Tween",
+                "\"Move\"",
                 "1555",
                 "55",
-                "\"Top Layer\""
+                "\"easeOutQuad\"",
+                "750",
+                ""
               ]
             }
           ]
@@ -29057,7 +29293,7 @@
               "parameters": [
                 "TutorialGuide",
                 "=",
-                "\"Career Guider can be found under the yellow Economic tab.\""
+                "\"Career Guider can be found under the yellow Economic tab. Place it anywhere you like!\""
               ]
             },
             {
@@ -29119,6 +29355,47 @@
                 "\"easeOutQuad\"",
                 "250",
                 ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "TutorialPart",
+                "=",
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "SpawnBoxAppear",
+                "True"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "TutorialLight",
+                "="
               ]
             }
           ]
@@ -29327,6 +29604,15 @@
           "actions": [
             {
               "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "TutorialLight",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "BitmapText::BitmapTextObject::SetText"
               },
               "parameters": [
@@ -29463,6 +29749,33 @@
                 "=",
                 "1700"
               ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "TutorialLight",
+                "TutorialLight",
+                "CursorX()",
+                "CursorY()",
+                "\"Top Layer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::AddObjectPositionTween"
+              },
+              "parameters": [
+                "TutorialLight",
+                "Tween",
+                "\"Move\"",
+                "Soldier.CenterX()",
+                "Soldier.CenterY()",
+                "\"easeOutQuad\"",
+                "750",
+                ""
+              ]
             }
           ]
         },
@@ -29508,7 +29821,7 @@
               "parameters": [
                 "TutorialGuide",
                 "=",
-                "\"Cheerleader can be found under the red Psychological tab.\""
+                "\"Cheerleader can be found under the red Psychological tab. Remember to place it in range of the Soldier!\""
               ]
             }
           ],
@@ -29520,7 +29833,7 @@
               "parameters": [
                 "TutorialGuide",
                 "=",
-                "\"Great! Notice the red particles surrounding the Soldier? This means that the Cheerleader boost is active. Beware of negative effects, too! If black particles surround your Tower, that means its fire rate has been reduced!\""
+                "\"Great! Notice the red particles surrounding the Soldier? This means that the Cheerleader boost is active. Beware of negative effects, too! If black effects surround your Tower, that means its fire rate has been reduced!\""
               ]
             },
             {
@@ -29614,6 +29927,47 @@
             },
             {
               "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "SpawnBoxAppear",
+                "True"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "TutorialLight",
+                "="
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "TutorialPart",
+                "=",
+                "5"
+              ]
+            },
+            {
+              "type": {
                 "value": "VarSceneTxt"
               },
               "parameters": [
@@ -29665,7 +30019,7 @@
               "parameters": [
                 "TutorialGuide",
                 "=",
-                "\"Cheerleader can be found under the red Psychological tab.\""
+                "\"Cheerleader can be found under the red Psychological tab. Remember to place it in range of the Soldier!\""
               ]
             },
             {
@@ -29813,9 +30167,24 @@
               "parameters": [
                 "TutorialLight",
                 "TutorialLight",
+                "CursorX()",
+                "CursorY()",
+                "\"Top Layer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::AddObjectPositionTween"
+              },
+              "parameters": [
+                "TutorialLight",
+                "Tween",
+                "\"Move\"",
                 "1555",
                 "55",
-                "\"Top Layer\""
+                "\"easeOutQuad\"",
+                "750",
+                ""
               ]
             }
           ]
@@ -29981,7 +30350,7 @@
               "parameters": [
                 "TutorialGuide",
                 "=",
-                "\"Great! Notice the red particles surrounding the Soldier? This means that the Cheerleader boost is active. Beware of negative effects, too! If black particles surround your Tower, that means its fire rate has been reduced!\""
+                "\"Great! Notice the red particles surrounding the Soldier? This means that the Cheerleader boost is active. Beware of negative effects, too! If black effects surround your Tower, that means its fire rate has been reduced!\""
               ]
             }
           ],
