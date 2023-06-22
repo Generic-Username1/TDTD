@@ -25,7 +25,7 @@
     "author": "SidGaming",
     "windowWidth": 1620,
     "windowHeight": 1080,
-    "latestCompilationDirectory": "C:\\Users\\wongy\\Desktop\\TDTD-Build",
+    "latestCompilationDirectory": "/home/walnit/Documents/TDTD-Build",
     "maxFPS": 60,
     "minFPS": 30,
     "verticalSync": false,
