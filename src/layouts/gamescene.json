@@ -3263,9 +3263,9 @@
         },
         {
           "folded": true,
-          "name": "Piercing",
-          "type": "boolean",
-          "value": false
+          "name": "HP",
+          "type": "number",
+          "value": 0
         }
       ],
       "effects": [],
@@ -3339,7 +3339,7 @@
           "folded": true,
           "name": "Damage",
           "type": "number",
-          "value": 60
+          "value": 8
         },
         {
           "folded": true,
@@ -3349,15 +3349,9 @@
         },
         {
           "folded": true,
-          "name": "Piercing",
-          "type": "boolean",
-          "value": true
-        },
-        {
-          "folded": true,
           "name": "HP",
           "type": "number",
-          "value": 2
+          "value": 8
         }
       ],
       "effects": [],
@@ -9399,6 +9393,15 @@
             },
             {
               "type": {
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "LowQuality",
+                "True"
+              ]
+            },
+            {
+              "type": {
                 "value": "ResetTimer"
               },
               "parameters": [
@@ -10665,6 +10668,16 @@
                     "=",
                     "0"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "SavedDelta",
+                    "=",
+                    "0"
+                  ]
                 }
               ]
             }
@@ -10678,6 +10691,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Continuous Events",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -15332,6 +15346,16 @@
                     "value": "ModVarGlobal"
                   },
                   "parameters": [
+                    "SavedDelta",
+                    "+",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
                     "CaringCitizenUpgCost",
                     "*",
                     "2"
@@ -17526,431 +17550,339 @@
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "TDTD::TowerV2::applyEffectVars"
-              },
-              "parameters": [
-                "Cheerleader",
-                "TowerV2",
-                "Cheerleader",
-                "DiscerningCitizen",
-                "CommLeader",
-                "StatusParticles",
-                "NotifyCircle",
-                "",
-                "NotifyParticles",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "TDTD::TowerV2::applyEffectVars"
-              },
-              "parameters": [
-                "CaringCitizen",
-                "TowerV2",
-                "Cheerleader",
-                "DiscerningCitizen",
-                "CommLeader",
-                "StatusParticles",
-                "NotifyCircle",
-                "Tween",
-                "NotifyParticles",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "TDTD::TowerV2::applyEffectVars"
-              },
-              "parameters": [
-                "CommLeader",
-                "TowerV2",
-                "Cheerleader",
-                "DiscerningCitizen",
-                "CommLeader",
-                "StatusParticles",
-                "NotifyCircle",
-                "",
-                "NotifyParticles",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "TDTD::TowerV2::applyEffectVars"
-              },
-              "parameters": [
-                "Investor",
-                "TowerV2",
-                "Cheerleader",
-                "DiscerningCitizen",
-                "CommLeader",
-                "StatusParticles",
-                "NotifyCircle",
-                "",
-                "NotifyParticles",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "TDTD::TowerV2::applyEffectVars"
-              },
-              "parameters": [
-                "CareerGuider",
-                "TowerV2",
-                "Cheerleader",
-                "DiscerningCitizen",
-                "CommLeader",
-                "StatusParticles",
-                "NotifyCircle",
-                "",
-                "NotifyParticles",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "TDTD::TowerV2::applyEffectVars"
-              },
-              "parameters": [
-                "Soldier",
-                "TowerV2",
-                "Cheerleader",
-                "DiscerningCitizen",
-                "CommLeader",
-                "StatusParticles",
-                "NotifyCircle",
-                "",
-                "NotifyParticles",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "TDTD::TowerV2::applyEffectVars"
-              },
-              "parameters": [
-                "IntelligenceOfficer",
-                "TowerV2",
-                "Cheerleader",
-                "DiscerningCitizen",
-                "CommLeader",
-                "StatusParticles",
-                "NotifyCircle",
-                "",
-                "NotifyParticles",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "TDTD::TowerV2::applyEffectVars"
-              },
-              "parameters": [
-                "Firefighter",
-                "TowerV2",
-                "Cheerleader",
-                "DiscerningCitizen",
-                "CommLeader",
-                "StatusParticles",
-                "NotifyCircle",
-                "",
-                "NotifyParticles",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "TDTD::TowerV2::applyEffectVars"
-              },
-              "parameters": [
-                "Doctor",
-                "TowerV2",
-                "Cheerleader",
-                "DiscerningCitizen",
-                "CommLeader",
-                "StatusParticles",
-                "NotifyCircle",
-                "",
-                "NotifyParticles",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "TDTD::TowerV2::applyEffectVars"
-              },
-              "parameters": [
-                "WhiteHat",
-                "TowerV2",
-                "Cheerleader",
-                "DiscerningCitizen",
-                "CommLeader",
-                "StatusParticles",
-                "NotifyCircle",
-                "",
-                "NotifyParticles",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "TDTD::TowerV2::applyEffectVars"
-              },
-              "parameters": [
-                "DiscerningCitizen",
-                "TowerV2",
-                "Cheerleader",
-                "DiscerningCitizen",
-                "CommLeader",
-                "StatusParticles",
-                "NotifyCircle",
-                "",
-                "NotifyParticles",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "BitmapText::BitmapTextObject::SetText"
-              },
-              "parameters": [
-                "Debug",
-                "=",
-                "\"Debug\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "ObjectVariableAsBoolean"
-              },
-              "parameters": [
-                "DiscerningCitizen",
-                "Upgraded",
-                "True"
-              ]
-            },
-            {
-              "type": {
-                "value": "Distance"
-              },
-              "parameters": [
-                "Enemies",
-                "DiscerningCitizen",
-                "DiscerningCitizen.Variable(Range)",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetObjectVariableAsBoolean"
-              },
-              "parameters": [
-                "Enemies",
-                "VeryVisible",
-                "True"
-              ]
-            },
-            {
-              "type": {
-                "value": "BitmapText::BitmapTextObject::SetText"
-              },
-              "parameters": [
-                "Debug",
-                "+",
-                "\"y\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "Distance"
-              },
-              "parameters": [
-                "Enemies",
-                "DiscerningCitizen",
-                "DiscerningCitizen.Variable(Range)",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "ObjectVariableAsBoolean"
-              },
-              "parameters": [
-                "DiscerningCitizen",
-                "Upgraded",
-                "True"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetObjectVariableAsBoolean"
-              },
-              "parameters": [
-                "Enemies",
-                "VeryVisible",
-                "False"
-              ]
-            },
-            {
-              "type": {
-                "value": "BitmapText::BitmapTextObject::SetText"
-              },
-              "parameters": [
-                "Debug",
-                "+",
-                "\"n\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "Distance"
-              },
-              "parameters": [
-                "Enemies",
-                "DiscerningCitizen",
-                "DiscerningCitizen.Variable(Range)",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetObjectVariableAsBoolean"
-              },
-              "parameters": [
-                "Enemies",
-                "VeryVisible",
-                "False"
-              ]
-            },
-            {
-              "type": {
-                "value": "BitmapText::BitmapTextObject::SetText"
-              },
-              "parameters": [
-                "Debug",
-                "+",
-                "\"o\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "AjoutObjConcern"
-              },
-              "parameters": [
-                "",
-                "Doctor"
-              ]
-            },
-            {
-              "type": {
-                "value": "CompareObjectTimer"
-              },
-              "parameters": [
-                "Doctor",
-                "\"SecondTime\"",
-                ">",
-                "Doctor.Variable(SecondRate)"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ResetObjectTimer"
-              },
-              "parameters": [
-                "Doctor",
-                "\"SecondTime\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "PosThoughtsProjectile",
-                "Doctor.PointX(\"OriginPoint\")",
-                "Doctor.PointY(\"OriginPoint\")",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangePlan"
-              },
-              "parameters": [
-                "PosThoughtsProjectile",
-                "=",
-                "40"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetCenter"
-              },
-              "parameters": [
-                "PosThoughtsProjectile",
-                "=",
-                "Doctor.PointX(\"OriginPoint\")",
-                "=",
-                "Doctor.PointY(\"OriginPoint\")"
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangeSprite"
-              },
-              "parameters": [
-                "Doctor",
-                "=",
-                "0"
-              ]
-            }
-          ],
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Tower Update Stats",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TDTD::TowerV2::applyEffectVars"
+                  },
+                  "parameters": [
+                    "Cheerleader",
+                    "TowerV2",
+                    "Cheerleader",
+                    "DiscerningCitizen",
+                    "CommLeader",
+                    "StatusParticles",
+                    "NotifyCircle",
+                    "",
+                    "NotifyParticles",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TDTD::TowerV2::applyEffectVars"
+                  },
+                  "parameters": [
+                    "CaringCitizen",
+                    "TowerV2",
+                    "Cheerleader",
+                    "DiscerningCitizen",
+                    "CommLeader",
+                    "StatusParticles",
+                    "NotifyCircle",
+                    "Tween",
+                    "NotifyParticles",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TDTD::TowerV2::applyEffectVars"
+                  },
+                  "parameters": [
+                    "CommLeader",
+                    "TowerV2",
+                    "Cheerleader",
+                    "DiscerningCitizen",
+                    "CommLeader",
+                    "StatusParticles",
+                    "NotifyCircle",
+                    "",
+                    "NotifyParticles",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TDTD::TowerV2::applyEffectVars"
+                  },
+                  "parameters": [
+                    "Investor",
+                    "TowerV2",
+                    "Cheerleader",
+                    "DiscerningCitizen",
+                    "CommLeader",
+                    "StatusParticles",
+                    "NotifyCircle",
+                    "",
+                    "NotifyParticles",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TDTD::TowerV2::applyEffectVars"
+                  },
+                  "parameters": [
+                    "CareerGuider",
+                    "TowerV2",
+                    "Cheerleader",
+                    "DiscerningCitizen",
+                    "CommLeader",
+                    "StatusParticles",
+                    "NotifyCircle",
+                    "",
+                    "NotifyParticles",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TDTD::TowerV2::applyEffectVars"
+                  },
+                  "parameters": [
+                    "Soldier",
+                    "TowerV2",
+                    "Cheerleader",
+                    "DiscerningCitizen",
+                    "CommLeader",
+                    "StatusParticles",
+                    "NotifyCircle",
+                    "",
+                    "NotifyParticles",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TDTD::TowerV2::applyEffectVars"
+                  },
+                  "parameters": [
+                    "IntelligenceOfficer",
+                    "TowerV2",
+                    "Cheerleader",
+                    "DiscerningCitizen",
+                    "CommLeader",
+                    "StatusParticles",
+                    "NotifyCircle",
+                    "",
+                    "NotifyParticles",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TDTD::TowerV2::applyEffectVars"
+                  },
+                  "parameters": [
+                    "Firefighter",
+                    "TowerV2",
+                    "Cheerleader",
+                    "DiscerningCitizen",
+                    "CommLeader",
+                    "StatusParticles",
+                    "NotifyCircle",
+                    "",
+                    "NotifyParticles",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TDTD::TowerV2::applyEffectVars"
+                  },
+                  "parameters": [
+                    "Doctor",
+                    "TowerV2",
+                    "Cheerleader",
+                    "DiscerningCitizen",
+                    "CommLeader",
+                    "StatusParticles",
+                    "NotifyCircle",
+                    "",
+                    "NotifyParticles",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TDTD::TowerV2::applyEffectVars"
+                  },
+                  "parameters": [
+                    "WhiteHat",
+                    "TowerV2",
+                    "Cheerleader",
+                    "DiscerningCitizen",
+                    "CommLeader",
+                    "StatusParticles",
+                    "NotifyCircle",
+                    "",
+                    "NotifyParticles",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TDTD::TowerV2::applyEffectVars"
+                  },
+                  "parameters": [
+                    "DiscerningCitizen",
+                    "TowerV2",
+                    "Cheerleader",
+                    "DiscerningCitizen",
+                    "CommLeader",
+                    "StatusParticles",
+                    "NotifyCircle",
+                    "",
+                    "NotifyParticles",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "DiscerningCitizen",
+                    "Upgraded",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "Enemies",
+                    "DiscerningCitizen",
+                    "DiscerningCitizen.Variable(Range)",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Enemies",
+                    "VeryVisible",
+                    "True"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "Enemies",
+                    "DiscerningCitizen",
+                    "DiscerningCitizen.Variable(Range)",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "DiscerningCitizen",
+                    "Upgraded",
+                    "True"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Enemies",
+                    "VeryVisible",
+                    "False"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "Enemies",
+                    "DiscerningCitizen",
+                    "DiscerningCitizen.Variable(Range)",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Enemies",
+                    "VeryVisible",
+                    "False"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Tower Attack",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Doctor Cure"
+            },
+            {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -17959,7 +17891,184 @@
                   },
                   "parameters": [
                     "",
-                    "Towers"
+                    "Doctor"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareObjectTimer"
+                  },
+                  "parameters": [
+                    "Doctor",
+                    "\"SecondTime\"",
+                    ">",
+                    "Doctor.Variable(SecondRate)"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "Doctor",
+                    "\"SecondTime\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "PosThoughtsProjectile",
+                    "Doctor.PointX(\"OriginPoint\")",
+                    "Doctor.PointY(\"OriginPoint\")",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "PosThoughtsProjectile",
+                    "=",
+                    "40"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetCenter"
+                  },
+                  "parameters": [
+                    "PosThoughtsProjectile",
+                    "=",
+                    "Doctor.PointX(\"OriginPoint\")",
+                    "=",
+                    "Doctor.PointY(\"OriginPoint\")"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeSprite"
+                  },
+                  "parameters": [
+                    "Doctor",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "AjoutObjConcern"
+                      },
+                      "parameters": [
+                        "",
+                        "Towers"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Towers",
+                        "NegThoughts",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AddForceVers"
+                      },
+                      "parameters": [
+                        "PosThoughtsProjectile",
+                        "Towers",
+                        "PosThoughtsProjectile.Variable(Speed)",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "RotateTowardPosition"
+                      },
+                      "parameters": [
+                        "PosThoughtsProjectile",
+                        "Towers.X()",
+                        "Towers.Y()",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "PosThoughtsProjectile",
+                        "Fired",
+                        "True"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "PosThoughtsProjectile",
+                        "Fired",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "PosThoughtsProjectile",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": []
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "PosThoughtsProjectile",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "PosThoughtsProjectile",
+                    "Towers",
+                    "",
+                    "",
+                    ""
                   ]
                 },
                 {
@@ -17976,55 +18085,26 @@
               "actions": [
                 {
                   "type": {
-                    "value": "AddForceVers"
+                    "value": "SetObjectVariableAsBoolean"
                   },
                   "parameters": [
-                    "PosThoughtsProjectile",
                     "Towers",
-                    "PosThoughtsProjectile.Variable(Speed)",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "RotateTowardPosition"
-                  },
-                  "parameters": [
-                    "PosThoughtsProjectile",
-                    "Towers.X()",
-                    "Towers.Y()",
-                    "0",
+                    "NegThoughts",
                     ""
                   ]
                 },
                 {
                   "type": {
-                    "value": "SetObjectVariableAsBoolean"
+                    "value": "TDTD::TowerV2::selectivelyRemoveParticles"
                   },
                   "parameters": [
-                    "PosThoughtsProjectile",
-                    "Fired",
-                    "True"
+                    "Towers",
+                    "TowerV2",
+                    "StatusParticles",
+                    "\"39;95;162\"",
+                    ""
                   ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "PosThoughtsProjectile",
-                    "Fired",
-                    "True"
-                  ]
-                }
-              ],
-              "actions": [
+                },
                 {
                   "type": {
                     "value": "Delete"
@@ -18037,164 +18117,17 @@
               ]
             },
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": []
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::ForEach",
-          "object": "PosThoughtsProjectile",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
               },
-              "parameters": [
-                "PosThoughtsProjectile",
-                "Towers",
-                "",
-                "",
-                ""
-              ]
+              "comment": "Caring Cure"
             },
-            {
-              "type": {
-                "value": "ObjectVariableAsBoolean"
-              },
-              "parameters": [
-                "Towers",
-                "NegThoughts",
-                "True"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetObjectVariableAsBoolean"
-              },
-              "parameters": [
-                "Towers",
-                "NegThoughts",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "TDTD::TowerV2::selectivelyRemoveParticles"
-              },
-              "parameters": [
-                "Towers",
-                "TowerV2",
-                "StatusParticles",
-                "\"39;95;162\"",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "PosThoughtsProjectile",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "AjoutObjConcern"
-              },
-              "parameters": [
-                "",
-                "CaringCitizen"
-              ]
-            },
-            {
-              "type": {
-                "value": "ObjectVariableAsBoolean"
-              },
-              "parameters": [
-                "CaringCitizen",
-                "Upgraded",
-                "True"
-              ]
-            },
-            {
-              "type": {
-                "value": "CompareObjectTimer"
-              },
-              "parameters": [
-                "CaringCitizen",
-                "\"SecondTime\"",
-                ">",
-                "CaringCitizen.Variable(SecondRate)"
-              ]
-            },
-            {
-              "type": {
-                "value": "VarObjet"
-              },
-              "parameters": [
-                "CaringCitizen",
-                "Saved",
-                "<",
-                "2"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ResetObjectTimer"
-              },
-              "parameters": [
-                "CaringCitizen",
-                "\"SecondTime\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "UnradicaliseProjectile",
-                "CaringCitizen.PointX(\"OriginPoint\")",
-                "CaringCitizen.PointY(\"OriginPoint\")",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangePlan"
-              },
-              "parameters": [
-                "UnradicaliseProjectile",
-                "=",
-                "40"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetCenter"
-              },
-              "parameters": [
-                "UnradicaliseProjectile",
-                "=",
-                "CaringCitizen.PointX(\"OriginPoint\")",
-                "=",
-                "CaringCitizen.PointY(\"OriginPoint\")"
-              ]
-            }
-          ],
-          "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
@@ -18204,7 +18137,234 @@
                   },
                   "parameters": [
                     "",
-                    "SelfRad"
+                    "CaringCitizen"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "CaringCitizen",
+                    "Upgraded",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareObjectTimer"
+                  },
+                  "parameters": [
+                    "CaringCitizen",
+                    "\"SecondTime\"",
+                    ">",
+                    "CaringCitizen.Variable(SecondRate)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "CaringCitizen",
+                    "Saved",
+                    "<",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "CaringCitizen",
+                    "\"SecondTime\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "UnradicaliseProjectile",
+                    "CaringCitizen.PointX(\"OriginPoint\")",
+                    "CaringCitizen.PointY(\"OriginPoint\")",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "UnradicaliseProjectile",
+                    "=",
+                    "40"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetCenter"
+                  },
+                  "parameters": [
+                    "UnradicaliseProjectile",
+                    "=",
+                    "CaringCitizen.PointX(\"OriginPoint\")",
+                    "=",
+                    "CaringCitizen.PointY(\"OriginPoint\")"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "AjoutObjConcern"
+                      },
+                      "parameters": [
+                        "",
+                        "SelfRad"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "SelfRad",
+                        "deathStunned",
+                        "True"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PickNearest"
+                      },
+                      "parameters": [
+                        "SelfRad",
+                        "CaringCitizen.CenterX()",
+                        "CaringCitizen.CenterY()",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AddForceVers"
+                      },
+                      "parameters": [
+                        "UnradicaliseProjectile",
+                        "SelfRad",
+                        "UnradicaliseProjectile.Variable(Speed)",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "RotateTowardPosition"
+                      },
+                      "parameters": [
+                        "UnradicaliseProjectile",
+                        "SelfRad.X()",
+                        "SelfRad.Y()",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "UnradicaliseProjectile",
+                        "Fired",
+                        "True"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "UnradicaliseProjectile",
+                        "TowerX",
+                        "=",
+                        "CaringCitizen.X()-60+120*CaringCitizen.Variable(Saved)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "UnradicaliseProjectile",
+                        "TowerY",
+                        "=",
+                        "CaringCitizen.Y()-60+120*CaringCitizen.Variable(Saved)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "CaringCitizen",
+                        "Saved",
+                        "+",
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "UnradicaliseProjectile",
+                        "Fired",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "UnradicaliseProjectile",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "UnradicaliseProjectile",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "UnradicaliseProjectile",
+                    "SelfRad",
+                    "",
+                    "",
+                    ""
                   ]
                 },
                 {
@@ -18221,414 +18381,86 @@
               "actions": [
                 {
                   "type": {
-                    "value": "AddForceVers"
+                    "value": "Delete"
                   },
                   "parameters": [
-                    "UnradicaliseProjectile",
                     "SelfRad",
-                    "UnradicaliseProjectile.Variable(Speed)",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "RotateTowardPosition"
-                  },
-                  "parameters": [
-                    "UnradicaliseProjectile",
-                    "SelfRad.X()",
-                    "SelfRad.Y()",
-                    "0",
                     ""
                   ]
                 },
                 {
                   "type": {
-                    "value": "SetObjectVariableAsBoolean"
+                    "value": "TDTD::SpawnTowerAtPos"
                   },
                   "parameters": [
-                    "UnradicaliseProjectile",
-                    "Fired",
-                    "True"
+                    "Soldier",
+                    "Soldier",
+                    "UnradicaliseProjectile.Variable(TowerX)",
+                    "UnradicaliseProjectile.Variable(TowerY)",
+                    ""
                   ]
                 },
                 {
                   "type": {
-                    "value": "ModVarObjet"
+                    "value": "ModVarGlobal"
                   },
                   "parameters": [
-                    "UnradicaliseProjectile",
-                    "TowerX",
-                    "=",
-                    "CaringCitizen.X()-60+120*CaringCitizen.Variable(Saved)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarObjet"
-                  },
-                  "parameters": [
-                    "UnradicaliseProjectile",
-                    "TowerY",
-                    "=",
-                    "CaringCitizen.Y()-60+120*CaringCitizen.Variable(Saved)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarObjet"
-                  },
-                  "parameters": [
-                    "CaringCitizen",
-                    "Saved",
-                    "+",
+                    "SavedDelta",
+                    "-",
                     "1"
                   ]
                 }
               ]
             },
             {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Firefighter Stun\n"
+            },
+            {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
+                {
+                  "type": {
+                    "value": "AjoutObjConcern"
+                  },
+                  "parameters": [
+                    "",
+                    "Firefighter"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Firefighter",
+                    "Upgraded",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareObjectTimer"
+                  },
+                  "parameters": [
+                    "Firefighter",
+                    "\"SecondTime\"",
+                    ">",
+                    "Firefighter.Variable(SecondRate)"
+                  ]
+                },
                 {
                   "type": {
                     "inverted": true,
                     "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "UnradicaliseProjectile",
-                    "Fired",
-                    "True"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "UnradicaliseProjectile",
-                    ""
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::ForEach",
-          "object": "UnradicaliseProjectile",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "UnradicaliseProjectile",
-                "SelfRad",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "ObjectVariableAsBoolean"
-              },
-              "parameters": [
-                "SelfRad",
-                "deathStunned",
-                "True"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "SelfRad",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "TDTD::SpawnTowerAtPos"
-              },
-              "parameters": [
-                "Soldier",
-                "Soldier",
-                "UnradicaliseProjectile.Variable(TowerX)",
-                "UnradicaliseProjectile.Variable(TowerY)",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "AjoutObjConcern"
-              },
-              "parameters": [
-                "",
-                "Firefighter"
-              ]
-            },
-            {
-              "type": {
-                "value": "ObjectVariableAsBoolean"
-              },
-              "parameters": [
-                "Firefighter",
-                "Upgraded",
-                "True"
-              ]
-            },
-            {
-              "type": {
-                "value": "CompareObjectTimer"
-              },
-              "parameters": [
-                "Firefighter",
-                "\"SecondTime\"",
-                ">",
-                "Firefighter.Variable(SecondRate)"
-              ]
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "ObjectVariableAsBoolean"
-              },
-              "parameters": [
-                "Enemies",
-                "hasSlipped",
-                "True"
-              ]
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "ObjectVariableAsBoolean"
-              },
-              "parameters": [
-                "Enemies",
-                "deathStunned",
-                "True"
-              ]
-            },
-            {
-              "type": {
-                "value": "PosX"
-              },
-              "parameters": [
-                "Enemies",
-                ">",
-                "50"
-              ]
-            },
-            {
-              "type": {
-                "value": "AjoutHasard"
-              },
-              "parameters": [
-                "",
-                "Enemies"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ResetObjectTimer"
-              },
-              "parameters": [
-                "Firefighter",
-                "\"SecondTime\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "FirefighterProjectile",
-                "Firefighter.PointX(\"OriginPoint\")",
-                "Firefighter.PointY(\"OriginPoint\")",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangePlan"
-              },
-              "parameters": [
-                "FirefighterProjectile",
-                "=",
-                "40"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetCenter"
-              },
-              "parameters": [
-                "FirefighterProjectile",
-                "=",
-                "Firefighter.PointX(\"OriginPoint\")",
-                "=",
-                "Firefighter.PointY(\"OriginPoint\")"
-              ]
-            },
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "FirefighterHitmarker",
-                "Enemies.CenterX()",
-                "Enemies.CenterY()",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangePlan"
-              },
-              "parameters": [
-                "FirefighterHitmarker",
-                "=",
-                "40"
-              ]
-            },
-            {
-              "type": {
-                "value": "LinkedObjects::LinkObjects"
-              },
-              "parameters": [
-                "",
-                "Enemies",
-                "FirefighterHitmarker"
-              ]
-            },
-            {
-              "type": {
-                "value": "RotateTowardPosition"
-              },
-              "parameters": [
-                "FirefighterProjectile",
-                "FirefighterHitmarker.CenterX()",
-                "FirefighterHitmarker.CenterY()",
-                "0",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "AddForceVers"
-              },
-              "parameters": [
-                "FirefighterProjectile",
-                "FirefighterHitmarker",
-                "FirefighterProjectile.Variable(Speed)",
-                "0"
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "PickedInstancesCount"
-                  },
-                  "parameters": [
-                    "Enemies",
-                    "=",
-                    "0"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "FirefighterHitmarker",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "FirefighterProjectile",
-                    ""
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::ForEach",
-          "object": "FirefighterProjectile",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "FirefighterProjectile",
-                "FirefighterHitmarker",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "Distance"
-                  },
-                  "parameters": [
-                    "Enemies",
-                    "FirefighterHitmarker",
-                    "FirefighterProjectile.Variable(AoE)",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "PathfindingBehavior::MaxSpeed"
-                  },
-                  "parameters": [
-                    "Enemies",
-                    "Pathfinding",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetObjectVariableAsBoolean"
                   },
                   "parameters": [
                     "Enemies",
@@ -18638,11 +18470,747 @@
                 },
                 {
                   "type": {
-                    "value": "PauseAnimation"
+                    "inverted": true,
+                    "value": "ObjectVariableAsBoolean"
                   },
                   "parameters": [
+                    "Enemies",
+                    "deathStunned",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "Enemies",
+                    ">",
+                    "50"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AjoutHasard"
+                  },
+                  "parameters": [
+                    "",
                     "Enemies"
                   ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "Firefighter",
+                    "\"SecondTime\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "FirefighterProjectile",
+                    "Firefighter.PointX(\"OriginPoint\")",
+                    "Firefighter.PointY(\"OriginPoint\")",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "FirefighterProjectile",
+                    "=",
+                    "40"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetCenter"
+                  },
+                  "parameters": [
+                    "FirefighterProjectile",
+                    "=",
+                    "Firefighter.PointX(\"OriginPoint\")",
+                    "=",
+                    "Firefighter.PointY(\"OriginPoint\")"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "FirefighterHitmarker",
+                    "Enemies.CenterX()",
+                    "Enemies.CenterY()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "FirefighterHitmarker",
+                    "=",
+                    "40"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "LinkedObjects::LinkObjects"
+                  },
+                  "parameters": [
+                    "",
+                    "Enemies",
+                    "FirefighterHitmarker"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "RotateTowardPosition"
+                  },
+                  "parameters": [
+                    "FirefighterProjectile",
+                    "FirefighterHitmarker.CenterX()",
+                    "FirefighterHitmarker.CenterY()",
+                    "0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AddForceVers"
+                  },
+                  "parameters": [
+                    "FirefighterProjectile",
+                    "FirefighterHitmarker",
+                    "FirefighterProjectile.Variable(Speed)",
+                    "0"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PickedInstancesCount"
+                      },
+                      "parameters": [
+                        "Enemies",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "FirefighterHitmarker",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "FirefighterProjectile",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "FirefighterProjectile",
+              "conditions": [],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "FirefighterProjectile",
+                        "FirefighterHitmarker",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "Distance"
+                          },
+                          "parameters": [
+                            "Enemies",
+                            "FirefighterHitmarker",
+                            "FirefighterProjectile.Variable(AoE)",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PathfindingBehavior::MaxSpeed"
+                          },
+                          "parameters": [
+                            "Enemies",
+                            "Pathfinding",
+                            "=",
+                            "0"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Enemies",
+                            "hasSlipped",
+                            "True"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PauseAnimation"
+                          },
+                          "parameters": [
+                            "Enemies"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "FirefighterProjectile",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "LinkedObjects::RemoveAllLinksOf"
+                          },
+                          "parameters": [
+                            "",
+                            "FirefighterHitmarker"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "FirefighterHitmarker",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "FirefighterProjectile",
+                        "FirefighterHitmarker",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "RotateTowardPosition"
+                      },
+                      "parameters": [
+                        "FirefighterProjectile",
+                        "FirefighterHitmarker.CenterX()",
+                        "FirefighterHitmarker.CenterY()",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AddForceVers"
+                      },
+                      "parameters": [
+                        "FirefighterProjectile",
+                        "FirefighterHitmarker",
+                        "FirefighterProjectile.Variable(Speed)",
+                        "0"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneInstancesCount"
+                  },
+                  "parameters": [
+                    "",
+                    "FirefighterHitmarker",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AjoutObjConcern"
+                  },
+                  "parameters": [
+                    "",
+                    "FirefighterProjectile"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "FirefighterProjectile",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Towers Defending"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TDTD::TowerV2::smartAttack"
+                  },
+                  "parameters": [
+                    "WhiteHat",
+                    "TowerV2",
+                    "Enemies",
+                    "WhiteHatProjectile",
+                    "MenuSFXVolumeSlider.Value()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TDTD::TowerV2::smartTrap"
+                  },
+                  "parameters": [
+                    "IntelligenceOfficer",
+                    "TowerV2",
+                    "IntelligenceBarrier",
+                    "IntelligenceBarrier"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TDTD::TowerV2::smartTrap"
+                  },
+                  "parameters": [
+                    "Firefighter",
+                    "TowerV2",
+                    "FirefighterPuddle",
+                    "FirefighterPuddle"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Soldier",
+              "conditions": [],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Soldier",
+                        "Upgraded",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TDTD::TowerV2::smartAttack"
+                      },
+                      "parameters": [
+                        "Soldier",
+                        "TowerV2",
+                        "Enemies",
+                        "OfficerProjectile",
+                        "MenuSFXVolumeSlider.Value()",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Soldier",
+                        "Upgraded",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TDTD::TowerV2::smartAttack"
+                      },
+                      "parameters": [
+                        "Soldier",
+                        "TowerV2",
+                        "Enemies",
+                        "SoldierProjectile",
+                        "MenuSFXVolumeSlider.Value()",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Bullets do things"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareObjectTimer"
+                  },
+                  "parameters": [
+                    "IntelligenceBarrier",
+                    "\"TrapTimeout\"",
+                    ">",
+                    "18"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "IntelligenceBarrier",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareObjectTimer"
+                  },
+                  "parameters": [
+                    "FirefighterPuddle",
+                    "\"TrapTimeout\"",
+                    ">",
+                    "20"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "FirefighterPuddle",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "this one",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [],
+              "parameters": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TDTD::ProjectileV2::destroy"
+                  },
+                  "parameters": [
+                    "SoldierProjectile",
+                    "Projectile2",
+                    "Enemies",
+                    "ShakeObject_PositionAngleScale",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TDTD::ProjectileV2::destroy"
+                  },
+                  "parameters": [
+                    "OfficerProjectile",
+                    "Projectile2",
+                    "Enemies",
+                    "ShakeObject_PositionAngleScale",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TDTD::EnemyV2::slow"
+                  },
+                  "parameters": [
+                    "Enemies",
+                    "EnemyV2",
+                    "Pathfinding",
+                    "WhiteHatProjectile",
+                    "0.2",
+                    "3",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TDTD::EnemyV2::slip"
+                  },
+                  "parameters": [
+                    "Enemies",
+                    "EnemyV2",
+                    "FirefighterPuddle",
+                    "150"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TDTD::EnemyV2::collide"
+                  },
+                  "parameters": [
+                    "Enemies",
+                    "EnemyV2",
+                    "IntelligenceBarrier",
+                    "150"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "FirefighterHitmarker",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "LinkedObjects::PickObjectsLinkedTo"
+                  },
+                  "parameters": [
+                    "",
+                    "FirefighterHitmarker",
+                    "Enemies",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetCenter"
+                  },
+                  "parameters": [
+                    "FirefighterHitmarker",
+                    "=",
+                    "Enemies.CenterX()",
+                    "=",
+                    "Enemies.CenterY()"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Enemy Update Info",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "EnemyHealthBar",
+              "conditions": [],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "LinkedObjects::PickObjectsLinkedTo"
+                      },
+                      "parameters": [
+                        "",
+                        "Enemies",
+                        "EnemyHealthBar",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+                      },
+                      "parameters": [
+                        "EnemyHealthBar",
+                        "=",
+                        "Enemies.Variable(Health)",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetCenter"
+                      },
+                      "parameters": [
+                        "EnemyHealthBar",
+                        "=",
+                        "Enemies.CenterX()",
+                        "=",
+                        "Enemies.CenterY()-Enemies.Height()/2"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "LinkedObjects::PickObjectsLinkedTo"
+                      },
+                      "parameters": [
+                        "",
+                        "Enemies",
+                        "EnemyHealthBar",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "EnemyHealthBar",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": []
                 }
               ]
             },
@@ -18652,421 +19220,25 @@
               "actions": [
                 {
                   "type": {
-                    "value": "Delete"
+                    "value": "TDTD::EnemyV2::InflictSlow"
                   },
                   "parameters": [
-                    "FirefighterProjectile",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "LinkedObjects::RemoveAllLinksOf"
-                  },
-                  "parameters": [
-                    "",
-                    "FirefighterHitmarker"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "FirefighterHitmarker",
+                    "InternetTroll",
+                    "EnemyV2",
+                    "Towers",
+                    "150",
+                    "CaringCitizen",
+                    "StatusParticles",
+                    "NotifyCircle",
+                    "Tween",
+                    "NotifyParticles",
                     ""
                   ]
                 }
               ]
             }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SceneInstancesCount"
-              },
-              "parameters": [
-                "",
-                "FirefighterHitmarker",
-                "=",
-                "0"
-              ]
-            }
           ],
-          "actions": [
-            {
-              "type": {
-                "value": "AjoutObjConcern"
-              },
-              "parameters": [
-                "",
-                "FirefighterProjectile"
-              ]
-            },
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "FirefighterProjectile",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::ForEach",
-          "object": "FirefighterProjectile",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "FirefighterProjectile",
-                "FirefighterHitmarker",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "RotateTowardPosition"
-              },
-              "parameters": [
-                "FirefighterProjectile",
-                "FirefighterHitmarker.CenterX()",
-                "FirefighterHitmarker.CenterY()",
-                "0",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "AddForceVers"
-              },
-              "parameters": [
-                "FirefighterProjectile",
-                "FirefighterHitmarker",
-                "FirefighterProjectile.Variable(Speed)",
-                "0"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "TDTD::TowerV2::smartAttack"
-              },
-              "parameters": [
-                "WhiteHat",
-                "TowerV2",
-                "Enemies",
-                "WhiteHatProjectile",
-                "MenuSFXVolumeSlider.Value()",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "TDTD::TowerV2::smartTrap"
-              },
-              "parameters": [
-                "IntelligenceOfficer",
-                "TowerV2",
-                "Enemies",
-                "IntelligenceBarrier",
-                "Enemies"
-              ]
-            },
-            {
-              "type": {
-                "value": "TDTD::TowerV2::smartTrap"
-              },
-              "parameters": [
-                "Firefighter",
-                "TowerV2",
-                "Enemies",
-                "FirefighterPuddle",
-                "Enemies"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::ForEach",
-          "object": "Soldier",
-          "conditions": [],
-          "actions": [],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "Soldier",
-                    "Upgraded",
-                    "True"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TDTD::TowerV2::smartAttack"
-                  },
-                  "parameters": [
-                    "Soldier",
-                    "TowerV2",
-                    "Enemies",
-                    "OfficerProjectile",
-                    "MenuSFXVolumeSlider.Value()",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "Soldier",
-                    "Upgraded",
-                    "True"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TDTD::TowerV2::smartAttack"
-                  },
-                  "parameters": [
-                    "Soldier",
-                    "TowerV2",
-                    "Enemies",
-                    "SoldierProjectile",
-                    "MenuSFXVolumeSlider.Value()",
-                    ""
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareObjectTimer"
-              },
-              "parameters": [
-                "IntelligenceBarrier",
-                "\"TrapTimeout\"",
-                ">",
-                "18"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "IntelligenceBarrier",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareObjectTimer"
-              },
-              "parameters": [
-                "FirefighterPuddle",
-                "\"TrapTimeout\"",
-                ">",
-                "20"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "FirefighterPuddle",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::ForEach",
-          "object": "Enemies",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "TDTD::ProjectileV2::destroy"
-              },
-              "parameters": [
-                "SoldierProjectile",
-                "Projectile2",
-                "Enemies",
-                "ShakeObject_PositionAngleScale",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "TDTD::ProjectileV2::destroy"
-              },
-              "parameters": [
-                "OfficerProjectile",
-                "Projectile2",
-                "Enemies",
-                "ShakeObject_PositionAngleScale",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "TDTD::EnemyV2::slow"
-              },
-              "parameters": [
-                "Enemies",
-                "EnemyV2",
-                "Pathfinding",
-                "WhiteHatProjectile",
-                "0.2",
-                "3",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "TDTD::EnemyV2::slip"
-              },
-              "parameters": [
-                "Enemies",
-                "EnemyV2",
-                "FirefighterPuddle",
-                "150"
-              ]
-            },
-            {
-              "type": {
-                "value": "TDTD::EnemyV2::collide"
-              },
-              "parameters": [
-                "Enemies",
-                "EnemyV2",
-                "IntelligenceBarrier",
-                "150"
-              ]
-            },
-            {
-              "type": {
-                "value": "TDTD::EnemyV2::updateHealthBar"
-              },
-              "parameters": [
-                "Enemies",
-                "EnemyV2",
-                "EnemyHealthBar",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "TDTD::EnemyV2::updateHitmarker"
-              },
-              "parameters": [
-                "Enemies",
-                "EnemyV2",
-                "FirefighterHitmarker",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "TDTD::EnemyV2::InflictSlow"
-              },
-              "parameters": [
-                "InternetTroll",
-                "EnemyV2",
-                "Towers",
-                "150",
-                "CaringCitizen",
-                "StatusParticles",
-                "NotifyCircle",
-                "Tween",
-                "NotifyParticles",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::ForEach",
-          "object": "EnemyHealthBar",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "LinkedObjects::PickObjectsLinkedTo"
-              },
-              "parameters": [
-                "",
-                "Enemies",
-                "EnemyHealthBar",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "EnemyHealthBar",
-                ""
-              ]
-            }
-          ]
+          "parameters": []
         }
       ],
       "parameters": []
@@ -19076,6 +19248,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "SpawnBox and Spawning",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -24438,6 +24611,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Shop Stuff",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -27695,6 +27869,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Tutorial Stuff",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",

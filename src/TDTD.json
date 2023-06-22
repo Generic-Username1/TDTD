@@ -4102,6 +4102,15 @@
         "name": "screen_title_name",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/001_terrorist_0000011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/001_terrorist_0000011.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []

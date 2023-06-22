@@ -1062,12 +1062,30 @@
                 },
                 {
                   "type": {
-                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                    "value": "BuiltinCommonInstructions::Or"
                   },
-                  "parameters": [
-                    "Random(5)",
-                    ">",
-                    "1"
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "SavedDelta",
+                        "<=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "Random(5)",
+                        ">",
+                        "1"
+                      ]
+                    }
                   ]
                 }
               ],
@@ -1251,89 +1269,102 @@
           "sentence": "[Upon Contact with _PARAM3_]  Set the speed of _PARAM0_ to _PARAM4_x for _PARAM5_ seconds",
           "events": [
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Projectile",
+              "conditions": [],
+              "actions": [],
+              "events": [
                 {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Object",
-                    "Projectile",
-                    "",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PathfindingBehavior::MaxSpeed"
-                  },
-                  "parameters": [
-                    "Object",
-                    "Pathfinder",
-                    "!=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "Object",
-                    "deathStunned",
-                    "True"
-                  ]
-                },
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "Object",
-                    "hasSlipped",
-                    "True"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ResetObjectTimer"
-                  },
-                  "parameters": [
-                    "Object",
-                    "\"SlowTime\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PathfindingBehavior::MaxSpeed"
-                  },
-                  "parameters": [
-                    "Object",
-                    "Pathfinding",
-                    "=",
-                    "Object.Variable(MaxSpeed)*GetArgumentAsNumber(\"SpeedMultiplier\")"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "EnableEffect"
-                  },
-                  "parameters": [
-                    "Object",
-                    "\"Glitch\"",
-                    "yes"
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Projectile",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PathfindingBehavior::MaxSpeed"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Pathfinder",
+                        "!=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Object",
+                        "deathStunned",
+                        "True"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Object",
+                        "hasSlipped",
+                        "True"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PickNearest"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Projectile.CenterX()",
+                        "Projectile.CenterY()",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"SlowTime\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PathfindingBehavior::MaxSpeed"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Pathfinding",
+                        "=",
+                        "Object.Variable(MaxSpeed)*GetArgumentAsNumber(\"SpeedMultiplier\")"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EnableEffect"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"Glitch\"",
+                        "yes"
+                      ]
+                    }
                   ]
                 }
               ]
@@ -1341,28 +1372,6 @@
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "Object",
-                    "hasSlipped",
-                    "True"
-                  ]
-                },
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "Object",
-                    "deathStunned",
-                    "True"
-                  ]
-                },
                 {
                   "type": {
                     "value": "CompareObjectTimer"
@@ -1376,9 +1385,25 @@
                 },
                 {
                   "type": {
-                    "value": "BuiltinCommonInstructions::Once"
+                    "inverted": true,
+                    "value": "ObjectVariableAsBoolean"
                   },
-                  "parameters": []
+                  "parameters": [
+                    "Object",
+                    "hasSlipped",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Object",
+                    "deathStunned",
+                    "True"
+                  ]
                 }
               ],
               "actions": [
@@ -1401,6 +1426,15 @@
                     "Object",
                     "\"Glitch\"",
                     "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "RemoveObjectTimer"
+                  },
+                  "parameters": [
+                    "Object",
+                    "\"SlowTime\""
                   ]
                 }
               ]
@@ -1449,7 +1483,7 @@
           "fullName": "Inflict Negative Thoughts (for enemies)",
           "functionType": "Action",
           "name": "InflictSlow",
-          "sentence": "[For each _PARAM0_] Inflict Negative Thoughts for _PARAM2_ within _PARAM3_ pixels unless _PARAM4_ is near and add _PARAM5_ and _PARAM6_ (alongside _PARAM8_)",
+          "sentence": "[For each _PARAM2_] Inflict Negative Thoughts for _PARAM2_ within _PARAM3_ pixels of _PARAM0_ unless _PARAM4_ is near and add _PARAM5_ and _PARAM6_ (alongside _PARAM8_)",
           "events": [
             {
               "type": "BuiltinCommonInstructions::ForEach",
@@ -1648,14 +1682,15 @@
           "objectGroups": []
         },
         {
-          "description": "Will make the enemy spin and not move permanently.",
+          "description": "Will make the enemy slip and not move permanently.",
           "fullName": "Slip enemy when contact with Sprite",
           "functionType": "Action",
           "name": "slip",
           "sentence": "[On contact with _PARAM2_] _PARAM0_ slips and cannot get up",
           "events": [
             {
-              "type": "BuiltinCommonInstructions::Standard",
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Trap",
               "conditions": [
                 {
                   "type": {
@@ -1682,9 +1717,14 @@
                 },
                 {
                   "type": {
-                    "value": "BuiltinCommonInstructions::Once"
+                    "value": "PickNearest"
                   },
-                  "parameters": []
+                  "parameters": [
+                    "Object",
+                    "Trap.CenterX()",
+                    "Trap.CenterY()",
+                    ""
+                  ]
                 }
               ],
               "actions": [
@@ -1727,11 +1767,6 @@
                   ]
                 }
               ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": []
             }
           ],
           "parameters": [
@@ -1810,137 +1845,145 @@
           "sentence": "[On contact with _PARAM2_] Hurt _PARAM0_",
           "events": [
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Trap",
+              "conditions": [],
+              "actions": [],
+              "events": [
                 {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Object",
-                    "Trap",
-                    "",
-                    "",
-                    ""
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "Trap",
+                        "HP",
+                        ">",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Trap",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PickNearest"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Trap.CenterX()",
+                        "Trap.CenterY()",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Health",
+                        "-",
+                        "Trap.Variable(Damage)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "Trap",
+                        "HP",
+                        "-",
+                        "1"
+                      ]
+                    }
                   ]
                 },
                 {
-                  "type": {
-                    "inverted": true,
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "Object",
-                    "hasSlipped",
-                    "True"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "VarObjet"
-                  },
-                  "parameters": [
-                    "Trap",
-                    "HP",
-                    ">",
-                    "0"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ModVarObjet"
-                  },
-                  "parameters": [
-                    "Object",
-                    "Health",
-                    "-",
-                    "Trap.Variable(Damage)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarObjet"
-                  },
-                  "parameters": [
-                    "Trap",
-                    "HP",
-                    "-",
-                    "1"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Object",
-                    "Trap",
-                    "",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "Object",
-                    "hasSlipped",
-                    "True"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "VarObjet"
-                  },
-                  "parameters": [
-                    "Trap",
-                    "HP",
-                    "<=",
-                    "0"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ModVarObjet"
-                  },
-                  "parameters": [
-                    "Object",
-                    "Health",
-                    "-",
-                    "Trap.Variable(Damage)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "Trap",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PlaySound"
-                  },
-                  "parameters": [
-                    "",
-                    "destroyed",
-                    "",
-                    "50",
-                    ""
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "Trap",
+                        "HP",
+                        "<=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Trap",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PickNearest"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Trap.CenterX()",
+                        "Trap.CenterY()",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Health",
+                        "-",
+                        "Trap.Variable(Damage)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Trap",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "destroyed",
+                        "",
+                        "50",
+                        ""
+                      ]
+                    }
                   ]
                 }
               ]
@@ -1977,6 +2020,12 @@
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Object",
               "conditions": [
                 {
                   "type": {
@@ -3259,7 +3308,7 @@
           "fullName": "Trap with account for everything",
           "functionType": "Action",
           "name": "smartTrap",
-          "sentence": "Using _PARAM0_, attack _PARAM2_ by spawning _PARAM3_",
+          "sentence": "Using _PARAM0_, attack enemies by spawning _PARAM2_",
           "events": [
             {
               "type": "BuiltinCommonInstructions::ForEach",
@@ -3483,12 +3532,6 @@
               "name": "Behavior",
               "supplementaryInformation": "TDTD::TowerV2",
               "type": "behavior"
-            },
-            {
-              "description": "Enemies Object Group",
-              "name": "Enemies",
-              "supplementaryInformation": "Sprite",
-              "type": "objectList"
             },
             {
               "description": "Tower's Trap",
@@ -4712,185 +4755,172 @@
           "sentence": "Destroy _PARAM0_ after hitting _PARAM2_ and damage it",
           "events": [
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Object",
+              "conditions": [],
+              "actions": [],
+              "events": [
                 {
-                  "type": {
-                    "inverted": true,
-                    "value": "VarObjet"
-                  },
-                  "parameters": [
-                    "Object",
-                    "HP",
-                    ">",
-                    "0"
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "Object",
+                        "HP",
+                        ">",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Enemy",
+                        "deathStunned",
+                        "True"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Enemy",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PickNearest"
+                      },
+                      "parameters": [
+                        "Enemy",
+                        "Object.CenterX()",
+                        "Object.CenterY()",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "Enemy",
+                        "Health",
+                        "-",
+                        "Object.Variable(Damage)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ShakeObject::ShakeObject_PositionAngleScale::ShakeObject_PositionAngleScale"
+                      },
+                      "parameters": [
+                        "Enemy",
+                        "Shaker",
+                        "0.3",
+                        "5",
+                        "5",
+                        "3",
+                        "3",
+                        "0.08",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Object",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ]
+                    }
                   ]
                 },
                 {
-                  "type": {
-                    "inverted": true,
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "Enemy",
-                    "deathStunned",
-                    "True"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "Object",
-                    "Piercing",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Object",
-                    "Enemy",
-                    "",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ModVarObjet"
-                  },
-                  "parameters": [
-                    "Enemy",
-                    "Health",
-                    "-",
-                    "Object.Variable(Damage)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ShakeObject::ShakeObject_PositionAngleScale::ShakeObject_PositionAngleScale"
-                  },
-                  "parameters": [
-                    "Enemy",
-                    "Shaker",
-                    "0.3",
-                    "5",
-                    "5",
-                    "3",
-                    "3",
-                    "0.08",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "Object",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ActivateBehavior"
-                  },
-                  "parameters": [
-                    "Object",
-                    "Behavior",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarObjet"
-                  },
-                  "parameters": [
-                    "Object",
-                    "HP",
-                    ">",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "Enemy",
-                    "deathStunned",
-                    "True"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "Object",
-                    "Piercing",
-                    "True"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Object",
-                    "Enemy",
-                    "",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ModVarObjet"
-                  },
-                  "parameters": [
-                    "Enemy",
-                    "Health",
-                    "-",
-                    "Object.Variable(Damage)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarObjet"
-                  },
-                  "parameters": [
-                    "Object",
-                    "HP",
-                    "-",
-                    "1"
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "Object",
+                        "HP",
+                        ">",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Enemy",
+                        "deathStunned",
+                        "True"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Enemy",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "Enemy",
+                        "Health",
+                        "-",
+                        "Object.Variable(Damage)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "Object",
+                        "HP",
+                        "-",
+                        "1"
+                      ]
+                    }
                   ]
                 }
               ]
