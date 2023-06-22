@@ -32,9 +32,6 @@
           "name": "CaringCitizen"
         },
         {
-          "name": "Volunteer"
-        },
-        {
           "name": "CommLeader"
         },
         {
@@ -1989,6 +1986,21 @@
       "x": 2000,
       "y": 860,
       "zOrder": 60,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "UpgCostText",
+      "persistentUuid": "068e162b-50a8-44fd-ad32-4e8bc278c178",
+      "width": 0,
+      "x": -179,
+      "y": 17,
+      "zOrder": 50,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -9312,50 +9324,24 @@
       }
     },
     {
-      "additive": false,
       "assetStoreId": "",
-      "destroyWhenNoParticles": true,
-      "emitterAngleA": 0,
-      "emitterAngleB": 90,
-      "emitterForceMax": 85,
-      "emitterForceMin": 45,
-      "flow": 45,
-      "jumpForwardInTimeOnCreation": 0,
-      "maxParticleNb": 300,
-      "name": "FireParticles",
-      "particleAlpha1": 204,
-      "particleAlpha2": 0,
-      "particleAlphaRandomness1": 0,
-      "particleAlphaRandomness2": 0,
-      "particleAngle1": 0,
-      "particleAngle2": 0,
-      "particleAngleRandomness1": 0,
-      "particleAngleRandomness2": 0,
-      "particleBlue1": 51,
-      "particleBlue2": 0,
-      "particleGravityX": 0,
-      "particleGravityY": 0,
-      "particleGreen1": 51,
-      "particleGreen2": 255,
-      "particleLifeTimeMax": 2.5,
-      "particleLifeTimeMin": 0.5,
-      "particleRed1": 255,
-      "particleRed2": 255,
-      "particleSize1": 100,
-      "particleSize2": 100,
-      "particleSizeRandomness1": 0,
-      "particleSizeRandomness2": 0,
-      "rendererParam1": 3,
-      "rendererParam2": 1,
-      "rendererType": "Point",
+      "name": "UpgCostText",
       "tags": "",
-      "tank": -1,
-      "textureParticleName": "",
-      "type": "ParticleSystem::ParticleEmitter",
-      "zoneRadius": 3,
+      "type": "BitmapText::BitmapTextObject",
       "variables": [],
       "effects": [],
-      "behaviors": []
+      "behaviors": [],
+      "content": {
+        "text": "Upg: 10000",
+        "opacity": 255,
+        "scale": 1,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "assets\\fonts\\AlbaSlab\\24px\\Alba Slab 24px.fnt",
+        "textureAtlasResourceName": "assets\\fonts\\AlbaSlab\\24px\\Alba Slab 24px.png",
+        "align": "left",
+        "wordWrap": true
+      }
     }
   ],
   "events": [
@@ -9988,6 +9974,16 @@
                     "crisisInterval",
                     "=",
                     "450"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "CrisisNo",
+                    "=",
+                    "0"
                   ]
                 }
               ]
@@ -16672,16 +16668,6 @@
             },
             {
               "type": {
-                "inverted": true,
-                "value": "GlobalVariableAsBoolean"
-              },
-              "parameters": [
-                "isRioting",
-                "True"
-              ]
-            },
-            {
-              "type": {
                 "value": "SceneInstancesCount"
               },
               "parameters": [
@@ -16765,36 +16751,55 @@
                   ]
                 }
               ],
-              "actions": [
+              "actions": []
+            },
+            {
+              "folded": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
                 {
                   "type": {
-                    "value": "ModVarSceneTxt"
+                    "value": "SourisSurObjet"
                   },
                   "parameters": [
-                    "selectedTower",
-                    "=",
-                    "Towers.ObjectName()"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TDTD::MoveRangeIndicator"
-                  },
-                  "parameters": [
-                    "",
                     "Towers",
-                    "RangePainter",
+                    "",
+                    "",
                     ""
                   ]
                 },
                 {
                   "type": {
-                    "value": "SetObjectVariableAsBoolean"
+                    "value": "PickNearest"
                   },
                   "parameters": [
-                    "RangePainter",
-                    "doElse",
-                    "False"
+                    "Towers",
+                    "CursorX()",
+                    "CursorY()",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "Towers",
+                    "=",
+                    "31"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "RemoveButton",
+                    "TowerID",
+                    "=",
+                    "Towers.Variable(ID)"
                   ]
                 },
                 {
@@ -16811,23 +16816,33 @@
                 },
                 {
                   "type": {
-                    "value": "ModVarObjet"
+                    "value": "SetObjectVariableAsBoolean"
                   },
                   "parameters": [
-                    "RemoveButton",
-                    "TowerID",
-                    "=",
-                    "Towers.Variable(ID)"
+                    "RangePainter",
+                    "doElse",
+                    "False"
                   ]
                 },
                 {
                   "type": {
-                    "value": "ChangePlan"
+                    "value": "TDTD::MoveRangeIndicator"
                   },
                   "parameters": [
+                    "",
                     "Towers",
+                    "RangePainter",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarSceneTxt"
+                  },
+                  "parameters": [
+                    "selectedTower",
                     "=",
-                    "31"
+                    "Towers.ObjectName()"
                   ]
                 }
               ],
@@ -16870,33 +16885,393 @@
                         "Towers.Variable(ID)"
                       ]
                     }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "ObjectVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "Towers",
-                        "Upgraded",
-                        "True"
-                      ]
-                    }
                   ],
-                  "actions": [
+                  "events": [
                     {
-                      "type": {
-                        "value": "SetCenter"
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
                       },
-                      "parameters": [
-                        "UpgradeButton",
-                        "=",
-                        "-100",
-                        "=",
-                        "-100"
+                      "comment": "Psychological"
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarSceneTxt"
+                          },
+                          "parameters": [
+                            "selectedTower",
+                            "=",
+                            "\"Cheerleader\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "BitmapText::BitmapTextObject::SetText"
+                          },
+                          "parameters": [
+                            "UpgCostText",
+                            "=",
+                            "\"Upg: \" + ToString(GlobalVariable(CheerleaderUpgCost))"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarSceneTxt"
+                          },
+                          "parameters": [
+                            "selectedTower",
+                            "=",
+                            "\"CaringCitizen\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "BitmapText::BitmapTextObject::SetText"
+                          },
+                          "parameters": [
+                            "UpgCostText",
+                            "=",
+                            "\"Upg: \" + ToString(GlobalVariable(CaringCitizenUpgCost))"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "Social"
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarSceneTxt"
+                          },
+                          "parameters": [
+                            "selectedTower",
+                            "=",
+                            "\"CommLeader\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "BitmapText::BitmapTextObject::SetText"
+                          },
+                          "parameters": [
+                            "UpgCostText",
+                            "=",
+                            "\"Upg: \" + ToString(GlobalVariable(CommLeaderUpgCost))"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "Economic"
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarSceneTxt"
+                          },
+                          "parameters": [
+                            "selectedTower",
+                            "=",
+                            "\"CareerGuider\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "BitmapText::BitmapTextObject::SetText"
+                          },
+                          "parameters": [
+                            "UpgCostText",
+                            "=",
+                            "\"Upg: \" + ToString(GlobalVariable(GuiderUpgCost))"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarSceneTxt"
+                          },
+                          "parameters": [
+                            "selectedTower",
+                            "=",
+                            "\"Investor\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "BitmapText::BitmapTextObject::SetText"
+                          },
+                          "parameters": [
+                            "UpgCostText",
+                            "=",
+                            "\"Upg: \" + ToString(GlobalVariable(InvestorUpgCost))"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "Military"
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarSceneTxt"
+                          },
+                          "parameters": [
+                            "selectedTower",
+                            "=",
+                            "\"Soldier\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "BitmapText::BitmapTextObject::SetText"
+                          },
+                          "parameters": [
+                            "UpgCostText",
+                            "=",
+                            "\"Upg: \" + ToString(GlobalVariable(SoldierUpgCost))"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarSceneTxt"
+                          },
+                          "parameters": [
+                            "selectedTower",
+                            "=",
+                            "\"IntelligenceOfficer\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "BitmapText::BitmapTextObject::SetText"
+                          },
+                          "parameters": [
+                            "UpgCostText",
+                            "=",
+                            "\"Upg: \" + ToString(GlobalVariable(IntelOfficerUpgCost))"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "Civil"
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarSceneTxt"
+                          },
+                          "parameters": [
+                            "selectedTower",
+                            "=",
+                            "\"Firefighter\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "BitmapText::BitmapTextObject::SetText"
+                          },
+                          "parameters": [
+                            "UpgCostText",
+                            "=",
+                            "\"Upg: \" + ToString(GlobalVariable(FirefighterUpgCost))"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarSceneTxt"
+                          },
+                          "parameters": [
+                            "selectedTower",
+                            "=",
+                            "\"Doctor\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "BitmapText::BitmapTextObject::SetText"
+                          },
+                          "parameters": [
+                            "UpgCostText",
+                            "=",
+                            "\"Upg: \" + ToString(GlobalVariable(DoctorUpgCost))"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "Digital\n"
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarSceneTxt"
+                          },
+                          "parameters": [
+                            "selectedTower",
+                            "=",
+                            "\"WhiteHat\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "BitmapText::BitmapTextObject::SetText"
+                          },
+                          "parameters": [
+                            "UpgCostText",
+                            "=",
+                            "\"Upg: \" + ToString(GlobalVariable(WhiteHatUpgCost))"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarSceneTxt"
+                          },
+                          "parameters": [
+                            "selectedTower",
+                            "=",
+                            "\"DiscerningCitizen\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "BitmapText::BitmapTextObject::SetText"
+                          },
+                          "parameters": [
+                            "UpgCostText",
+                            "=",
+                            "\"Upg: \" + ToString(GlobalVariable(DiscernCitizenUpgCost))"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetCenter"
+                          },
+                          "parameters": [
+                            "UpgCostText",
+                            "=",
+                            "Towers.CenterX()",
+                            "=",
+                            "Towers.Y()-70"
+                          ]
+                        }
                       ]
                     }
                   ]
@@ -17004,583 +17379,643 @@
                       ]
                     }
                   ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "Psychological"
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarSceneTxt"
-                  },
-                  "parameters": [
-                    "selectedTower",
-                    "=",
-                    "\"Cheerleader\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ChangeColor"
-                  },
-                  "parameters": [
-                    "DescBacking",
-                    "\"255;191;191\""
-                  ]
                 },
                 {
-                  "type": {
-                    "value": "BitmapText::BitmapTextObject::SetText"
-                  },
-                  "parameters": [
-                    "SelectedText",
-                    "=",
-                    "\"Selected: Cheerleader\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BitmapText::BitmapTextObject::SetText"
-                  },
-                  "parameters": [
-                    "SelectedDesc",
-                    "=",
-                    "\"Cheerleaders boost morale among citizens, and keeps the country motivated to move on.\""
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Towers",
+                        "Upgraded",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetCenter"
+                      },
+                      "parameters": [
+                        "UpgradeButton",
+                        "=",
+                        "-100",
+                        "=",
+                        "-100"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "MettreXY"
+                      },
+                      "parameters": [
+                        "UpgCostText",
+                        "=",
+                        "-100",
+                        "=",
+                        "-100"
+                      ]
+                    }
                   ]
                 }
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "value": "VarSceneTxt"
+                    "inverted": true,
+                    "value": "GlobalVariableAsBoolean"
                   },
                   "parameters": [
-                    "selectedTower",
-                    "=",
-                    "\"CaringCitizen\""
+                    "isRioting",
+                    "True"
                   ]
                 }
               ],
-              "actions": [
+              "actions": [],
+              "events": [
                 {
-                  "type": {
-                    "value": "ChangeColor"
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
                   },
-                  "parameters": [
-                    "DescBacking",
-                    "\"255;191;191\""
+                  "comment": "Psychological"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarSceneTxt"
+                      },
+                      "parameters": [
+                        "selectedTower",
+                        "=",
+                        "\"Cheerleader\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ChangeColor"
+                      },
+                      "parameters": [
+                        "DescBacking",
+                        "\"255;191;191\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BitmapText::BitmapTextObject::SetText"
+                      },
+                      "parameters": [
+                        "SelectedText",
+                        "=",
+                        "\"Selected: Cheerleader\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BitmapText::BitmapTextObject::SetText"
+                      },
+                      "parameters": [
+                        "SelectedDesc",
+                        "=",
+                        "\"Cheerleaders boost morale among citizens, and keeps the country motivated to move on.\""
+                      ]
+                    }
                   ]
                 },
                 {
-                  "type": {
-                    "value": "BitmapText::BitmapTextObject::SetText"
-                  },
-                  "parameters": [
-                    "SelectedText",
-                    "=",
-                    "\"Selected: Caring Citizen\""
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarSceneTxt"
+                      },
+                      "parameters": [
+                        "selectedTower",
+                        "=",
+                        "\"CaringCitizen\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ChangeColor"
+                      },
+                      "parameters": [
+                        "DescBacking",
+                        "\"255;191;191\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BitmapText::BitmapTextObject::SetText"
+                      },
+                      "parameters": [
+                        "SelectedText",
+                        "=",
+                        "\"Selected: Caring Citizen\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BitmapText::BitmapTextObject::SetText"
+                      },
+                      "parameters": [
+                        "SelectedDesc",
+                        "=",
+                        "\"Caring citizens give a listening ear to those in need and will help them if necessary.\""
+                      ]
+                    }
                   ]
                 },
                 {
-                  "type": {
-                    "value": "BitmapText::BitmapTextObject::SetText"
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
                   },
-                  "parameters": [
-                    "SelectedDesc",
-                    "=",
-                    "\"Caring citizens give a listening ear to those in need and will help them if necessary.\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "Social"
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
+                  "comment": "Social"
+                },
                 {
-                  "type": {
-                    "value": "VarSceneTxt"
-                  },
-                  "parameters": [
-                    "selectedTower",
-                    "=",
-                    "\"CommLeader\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ChangeColor"
-                  },
-                  "parameters": [
-                    "DescBacking",
-                    "\"250;221;172\""
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarSceneTxt"
+                      },
+                      "parameters": [
+                        "selectedTower",
+                        "=",
+                        "\"CommLeader\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ChangeColor"
+                      },
+                      "parameters": [
+                        "DescBacking",
+                        "\"250;221;172\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BitmapText::BitmapTextObject::SetText"
+                      },
+                      "parameters": [
+                        "SelectedText",
+                        "=",
+                        "\"Selected: Community Leader\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BitmapText::BitmapTextObject::SetText"
+                      },
+                      "parameters": [
+                        "SelectedDesc",
+                        "=",
+                        "\"Leaders are able to solve problems within a community, effectively and efficiently.\""
+                      ]
+                    }
                   ]
                 },
                 {
-                  "type": {
-                    "value": "BitmapText::BitmapTextObject::SetText"
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
                   },
-                  "parameters": [
-                    "SelectedText",
-                    "=",
-                    "\"Selected: Community Leader\""
+                  "comment": "Economic"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarSceneTxt"
+                      },
+                      "parameters": [
+                        "selectedTower",
+                        "=",
+                        "\"CareerGuider\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ChangeColor"
+                      },
+                      "parameters": [
+                        "DescBacking",
+                        "\"255;254;191\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BitmapText::BitmapTextObject::SetText"
+                      },
+                      "parameters": [
+                        "SelectedText",
+                        "=",
+                        "\"Selected: Career Guider\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BitmapText::BitmapTextObject::SetText"
+                      },
+                      "parameters": [
+                        "SelectedDesc",
+                        "=",
+                        "\"Career Guiders help lead people into suitable jobs that the country needs.\""
+                      ]
+                    }
                   ]
                 },
                 {
-                  "type": {
-                    "value": "BitmapText::BitmapTextObject::SetText"
-                  },
-                  "parameters": [
-                    "SelectedDesc",
-                    "=",
-                    "\"Leaders are able to solve problems within a community, effectively and efficiently.\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "Economic"
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarSceneTxt"
-                  },
-                  "parameters": [
-                    "selectedTower",
-                    "=",
-                    "\"CareerGuider\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ChangeColor"
-                  },
-                  "parameters": [
-                    "DescBacking",
-                    "\"255;254;191\""
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarSceneTxt"
+                      },
+                      "parameters": [
+                        "selectedTower",
+                        "=",
+                        "\"Investor\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ChangeColor"
+                      },
+                      "parameters": [
+                        "DescBacking",
+                        "\"255;254;191\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BitmapText::BitmapTextObject::SetText"
+                      },
+                      "parameters": [
+                        "SelectedText",
+                        "=",
+                        "\"Selected: Investor\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BitmapText::BitmapTextObject::SetText"
+                      },
+                      "parameters": [
+                        "SelectedDesc",
+                        "=",
+                        "\"Investors help fund new companies and support existing local businesses.\""
+                      ]
+                    }
                   ]
                 },
                 {
-                  "type": {
-                    "value": "BitmapText::BitmapTextObject::SetText"
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
                   },
-                  "parameters": [
-                    "SelectedText",
-                    "=",
-                    "\"Selected: Career Guider\""
+                  "comment": "Military"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarSceneTxt"
+                      },
+                      "parameters": [
+                        "selectedTower",
+                        "=",
+                        "\"Soldier\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ChangeColor"
+                      },
+                      "parameters": [
+                        "DescBacking",
+                        "\"198;255;191\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BitmapText::BitmapTextObject::SetText"
+                      },
+                      "parameters": [
+                        "SelectedText",
+                        "=",
+                        "\"Selected: Soldier\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BitmapText::BitmapTextObject::SetText"
+                      },
+                      "parameters": [
+                        "SelectedDesc",
+                        "=",
+                        "\"Soldiers are the first line of defence against physical threats to Singapore.\""
+                      ]
+                    }
                   ]
                 },
                 {
-                  "type": {
-                    "value": "BitmapText::BitmapTextObject::SetText"
-                  },
-                  "parameters": [
-                    "SelectedDesc",
-                    "=",
-                    "\"Career Guiders help lead people into suitable jobs that the country needs.\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarSceneTxt"
-                  },
-                  "parameters": [
-                    "selectedTower",
-                    "=",
-                    "\"Investor\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ChangeColor"
-                  },
-                  "parameters": [
-                    "DescBacking",
-                    "\"255;254;191\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BitmapText::BitmapTextObject::SetText"
-                  },
-                  "parameters": [
-                    "SelectedText",
-                    "=",
-                    "\"Selected: Investor\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BitmapText::BitmapTextObject::SetText"
-                  },
-                  "parameters": [
-                    "SelectedDesc",
-                    "=",
-                    "\"Investors help fund new companies and support existing local businesses.\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "Military"
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarSceneTxt"
-                  },
-                  "parameters": [
-                    "selectedTower",
-                    "=",
-                    "\"Soldier\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ChangeColor"
-                  },
-                  "parameters": [
-                    "DescBacking",
-                    "\"198;255;191\""
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarSceneTxt"
+                      },
+                      "parameters": [
+                        "selectedTower",
+                        "=",
+                        "\"IntelligenceOfficer\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ChangeColor"
+                      },
+                      "parameters": [
+                        "DescBacking",
+                        "\"198;255;191\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BitmapText::BitmapTextObject::SetText"
+                      },
+                      "parameters": [
+                        "SelectedText",
+                        "=",
+                        "\"Selected: Intelligence Officer\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BitmapText::BitmapTextObject::SetText"
+                      },
+                      "parameters": [
+                        "SelectedDesc",
+                        "=",
+                        "\"Intelligence helps detect and deter threats before they can be executed.\""
+                      ]
+                    }
                   ]
                 },
                 {
-                  "type": {
-                    "value": "BitmapText::BitmapTextObject::SetText"
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
                   },
-                  "parameters": [
-                    "SelectedText",
-                    "=",
-                    "\"Selected: Soldier\""
+                  "comment": "Civil"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarSceneTxt"
+                      },
+                      "parameters": [
+                        "selectedTower",
+                        "=",
+                        "\"Firefighter\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ChangeColor"
+                      },
+                      "parameters": [
+                        "DescBacking",
+                        "\"191;206;255\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BitmapText::BitmapTextObject::SetText"
+                      },
+                      "parameters": [
+                        "SelectedText",
+                        "=",
+                        "\"Selected: Firefighter\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BitmapText::BitmapTextObject::SetText"
+                      },
+                      "parameters": [
+                        "SelectedDesc",
+                        "=",
+                        "\"Not only do Firefighters fight fire, they also help out in many other aspects as well.\""
+                      ]
+                    }
                   ]
                 },
                 {
-                  "type": {
-                    "value": "BitmapText::BitmapTextObject::SetText"
-                  },
-                  "parameters": [
-                    "SelectedDesc",
-                    "=",
-                    "\"Soldiers are the first line of defence against physical threats to Singapore.\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarSceneTxt"
-                  },
-                  "parameters": [
-                    "selectedTower",
-                    "=",
-                    "\"IntelligenceOfficer\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ChangeColor"
-                  },
-                  "parameters": [
-                    "DescBacking",
-                    "\"198;255;191\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BitmapText::BitmapTextObject::SetText"
-                  },
-                  "parameters": [
-                    "SelectedText",
-                    "=",
-                    "\"Selected: Intelligence Officer\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BitmapText::BitmapTextObject::SetText"
-                  },
-                  "parameters": [
-                    "SelectedDesc",
-                    "=",
-                    "\"Intelligence helps detect and deter threats before they can be executed.\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "Civil"
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarSceneTxt"
-                  },
-                  "parameters": [
-                    "selectedTower",
-                    "=",
-                    "\"Firefighter\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ChangeColor"
-                  },
-                  "parameters": [
-                    "DescBacking",
-                    "\"191;206;255\""
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarSceneTxt"
+                      },
+                      "parameters": [
+                        "selectedTower",
+                        "=",
+                        "\"Doctor\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ChangeColor"
+                      },
+                      "parameters": [
+                        "DescBacking",
+                        "\"191;206;255\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BitmapText::BitmapTextObject::SetText"
+                      },
+                      "parameters": [
+                        "SelectedText",
+                        "=",
+                        "\"Selected: Doctor\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BitmapText::BitmapTextObject::SetText"
+                      },
+                      "parameters": [
+                        "SelectedDesc",
+                        "=",
+                        "\"Doctors treat health conditions to help the community live better.\""
+                      ]
+                    }
                   ]
                 },
                 {
-                  "type": {
-                    "value": "BitmapText::BitmapTextObject::SetText"
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
                   },
-                  "parameters": [
-                    "SelectedText",
-                    "=",
-                    "\"Selected: Firefighter\""
+                  "comment": "Digital\n"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarSceneTxt"
+                      },
+                      "parameters": [
+                        "selectedTower",
+                        "=",
+                        "\"WhiteHat\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ChangeColor"
+                      },
+                      "parameters": [
+                        "DescBacking",
+                        "\"202;202;202\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BitmapText::BitmapTextObject::SetText"
+                      },
+                      "parameters": [
+                        "SelectedText",
+                        "=",
+                        "\"Selected: White Hat\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BitmapText::BitmapTextObject::SetText"
+                      },
+                      "parameters": [
+                        "SelectedDesc",
+                        "=",
+                        "\"White-hat hackers have good intentions, and prevent their bad counterparts from doing damage.\""
+                      ]
+                    }
                   ]
                 },
                 {
-                  "type": {
-                    "value": "BitmapText::BitmapTextObject::SetText"
-                  },
-                  "parameters": [
-                    "SelectedDesc",
-                    "=",
-                    "\"Not only do Firefighters fight fire, they also help out in many other aspects as well.\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarSceneTxt"
-                  },
-                  "parameters": [
-                    "selectedTower",
-                    "=",
-                    "\"Doctor\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ChangeColor"
-                  },
-                  "parameters": [
-                    "DescBacking",
-                    "\"191;206;255\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BitmapText::BitmapTextObject::SetText"
-                  },
-                  "parameters": [
-                    "SelectedText",
-                    "=",
-                    "\"Selected: Doctor\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BitmapText::BitmapTextObject::SetText"
-                  },
-                  "parameters": [
-                    "SelectedDesc",
-                    "=",
-                    "\"Doctors treat health conditions to help the community live better.\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "Digital\n"
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarSceneTxt"
-                  },
-                  "parameters": [
-                    "selectedTower",
-                    "=",
-                    "\"WhiteHat\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ChangeColor"
-                  },
-                  "parameters": [
-                    "DescBacking",
-                    "\"202;202;202\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BitmapText::BitmapTextObject::SetText"
-                  },
-                  "parameters": [
-                    "SelectedText",
-                    "=",
-                    "\"Selected: White Hat\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BitmapText::BitmapTextObject::SetText"
-                  },
-                  "parameters": [
-                    "SelectedDesc",
-                    "=",
-                    "\"White-hat hackers have good intentions, and prevent their bad counterparts from doing damage.\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarSceneTxt"
-                  },
-                  "parameters": [
-                    "selectedTower",
-                    "=",
-                    "\"DiscerningCitizen\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ChangeColor"
-                  },
-                  "parameters": [
-                    "DescBacking",
-                    "\"202;202;202\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BitmapText::BitmapTextObject::SetText"
-                  },
-                  "parameters": [
-                    "SelectedText",
-                    "=",
-                    "\"Selected: Discerning Citizen\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BitmapText::BitmapTextObject::SetText"
-                  },
-                  "parameters": [
-                    "SelectedDesc",
-                    "=",
-                    "\"Dicerning Citizens tell lies from truth online and take appropriate responses against them.\""
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarSceneTxt"
+                      },
+                      "parameters": [
+                        "selectedTower",
+                        "=",
+                        "\"DiscerningCitizen\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ChangeColor"
+                      },
+                      "parameters": [
+                        "DescBacking",
+                        "\"202;202;202\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BitmapText::BitmapTextObject::SetText"
+                      },
+                      "parameters": [
+                        "SelectedText",
+                        "=",
+                        "\"Selected: Discerning Citizen\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BitmapText::BitmapTextObject::SetText"
+                      },
+                      "parameters": [
+                        "SelectedDesc",
+                        "=",
+                        "\"Dicerning Citizens tell lies from truth online and take appropriate responses against them.\""
+                      ]
+                    }
                   ]
                 }
               ]
@@ -17655,6 +18090,18 @@
                 },
                 {
                   "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "UpgCostText",
+                    "=",
+                    "-100",
+                    "=",
+                    "-100"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "ChangePlan"
                   },
                   "parameters": [
@@ -17665,39 +18112,58 @@
                 },
                 {
                   "type": {
-                    "value": "BitmapText::BitmapTextObject::SetText"
-                  },
-                  "parameters": [
-                    "SelectedText",
-                    "=",
-                    "\"Selected: None\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BitmapText::BitmapTextObject::SetText"
-                  },
-                  "parameters": [
-                    "SelectedDesc",
-                    "=",
-                    "\"Select a Tower for more information\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ChangeColor"
-                  },
-                  "parameters": [
-                    "DescBacking",
-                    "\"255;255;255\""
-                  ]
-                },
-                {
-                  "type": {
                     "value": "Cache"
                   },
                   "parameters": [
                     "StatusIcons"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "isRioting",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "BitmapText::BitmapTextObject::SetText"
+                      },
+                      "parameters": [
+                        "SelectedText",
+                        "=",
+                        "\"Selected: None\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BitmapText::BitmapTextObject::SetText"
+                      },
+                      "parameters": [
+                        "SelectedDesc",
+                        "=",
+                        "\"Select a Tower for more information\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangeColor"
+                      },
+                      "parameters": [
+                        "DescBacking",
+                        "\"255;255;255\""
+                      ]
+                    }
                   ]
                 }
               ]
@@ -18034,7 +18500,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Tower Attack",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -18052,7 +18517,6 @@
               "comment": "Doctor Cure"
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -18132,6 +18596,41 @@
                 }
               ],
               "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "FlippedX"
+                      },
+                      "parameters": [
+                        "Doctor"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "CenterX"
+                      },
+                      "parameters": [
+                        "Doctor",
+                        ">",
+                        "810"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "FlipX"
+                      },
+                      "parameters": [
+                        "Doctor",
+                        "yes"
+                      ]
+                    }
+                  ]
+                },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
@@ -19777,6 +20276,17 @@
               "conditions": [
                 {
                   "type": {
+                    "value": "SceneInstancesCount"
+                  },
+                  "parameters": [
+                    "",
+                    "Investor",
+                    ">",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "PickNearest"
                   },
                   "parameters": [
@@ -19785,105 +20295,167 @@
                     "CursorY()",
                     ""
                   ]
-                }
-              ],
-              "actions": [],
-              "events": [
+                },
                 {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::CompareNumbers"
-                      },
-                      "parameters": [
-                        "DistanceBetweenPositions(CursorX(), CursorY(), Investor.CenterX(), Investor.CenterY())",
-                        "<=",
-                        "75"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::CompareNumbers"
-                      },
-                      "parameters": [
-                        "GlobalVariable(playerGold)",
-                        "<",
-                        "GlobalVariable(toPay)*Investor.Variable(Discount)"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ModVarObjetTxt"
-                      },
-                      "parameters": [
-                        "SpawnBox",
-                        "SpawnStatus",
-                        "=",
-                        "\"Cannot\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetObjectVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "SpawnBox",
-                        "doElse",
-                        "False"
-                      ]
-                    }
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "DistanceBetweenPositions(CursorX(), CursorY(), Investor.CenterX(), Investor.CenterY())",
+                    "<=",
+                    "75"
                   ]
                 },
                 {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": true,
-                        "value": "BuiltinCommonInstructions::CompareNumbers"
-                      },
-                      "parameters": [
-                        "DistanceBetweenPositions(CursorX(), CursorY(), Investor.CenterX(), Investor.CenterY())",
-                        "<=",
-                        "75"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::CompareNumbers"
-                      },
-                      "parameters": [
-                        "GlobalVariable(playerGold)",
-                        "<",
-                        "GlobalVariable(toPay)"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ModVarObjetTxt"
-                      },
-                      "parameters": [
-                        "SpawnBox",
-                        "SpawnStatus",
-                        "=",
-                        "\"Cannot\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetObjectVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "SpawnBox",
-                        "doElse",
-                        "False"
-                      ]
-                    }
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "GlobalVariable(playerGold)",
+                    "<",
+                    "GlobalVariable(toPay)*Investor.Variable(Discount)"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarObjetTxt"
+                  },
+                  "parameters": [
+                    "SpawnBox",
+                    "SpawnStatus",
+                    "=",
+                    "\"Cannot\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "SpawnBox",
+                    "doElse",
+                    "False"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneInstancesCount"
+                  },
+                  "parameters": [
+                    "",
+                    "Investor",
+                    ">",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PickNearest"
+                  },
+                  "parameters": [
+                    "Investor",
+                    "CursorX()",
+                    "CursorY()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "DistanceBetweenPositions(CursorX(), CursorY(), Investor.CenterX(), Investor.CenterY())",
+                    ">",
+                    "75"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "GlobalVariable(playerGold)",
+                    "<",
+                    "GlobalVariable(toPay)"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarObjetTxt"
+                  },
+                  "parameters": [
+                    "SpawnBox",
+                    "SpawnStatus",
+                    "=",
+                    "\"Cannot\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "SpawnBox",
+                    "doElse",
+                    "False"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneInstancesCount"
+                  },
+                  "parameters": [
+                    "",
+                    "Investor",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "GlobalVariable(playerGold)",
+                    "<",
+                    "GlobalVariable(toPay)"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarObjetTxt"
+                  },
+                  "parameters": [
+                    "SpawnBox",
+                    "SpawnStatus",
+                    "=",
+                    "\"Cannot\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "SpawnBox",
+                    "doElse",
+                    "False"
                   ]
                 }
               ]
@@ -20087,14 +20659,52 @@
                 },
                 {
                   "type": {
-                    "inverted": true,
-                    "value": "SourisSurObjet"
+                    "value": "BuiltinCommonInstructions::Or"
                   },
-                  "parameters": [
-                    "Towers",
-                    "Towers",
-                    "",
-                    ""
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "SceneInstancesCount"
+                      },
+                      "parameters": [
+                        "",
+                        "Towers",
+                        "<=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::And"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "PickNearest"
+                          },
+                          "parameters": [
+                            "Towers",
+                            "CursorX()",
+                            "CursorY()",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "SourisSurObjet"
+                          },
+                          "parameters": [
+                            "Towers",
+                            "Towers",
+                            "",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
                   ]
                 }
               ],
@@ -20118,6 +20728,15 @@
                     "SpawnBox",
                     "doElse",
                     "False"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeColor"
+                  },
+                  "parameters": [
+                    "MapBackground",
+                    "\"102;43;43\""
                   ]
                 }
               ]
@@ -23711,49 +24330,6 @@
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "MouseButtonReleased"
-              },
-              "parameters": [
-                "",
-                "Left"
-              ]
-            },
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "Debug",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "CrisisNo",
-                "=",
-                "2"
-              ]
-            }
-          ]
-        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [

@@ -3911,6 +3911,16 @@
                 },
                 {
                   "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "CrisisSpawnNo",
+                    "!=",
+                    "5"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "VarObjet"
                   },
                   "parameters": [
@@ -3918,16 +3928,6 @@
                     "Range",
                     ">",
                     "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "VarGlobal"
-                  },
-                  "parameters": [
-                    "CrisisSpawnNo",
-                    "!=",
-                    "5"
                   ]
                 }
               ],
@@ -3938,22 +3938,22 @@
                   "conditions": [
                     {
                       "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Object",
+                        "RangeBoosted",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "Distance"
                       },
                       "parameters": [
                         "Object",
                         "DiscerningCitizen",
                         "DiscerningCitizen.Variable(Range)",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ObjectVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "Object",
-                        "RangeBoosted",
                         ""
                       ]
                     }
@@ -3979,7 +3979,7 @@
                         "Particles",
                         "\"155;155;155\"",
                         "NotifyCircle",
-                        "NotifyTween",
+                        "Tween",
                         "NotifyParticles",
                         ""
                       ]
