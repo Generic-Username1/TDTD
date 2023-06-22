@@ -1721,9 +1721,9 @@
                     "value": "ModVarScene"
                   },
                   "parameters": [
-                    "music_volume",
+                    "low_quality",
                     "=",
-                    "1"
+                    "0"
                   ]
                 }
               ]
