@@ -1992,6 +1992,21 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "FPSText",
+      "persistentUuid": "bd6ffdf4-eb31-42e1-987a-9f51b165410e",
+      "width": 0,
+      "x": 47,
+      "y": 1005,
+      "zOrder": 61,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -9356,6 +9371,26 @@
       "variables": [],
       "effects": [],
       "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "name": "FPSText",
+      "tags": "",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "0",
+        "opacity": 255,
+        "scale": 1,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "assets\\fonts\\AlbaSlab\\36px\\Alba Slab 36px.fnt",
+        "textureAtlasResourceName": "assets\\fonts\\AlbaSlab\\36px\\Alba Slab 36px.png",
+        "align": "left",
+        "wordWrap": true
+      }
     }
   ],
   "events": [
@@ -9435,6 +9470,38 @@
                     "",
                     "yes",
                     "yes"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "LowQuality",
+                    "True"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PauseAnimation"
+                  },
+                  "parameters": [
+                    "Map"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PauseAnimation"
+                  },
+                  "parameters": [
+                    "Base"
                   ]
                 }
               ]
@@ -9943,7 +10010,7 @@
                   "parameters": [
                     "wave",
                     "=",
-                    "0"
+                    "1"
                   ]
                 },
                 {
@@ -10027,7 +10094,7 @@
                   "parameters": [
                     "playerGold",
                     "=",
-                    "500"
+                    "5000"
                   ]
                 },
                 {
@@ -10691,11 +10758,26 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Continuous Events",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "BitmapText::BitmapTextObject::SetText"
+              },
+              "parameters": [
+                "FPSText",
+                "=",
+                "ToString(FPS::FPS())"
+              ]
+            }
+          ]
+        },
         {
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
@@ -11603,113 +11685,212 @@
                           "type": "BuiltinCommonInstructions::Repeat",
                           "repeatExpression": "Variable(waveData.qty)",
                           "conditions": [],
-                          "actions": [
+                          "actions": [],
+                          "events": [
                             {
-                              "type": {
-                                "value": "CreateByName"
-                              },
-                              "parameters": [
-                                "",
-                                "Enemies",
-                                "VariableString(waveData.name)",
-                                "Spawner.X()+RandomInRange(-100,100)",
-                                "Spawner.Y()+RandomInRange(-30,30)",
-                                ""
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "GlobalVariableAsBoolean"
+                                  },
+                                  "parameters": [
+                                    "LowQuality",
+                                    "True"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "CreateByName"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "Enemies",
+                                    "VariableString(waveData.name)",
+                                    "Spawner.X()+RandomInRange(-100,100)",
+                                    "Spawner.Y()+RandomInRange(-30,30)",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ChangeScale"
+                                  },
+                                  "parameters": [
+                                    "Enemies",
+                                    "=",
+                                    "0.4"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ChangePlan"
+                                  },
+                                  "parameters": [
+                                    "Enemies",
+                                    "=",
+                                    "30"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "EnableEffect"
+                                  },
+                                  "parameters": [
+                                    "Enemies",
+                                    "\"Glitch\"",
+                                    "no"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "EnableEffect"
+                                  },
+                                  "parameters": [
+                                    "Enemies",
+                                    "\"Aura\"",
+                                    "no"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "TDTD::EnemyV2::changeTarget"
+                                  },
+                                  "parameters": [
+                                    "Enemies",
+                                    "EnemyV2",
+                                    "1618",
+                                    "584",
+                                    ""
+                                  ]
+                                }
                               ]
                             },
                             {
-                              "type": {
-                                "value": "ChangeScale"
-                              },
-                              "parameters": [
-                                "Enemies",
-                                "=",
-                                "0.4"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "ChangePlan"
-                              },
-                              "parameters": [
-                                "Enemies",
-                                "=",
-                                "30"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "Create"
-                              },
-                              "parameters": [
-                                "",
-                                "EnemyHealthBar",
-                                "Enemies.X()",
-                                "Enemies.Y()",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetMaxValue"
-                              },
-                              "parameters": [
-                                "EnemyHealthBar",
-                                "=",
-                                "Enemies.Variable(Health)",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "ChangePlan"
-                              },
-                              "parameters": [
-                                "EnemyHealthBar",
-                                "=",
-                                "31"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "LinkedObjects::LinkObjects"
-                              },
-                              "parameters": [
-                                "",
-                                "Enemies",
-                                "EnemyHealthBar"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "TDTD::EnemyV2::changeTarget"
-                              },
-                              "parameters": [
-                                "Enemies",
-                                "EnemyV2",
-                                "1618",
-                                "584",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "EnableEffect"
-                              },
-                              "parameters": [
-                                "Enemies",
-                                "\"Glitch\"",
-                                "no"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "EnableEffect"
-                              },
-                              "parameters": [
-                                "Enemies",
-                                "\"Aura\"",
-                                "no"
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "inverted": true,
+                                    "value": "GlobalVariableAsBoolean"
+                                  },
+                                  "parameters": [
+                                    "LowQuality",
+                                    "True"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "CreateByName"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "Enemies",
+                                    "VariableString(waveData.name)",
+                                    "Spawner.X()+RandomInRange(-100,100)",
+                                    "Spawner.Y()+RandomInRange(-30,30)",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ChangeScale"
+                                  },
+                                  "parameters": [
+                                    "Enemies",
+                                    "=",
+                                    "0.4"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ChangePlan"
+                                  },
+                                  "parameters": [
+                                    "Enemies",
+                                    "=",
+                                    "30"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "EnableEffect"
+                                  },
+                                  "parameters": [
+                                    "Enemies",
+                                    "\"Glitch\"",
+                                    "no"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "EnableEffect"
+                                  },
+                                  "parameters": [
+                                    "Enemies",
+                                    "\"Aura\"",
+                                    "no"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "TDTD::EnemyV2::changeTarget"
+                                  },
+                                  "parameters": [
+                                    "Enemies",
+                                    "EnemyV2",
+                                    "1618",
+                                    "584",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "Create"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "EnemyHealthBar",
+                                    "Enemies.X()",
+                                    "Enemies.Y()",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetMaxValue"
+                                  },
+                                  "parameters": [
+                                    "EnemyHealthBar",
+                                    "=",
+                                    "Enemies.Variable(Health)",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ChangePlan"
+                                  },
+                                  "parameters": [
+                                    "EnemyHealthBar",
+                                    "=",
+                                    "31"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "LinkedObjects::LinkObjects"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "Enemies",
+                                    "EnemyHealthBar"
+                                  ]
+                                }
                               ]
                             }
                           ]
@@ -11736,124 +11917,234 @@
                           "type": "BuiltinCommonInstructions::Repeat",
                           "repeatExpression": "Variable(waveData.qty)",
                           "conditions": [],
-                          "actions": [
+                          "actions": [],
+                          "events": [
                             {
-                              "type": {
-                                "value": "Create"
-                              },
-                              "parameters": [
-                                "",
-                                "Terrorist",
-                                "Spawner.X()+RandomInRange(-100,100)",
-                                "Spawner.Y()+RandomInRange(-30,30)",
-                                ""
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "GlobalVariableAsBoolean"
+                                  },
+                                  "parameters": [
+                                    "LowQuality",
+                                    "True"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "Create"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "Terrorist",
+                                    "Spawner.X()+RandomInRange(-100,100)",
+                                    "Spawner.Y()+RandomInRange(-30,30)",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "TDTD::EnemyV2::changeTarget"
+                                  },
+                                  "parameters": [
+                                    "Enemies",
+                                    "EnemyV2",
+                                    "1618",
+                                    "584",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ChangeScale"
+                                  },
+                                  "parameters": [
+                                    "Terrorist",
+                                    "=",
+                                    "0.5"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ChangePlan"
+                                  },
+                                  "parameters": [
+                                    "Terrorist",
+                                    "=",
+                                    "30"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "PathfindingBehavior::MaxSpeed"
+                                  },
+                                  "parameters": [
+                                    "Terrorist",
+                                    "Pathfinding",
+                                    "=",
+                                    "50"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "EnableEffect"
+                                  },
+                                  "parameters": [
+                                    "Enemies",
+                                    "\"Glitch\"",
+                                    "no"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ModVarObjet"
+                                  },
+                                  "parameters": [
+                                    "Terrorist",
+                                    "Health",
+                                    "=",
+                                    "Variable(waveData.hp)"
+                                  ]
+                                }
                               ]
                             },
                             {
-                              "type": {
-                                "value": "TDTD::EnemyV2::changeTarget"
-                              },
-                              "parameters": [
-                                "Enemies",
-                                "EnemyV2",
-                                "1618",
-                                "584",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "ChangeScale"
-                              },
-                              "parameters": [
-                                "Terrorist",
-                                "=",
-                                "0.5"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "ChangePlan"
-                              },
-                              "parameters": [
-                                "Terrorist",
-                                "=",
-                                "30"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "PathfindingBehavior::MaxSpeed"
-                              },
-                              "parameters": [
-                                "Terrorist",
-                                "Pathfinding",
-                                "=",
-                                "50"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "EnableEffect"
-                              },
-                              "parameters": [
-                                "Enemies",
-                                "\"Glitch\"",
-                                "no"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "ModVarObjet"
-                              },
-                              "parameters": [
-                                "Terrorist",
-                                "Health",
-                                "=",
-                                "Variable(waveData.hp)"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "Create"
-                              },
-                              "parameters": [
-                                "",
-                                "EnemyHealthBar",
-                                "Terrorist.X()",
-                                "Terrorist.Y()",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetMaxValue"
-                              },
-                              "parameters": [
-                                "EnemyHealthBar",
-                                "=",
-                                "Terrorist.Variable(Health)",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "ChangePlan"
-                              },
-                              "parameters": [
-                                "EnemyHealthBar",
-                                "=",
-                                "31"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "LinkedObjects::LinkObjects"
-                              },
-                              "parameters": [
-                                "",
-                                "Terrorist",
-                                "EnemyHealthBar"
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "inverted": true,
+                                    "value": "GlobalVariableAsBoolean"
+                                  },
+                                  "parameters": [
+                                    "LowQuality",
+                                    "True"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "Create"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "Terrorist",
+                                    "Spawner.X()+RandomInRange(-100,100)",
+                                    "Spawner.Y()+RandomInRange(-30,30)",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "TDTD::EnemyV2::changeTarget"
+                                  },
+                                  "parameters": [
+                                    "Enemies",
+                                    "EnemyV2",
+                                    "1618",
+                                    "584",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ChangeScale"
+                                  },
+                                  "parameters": [
+                                    "Terrorist",
+                                    "=",
+                                    "0.5"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ChangePlan"
+                                  },
+                                  "parameters": [
+                                    "Terrorist",
+                                    "=",
+                                    "30"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "PathfindingBehavior::MaxSpeed"
+                                  },
+                                  "parameters": [
+                                    "Terrorist",
+                                    "Pathfinding",
+                                    "=",
+                                    "50"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "EnableEffect"
+                                  },
+                                  "parameters": [
+                                    "Enemies",
+                                    "\"Glitch\"",
+                                    "no"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ModVarObjet"
+                                  },
+                                  "parameters": [
+                                    "Terrorist",
+                                    "Health",
+                                    "=",
+                                    "Variable(waveData.hp)"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "Create"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "EnemyHealthBar",
+                                    "Terrorist.X()",
+                                    "Terrorist.Y()",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetMaxValue"
+                                  },
+                                  "parameters": [
+                                    "EnemyHealthBar",
+                                    "=",
+                                    "Terrorist.Variable(Health)",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ChangePlan"
+                                  },
+                                  "parameters": [
+                                    "EnemyHealthBar",
+                                    "=",
+                                    "31"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "LinkedObjects::LinkObjects"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "Terrorist",
+                                    "EnemyHealthBar"
+                                  ]
+                                }
                               ]
                             }
                           ]
@@ -12534,61 +12825,6 @@
             },
             {
               "type": {
-                "value": "Tween::AddObjectOpacityTween"
-              },
-              "parameters": [
-                "Enemies",
-                "Tween",
-                "\"EnemyFadeout\"",
-                "0",
-                "\"linear\"",
-                "750",
-                "yes"
-              ]
-            },
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "CommSupportEffect",
-                "CommunitySupportIcon.X()",
-                "CommunitySupportIcon.Y()",
-                "\"Top Layer\""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetCenter"
-              },
-              "parameters": [
-                "CommSupportEffect",
-                "=",
-                "CommunitySupportIcon.CenterX()",
-                "=",
-                "CommunitySupportIcon.CenterY()"
-              ]
-            },
-            {
-              "type": {
-                "value": "ShakeObject::ShakeObject_PositionAngleScale::ShakeObject_PositionAngleScale"
-              },
-              "parameters": [
-                "Base",
-                "ShakeObject_PositionAngleScale",
-                "0.8",
-                "10",
-                "8",
-                "8",
-                "8",
-                "0.15",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "PlaySound"
               },
               "parameters": [
@@ -12601,6 +12837,103 @@
             }
           ],
           "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "LowQuality",
+                    "True"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Tween::AddObjectOpacityTween"
+                  },
+                  "parameters": [
+                    "Enemies",
+                    "Tween",
+                    "\"EnemyFadeout\"",
+                    "0",
+                    "\"linear\"",
+                    "750",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ShakeObject::ShakeObject_PositionAngleScale::ShakeObject_PositionAngleScale"
+                  },
+                  "parameters": [
+                    "Base",
+                    "ShakeObject_PositionAngleScale",
+                    "0.8",
+                    "10",
+                    "8",
+                    "8",
+                    "8",
+                    "0.15",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "CommSupportEffect",
+                    "CommunitySupportIcon.X()",
+                    "CommunitySupportIcon.Y()",
+                    "\"Top Layer\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetCenter"
+                  },
+                  "parameters": [
+                    "CommSupportEffect",
+                    "=",
+                    "CommunitySupportIcon.CenterX()",
+                    "=",
+                    "CommunitySupportIcon.CenterY()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "LowQuality",
+                    "True"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Enemies",
+                    ""
+                  ]
+                }
+              ]
+            },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
@@ -17865,6 +18198,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Tower Attack",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -18090,18 +18424,6 @@
                   "parameters": [
                     "Towers",
                     "NegThoughts",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TDTD::TowerV2::selectivelyRemoveParticles"
-                  },
-                  "parameters": [
-                    "Towers",
-                    "TowerV2",
-                    "StatusParticles",
-                    "\"39;95;162\"",
                     ""
                   ]
                 },

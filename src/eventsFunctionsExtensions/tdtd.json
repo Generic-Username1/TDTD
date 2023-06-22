@@ -395,80 +395,6 @@
           "actions": [
             {
               "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "Particles",
-                "Particles",
-                "Tower.X()",
-                "Tower.Y()",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangePlan"
-              },
-              "parameters": [
-                "Particles",
-                "=",
-                "20"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetCenter"
-              },
-              "parameters": [
-                "Particles",
-                "=",
-                "Tower.CenterX()",
-                "=",
-                "Tower.CenterY()"
-              ]
-            },
-            {
-              "type": {
-                "value": "ParticleSystem::ParticleColor1"
-              },
-              "parameters": [
-                "Particles",
-                "GetArgumentAsString(\"Color\")"
-              ]
-            },
-            {
-              "type": {
-                "value": "ParticleSystem::ParticleColor2"
-              },
-              "parameters": [
-                "Particles",
-                "GetArgumentAsString(\"Color\")"
-              ]
-            },
-            {
-              "type": {
-                "value": "ModVarObjetTxt"
-              },
-              "parameters": [
-                "Particles",
-                "setColor",
-                "=",
-                "GetArgumentAsString(\"Color\")"
-              ]
-            },
-            {
-              "type": {
-                "value": "ModVarObjet"
-              },
-              "parameters": [
-                "Particles",
-                "bindID",
-                "=",
-                "Tower.Variable(ID)"
-              ]
-            },
-            {
-              "type": {
                 "value": "TDTD::SummonNotifyCircle"
               },
               "parameters": [
@@ -480,6 +406,99 @@
                 "Tower.CenterX()",
                 "Tower.CenterY()",
                 ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "LowQuality",
+                    "True"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "Particles",
+                    "Particles",
+                    "Tower.X()",
+                    "Tower.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "Particles",
+                    "=",
+                    "20"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetCenter"
+                  },
+                  "parameters": [
+                    "Particles",
+                    "=",
+                    "Tower.CenterX()",
+                    "=",
+                    "Tower.CenterY()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ParticleSystem::ParticleColor1"
+                  },
+                  "parameters": [
+                    "Particles",
+                    "GetArgumentAsString(\"Color\")"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ParticleSystem::ParticleColor2"
+                  },
+                  "parameters": [
+                    "Particles",
+                    "GetArgumentAsString(\"Color\")"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjetTxt"
+                  },
+                  "parameters": [
+                    "Particles",
+                    "setColor",
+                    "=",
+                    "GetArgumentAsString(\"Color\")"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Particles",
+                    "bindID",
+                    "=",
+                    "Tower.Variable(ID)"
+                  ]
+                }
               ]
             }
           ]
@@ -581,41 +600,10 @@
             },
             {
               "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "NotifyParticles",
-                "GetArgumentAsNumber(\"XPos\")",
-                "GetArgumentAsNumber(\"YPos\")",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangePlan"
-              },
-              "parameters": [
-                "NotifyParticles",
-                "=",
-                "20"
-              ]
-            },
-            {
-              "type": {
                 "value": "ChangeColor"
               },
               "parameters": [
                 "NotifyCircle",
-                "GetArgumentAsString(\"Color\")"
-              ]
-            },
-            {
-              "type": {
-                "value": "ParticleSystem::ParticleColor1"
-              },
-              "parameters": [
-                "NotifyParticles",
                 "GetArgumentAsString(\"Color\")"
               ]
             },
@@ -647,6 +635,56 @@
                 "\"easeOutQuad\"",
                 "600",
                 "yes"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "LowQuality",
+                    "True"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "NotifyParticles",
+                    "GetArgumentAsNumber(\"XPos\")",
+                    "GetArgumentAsNumber(\"YPos\")",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "NotifyParticles",
+                    "=",
+                    "20"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ParticleSystem::ParticleColor1"
+                  },
+                  "parameters": [
+                    "NotifyParticles",
+                    "GetArgumentAsString(\"Color\")"
+                  ]
+                }
               ]
             }
           ]
@@ -1269,6 +1307,7 @@
           "sentence": "[Upon Contact with _PARAM3_]  Set the speed of _PARAM0_ to _PARAM4_x for _PARAM5_ seconds",
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::ForEach",
               "object": "Projectile",
               "conditions": [],
@@ -1354,15 +1393,34 @@
                         "=",
                         "Object.Variable(MaxSpeed)*GetArgumentAsNumber(\"SpeedMultiplier\")"
                       ]
-                    },
+                    }
+                  ],
+                  "events": [
                     {
-                      "type": {
-                        "value": "EnableEffect"
-                      },
-                      "parameters": [
-                        "Object",
-                        "\"Glitch\"",
-                        "yes"
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "GlobalVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "LowQuality",
+                            "True"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "EnableEffect"
+                          },
+                          "parameters": [
+                            "Object",
+                            "\"Glitch\"",
+                            "yes"
+                          ]
+                        }
                       ]
                     }
                   ]
@@ -4824,23 +4882,6 @@
                     },
                     {
                       "type": {
-                        "value": "ShakeObject::ShakeObject_PositionAngleScale::ShakeObject_PositionAngleScale"
-                      },
-                      "parameters": [
-                        "Enemy",
-                        "Shaker",
-                        "0.3",
-                        "5",
-                        "5",
-                        "3",
-                        "3",
-                        "0.08",
-                        "",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
                         "value": "Delete"
                       },
                       "parameters": [
@@ -4856,6 +4897,42 @@
                         "Object",
                         "Behavior",
                         ""
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "GlobalVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "LowQuality",
+                            "True"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ShakeObject::ShakeObject_PositionAngleScale::ShakeObject_PositionAngleScale"
+                          },
+                          "parameters": [
+                            "Enemy",
+                            "Shaker",
+                            "0.3",
+                            "5",
+                            "5",
+                            "3",
+                            "3",
+                            "0.08",
+                            "",
+                            ""
+                          ]
+                        }
                       ]
                     }
                   ]
