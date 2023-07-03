@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4582277153203327,
+    "zoomFactor": 0.24401878436682234,
     "windowMask": true
   },
   "objectsGroups": [
@@ -1811,13 +1811,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 406,
+      "depth": 0,
+      "height": 217,
       "layer": "Top Layer",
       "name": "TutorialGuide",
       "persistentUuid": "21bb356e-5c10-4e96-9920-92d04d85efec",
-      "width": 978,
-      "x": 2324,
-      "y": 478,
+      "width": 1412,
+      "x": 2299,
+      "y": 769,
       "zOrder": 60,
       "numberProperties": [],
       "stringProperties": [],
@@ -8294,71 +8295,51 @@
       }
     },
     {
-      "assetStoreId": "3d6c54e76a9a06cbd7629c1e78388d4ab808bbf36d644c61d6a14c9ad34d4f89",
-      "name": "EnemyHealthBar",
+      "assetStoreId": "",
+      "name": "EnemyHealth",
       "tags": "",
-      "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
-      "content": {
-        "PreviousHighValueDuration": 0,
-        "ShowLabel": false,
-        "BarTopPadding": 2,
-        "BarBottomPadding": 3,
-        "BarLeftPadding": 2,
-        "BarRightPadding": 2,
-        "MaxValue": 16,
-        "InitialValue": 8,
-        "EasingDuration": 0
-      },
-      "childrenContent": {
-        "Background": {
-          "bottomMargin": 3,
-          "height": 10,
-          "leftMargin": 2,
-          "rightMargin": 2,
-          "texture": "Flat Bar White Border.png",
-          "tiled": true,
-          "topMargin": 2,
-          "width": 60
-        },
-        "Buffer": {
-          "bottomMargin": 0,
-          "height": 16,
-          "leftMargin": 0,
-          "rightMargin": 0,
-          "texture": "Flat Bar Red Fill Bar.png",
-          "tiled": true,
-          "topMargin": 0,
-          "width": 16
-        },
-        "FillBar": {
-          "bottomMargin": 0,
-          "height": 16,
-          "leftMargin": 0,
-          "rightMargin": 0,
-          "texture": "Flat Bar Red Fill Bar.png",
-          "tiled": true,
-          "topMargin": 0,
-          "width": 16
-        },
-        "Label": {
-          "bold": false,
-          "italic": false,
-          "smoothed": true,
-          "underlined": false,
-          "string": "8 / 16",
-          "font": "",
-          "textAlignment": "center",
-          "characterSize": 16,
-          "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
-          }
+      "behaviors": [
+        {
+          "name": "HealthBar",
+          "type": "TDTD::HealthBar"
         }
-      }
+      ],
+      "animations": [
+        {
+          "name": "HealthBar",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "HealthBar4",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "assetStoreId": "",
@@ -9427,53 +9408,6 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "grab.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "assetStoreId": "",
-      "name": "EnemyHealth",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "HealthBar",
-          "type": "TDTD::HealthBar"
-        }
-      ],
-      "animations": [
-        {
-          "name": "HealthBar",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "HealthBar2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -11943,7 +11877,7 @@
                                   },
                                   "parameters": [
                                     "",
-                                    "EnemyHealthBar",
+                                    "EnemyHealth",
                                     "Enemies.X()",
                                     "Enemies.Y()",
                                     ""
@@ -11951,11 +11885,11 @@
                                 },
                                 {
                                   "type": {
-                                    "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetMaxValue"
+                                    "value": "TDTD::HealthBar::SetMaxHealth"
                                   },
                                   "parameters": [
-                                    "EnemyHealthBar",
-                                    "=",
+                                    "EnemyHealth",
+                                    "HealthBar",
                                     "Enemies.Variable(Health)",
                                     ""
                                   ]
@@ -11965,7 +11899,7 @@
                                     "value": "ChangePlan"
                                   },
                                   "parameters": [
-                                    "EnemyHealthBar",
+                                    "EnemyHealth",
                                     "=",
                                     "31"
                                   ]
@@ -11977,7 +11911,7 @@
                                   "parameters": [
                                     "",
                                     "Enemies",
-                                    "EnemyHealthBar"
+                                    "EnemyHealth"
                                   ]
                                 }
                               ]
@@ -12089,7 +12023,7 @@
                               },
                               "parameters": [
                                 "",
-                                "EnemyHealthBar",
+                                "EnemyHealth",
                                 "Terrorist.X()",
                                 "Terrorist.Y()",
                                 ""
@@ -12097,12 +12031,12 @@
                             },
                             {
                               "type": {
-                                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetMaxValue"
+                                "value": "TDTD::HealthBar::SetMaxHealth"
                               },
                               "parameters": [
-                                "EnemyHealthBar",
-                                "=",
-                                "Terrorist.Variable(Health)",
+                                "EnemyHealth",
+                                "HealthBar",
+                                "Enemies.Variable(Health)",
                                 ""
                               ]
                             },
@@ -12111,7 +12045,7 @@
                                 "value": "ChangePlan"
                               },
                               "parameters": [
-                                "EnemyHealthBar",
+                                "EnemyHealth",
                                 "=",
                                 "31"
                               ]
@@ -12123,7 +12057,7 @@
                               "parameters": [
                                 "",
                                 "Terrorist",
-                                "EnemyHealthBar"
+                                "EnemyHealth"
                               ]
                             }
                           ]
@@ -13807,7 +13741,7 @@
               },
               "parameters": [
                 "",
-                "EnemyHealthBar",
+                "EnemyHealth",
                 "InternetTroll.X()",
                 "InternetTroll.Y()",
                 ""
@@ -13815,11 +13749,11 @@
             },
             {
               "type": {
-                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetMaxValue"
+                "value": "TDTD::HealthBar::SetMaxHealth"
               },
               "parameters": [
-                "EnemyHealthBar",
-                "=",
+                "EnemyHealth",
+                "HealthBar",
                 "InternetTroll.Variable(Health)",
                 ""
               ]
@@ -13829,7 +13763,7 @@
                 "value": "ChangePlan"
               },
               "parameters": [
-                "EnemyHealthBar",
+                "EnemyHealth",
                 "=",
                 "31"
               ]
@@ -13841,7 +13775,7 @@
               "parameters": [
                 "",
                 "InternetTroll",
-                "EnemyHealthBar"
+                "EnemyHealth"
               ]
             },
             {
@@ -13947,7 +13881,7 @@
               },
               "parameters": [
                 "",
-                "EnemyHealthBar",
+                "EnemyHealth",
                 "SelfRad.X()",
                 "SelfRad.Y()",
                 ""
@@ -13955,11 +13889,11 @@
             },
             {
               "type": {
-                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetMaxValue"
+                "value": "TDTD::HealthBar::SetMaxHealth"
               },
               "parameters": [
-                "EnemyHealthBar",
-                "=",
+                "EnemyHealth",
+                "HealthBar",
                 "SelfRad.Variable(Health)",
                 ""
               ]
@@ -13969,7 +13903,7 @@
                 "value": "ChangePlan"
               },
               "parameters": [
-                "EnemyHealthBar",
+                "EnemyHealth",
                 "=",
                 "31"
               ]
@@ -13981,7 +13915,7 @@
               "parameters": [
                 "",
                 "SelfRad",
-                "EnemyHealthBar"
+                "EnemyHealth"
               ]
             },
             {
@@ -14077,7 +14011,7 @@
               },
               "parameters": [
                 "",
-                "EnemyHealthBar",
+                "EnemyHealth",
                 "Terrorist.X()",
                 "Terrorist.Y()",
                 ""
@@ -14085,11 +14019,11 @@
             },
             {
               "type": {
-                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetMaxValue"
+                "value": "TDTD::HealthBar::SetMaxHealth"
               },
               "parameters": [
-                "EnemyHealthBar",
-                "=",
+                "EnemyHealth",
+                "HealthBar",
                 "Terrorist.Variable(Health)",
                 ""
               ]
@@ -14099,7 +14033,7 @@
                 "value": "ChangePlan"
               },
               "parameters": [
-                "EnemyHealthBar",
+                "EnemyHealth",
                 "=",
                 "31"
               ]
@@ -14111,7 +14045,7 @@
               "parameters": [
                 "",
                 "Terrorist",
-                "EnemyHealthBar"
+                "EnemyHealth"
               ]
             },
             {
@@ -14207,7 +14141,7 @@
               },
               "parameters": [
                 "",
-                "EnemyHealthBar",
+                "EnemyHealth",
                 "SelfRad.X()",
                 "SelfRad.Y()",
                 ""
@@ -14215,11 +14149,11 @@
             },
             {
               "type": {
-                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetMaxValue"
+                "value": "TDTD::HealthBar::SetMaxHealth"
               },
               "parameters": [
-                "EnemyHealthBar",
-                "=",
+                "EnemyHealth",
+                "HealthBar",
                 "SelfRad.Variable(Health)",
                 ""
               ]
@@ -14229,7 +14163,7 @@
                 "value": "ChangePlan"
               },
               "parameters": [
-                "EnemyHealthBar",
+                "EnemyHealth",
                 "=",
                 "31"
               ]
@@ -14241,7 +14175,7 @@
               "parameters": [
                 "",
                 "SelfRad",
-                "EnemyHealthBar"
+                "EnemyHealth"
               ]
             },
             {
@@ -14337,7 +14271,7 @@
               },
               "parameters": [
                 "",
-                "EnemyHealthBar",
+                "EnemyHealth",
                 "Terrorist.X()",
                 "Terrorist.Y()",
                 ""
@@ -14345,11 +14279,11 @@
             },
             {
               "type": {
-                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetMaxValue"
+                "value": "TDTD::HealthBar::SetMaxHealth"
               },
               "parameters": [
-                "EnemyHealthBar",
-                "=",
+                "EnemyHealth",
+                "HealthBar",
                 "Terrorist.Variable(Health)",
                 ""
               ]
@@ -14359,7 +14293,7 @@
                 "value": "ChangePlan"
               },
               "parameters": [
-                "EnemyHealthBar",
+                "EnemyHealth",
                 "=",
                 "31"
               ]
@@ -14371,7 +14305,7 @@
               "parameters": [
                 "",
                 "Terrorist",
-                "EnemyHealthBar"
+                "EnemyHealth"
               ]
             },
             {
@@ -14534,7 +14468,7 @@
               },
               "parameters": [
                 "",
-                "EnemyHealthBar",
+                "EnemyHealth",
                 "Terrorist.X()",
                 "Terrorist.Y()",
                 ""
@@ -14542,11 +14476,11 @@
             },
             {
               "type": {
-                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetMaxValue"
+                "value": "TDTD::HealthBar::SetMaxHealth"
               },
               "parameters": [
-                "EnemyHealthBar",
-                "=",
+                "EnemyHealth",
+                "HealthBar",
                 "Terrorist.Variable(Health)",
                 ""
               ]
@@ -14556,7 +14490,7 @@
                 "value": "ChangePlan"
               },
               "parameters": [
-                "EnemyHealthBar",
+                "EnemyHealth",
                 "=",
                 "31"
               ]
@@ -14568,7 +14502,7 @@
               "parameters": [
                 "",
                 "Terrorist",
-                "EnemyHealthBar"
+                "EnemyHealth"
               ]
             },
             {
@@ -14674,7 +14608,7 @@
               },
               "parameters": [
                 "",
-                "EnemyHealthBar",
+                "EnemyHealth",
                 "SelfRad.X()",
                 "SelfRad.Y()",
                 ""
@@ -14682,11 +14616,11 @@
             },
             {
               "type": {
-                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetMaxValue"
+                "value": "TDTD::HealthBar::SetMaxHealth"
               },
               "parameters": [
-                "EnemyHealthBar",
-                "=",
+                "EnemyHealth",
+                "HealthBar",
                 "SelfRad.Variable(Health)",
                 ""
               ]
@@ -14696,7 +14630,7 @@
                 "value": "ChangePlan"
               },
               "parameters": [
-                "EnemyHealthBar",
+                "EnemyHealth",
                 "=",
                 "31"
               ]
@@ -14708,7 +14642,7 @@
               "parameters": [
                 "",
                 "SelfRad",
-                "EnemyHealthBar"
+                "EnemyHealth"
               ]
             },
             {
@@ -14804,7 +14738,7 @@
               },
               "parameters": [
                 "",
-                "EnemyHealthBar",
+                "EnemyHealth",
                 "InternetTroll.X()",
                 "InternetTroll.Y()",
                 ""
@@ -14812,11 +14746,11 @@
             },
             {
               "type": {
-                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetMaxValue"
+                "value": "TDTD::HealthBar::SetMaxHealth"
               },
               "parameters": [
-                "EnemyHealthBar",
-                "=",
+                "EnemyHealth",
+                "HealthBar",
                 "InternetTroll.Variable(Health)",
                 ""
               ]
@@ -14826,7 +14760,7 @@
                 "value": "ChangePlan"
               },
               "parameters": [
-                "EnemyHealthBar",
+                "EnemyHealth",
                 "=",
                 "31"
               ]
@@ -14838,7 +14772,7 @@
               "parameters": [
                 "",
                 "InternetTroll",
-                "EnemyHealthBar"
+                "EnemyHealth"
               ]
             },
             {
@@ -14934,7 +14868,7 @@
               },
               "parameters": [
                 "",
-                "EnemyHealthBar",
+                "EnemyHealth",
                 "SelfRad.X()",
                 "SelfRad.Y()",
                 ""
@@ -14942,11 +14876,11 @@
             },
             {
               "type": {
-                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetMaxValue"
+                "value": "TDTD::HealthBar::SetMaxHealth"
               },
               "parameters": [
-                "EnemyHealthBar",
-                "=",
+                "EnemyHealth",
+                "HealthBar",
                 "SelfRad.Variable(Health)",
                 ""
               ]
@@ -14956,7 +14890,7 @@
                 "value": "ChangePlan"
               },
               "parameters": [
-                "EnemyHealthBar",
+                "EnemyHealth",
                 "=",
                 "31"
               ]
@@ -14968,7 +14902,7 @@
               "parameters": [
                 "",
                 "SelfRad",
-                "EnemyHealthBar"
+                "EnemyHealth"
               ]
             },
             {
@@ -15064,7 +14998,7 @@
               },
               "parameters": [
                 "",
-                "EnemyHealthBar",
+                "EnemyHealth",
                 "InternetTroll.X()",
                 "InternetTroll.Y()",
                 ""
@@ -15072,11 +15006,11 @@
             },
             {
               "type": {
-                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetMaxValue"
+                "value": "TDTD::HealthBar::SetMaxHealth"
               },
               "parameters": [
-                "EnemyHealthBar",
-                "=",
+                "EnemyHealth",
+                "HealthBar",
                 "InternetTroll.Variable(Health)",
                 ""
               ]
@@ -15086,7 +15020,7 @@
                 "value": "ChangePlan"
               },
               "parameters": [
-                "EnemyHealthBar",
+                "EnemyHealth",
                 "=",
                 "31"
               ]
@@ -15098,7 +15032,7 @@
               "parameters": [
                 "",
                 "InternetTroll",
-                "EnemyHealthBar"
+                "EnemyHealth"
               ]
             },
             {
@@ -18326,7 +18260,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Attack or Defend",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -19933,14 +19866,13 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Enemy Update Info",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
               "type": "BuiltinCommonInstructions::ForEach",
-              "object": "EnemyHealthBar",
+              "object": "EnemyHealth",
               "conditions": [],
               "actions": [],
               "events": [
@@ -19954,7 +19886,7 @@
                       "parameters": [
                         "",
                         "Enemies",
-                        "EnemyHealthBar",
+                        "EnemyHealth",
                         ""
                       ]
                     }
@@ -19962,11 +19894,11 @@
                   "actions": [
                     {
                       "type": {
-                        "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+                        "value": "TDTD::HealthBar::ChangeHealth"
                       },
                       "parameters": [
-                        "EnemyHealthBar",
-                        "=",
+                        "EnemyHealth",
+                        "HealthBar",
                         "Enemies.Variable(Health)",
                         ""
                       ]
@@ -19976,7 +19908,7 @@
                         "value": "SetCenter"
                       },
                       "parameters": [
-                        "EnemyHealthBar",
+                        "EnemyHealth",
                         "=",
                         "Enemies.CenterX()",
                         "=",
@@ -19996,7 +19928,7 @@
                       "parameters": [
                         "",
                         "Enemies",
-                        "EnemyHealthBar",
+                        "EnemyHealth",
                         ""
                       ]
                     }
@@ -20007,7 +19939,7 @@
                         "value": "Delete"
                       },
                       "parameters": [
-                        "EnemyHealthBar",
+                        "EnemyHealth",
                         ""
                       ]
                     }
@@ -29965,7 +29897,7 @@
               "parameters": [
                 "TutorialGuide",
                 "=",
-                "\"The enemy Terrorist has been killed! Hooray!\nOn the top of the screen you'll see you have 5 Community Support points. Each time an enemy gets to the base you lose 1 point. If an enemy reaches your base at 0 points you lose, so don't let them get close!\""
+                "\"The enemy Terrorist has been killed!\nOn the top of the screen you'll see you have 5 Community Support points. Each time an enemy gets to the base you lose 1 point. If an enemy reaches your base at 0 points, you lose!\""
               ]
             },
             {
@@ -30200,7 +30132,7 @@
               "parameters": [
                 "TutorialGuide",
                 "=",
-                "\"The enemy Terrorist has been killed! Hooray!\nOn the top of the screen you'll see you have 5 Community Support points. Each time an enemy gets to the base you lose 1 point. If an enemy reaches your base at 0 points you lose, so don't let them get close!\""
+                "\"The enemy Terrorist has been killed!\nOn the top of the screen you'll see you have 5 Community Support points. Each time an enemy gets to the base you lose 1 point. If an enemy reaches your base at 0 points, you lose!\""
               ]
             }
           ],
