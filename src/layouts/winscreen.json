@@ -917,7 +917,34 @@
             "value": "FlipX"
           },
           "parameters": [
+            "CaringCitizen",
+            "yes"
+          ]
+        },
+        {
+          "type": {
+            "value": "FlipX"
+          },
+          "parameters": [
+            "CommLeader",
+            "yes"
+          ]
+        },
+        {
+          "type": {
+            "value": "FlipX"
+          },
+          "parameters": [
             "Soldier",
+            "yes"
+          ]
+        },
+        {
+          "type": {
+            "value": "FlipX"
+          },
+          "parameters": [
+            "Cheerleader",
             "yes"
           ]
         },

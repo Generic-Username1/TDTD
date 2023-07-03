@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.17648202187702824,
+    "zoomFactor": 0.43209876543209913,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -29,7 +29,7 @@
       "customSize": true,
       "height": 1160,
       "layer": "",
-      "name": "NewSprite",
+      "name": "oraoraora",
       "persistentUuid": "922f0ddd-1bfd-4cf9-871d-3cba69c024d2",
       "width": 1758,
       "x": -77,
@@ -83,12 +83,27 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "SkipText",
+      "persistentUuid": "654194ba-c9e5-4289-8803-89eba141a20c",
+      "width": 0,
+      "x": 32,
+      "y": 1034,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
     {
       "assetStoreId": "",
-      "name": "NewSprite",
+      "name": "oraoraora",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -267,6 +282,26 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "SkipText",
+      "tags": "",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Tap anywhere to skip",
+        "opacity": 255,
+        "scale": 1,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "assets\\fonts\\AlbaSlab\\24px\\Alba Slab 24px.fnt",
+        "textureAtlasResourceName": "assets\\fonts\\AlbaSlab\\24px\\Alba Slab 24px.png",
+        "align": "left",
+        "wordWrap": true
+      }
     }
   ],
   "events": [
@@ -283,6 +318,26 @@
         }
       ],
       "actions": [
+        {
+          "type": {
+            "value": "SetFullScreen"
+          },
+          "parameters": [
+            "",
+            "yes",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BitmapText::BitmapTextObject::SetOpacity"
+          },
+          "parameters": [
+            "SkipText",
+            "=",
+            "100"
+          ]
+        },
         {
           "type": {
             "value": "Opacity"
@@ -472,6 +527,32 @@
             "1"
           ]
         },
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"MainMenu\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "MouseButtonReleased"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        }
+      ],
+      "actions": [
         {
           "type": {
             "value": "Scene"

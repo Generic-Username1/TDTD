@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5061631522790275,
+    "zoomFactor": 0.4582277153203327,
     "windowMask": true
   },
   "objectsGroups": [
@@ -1666,8 +1666,8 @@
       "name": "SpawnRailEast",
       "persistentUuid": "c28105a9-7ab6-47c9-80ab-400178b80e58",
       "width": 32,
-      "x": 1126,
-      "y": 405,
+      "x": 1128,
+      "y": 407,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -5825,7 +5825,7 @@
           "folded": true,
           "name": "Damage",
           "type": "number",
-          "value": 25
+          "value": 20
         },
         {
           "folded": true,
@@ -8778,7 +8778,7 @@
         }
       ],
       "content": {
-        "radius": 100,
+        "radius": 25,
         "color": "255;255;255",
         "debugMode": false,
         "texture": ""
@@ -9342,6 +9342,157 @@
         "align": "left",
         "wordWrap": true
       }
+    },
+    {
+      "assetStoreId": "",
+      "name": "TutorialCursor",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "palm",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "palm.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "point",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "point.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "grab",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "grab.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "EnemyHealth",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "HealthBar",
+          "type": "TDTD::HealthBar"
+        }
+      ],
+      "animations": [
+        {
+          "name": "HealthBar",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "HealthBar2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
@@ -9350,7 +9501,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Initialization",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -9910,7 +10060,18 @@
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Tutorial",
+                    "True"
+                  ]
+                }
+              ],
               "actions": [
                 {
                   "type": {
@@ -10055,16 +10216,6 @@
                     "value": "ModVarGlobal"
                   },
                   "parameters": [
-                    "UnlockedTier",
-                    "=",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
                     "CommSupportAmt",
                     "=",
                     "5"
@@ -10113,17 +10264,7 @@
                   "parameters": [
                     "playerGold",
                     "=",
-                    "50000"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "UnlockedTier",
-                    "=",
-                    "1"
+                    "10000"
                   ]
                 },
                 {
@@ -10251,6 +10392,14 @@
                   "parameters": [
                     "ShopIsOpen",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "TowerCap"
                   ]
                 },
                 {
@@ -10709,7 +10858,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Continuous Events",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -19906,7 +20054,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "SpawnBox and Spawning",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -20013,9 +20160,20 @@
             },
             {
               "type": {
-                "value": "ChangeTimeScale"
+                "value": "ChangeLayerTimeScale"
               },
               "parameters": [
+                "",
+                "\"Bottom Layer\"",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeLayerTimeScale"
+              },
+              "parameters": [
+                "",
                 "",
                 "0"
               ]
@@ -20076,9 +20234,10 @@
             },
             {
               "type": {
-                "value": "TimeScale"
+                "value": "LayerTimeScale"
               },
               "parameters": [
+                "",
                 "",
                 "!=",
                 "0"
@@ -20118,6 +20277,15 @@
                 "SpawnBox",
                 ">",
                 "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonPressed"
+              },
+              "parameters": [
+                "",
+                "Left"
               ]
             }
           ],
@@ -20729,14 +20897,55 @@
                     "doElse",
                     "False"
                   ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "TutorialPart",
+                    "=",
+                    "1"
+                  ]
                 },
                 {
                   "type": {
-                    "value": "ChangeColor"
+                    "inverted": true,
+                    "value": "SourisSurObjet"
                   },
                   "parameters": [
-                    "MapBackground",
-                    "\"102;43;43\""
+                    "TutorialLight",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarObjetTxt"
+                  },
+                  "parameters": [
+                    "SpawnBox",
+                    "SpawnStatus",
+                    "=",
+                    "\"Cannot\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "SpawnBox",
+                    "doElse",
+                    "False"
                   ]
                 }
               ]
@@ -20923,12 +21132,13 @@
                       "conditions": [
                         {
                           "type": {
-                            "value": "CollisionPoint"
+                            "value": "SourisSurObjet"
                           },
                           "parameters": [
                             "SpawnRailNorth",
                             "CursorX()",
-                            "CursorY()"
+                            "yes",
+                            ""
                           ]
                         }
                       ],
@@ -20974,12 +21184,13 @@
                       "conditions": [
                         {
                           "type": {
-                            "value": "CollisionPoint"
+                            "value": "SourisSurObjet"
                           },
                           "parameters": [
                             "SpawnRailEast",
                             "CursorX()",
-                            "CursorX()"
+                            "yes",
+                            ""
                           ]
                         }
                       ],
@@ -21025,12 +21236,13 @@
                       "conditions": [
                         {
                           "type": {
-                            "value": "CollisionPoint"
+                            "value": "SourisSurObjet"
                           },
                           "parameters": [
                             "SpawnRailSouth",
                             "CursorX()",
-                            "CursorY()"
+                            "yes",
+                            ""
                           ]
                         }
                       ],
@@ -21076,12 +21288,13 @@
                       "conditions": [
                         {
                           "type": {
-                            "value": "CollisionPoint"
+                            "value": "SourisSurObjet"
                           },
                           "parameters": [
                             "SpawnRailWest",
                             "CursorX()",
-                            "CursorY()"
+                            "yes",
+                            ""
                           ]
                         }
                       ],
@@ -23884,11 +24097,29 @@
                   "subInstructions": [
                     {
                       "type": {
-                        "value": "AnimationName"
+                        "value": "BuiltinCommonInstructions::And"
                       },
-                      "parameters": [
-                        "SpawnBox",
-                        "\"CannotSpawn\""
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "AnimationName"
+                          },
+                          "parameters": [
+                            "SpawnBox",
+                            "\"CannotSpawn\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "VarGlobal"
+                          },
+                          "parameters": [
+                            "TutorialPart",
+                            "!=",
+                            "1"
+                          ]
+                        }
                       ]
                     },
                     {
@@ -24000,15 +24231,6 @@
                   "parameters": [
                     "RangePainter",
                     "\"255;255;255\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ChangeTimeScale"
-                  },
-                  "parameters": [
-                    "",
-                    "1"
                   ]
                 },
                 {
@@ -24311,6 +24533,26 @@
                     "-100",
                     "=",
                     "-100"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeLayerTimeScale"
+                  },
+                  "parameters": [
+                    "",
+                    "",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeLayerTimeScale"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Bottom Layer\"",
+                    "1"
                   ]
                 }
               ]
@@ -28156,7 +28398,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Buy Stuff",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -28194,15 +28435,6 @@
                     "toPay",
                     "=",
                     "ToNumber(ShopCostTop.Text())"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ChangeTimeScale"
-                  },
-                  "parameters": [
-                    "",
-                    "0"
                   ]
                 }
               ],
@@ -28544,15 +28776,6 @@
                     "=",
                     "ToNumber(ShopCostBottom.Text())"
                   ]
-                },
-                {
-                  "type": {
-                    "value": "ChangeTimeScale"
-                  },
-                  "parameters": [
-                    "",
-                    "0"
-                  ]
                 }
               ],
               "events": [
@@ -28869,7 +29092,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Tutorial Stuff",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -28885,6 +29107,63 @@
             "textR": 0
           },
           "comment": "Tutorial Lore????????????"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "TutorialOkButton",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "value": "BitmapText::BitmapTextObject::Text"
+              },
+              "parameters": [
+                "TutorialGuide",
+                "=",
+                "\"Welcome, Guardian of Singapore! Before you set out to defend our country, you must know how to do so.\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "BitmapText::BitmapTextObject::SetText"
+              },
+              "parameters": [
+                "TutorialGuide",
+                "=",
+                "\"You are not alone. The Total Defence Towers of Defence have offered their help in defending the city.\""
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "TutorialGuide",
+                "=",
+                "810-TutorialGuide.Width()/2"
+              ]
+            }
+          ]
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -29025,7 +29304,7 @@
               },
               "parameters": [
                 "TutorialLight",
-                "TutorialLight",
+                "TutorialCursor",
                 "CursorX()",
                 "CursorY()",
                 "\"Top Layer\""
@@ -29036,13 +29315,13 @@
                 "value": "Tween::AddObjectPositionTween"
               },
               "parameters": [
-                "TutorialLight",
+                "TutorialCursor",
                 "Tween",
-                "\"Move\"",
-                "1555",
-                "55",
-                "\"easeOutQuad\"",
-                "750",
+                "\"MoveToClick\"",
+                "1490",
+                "20",
+                "\"easeInOutSine\"",
+                "2000",
                 ""
               ]
             }
@@ -29053,54 +29332,33 @@
           "conditions": [
             {
               "type": {
-                "value": "SourisSurObjet"
+                "value": "Tween::HasFinished"
               },
               "parameters": [
-                "TutorialOkButton",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "MouseButtonReleased"
-              },
-              "parameters": [
-                "",
-                "Left"
-              ]
-            },
-            {
-              "type": {
-                "value": "BitmapText::BitmapTextObject::Text"
-              },
-              "parameters": [
-                "TutorialGuide",
-                "=",
-                "\"Welcome, Guardian of Singapore! Before you set out to defend our country, you must know how to do so.\""
+                "TutorialCursor",
+                "Tween",
+                "\"MoveToClick\""
               ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "BitmapText::BitmapTextObject::SetText"
+                "value": "SetAnimationName"
               },
               "parameters": [
-                "TutorialGuide",
-                "=",
-                "\"You are not alone. The Total Defence Towers of Defence have offered their help in defending the city.\""
+                "TutorialCursor",
+                "\"point\""
               ]
             },
             {
               "type": {
-                "value": "MettreX"
+                "value": "Tween::RemoveTween"
               },
               "parameters": [
-                "TutorialGuide",
-                "=",
-                "810-TutorialGuide.Width()/2"
+                "TutorialCursor",
+                "Tween",
+                "\"MoveToClick\""
               ]
             }
           ]
@@ -29157,17 +29415,61 @@
             },
             {
               "type": {
+                "value": "Tween::StopTween"
+              },
+              "parameters": [
+                "TutorialCursor",
+                "Tween",
+                "\"MoveToClick\"",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "TutorialCursor",
+                "\"palm\""
+              ]
+            },
+            {
+              "type": {
                 "value": "Tween::AddObjectPositionTween"
               },
               "parameters": [
-                "TutorialLight",
+                "TutorialCursor",
                 "Tween",
-                "\"Move\"",
-                "1515",
-                "255",
-                "\"easeOutQuad\"",
-                "250",
+                "\"MoveToGrab\"",
+                "1415",
+                "200",
+                "\"easeInOutSine\"",
+                "1000",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "TutorialLight",
+                "0",
+                "0",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCenter"
+              },
+              "parameters": [
+                "TutorialLight",
+                "=",
+                "480",
+                "=",
+                "400"
               ]
             },
             {
@@ -29207,31 +29509,64 @@
             },
             {
               "type": {
-                "value": "GlobalVariableAsBoolean"
+                "value": "Tween::HasFinished"
               },
               "parameters": [
-                "SpawnBoxAppear",
-                "True"
+                "TutorialCursor",
+                "Tween",
+                "\"MoveToGrab\""
               ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "SetCenter"
+                "value": "Tween::RemoveTween"
               },
               "parameters": [
-                "TutorialLight",
-                "=",
-                "480",
-                "=",
-                "400"
+                "TutorialCursor",
+                "Tween",
+                "\"MoveToGrab\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.35"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "TutorialCursor",
+                "\"grab\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.35"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::AddObjectPositionTween"
+              },
+              "parameters": [
+                "TutorialCursor",
+                "Tween",
+                "\"MoveToRelease\"",
+                "400",
+                "320",
+                "\"easeInOutSine\"",
+                "2000",
+                ""
               ]
             }
           ]
@@ -29251,42 +29586,208 @@
             },
             {
               "type": {
-                "value": "SceneVariableAsBoolean"
+                "value": "Tween::HasFinished"
               },
               "parameters": [
-                "ShopIsOpen",
-                "False"
+                "TutorialCursor",
+                "Tween",
+                "\"MoveToRelease\""
               ]
-            },
-            {
-              "type": {
-                "value": "GlobalVariableAsBoolean"
-              },
-              "parameters": [
-                "SpawnBoxAppear",
-                "False"
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
             }
           ],
           "actions": [
             {
               "type": {
+                "value": "Tween::RemoveTween"
+              },
+              "parameters": [
+                "TutorialCursor",
+                "Tween",
+                "\"MoveToRelease\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.35"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "TutorialCursor",
+                "\"palm\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::AddObjectOpacityTween"
+              },
+              "parameters": [
+                "TutorialCursor",
+                "Tween",
+                "\"FadeOut\"",
+                "0",
+                "\"easeInOutSine\"",
+                "1000",
+                "2000"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "TutorialPart",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "value": "VarObjetTxt"
+              },
+              "parameters": [
+                "SpawnBox",
+                "SpawnStatus",
+                "=",
+                "\"Can\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::StopTween"
+              },
+              "parameters": [
+                "TutorialCursor",
+                "Tween",
+                "\"MoveToGrab\"",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::RemoveTween"
+              },
+              "parameters": [
+                "TutorialCursor",
+                "Tween",
+                "\"MoveToGrab\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::StopTween"
+              },
+              "parameters": [
+                "TutorialCursor",
+                "Tween",
+                "\"MoveToRelease\"",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::RemoveTween"
+              },
+              "parameters": [
+                "TutorialCursor",
+                "Tween",
+                "\"MoveToRelease\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::StopTween"
+              },
+              "parameters": [
+                "TutorialCursor",
+                "Tween",
+                "\"FadeOut\"",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::RemoveTween"
+              },
+              "parameters": [
+                "TutorialCursor",
+                "Tween",
+                "\"FadeOut\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCenter"
+              },
+              "parameters": [
+                "TutorialCursor",
+                "=",
+                "CursorX()",
+                "=",
+                "CursorY()"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.35"
+              ]
+            },
+            {
+              "type": {
+                "value": "Opacity"
+              },
+              "parameters": [
+                "TutorialCursor",
+                "=",
+                "255"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "TutorialCursor",
+                "\"palm\""
+              ]
+            },
+            {
+              "type": {
                 "value": "Tween::AddObjectPositionTween"
               },
               "parameters": [
-                "TutorialLight",
+                "TutorialCursor",
                 "Tween",
-                "\"Move\"",
-                "1555",
-                "55",
-                "\"easeOutQuad\"",
-                "750",
+                "\"MoveToClick\"",
+                "30",
+                "960",
+                "\"easeInOutSine\"",
+                "2000",
                 ""
               ]
             }
@@ -29359,6 +29860,15 @@
               },
               "parameters": [
                 "TutorialLight",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "TutorialCursor",
                 ""
               ]
             },
@@ -29780,7 +30290,7 @@
               },
               "parameters": [
                 "TutorialLight",
-                "TutorialLight",
+                "TutorialCursor",
                 "CursorX()",
                 "CursorY()",
                 "\"Top Layer\""
@@ -29791,13 +30301,13 @@
                 "value": "Tween::AddObjectPositionTween"
               },
               "parameters": [
-                "TutorialLight",
+                "TutorialCursor",
                 "Tween",
-                "\"Move\"",
-                "1555",
-                "55",
-                "\"easeOutQuad\"",
-                "750",
+                "\"MoveToClick\"",
+                "1490",
+                "20",
+                "\"easeInOutSine\"",
+                "2000",
                 ""
               ]
             }
@@ -29849,16 +30359,46 @@
           "actions": [
             {
               "type": {
+                "value": "Tween::StopTween"
+              },
+              "parameters": [
+                "TutorialCursor",
+                "Tween",
+                "\"MoveToClick\"",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::RemoveTween"
+              },
+              "parameters": [
+                "TutorialCursor",
+                "Tween",
+                "\"MoveToClick\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "TutorialCursor",
+                "\"palm\""
+              ]
+            },
+            {
+              "type": {
                 "value": "Tween::AddObjectPositionTween"
               },
               "parameters": [
-                "TutorialLight",
+                "TutorialCursor",
                 "Tween",
-                "\"Move\"",
-                "1085",
-                "335",
-                "\"easeOutQuad\"",
-                "250",
+                "\"MoveToClick\"",
+                "1000",
+                "300",
+                "\"easeInOutSine\"",
+                "1000",
                 ""
               ]
             },
@@ -29915,21 +30455,57 @@
                 "ShopIsOpen",
                 "True"
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
             {
               "type": {
+                "value": "Tween::RemoveTween"
+              },
+              "parameters": [
+                "TutorialCursor",
+                "Tween",
+                "\"MoveToClick\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::StopTween"
+              },
+              "parameters": [
+                "TutorialCursor",
+                "Tween",
+                "\"MoveToClick\"",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "TutorialCursor",
+                "\"palm\""
+              ]
+            },
+            {
+              "type": {
                 "value": "Tween::AddObjectPositionTween"
               },
               "parameters": [
-                "TutorialLight",
+                "TutorialCursor",
                 "Tween",
-                "\"Move\"",
-                "1515",
-                "255",
-                "\"easeOutQuad\"",
-                "250",
+                "\"MoveToGrab\"",
+                "1415",
+                "200",
+                "\"easeInOutSine\"",
+                "1000",
                 ""
               ]
             }
@@ -29950,28 +30526,78 @@
             },
             {
               "type": {
-                "value": "GlobalVariableAsBoolean"
+                "value": "Tween::HasFinished"
               },
               "parameters": [
-                "SpawnBoxAppear",
-                "True"
+                "TutorialCursor",
+                "Tween",
+                "\"MoveToGrab\""
               ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "Delete"
+                "value": "Tween::RemoveTween"
               },
               "parameters": [
-                "TutorialLight",
-                "="
+                "TutorialCursor",
+                "Tween",
+                "\"MoveToGrab\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.35"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "TutorialCursor",
+                "\"grab\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.35"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::AddObjectPositionTween"
+              },
+              "parameters": [
+                "TutorialCursor",
+                "Tween",
+                "\"MoveToRelease\"",
+                "500",
+                "500",
+                "\"easeInOutSine\"",
+                "2000",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::AddObjectOpacityTween"
+              },
+              "parameters": [
+                "TutorialCursor",
+                "Tween",
+                "\"FadeOut\"",
+                "0",
+                "\"easeInOutSine\"",
+                "2000",
+                "yes"
               ]
             }
           ]
@@ -30158,6 +30784,173 @@
             },
             {
               "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "TutorialOkButton",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "BitmapText::BitmapTextObject::SetText"
+              },
+              "parameters": [
+                "TutorialGuide",
+                "=",
+                "\"Towers can also be upgraded to improve their abilities, but for a price! Upgrade any tower by clicking on them and clicking the green upgrade button.\""
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "TutorialGuide",
+                "=",
+                "810-TutorialGuide.Width()/2"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "TutorialOkButton",
+                "=",
+                "1700"
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "TutorialLight",
+                "TutorialCursor",
+                "CursorX()",
+                "CursorY()",
+                "\"Top Layer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::AddObjectPositionTween"
+              },
+              "parameters": [
+                "TutorialCursor",
+                "Tween",
+                "\"MoveToClick\"",
+                "Soldier.CenterX()-60",
+                "Soldier.CenterY()-60",
+                "\"easeInOutSine\"",
+                "2000",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "TutorialPart",
+                "=",
+                "4"
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Towers",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::StopTween"
+              },
+              "parameters": [
+                "TutorialCursor",
+                "Tween",
+                "\"MoveToClick\"",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::RemoveTween"
+              },
+              "parameters": [
+                "TutorialCursor",
+                "Tween",
+                "\"MoveToClick\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::AddObjectPositionTween"
+              },
+              "parameters": [
+                "TutorialCursor",
+                "Tween",
+                "\"MoveToClick\"",
+                "UpgradeButton.CenterX()-70",
+                "UpgradeButton.CenterY()-40",
+                "\"easeInOutSine\"",
+                "500",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "TutorialPart",
+                "=",
+                "4"
+              ]
+            },
+            {
+              "type": {
                 "value": "ObjectVariableAsBoolean"
               },
               "parameters": [
@@ -30183,7 +30976,7 @@
                 "value": "Delete"
               },
               "parameters": [
-                "TutorialLight",
+                "TutorialCursor",
                 ""
               ]
             },
@@ -30262,6 +31055,18 @@
           ]
         },
         {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Tutorial Part 5: Cheerleader"
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -30271,7 +31076,7 @@
               "parameters": [
                 "TutorialPart",
                 "=",
-                "4"
+                "5"
               ]
             },
             {
@@ -30293,6 +31098,16 @@
                 "",
                 "Left"
               ]
+            },
+            {
+              "type": {
+                "value": "BitmapText::BitmapTextObject::Text"
+              },
+              "parameters": [
+                "TutorialGuide",
+                "=",
+                "\"Great! Now you know how to make your towers stronger!\nYou can also check out what upgraded Towers do by clicking on the tower's icon in the shop!\""
+              ]
             }
           ],
           "actions": [
@@ -30303,7 +31118,7 @@
               "parameters": [
                 "TutorialGuide",
                 "=",
-                "\"Towers can also be upgraded to improve their abilities, but for a price! Upgrade any tower by clicking on them and clicking the green upgrade button.\""
+                "\"Towers can also be boosted by other towers! For instance, having a Cheerleader near your towers will boost their fire rate! Buy a Cheerleader from the shop and place it near a Soldier.\""
               ]
             },
             {
@@ -30332,7 +31147,7 @@
               },
               "parameters": [
                 "TutorialLight",
-                "TutorialLight",
+                "TutorialCursor",
                 "CursorX()",
                 "CursorY()",
                 "\"Top Layer\""
@@ -30343,29 +31158,360 @@
                 "value": "Tween::AddObjectPositionTween"
               },
               "parameters": [
-                "TutorialLight",
+                "TutorialCursor",
                 "Tween",
-                "\"Move\"",
-                "Soldier.CenterX()",
-                "Soldier.CenterY()",
-                "\"easeOutQuad\"",
-                "750",
+                "\"MoveToClick\"",
+                "1490",
+                "20",
+                "\"easeInOutSine\"",
+                "2000",
                 ""
               ]
             }
           ]
         },
         {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Tutorial Part 5: Cheerleader"
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "TutorialPart",
+                "=",
+                "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "VarSceneTxt"
+              },
+              "parameters": [
+                "ShopPillar",
+                "!=",
+                "\"Psychological\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SceneVariableAsBoolean"
+              },
+              "parameters": [
+                "ShopIsOpen",
+                "True"
+              ]
+            },
+            {
+              "type": {
+                "value": "BitmapText::BitmapTextObject::Text"
+              },
+              "parameters": [
+                "TutorialGuide",
+                "=",
+                "\"Towers can also be boosted by other towers! For instance, having a Cheerleader near your towers will boost their fire rate! Buy a Cheerleader from the shop and place it near a Soldier.\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::StopTween"
+              },
+              "parameters": [
+                "TutorialCursor",
+                "Tween",
+                "\"MoveToClick\"",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::RemoveTween"
+              },
+              "parameters": [
+                "TutorialCursor",
+                "Tween",
+                "\"MoveToClick\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "TutorialCursor",
+                "\"palm\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::AddObjectPositionTween"
+              },
+              "parameters": [
+                "TutorialCursor",
+                "Tween",
+                "\"MoveToClick\"",
+                "1000",
+                "160",
+                "\"easeInOutSine\"",
+                "1000",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BitmapText::BitmapTextObject::SetText"
+              },
+              "parameters": [
+                "TutorialGuide",
+                "=",
+                "\"Cheerleader can be found under the red Psychological tab. Remember to place it in range of the Soldier!\""
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "TutorialGuide",
+                "=",
+                "810-TutorialGuide.Width()/2"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "TutorialPart",
+                "=",
+                "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "VarSceneTxt"
+              },
+              "parameters": [
+                "ShopPillar",
+                "=",
+                "\"Psychological\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SceneVariableAsBoolean"
+              },
+              "parameters": [
+                "ShopIsOpen",
+                "True"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::RemoveTween"
+              },
+              "parameters": [
+                "TutorialCursor",
+                "Tween",
+                "\"MoveToClick\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::StopTween"
+              },
+              "parameters": [
+                "TutorialCursor",
+                "Tween",
+                "\"MoveToClick\"",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "TutorialCursor",
+                "\"palm\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::AddObjectPositionTween"
+              },
+              "parameters": [
+                "TutorialCursor",
+                "Tween",
+                "\"MoveToGrab\"",
+                "1415",
+                "200",
+                "\"easeInOutSine\"",
+                "1000",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "TutorialPart",
+                "=",
+                "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::HasFinished"
+              },
+              "parameters": [
+                "TutorialCursor",
+                "Tween",
+                "\"MoveToGrab\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::RemoveTween"
+              },
+              "parameters": [
+                "TutorialCursor",
+                "Tween",
+                "\"MoveToGrab\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.35"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "TutorialCursor",
+                "\"grab\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.35"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::AddObjectPositionTween"
+              },
+              "parameters": [
+                "TutorialCursor",
+                "Tween",
+                "\"MoveToRelease\"",
+                "450",
+                "480",
+                "\"easeInOutSine\"",
+                "2000",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "TutorialPart",
+                "=",
+                "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::HasFinished"
+              },
+              "parameters": [
+                "TutorialCursor",
+                "Tween",
+                "\"MoveToRelease\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::RemoveTween"
+              },
+              "parameters": [
+                "TutorialCursor",
+                "Tween",
+                "\"MoveToRelease\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.35"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "TutorialCursor",
+                "\"palm\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::AddObjectOpacityTween"
+              },
+              "parameters": [
+                "TutorialCursor",
+                "Tween",
+                "\"FadeOut\"",
+                "0",
+                "\"easeInOutSine\"",
+                "1000",
+                "2000"
+              ]
+            }
+          ]
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -30402,6 +31548,15 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "TutorialCursor",
+                ""
+              ]
+            },
             {
               "type": {
                 "value": "BitmapText::BitmapTextObject::SetText"
@@ -30473,20 +31628,20 @@
                 "1000",
                 ""
               ]
-            },
-            {
-              "type": {
-                "value": "MettreXY"
-              },
-              "parameters": [
-                "TutorialLight",
-                "=",
-                "3000",
-                "=",
-                "3000"
-              ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Tutorial Part 6: Upgraded Cheerleader"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -30498,180 +31653,7 @@
               "parameters": [
                 "TutorialPart",
                 "=",
-                "5"
-              ]
-            },
-            {
-              "type": {
-                "value": "GlobalVariableAsBoolean"
-              },
-              "parameters": [
-                "SpawnBoxAppear",
-                "True"
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "TutorialLight",
-                "="
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "VarGlobal"
-              },
-              "parameters": [
-                "TutorialPart",
-                "=",
-                "5"
-              ]
-            },
-            {
-              "type": {
-                "value": "VarSceneTxt"
-              },
-              "parameters": [
-                "ShopPillar",
-                "!=",
-                "\"Psychological\""
-              ]
-            },
-            {
-              "type": {
-                "value": "SceneVariableAsBoolean"
-              },
-              "parameters": [
-                "ShopIsOpen",
-                "True"
-              ]
-            },
-            {
-              "type": {
-                "value": "BitmapText::BitmapTextObject::Text"
-              },
-              "parameters": [
-                "TutorialGuide",
-                "=",
-                "\"Towers can also be boosted by other towers! For instance, having a Cheerleader near your towers will boost their fire rate! Buy a Cheerleader from the shop and place it near a Soldier.\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Tween::AddObjectPositionTween"
-              },
-              "parameters": [
-                "TutorialLight",
-                "Tween",
-                "\"Move\"",
-                "1085",
-                "200",
-                "\"easeOutQuad\"",
-                "250",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BitmapText::BitmapTextObject::SetText"
-              },
-              "parameters": [
-                "TutorialGuide",
-                "=",
-                "\"Cheerleader can be found under the red Psychological tab. Remember to place it in range of the Soldier!\""
-              ]
-            },
-            {
-              "type": {
-                "value": "MettreX"
-              },
-              "parameters": [
-                "TutorialGuide",
-                "=",
-                "810-TutorialGuide.Width()/2"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "VarGlobal"
-              },
-              "parameters": [
-                "TutorialPart",
-                "=",
-                "5"
-              ]
-            },
-            {
-              "type": {
-                "value": "VarSceneTxt"
-              },
-              "parameters": [
-                "ShopPillar",
-                "=",
-                "\"Psychological\""
-              ]
-            },
-            {
-              "type": {
-                "value": "SceneVariableAsBoolean"
-              },
-              "parameters": [
-                "ShopIsOpen",
-                "True"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Tween::AddObjectPositionTween"
-              },
-              "parameters": [
-                "TutorialLight",
-                "Tween",
-                "\"Move\"",
-                "1515",
-                "255",
-                "\"easeOutQuad\"",
-                "250",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "VarGlobal"
-              },
-              "parameters": [
-                "TutorialPart",
-                "=",
-                "5"
+                "6"
               ]
             },
             {
@@ -30701,7 +31683,7 @@
               "parameters": [
                 "TutorialGuide",
                 "=",
-                "\"Great! Now you know how to make your towers stronger!\nYou can also check out what upgraded Towers do by clicking on the tower's icon in the shop!\""
+                "\"Great! Notice the red particles surrounding the Soldier? This means that the Cheerleader boost is active. Beware of negative effects, too! If black effects surround your Tower, that means its fire rate has been reduced!\""
               ]
             }
           ],
@@ -30713,7 +31695,7 @@
               "parameters": [
                 "TutorialGuide",
                 "=",
-                "\"Towers can also be boosted by other towers! For instance, having a Cheerleader near your towers will boost their fire rate! Buy a Cheerleader from the shop and place it near a Soldier.\""
+                "\"Now upgrade your Cheerleader to increase the fire rate boost even more!\""
               ]
             },
             {
@@ -30735,47 +31717,8 @@
                 "=",
                 "1700"
               ]
-            },
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "TutorialLight",
-                "TutorialLight",
-                "CursorX()",
-                "CursorY()",
-                "\"Top Layer\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Tween::AddObjectPositionTween"
-              },
-              "parameters": [
-                "TutorialLight",
-                "Tween",
-                "\"Move\"",
-                "1555",
-                "55",
-                "\"easeOutQuad\"",
-                "750",
-                ""
-              ]
             }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Tutorial Part 6: Upgraded Cheerleader"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -30888,83 +31831,6 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "VarGlobal"
-              },
-              "parameters": [
-                "TutorialPart",
-                "=",
-                "6"
-              ]
-            },
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "TutorialOkButton",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "MouseButtonReleased"
-              },
-              "parameters": [
-                "",
-                "Left"
-              ]
-            },
-            {
-              "type": {
-                "value": "BitmapText::BitmapTextObject::Text"
-              },
-              "parameters": [
-                "TutorialGuide",
-                "=",
-                "\"Great! Notice the red particles surrounding the Soldier? This means that the Cheerleader boost is active. Beware of negative effects, too! If black effects surround your Tower, that means its fire rate has been reduced!\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "BitmapText::BitmapTextObject::SetText"
-              },
-              "parameters": [
-                "TutorialGuide",
-                "=",
-                "\"Now upgrade your Cheerleader to increase the fire rate boost even more!\""
-              ]
-            },
-            {
-              "type": {
-                "value": "MettreX"
-              },
-              "parameters": [
-                "TutorialGuide",
-                "=",
-                "810-TutorialGuide.Width()/2"
-              ]
-            },
-            {
-              "type": {
-                "value": "MettreX"
-              },
-              "parameters": [
-                "TutorialOkButton",
-                "=",
-                "1700"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": []
         },
@@ -31027,22 +31893,22 @@
           "actions": [
             {
               "type": {
-                "value": "BitmapText::BitmapTextObject::SetText"
-              },
-              "parameters": [
-                "TutorialGuide",
-                "=",
-                "\"Test123\""
-              ]
-            },
-            {
-              "type": {
                 "value": "MettreX"
               },
               "parameters": [
                 "TutorialGuide",
                 "=",
                 "1700"
+              ]
+            },
+            {
+              "type": {
+                "value": "BitmapText::BitmapTextObject::SetText"
+              },
+              "parameters": [
+                "TutorialGuide",
+                "=",
+                "\"Test123\""
               ]
             },
             {
@@ -31317,6 +32183,10 @@
     {
       "name": "EnemyV2",
       "type": "TDTD::EnemyV2"
+    },
+    {
+      "name": "HealthBar",
+      "type": "TDTD::HealthBar"
     },
     {
       "name": "InfoFloat",

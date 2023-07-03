@@ -26,10 +26,10 @@
       "name": "LowQualityGroup",
       "objects": [
         {
-          "name": "LowQualitySwitch"
+          "name": "HighQualitySwitch"
         },
         {
-          "name": "LowQualityText"
+          "name": "HighQualityText"
         }
       ]
     }
@@ -153,7 +153,7 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "LowQualitySwitch",
+      "name": "HighQualitySwitch",
       "persistentUuid": "c898f7f0-0e5b-435e-a232-0791c98acc04",
       "width": 0,
       "x": 1438,
@@ -169,7 +169,7 @@
       "depth": 0,
       "height": 68,
       "layer": "",
-      "name": "LowQualityText",
+      "name": "HighQualityText",
       "persistentUuid": "35bb2dac-bab6-4885-8747-b00074a01abc",
       "width": 309,
       "x": 1284,
@@ -709,7 +709,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "v0.3.2",
+      "string": "v0.4.0",
       "font": "assets\\AlfaSlabOne-Regular.ttf",
       "textAlignment": "left",
       "characterSize": 24,
@@ -1459,7 +1459,7 @@
     },
     {
       "assetStoreId": "99f912de1cf5033ae934a8453c2f98a712955bcdb5ea1b1fda2fe2aa616de4a9",
-      "name": "LowQualitySwitch",
+      "name": "HighQualitySwitch",
       "tags": "",
       "type": "SpriteToggleSwitch::SpriteToggleSwitch",
       "variables": [],
@@ -1539,7 +1539,7 @@
     },
     {
       "assetStoreId": "",
-      "name": "LowQualityText",
+      "name": "HighQualityText",
       "tags": "",
       "type": "BitmapText::BitmapTextObject",
       "variables": [],
@@ -1629,7 +1629,7 @@
             "value": "SpriteToggleSwitch::SpriteToggleSwitch::SetOpacity"
           },
           "parameters": [
-            "LowQualitySwitch",
+            "HighQualitySwitch",
             "=",
             "0"
           ]
@@ -1639,7 +1639,7 @@
             "value": "BitmapText::BitmapTextObject::SetOpacity"
           },
           "parameters": [
-            "LowQualityText",
+            "HighQualityText",
             "=",
             "0"
           ]
@@ -1748,8 +1748,8 @@
                     "value": "SpriteToggleSwitch::SpriteToggleSwitch::SetChecked"
                   },
                   "parameters": [
-                    "LowQualitySwitch",
-                    "",
+                    "HighQualitySwitch",
+                    "no",
                     ""
                   ]
                 },
@@ -1784,8 +1784,8 @@
                     "value": "SpriteToggleSwitch::SpriteToggleSwitch::SetChecked"
                   },
                   "parameters": [
-                    "LowQualitySwitch",
-                    "no",
+                    "HighQualitySwitch",
+                    "yes",
                     ""
                   ]
                 },
@@ -2326,7 +2326,7 @@
             "value": "BitmapText::BitmapTextObject::SetOpacity"
           },
           "parameters": [
-            "LowQualityText",
+            "HighQualityText",
             "=",
             "255"
           ]
@@ -2336,7 +2336,7 @@
             "value": "SpriteToggleSwitch::SpriteToggleSwitch::SetOpacity"
           },
           "parameters": [
-            "LowQualitySwitch",
+            "HighQualitySwitch",
             "=",
             "255"
           ]
@@ -2351,7 +2351,7 @@
             "value": "SpriteToggleSwitch::SpriteToggleSwitch::HasJustBeenChecked"
           },
           "parameters": [
-            "LowQualitySwitch",
+            "HighQualitySwitch",
             ""
           ]
         }
@@ -2381,7 +2381,7 @@
           "parameters": [
             "\"settings_storage\"",
             "\"low_quality\"",
-            "1"
+            "0"
           ]
         }
       ]
@@ -2394,7 +2394,7 @@
             "value": "SpriteToggleSwitch::SpriteToggleSwitch::HasJustBeenUnchecked"
           },
           "parameters": [
-            "LowQualitySwitch",
+            "HighQualitySwitch",
             ""
           ]
         }
@@ -2424,7 +2424,7 @@
           "parameters": [
             "\"settings_storage\"",
             "\"low_quality\"",
-            "0"
+            "1"
           ]
         }
       ]

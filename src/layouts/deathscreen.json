@@ -27,13 +27,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 1086,
+      "depth": 0,
+      "height": 1080,
       "layer": "",
       "name": "Background",
       "persistentUuid": "5be99f8a-1b91-4954-82ab-43cc007aa975",
-      "width": 1655,
-      "x": -20,
-      "y": -3,
+      "width": 1620,
+      "x": 0,
+      "y": 0,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -47,24 +48,9 @@
       "name": "Skull",
       "persistentUuid": "de8d555a-d757-40c7-9ef6-7c457af8098b",
       "width": 339,
-      "x": 620,
-      "y": 15,
+      "x": 646,
+      "y": 86,
       "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "DeathText",
-      "persistentUuid": "6a103b5e-9575-446a-b03d-2835d5458f41",
-      "width": 0,
-      "x": 61,
-      "y": 411,
-      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -77,8 +63,8 @@
       "name": "DeathText2",
       "persistentUuid": "d28c7b34-1775-4a1e-a78c-fb635b276e1a",
       "width": 0,
-      "x": 530,
-      "y": 538,
+      "x": 524,
+      "y": 604,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -92,8 +78,8 @@
       "name": "WavesSurvived",
       "persistentUuid": "da08dda8-a756-4463-86d0-2bce9fbb79d3",
       "width": 0,
-      "x": 1006,
-      "y": 541,
+      "x": 1000,
+      "y": 607,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -102,13 +88,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 249,
+      "depth": 0,
+      "height": 187,
       "layer": "",
       "name": "PlayAgain",
       "persistentUuid": "642c75c1-7a51-48ef-9e28-aacb6f43dbce",
-      "width": 248,
-      "x": 659,
-      "y": 670,
+      "width": 166,
+      "x": 734,
+      "y": 735,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -122,9 +109,40 @@
       "name": "PlayAgainText",
       "persistentUuid": "05ffc45b-9160-4742-9c38-76b81f3dd097",
       "width": 0,
-      "x": 647,
-      "y": 915,
+      "x": 680,
+      "y": 918,
       "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 166,
+      "layer": "",
+      "name": "YouDiedText",
+      "persistentUuid": "b937ac8a-48d6-4725-bacd-69f5fe8f1cc3",
+      "width": 1174,
+      "x": 254,
+      "y": 446,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "RestartText",
+      "persistentUuid": "e0c55aa2-29fd-4e5b-946b-6820153f203e",
+      "width": 0,
+      "x": 1134,
+      "y": 921,
+      "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -150,31 +168,7 @@
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
-      "effects": [
-        {
-          "effectType": "Glitch",
-          "name": "Effect",
-          "doubleParameters": {
-            "animationFrequency": 60,
-            "blueX": 10,
-            "blueY": -4,
-            "direction": 0,
-            "fillMode": 0,
-            "greenX": 10,
-            "greenY": -4,
-            "minSize": 8,
-            "offset": 100,
-            "redX": 2,
-            "redY": 2,
-            "sampleSize": 512,
-            "slices": 5
-          },
-          "stringParameters": {},
-          "booleanParameters": {
-            "average": true
-          }
-        }
-      ],
+      "effects": [],
       "behaviors": [
         {
           "name": "Tween",
@@ -213,33 +207,6 @@
           ]
         }
       ]
-    },
-    {
-      "assetStoreId": "",
-      "bold": true,
-      "italic": false,
-      "name": "DeathText",
-      "smoothed": true,
-      "tags": "",
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "Tween",
-          "type": "Tween::TweenBehavior"
-        }
-      ],
-      "string": "The enemies broke through your defences and destroyed the country!",
-      "font": "assets\\AlfaSlabOne-Regular.ttf",
-      "textAlignment": "left",
-      "characterSize": 40,
-      "color": {
-        "b": 255,
-        "g": 255,
-        "r": 255
-      }
     },
     {
       "assetStoreId": "",
@@ -350,13 +317,9 @@
     },
     {
       "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "PlayAgainText",
-      "smoothed": true,
+      "name": "YouDiedText",
       "tags": "",
-      "type": "TextObject::Text",
-      "underlined": false,
+      "type": "BitmapText::BitmapTextObject",
       "variables": [],
       "effects": [],
       "behaviors": [
@@ -365,14 +328,41 @@
           "type": "Tween::TweenBehavior"
         }
       ],
-      "string": "Play again",
-      "font": "assets\\AlfaSlabOne-Regular.ttf",
-      "textAlignment": "left",
-      "characterSize": 50,
-      "color": {
-        "b": 255,
-        "g": 255,
-        "r": 255
+      "content": {
+        "text": "The enemies broke through your defences and destroyed the country!",
+        "opacity": 255,
+        "scale": 1,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "assets/fonts/AlbaSlab/48px/Alba Slab 48px.fnt",
+        "textureAtlasResourceName": "assets/fonts/AlbaSlab/48px/Alba Slab 48px.png",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "PlayAgainText",
+      "tags": "",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "content": {
+        "text": "Play Again",
+        "opacity": 255,
+        "scale": 1,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "assets/fonts/AlbaSlab/48px/Alba Slab 48px.fnt",
+        "textureAtlasResourceName": "assets/fonts/AlbaSlab/48px/Alba Slab 48px.png",
+        "align": "center",
+        "wordWrap": true
       }
     }
   ],
@@ -412,10 +402,50 @@
         },
         {
           "type": {
-            "value": "TextObject::Opacity"
+            "value": "SetCenterX"
           },
           "parameters": [
-            "DeathText",
+            "Skull",
+            "=",
+            "ScreenWidth()/2"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCenterX"
+          },
+          "parameters": [
+            "YouDiedText",
+            "=",
+            "ScreenWidth()/2"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCenterX"
+          },
+          "parameters": [
+            "PlayAgain",
+            "=",
+            "ScreenWidth()/2"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCenterX"
+          },
+          "parameters": [
+            "PlayAgainText",
+            "=",
+            "ScreenWidth()/2"
+          ]
+        },
+        {
+          "type": {
+            "value": "BitmapText::BitmapTextObject::SetOpacity"
+          },
+          "parameters": [
+            "YouDiedText",
             "=",
             "0"
           ]
@@ -452,7 +482,7 @@
         },
         {
           "type": {
-            "value": "TextObject::Opacity"
+            "value": "BitmapText::BitmapTextObject::SetOpacity"
           },
           "parameters": [
             "PlayAgainText",
@@ -501,7 +531,7 @@
                 "value": "Tween::AddObjectOpacityTween"
               },
               "parameters": [
-                "DeathText",
+                "YouDiedText",
                 "Tween",
                 "\"Appear\"",
                 "255",
@@ -673,10 +703,6 @@
     {
       "name": "Button",
       "type": "TDTD::Button"
-    },
-    {
-      "name": "Tower2",
-      "type": "TDTD::TowerV2"
     },
     {
       "name": "TowerV2",

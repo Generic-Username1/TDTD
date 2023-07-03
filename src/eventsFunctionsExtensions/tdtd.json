@@ -5039,51 +5039,28 @@
       "description": "",
       "fullName": "",
       "name": "HealthBar",
-      "objectType": "",
+      "objectType": "Sprite",
       "eventsFunctions": [
         {
-          "description": "Appends a health bar to enemies.",
-          "fullName": "Append Health Bar to Enemies",
+          "description": "Set the maximum health of this health bar.",
+          "fullName": "Set Health Bar Max Health",
           "functionType": "Action",
-          "name": "Function",
-          "sentence": "Append _PARAM0_ to _PARAM2_",
+          "name": "SetMaxHealth",
+          "sentence": "Set maximum health of _PARAM0_ to _PARAM2_",
           "events": [
-            {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "Note: This is a WIP."
-            },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
               "actions": [
                 {
                   "type": {
-                    "value": "MettreXY"
+                    "value": "ModVarObjet"
                   },
                   "parameters": [
                     "Object",
+                    "MaxHealth",
                     "=",
-                    "Enemy.PointX(\"HealthBarPoint\")",
-                    "=",
-                    "Enemy.PointY(\"HealthBarPoint\")"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetAngle"
-                  },
-                  "parameters": [
-                    "Object",
-                    "=",
-                    "Enemy.Angle()"
+                    "GetArgumentAsNumber(\"MaxHealth\")"
                   ]
                 }
               ]
@@ -5093,6 +5070,7 @@
             {
               "description": "Object",
               "name": "Object",
+              "supplementaryInformation": "Sprite",
               "type": "object"
             },
             {
@@ -5102,10 +5080,54 @@
               "type": "behavior"
             },
             {
-              "description": "The enemy the health bar should be appended to",
-              "name": "Enemy",
+              "description": "Maximum Health of Health Bar",
+              "name": "MaxHealth",
+              "type": "expression"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Change the current health of the Health Bar",
+          "fullName": "Change Current Health",
+          "functionType": "Action",
+          "name": "ChangeHealth",
+          "sentence": "Set health of _PARAM0_ to _PARAM2_ and resize accordingly",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeScaleWidth"
+                  },
+                  "parameters": [
+                    "Object",
+                    "=",
+                    "GetArgumentAsNumber(\"NewHealth\")/Object.Variable(MaxHealth)"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
               "supplementaryInformation": "Sprite",
-              "type": "objectList"
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "TDTD::HealthBar",
+              "type": "behavior"
+            },
+            {
+              "description": "Current Health of Health Bar",
+              "name": "NewHealth",
+              "type": "expression"
             }
           ],
           "objectGroups": []
