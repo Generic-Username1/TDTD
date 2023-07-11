@@ -930,19 +930,15 @@
                     "hasSlipped",
                     "True"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
-                {
-                  "type": {
-                    "value": "Rotate"
-                  },
-                  "parameters": [
-                    "Object",
-                    "10",
-                    ""
-                  ]
-                },
                 {
                   "type": {
                     "value": "ChangeColor"
@@ -1307,7 +1303,6 @@
           "sentence": "[Upon Contact with _PARAM3_]  Set the speed of _PARAM0_ to _PARAM4_x for _PARAM5_ seconds",
           "events": [
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::ForEach",
               "object": "Projectile",
               "conditions": [],
@@ -1566,6 +1561,17 @@
                     "Object",
                     "AffectedTowers",
                     "GetArgumentAsNumber(\"AoE\")",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PickNearest"
+                  },
+                  "parameters": [
+                    "EffectProtector",
+                    "AffectedTowers.CenterX()",
+                    "AffectedTowers.CenterY()",
                     ""
                   ]
                 },
@@ -3817,66 +3823,6 @@
                         "Behavior",
                         "Particles",
                         "\"208;2;27\"",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "TDTD::TowerV2::selectivelyRemoveParticles"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "Particles",
-                        "\"255;185;185\"",
-                        ""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "ObjectVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "Object",
-                        "CheerUltraBoosted",
-                        "True"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Distance"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Cheerleader",
-                        "Cheerleader.Variable(Range)",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ObjectVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "Cheerleader",
-                        "Upgraded",
-                        "False"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetObjectVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "Object",
-                        "CheerUltraBoosted",
                         ""
                       ]
                     },

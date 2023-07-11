@@ -402,46 +402,6 @@
         },
         {
           "type": {
-            "value": "SetCenterX"
-          },
-          "parameters": [
-            "Skull",
-            "=",
-            "ScreenWidth()/2"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetCenterX"
-          },
-          "parameters": [
-            "YouDiedText",
-            "=",
-            "ScreenWidth()/2"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetCenterX"
-          },
-          "parameters": [
-            "PlayAgain",
-            "=",
-            "ScreenWidth()/2"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetCenterX"
-          },
-          "parameters": [
-            "PlayAgainText",
-            "=",
-            "ScreenWidth()/2"
-          ]
-        },
-        {
-          "type": {
             "value": "BitmapText::BitmapTextObject::SetOpacity"
           },
           "parameters": [

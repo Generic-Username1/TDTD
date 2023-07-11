@@ -962,7 +962,7 @@
       "width": 1100,
       "x": 231,
       "y": 237,
-      "zOrder": 51,
+      "zOrder": 52,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1819,7 +1819,7 @@
       "width": 1412,
       "x": 2299,
       "y": 769,
-      "zOrder": 60,
+      "zOrder": 51,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -5741,7 +5741,14 @@
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "folded": true,
+          "name": "Duration",
+          "type": "number",
+          "value": 15
+        }
+      ],
       "effects": [],
       "behaviors": [
         {
@@ -8759,7 +8766,7 @@
         }
       ],
       "content": {
-        "radius": 25,
+        "radius": 50,
         "color": "255;255;255",
         "debugMode": false,
         "texture": ""
@@ -9435,6 +9442,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Initialization",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -9805,7 +9813,7 @@
                   "parameters": [
                     "FirefighterCost",
                     "=",
-                    "90"
+                    "110"
                   ]
                 },
                 {
@@ -10120,6 +10128,18 @@
                 "textR": 0
               },
               "comment": "Set Player Variables"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "debug: reset gold to 500"
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -10796,11 +10816,6 @@
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
-        },
         {
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
@@ -13000,6 +13015,256 @@
           "actions": [],
           "events": [
             {
+              "folded": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "ShopIsOpen",
+                    "True"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetSceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "ShopIsOpen",
+                    "False"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Tween::StopTween"
+                      },
+                      "parameters": [
+                        "ShopBacking",
+                        "Tween",
+                        "\"ShopSlideIn\"",
+                        "no"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::RemoveTween"
+                      },
+                      "parameters": [
+                        "ShopBacking",
+                        "Tween",
+                        "\"ShopSlideIn\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "MettreX"
+                      },
+                      "parameters": [
+                        "ShopBacking",
+                        "=",
+                        "1700"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Tween::StopTween"
+                      },
+                      "parameters": [
+                        "ShopTabC1",
+                        "Tween",
+                        "\"ShopSlideIn\"",
+                        "no"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::RemoveTween"
+                      },
+                      "parameters": [
+                        "ShopTabC1",
+                        "Tween",
+                        "\"ShopSlideIn\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "MettreX"
+                      },
+                      "parameters": [
+                        "ShopTabC1",
+                        "=",
+                        "1700"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Tween::StopTween"
+                      },
+                      "parameters": [
+                        "ShopTabC2",
+                        "Tween",
+                        "\"ShopSlideIn\"",
+                        "no"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::RemoveTween"
+                      },
+                      "parameters": [
+                        "ShopTabC2",
+                        "Tween",
+                        "\"ShopSlideIn\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "MettreX"
+                      },
+                      "parameters": [
+                        "ShopTabC2",
+                        "=",
+                        "1700"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Tween::StopTween"
+                      },
+                      "parameters": [
+                        "ShopContent",
+                        "Tween",
+                        "\"ShopSlideIn\"",
+                        "no"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::RemoveTween"
+                      },
+                      "parameters": [
+                        "ShopContent",
+                        "Tween",
+                        "\"ShopSlideIn\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "MettreX"
+                      },
+                      "parameters": [
+                        "ShopContent",
+                        "=",
+                        "1700"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Tween::StopTween"
+                      },
+                      "parameters": [
+                        "ShopCostBackings",
+                        "Tween",
+                        "\"ShopSlideIn\"",
+                        "no"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::RemoveTween"
+                      },
+                      "parameters": [
+                        "ShopCostBackings",
+                        "Tween",
+                        "\"ShopSlideIn\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "MettreX"
+                      },
+                      "parameters": [
+                        "ShopCostBackings",
+                        "=",
+                        "1700"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Tween::StopTween"
+                      },
+                      "parameters": [
+                        "ShopCosts",
+                        "Tween",
+                        "\"ShopSlideIn\"",
+                        "no"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::RemoveTween"
+                      },
+                      "parameters": [
+                        "ShopCosts",
+                        "Tween",
+                        "\"ShopSlideIn\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "MettreX"
+                      },
+                      "parameters": [
+                        "ShopCosts",
+                        "=",
+                        "1700"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -13400,6 +13665,16 @@
                 "!=",
                 "0"
               ]
+            },
+            {
+              "type": {
+                "value": "TimeScale"
+              },
+              "parameters": [
+                "",
+                "!=",
+                "0"
+              ]
             }
           ],
           "actions": [
@@ -13576,6 +13851,56 @@
                 "TimeSkip",
                 "\"Glow\"",
                 "yes"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Funny Wobbly Bobbly Fix"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "LayerTimeScale"
+              },
+              "parameters": [
+                "",
+                "",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ShakeObject::ShakeObject_PositionAngleScale::StopShaking"
+              },
+              "parameters": [
+                "Enemies",
+                "ShakeObject_PositionAngleScale",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ShakeObject::ShakeObject_PositionAngleScale::StopShaking"
+              },
+              "parameters": [
+                "Base",
+                "ShakeObject_PositionAngleScale",
+                ""
               ]
             }
           ]
@@ -18260,6 +18585,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Attack or Defend",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -19986,6 +20312,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "SpawnBox and Spawning",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -20693,6 +21020,99 @@
                     "SpawnRail",
                     "=",
                     "100"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "FirefighterSpawn",
+                        "True"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "IntelOfficerSpawn",
+                        "True"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "SpawnBox",
+                    "SpawnSpawnerFlag",
+                    "False"
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PickNearest"
+                      },
+                      "parameters": [
+                        "Towers",
+                        "CursorX()",
+                        "CursorY()",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "DistanceBetweenPositions(CursorX(), CursorY(), Towers.CenterX(), Towers.CenterY())",
+                        "<=",
+                        "150"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "SpawnBox",
+                        "SpawnStatus",
+                        "=",
+                        "\"Cannot\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "SpawnBox",
+                        "doElse",
+                        "False"
+                      ]
+                    }
                   ]
                 }
               ]
@@ -25495,71 +25915,33 @@
                       ]
                     }
                   ],
-                  "actions": [],
-                  "events": [
+                  "actions": [
                     {
-                      "type": "BuiltinCommonInstructions::ForEach",
-                      "object": "Towers",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "PickNearest"
-                          },
-                          "parameters": [
-                            "Doctor",
-                            "Towers.CenterX()",
-                            "Towers.CenterY()",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "inverted": true,
-                            "value": "Distance"
-                          },
-                          "parameters": [
-                            "Towers",
-                            "Doctor",
-                            "150",
-                            ""
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "SetObjectVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "Towers",
-                            "NegThoughts",
-                            "True"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ResetObjectTimer"
-                          },
-                          "parameters": [
-                            "Towers",
-                            "\"PulseTimer\""
-                          ]
-                        }
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Towers",
+                        "NegThoughts",
+                        "True"
                       ]
                     },
                     {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "UnPauseObjectTimer"
-                          },
-                          "parameters": [
-                            "Spawner",
-                            "\"SpawnerClock\""
-                          ]
-                        }
+                      "type": {
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "Towers",
+                        "\"PulseTimer\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "UnPauseObjectTimer"
+                      },
+                      "parameters": [
+                        "Spawner",
+                        "\"SpawnerClock\""
                       ]
                     }
                   ]
@@ -25864,7 +26246,6 @@
           "comment": "Shop Open/Close"
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -26196,6 +26577,7 @@
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -28330,11 +28712,13 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Buy Stuff",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -29024,6 +29408,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Tutorial Stuff",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -29567,6 +29952,54 @@
                 "\"easeInOutSine\"",
                 "1000",
                 "2000"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "TutorialPart",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SceneInstancesCount"
+              },
+              "parameters": [
+                "",
+                "SpawnBox",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TDTD::SummonInfoFloat"
+              },
+              "parameters": [
+                "",
+                "InfoTextFloat",
+                "InfoFloat",
+                "TutorialLight.CenterX()",
+                "TutorialLight.CenterY()",
+                "\"Spawn tower here!\"",
+                ""
               ]
             }
           ]

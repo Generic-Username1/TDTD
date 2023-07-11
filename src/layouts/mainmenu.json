@@ -709,7 +709,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "v0.4.0",
+      "string": "v0.4.1",
       "font": "assets\\AlfaSlabOne-Regular.ttf",
       "textAlignment": "left",
       "characterSize": 24,
